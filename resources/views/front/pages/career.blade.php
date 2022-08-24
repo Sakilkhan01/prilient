@@ -108,7 +108,7 @@
    </div>
 </div>
 <!--End statistics-->
-<div class="container">
+<!-- <div class="container">
    <div class="col-lg-12 py-5">
       <h3>Choose <span style="color:red">The Career</span></h3>
       <p>
@@ -150,7 +150,7 @@
          </div>
       </div>
    </div>
-</div>
+</div> -->
 @if(!$posts->isEmpty())
 <div class="container mt-5 pt-5">
    <div class="career_opening_wrap">
