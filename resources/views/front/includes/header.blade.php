@@ -163,6 +163,12 @@
                                      </ul>
                                  </li>
                                  <li>
+                                     <a class="dropdown-item" href="{{ url('/DevOps') }}">DevOps</a>
+                                 </li>
+                                  <li>
+                                     <a class="dropdown-item" href="{{ url('/cyber_security') }}">Cyber Security</a>
+                                 </li>
+                                 <li>
                                      <a class="dropdown-item" href="#">Product Prototype &raquo;</a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('product_strategy') }}">MVP</a></li>

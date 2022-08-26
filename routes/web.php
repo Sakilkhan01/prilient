@@ -56,9 +56,6 @@ Route::view('/privacy_policy', 'front.pages.privacy_policy');
 
 
 
-
-
-
 Route::group(['prefix' => 'admin', 'middleware' => ['admin','auth'], 'nampspace'=>'admin'], function(){
      
     Route::get('dashboard', [App\Http\Controllers\admin\HomeController::class, 'index'])->name('admin.dashboard');

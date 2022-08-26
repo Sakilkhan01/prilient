@@ -24,14 +24,14 @@
    </div>
 </section>
 <!--End why-choose-->
-<div class="container">
+<!-- <div class="container">
    <div class="col-lg-12 text-center py-5">
       <div class="common-heading  ">
          <h3>Career @ Prilient</h3>
          <p>Pursue your career in a growing and rewarding environment while working along side a great group of professionals</p>
       </div>
    </div>
-</div>
+</div> -->
 <!--Start statistics-->
 <div class="statistics-section bg-gradient6 pad-tb tilt3d">
    <div class="container">
