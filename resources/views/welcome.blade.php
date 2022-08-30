@@ -10,7 +10,7 @@
                      <h2 class="wow fadeIn" data-wow-delay="0.3s"><span>Website,</span> <span>Software </span> <span> & Mobile App</span> <span>Development</span></h2>
                      <p class="wow fadeIn" data-wow-delay="0.6s">Leading company in providing smart business solutions for transforming and innovating businesses</p>
                  
-                     <a href="#" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                     
                   </div>
                </div>
@@ -203,7 +203,7 @@
                         <img src="{{ url('assets/images/icons/startup.svg') }}" alt="years" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">15</span><span>+</span>
+                        <span class="counter">4</span><span>+</span>
                         <p>Year In Business</p>
                      </div>
                   </div>
@@ -214,36 +214,36 @@
                         <img src="{{ url('assets/images/icons/team.svg') }}" alt="team" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">80</span><span>+</span>
+                        <span class="counter">40</span><span>+</span>
                         <p>Team Members</p>
                      </div>
                   </div>
                </div>
             </div>
             <div class="row small t-ctr">
-               <div class="col-lg-3 col-sm-6">
+               <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
                         <img src="{{ url('assets/images/icons/deal.svg') }}" alt="happy" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">450</span>
+                        <span class="counter">100</span>
                         <p>Happy Clients</p>
                      </div>
                   </div>
                </div>
-               <div class="col-lg-3 col-sm-6">
+               <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
                         <img src="{{ url('assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
                      </div>
                      <div class="statnumb counter-number">
-                        <span class="counter">48</span><span>k</span>
+                        <span class="counter">120</span><span>k</span>
                         <p>Projects Done</p>
                      </div>
                   </div>
                </div>
-               <div class="col-lg-3 col-sm-6">
+               <!-- <div class="col-lg-3 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
                         <img src="{{ url('assets/images/icons/worker.svg') }}" alt="work" class="img-fluid" />
@@ -253,8 +253,8 @@
                         <p>Hours Worked</p>
                      </div>
                   </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
+               </div> -->
+               <div class="col-lg-4 col-sm-6">
                   <div class="statistics mb0">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
                         <img src="{{ url('assets/images/icons/customer-service.svg') }}" alt="support" class="img-fluid" />
@@ -309,7 +309,7 @@
                   <div class="cta-card mt60 text-center">
                      <h3 class="mb20">Let's Start a  <span class="text-second text-bold">New Project</span> Together</h3>
                      <p>We are excited to initiate a new project with you.  Our team will be in touch soon, but if you have any questions before then, please feel free to contact us directly at [email protected] and we will get back to you as soon as possible. Thank you for your interest in our services!</p>
-                     <a href="#" class="niwax-btn1 mt30"><span>Request A Quote <i class="fa fa-chevron-right fa-icon"></i></span></a>
+                     <a href="javascript:void(0)" class="niwax-btn1 mt30"><span>Request A Quote <i class="fa fa-chevron-right fa-icon"></i></span></a>
                   </div>
                   
 
@@ -333,44 +333,44 @@
                <div class="col-lg-8 col-sm-8 mt60 wow fadeInUp" data-wow-delay="0.2s">
                   <div class="isotope_item hover-scale">
                      <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                        <a href="#"><img src="{{ url('assets/images/portfolio/image-d.jpg') }}" alt="image" class="img-fluid" /> </a>
+                        <a href="{{ url('web_development') }}"><img src="{{ url('assets/images/portfolio/image-d.jpg') }}" alt="image" class="img-fluid" /> </a>
                      </div>
                      <div class="item-info">
-                        <h4><a href="#">Website Development Project</a></h4>
-                        <p><a href="#">Click Here</a></p>
+                        <h4><a href="{{ url('web_development') }}">Website Development Project</a></h4>
+                        <p><a href="{{ url('web_development') }}">Click Here</a></p>
                      </div>
                   </div>
                </div>
                <div class="col-lg-4 col-sm-4 mt60 wow fadeInUp" data-wow-delay="0.4s">
                   <div class="isotope_item hover-scale">
                      <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                        <a href="#"><img src="{{ url('assets/images/portfolio/image-1.jpg') }}" alt="image" class="img-fluid" /> </a>
+                        <a href="{{ url('app_development') }}"><img src="{{ url('assets/images/portfolio/image-1.jpg') }}" alt="image" class="img-fluid" /> </a>
                      </div>
                      <div class="item-info">
-                        <h4><a href="#">App Development Projects</a></h4>
-                        <p><a href="#">Click Here</a></p>
+                        <h4><a href="{{ url('app_development') }}">App Development Projects</a></h4>
+                        <p><a href="{{ url('app_development') }}">Click Here</a></p>
                      </div>
                   </div>
                </div>
                <div class="col-lg-4 col-sm-4 mt60 wow fadeInUp" data-wow-delay="0.6s">
                   <div class="isotope_item hover-scale">
                      <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                        <a href="#"><img src="{{ url('assets/images/portfolio/image-6.jpg') }}" alt="image" class="img-fluid" /> </a>
+                        <a href="{{ url('product_design') }}"><img src="{{ url('assets/images/portfolio/image-6.jpg') }}" alt="image" class="img-fluid" /> </a>
                      </div>
                      <div class="item-info">
-                        <h4><a href="#">Graphics & Video Projects</a></h4>
-                        <p><a href="#">Click Here</a></p>
+                        <h4><a href="{{ url('product_design') }}">Graphics & Video Projects</a></h4>
+                        <p><a href="{{ url('product_design') }}">Click Here</a></p>
                      </div>
                   </div>
                </div>
                <div class="col-lg-8 col-sm-8 mt60 wow fadeInUp" data-wow-delay="0.8s">
                   <div class="isotope_item hover-scale">
                      <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                        <a href="#"><img src="{{ url('assets/images/portfolio/image-c.jpg') }}" alt="image" class="img-fluid" /> </a>
+                        <a href="{{ url('software_development') }}"><img src="{{ url('assets/images/portfolio/image-c.jpg') }}" alt="image" class="img-fluid" /> </a>
                      </div>
                      <div class="item-info">
-                        <h4><a href="#">Software Development Projects</a></h4>
-                        <p><a href="#">Click Here</a></p>
+                        <h4><a href="{{ url('software_development') }}">Software Development Projects</a></h4>
+                        <p><a href="{{ url('software_development') }}">Click Here</a></p>
                      </div>
                   </div>
                </div>
@@ -539,7 +539,7 @@
             <div class="-cta-btn mt70">
                <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
                   <p>We <span>Promise.</span> We <span>Deliver.</span></p>
-                  <a href="#" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                </div>
             </div>
          </div>
@@ -773,7 +773,7 @@
                   <div class="common-heading">
                      <span>Let's work together</span>
                      <h2>We Love to Listen to Your Requirements</h2>
-                     <a href="javascript:void(0)" class="btn-outline">Estimate Project <i class="fa fa-chevron-right fa-icon"></i></a>
+                     <a href="{{ url('contact-us') }}" class="btn-outline">Estimate Project <i class="fa fa-chevron-right fa-icon"></i></a>
                      <p class="cta-call">Or call us now <a href="tel:7976026086"><i class="fa fa-phone"></i> +91 7976026086</a></p>
                   </div>
                </div>

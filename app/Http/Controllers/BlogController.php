@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Http\Requests\BlogPost\CreateBlogPostRequest;
 use App\Models\Blog;
 use Illuminate\Http\Request;

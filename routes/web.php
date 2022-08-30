@@ -5,6 +5,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\admin\CareerController;
 use App\Http\Controllers\admin\JobsContoller;
+use App\Http\Controllers\ContactController;
  
 
 
@@ -26,8 +27,10 @@ Auth::routes(['register' => false,'home' => false]);
 Route::get('blog', [BlogController::class, 'index'])->name('blog');
 Route::get('blog/{slug}', [BlogController::class, 'view'])->name('view_blog');
 Route::post('blog-post', [BlogController::class, 'store'])->name('store-blog');
-
 Route::get('search', [BlogController::class, 'search']);
+
+Route::get('contact-us', [ContactController::class, 'index']);
+Route::post('contact-us/store', [ContactController::class, 'store'])->name('contact_store');
 
 // static routes
 
@@ -78,6 +81,12 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin','auth'], 'nampspace'
     Route::get('job-post/edit/{id}', [JobsContoller::class, 'edit'])->name('job_post_edit');
     Route::post('job-post/update/{id}', [JobsContoller::class, 'update'])->name('job_post_update');
     Route::get('job-post/delete/{id}', [JobsContoller::class, 'delete'])->name('job_post_delete');
+
+Route::get('contact-us/list', [ContactController::class, 'list'])->name('contact_us.list');
+Route::get('contact-us/show/{id}', [ContactController::class, 'show'])->name('contact_us.show');
+Route::get('contact-us/pdf/{id}', [ContactController::class, 'showPDF'])->name('pdfStream');
+
+
 
     // Route::get('header-footer', [App\Http\Controllers\admin\HeaderFooterController::class, 'create'])->name('header-footer');
     // Route::post('update-header-footer', [App\Http\Controllers\admin\HeaderFooterController::class, 'store'])->name('update-header-footer');

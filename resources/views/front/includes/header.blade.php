@@ -423,7 +423,7 @@
                          <a href="{{ route('blog') }}" class="menu-links">Blog</a>
                      </li>
                      <li>
-                         <a href="#" class="menu-links">Contact us</a>
+                         <a href="{{ url('contact-us') }}" class="menu-links">Contact us</a>
                      </li>
 
                  </ul>

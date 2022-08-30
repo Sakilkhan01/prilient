@@ -111,6 +111,7 @@
         $('#leadModal').modal('show');
     }, delayMs);
    });   
+   
       </script>  
       <style type="text/css">
     .whatsapp_icon{

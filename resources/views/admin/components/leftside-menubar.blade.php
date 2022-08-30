@@ -61,6 +61,17 @@
             <li><a href="{{ route('job_post_add') }}"><i class="fa fa-circle-o"></i> Add Job Post</a></li>
           </ul>
         </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-folder"></i> <span>Contact us</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{ route('contact_us.list') }}"><i class="fa fa-circle-o"></i> List Contact us</a></li>
+          </ul>
+        </li>
 
         <li class="header">Setting</li>
         <li class="treeview">
