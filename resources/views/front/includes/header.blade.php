@@ -63,16 +63,14 @@
              <div class="media mt15">
                  <div class="icondive"><img src="{{ url('assets/images/icons/mail.svg') }}" alt="icon"></div>
                  <div class="media-body getintouchinfo">
-                     <a href="https://separateweb.com/cdn-cgi/l/email-protection#e0898e868fa097858293899485ce838f8d"><span
-                             class="__cf_email__"
-                             data-cfemail="dbb2b5bdb49bacbeb9a8b2afbef5b8b4b6">info@prilient.com</span>
+                     <a href="mailto:info@prilient.com"><span>info@prilient.com</span>
                          <span>Online Support</span></a>
                  </div>
              </div>
              <div class="media mt15">
                  <div class="icondive"><img src="{{ url('assets/images/icons/map.svg') }}" alt="icon"></div>
                  <div class="media-body getintouchinfo">
-                     <a href="https://separateweb.com/cdn-cgi/l/email-protection#f990979f96b98e9c9b8a908d9cd79a9694">Jaipur,
+                     <a href="">Jaipur,
                          Rajasthan, India<span>Visit Our Office</span></a>
                  </div>
              </div>

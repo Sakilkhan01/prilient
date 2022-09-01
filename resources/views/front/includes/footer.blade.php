@@ -34,7 +34,7 @@
                      <ul class="footer-address-list ftr-details">
                         <li>
                            <span><i class="fa fa-envelope"></i></span>
-                           <p>Email <span> <a href="#"><span class="__cf_email__" data-cfemail="abc2c5cdc4ebc9ded8c2c5ced8d8c5cac6ce85c8c4c6">info@prilient.com</span></a></span></p>
+                           <p>Email <span> <a href="#"><span class="">info@prilient.com</span></a></span></p>
                         </li>
                         <li>
                            <span><i class="fa fa-phone"></i></span>
