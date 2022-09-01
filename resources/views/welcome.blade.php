@@ -10,7 +10,7 @@
                      <h2 class="wow fadeIn" data-wow-delay="0.3s"><span>Website,</span> <span>Software </span> <span> & Mobile App</span> <span>Development</span></h2>
                      <p class="wow fadeIn" data-wow-delay="0.6s">Leading company in providing smart business solutions for transforming and innovating businesses</p>
                  
-                     <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                     <a href="{{ url('service') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                     
                   </div>
                </div>
@@ -187,7 +187,7 @@
             <div class="-cta-btn mt70">
                <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
                   <p>Hire a <span>Dedicated Developer</span></p>
-                  <a href="#" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                </div>
             </div>
          </div>
@@ -530,6 +530,12 @@
                  <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/vue.png') }}" alt="Vue"  class="img-fluid">
+                   
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+                  <div class="badges-content">
+                     <img src="{{ url('assets/images/about/Java-Logo.png') }}" alt="Java"  class="img-fluid">
                    
                   </div>
                </div>

@@ -34,7 +34,7 @@
          <div class="row">
             <div class="col-lg-4 col-12 mt-2 mt-lg-0">
                <div class="form-group">
-                   <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Name">
+                   <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Name" value="{{ old('name') }}">
                  @if ($errors->has('name'))
                     <span class="text-danger">{{ $errors->first('name') }}</span>
                 @endif
@@ -42,12 +42,12 @@
             </div>
             <div class="col-lg-4 col-12 mt-2 mt-lg-0">
                <div class="form-group">
-                   <input type="text" name="last_name" class="form-control" id="exampleInputName" placeholder="Last Name (Optional)">
+                   <input type="text" name="last_name" class="form-control" id="exampleInputName" placeholder="Last Name (Optional)" value="{{ old('last_name') }}">
                </div>
             </div>
             <div class="col-lg-4 col-12 mt-2 mt-lg-0">
                 <div class="form-group numberDrop">
-                   <input type="tel" name="phone" class="form-control w-100" id="country-code" placeholder="Contact No">
+                   <input type="tel" name="phone" class="form-control w-100" id="country-code" placeholder="Contact No" value="{{ old('phone') }}">
                    @if ($errors->has('phone'))
                     <span class="text-danger">{{ $errors->first('phone') }}</span>
                 @endif
@@ -55,7 +55,7 @@
             </div>
             <div class="col-lg-4 col-12 mt-2">
                <div class="form-group">
-                   <input type="text" name="business_email" class="form-control" id="exampleInputName" placeholder="Business Email">
+                   <input type="text" name="business_email" class="form-control" id="exampleInputName" placeholder="Business Email" value="{{ old('business_email') }}">
                    @if ($errors->has('business_email'))
                     <span class="text-danger">{{ $errors->first('business_email') }}</span>
                 @endif
@@ -63,7 +63,7 @@
             </div>
             <div class="col-lg-4 col-12 mt-2">
                <div class="form-group">
-                   <input type="text" name="company" class="form-control" id="exampleInputName" placeholder="Company (Optional)">
+                   <input type="text" name="company" class="form-control" id="exampleInputName" placeholder="Company (Optional)" value="{{ old('company') }}">
                </div>
             </div>
             <div class="col-lg-4 col-12 mt-2">
@@ -76,7 +76,7 @@
             </div>
             <div class="col-lg-12 col-12 mt-2">
                <div class="form-group">
-                <textarea class="form-control" name="description" rows="10" placeholder="Tell us about your project"></textarea>
+                <textarea class="form-control" name="description" rows="10" placeholder="Tell us about your project"  value="{{ old('description') }}"></textarea>
               @if ($errors->has('description'))
                     <span class="text-danger">{{ $errors->first('description') }}</span>
                 @endif

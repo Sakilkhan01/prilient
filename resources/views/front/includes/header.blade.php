@@ -65,7 +65,7 @@
                  <div class="media-body getintouchinfo">
                      <a href="https://separateweb.com/cdn-cgi/l/email-protection#e0898e868fa097858293899485ce838f8d"><span
                              class="__cf_email__"
-                             data-cfemail="dbb2b5bdb49bacbeb9a8b2afbef5b8b4b6">[email&#160;protected]</span>
+                             data-cfemail="dbb2b5bdb49bacbeb9a8b2afbef5b8b4b6">info@prilient.com</span>
                          <span>Online Support</span></a>
                  </div>
              </div>

@@ -30,7 +30,7 @@ class ContactController extends Controller
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'phone' => 'required|numeric',
-            'business_email' => 'required',
+            'business_email' => 'required|email',
             'description' => 'required',
             // 'g-recaptcha-response' => 'required|captcha',
         ], $messages);
@@ -70,7 +70,7 @@ class ContactController extends Controller
              ), function($message) use ($request)
                {
                   $message->from($request->business_email);
-                  $message->to('sakildeshwali1@gmail.com');
+                  $message->to('info@prilient.com');
                   $message->subject($request->request_type);
                   if(!empty($fileName)){
                     $message->attach($request->attach);

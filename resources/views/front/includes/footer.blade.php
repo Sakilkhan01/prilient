@@ -27,14 +27,14 @@
                      <a class="navbar-brand mt30 mb25 f-dark-logo" href="#"> <img src="{{ url('assets/images/logo.png') }}" alt="Logo"/></a>
                      <a class="navbar-brand mt30 mb25 f-white-logo" href="#"> <img src="{{ url('assets/images/white-logo.png') }}" alt="Logo" /></a>
                      <p>Prilient is a technology and development company dedicated to creating cutting-edge products for businesses. </p>
-                     <a href="#" class="btn-main bg-btn3 lnk mt20">Become Partner <i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                     <a href="{{ url('contact-us') }}" class="btn-main bg-btn3 lnk mt20">Become Partner <i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <h5>Contact Us</h5>
                      <ul class="footer-address-list ftr-details">
                         <li>
                            <span><i class="fa fa-envelope"></i></span>
-                           <p>Email <span> <a href="#"><span class="__cf_email__" data-cfemail="abc2c5cdc4ebc9ded8c2c5ced8d8c5cac6ce85c8c4c6">ankit@prilient.com</span></a></span></p>
+                           <p>Email <span> <a href="#"><span class="__cf_email__" data-cfemail="abc2c5cdc4ebc9ded8c2c5ced8d8c5cac6ce85c8c4c6">info@prilient.com</span></a></span></p>
                         </li>
                         <li>
                            <span><i class="fa fa-phone"></i></span>
