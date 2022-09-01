@@ -294,8 +294,12 @@ a[x-apple-data-detectors='true'] {
             
             <tr>
               <td style="padding:30px;background-color:#ffffff;">
-                <h1 style="margin-top:0;margin-bottom:16px;font-size:26px;line-height:32px;font-weight:bold;letter-spacing:-0.02em;">Thanks! <?php echo $user_list['name']; ?></h1>
-                <p>Thank you for contacting Prilient Technologies, Our team will connect with you.</p>
+                
+                <p>Name    :- <?php echo $user_list['name']; ?> </p>
+                <p>Email   :- <?php echo $user_list['email']; ?> </p>
+                <p>Phone Number  :- <?php echo $user_list['phone_number']; ?> </p>
+                <p>Subject :- <?php echo $user_list['subject']; ?> </p>
+                <p>Message :- <?php echo $user_list['message']; ?> </p><br>
                 <p>Regards<br> Prilient Information Technologies Pvt LTD</p>
               </td>
             </tr>

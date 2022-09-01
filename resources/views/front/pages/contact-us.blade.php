@@ -68,11 +68,14 @@
             </div>
             <div class="col-lg-4 col-12 mt-2">
                <div class="form-group">
+                   <input type="text" name="request_type" class="form-control" id="exampleInputName" placeholder="Subject" value="{{ old('request_type') }}">
+               </div>
+               <!-- <div class="form-group">
                <select class="form-select" name="request_type">
                  <option value="Request for Proposal">Request for Proposal</option>
                  <option value="Gereral Query">Gereral Query</option>
                </select>
-               </div>
+               </div> -->
             </div>
             <div class="col-lg-12 col-12 mt-2">
                <div class="form-group">
@@ -83,7 +86,7 @@
               </div>
             </div>
          </div>
-         <div class="row">
+         <!-- <div class="row">
             <div class="col-lg-6 col-12">
                <div>
                   <input type="file" name="attach">
@@ -100,12 +103,13 @@
                     <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
                 @endif
             </div>
-            <div class="col-lg-12 text-right mt-3">
+            
+         </div> -->
+         <div class="col-lg-12 text-right mt-3">
                <div>
                   <button class="btn custom_cont_button buttons" type="submit">Submit</button>
                </div>
             </div>
-         </div>
       </form>
    </div>
 </section>

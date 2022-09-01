@@ -3,10 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\ContactMail;
+use App\Mail\AdminMail;
+use App\Models\Contact;
 use Validator;
 use Mail;
 use PDF;
-use App\Models\Contact;
 
 class ContactController extends Controller
 {
@@ -51,31 +53,45 @@ class ContactController extends Controller
         $contact->request_type = $request->request_type;
         $contact->description = $request->description;
         $fileName = '';
-        if($file = $request->file('attach')){
-            $fileName = rand().".".$file->getClientOriginalName();
-            $path = $file->storeAs('public/pdf', $fileName);
-            $contact->attach  = $fileName;
-        }
+        // if($file = $request->file('attach')){
+        //     $fileName = rand().".".$file->getClientOriginalName();
+        //     $path = $file->storeAs('public/pdf', $fileName);
+        //     $contact->attach  = $fileName;
+        // }
 
         $contact->save();
 
+        $user = array(
+            'name'         => $request->name,
+            'email'        => $request->business_email,
+            'subject'      => $request->request_type,
+            'phone_number' => $request->phone,
+            'message'      => $request->description,
+        );
 
-        \Mail::send('mail.contact_email',
-             array(
-                 'name' => $request->get('name'),
-                 'business_email' => $request->get('business_email'),
-                 'phone' => $request->get('phone'),
-                 'request_type' => $request->get('request_type'),
-                 'description' => $request->get('description'),
-             ), function($message) use ($request)
-               {
-                  $message->from($request->business_email);
-                  $message->to('info@prilient.com');
-                  $message->subject($request->request_type);
-                  if(!empty($fileName)){
-                    $message->attach($request->attach);
-                  }
-               });
+        Mail::to($request->email)->send(new ContactMail($user));
+
+        $from_email = config('mail.from_email');
+
+        Mail::to($from_email)->send(new AdminMail($user));
+
+
+        // \Mail::send('mail.contact_email',
+        //      array(
+        //          'name' => $request->get('name'),
+        //          'business_email' => $request->get('business_email'),
+        //          'phone' => $request->get('phone'),
+        //          'request_type' => $request->get('request_type'),
+        //          'description' => $request->get('description'),
+        //      ), function($message) use ($request)
+        //        {
+        //           $message->from($request->business_email);
+        //           $message->to('info@prilient.com');
+        //           $message->subject($request->request_type);
+        //           if(!empty($fileName)){
+        //             $message->attach($request->attach);
+        //           }
+        //        });
 
         return back()->with('success', 'Thank you for contact us!');
 
