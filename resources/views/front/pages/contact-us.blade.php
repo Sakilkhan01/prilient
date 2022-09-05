@@ -34,7 +34,8 @@
          <div class="row">
             <div class="col-lg-4 col-12 mt-2 mt-lg-0">
                <div class="form-group">
-                   <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Name" value="{{ old('name') }}">
+                  <label for="InputName">Name <span class="text-danger">*</span></label>
+                   <input type="text" name="name" class="form-control" id="InputName" placeholder="Enter your name" value="{{ old('name') }}">
                  @if ($errors->has('name'))
                     <span class="text-danger">{{ $errors->first('name') }}</span>
                 @endif
@@ -42,11 +43,13 @@
             </div>
             <div class="col-lg-4 col-12 mt-2 mt-lg-0">
                <div class="form-group">
-                   <input type="text" name="last_name" class="form-control" id="exampleInputName" placeholder="Last Name (Optional)" value="{{ old('last_name') }}">
+                  <label for="InputLastName">Last Name</label>
+                   <input type="text" name="last_name" class="form-control" id="InputLastName" placeholder="Enter your last name" value="{{ old('last_name') }}">
                </div>
             </div>
             <div class="col-lg-4 col-12 mt-2 mt-lg-0">
                 <div class="form-group numberDrop">
+                  <label for="InputName">Phone Number <span class="text-danger">*</span></label>
                    <input type="tel" name="phone" class="form-control w-100" id="country-code" placeholder="Contact No" value="{{ old('phone') }}">
                    @if ($errors->has('phone'))
                     <span class="text-danger">{{ $errors->first('phone') }}</span>
@@ -55,6 +58,7 @@
             </div>
             <div class="col-lg-4 col-12 mt-2">
                <div class="form-group">
+                  <label for="InputName">Business Email <span class="text-danger">*</span></label>
                    <input type="text" name="business_email" class="form-control" id="exampleInputName" placeholder="Business Email" value="{{ old('business_email') }}">
                    @if ($errors->has('business_email'))
                     <span class="text-danger">{{ $errors->first('business_email') }}</span>
@@ -63,12 +67,17 @@
             </div>
             <div class="col-lg-4 col-12 mt-2">
                <div class="form-group">
-                   <input type="text" name="company" class="form-control" id="exampleInputName" placeholder="Company (Optional)" value="{{ old('company') }}">
+                  <label for="InputName">Company</label>
+                   <input type="text" name="company" class="form-control" id="exampleInputName" placeholder="Enter your company" value="{{ old('company') }}">
                </div>
             </div>
             <div class="col-lg-4 col-12 mt-2">
                <div class="form-group">
-                   <input type="text" name="request_type" class="form-control" id="exampleInputName" placeholder="Subject" value="{{ old('request_type') }}">
+                  <label for="InputName">Subject <span class="text-danger">*</span></label>
+                   <input type="text" name="subject" class="form-control" id="exampleInputName" placeholder="Enter your subject" value="{{ old('subject') }}">
+                   @if ($errors->has('subject'))
+                    <span class="text-danger">{{ $errors->first('subject') }}</span>
+                   @endif
                </div>
                <!-- <div class="form-group">
                <select class="form-select" name="request_type">
@@ -79,6 +88,7 @@
             </div>
             <div class="col-lg-12 col-12 mt-2">
                <div class="form-group">
+                <label for="InputName">Message <span class="text-danger">*</span></label>
                 <textarea class="form-control" name="description" rows="10" placeholder="Tell us about your project"  value="{{ old('description') }}"></textarea>
               @if ($errors->has('description'))
                     <span class="text-danger">{{ $errors->first('description') }}</span>

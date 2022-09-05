@@ -26,6 +26,7 @@ class ContactController extends Controller
             'phone.required' => 'Please fill the phone number field.',
             'phone.numeric' => 'The phone number must be a number.',
             'business_email.required' => 'Please fill the business email field.',
+            'subject.required' => 'Please fill the subject field.',
             'description.required' => 'Please fill the description field.',
         ];
   
@@ -34,6 +35,7 @@ class ContactController extends Controller
             'phone' => 'required|numeric',
             'business_email' => 'required|email',
             'description' => 'required',
+            'subject' => 'required',
             // 'g-recaptcha-response' => 'required|captcha',
         ], $messages);
   
@@ -50,7 +52,7 @@ class ContactController extends Controller
         $contact->phone = $request->phone;
         $contact->business_email = $request->business_email;
         $contact->company = $request->company;
-        $contact->request_type = $request->request_type;
+        $contact->request_type = $request->subject;
         $contact->description = $request->description;
         $fileName = '';
         // if($file = $request->file('attach')){
@@ -64,7 +66,7 @@ class ContactController extends Controller
         $user = array(
             'name'         => $request->name,
             'email'        => $request->business_email,
-            'subject'      => $request->request_type,
+            'subject'      => $request->subject,
             'phone_number' => $request->phone,
             'message'      => $request->description,
         );
