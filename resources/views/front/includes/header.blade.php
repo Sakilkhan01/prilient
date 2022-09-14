@@ -94,12 +94,12 @@
  <!-- top progress bar end -->
 
  <!--Start Preloader -->
- <div class="onloadpage" id="page_loader">
+ <!-- <div class="onloadpage" id="page_loader">
      <div class="pre-content">
          <div class="logo-pre"><img src="{{ url('assets/images/logo.png') }}" alt="Logo" class="img-fluid" /></div>
          <div class="pre-text- text-radius text-light text-animation bg-b">Welcome to Prilient Technologies</div>
      </div>
- </div>
+ </div> -->
  <!--End Preloader -->
  <!--Start Header -->
  <header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
