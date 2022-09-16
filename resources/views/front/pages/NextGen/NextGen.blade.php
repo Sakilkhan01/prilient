@@ -8,12 +8,6 @@
         <div class="row">
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
-              <div class="bread-menu">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="#">Next-Gen Technologies Service</a></li>
-                </ul>
-              </div>
               <div class="bread-title">
                 <h2>Next-Gen Technologies Service</h2>
               </div>

@@ -9,11 +9,6 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-menu">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="#">Full-stack Development Services</a></li>
-                </ul>
-              </div>
               <div class="bread-title">
                 <h2>Full-stack Development Services</h2>
               </div>

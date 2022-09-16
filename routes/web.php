@@ -34,24 +34,92 @@ Route::post('contact-us/store', [ContactController::class, 'store'])->name('cont
 
 // static routes
 
+Route::view('product-design', 'front.pages.productDesign.product_design');
+Route::view('product-design/ui-ux-design', 'front.pages.productDesign.ui_ux_design');
+Route::view('product-design/app-design', 'front.pages.productDesign.app_design');
+Route::view('product-design/web-design', 'front.pages.productDesign.web_design');
+
 Route::view('/about-us', 'front.pages.about_us');
-Route::view('/service', 'front.pages.services');
-Route::view('/DevOps', 'front.pages.DevOps');
-Route::view('/web_design', 'front.pages.web_design');
+
+Route::view('/app_development', 'front.pages.AppDevelopment.app_development');
+Route::view('app_development/ios-development', 'front.pages.AppDevelopment.ios');
+Route::view('app_development/android-development', 'front.pages.AppDevelopment.android');
+Route::view('app_development/flutter-development', 'front.pages.AppDevelopment.flutter');
+Route::view('app_development/react-native-development', 'front.pages.AppDevelopment.react_native');
+
+Route::view('/web_development', 'front.pages.webDevelopment.web_development');
+Route::view('/web_development/ecommerce-development', 'front.pages.webDevelopment.ecommerce_development');
+Route::view('/web_development/CMS-development', 'front.pages.webDevelopment.CMS_development');
+Route::view('/web_development/ERP-development', 'front.pages.webDevelopment.ERP_development');
+Route::view('/web_development/enterprise-development', 'front.pages.webDevelopment.enterprise_development');
+
 Route::view('/cyber_security', 'front.pages.cyber_security');
+
+Route::view('/DevOps', 'front.pages.DevOps');
+
+Route::view('/DevOps', 'front.pages.DevOps');
+
+Route::view('/product_prototype', 'front.pages.productPrototype.product_strategy');
+Route::view('/product_prototype/mvp', 'front.pages.productPrototype.product_mvp');
+Route::view('/product_prototype/poc', 'front.pages.productPrototype.product_poc');
+
+Route::view('/Analytics_and_BI', 'front.pages.Analytics.AnalyticsBI');
+Route::view('/Analytics_and_BI/modern-data-warehouses', 'front.pages.Analytics.modern_warehouses');
+Route::view('/Analytics_and_BI/big-data', 'front.pages.Analytics.big_data');
+Route::view('/Analytics_and_BI/business-intelligence', 'front.pages.Analytics.business_intelligence');
+Route::view('/Analytics_and_BI/data-visualization', 'front.pages.Analytics.data_visualization');
+Route::view('/Analytics_and_BI/data-science', 'front.pages.Analytics.data_science');
+
+Route::view('/NextGen', 'front.pages.NextGen.NextGen');
+Route::view('/NextGen/AWS-ampify-&-AWS-lamda', 'front.pages.NextGen.AWS');
+Route::view('/NextGen/firebase', 'front.pages.NextGen.firebase');
+Route::view('/NextGen/chatbot-dvelopment', 'front.pages.NextGen.chatbot');
+Route::view('/NextGen/AI-&-ML-development', 'front.pages.NextGen.AI&ML');
+Route::view('/NextGen/RPA-development', 'front.pages.NextGen.RPA');
+
+Route::view('/frontend_development', 'front.pages.frontendDevelopment.frontend_development');
+Route::view('/frontend_development/angular-development', 'front.pages.frontendDevelopment.angular_development');
+Route::view('/frontend_development/react-development', 'front.pages.frontendDevelopment.react_development');
+Route::view('/frontend_development/vue-development', 'front.pages.frontendDevelopment.vue_development');
+Route::view('/frontend_development/html-development', 'front.pages.frontendDevelopment.html_development');
+
+Route::view('/Quality_Engineering', 'front.pages.QualityEngineering.Quality_Engineering');
+Route::view('/Quality_Engineering/mobile-testing', 'front.pages.QualityEngineering.mobile_testing');
+Route::view('/Quality_Engineering/ERP-testing', 'front.pages.QualityEngineering.ERP_testing');
+Route::view('/Quality_Engineering/game-testing', 'front.pages.QualityEngineering.game_testing');
+Route::view('/Quality_Engineering/big-data-testing', 'front.pages.QualityEngineering.big_data_testing');
+Route::view('/Quality_Engineering/blockchain-testing', 'front.pages.QualityEngineering.blockchain_testing');
+Route::view('/Quality_Engineering/security-testing', 'front.pages.QualityEngineering.security_testing');
+Route::view('/Quality_Engineering/regression-testing', 'front.pages.QualityEngineering.regression_testing');
+Route::view('/Quality_Engineering/localization-testing', 'front.pages.QualityEngineering.localization_testing');
+Route::view('/Quality_Engineering/functional-testing', 'front.pages.QualityEngineering.functional_testing');
+Route::view('/Quality_Engineering/usability-testing', 'front.pages.QualityEngineering.usability_testing');
+
+Route::view('/backend_development', 'front.pages.backend.backend_development');
+Route::view('/backend_development/php-development', 'front.pages.backend.php');
+Route::view('/backend_development/node-development', 'front.pages.backend.node');
+Route::view('/backend_development/pyton-development', 'front.pages.backend.pyton');
+Route::view('/backend_development/laravel-development', 'front.pages.backend.laravel');
+Route::view('/backend_development/symfony-development', 'front.pages.backend.symfony');
+Route::view('/backend_development/java-development', 'front.pages.backend.java');
+Route::view('/backend_development/dotnet-development', 'front.pages.backend.dotnet');
+
+Route::view('/blockchain_development', 'front.pages.Blockchain.blockchain_development');
+Route::view('/blockchain_development/smart-contracts-development', 'front.pages.Blockchain.smartContracts');
+Route::view('/blockchain_development/blockchain-wallet-development', 'front.pages.Blockchain.Wallet');
+Route::view('/blockchain_development/decentralized-development', 'front.pages.Blockchain.Decentralized');
+Route::view('/blockchain_development/Private/Public-development', 'front.pages.Blockchain.Private');
+Route::view('/blockchain_development/tokenization-development', 'front.pages.Blockchain.tokenization');
+Route::view('/blockchain_development/NFT-development', 'front.pages.Blockchain.NFT');
+
+Route::view('/fullStack_development', 'front.pages.fullStack.fullStack_development');
+Route::view('/fullStack_development/MEAN-stack-development', 'front.pages.fullStack.meanStack');
+Route::view('/fullStack_development/MERN-stack-development', 'front.pages.fullStack.mernStack');
+
+Route::view('/service', 'front.pages.services');
+Route::view('/web_design', 'front.pages.web_design');
 Route::view('/software_development', 'front.pages.software_development');
-Route::view('/product_design', 'front.pages.product_design');
-Route::view('/product_strategy', 'front.pages.product_strategy');
-Route::view('/app_development', 'front.pages.app_development');
-Route::view('/web_development', 'front.pages.web_development');
-Route::view('/frontend_development', 'front.pages.frontend_development');
-Route::view('/fullStack_development', 'front.pages.fullStack_development');
 Route::view('/cloud_strategy', 'front.pages.cloud_strategy');
-Route::view('/Analytics_and_BI', 'front.pages.AnalyticsBI');
-Route::view('/NextGen', 'front.pages.NextGen');
-Route::view('/Quality_Engineering', 'front.pages.Quality_Engineering');
-Route::view('/backend_development', 'front.pages.backend_development');
-Route::view('/blockchain_development', 'front.pages.blockchain_development');
 Route::view('/privacy_policy', 'front.pages.privacy_policy');
 
 
