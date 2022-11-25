@@ -5,6 +5,11 @@
 <link href="{{ url('frontent/blog/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 <link href="{{ url('frontent/blog/bootstrap/blog.css') }}" rel="stylesheet">
 <link href="{{ url('frontent/blog/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+<style type="text/css">
+    ol, ul {
+    padding-left: 1rem !important;
+    }
+</style>
 
 <!-- ======= ======= -->
 <section class="breadcrumbs">

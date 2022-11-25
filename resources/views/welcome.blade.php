@@ -7,20 +7,21 @@
             <div class="row">
                <div class="col-lg-5">
                   <div class="hero-heading-sec">
-                     <h2 class="wow fadeIn" data-wow-delay="0.3s"><span>Website,</span> <span>Software </span> <span> & Mobile App</span> <span>Development</span></h2>
+                     <!-- <h2 class="wow fadeIn" data-wow-delay="0.3s"><span>Website,</span> <span>Software </span> <span> & Mobile App</span> <span>Development</span></h2> -->
+                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>IT Support-IT Solution</span> <span>Software </span> <span>Prilient Technologies</span></h2>
                      <p class="wow fadeIn" data-wow-delay="0.6s">Leading company in providing smart business solutions for transforming and innovating businesses</p>
                  
-                     <a href="{{ url('service') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                     
                   </div>
                </div>
                <div class="col-lg-7">
-                  <div class="hero-content-sec wow fadeIn" data-wow-delay="0.8s">
+                  <!-- <div class="hero-content-sec wow fadeIn" data-wow-delay="0.8s">
                      <div class="video-intro-pp"><a class="video-link play-video" href="https://youtu.be/1ox4Wbq7irc?autoplay=1&amp;rel=0"><span class="triangle-play"></span></a></div>
                      <div class="title-hero-oth">
                         <p style="font-size:20px;">Checkout Our <span><strong style="color:#ffbb22;font-size:30px;">Video Portfolio</strong></span></p>
                      </div>
-                  </div>
+                  </div> -->
                   <div class="hero-right-scmm">
                      <div class="hero-service-cards wow fadeInRight" data-wow-duration="2s">
                         <div class="owl-carousel service-card-prb">
@@ -449,91 +450,91 @@
                </div>
             </div>
             <div class="row">
-               <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".2s">
+               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".2s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/azure.png') }}" alt="Azure"  class="img-fluid">
                    
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".4s">
+               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".4s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/angular.png') }}" alt="Angular"  class="img-fluid">
                      
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".6s">
+               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".6s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/cakephp.png') }}" alt="Cakephp"  class="img-fluid">
                     
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/codeigniter.png') }}" alt="Codeigniter"  class="img-fluid">
                    
                   </div>
                </div>
-                   <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+                   <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/django.png') }}" alt="Django"  class="img-fluid">
                    
                   </div>
                </div>
-                   <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+                   <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/elasticsearch.png') }}" alt="Elasticsearch"  class="img-fluid">
                    
                   </div>
                </div>
-                   <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+                   <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/flutter.png') }}" alt="Flutter"  class="img-fluid">
                    
                   </div>
                </div>
-                   <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+                   <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/hyperledger.png') }}" alt="Hyperledger"  class="img-fluid">
                    
                   </div>
                </div>
-                <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+                <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/laravel.png') }}" alt="Laravel"  class="img-fluid">
                    
                   </div>
                </div>   
-               <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/net.png') }}" alt=".net"  class="img-fluid">
                    
                   </div>
                </div>   
-               <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/node.png') }}" alt="Node"  class="img-fluid">
                    
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/python.png') }}" alt="Python"  class="img-fluid">
                    
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/react.png') }}" alt="React"  class="img-fluid">
                    
                   </div>
                </div>
-                 <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+                 <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/vue.png') }}" alt="Vue"  class="img-fluid">
                    
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
+               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/Java-Logo.png') }}" alt="Java"  class="img-fluid">
                    

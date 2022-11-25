@@ -3,8 +3,10 @@
      style="visibility: visible; z-index: 999999;">
      <div class="offcanvas-body">
          <div class="cbtn animation">
-             <div class="btnclose"> <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                     aria-label="Close"></button></div>
+             <div class="btnclose"> 
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                     aria-label="Close"></button>
+                 </div>
          </div>
          <div class="form-block sidebarform">
              <h4>Request A Quote</h4>
@@ -247,7 +249,7 @@
                                                  Development</a></li>
                                          <li><a class="dropdown-item" href="{{url('backend_development/node-development')}}">Node Js
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('backend_development/pyton-development')}}">Pyton
+                                         <li><a class="dropdown-item" href="{{url('backend_development/pyton-development')}}">Python
                                                  Development</a></li>
                                          <li><a class="dropdown-item" href="{{url('backend_development/laravel-development')}}">Laravel
                                                  Development</a></li>
@@ -427,8 +429,8 @@
                  </ul>
                  <!-- mobile + desktop - sidebar menu- dark mode witch and button -->
                  <ul class="nav-list right-end-btn">
-                     <li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample"
-                             class="btn-round- btn-br bg-btn2"><i class="fa fa-bars"></i></a></li>
+                     <!-- <li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample"
+                             class="btn-round- btn-br bg-btn2"><i class="fa fa-bars"></i></a></li> -->
                      <li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn-br bg-btn3 btshad-b2 lnk">Request A
                              Quote <span class="circle"></span></a> </li>
                      <li class="hidedesktop darkmodeswitch">

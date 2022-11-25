@@ -46,6 +46,10 @@
         font-size:45px;
         line-height:57px
     }
+    .name-text{
+        font-size: 32px!important;
+        line-height: 46px !important;
+    }
     .hero-card-web{
         padding-top:120px;
         padding-bottom:100px;
