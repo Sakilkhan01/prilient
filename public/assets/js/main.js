@@ -377,6 +377,57 @@
             }
         }
     });
+    var technologies = g(".technologies_slider");
+        technologies.owlCarousel({
+            items: 5,
+            nav: false,
+            autoplay: false,
+            margin: 10,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 3
+                },
+                768: {
+                    items: 3
+                },
+                1024: {
+                    items: 5
+                },
+                1400: {
+                    items: 5
+                }
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     g(".counter").counterUp({
         delay: 10,
         time: 2500,

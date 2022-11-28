@@ -290,6 +290,18 @@
                                                  Stack Development</a></li>
                                      </ul>
                                  </li>
+                                 <li>
+                                     <a class="dropdown-item" href="{{ url('fullStack_development') }}">Cloud Strategy & Development &raquo;</a>
+                                     <ul class="dropdown-menu dropdown-submenu">
+                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MEAN-stack-development') }}">SaaS Development</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">IaaS Development</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">PaaS Development</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">Cloud App Development</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">Cloud Migration</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">Amazon cloud</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">Azure Cloud Service</a></li>
+                                     </ul>
+                                 </li>
                              </ul>
                          </div>
                          <!-- <a href="{{ url('/service') }}" class="menu-links">Services</a>
@@ -414,7 +426,7 @@
                         </div> -->
                      </li>
                      <li>
-                         <a href="#" class="menu-links">Technologies</a>
+                         <a href="{{ url('technologies') }}" class="menu-links">Technologies</a>
                      </li>
                      <li>
                          <a href="#" class="menu-links">Portfolio</a>
@@ -614,3 +626,4 @@
      </div>
  </header>
  <!--End Header -->
+

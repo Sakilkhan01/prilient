@@ -8,7 +8,9 @@
                <div class="col-lg-5">
                   <div class="hero-heading-sec">
                      <!-- <h2 class="wow fadeIn" data-wow-delay="0.3s"><span>Website,</span> <span>Software </span> <span> & Mobile App</span> <span>Development</span></h2> -->
-                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>IT Support-IT Solution</span> <span>Software </span> <span>Prilient Technologies</span></h2>
+                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>IT Support-IT Solution</span> 
+                        <!-- <span>Software </span> -->
+                      <span>Prilient Technologies</span></h2>
                      <p class="wow fadeIn" data-wow-delay="0.6s">Leading company in providing smart business solutions for transforming and innovating businesses</p>
                  
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
@@ -310,10 +312,9 @@
                   <div class="cta-card mt60 text-center">
                      <h3 class="mb20">Let's Start a  <span class="text-second text-bold">New Project</span> Together</h3>
                      <p>We are excited to initiate a new project with you.  Our team will be in touch soon, but if you have any questions before then, please feel free to contact us directly at [email protected] and we will get back to you as soon as possible. Thank you for your interest in our services!</p>
-                     <a href="javascript:void(0)" class="niwax-btn1 mt30"><span>Request A Quote <i class="fa fa-chevron-right fa-icon"></i></span></a>
+                     <a href="javascript:void(0)"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" class="niwax-btn1 mt30"><span>Request A Quote <i class="fa fa-chevron-right fa-icon"></i></span></a>
                   </div>
                   
-
                </div>
             </div>
          </div>
@@ -393,8 +394,25 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="clients-logos text-center col-12">
+
+                     @if(!$client->isEmpty())
+                     <div class="container mt-5 pt-5">
+                        <div class="banner_bootom_wrap">
+                           <div class="middle_client">
+                               <div class="owl-carousel career-slider">
+                                 @foreach($client as $v)
+                                <div class="service_card_slider">
+                                   <img src="{{ url('upload/client/',$v->logo) }}">
+                                </div>
+                                @endforeach
+                             </div>
+                           </div>
+                        </div>
+                     </div>
+                     @endif
+
                      <ul class="row text-center clearfix">
-                        @if(!$client->isEmpty())
+                        <!-- @if(!$client->isEmpty())
                            @foreach($client as $v)
                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".2s">
                               <div class="brand-logo">
@@ -405,7 +423,7 @@
                            @endforeach
                         @else
                            fff
-                        @endif
+                        @endif -->
                         <!-- 
                         <li class="col-lg-2 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".4s">
                            <div class="brand-logo"><img src="{{ url('assets/images/client/clients-2.png') }}" alt="clients" class="img-fluid"></div>
@@ -449,7 +467,61 @@
                   </div>
                </div>
             </div>
-            <div class="row">
+
+            <div class="owl-carousel career-slider technology_slider">
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/azure.png') }}" alt="Azure">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/angular.png') }}" alt="Angular">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/cakephp.png') }}" alt="Cakephp">            
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/codeigniter.png') }}" alt="Codeigniter">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/django.png') }}" alt="Django">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/elasticsearch.png') }}" alt="Elasticsearch">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/flutter.png') }}" alt="Flutter">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/hyperledger.png') }}" alt="Hyperledger">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/laravel.png') }}" alt="Laravel">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/net.png') }}" alt=".net">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/node.png') }}" alt="Node">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/python.png') }}" alt="Python">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/react.png') }}" alt="React">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/vue.png') }}" alt="Vue">
+                 </div>
+                 <div class="item">
+                    <img src="{{ url('assets/images/about/Java-Logo.png') }}" alt="Java">
+                 </div>
+
+            </div>
+            <div class="col-lg-12 col-12 text-center">
+               <a href="javascript:void(0)" class="niwax-btn1 mt30"><span>More <i class="fa fa-chevron-right fa-icon"></i></span>
+            </a>
+            </div>
+
+            <!-- <div class="row">
                <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".2s">
                   <div class="badges-content">
                      <img src="{{ url('assets/images/about/azure.png') }}" alt="Azure"  class="img-fluid">
@@ -542,7 +614,7 @@
                </div>
              
 
-            </div>
+            </div> -->
             <div class="-cta-btn mt70">
                <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
                   <p>We <span>Promise.</span> We <span>Deliver.</span></p>

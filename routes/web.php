@@ -123,6 +123,9 @@ Route::view('/cloud_strategy', 'front.pages.cloud_strategy');
 Route::view('/privacy_policy', 'front.pages.privacy_policy');
 
 
+Route::view('/technologies', 'front.pages.technologies');
+
+
 
 
 

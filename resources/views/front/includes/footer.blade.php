@@ -52,12 +52,16 @@
                   <div class="col-lg-2 col-sm-6">
                      <h5>Our Services</h5>
                      <ul class="footer-address-list link-hover">
-                        <li><a href="{{ url('/web_design') }}">Web Designing</a></li>
+                        <li><a href="#">Big Data </a></li>
+                        <li><a href="#">Modern Data Warehouse</a></li>
+                        <li><a href="#">AI & ML Development</a></li>
+                        <li><a href="#">NFT</a></li> 
+                        <li><a href="#">Devops</a></li>
+                        <li><a href="#">Cyber Security</a></li>
+                        <!-- <li><a href="{{ url('/web_design') }}">Web Designing</a></li> -->
                         <li><a href="{{ url('web_development') }}">Web Development</a></li>
                         <li><a href="{{ url('software_development') }}">Software Development</a></li>
-                        <!-- <li><a href="#">Product Management</a></li>
-                        <li><a href="#">Digital Marketing</a></li>
-                        <li><a href="#">Graphics & Video</a></li> -->
+                     
                      </ul>
                   </div>
                   <div class="col-lg-2 col-sm-6">
