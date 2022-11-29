@@ -36,7 +36,7 @@
     }, function() {
         g(this).removeClass("hover")
     });
-    g(".video-link").magnificPopup({
+    g(".video-linkRemove").magnificPopup({
         type: "iframe",
         mainClass: "mfp-fade",
         removalDelay: 160,

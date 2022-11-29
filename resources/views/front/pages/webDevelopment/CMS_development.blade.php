@@ -2,7 +2,7 @@
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/CMS_Development.jpg') }}">
     <div class="text-block">
       <div class="container">
         <div class="row">

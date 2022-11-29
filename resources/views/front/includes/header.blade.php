@@ -291,15 +291,16 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('fullStack_development') }}">Cloud Strategy & Development &raquo;</a>
-                                     <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MEAN-stack-development') }}">SaaS Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">IaaS Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">PaaS Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">Cloud App Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">Cloud Migration</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">Amazon cloud</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('fullStack_development/MERN-stack-development') }}">Azure Cloud Service</a></li>
+                                     <a class="dropdown-item" href="{{ url('cloud_strategy') }}">Cloud Strategy & Development &raquo;</a>
+                                     <ul class="dropdown-menu dropdown-submenu dropdown-submenu-last">
+                                         <li><a class="dropdown-item" href="{{ url('cloud_strategy/SaaS_Development') }}">SaaS Development</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('cloud_strategy/IaaS_Development') }}">IaaS Development</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('cloud_strategy/PaaS_Development') }}">PaaS Development</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('cloud_strategy/Cloud_App_Development') }}">Cloud App Development</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('cloud_strategy/Cloud_Migration') }}">Cloud Migration</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('cloud_strategy/Amazon_cloud') }}">Amazon cloud</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('cloud_strategy/Cloud_Security') }}">Cloud Security</a></li>
+                                         <li><a class="dropdown-item" href="{{ url('cloud_strategy/Azure_Cloud_Service') }}">Azure Cloud Service</a></li>
                                      </ul>
                                  </li>
                              </ul>
@@ -429,7 +430,8 @@
                          <a href="{{ url('technologies') }}" class="menu-links">Technologies</a>
                      </li>
                      <li>
-                         <a href="#" class="menu-links">Portfolio</a>
+                         <!-- <a href="{{ url('portfolio') }}" class="menu-links">Portfolio</a> -->
+                         <a href="javascript:void(0)" class="menu-links">Portfolio</a>
                      </li>
                      <li>
                          <a href="{{ route('blog') }}" class="menu-links">Blog</a>

@@ -52,12 +52,12 @@
                   <div class="col-lg-2 col-sm-6">
                      <h5>Our Services</h5>
                      <ul class="footer-address-list link-hover">
-                        <li><a href="#">Big Data </a></li>
-                        <li><a href="#">Modern Data Warehouse</a></li>
-                        <li><a href="#">AI & ML Development</a></li>
-                        <li><a href="#">NFT</a></li> 
-                        <li><a href="#">Devops</a></li>
-                        <li><a href="#">Cyber Security</a></li>
+                        <li><a href="{{url('/Analytics_and_BI/big-data')}}">Big Data </a></li>
+                        <li><a href="{{url('/Analytics_and_BI/modern-data-warehouses')}}">Modern Data Warehouse</a></li>
+                        <li><a href="{{ url('/NextGen/AI-&-ML-development') }}">AI & ML Development</a></li>
+                        <li><a href="{{ url('blockchain_development/NFT-development') }}">NFT</a></li> 
+                        <li><a href="{{ url('/DevOps') }}">Devops</a></li>
+                        <li><a href="{{ url('/cyber_security') }}">Cyber Security</a></li>
                         <!-- <li><a href="{{ url('/web_design') }}">Web Designing</a></li> -->
                         <li><a href="{{ url('web_development') }}">Web Development</a></li>
                         <li><a href="{{ url('software_development') }}">Software Development</a></li>

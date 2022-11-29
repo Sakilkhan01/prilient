@@ -119,11 +119,23 @@ Route::view('/fullStack_development/MERN-stack-development', 'front.pages.fullSt
 Route::view('/service', 'front.pages.services');
 Route::view('/web_design', 'front.pages.web_design');
 Route::view('/software_development', 'front.pages.software_development');
-Route::view('/cloud_strategy', 'front.pages.cloud_strategy');
 Route::view('/privacy_policy', 'front.pages.privacy_policy');
 
 
-Route::view('/technologies', 'front.pages.technologies');
+Route::view('technologies', 'front.pages.technologies');
+
+Route::view('/cloud_strategy', 'front.pages.cloud_strategy');
+Route::view('cloud_strategy/SaaS_Development', 'front.pages.SaaS_development');
+Route::view('cloud_strategy/IaaS_Development', 'front.pages.IaaS_development');
+Route::view('cloud_strategy/PaaS_Development', 'front.pages.PaaS_development');
+Route::view('cloud_strategy/Cloud_App_Development', 'front.pages.Cloud_App_Development');
+Route::view('cloud_strategy/Cloud_Migration', 'front.pages.Cloud_Migration');
+Route::view('cloud_strategy/Amazon_cloud', 'front.pages.Amazon_cloud');
+Route::view('cloud_strategy/Cloud_Security', 'front.pages.Cloud_Security');
+Route::view('cloud_strategy/Azure_Cloud_Service', 'front.pages.Azure_Cloud_Service');
+
+
+Route::view('portfolio', 'front.pages.portfolio');
 
 
 

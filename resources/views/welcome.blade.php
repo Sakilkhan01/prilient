@@ -206,7 +206,7 @@
                         <img src="{{ url('assets/images/icons/startup.svg') }}" alt="years" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">4</span><span>+</span>
+                        <span class="counter">3</span><span>+</span>
                         <p>Year In Business</p>
                      </div>
                   </div>
@@ -517,7 +517,7 @@
 
             </div>
             <div class="col-lg-12 col-12 text-center">
-               <a href="javascript:void(0)" class="niwax-btn1 mt30"><span>More <i class="fa fa-chevron-right fa-icon"></i></span>
+               <a href="{{ url('technologies') }}" class="niwax-btn1 mt30"><span>More <i class="fa fa-chevron-right fa-icon"></i></span>
             </a>
             </div>
 
@@ -730,8 +730,8 @@
             <div class="row">
                <div class="col-lg-6">
                   <div class="video-testimonials owl-carousel">
-                     <div class="video-review" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                        <a class="video-link" href="https://youtu.be/1ox4Wbq7irc">
+                     <div class="video-review">
+                        <a class="video-link" href="javascript:void(0)">
                            <img src="{{ url('assets/images/client/client-pic-a.jpg') }}" alt="client" class="img-fluid">
                            <div class="review-vid-details">
                               <div class="-vid-ico"><span class="triangle-play2"></span></div>
@@ -739,8 +739,8 @@
                            </div>
                         </a>
                      </div>
-                     <div class="video-review" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                        <a class="video-link" href="https://youtu.be/1ox4Wbq7irc">
+                     <div class="video-review">
+                        <a class="video-link" href="javascript:void(0)">
                            <img src="{{ url('assets/images/client/client-pic-b.jpg') }}" alt="client" class="img-fluid">
                            <div class="review-vid-details">
                               <div class="-vid-ico"><span class="triangle-play2"></span></div>
@@ -758,7 +758,7 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div>
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info v-center">
                                  <h5>Amanta R.</h5>
                                  <p><small>Lewis, Swifi, Android, Iphone, ASP.NET Programming.</small></p>
@@ -772,7 +772,7 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div>
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Helsinki Braithwaite</h5>
                                  <p><small>Javascript, Couch &amp; Mongo, NOSQL, SQL, Node JS, JSON.</small></p>
@@ -786,7 +786,7 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div>
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Luiz Fernandez</h5>
                                  <p><small>ASP.NET Programming, Javascript, Mobile App Development, React JS.</small></p>
@@ -800,7 +800,7 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div>
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Mary Daniels</h5>
                                  <p><small>C#, Programming, Azure, SQL, Microsoft, Angular JS, Server.</small></p>
@@ -814,7 +814,7 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div>
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Shinzo Markel</h5>
                                  <p><small>ASP.NET Programming, Angular JS, React JS.</small></p>
@@ -828,7 +828,7 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div>
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Mbola Smith</h5>
                                  <p><small>Mobile App Development, Android, Iphone, React JS</small></p>
