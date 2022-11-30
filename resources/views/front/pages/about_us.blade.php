@@ -36,14 +36,14 @@
             </p>
           </div>
           <div class="row in-stats small about-statistics">
-            <div class="col-lg-4 col-sm-4">
+            <!-- <div class="col-lg-4 col-sm-4">
               <div class="statistics">
                 <div class="statnumb counter-number">
                   <span class="counter">40</span><span>+</span>
                   <p>Dedicated Team</p>
                 </div>
               </div>
-            </div><!-- 
+            </div> --><!-- 
             <div class="col-lg-4 col-sm-4">
               <div class="statistics">
                 <div class="statnumb">
@@ -52,14 +52,14 @@
                 </div>
               </div>
             </div> -->
-            <div class="col-lg-4 col-sm-4">
+            <!-- <div class="col-lg-4 col-sm-4">
               <div class="statistics mb0">
                 <div class="statnumb counter-number">
                   <span class="counter">60</span><span>+</span>
                   <p>Projects Done</p>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
