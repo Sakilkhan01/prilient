@@ -5777,7 +5777,8 @@ body.hc-nav-open{
     color:#fff;
     z-index:1;
     background:transparent;
-    border-bottom:0 solid #2c5d8f
+    border-bottom:0 solid #2c5d8f;
+    height: 45px;
 }
 .hc-offcanvas-nav li:not(.custom-content) a[disabled]{
     color:rgba(255,255,255,.5)

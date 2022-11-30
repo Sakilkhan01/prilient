@@ -64,6 +64,14 @@
     text-align: center;
     padding: 20px;
 }
+
+
+@media only screen and (max-width: 992px) {
+  ol, ul {
+    padding-left: 0rem !important;
+    }
+}
+
 </style>
 
 <!-- ======= ======= -->

@@ -463,116 +463,176 @@
          <nav id="main-nav">
              <ul class="first-nav">
                  <li>
-                     <a href="index.html" class="menu-links">Home</a>
+                     <a href="{{ url('/') }}" class="menu-links">Home</a>
                  </li>
                  <li>
-                     <a href="about us.html" class="menu-links">About us</a>
+                     <a href="{{ url('/about-us') }}" class="menu-links">About us</a>
                  </li>
                  <li>
                      <a href="#" class="menu-links">Services</a>
                      <ul>
                          <li>
-                             <a href="#">Overview</a>
-
-                         </li>
-                         <li>
                              <a href="#">Product Design</a>
                              <ul>
-                                 <li><a href="#">UI/UX Design</a></li>
-                                 <li><a href="#">App Design</a></li>
-                                 <li><a href="#">Web Design</a></li>
+                                 <li><a href="{{ url('product-design/ui-ux-design') }}">UI/UX Design</a></li>
+                                 <li><a href="{{ url('product-design/app-design') }}">App Design</a></li>
+                                 <li><a href="{{ url('product-design/web-design') }}">Web Design</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Mobile Development</a>
                              <ul>
-                                 <li><a href="#">iOS Development</a></li>
-                                 <li><a href="#">Andriod Development</a></li>
-                                 <li><a href="#">Flutter App Development</a></li>
-                                 <li><a href="#">React Native Development</a></li>
+                                 <li><a href="{{url('app_development/ios-development')}}">ios Development</a></li>
+                                 <li><a href="{{url('app_development/android-development')}}">Android Development</a></li>
+                                 <li><a href="{{url('app_development/flutter-development')}}">Flutter App Development</a></li>
+                                 <li><a href="{{url('app_development/react-native-development')}}">React Native Development</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Web Development</a>
                              <ul>
-                                 <li><a href="#">Ecommerce Development</a></li>
-                                 <li><a href="#">CMS Development</a></li>
-                                 <li><a href="#">ERP Development</a></li>
-                                 <li><a href="#">Enterprise Applications</a></li>
+                                 <li><a href="{{url('/web_development/ecommerce-development')}}">Ecommerce Development</a></li>
+                                         <li><a href="{{url('/web_development/CMS-development')}}">CMS Development</a></li>
+                                         <li><a href="{{url('/web_development/ERP-development')}}">ERP Development</a></li>
+                                         <li><a href="{{url('/web_development/enterprise-development')}}">Enterprise Applications</a></li>
                              </ul>
+                         </li>
+
+                         <li>
+                            <a class="dropdown-item" href="{{ url('/DevOps') }}">DevOps</a>
+                        </li>
+                          <li>
+                             <a class="dropdown-item" href="{{ url('/cyber_security') }}">Cyber Security</a>
                          </li>
                          <li>
                              <a href="#">Product Prototype</a>
                              <ul>
-                                 <li><a href="#">MVP</a></li>
-                                 <li><a href="#">POC</a></li>
+                                 <li><a href="{{ url('/product_prototype/mvp') }}">MVP</a></li>
+                                         <li><a href="{{ url('/product_prototype/poc') }}">PoC</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Analytics & BI</a>
                              <ul>
-                                 <li><a href="#">Modern Data Warehouses</a></li>
-                                 <li><a href="#">Big Data</a></li>
-                                 <li><a href="#">Business Intelligence</a></li>
-                                 <li><a href="#">Data Visualization</a></li>
-                                 <li><a href="#">Data Science</a></li>
+                                 <li><a href="{{url('/Analytics_and_BI/modern-data-warehouses')}}">Modern Data
+                                                 Warehouses</a></li>
+                                         <li><a href="{{url('/Analytics_and_BI/big-data')}}">Big Data</a>
+                                         </li>
+                                         <li><a href="{{url('/Analytics_and_BI/data-visualization')}}">Data
+                                                 Visualization</a></li>
+                                         <li><a href="{{url('/Analytics_and_BI/data-science')}}">Data
+                                                 Science</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Next-Gen Technologies</a>
                              <ul>
-                                 <li><a href="#">AWS Ampify & AWS Lamda</a></li>
-                                 <li><a href="#">Firebase</a></li>
-                                 <li><a href="#">Chatbot Development</a></li>
-                                 <li><a href="#">AI & ML Development</a></li>
-                                 <li><a href="#">RPA Development</a></li>
+                                 <li><a href="{{ url('/NextGen/AWS-ampify-&-AWS-lamda') }}">AWS Ampify & AWS
+                                                 Lamda</a></li>
+                                         <li><a href="{{ url('/NextGen/firebase') }}">Firebase</a></li>
+                                         <li><a href="{{ url('/NextGen/chatbot-dvelopment') }}">Chatbot Dvelopment</a>
+                                         </li>
+                                         <li><a href="{{ url('/NextGen/AI-&-ML-development') }}">AI & ML
+                                                 Development</a></li>
+                                         <li><a href="{{ url('/NextGen/RPA-development') }}">RPA Development</a>
+                                         </li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Front-end Development</a>
                              <ul>
-                                 <li><a href="#">Angular JS Development</a></li>
-                                 <li><a href="#">React JS Development</a></li>
-                                 <li><a href="#">Vue Development</a></li>
-                                 <li><a href="#">HTML5 Development</a></li>
-                             </ul>
-                         </li>
-                         <li>
-                             <a href="#">Back-end Development</a>
-                             <ul>
-                                 <li><a href="#">PHP Development</a></li>
-                                 <li><a href="#">Node JS Development</a></li>
-                                 <li><a href="#">Python Development</a></li>
-                                 <li><a href="#">Laravel Development</a></li>
-                                 <li><a href="#">Symfony Development</a></li>
-                                 <li><a href="#">Java Development</a></li>
-                                 <li><a href="#">.NET Development</a></li>
+                                  <li><a href="{{ url('/frontend_development/angular-development') }}">Angular
+                                                 JS Development</a></li>
+                                         <li><a href="{{ url('/frontend_development/react-development') }}">React JS
+                                                 Development</a></li>
+                                         <li><a href="{{ url('/frontend_development/vue-development') }}">Vue
+                                                 Development</a></li>
+                                         <li><a href="{{ url('/frontend_development/html-development') }}">HTML5
+                                                 Development</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Quality Engineering</a>
                              <ul>
-                                 <li><a href="#">Mobile Testing</a></li>
-                                 <li><a href="#">ERP Testing</a></li>
-                                 <li><a href="#">Game Testing</a></li>
-                                 <li><a href="#">Big Data Testing</a></li>
-                                 <li><a href="#">Blockchain Testing</a></li>
-                                 <li><a href="#">Security Testing</a></li>
-                                 <li><a href="#">Regression Testing</a></li>
-                                 <li><a href="#">Localization Testing</a></li>
-                                 <li><a href="#">Functional Testing Services</a></li>
-                                 <li><a href="#">Usability Testing</a></li>
+                                 <li><a href="{{ url('Quality_Engineering/mobile-testing') }}">Mobile
+                                                 Testing </a></li>
+                                         <li><a href="{{ url('Quality_Engineering/ERP-testing') }}">ERP
+                                                 Testing</a></li>
+                                         <li><a href="{{ url('Quality_Engineering/game-testing') }}">Game
+                                                 Testing</a></li>
+                                         <li><a href="{{ url('Quality_Engineering/big-data-testing') }}">Big Data
+                                                 Testing</a></li>
+                                         <li><a href="{{ url('Quality_Engineering/blockchain-testing') }}">Blockchain
+                                                 Testing</a></li>
+                                         <li><a href="{{ url('Quality_Engineering/security-testing') }}">Security
+                                                 Testing</a></li>
+                                         <li><a href="{{ url('Quality_Engineering/regression-testing') }}">Regression
+                                                 Testing</a></li>
+                                         <li><a href="{{ url('Quality_Engineering/localization-testing') }}">Localization Testing</a></li>
+                                         <li><a href="{{ url('Quality_Engineering/functional-testing') }}">Functional
+                                                 Testing Services</a></li>
+                                         <li><a href="{{ url('Quality_Engineering/usability-testing') }}">Usability
+                                                 Testing</a></li>
                              </ul>
                          </li>
                          <li>
+                             <a href="#">Back-end Development</a>
+                             <ul>
+                                 <li><a href="{{url('backend_development/php-development')}}">PHP
+                                                 Development</a></li>
+                                         <li><a href="{{url('backend_development/node-development')}}">Node Js
+                                                 Development</a></li>
+                                         <li><a href="{{url('backend_development/pyton-development')}}">Python
+                                                 Development</a></li>
+                                         <li><a href="{{url('backend_development/laravel-development')}}">Laravel
+                                                 Development</a></li>
+                                         <li><a href="{{url('backend_development/symfony-development')}}">Symfony
+                                                 Development</a></li>
+                                         <li><a href="{{url('backend_development/java-development')}}">Java
+                                                 Development</a></li>
+                                         <li><a href="{{url('backend_development/dotnet-development')}}">.NET
+                                                 Development</a></li>
+                             </ul>
+                         </li>
+                         
+                         <li>
                              <a href="#">Blockchain Development</a>
                              <ul>
-                                 <li><a href="#">Smart Contracts Development</a></li>
-                                 <li><a href="#">Blockchain Wallet Development</a></li>
-                                 <li><a href="#">Decentralized Apps (dApps)</a></li>
-                                 <li><a href="#">Private/Public Blockchain</a></li>
-                                 <li><a href="#">Tokenization</a></li>
-                                 <li><a href="#">NFT</a></li>
+                                 <li><a href="{{ url('blockchain_development/smart-contracts-development') }}">Smart
+                                                 Contracts Development</a></li>
+                                         <li><a href="{{ url('blockchain_development/blockchain-wallet-development') }}">Blockchain Wallet
+                                                 Development</a></li>
+                                         <li><a href="{{ url('blockchain_development/decentralized-development') }}">Decentralized Apps
+                                                 (dApps)</a></li>
+                                         <li><a href="{{ url('blockchain_development/Private/Public-development') }}">Private/Public
+                                                 Blockchain</a></li>
+                                         <li><a href="{{ url('blockchain_development/tokenization-development') }}">Tokenization</a></li>
+                                         <li><a href="{{ url('blockchain_development/NFT-development') }}">NFT</a>
+                                         </li>
+
+                             </ul>
+                         </li>
+                         <li>
+                             <a href="#">Full-stack Development</a>
+                             <ul>
+                                 <li><a href="{{ url('fullStack_development/MEAN-stack-development') }}">MEAN
+                                                 Stack Development</a></li>
+                                         <li><a href="{{ url('fullStack_development/MERN-stack-development') }}">MERN
+                                                 Stack Development</a></li>
+
+                             </ul>
+                         </li>
+                         <li>
+                             <a href="#">Cloud Strategy & Development</a>
+                             <ul>
+                                 <li><a href="{{ url('cloud_strategy/SaaS_Development') }}">SaaS Development</a></li>
+                                         <li><a href="{{ url('cloud_strategy/IaaS_Development') }}">IaaS Development</a></li>
+                                         <li><a href="{{ url('cloud_strategy/PaaS_Development') }}">PaaS Development</a></li>
+                                         <li><a href="{{ url('cloud_strategy/Cloud_App_Development') }}">Cloud App Development</a></li>
+                                         <li><a href="{{ url('cloud_strategy/Cloud_Migration') }}">Cloud Migration</a></li>
+                                         <li><a href="{{ url('cloud_strategy/Amazon_cloud') }}">Amazon cloud</a></li>
+                                         <li><a href="{{ url('cloud_strategy/Cloud_Security') }}">Cloud Security</a></li>
+                                         <li><a href="{{ url('cloud_strategy/Azure_Cloud_Service') }}">Azure Cloud Service</a></li>
 
                              </ul>
                          </li>
@@ -580,22 +640,22 @@
                  </li>
 
                  <li>
-                     <a href="#" class="menu-links">Technologies</a>
+                     <a href="{{ url('technologies') }}" class="menu-links">Technologies</a>
                  </li>
-                 <li>
+                 <!-- <li>
                      <a href="#" class="menu-links">Portfolio</a>
+                 </li> -->
+                 <li>
+                     <a href="{{ route('blog') }}" class="menu-links">Blog</a>
                  </li>
                  <li>
-                     <a href="#" class="menu-links">Blog</a>
-                 </li>
-                 <li>
-                     <a href="#" class="menu-links">Contact us</a>
+                     <a href="{{ url('contact-us') }}" class="menu-links">Contact us</a>
                  </li>
 
              </ul>
              <ul class="bottom-nav">
                  <li class="prb">
-                     <a href="tel:+91 7610947287">
+                     <a href="tel:7976026086">
                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
                              <path
                                  d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
@@ -606,7 +666,7 @@
                      </a>
                  </li>
                  <li class="prb">
-                     <a href="#">
+                     <a href="mailto:ankit@prilient.com">
                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                              <path
                                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
@@ -615,7 +675,7 @@
                      </a>
                  </li>
                  <li class="prb">
-                     <a href="skype:Prilient.company?call">
+                     <a href="skype:Ankit Ola?chat">
                          <svg enable-background="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18"
                              xmlns="http://www.w3.org/2000/svg">
                              <path

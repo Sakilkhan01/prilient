@@ -6,7 +6,7 @@
         disableAt: false,
         customToggle: c,
         levelSpacing: 10,
-        navTitle: "Niwax Menu",
+        navTitle: "",
         levelTitles: true,
         levelTitles: true,
         labelClose: false,

@@ -10,6 +10,11 @@
     ol, ul {
     padding-left: 1rem !important;
     }
+    @media only screen and (max-width: 992px) {
+  ol, ul {
+    padding-left: 0rem !important;
+    }
+}
 </style>
       <!-- ======= Breadcrumbs ======= -->
     <section class="breadcrumbs">
