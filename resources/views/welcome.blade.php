@@ -241,7 +241,7 @@
                         <img src="{{ url('assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
                      </div>
                      <div class="statnumb counter-number">
-                        <span class="counter">60</span><span>k</span>
+                        <span class="counter">60</span><span>+</span>
                         <p>Projects Done</p>
                      </div>
                   </div>
