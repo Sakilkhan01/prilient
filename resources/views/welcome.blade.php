@@ -140,7 +140,7 @@
                <div data-tilt data-tilt-max="3" data-tilt-speed="1000" class="col-lg-3-cus wow fadeInUp" data-wow-delay=".6s">
                   <div class="service-sec-list srvc-bg-nx srcl2">
                      <img src="{{ url('assets/images/icons/Cyber Security.svg') }}" alt="service">
-                     <h5 class="mb10">Cyber Securty</h5>
+                     <h5 class="mb10">Cyber Security</h5>
                      <ul class="-service-list">
                         <li> <a href="#">Penetration Testing </a> </li>
                         <li> <a href="#">Virtual CISO</a> </li>
