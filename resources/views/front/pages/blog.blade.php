@@ -9,6 +9,61 @@
     ol, ul {
     padding-left: 1rem !important;
     }
+
+    .inner-card  {
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1)
+}
+.img-wrapper {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  object-position: center;
+}
+.content {
+  margin-bottom: 20px;
+}
+.content h1 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #444;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: auto;
+}
+.content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+     display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+}
+.btn-wrapper {
+  display: block;
+  text-align: center;
+}
+.view-btn {
+  width: 70%;
+  height: 40px;
+  border: none;
+  background-color: steelblue;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.4);
+  cursor: pointer;
+}
+.blog-card-a .owl-dots{
+    text-align: center;
+    padding: 20px;
+}
 </style>
 
 <!-- ======= ======= -->
@@ -24,6 +79,9 @@
     </div>
 </section><!-- End Breadcrumbs -->
 
+
+
+
 <!-- ======= Blog Section ======= -->
 <section id="blog" class="blog">
     <div class="container" data-aos="fade-up">
@@ -31,8 +89,43 @@
         <div class="row">
 
             <div class="col-lg-8 entries">
-
                 @if(count($blog)>0)
+                
+                <div class="col-lg-12">
+                  <div class="owl-carousel blog-card-a pl25">
+                    @foreach($blog as $row)
+                     <div class="testimonial-card">
+                        <div class="card">
+                              <div class="inner-card">
+                                <div class="img-wrapper">
+                                  <img src="{{url('upload/blog/'.$row->image)}}" alt="">
+                                </div>
+                                <div class="p-2">
+                                    <div class="entry-meta">
+                                    <ul class="d-flex justify-content-between">
+                                        <li class=""><i class="bi bi-clock"></i> <a
+                                                href="{{url('blog')}}"><time
+                                                    datetime="2020-01-01">{{ date("d-M-Y ",strtotime($row->date)) }}</time></a></li>
+                                        <li class=""><i class="bi bi-chat-dots"></i> <a
+                                                href="{{url('blog/'.$row->slug)}}">{{$row->blog_post->count()}} Comments</a></li>
+                                    </ul>
+                                 </div>
+                                 <div class="content">
+                                  <h1>{{$row->title}}</h1>
+                                  <p>{!! $row->short_description !!}</p>
+                                </div>
+                                <div class="btn-wrapper">
+                                  <a class="view-btn btn" href="{{url('blog/'.$row->slug)}}">Read More</a>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        @endforeach
+                  </div>
+               </div>
+               @endif
+                <!-- @if(count($blog)>0)
                 @foreach($blog as $row)
                 <article class="entry">
 
@@ -46,7 +139,6 @@
 
                     <div class="entry-meta">
                         <ul>
-                            <!--                       <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="{{url('blog')}}">John Doe</a></li> -->
                             <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
                                     href="{{url('blog')}}"><time
                                         datetime="2020-01-01">{{ date("d-M-Y ",strtotime($row->date)) }}</time></a></li>
@@ -66,7 +158,7 @@
 
                 </article>
                 @endforeach
-                @endif
+                @endif -->
             </div>
 
             <div class="col-lg-4">

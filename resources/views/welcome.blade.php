@@ -230,7 +230,7 @@
                         <img src="{{ url('assets/images/icons/deal.svg') }}" alt="happy" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">100</span>
+                        <span class="counter">50</span><span>+</span>
                         <p>Happy Clients</p>
                      </div>
                   </div>
@@ -241,7 +241,7 @@
                         <img src="{{ url('assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
                      </div>
                      <div class="statnumb counter-number">
-                        <span class="counter">120</span><span>k</span>
+                        <span class="counter">60</span><span>k</span>
                         <p>Projects Done</p>
                      </div>
                   </div>
@@ -321,7 +321,7 @@
       </section>
       <!--End why choose-->
       <!--Start Portfolio-->
-      <section class="portfolio-section pad-tb">
+      <!-- <section class="portfolio-section pad-tb">
          <div class="container">
             <div class="row justify-content-center ">
                <div class="col-lg-8">
@@ -378,7 +378,7 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> -->
       <!--End Portfolio-->
       <!--Start Clients-->
       <section class="clients-section- bg-gradient15 pad-tb">
@@ -723,12 +723,12 @@
                <div class="col-lg-8">
                   <div class="common-heading">
                      <span>What our clients say about Prilient.</span>
-                     <h2>Over 1200+ Satisfied Clients and Growing</h2>
+                     <h2>Over 50+ Satisfied Clients and Growing</h2>
                   </div>
                </div>
             </div>
             <div class="row">
-               <div class="col-lg-6">
+               <!-- <div class="col-lg-6">
                   <div class="video-testimonials owl-carousel">
                      <div class="video-review">
                         <a class="video-link" href="javascript:void(0)">
@@ -749,8 +749,8 @@
                         </a>
                      </div>
                   </div>
-               </div>
-               <div class="col-lg-6">
+               </div> -->
+               <div class="col-lg-12">
                   <div class="owl-carousel testimonial-card-a pl25">
                      <div class="testimonial-card">
                         <div class="t-text">
@@ -761,7 +761,7 @@
                               <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info v-center">
                                  <h5>Amanta R.</h5>
-                                 <p><small>Lewis, Swifi, Android, Iphone, ASP.NET Programming.</small></p>
+                                 <!-- <p><small>Lewis, Swifi, Android, Iphone, ASP.NET Programming.</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -775,7 +775,7 @@
                               <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Helsinki Braithwaite</h5>
-                                 <p><small>Javascript, Couch &amp; Mongo, NOSQL, SQL, Node JS, JSON.</small></p>
+                                 <!-- <p><small>Javascript, Couch &amp; Mongo, NOSQL, SQL, Node JS, JSON.</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -789,7 +789,7 @@
                               <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Luiz Fernandez</h5>
-                                 <p><small>ASP.NET Programming, Javascript, Mobile App Development, React JS.</small></p>
+                                 <!-- <p><small>ASP.NET Programming, Javascript, Mobile App Development, React JS.</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -803,7 +803,7 @@
                               <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Mary Daniels</h5>
-                                 <p><small>C#, Programming, Azure, SQL, Microsoft, Angular JS, Server.</small></p>
+                                 <!-- <p><small>C#, Programming, Azure, SQL, Microsoft, Angular JS, Server.</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -817,7 +817,7 @@
                               <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Shinzo Markel</h5>
-                                 <p><small>ASP.NET Programming, Angular JS, React JS.</small></p>
+                                 <!-- <p><small>ASP.NET Programming, Angular JS, React JS.</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -831,7 +831,77 @@
                               <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Mbola Smith</h5>
-                                 <p><small>Mobile App Development, Android, Iphone, React JS</small></p>
+                                 <!-- <p><small>Mobile App Development, Android, Iphone, React JS</small></p> -->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="testimonial-card">
+                        <div class="t-text">
+                           <p>Excellent communication and knowledgeble about the subjects devliverd on. Will use again and highly recommend.</p>
+                        </div>
+                        <div class="client-thumbs mt30">
+                           <div class="media v-center">
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
+                              <div class="media-body user-info">
+                                 <h5>Realestatefree</h5>
+                                 <span class="d-flex"><img class="icon-flat" src="{{ asset('images/united-states.png') }}"> <small class="pl-2">United States</small></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="testimonial-card">
+                        <div class="t-text">
+                           <p>Exceptional customer service, a quick reaction time, and most importantly, a flexible answer to our needs. The job was done flawlessly and to  our  full satisfaction. We'd be delighted to work with Prilient again.</p>
+                        </div>
+                        <div class="client-thumbs mt30">
+                           <div class="media v-center">
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
+                              <div class="media-body user-info">
+                                 <h5>Pracmanag</h5>
+                                 <span class="d-flex"><img class="icon-flat" src="{{ asset('images/switzerland.png') }}"> <small class="pl-2">Switzerland</small></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="testimonial-card">
+                        <div class="t-text">
+                           <p>Great to work with! Great communication and very professional. Great quality to work. Will hire again.</p>
+                        </div>
+                        <div class="client-thumbs mt30">
+                           <div class="media v-center">
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
+                              <div class="media-body user-info">
+                                 <h5>Levimoroney</h5>
+                                 <span class="d-flex"><img class="icon-flat" src="{{ asset('images/australia.png') }}"> <small class="pl-2">Australia</small></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="testimonial-card">
+                        <div class="t-text">
+                           <p>Excellent work.</p>
+                        </div>
+                        <div class="client-thumbs mt30">
+                           <div class="media v-center">
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
+                              <div class="media-body user-info">
+                                 <h5>Dublinweb</h5>
+                                 <span class="d-flex"><img class="icon-flat" src="{{ asset('images/ireland.png') }}"> <small class="pl-2">Ireland</small></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="testimonial-card">
+                        <div class="t-text">
+                           <p>Best experience.</p>
+                        </div>
+                        <div class="client-thumbs mt30">
+                           <div class="media v-center">
+                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
+                              <div class="media-body user-info">
+                                 <h5>Verdzercof</h5>
+                                 <span class="d-flex"><img class="icon-flat" src="{{ asset('images/united-states.png') }}"> <small class="pl-2">United States</small></span>
                               </div>
                            </div>
                         </div>
@@ -843,6 +913,11 @@
             </div>
          </div>
       </section>
+      <style type="text/css">
+         .icon-flat{
+            width: 20px !important;
+         }
+      </style>
       <!--End Testinomial-->
       <!--Start CTA-->
       <section class="cta-area pad-tb">

@@ -81,6 +81,7 @@
         autoplayTimeout: 6000,
         autoplayHoverPause: true,
         smartSpeed: 500,
+        margin: 20,
         responsive: {
             0: {
                 items: 1
@@ -89,10 +90,35 @@
                 items: 1
             },
             1024: {
-                items: 1
+                items: 3
             },
             1400: {
+                items: 3
+            }
+        }
+    });
+
+    var d = g(".blog-card-a");
+    d.owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        margin: 15,
+        autoplayTimeout: 6000,
+        autoplayHoverPause: true,
+        smartSpeed: 500,
+        responsive: {
+            0: {
                 items: 1
+            },
+            768: {
+                items: 1
+            },
+            1024: {
+                items: 2
+            },
+            1400: {
+                items: 2
             }
         }
     });

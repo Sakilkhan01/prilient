@@ -18,15 +18,15 @@
     </div>
   </section>
   <!--End why-choose-->
-<div class="container">
+<div class="container pt-5">
       <div class="col-lg-12 py-3">
-            <h4>Comprehensive Software development Service</h4>
+            <p>Comprehensive Software development Service</p>
       </div>
       <div class="col-lg-12 py-3">
-            <h4>Develop Software for your organization that unleash your business capabilities</h4>
+            <p>Develop Software for your organization that unleash your business capabilities</p>
       </div>
       <div class="col-lg-12">
-            <h4>Comprehensive software development service that enables the organization to be modern, high-performing, agile, and futuristic</h4>
+            <p>Comprehensive software development service that enables the organization to be modern, high-performing, agile, and futuristic</p>
              
       </div>
       <div class="col-lg-12 text-center py-5">

@@ -429,10 +429,10 @@
                      <li>
                          <a href="{{ url('technologies') }}" class="menu-links">Technologies</a>
                      </li>
-                     <li>
-                         <!-- <a href="{{ url('portfolio') }}" class="menu-links">Portfolio</a> -->
+                     <!-- <li>
+                         <a href="{{ url('portfolio') }}" class="menu-links">Portfolio</a>
                          <a href="javascript:void(0)" class="menu-links">Portfolio</a>
-                     </li>
+                     </li> -->
                      <li>
                          <a href="{{ route('blog') }}" class="menu-links">Blog</a>
                      </li>
