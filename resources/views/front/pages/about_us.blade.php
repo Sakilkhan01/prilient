@@ -39,11 +39,11 @@
             <div class="col-lg-4 col-sm-4">
               <div class="statistics">
                 <div class="statnumb counter-number">
-                  <span class="counter">80</span><span>+</span>
+                  <span class="counter">40</span><span>+</span>
                   <p>Dedicated Team</p>
                 </div>
               </div>
-            </div>
+            </div><!-- 
             <div class="col-lg-4 col-sm-4">
               <div class="statistics">
                 <div class="statnumb">
@@ -51,11 +51,11 @@
                   <p>Current Projects</p>
                 </div>
               </div>
-            </div>
+            </div> -->
             <div class="col-lg-4 col-sm-4">
               <div class="statistics mb0">
                 <div class="statnumb counter-number">
-                  <span class="counter">850</span><span>+</span>
+                  <span class="counter">60</span><span>+</span>
                   <p>Projects Done</p>
                 </div>
               </div>
@@ -66,6 +66,82 @@
     </div>
   </section>
   <!--End About-->
+  <!--Start statistics-->
+      <div class="statistics-section bg-gradient6 pad-tb tilt3d">
+         <div class="container">
+            <div class="row justify-content-center t-ctr">
+               <div class="col-lg-4 col-sm-6">
+                  <div class="statistics">
+                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
+                        <img src="{{ url('assets/images/icons/startup.svg') }}" alt="years" class="img-fluid" />
+                     </div>
+                     <div class="statnumb">
+                        <span class="counter">3</span><span>+</span>
+                        <p>Year In Business</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="statistics">
+                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
+                        <img src="{{ url('assets/images/icons/team.svg') }}" alt="team" class="img-fluid" />
+                     </div>
+                     <div class="statnumb">
+                        <span class="counter">40</span><span>+</span>
+                        <p>Team Members</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row small t-ctr">
+               <div class="col-lg-4 col-sm-6">
+                  <div class="statistics">
+                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
+                        <img src="{{ url('assets/images/icons/deal.svg') }}" alt="happy" class="img-fluid" />
+                     </div>
+                     <div class="statnumb">
+                        <span class="counter">50</span><span>+</span>
+                        <p>Happy Clients</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="statistics">
+                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
+                        <img src="{{ url('assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
+                     </div>
+                     <div class="statnumb counter-number">
+                        <span class="counter">60</span><span>+</span>
+                        <p>Projects Done</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- <div class="col-lg-3 col-sm-6">
+                  <div class="statistics">
+                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
+                        <img src="{{ url('assets/images/icons/worker.svg') }}" alt="work" class="img-fluid" />
+                     </div>
+                     <div class="statnumb">
+                        <span class="counter">95</span><span>k</span>
+                        <p>Hours Worked</p>
+                     </div>
+                  </div>
+               </div> -->
+               <div class="col-lg-4 col-sm-6">
+                  <div class="statistics mb0">
+                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
+                        <img src="{{ url('assets/images/icons/customer-service.svg') }}" alt="support" class="img-fluid" />
+                     </div>
+                     <div class="statnumb">
+                        <span class="counter">24</span><span>/</span><span class="counter">7</span>
+                        <p>Support Available</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--End statistics-->
   <!--Start why-choose-->
   <section class="why-choose pad-tb">
     <div class="container">
