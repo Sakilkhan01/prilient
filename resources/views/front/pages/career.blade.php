@@ -36,7 +36,7 @@
                         <img src="{{ url('assets/images/icons/startup.svg') }}" alt="years" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">4</span><span>+</span>
+                        <span class="counter">3</span><span>+</span>
                         <p>Year In Business</p>
                      </div>
                   </div>
@@ -60,7 +60,7 @@
                         <img src="{{ url('assets/images/icons/deal.svg') }}" alt="happy" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">100</span>
+                        <span class="counter">50</span><span>+</span>
                         <p>Happy Clients</p>
                      </div>
                   </div>
@@ -71,7 +71,7 @@
                         <img src="{{ url('assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
                      </div>
                      <div class="statnumb counter-number">
-                        <span class="counter">120</span><span>k</span>
+                        <span class="counter">60</span><span>+</span>
                         <p>Projects Done</p>
                      </div>
                   </div>
