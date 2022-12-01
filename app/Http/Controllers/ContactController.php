@@ -119,4 +119,45 @@ class ContactController extends Controller
 
       return $pdf->stream('whateveryourviewname.pdf');
     }  
+
+
+
+    public function sendRequestAQuete(Request $request){
+        dd($request->all());
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

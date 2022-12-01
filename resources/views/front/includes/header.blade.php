@@ -10,34 +10,20 @@
          </div>
          <div class="form-block sidebarform">
              <h4>Request A Quote</h4>
-             <form id="contactForm" data-bs-toggle="validator" class="shake mt20">
+             <form id="contactForm" data-bs-toggle="validator" class="shake mt20" method="post" action="{{ route('send-request-a-quote') }}">
+                @csrf
                  <div class="row">
                      <div class="form-group col-sm-12">
-                         <input type="text" id="name" placeholder="Enter name" required data-error="Please fill Out">
+                         <input type="text" id="name" name="name" placeholder="Enter name" required data-error="Please fill Out">
                          <div class="help-block with-errors"></div>
                      </div>
                      <div class="form-group col-sm-12">
-                         <input type="email" id="email" placeholder="Enter email" required>
+                         <input type="email" id="email" name="email" placeholder="Enter email" required>
                          <div class="help-block with-errors"></div>
                      </div>
                  </div>
-                 <!-- <div class="row">
-              <div class="form-group col-sm-12">
-                <input type="text" id="mobile" placeholder="Enter mobile" required data-error="Please fill Out">
-                <div class="help-block with-errors"></div>
-              </div>
-              <div class="form-group col-sm-12">
-                <select name="Dtype" id="Dtype" required>
-                  <option value="">Select Requirement</option>
-                  <option value="web">web</option>
-                  <option value="graphic">graphic</option>
-                  <option value="video">video</option>
-                </select>
-                <div class="help-block with-errors"></div>
-              </div>
-            </div> -->
                  <div class="form-group">
-                     <textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
+                     <textarea id="message" rows="5" name="message" placeholder="Enter your message" required></textarea>
                      <div class="help-block with-errors"></div>
                  </div>
                  <button type="submit" id="form-submit" class="btn lnk btn-main bg-btn">Submit <span

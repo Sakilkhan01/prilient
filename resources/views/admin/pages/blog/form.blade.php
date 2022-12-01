@@ -25,32 +25,32 @@
               {{ csrf_field() }}
               <div class="box-body">
                 <div class="form-group {{ $errors->has('title') ? ' has-error' : '' }}">
-                  <label>Title :</label><strong class="error">*</strong>
+                  <label>Title</label><strong class="error">*</strong>
                   <input type="text" class="form-control my-colorpicker1" placeholder="Title" name="title" value="{{ old('title') }}">
                 </div>
                 <div class="form-group {{ $errors->has('date') ? ' has-error' : '' }}">
-                  <label>Date :</label><strong class="error">*</strong>
+                  <label>Date</label><strong class="error">*</strong>
                   <input type="text" class="form-control my-colorpicker1" id="date" placeholder="Date" name="date" value="{{ old('date') }}">
                 </div>
                 <div class="form-group {{ $errors->has('meta_title') ? ' has-error' : '' }}">
-                  <label>Meta Title :</label><strong class="error">*</strong>
+                  <label>Meta Title</label><strong class="error">*</strong>
                   <input type="text" class="form-control my-colorpicker1" placeholder="Meta Title" name="meta_title" value="{{ old('meta_title') }}">
                 </div>
                 <div class="form-group {{ $errors->has('meta_keywords') ? ' has-error' : '' }}">
-                  <label>Meta Keywords :</label><strong class="error">*</strong>
+                  <label>Meta Keywords</label><strong class="error">*</strong>
                   <input type="text" class="form-control my-colorpicker1" placeholder="Meta Keywords" name="meta_keywords" value="{{ old('meta_keywords') }}">
                 </div>
                 <div class="form-group {{ $errors->has('meta_description') ? ' has-error' : '' }}">
-                  <label>Meta Description :</label><strong class="error">*</strong>
+                  <label>Meta Description</label><strong class="error">*</strong>
                   <input type="text" class="form-control my-colorpicker1" placeholder="Meta Description" name="meta_description" value="{{ old('meta_description') }}">
                 </div>                                                 
                 <div class="form-group {{ $errors->has('image') ? ' has-error' : '' }}">
-                  <label>Image :</label><strong class="error">*</strong><br>
+                  <label>Image</label><strong class="error">*</strong><br>
                   <img id="preview_img" src="{{ url('images/profile.png') }}" class="" width="200" height="150"/>
                   <input type="file" name="image" id="image" onchange="loadPreviewImage(this);" class="form-control"accept="image/jpeg, image/png">
                 </div>   
                 <div class="form-group {{ $errors->has('status') ? ' has-error' : '' }}">
-                  <label>Status :</label><strong class="error">*</strong>
+                  <label>Status</label><strong class="error">*</strong>
                   <select class="form-control" name="status">
                     <option value="">--Select Status--</option>
                     <option value="1" {{ old('status')==1 ? 'selected' : '' }}>Active</option>
@@ -58,11 +58,11 @@
                   </select>
                 </div>
                 <div class="form-group {{ $errors->has('short_description') ? ' has-error' : '' }}">
-                  <label>Short Description :</label><strong class="error">*</strong>
+                  <label>Short Description</label><strong class="error">*</strong>
                   <textarea class="ckeditor form-control" name="short_description">{{ old('short_description') }}</textarea>
                 </div>
                 <div class="form-group {{ $errors->has('description') ? ' has-error' : '' }}">
-                  <label>Description :</label><strong class="error">*</strong>
+                  <label>Description</label><strong class="error">*</strong>
                   <textarea class="ckeditor form-control" name="description">{{ old('description') }}</textarea>
                 </div>
                 <div class="form-group pull-right">

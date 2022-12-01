@@ -25,11 +25,11 @@
               {{ csrf_field() }}
               <div class="box-body">
                 <div class="form-group {{ $errors->has('name') ? ' has-error' : '' }}">
-                  <label>Title :</label><strong class="error">*</strong>
+                  <label>Title</label><strong class="error">*</strong>
                   <input type="text" class="form-control my-colorpicker1" placeholder="Name" name="name" value="{{ old('name',$client->name) }}">
                 </div>                             
                 <div class="form-group {{ $errors->has('image') ? ' has-error' : '' }}">
-                  <label>Image :</label><strong class="error">*</strong><br>
+                  <label>Image</label><strong class="error">*</strong><br>
                   @if(!empty($client->logo))
                   <img id="preview_img" src="{{ url('upload/client/'.$client->logo) }}" class="" width="200" height="150"/>
                   @else
@@ -39,7 +39,7 @@
                   <input type="file" name="image" id="image" onchange="loadPreviewImage(this);" class="form-control"accept="image/jpeg, image/png">
                 </div> 
                 <div class="form-group {{ $errors->has('status') ? ' has-error' : '' }}">
-                  <label>Status :</label><strong class="error">*</strong>
+                  <label>Status</label><strong class="error">*</strong>
                   <select class="form-control" name="status">
                     <option value="">--Select Status--</option>
                     <option value="1" {{ old('status',$client->status)==1 ? 'selected' : '' }}>Active</option>

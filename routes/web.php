@@ -22,7 +22,8 @@ use App\Http\Controllers\ContactController;
 
 Route::get('/', [HomeController::class, 'home']);
 Route::get('/career', [HomeController::class, 'Career']);
-Auth::routes(['register' => false,'home' => false]);
+// Auth::routes(['register' => false,'home' => false]);
+Auth::routes(['home' => false]);
 
 Route::get('blog', [BlogController::class, 'index'])->name('blog');
 Route::get('blog/{slug}', [BlogController::class, 'view'])->name('view_blog');
@@ -31,6 +32,10 @@ Route::get('search', [BlogController::class, 'search']);
 
 Route::get('contact-us', [ContactController::class, 'index']);
 Route::post('contact-us/store', [ContactController::class, 'store'])->name('contact_store');
+
+
+
+Route::post('send-request-a-quote', [ContactController::class, 'sendRequestAQuete'])->name('send-request-a-quote');
 
 // static routes
 
