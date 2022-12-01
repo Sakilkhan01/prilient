@@ -5,6 +5,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\admin\CareerController;
 use App\Http\Controllers\admin\JobsContoller;
+use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\ContactController;
  
 
@@ -170,9 +171,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin','auth'], 'nampspace'
     Route::post('job-post/update/{id}', [JobsContoller::class, 'update'])->name('job_post_update');
     Route::get('job-post/delete/{id}', [JobsContoller::class, 'delete'])->name('job_post_delete');
 
-Route::get('contact-us/list', [ContactController::class, 'list'])->name('contact_us.list');
-Route::get('contact-us/show/{id}', [ContactController::class, 'show'])->name('contact_us.show');
-Route::get('contact-us/pdf/{id}', [ContactController::class, 'showPDF'])->name('pdfStream');
+    Route::get('contact-us/list', [ContactController::class, 'list'])->name('contact_us.list');
+    Route::get('contact-us/show/{id}', [ContactController::class, 'show'])->name('contact_us.show');
+    Route::get('contact-us/pdf/{id}', [ContactController::class, 'showPDF'])->name('pdfStream');
 
 
 
@@ -180,4 +181,19 @@ Route::get('contact-us/pdf/{id}', [ContactController::class, 'showPDF'])->name('
     // Route::post('update-header-footer', [App\Http\Controllers\admin\HeaderFooterController::class, 'store'])->name('update-header-footer');
     // Route::get('site-seo', [App\Http\Controllers\admin\SiteSeoController::class, 'index'])->name('site-seo');
     // Route::post('update-site-seo', [App\Http\Controllers\admin\SiteSeoController::class, 'store'])->name('site-seo');
+
+    Route::get('users/list', [UserController::class, 'index'])->name('users.index');
+    Route::get('user/create', [UserController::class, 'create'])->name('users.create');
+    Route::post('user/store', [UserController::class, 'store'])->name('users.store');
+    Route::get('user/edit/{id}', [UserController::class, 'edit'])->name('users.edit');
+    Route::post('user/update/{user}', [UserController::class, 'update'])->name('users.update');
+    Route::get('user/delete/{id}', [UserController::class, 'destroy'])->name('users.destroy');
+
+
+
+
+
+
 });
+
+
