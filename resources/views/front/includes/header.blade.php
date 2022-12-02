@@ -10,21 +10,22 @@
          </div>
          <div class="form-block sidebarform">
              <h4>Request A Quote</h4>
-             <form id="contactForm" data-bs-toggle="validator" class="shake mt20" method="post" action="{{ route('send-request-a-quote') }}">
+             <p class="text-success" id="successMsg"></p>
+             <form id="contactForm" data-bs-toggle="validator" class="shake mt20">
                 @csrf
                  <div class="row">
-                     <div class="form-group col-sm-12">
-                         <input type="text" id="name" name="name" placeholder="Enter name" required data-error="Please fill Out">
-                         <div class="help-block with-errors"></div>
+                     <div class="form-group col-sm-12 mb-3">
+                         <input type="text" class="mb-0" id="name" name="name" placeholder="Enter name">
+                         <span class="text-danger" id="nameErrorMsg"></span>
                      </div>
-                     <div class="form-group col-sm-12">
-                         <input type="email" id="email" name="email" placeholder="Enter email" required>
-                         <div class="help-block with-errors"></div>
+                     <div class="form-group col-sm-12 mb-3">
+                         <input type="email" class="mb-0" id="email" name="email" placeholder="Enter email">
+                         <span class="text-danger" id="emailErrorMsg"></span>
                      </div>
                  </div>
-                 <div class="form-group">
-                     <textarea id="message" rows="5" name="message" placeholder="Enter your message" required></textarea>
-                     <div class="help-block with-errors"></div>
+                 <div class="form-group mb-3">
+                     <textarea id="message" class="mb-0" rows="5" name="message" placeholder="Enter your message"></textarea>
+                     <span class="text-danger" id="messageErrorMsg"></span>
                  </div>
                  <button type="submit" id="form-submit" class="btn lnk btn-main bg-btn">Submit <span
                          class="circle"></span></button>

@@ -144,3 +144,36 @@
     <a href="https://api.whatsapp.com/send?phone=7976026086&text=Hello" class="float whatsapp_icon" target="_blank">
 <i class="fa fa-whatsapp my-float my-whatsapp_icon"></i>
 </a>
+
+<script type="text/javascript">
+
+$('#contactForm').on('submit',function(e){
+    e.preventDefault();
+
+    let name = $('#name').val();
+    let email = $('#email').val();
+    let message = $('#message').val();
+
+    console.log(name);
+    
+    $.ajax({
+      url: "{{ route('send-request-a-quote') }}",
+      type:"POST",
+      data:{
+        "_token": "{{ csrf_token() }}",
+        name:name,
+        email:email,
+        message:message,
+      },
+      success:function(response){
+        $('#successMsg').text(response.success);
+        $('#contactForm')[0].reset();
+      },
+      error: function(response) {
+        $('#nameErrorMsg').text(response.responseJSON.errors.name);
+        $('#emailErrorMsg').text(response.responseJSON.errors.email);
+        $('#messageErrorMsg').text(response.responseJSON.errors.message);
+      },
+      });
+    });
+  </script>

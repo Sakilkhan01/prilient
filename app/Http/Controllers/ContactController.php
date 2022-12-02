@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\ContactMail;
 use App\Mail\AdminMail;
+use App\Mail\RequestAdmin;
+use App\Mail\RequestQuate;
 use App\Models\Contact;
 use Validator;
 use Mail;
@@ -20,8 +22,6 @@ class ContactController extends Controller
     {
 
         $messages = [
-            //'g-recaptcha-response.required' => 'You must check the reCAPTCHA.',
-            //'g-recaptcha-response.captcha' => 'Captcha error! try again later or contact site admin.',
             'name.required' => 'Please fill the name field.',
             'phone.required' => 'Please fill the phone number field.',
             'phone.numeric' => 'The phone number must be a number.',
@@ -123,7 +123,26 @@ class ContactController extends Controller
 
 
     public function sendRequestAQuete(Request $request){
-        dd($request->all());
+        $request->validate([
+            'name'          => 'required',
+            'email'         => 'required|email',
+            'message'       => 'required',
+        ]);
+
+        $user = array(
+            'name'         => $request->name,
+            'email'        => $request->email,
+            'subject'      => 'Request a Quate',
+            'message'      => $request->message,
+        );
+
+        Mail::to($request->email)->send(new RequestQuate($user));
+
+        $from_email = config('mail.from_email');
+
+        Mail::to($from_email)->send(new RequestAdmin($user));
+
+        return response()->json(['success'=>'Thank you!, Your request sent to admin.']);
     }
 
 
