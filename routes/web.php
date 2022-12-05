@@ -27,7 +27,7 @@ use App\Http\Controllers\SitemapXmlController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/our-sitemap.xml', [SitemapXmlController::class, 'index']);
+Route::get('/sitemap.xml', [SitemapXmlController::class, 'index']);
 
 
 Route::get('/', [HomeController::class, 'home']);
@@ -154,21 +154,6 @@ Route::view('portfolio', 'front.pages.portfolio');
 
 
 
-// Route::get('/sitemap', function(){
-//     $sitemap = App::make('sitemap');
-
-//     $blog = Blog::where('status', 1)->get();
-
-//     foreach($blog as $post)
-//     {
-//         $sitemap->add(URL::to('blog',$post->slug), $post->title, $post->created_at);
-//     }
-
-//     $sitemap->store('xml', 'sitemap');
-
-//     return redirect(url('sitemap.xml'));
-
-// });
 
 
 

@@ -14,7 +14,6 @@
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.4",
-        "laravelium/sitemap": "^7.*",
         "renatomarinho/laravel-page-speed": "^2.1"
     },
     "require-dev": {
