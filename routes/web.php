@@ -1,12 +1,19 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Blog;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\URL;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\admin\CareerController;
 use App\Http\Controllers\admin\JobsContoller;
 use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\SitemapXmlController;
+
+
+
  
 
 
@@ -20,6 +27,8 @@ use App\Http\Controllers\ContactController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/our-sitemap.xml', [SitemapXmlController::class, 'index']);
+
 
 Route::get('/', [HomeController::class, 'home']);
 Route::get('/career', [HomeController::class, 'Career']);
@@ -142,6 +151,25 @@ Route::view('cloud_strategy/Azure_Cloud_Service', 'front.pages.Azure_Cloud_Servi
 
 
 Route::view('portfolio', 'front.pages.portfolio');
+
+
+
+// Route::get('/sitemap', function(){
+//     $sitemap = App::make('sitemap');
+
+//     $blog = Blog::where('status', 1)->get();
+
+//     foreach($blog as $post)
+//     {
+//         $sitemap->add(URL::to('blog',$post->slug), $post->title, $post->created_at);
+//     }
+
+//     $sitemap->store('xml', 'sitemap');
+
+//     return redirect(url('sitemap.xml'));
+
+// });
+
 
 
 

@@ -9,7 +9,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h2>UI/UX Design</h2>
+                <h1>UI/UX Design</h1>
               </div>
             </div>
           </div>

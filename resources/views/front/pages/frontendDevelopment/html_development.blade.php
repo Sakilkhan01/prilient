@@ -9,7 +9,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h2>HTML 5 Development Service</h2>
+                <h1>HTML 5 Development Service</h1>
               </div>
             </div>
           </div>

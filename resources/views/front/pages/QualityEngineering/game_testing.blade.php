@@ -9,7 +9,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h2>Game Testing Service</h2>
+                <h1>Game Testing Service</h1>
               </div>
             </div>
           </div>

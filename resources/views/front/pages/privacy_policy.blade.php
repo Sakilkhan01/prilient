@@ -9,7 +9,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h2>Privacy Policy</h2>
+                <h1>Privacy Policy</h1>
               </div>
             </div>
           </div>

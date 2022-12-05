@@ -10,7 +10,7 @@
             <div class="col-lg-12 v-center">
                <div class="bread-inner">
                   <div class="bread-title">
-                     <h2>CONTACT US</h2>
+                     <h1>CONTACT US</h1>
                   </div>
                </div>
             </div>

@@ -9,7 +9,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h2>MVP & Prototype</h2>
+                <h1>MVP & Prototype</h1>
               </div>
             </div>
           </div>

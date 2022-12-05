@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/vendor/sitemap/styles/xml.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<url>
+	<loc>http://127.0.0.1:8000/blog/latest_trends_in_cybersecurity_2022</loc>
+		<priority>2022-08-09 06:08:05</priority>
+		<lastmod>1970-01-01T00:00:00+00:00</lastmod>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/blog/what_are_cloud_management_services__know_everything_about_it_</loc>
+		<priority>2022-08-09 06:09:57</priority>
+		<lastmod>1970-01-01T00:00:00+00:00</lastmod>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/blog/what_is_devops__tools_and_benefits</loc>
+		<priority>2022-08-09 06:10:59</priority>
+		<lastmod>1970-01-01T00:00:00+00:00</lastmod>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/blog/what_you_should_know_about_cybersecurity_risk_assessments</loc>
+		<priority>2022-08-09 06:12:01</priority>
+		<lastmod>1970-01-01T00:00:00+00:00</lastmod>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/blog/best_cybersecurity_solutions_for_small_businesses</loc>
+		<priority>2022-08-09 06:13:06</priority>
+		<lastmod>1970-01-01T00:00:00+00:00</lastmod>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/blog/tips_on_implementing_cybersecurity_for_small_businesses</loc>
+		<priority>2022-08-09 06:14:37</priority>
+		<lastmod>1970-01-01T00:00:00+00:00</lastmod>
+	</url>
+</urlset>
+

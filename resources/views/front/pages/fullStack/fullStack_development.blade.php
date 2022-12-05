@@ -10,7 +10,7 @@
             <div class="bread-inner">
               <div class="bread-menu">
               <div class="bread-title">
-                <h2>Full-stack Development Services</h2>
+                <h1>Full-stack Development Services</h1>
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h2>Laravel Development Services</h2>
+                <h1>Laravel Development Services</h1>
               </div>
             </div>
           </div>
