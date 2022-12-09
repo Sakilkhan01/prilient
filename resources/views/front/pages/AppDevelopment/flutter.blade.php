@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Flutter App Development")
+@section('meta_keywords', "Flutter App Development")
+@section('meta_description', "Flutter app development is the perfect choice for building an application from scratch or migrating your old business app for quick performance build a range of iOS and Android apps")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

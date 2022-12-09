@@ -1,4 +1,9 @@
 @extends('front.layouts.app')
+@section('title', "App design services")
+@section('meta_keywords', "App design services")
+@section('meta_description', "We offer app design services to carve your design to help you develop creative and immersive app designs trends for your business vertical, end-user needs and best user")
+
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

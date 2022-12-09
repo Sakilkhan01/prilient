@@ -1,5 +1,9 @@
 @extends('front.layouts.app')
-@section('title',__('Blog -'))
+@section('title', $blog->meta_title)
+@section('meta_keywords', $blog->meta_keywords)
+@section('meta_description', $blog->meta_description)
+
+
 @section('content')
   
 

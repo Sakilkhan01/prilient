@@ -1,4 +1,9 @@
 @extends('front.layouts.app')
+@section('title', "Mobile App devlopment services")
+@section('meta_keywords', "Mobile App devlopment services")
+@section('meta_description', "We provide a range of mobile application development services at Your Convenience including custom mobile development on iOS or Android platforms, building cross-platform apps")
+
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

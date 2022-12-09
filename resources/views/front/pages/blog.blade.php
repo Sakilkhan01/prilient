@@ -1,5 +1,5 @@
 @extends('front.layouts.app')
-@section('title',__('Blog -'))
+@section('title',__('Blog'))
 @section('content')
 
 <link href="{{ url('frontent/blog/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">

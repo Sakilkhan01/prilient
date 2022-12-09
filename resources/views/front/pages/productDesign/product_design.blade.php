@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Product design services")
+@section('meta_keywords', "product design")
+@section('meta_description', "The definition of product design describes the process of imagining, creating, products that solve users' problems or specific needs. Our product design services create experiences.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

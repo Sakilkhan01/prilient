@@ -2,9 +2,10 @@
 <html lang="en" class="no-js">
 <head>
       <meta charset="utf-8"/>
-      <title>@yield('title') {{ config('app.name') }}</title>
-      <meta name="description" content="We are an India-based firm that continues to move forward by specialising in the development of custom IT solutions for mobile, web, desktop, Server Management, DevOps, Security, Game Development.">
-      <meta name="keywords" content=" Best Cloud Services | DevOps | Cybersecurity Services | Web Development">
+      
+    <title>@yield('title', config('app.name') ) </title>
+    <meta name="keywords" content="@yield('meta_keywords','Best Cloud Services | DevOps | Cybersecurity Services | Web Development')">
+    <meta name="description" content="@yield('meta_description','We are an India-based firm that continues to move forward by specialising in the development of custom IT solutions for mobile, web, desktop, Server Management, DevOps, Security, Game Development.')">
       <meta content name="Get your business website and Mobile Application Development solutions by certified, experienced developers in Jaipur, India.Prilient serving best DevOps, Cyber security, Digital Marketing and SEO services affordable for Business Outsourcing.Get your business website and Mobile Application Development solutions by certified, experienced developers in Jaipur, India.Prilient serving best DevOps, Cyber security, Digital Marketing and SEO services affordable for Business Outsourcing.">
       <meta name="google-site-verification" content="ePRKnCa5lWVO9Szr-1J2YPqxDTW_LSUGbjwbXCvUuO8">
       <meta name="viewport" content="width=device-width,initial-scale=1">

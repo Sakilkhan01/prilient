@@ -1,4 +1,9 @@
 @extends('front.layouts.app')
+@section('title', "UI/ UX Design services")
+@section('meta_keywords', "UI/ UX Design services")
+@section('meta_description', "Looking for UI/ UX Design Services? We are specialized in creating beautiful and smooth UI/UX designs that provide better user experience by incorporating effective collaboration,")
+
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
