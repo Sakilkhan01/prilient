@@ -21,7 +21,7 @@
 <div class="container">
     <div class="col-lg-12 text-center py-5">
           <div class="common-heading  ">
-            <h2>Offering a Full Suite of DevOps Servicess</h2>
+            <h2>Offering a Full Suite of DevOps Services</h2>
              <p>DevOps is an IT development approach in which applications are built, tested, and deployed quickly. By integrating development and operations, you get better control over project scope, timelines, and risk exposure. We offer a full suite of DevOps services for seamless integration between your software development and IT operations teams. Our experts will help you build, manage, and scale your applications so that you can focus on building great products.</p>
           </div>
       </div>
