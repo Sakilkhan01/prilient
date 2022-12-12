@@ -10,7 +10,7 @@
             <div class="bread-inner">
               <div class="bread-menu">
               <div class="bread-title">
-                <h1>MEAN Stack Development Services</h1>
+                <h1>MERN Stack Development Services</h1>
               </div>
             </div>
           </div>
