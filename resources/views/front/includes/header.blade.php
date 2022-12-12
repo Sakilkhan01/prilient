@@ -230,7 +230,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="#">Back-end Development &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('/backend_development') }}">Back-end Development &raquo;</a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{url('backend_development/php-development')}}">PHP
                                                  Development</a></li>
@@ -249,7 +249,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="#">Blockchain Development &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('/blockchain_development') }}">Blockchain Development &raquo;</a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('blockchain_development/smart-contracts-development') }}">Smart
                                                  Contracts Development</a></li>
