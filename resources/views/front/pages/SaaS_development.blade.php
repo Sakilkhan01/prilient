@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "SaaS Development")
+@section('meta_keywords', "SaaS Development")
+@section('meta_description', "SaaS development is the creation of cloud-based applications. It includes the creation of documentation, design, development, testing, and deployment on the server.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Localization Testing Service")
+@section('meta_keywords', "Localization Testing Service")
+@section('meta_description', "Our localization testing services help you impress users around the world. Testing services combine a l community of skilled testers with a test management platform.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

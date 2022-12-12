@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Usability Testing Service")
+@section('meta_keywords', "Usability Testing Service")
+@section('meta_description', "Usability Testing refers to evaluating a product or service by testing it with representative users.This type of testing includes testing User Interfaces & User Experience.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

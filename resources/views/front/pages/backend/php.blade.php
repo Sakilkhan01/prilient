@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "PHP Development Services")
+@section('meta_keywords', "PHP Development Services")
+@section('meta_description', "PHP development is aimed at implementing secure and powerful server-sides of all types of web applications. This makes us the first choice for PHP development services.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

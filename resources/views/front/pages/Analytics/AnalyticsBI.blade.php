@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Analytics and BI Service")
+@section('meta_keywords', "Analytics and BI Service")
+@section('meta_description', "Analytics and BI Service (ABI) is an umbrella term that includes the applications, infrastructure and tools, and best practices that enable access to and analysis of information")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

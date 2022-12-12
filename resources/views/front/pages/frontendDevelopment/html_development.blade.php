@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "HTML 5 Development Service")
+@section('meta_keywords', "HTML 5 Development Service")
+@section('meta_description', "HTML 5 Development Service is a revision of the Hypertext Markup Language (HTML), the standard programming language for describing the content appearance of Web pages.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

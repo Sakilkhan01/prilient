@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Full-stack Development Services")
+@section('meta_keywords', "Full-stack Development Services")
+@section('meta_description', "Full stack developers have comprehensive knowledge about the front and back end web development process. This means that these developers contribute on both server-side")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

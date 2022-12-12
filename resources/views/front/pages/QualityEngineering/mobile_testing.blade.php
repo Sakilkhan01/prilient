@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Mobile Testing Service")
+@section('meta_keywords', "Mobile Testing Service")
+@section('meta_description', "Mobile App Testing involves analyzing mobile apps for functionality, usability, visual appeal, and consistency across multiple mobile devices. It helps ensure an optimal user experience")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

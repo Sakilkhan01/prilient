@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Data Science Service")
+@section('meta_keywords', "Data Science Service")
+@section('meta_description', "Data Science services have revolutionized the way products and services are developed to simplify strenuous real-world tasks. we provide the best data science services")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "ERP Testing Service")
+@section('meta_keywords', "ERP Testing Service")
+@section('meta_description', "ERP Application Testing Services has been trending for the past 20 years. The process of confirming the functionality of your ERP software solution during implementation")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

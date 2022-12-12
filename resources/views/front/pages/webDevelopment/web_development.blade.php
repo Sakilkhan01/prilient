@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Web Development Services")
+@section('meta_keywords', "Web Development Services")
+@section('meta_description', "Web development services are beneficial for a variety of reasons. involve everything related to building a web-based solution, whether it is a simple text page")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

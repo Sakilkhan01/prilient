@@ -1,4 +1,9 @@
 @extends('front.layouts.app')
+@section('title', "AWS Amplify & AWS Lamda Service")
+@section('meta_keywords', "AWS Amplify & AWS Lamda Service")
+@section('meta_description', "AWS Amplify & AWS Lamda Service is a set of purpose-built tools and features that enables frontend web and mobile developers to quickly and easily build full-stack applications")
+
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Blockchain wallets Development services")
+@section('meta_keywords', "Blockchain wallets Development services")
+@section('meta_description', "blockchain that supports a native cryptocurrency. Usually requires extensive technical training to develop coding skills and understanding of Blockchain wallets Development")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

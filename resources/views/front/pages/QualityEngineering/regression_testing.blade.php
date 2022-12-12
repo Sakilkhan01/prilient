@@ -1,4 +1,9 @@
 @extends('front.layouts.app')
+@section('title', "Regression Testing Service")
+@section('meta_keywords', "Regression Testing Service")
+@section('meta_description', "Regression testing is done after functional testing has concluded, to verify that the other functionalities are working. testing has traditionally been performed")
+
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

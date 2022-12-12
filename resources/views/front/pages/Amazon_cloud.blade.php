@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Amazon cloud application development")
+@section('meta_keywords', "Amazon cloud application development")
+@section('meta_description', "Amazon cloud application development is an approach to designing, and managing applications through cycles of rapid innovation. This approach increases the agility")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

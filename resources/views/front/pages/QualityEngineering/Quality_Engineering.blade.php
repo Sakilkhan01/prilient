@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Quality Engineering Service")
+@section('meta_keywords', "Quality Engineering Service")
+@section('meta_description', "Our Quality Engineering Service is the discipline of engineering concerned with the principles and practice of product and service quality assurance and control.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

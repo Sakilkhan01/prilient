@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Back-end development")
+@section('meta_keywords', "Back-end development")
+@section('meta_description', "Back-end development means working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

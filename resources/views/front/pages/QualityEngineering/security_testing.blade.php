@@ -1,4 +1,9 @@
 @extends('front.layouts.app')
+@section('title', "Security Testing Service")
+@section('meta_keywords', "Security Testing Service")
+@section('meta_description', "Security testing services are needed to detect, analyze, and help remediate flaws in software, IT infrastructure, IT policies and procedures to prevent security")
+
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

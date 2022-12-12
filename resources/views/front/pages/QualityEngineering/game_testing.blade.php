@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Game Testing Service")
+@section('meta_keywords', "Game Testing Service")
+@section('meta_description', "Looking for a top rated Game Testing Service provider? Prilient is the Best game testing Services  provides high quality services to companies around the world")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

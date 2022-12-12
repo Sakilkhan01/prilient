@@ -1,4 +1,9 @@
 @extends('front.layouts.app')
+@section('title', "DevOps Services")
+@section('meta_keywords', "DevOps Services")
+@section('meta_description', "DevOps services are a set of development and operation.DevOps solution helps to develop & deploy high-quality software products and Providing better resource management")
+
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

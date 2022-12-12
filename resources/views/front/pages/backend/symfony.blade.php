@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Symfony Development Services")
+@section('meta_keywords', "Symfony Development Services")
+@section('meta_description', "Symfony Development Services is a modern, enterprise-level web application framework that utilizes the latest technologies. Symfony is the ultimate solution for businesses")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

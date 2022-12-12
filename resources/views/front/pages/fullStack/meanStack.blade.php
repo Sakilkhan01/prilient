@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "MEAN Stack Development Services")
+@section('meta_keywords', "MEAN Stack Development Services")
+@section('meta_description', "MEAN Stack Development Services JavaScript-based framework for full-stack development platforms. This framework is widely used to design dynamic apps and websites")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Functional Testing Service")
+@section('meta_keywords', "Functional Testing Service")
+@section('meta_description', "Functional testing is a form of testing and is a quality assurance process that helps to validate the system or components to ensure quality in each phase of product")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "PaaS Development")
+@section('meta_keywords', "PaaS Development")
+@section('meta_description', "Platform as a service (PaaS) development is a complete development and deployment environment in the cloud, with resources that enable you to deliver everything")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -1,4 +1,9 @@
 @extends('front.layouts.app')
+@section('title', "Angular JS Development Service")
+@section('meta_keywords', "Angular JS Development Service")
+@section('meta_description', "AngularJS Development Services are known for their flexibility, scalability, and convenient ASP.NET MVC implementation. Angular services will help take your business to the next level")
+
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

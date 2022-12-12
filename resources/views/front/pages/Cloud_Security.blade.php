@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Cloud Security")
+@section('meta_keywords', "Cloud Security")
+@section('meta_description', "Cloud security, also known as cloud computing is a collection of procedures and technology designed to address external and internal threats to business security.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

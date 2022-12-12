@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Private/Public Blockchain Development Service")
+@section('meta_keywords', "Private/Public Blockchain Development Service")
+@section('meta_description', "Private/Public Blockchain Development Service is a peer-to-peer network, made centralized by connecting all the nodes to a center point that manages the whole platform.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

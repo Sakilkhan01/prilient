@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "front-end development services")
+@section('meta_keywords', "front-end development services")
+@section('meta_description', "front-end development services is the process of building components that interact with users. Examples are the user interface, buttons, user-entered data, websites.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

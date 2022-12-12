@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Python Development Services")
+@section('meta_keywords', "Python Development Services")
+@section('meta_description', "Python development include data-enriched enterprise apps, cloud apps, CMS, dynamic websites with custom animation.The top developers use different Python web frameworks")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

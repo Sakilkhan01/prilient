@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Ecommerce Development services")
+@section('meta_keywords', "Ecommerce Development Services")
+@section('meta_description', "Ecommerce development refers to the process of creating and maintaining an online store or marketplace.This can involve anything from building a simple website")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

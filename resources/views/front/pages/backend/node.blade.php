@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "NodeJS Development Services")
+@section('meta_keywords', "NodeJS Development Services")
+@section('meta_description', "NodeJS Development is the leading server environment to develop agile and scalable network applications, Android, and iOS, development of software that can efficiently operate")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

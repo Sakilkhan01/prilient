@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Decentralized Apps (dApps) Development Service")
+@section('meta_keywords', "Decentralized Apps (dApps) Development Service")
+@section('meta_description', "Decentralized Apps (dApps) Development Service are open-source applications that are used to interact with smart contracts that run on a peer-to-peer network of servers.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

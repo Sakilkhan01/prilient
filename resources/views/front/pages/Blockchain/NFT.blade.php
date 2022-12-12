@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "NFT Development Service")
+@section('meta_keywords', "NFT Development Service")
+@section('meta_description', "NFT development services are used to launch software that enables the creation and sale of blockchain-based tokens backed by unique digital or physical assets.")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

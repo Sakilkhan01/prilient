@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Big Data Testing Service")
+@section('meta_keywords', "Big Data Testing Service")
+@section('meta_description', "Big Data Testing Service can be defined as the procedure that involves examining and validating the functionality of the validate the quality of big data applications")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('title', "Enterprise Applications")
+@section('meta_keywords', "Enterprise Applications")
+@section('meta_description', "Enterprise applications are designed to integrate computer systems that run all phases of an enterprise's operations to facilitate cooperation and coordination")
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
