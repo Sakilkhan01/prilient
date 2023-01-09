@@ -89,13 +89,13 @@
             </div>
          </div>
       </footer>
-      <script src="{{ url('assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
-      <script src="{{ url('assets/js/jquery.min.js') }}"></script>
-      <script src="{{ url('assets/js/bootstrap.bundle.min.js') }}"></script> 
-      <script src="{{ url('assets/js/plugin.min.js') }}"></script>
-      <script src="{{ url('assets/js/dark-mode.js') }}"></script>
-      <script src="{{ url('assets/js/main.js') }}"></script>      
-      <script src="{{ url('assets/js/progress-bar.js') }}"></script>  
+      <script src="{{ url('assets/js/vendor/modernizr-3.5.0.min.js') }}" defer></script>
+      <script src="{{ url('assets/js/jquery.min.js') }}" defer></script>
+      <script src="{{ url('assets/js/bootstrap.bundle.min.js') }}" defer></script> 
+      <script src="{{ url('assets/js/plugin.min.js') }}" defer></script>
+      <script src="{{ url('assets/js/dark-mode.js') }}" defer></script>
+      <script src="{{ url('assets/js/main.js') }}" defer></script>      
+      <script src="{{ url('assets/js/progress-bar.js') }}" defer></script>  
       <style type="text/css">
     .whatsapp_icon{
         position:fixed;
