@@ -1,29 +1,17 @@
 @extends('front.layouts.app')
 @section('content') 
-  <!-- content start -->
-      <!--Start Hero-->
       <section class="hero-card-web bg-gradient12 shape-bg3">
          <div class="hero-main-rp container-fluid">
             <div class="row">
                <div class="col-lg-5">
                   <div class="hero-heading-sec">
-                     <!-- <h2 class="wow fadeIn" data-wow-delay="0.3s"><span>Website,</span> <span>Software </span> <span> & Mobile App</span> <span>Development</span></h2> -->
                      <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>IT Support-IT Solution</span> 
-                        <!-- <span>Software </span> -->
                       <span>Prilient Technologies</span></h2>
                      <p class="wow fadeIn" data-wow-delay="0.6s">Leading company in providing smart business solutions for transforming and innovating businesses</p>
-                 
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
-                    
                   </div>
                </div>
                <div class="col-lg-7">
-                  <!-- <div class="hero-content-sec wow fadeIn" data-wow-delay="0.8s">
-                     <div class="video-intro-pp"><a class="video-link play-video" href="https://youtu.be/1ox4Wbq7irc?autoplay=1&amp;rel=0"><span class="triangle-play"></span></a></div>
-                     <div class="title-hero-oth">
-                        <p style="font-size:20px;">Checkout Our <span><strong style="color:#ffbb22;font-size:30px;">Video Portfolio</strong></span></p>
-                     </div>
-                  </div> -->
                   <div class="hero-right-scmm">
                      <div class="hero-service-cards wow fadeInRight" data-wow-duration="2s">
                         <div class="owl-carousel service-card-prb">
@@ -67,16 +55,6 @@
                                  </div>
                               </a>
                            </div>
-                           <!-- <div class="service-slide card-bg-e" data-tilt data-tilt-max="10" data-tilt-speed="1000">
-                              <a href="#">
-                                 <div class="service-card-hh">
-                                    <div class="image-sr-mm">
-                                       <img alt="custom-sport" src="{{ url('assets/images/service/Game development.png') }}">
-                                    </div>
-                                    <div class="title-serv-c"><span>Game </span> Development</div>
-                                 </div>
-                              </a>
-                           </div> -->
                            <div class="service-slide card-bg-f" data-tilt data-tilt-max="10" data-tilt-speed="1000">
                               <a href="{{ url('cyber_security') }}">
                                  <div class="service-card-hh">
@@ -94,8 +72,6 @@
             </div>
          </div>
       </section>
-      <!--End Hero-->
-      <!--Start About-->
       <section class="about-sec-rpb pad-tb">
          <div class="container">
             <div class="row justify-content-center text-center">
@@ -112,8 +88,6 @@
             </div>
          </div>
       </section>
-      <!--End About-->
-      <!--Start Service-->
       <section class="service-section-prb pad-tb">
          <div class="container">
             <div class="row upset">
@@ -195,8 +169,6 @@
             </div>
          </div>
       </section>
-      <!--End Service-->
-      <!--Start statistics-->
       <div class="statistics-section bg-gradient6 pad-tb tilt3d">
          <div class="container">
             <div class="row justify-content-center t-ctr">
@@ -246,17 +218,6 @@
                      </div>
                   </div>
                </div>
-               <!-- <div class="col-lg-3 col-sm-6">
-                  <div class="statistics">
-                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/worker.svg') }}" alt="work" class="img-fluid" />
-                     </div>
-                     <div class="statnumb">
-                        <span class="counter">95</span><span>k</span>
-                        <p>Hours Worked</p>
-                     </div>
-                  </div>
-               </div> -->
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics mb0">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
@@ -271,8 +232,6 @@
             </div>
          </div>
       </div>
-      <!--End statistics-->
-      <!--why choose-->
       <section class="why-choos-lg pad-tb deep-dark">
          <div class="container">
             <div class="row">
@@ -319,68 +278,6 @@
             </div>
          </div>
       </section>
-      <!--End why choose-->
-      <!--Start Portfolio-->
-      <!-- <section class="portfolio-section pad-tb">
-         <div class="container">
-            <div class="row justify-content-center ">
-               <div class="col-lg-8">
-                  <div class="common-heading">
-                     <span>Our Work</span>
-                     <h2 class="mb0">Check Our Portfolio</h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-lg-8 col-sm-8 mt60 wow fadeInUp" data-wow-delay="0.2s">
-                  <div class="isotope_item hover-scale">
-                     <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                        <a href="{{ url('web_development') }}"><img src="{{ url('assets/images/portfolio/image-d.jpg') }}" alt="image" class="img-fluid" /> </a>
-                     </div>
-                     <div class="item-info">
-                        <h4><a href="{{ url('web_development') }}">Website Development Project</a></h4>
-                        <p><a href="{{ url('web_development') }}">Click Here</a></p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-sm-4 mt60 wow fadeInUp" data-wow-delay="0.4s">
-                  <div class="isotope_item hover-scale">
-                     <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                        <a href="{{ url('app_development') }}"><img src="{{ url('assets/images/portfolio/image-1.jpg') }}" alt="image" class="img-fluid" /> </a>
-                     </div>
-                     <div class="item-info">
-                        <h4><a href="{{ url('app_development') }}">App Development Projects</a></h4>
-                        <p><a href="{{ url('app_development') }}">Click Here</a></p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-sm-4 mt60 wow fadeInUp" data-wow-delay="0.6s">
-                  <div class="isotope_item hover-scale">
-                     <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                        <a href="{{ url('product_design') }}"><img src="{{ url('assets/images/portfolio/image-6.jpg') }}" alt="image" class="img-fluid" /> </a>
-                     </div>
-                     <div class="item-info">
-                        <h4><a href="{{ url('product_design') }}">Graphics & Video Projects</a></h4>
-                        <p><a href="{{ url('product_design') }}">Click Here</a></p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-8 col-sm-8 mt60 wow fadeInUp" data-wow-delay="0.8s">
-                  <div class="isotope_item hover-scale">
-                     <div class="item-image" data-tilt data-tilt-max="2" data-tilt-speed="1000">
-                        <a href="{{ url('software_development') }}"><img src="{{ url('assets/images/portfolio/image-c.jpg') }}" alt="image" class="img-fluid" /> </a>
-                     </div>
-                     <div class="item-info">
-                        <h4><a href="{{ url('software_development') }}">Software Development Projects</a></h4>
-                        <p><a href="{{ url('software_development') }}">Click Here</a></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section> -->
-      <!--End Portfolio-->
-      <!--Start Clients-->
       <section class="clients-section- bg-gradient15 pad-tb">
          <div class="container">
             <div class="row justify-content-center">
@@ -412,51 +309,12 @@
                      @endif
 
                      <ul class="row text-center clearfix">
-                        <!-- @if(!$client->isEmpty())
-                           @foreach($client as $v)
-                           <li class="col-lg-2 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".2s">
-                              <div class="brand-logo">
-                                 <img src="{{ url('upload/client/',$v->logo) }}" alt="{{$v->name}}" class="img-fluid">
-                              </div>
-                              <p>{{$v->name}}</p>
-                           </li>
-                           @endforeach
-                        @else
-                           fff
-                        @endif -->
-                        <!-- 
-                        <li class="col-lg-2 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".4s">
-                           <div class="brand-logo"><img src="{{ url('assets/images/client/clients-2.png') }}" alt="clients" class="img-fluid"></div>
-                           <p>Abhinav Transport Company</p>
-                        </li>
-                        <li class="col-lg-2 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".6s">
-                           <div class="brand-logo"><img src="{{ url('assets/images/client/clients-3.png') }}" alt="clients" class="img-fluid"></div>
-                           <p>Sharma Publication</p>
-                        </li>
-                        <li class="col-lg-2 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay=".8s">
-                           <div class="brand-logo"><img src="{{ url('assets/images/client/clients-4.png') }}" alt="clients" class="img-fluid"></div>
-                           <p>Jaipur Global Services</p>
-                        </li>
-                        <li class="col-lg-2 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay="1s">
-                           <div class="brand-logo"><img src="{{ url('assets/images/client/clients-5.png') }}" alt="clients" class="img-fluid"></div>
-                           <p>Shiv Jyoti Cargo</p>
-                        </li>
-                        <li class="col-lg-2 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay="1.2s">
-                           <div class="brand-logo"><img src="{{ url('assets/images/client/clients-6.png') }}" alt="clients" class="img-fluid"></div>
-                           <p>Ficuster</p>
-                        <li class="col-lg-2 col-md-3 col-sm-4 col-6 wow fadeIn" data-wow-delay="1.2s">
-                           <div class="brand-logo"><img src="{{ url('assets/images/client/clients-7.png') }}" alt="clients" class="img-fluid"></div>
-                           <p>DBRC Packers & Movers</p>
-                        </li> -->
                      </ul>
                   </div>
                </div>
             </div>
          </div>
       </section>
-      <!--End Clients-->
-
-      <!--Start Badges-->
       <section class="badges-section bg-gradient5  pad-tb">
          <div class="container">
             <div class="row justify-content-center">
@@ -521,100 +379,6 @@
             </a>
             </div>
 
-            <!-- <div class="row">
-               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".2s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/azure.png') }}" alt="Azure"  class="img-fluid">
-                   
-                  </div>
-               </div>
-               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".4s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/angular.png') }}" alt="Angular"  class="img-fluid">
-                     
-                  </div>
-               </div>
-               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".6s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/cakephp.png') }}" alt="Cakephp"  class="img-fluid">
-                    
-                  </div>
-               </div>
-               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/codeigniter.png') }}" alt="Codeigniter"  class="img-fluid">
-                   
-                  </div>
-               </div>
-                   <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/django.png') }}" alt="Django"  class="img-fluid">
-                   
-                  </div>
-               </div>
-                   <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/elasticsearch.png') }}" alt="Elasticsearch"  class="img-fluid">
-                   
-                  </div>
-               </div>
-                   <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/flutter.png') }}" alt="Flutter"  class="img-fluid">
-                   
-                  </div>
-               </div>
-                   <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/hyperledger.png') }}" alt="Hyperledger"  class="img-fluid">
-                   
-                  </div>
-               </div>
-                <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/laravel.png') }}" alt="Laravel"  class="img-fluid">
-                   
-                  </div>
-               </div>   
-               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/net.png') }}" alt=".net"  class="img-fluid">
-                   
-                  </div>
-               </div>   
-               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/node.png') }}" alt="Node"  class="img-fluid">
-                   
-                  </div>
-               </div>
-               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/python.png') }}" alt="Python"  class="img-fluid">
-                   
-                  </div>
-               </div>
-               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/react.png') }}" alt="React"  class="img-fluid">
-                   
-                  </div>
-               </div>
-                 <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/vue.png') }}" alt="Vue"  class="img-fluid">
-                   
-                  </div>
-               </div>
-               <div class="col-lg-2 col-md-6 col-6 wow fadeIn" data-wow-delay=".8s">
-                  <div class="badges-content">
-                     <img src="{{ url('assets/images/about/Java-Logo.png') }}" alt="Java"  class="img-fluid">
-                   
-                  </div>
-               </div>
-             
-
-            </div> -->
             <div class="-cta-btn mt70">
                <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
                   <p>We <span>Promise.</span> We <span>Deliver.</span></p>
@@ -623,8 +387,6 @@
             </div>
          </div>
       </section>
-      <!--End Badges-->
-      <!--Start work-category-->
       <section class="work-category pad-tb">
          <div class="container">
             <div class="row">
@@ -715,8 +477,6 @@
             </div>
          </div>
       </section>
-      <!--End  work-category-->
-      <!--Start Testinomial-->
       <section class="testinomial-section bg-none pad-tb">
          <div class="container">
             <div class="row justify-content-center ">
@@ -728,28 +488,6 @@
                </div>
             </div>
             <div class="row">
-               <!-- <div class="col-lg-6">
-                  <div class="video-testimonials owl-carousel">
-                     <div class="video-review">
-                        <a class="video-link" href="javascript:void(0)">
-                           <img src="{{ url('assets/images/client/client-pic-a.jpg') }}" alt="client" class="img-fluid">
-                           <div class="review-vid-details">
-                              <div class="-vid-ico"><span class="triangle-play2"></span></div>
-                              <p>Prilient's Portfolio</p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="video-review">
-                        <a class="video-link" href="javascript:void(0)">
-                           <img src="{{ url('assets/images/client/client-pic-b.jpg') }}" alt="client" class="img-fluid">
-                           <div class="review-vid-details">
-                              <div class="-vid-ico"><span class="triangle-play2"></span></div>
-                              <p>Prilient's Vision</p>
-                           </div>
-                        </a>
-                     </div>
-                  </div>
-               </div> -->
                <div class="col-lg-12">
                   <div class="owl-carousel testimonial-card-a pl25">
                      <div class="testimonial-card">
@@ -758,10 +496,8 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info v-center">
                                  <h5>Amanta R.</h5>
-                                 <!-- <p><small>Lewis, Swifi, Android, Iphone, ASP.NET Programming.</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -772,10 +508,8 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Helsinki Braithwaite</h5>
-                                 <!-- <p><small>Javascript, Couch &amp; Mongo, NOSQL, SQL, Node JS, JSON.</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -786,10 +520,8 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Luiz Fernandez</h5>
-                                 <!-- <p><small>ASP.NET Programming, Javascript, Mobile App Development, React JS.</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -800,10 +532,8 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Mary Daniels</h5>
-                                 <!-- <p><small>C#, Programming, Azure, SQL, Microsoft, Angular JS, Server.</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -814,10 +544,8 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Shinzo Markel</h5>
-                                 <!-- <p><small>ASP.NET Programming, Angular JS, React JS.</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -828,10 +556,8 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Mbola Smith</h5>
-                                 <!-- <p><small>Mobile App Development, Android, Iphone, React JS</small></p> -->
                               </div>
                            </div>
                         </div>
@@ -842,7 +568,6 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Realestatefree</h5>
                                  <span class="d-flex"><img class="icon-flat" src="{{ asset('images/united-states.png') }}"> <small class="pl-2">United States</small></span>
@@ -856,7 +581,6 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Pracmanag</h5>
                                  <span class="d-flex"><img class="icon-flat" src="{{ asset('images/switzerland.png') }}"> <small class="pl-2">Switzerland</small></span>
@@ -870,7 +594,6 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Levimoroney</h5>
                                  <span class="d-flex"><img class="icon-flat" src="{{ asset('images/australia.png') }}"> <small class="pl-2">Australia</small></span>
@@ -884,7 +607,6 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Dublinweb</h5>
                                  <span class="d-flex"><img class="icon-flat" src="{{ asset('images/ireland.png') }}"> <small class="pl-2">Ireland</small></span>
@@ -898,7 +620,6 @@
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
-                              <!-- <div class="user-image bdr-radius"><img src="{{ url('assets/images/user-thumb/girl.jpg') }}" alt="girl" class="img-fluid" /></div> -->
                               <div class="media-body user-info">
                                  <h5>Verdzercof</h5>
                                  <span class="d-flex"><img class="icon-flat" src="{{ asset('images/united-states.png') }}"> <small class="pl-2">United States</small></span>
@@ -918,8 +639,6 @@
             width: 20px !important;
          }
       </style>
-      <!--End Testinomial-->
-      <!--Start CTA-->
       <section class="cta-area pad-tb">
          <div class="container">
             <div class="row justify-content-center">
@@ -938,8 +657,6 @@
          <div class="shape shape-a3"><img src="{{ url('assets/images/shape/shape-13.svg') }}" alt="shape"></div>
          <div class="shape shape-a4"><img src="{{ url('assets/images/shape/shape-11.svg') }}" alt="shape"></div>
       </section>
-      <!--End CTA-->
-      <!--Start Location-->
       <section class="our-office pad-tb">
          <div class="container">
             <div class="row justify-content-center">
@@ -981,27 +698,9 @@
                      </div>
                   </div>
                </div>
-               <!-- <div class="col-lg-4 col-sm-6 shape-loc wow fadeInUp" data-wow-delay=".8s">
-                  <div class="office-card mb0">
-                     <div class="skyline-img" data-tilt data-tilt-max="4" data-tilt-speed="1000">
-                        <img src="{{ url('assets/images/location/noida.png') }}" alt="rome" class="img-fluid" />
-                     </div>
-                     <div class="office-text">
-                        <h4>Noida (Uttarpradesh, India)</h4>
-                        <p>H-15,2ndfloor,BSI BusinessPark,Sector-63,Noida-201307(UP)</p>
-                        <a href="javascript:void(0)" target="blank" class="btn-outline rount-btn"><i class="fa fa-map-marker"></i></a>
-                        <a href="javascript:void(0)" target="blank" class="btn-outline rount-btn"><i class="fa fa-phone"></i></a>
-                        <a href="javascript:void(0)" target="blank" class="btn-outline rount-btn"><i class="fa fa-envelope"></i></a>
-                        <a href="javascript:void(0)" target="blank" class="btn-outline rount-btn"><i class="fa fa-skype"></i></a>
-                     </div>
-                  </div>
-               </div> -->
             </div>
          </div>
-      </section>
-      <!--End Location-->
-  <!-- content end -->
-  
+      </section>  
 @endsection
 
 

@@ -1,4 +1,3 @@
-<!--Start Footer-->
       <footer>
          <div class="footer-row1">
             <div class="container">
@@ -44,8 +43,7 @@
                            <span><i class="fa fa-map-marker"></i></span>
                            <p>Address <span> 412-13, 4th Floor,
                               Ever Shine Tower, Amrapali Circle,
-                              Vaishali Nagar Jaipur</span></p>
-                                
+                              Vaishali Nagar Jaipur</span></p> 
                         </li>
                      </ul>
                   </div>
@@ -58,10 +56,8 @@
                         <li><a href="{{ url('blockchain_development/NFT-development') }}">NFT</a></li> 
                         <li><a href="{{ url('/DevOps') }}">Devops</a></li>
                         <li><a href="{{ url('/cyber_security') }}">Cyber Security</a></li>
-                        <!-- <li><a href="{{ url('/web_design') }}">Web Designing</a></li> -->
                         <li><a href="{{ url('web_development') }}">Web Development</a></li>
                         <li><a href="{{ url('software_development') }}">Software Development</a></li>
-                     
                      </ul>
                   </div>
                   <div class="col-lg-2 col-sm-6">
@@ -70,7 +66,6 @@
                         <li><a href="{{ url('/') }}">Home</a></li>
                         <li><a href="{{ url('/about-us') }}">About Us</a></li>
                         <li><a href="{{ url('/service') }}">Services</a></li>
-                        <!-- <li><a href="#">Technologies</a></li> -->
                         <li><a href="{{ route('blog') }}">Blog</a></li>
                         <li><a href="{{ url('privacy_policy') }}">Privacy Policy</a></li>
                         <li><a href="{{ url('/career') }}">Career</a></li>
@@ -80,13 +75,11 @@
                </div>
             </div>
          </div>
-         
          <div class="footer-row3">
             <div class="copyright">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-12">
-                      
                         <div class="footer-">
                            <p>© Copyright Prilient. All Rights Reserved<a href="prilient.com"></a></p>
                         </div>
@@ -96,27 +89,13 @@
             </div>
          </div>
       </footer>
-      <!--End Footer-->
-      
-      <!-- js placed at the end of the document so the pages load faster -->
-      <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{{ url('assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
+      <script src="{{ url('assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
       <script src="{{ url('assets/js/jquery.min.js') }}"></script>
       <script src="{{ url('assets/js/bootstrap.bundle.min.js') }}"></script> 
       <script src="{{ url('assets/js/plugin.min.js') }}"></script>
-      <script src="{{ url('assets/js/preloader.js') }}"></script>
       <script src="{{ url('assets/js/dark-mode.js') }}"></script>
-      <!--common script file-->
       <script src="{{ url('assets/js/main.js') }}"></script>      
       <script src="{{ url('assets/js/progress-bar.js') }}"></script>  
-      <script>
-   $(window).on('load',function(){
-   var delayMs = 4000; // delay in milliseconds
-   setTimeout(function(){
-        $('#leadModal').modal('show');
-    }, delayMs);
-   });   
-   
-      </script>  
       <style type="text/css">
     .whatsapp_icon{
         position:fixed;

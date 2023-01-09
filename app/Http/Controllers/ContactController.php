@@ -55,6 +55,7 @@ class ContactController extends Controller
         $contact->request_type = $request->subject;
         $contact->description = $request->description;
         $fileName = '';
+        
         // if($file = $request->file('attach')){
         //     $fileName = rand().".".$file->getClientOriginalName();
         //     $path = $file->storeAs('public/pdf', $fileName);

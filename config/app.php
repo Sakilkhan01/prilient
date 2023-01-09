@@ -177,6 +177,8 @@ return [
 
         Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
          Barryvdh\DomPDF\ServiceProvider::class,
+         HTMLMin\HTMLMin\HTMLMinServiceProvider::class,
+         
 
     ],
 
@@ -233,6 +235,7 @@ return [
         'Helper'=> App\Helpers\helper::class,
         'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
+        'HTMLMin' => HTMLMin\HTMLMin\Facades\HTMLMin::class
     ],
 
 ];

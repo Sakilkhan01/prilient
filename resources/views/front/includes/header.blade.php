@@ -1,5 +1,4 @@
- <!--Start sidebar -->
- <div class="Prilientofcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+<div class="Prilientofcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
      style="visibility: visible; z-index: 999999;">
      <div class="offcanvas-body">
          <div class="cbtn animation">
@@ -77,20 +76,8 @@
          </div>
      </div>
  </div>
- <!--end sidebar -->
- <!-- top progress bar start-->
  <div id="progress-bar"></div>
- <!-- top progress bar end -->
 
- <!--Start Preloader -->
- <!-- <div class="onloadpage" id="page_loader">
-     <div class="pre-content">
-         <div class="logo-pre"><img src="{{ url('assets/images/logo.png') }}" alt="Logo" class="img-fluid" /></div>
-         <div class="pre-text- text-radius text-light text-animation bg-b">Welcome to Prilient Technologies</div>
-     </div>
- </div> -->
- <!--End Preloader -->
- <!--Start Header -->
  <header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
      <div class="container-fluid m-pad">
          <div class="menu-header">
@@ -169,8 +156,6 @@
                                                  Warehouses</a></li>
                                          <li><a class="dropdown-item" href="{{url('/Analytics_and_BI/big-data')}}">Big Data</a>
                                          </li>
-                                         <!-- <li><a class="dropdown-item" href="{{url('/Analytics_and_BI/business-intelligence')}}">Business
-                                                 Intelligence</a></li> -->
                                          <li><a class="dropdown-item" href="{{url('/Analytics_and_BI/data-visualization')}}">Data
                                                  Visualization</a></li>
                                          <li><a class="dropdown-item" href="{{url('/Analytics_and_BI/data-science')}}">Data
@@ -292,134 +277,10 @@
                                  </li>
                              </ul>
                          </div>
-                         <!-- <a href="{{ url('/service') }}" class="menu-links">Services</a>
-                         <div class="nx-dropdown">
-                           <div class="sub-menu-section">
-                              <div class="container">
-                                 <div class="col-md-12">
-                                    <div class="sub-menu-center-block">
-                                       <div class="sub-menu-column">
-                                          <ul>  
-                                          <div class="menuheading"> Overview <span class="badge bg-primary">New</span></div>
-                                          <div class="menuheading">Product Design </div>
-                                                                                   
-                                             <li><a href="{{ url('product_design') }}">UI/UX Design</a></li>                                             
-                                             <li><a href="{{ url('product_design') }}">App Design</a></li>                                             
-                                             <li><a href="{{ url('product_design') }}">Web Design</a></li> 
-                                             <li><a href="#"></a></li>                                              
-                                            
-                                               
-                                              
-                                             <div class="menuheading">Mobile Development</div>
-                                                                                   
-                                                <li><a href="{{url('app_development')}}">ios Development</a></li>                                             
-                                                <li><a href="{{url('app_development')}}">Android Development</a></li>                                             
-                                                <li><a href="{{url('app_development')}}">Flutter App Development</a></li> 
-                                                <li><a href="{{url('app_development')}}">React Native Development</a></li>                                               
-                                             
-                                          </ul>
-                                          <div class="menuheading">Web Development</div>
-                                          <ul>
-                                           
-                                                 <li><a href="{{url('web_development')}}">Ecommerce Development</a></li>                                             
-                                                <li><a href="{{url('web_development')}}">CMS Development</a></li>                                             
-                                                <li><a href="{{url('web_development')}}">ERP Development</a></li> 
-                                                <li><a href="{{url('web_development')}}">Enterprise Applications</a></li>
-                                                <li><a href="#"></a></li> 
-                                             </ul>
-                                       </div>
-                                       <div class="sub-menu-column">
-                                          
-                                             <div class="menuheading">Product Prototype </div>
-                                             <ul>                                       
-                                                <li><a href="{{ url('product_strategy') }}">MVP</a></li>                                             
-                                                <li><a href="{{ url('product_strategy') }}">PoC</a></li> 
-                                                <li><a href="#"></a></li>  
-                                             </ul>
-                                             <div class="menuheading">Analytics & BI</div>
-                                             <ul>
-                                              <li><a href="{{url('Analytics_and_BI')}}">Modern Data Warehouses</a></li>                                             
-                                                   <li><a href="{{url('Analytics_and_BI')}}">Big Data</a></li>                                             
-                                                   <li><a href="{{url('Analytics_and_BI')}}">Business Intelligence</a></li> 
-                                                   <li><a href="{{url('Analytics_and_BI')}}">Data Visualization</a></li>
-                                                   <li><a href="{{url('Analytics_and_BI')}}">Data Science</a></li>
-                                                   <li><a href="#"></a></li> 
-                                                </ul>
-                                                <div class="menuheading">Next-Gen Technologies</div>
-                                                <ul>
-                                                 <li><a href="{{ url('NextGen') }}">AWS Ampify & AWS Lamda</a></li>                                             
-                                                      <li><a href="{{ url('NextGen') }}">Firebase</a></li>                                             
-                                                      <li><a href="{{ url('NextGen') }}">Chatbot Dvelopment</a></li> 
-                                                      <li><a href="{{ url('NextGen') }}">AI & ML Development</a></li>
-                                                      <li><a href="{{ url('NextGen') }}">RPA Development</a></li>
-                                                      <li><a href="#"></a></li> 
-                                                   </ul>
-                                       </div>
-                                       <div class="sub-menu-column">
-                                          <div class="menuheading">Front-end Development</div>
-                                          <ul>
-                                          
-                                                <li><a href="{{ url('fullStack_development') }}">Angular JS Development</a></li>                                             
-                                                <li><a href="{{ url('fullStack_development') }}">React JS Development</a></li>                                             
-                                                <li><a href="{{ url('fullStack_development') }}">Vue Development</a></li> 
-                                                <li><a href="{{ url('fullStack_development') }}">HTML5 Development</a></li>
-                                                <li><a href="#"></a></li> 
-                                             
-                                                <div class="menuheading">Quality Engineering</div>
-                                                <ul>
-                                                
-                                                      <li><a href="{{ url('Quality_Engineering') }}">Mobile Testing </a></li>                                             
-                                                      <li><a href="{{ url('Quality_Engineering') }}">ERP Testing</a></li>                                             
-                                                      <li><a href="{{ url('Quality_Engineering') }}">Game Testing</a></li> 
-                                                      <li><a href="{{ url('Quality_Engineering') }}">Big Data Testing</a></li>
-                                                      <li><a href="{{ url('Quality_Engineering') }}">Blockchain Testing</a></li>
-                                                      <li><a href="{{ url('Quality_Engineering') }}">Security Testing</a></li>
-                                                      <li><a href="{{ url('Quality_Engineering') }}">Regression Testing</a></li>
-                                                      <li><a href="{{ url('Quality_Engineering') }}">Localization Testing</a></li>
-                                                      <li><a href="{{ url('Quality_Engineering') }}">Functional Testing Services</a></li>
-                                                      <li><a href="{{ url('Quality_Engineering') }}">Usability Testing</a></li>
-                                                      <li><a href="{{ url('Quality_Engineering') }}"></a></li> 
-                                          </ul>
-                                       </div>
-                                       <div class="sub-menu-column">
-                                          
-                                          <div class="menuheading">Back-end Development</div>
-                                          <ul>
-                                          
-                                                <li><a href="{{url('backend_development')}}">PHP Development</a></li>                                             
-                                                <li><a href="{{url('backend_development')}}">Node Js Development</a></li>                                             
-                                                <li><a href="{{url('backend_development')}}">Pyton Development</a></li> 
-                                                <li><a href="{{url('backend_development')}}">Laravel Development</a></li>
-                                                <li><a href="{{url('backend_development')}}">Symfony Development</a></li>
-                                                <li><a href="{{url('backend_development')}}">Java Development</a></li>
-                                                <li><a href="{{url('backend_development')}}">.NET Development</a></li>
-                                                <li><a href="#"></a></li> 
-                                           </ul>
-                                           <div class="menuheading">Blockchain Development</div>
-                                          <ul>
-                                          
-                                                <li><a href="{{ url('blockchain_development') }}">Smart Contracts Development</a></li>                                             
-                                                <li><a href="{{ url('blockchain_development') }}">Blockchain Wallet Development</a></li>                                             
-                                                <li><a href="{{ url('blockchain_development') }}">Decentralized Apps (dApps)</a></li> 
-                                                <li><a href="{{ url('blockchain_development') }}">Private/Public Blockchain</a></li>
-                                                <li><a href="{{ url('blockchain_development') }}">Tokenization</a></li>
-                                                <li><a href="{{ url('blockchain_development') }}">NFT</a></li>
-                                                <li><a href="#"></a></li> 
-                                    </ul>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div> -->
                      </li>
                      <li>
                          <a href="{{ url('technologies') }}" class="menu-links">Technologies</a>
                      </li>
-                     <!-- <li>
-                         <a href="{{ url('portfolio') }}" class="menu-links">Portfolio</a>
-                         <a href="javascript:void(0)" class="menu-links">Portfolio</a>
-                     </li> -->
                      <li>
                          <a href="{{ route('blog') }}" class="menu-links">Blog</a>
                      </li>
@@ -428,10 +289,7 @@
                      </li>
 
                  </ul>
-                 <!-- mobile + desktop - sidebar menu- dark mode witch and button -->
                  <ul class="nav-list right-end-btn">
-                     <!-- <li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample"
-                             class="btn-round- btn-br bg-btn2"><i class="fa fa-bars"></i></a></li> -->
                      <li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn-br bg-btn3 btshad-b2 lnk">Request A
                              Quote <span class="circle"></span></a> </li>
                      <li class="hidedesktop darkmodeswitch">
@@ -446,7 +304,6 @@
              </div>
          </div>
 
-         <!--Mobile Menu-->
          <nav id="main-nav">
              <ul class="first-nav">
                  <li>
@@ -629,9 +486,6 @@
                  <li>
                      <a href="{{ url('technologies') }}" class="menu-links">Technologies</a>
                  </li>
-                 <!-- <li>
-                     <a href="#" class="menu-links">Portfolio</a>
-                 </li> -->
                  <li>
                      <a href="{{ route('blog') }}" class="menu-links">Blog</a>
                  </li>
@@ -674,5 +528,4 @@
          </nav>
      </div>
  </header>
- <!--End Header -->
 
