@@ -93,9 +93,19 @@
       <script src="{{ url('assets/js/jquery.min.js') }}"></script>
       <script src="{{ url('assets/js/bootstrap.bundle.min.js') }}"></script> 
       <script src="{{ url('assets/js/plugin.min.js') }}"></script>
+      <script src="{{ url('assets/js/preloader.js') }}"></script>
       <script src="{{ url('assets/js/dark-mode.js') }}"></script>
       <script src="{{ url('assets/js/main.js') }}" defer></script>      
       <script src="{{ url('assets/js/progress-bar.js') }}"></script>  
+      <script>
+   $(window).on('load',function(){
+   var delayMs = 4000; // delay in milliseconds
+   setTimeout(function(){
+        $('#leadModal').modal('show');
+    }, delayMs);
+   });   
+   
+      </script>  
       <style type="text/css">
     .whatsapp_icon{
         position:fixed;
