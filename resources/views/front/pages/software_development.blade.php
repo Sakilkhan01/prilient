@@ -163,9 +163,6 @@
             If you get our service, our team will be available 24/7 to you. We want to make sure that any issues that arise during your work with us can be resolved quickly and easily.
             </p>
       </div>
-      
-
-
-    </div>
+     </div>
   <!-- content end -->
 @endsection

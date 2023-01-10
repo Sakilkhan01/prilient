@@ -109,7 +109,6 @@
             Innovative solutions are created by our team of experts using advanced technologies. If you want a software product that’s cutting-edge, we can help. Our development team works with a variety of languages and frameworks to ensure you get exactly what you need.
             </p>
       </div>
-      
     </div>
   <!-- content end -->
 @endsection

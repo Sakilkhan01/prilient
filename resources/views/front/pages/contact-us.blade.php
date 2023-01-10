@@ -73,12 +73,6 @@
                     <span class="text-danger">{{ $errors->first('subject') }}</span>
                    @endif
                </div>
-               <!-- <div class="form-group">
-               <select class="form-select" name="request_type">
-                 <option value="Request for Proposal">Request for Proposal</option>
-                 <option value="Gereral Query">Gereral Query</option>
-               </select>
-               </div> -->
             </div>
             <div class="col-lg-12 col-12 mt-2">
                <div class="form-group">
@@ -90,25 +84,6 @@
               </div>
             </div>
          </div>
-         <!-- <div class="row">
-            <div class="col-lg-6 col-12">
-               <div>
-                  <input type="file" name="attach">
-               </div>
-               <div class="form-check-inline mt-lg-4 mt-2">
-                 <label class="form-check-label">
-                   <input checked type="checkbox" class="form-check-input" value=""> Subscribe to newsletter
-                 </label>
-               </div>
-            </div>
-            <div class="col-lg-6 col-12">
-               {!! NoCaptcha::display() !!}
-               @if ($errors->has('g-recaptcha-response'))
-                    <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
-                @endif
-            </div>
-            
-         </div> -->
          <div class="col-lg-12 text-right mt-3">
                <div>
                   <button class="btn custom_cont_button buttons" type="submit">Submit</button>

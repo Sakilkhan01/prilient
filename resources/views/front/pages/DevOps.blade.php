@@ -139,8 +139,6 @@
             We use tools like Jira, Slack, Confluence, and HipChat to collaborate with each other. These tools help us share information across teams and build a better product for our customers. We also use GitHub for code review, Bitbucket for code management, and Jenkins for continuous integration. We try to automate as much as possible using Ansible. All of these tools help us move faster by removing bottlenecks from our process.
             </p>
       </div>
-
-
     </div>
   <!-- content end -->
 @endsection

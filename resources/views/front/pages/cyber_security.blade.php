@@ -125,9 +125,6 @@
             With over 20 years of experience in network security, we’ve seen it all. We provide comprehensive consulting services for both businesses and individuals, including vulnerability assessments and penetration testing.
             </p>
       </div>
-      
-
-
     </div>
   <!-- content end -->
 @endsection

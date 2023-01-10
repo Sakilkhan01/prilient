@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
+@section('meta_keywords', "Career")
+@section('meta_description', "Career")
 @section('content') 
-<!-- content start -->
-<!--Breadcrumb Area-->
 <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
    <div class="text-block">
       <div class="container">
@@ -17,16 +17,7 @@
       </div>
    </div>
 </section>
-<!--End why-choose-->
-<!-- <div class="container">
-   <div class="col-lg-12 text-center py-5">
-      <div class="common-heading  ">
-         <h3>Career @ Prilient</h3>
-         <p>Pursue your career in a growing and rewarding environment while working along side a great group of professionals</p>
-      </div>
-   </div>
-</div> -->
- <!--Start statistics-->
+ 
       <div class="statistics-section bg-gradient6 pad-tb tilt3d">
          <div class="container">
             <div class="row justify-content-center t-ctr">
@@ -76,17 +67,7 @@
                      </div>
                   </div>
                </div>
-               <!-- <div class="col-lg-3 col-sm-6">
-                  <div class="statistics">
-                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/worker.svg') }}" alt="work" class="img-fluid" />
-                     </div>
-                     <div class="statnumb">
-                        <span class="counter">95</span><span>k</span>
-                        <p>Hours Worked</p>
-                     </div>
-                  </div>
-               </div> -->
+                
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics mb0">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
@@ -101,63 +82,13 @@
             </div>
          </div>
       </div>
-      <!--End statistics-->
-<!-- <div class="container">
-   <div class="col-lg-12 py-5">
-      <h3>Choose <span style="color:red">The Career</span></h3>
-      <p>
-         We work to deliver profitability in your business – with effective communication, consulting and interactive solutions. Following an Agile Work Approach, we make sure you get the ideal solutions at minimum expenses.
-      </p>
-   </div>
-   <div class="row">
-      <div class="col-md-4 col-sm-6">
-         <div class="outer">
-            <div class="value_heading">
-               <span class="icon">
-                  <img src="{{ url('frontent/images/career_icon1.png') }}">
-               </span>
-               <h5>The Right Approach</h5>
-            </div>
-            <p>Career development is a continuous process. It demands good exposure and growth opportunity to help an individual grow. Our standardized selection procedures and incisive hiring system allows us to establish right fit of job with the resource. We emphasize on the fine details and characteristics of the individuals to make them perform what they are best at and give them ample of scope to work, learn and grow.</p>
-         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-         <div class="outer">
-            <div class="value_heading">
-               <span class="icon">
-                  <img src="{{ url('frontent/images/career_icon2.png') }}">
-               </span>
-               <h5>Incessant Growth</h5>
-            </div>
-            <p>At Octal, we endorse policies that work in favor of your career growth. We emphasize on the activities and systems that go well with your career plans. <br>We also conduct employee counseling sessions from time to time to tune-in with their interrelated personal and professional needs that have a bearing on their career goals.</p>
-         </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-         <div class="outer">
-            <div class="value_heading">
-               <span class="icon">
-                  <img src="{{ url('frontent/images/career_icon3.png') }}">
-               </span>
-               <h5>Rich Work Culture</h5>
-            </div>
-            <p>We promote a congenial and collaborative work environment at Octal. The work-life balance at Octal is such that it adds more living energy to our workforce and helps them create and contribute their best. They work better in teams and feel more positive and motivated towards the common and individual goals.</p>
-         </div>
-      </div>
-   </div>
-</div> -->
+       
 @if(!$posts->isEmpty())
 <div class="container mt-5 pt-5">
    <div class="career_opening_wrap">
       <h2>Current Openings:</h2>
       <div class="current_opening_slider">
          <div class="item">
-            <!-- <div class="outer mb-0">
-               <div>
-                  <h5>HR Recruiter</h5>
-                  <p>Vacancies: 1 / Work Status: Full time / Experience: 1-3 Years / Location: Jaipur</p>
-               </div>
-               <a href="mailto:hr@prilient.com" class="btn">Apply Now <img src="{{ url('frontent/images/button_arrow_w.png ') }}" class="right_icon" alt="Mobile App Development Services"></a>
-            </div> -->
             @foreach($posts as $post)
             <div class="outer">
                <div>

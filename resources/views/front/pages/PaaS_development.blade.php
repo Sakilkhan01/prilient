@@ -62,12 +62,6 @@
             <b>4. Instant Support:</b> We know how important it is for your business to get up and running quickly. That’s why we offer instant support. As soon as you sign up, our team of developers will be ready to help you get started with your project.
             </p>
       </div>
-      
-      
-     
-      
-
-
-    </div>
+  </div>
   <!-- content end -->
 @endsection

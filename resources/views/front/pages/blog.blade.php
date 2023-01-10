@@ -2,9 +2,9 @@
 @section('title',__('Blog'))
 @section('content')
 
-<link href="{{ url('frontent/blog/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-<link href="{{ url('frontent/blog/bootstrap/blog.css') }}" rel="stylesheet">
-<link href="{{ url('frontent/blog/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+<link href="{{ url('frontent/blog/bootstrap/css/bootstrap.min.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
+<link href="{{ url('frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
+<link href="{{ url('frontent/blog/bootstrap-icons/bootstrap-icons.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
 <style type="text/css">
     ol, ul {
     padding-left: 1rem !important;
@@ -133,40 +133,6 @@
                   </div>
                </div>
                @endif
-                <!-- @if(count($blog)>0)
-                @foreach($blog as $row)
-                <article class="entry">
-
-                    <div class="entry-img">
-                        <img src="{{url('upload/blog/'.$row->image)}}" alt="" class="img-fluid">
-                    </div>
-
-                    <h2 class="entry-title">
-                        <a href="{{url('blog/'.$row->slug)}}">{{$row->title}}</a>
-                    </h2>
-
-                    <div class="entry-meta">
-                        <ul>
-                            <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
-                                    href="{{url('blog')}}"><time
-                                        datetime="2020-01-01">{{ date("d-M-Y ",strtotime($row->date)) }}</time></a></li>
-                            <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                    href="{{url('blog/'.$row->slug)}}">{{$row->blog_post->count()}} Comments</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="entry-content">
-                        <p>
-                            {!! $row->short_description !!}
-                        </p>
-                        <div class="read-more">
-                            <a href="{{url('blog/'.$row->slug)}}">Read More</a>
-                        </div>
-                    </div>
-
-                </article>
-                @endforeach
-                @endif -->
             </div>
 
             <div class="col-lg-4">
@@ -194,8 +160,6 @@
     </div>
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-
 <script type="application/javascript">
 $(document).ready(function(){
     get_recent_post();
