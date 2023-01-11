@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Blog;
 use App\Models\Client;
 use App\Models\JobsPost;
+use DB;
 
 class HomeController extends Controller
 {
@@ -41,5 +42,18 @@ class HomeController extends Controller
 
         return view('front.pages.career', compact('clients','posts'));
     }
+
+    public function getService($slug)
+    {
+        $data = DB::table('services')->where(['slug'=>$slug, 'status'=>1])->first();
+        return view('front.pages.services_dyn', compact('data'));
+    }
+
+    public function getServiceCategory($slug)
+    {
+        $data = DB::table('services_sub')->where(['slug'=>$slug, 'status'=>1])->first();
+        return view('front.pages.services_dyn', compact('data'));
+    }
+
 
 }
