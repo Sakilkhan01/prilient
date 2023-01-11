@@ -23,6 +23,7 @@
       <script src="{{ url('frontent/bootrap/js/jquery.min.js') }}"></script>
       <script src="{{ url('frontent/bootrap/js/intlTelInput.min.js') }}"></script>
       <script src="{{ url('frontent/bootrap/js/utils.min.js') }}"></script>
+
   <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
