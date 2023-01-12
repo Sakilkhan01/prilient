@@ -299,7 +299,7 @@
                  <ul class="nav-list right-end-btn">
                      <li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn-br bg-btn3 btshad-b2 lnk">Request A
                              Quote <span class="circle"></span></a> </li>
-                     <li class="hidedesktop darkmodeswitch">
+                     <li class=" darkmodeswitch">
                          <div class="switch-wrapper"> <label class="switch" for="niwax"> <input type="checkbox"
                                      id="niwax" /> <span class="slider round"></span> </label> </div>
                      </li>

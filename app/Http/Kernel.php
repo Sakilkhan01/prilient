@@ -66,5 +66,6 @@ class Kernel extends HttpKernel
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'admin' => \App\Http\Middleware\CheckAdmin::class,
         'HtmlMinifier' => \App\Http\Middleware\HtmlMinifier::class,
+        'GzipEncodeResponse' => \App\Http\Middleware\GzipEncodeResponse::class,
     ];
 }
