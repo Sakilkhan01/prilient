@@ -30,38 +30,45 @@ use App\Http\Controllers\SitemapXmlController;
 Route::get('/sitemap.xml', [SitemapXmlController::class, 'index']);
 
 
-Route::get('/', [HomeController::class, 'home']);
-Route::get('service/{slug}', [HomeController::class, 'getService']);
-Route::get('services/{slug}', [HomeController::class, 'getServiceCategory']);
+
+Route::middleware(['HtmlMinifier'])->group(static function(){
+
+    Route::get('/', [HomeController::class, 'home']);
+    Route::get('service/{slug}', [HomeController::class, 'getService']);
+    Route::get('services/{slug}', [HomeController::class, 'getServiceCategory']);
+    Route::view('/about-us', 'front.pages.about_us');
+    Route::get('/career', [HomeController::class, 'Career']);
+    Route::get('blog', [BlogController::class, 'index'])->name('blog');
+    Route::get('blog/{slug}', [BlogController::class, 'view'])->name('view_blog');
+    Route::post('blog-post', [BlogController::class, 'store'])->name('store-blog');
+    Route::get('search', [BlogController::class, 'search']);
+
+    Route::get('contact-us', [ContactController::class, 'index']);
+    Route::post('contact-us/store', [ContactController::class, 'store'])->name('contact_store');
+    
+    Route::post('send-request-a-quote', [ContactController::class, 'sendRequestAQuete'])->name('send-request-a-quote');
+
+    Route::view('product-design/web-design', 'front.pages.productDesign.web_design');
 
 
-Route::get('/career', [HomeController::class, 'Career']);
+
+    Route::view('/service', 'front.pages.services');
+    Route::view('/web_design', 'front.pages.web_design');
+    Route::view('/software_development', 'front.pages.software_development');
+    Route::view('/privacy_policy', 'front.pages.privacy_policy');
+
+    Route::view('technologies', 'front.pages.technologies');
+});
+
+
+
 Auth::routes(['register' => false,'home' => false]);
 // Auth::routes(['home' => false]);
 
-Route::get('blog', [BlogController::class, 'index'])->name('blog');
-Route::get('blog/{slug}', [BlogController::class, 'view'])->name('view_blog');
-Route::post('blog-post', [BlogController::class, 'store'])->name('store-blog');
-Route::get('search', [BlogController::class, 'search']);
-
-Route::get('contact-us', [ContactController::class, 'index']);
-Route::post('contact-us/store', [ContactController::class, 'store'])->name('contact_store');
 
 
 
-Route::post('send-request-a-quote', [ContactController::class, 'sendRequestAQuete'])->name('send-request-a-quote');
 
-Route::view('product-design/web-design', 'front.pages.productDesign.web_design');
-
-Route::view('/about-us', 'front.pages.about_us');
-
-
-Route::view('/service', 'front.pages.services');
-Route::view('/web_design', 'front.pages.web_design');
-Route::view('/software_development', 'front.pages.software_development');
-Route::view('/privacy_policy', 'front.pages.privacy_policy');
-
-Route::view('technologies', 'front.pages.technologies');
 
 
 
