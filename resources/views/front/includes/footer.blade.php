@@ -37,7 +37,7 @@
                         </li>
                         <li>
                            <span><i class="fa fa-phone"></i></span>
-                           <p>Phone <span> <a href="tel:+917976026086">+91 7976026086</a></span></p>
+                           <p>Phone <span> <a href="tel:+7976026086">+91 7976026086</a></span></p>
                         </li>
                         <li>
                            <span><i class="fa fa-map-marker"></i></span>
@@ -50,13 +50,13 @@
                   <div class="col-lg-2 col-sm-6">
                      <h5>Our Services</h5>
                      <ul class="footer-address-list link-hover">
-                        <li><a href="{{url('services/analytics_and_bi-big_data')}}">Big Data </a></li>
-                        <li><a href="{{url('services/analytics_and_bi-modern_data_warehouses')}}">Modern Data Warehouse</a></li>
-                        <li><a href="{{ url('services/next_gen_technology-AI_ML_development') }}">AI & ML Development</a></li>
-                        <li><a href="{{ url('services/blockchain_development-NFT_development') }}">NFT</a></li> 
-                        <li><a href="{{ url('service/devOps') }}">Devops</a></li>
-                        <li><a href="{{ url('service/cyber_security') }}">Cyber Security</a></li>
-                        <li><a href="{{ url('service/web_development_services') }}">Web Development</a></li>
+                        <li><a href="{{url('/Analytics_and_BI/big-data')}}">Big Data </a></li>
+                        <li><a href="{{url('/Analytics_and_BI/modern-data-warehouses')}}">Modern Data Warehouse</a></li>
+                        <li><a href="{{ url('/NextGen/AI-&-ML-development') }}">AI & ML Development</a></li>
+                        <li><a href="{{ url('blockchain_development/NFT-development') }}">NFT</a></li> 
+                        <li><a href="{{ url('/DevOps') }}">Devops</a></li>
+                        <li><a href="{{ url('/cyber_security') }}">Cyber Security</a></li>
+                        <li><a href="{{ url('web_development') }}">Web Development</a></li>
                         <li><a href="{{ url('software_development') }}">Software Development</a></li>
                      </ul>
                   </div>
