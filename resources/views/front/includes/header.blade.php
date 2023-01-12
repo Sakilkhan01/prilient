@@ -61,7 +61,7 @@ $service = DB::table('services')->where('status', 1)->select('id', 'name', 'slug
              <div class="media mt15">
                  <div class="icondive"><img src="{{ url('assets/images/icons/map.svg') }}" alt="icon"></div>
                  <div class="media-body getintouchinfo">
-                     <a href="">Jaipur,
+                     <a href="https://www.google.com/maps/place/Prilient+Information+Technologies/@26.9110729,75.7409566,17z/data=!3m1!4b1!4m5!3m4!1s0x396db57fb715b991:0xc48c1dd3f8718fe5!8m2!3d26.9110681!4d75.7431453" target="blank">Jaipur,
                          Rajasthan, India<span>Visit Our Office</span></a>
                  </div>
              </div>
@@ -69,12 +69,12 @@ $service = DB::table('services')->where('status', 1)->select('id', 'name', 'slug
          <div class="contact-data mt30">
              <h4>Follow Us On:</h4>
              <div class="social-media-linkz mt10">
-                 <a href="javascript:void(0)" target="blank"><i class="fa fa-facebook"></i></a>
-                 <a href="javascript:void(0)" target="blank"><i class="fa fa-twitter"></i></a>
-                 <a href="javascript:void(0)" target="blank"><i class="fa fa-instagram"></i></a>
-                 <a href="javascript:void(0)" target="blank"><i class="fa fa-linkedin"></i></a>
-                 <a href="javascript:void(0)" target="blank"><i class="fa fa-youtube"></i></a>
-                 <a href="javascript:void(0)" target="blank"><i class="fa fa-pinterest-p"></i></a>
+                 <a href="https://www.facebook.com/prilienttechnologies" target="blank"><i class="fa fa-facebook"></i></a>
+                 <a href="https://twitter.com/prilientl?lang=en" target="blank"><i class="fa fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/prilient_technologies/" target="blank"><i class="fa fa-instagram"></i></a>
+                 <a href="https://www.linkedin.com/company/prilient-technologies-pvt-ltd/" target="blank"><i class="fa fa-linkedin"></i></a>
+                 <a href="https://www.youtube.com/@prilienthr1143" target="blank"><i class="fa fa-youtube"></i></a>
+                 <a href="https://in.pinterest.com/prilient/" target="blank"><i class="fa fa-pinterest-p"></i></a>
              </div>
          </div>
      </div>
