@@ -95,7 +95,6 @@
                   <div class="service-sec-brp srvc-bg-nx bg-gradient13 text-w">
                      <h4 class="mb10">OUR SERVICES</h4>
                      <p>We continues to move forward by specialising in the development of custom IT solutions for mobile, web, desktop, Server Management, DevOps, Security, Game Development.</p>
-                     <a href="javascript:void(0)" class="mt20 link-prb">Learn More <i class="fa fa-chevron-right fa-icon"></i></a>
                   </div>
                </div>
                <div  data-tilt data-tilt-max="5" data-tilt-speed="1000" class="col-lg-3-cus wow fadeInUp" data-wow-delay=".4s">
