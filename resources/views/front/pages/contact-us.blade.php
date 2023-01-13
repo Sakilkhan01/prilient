@@ -19,6 +19,20 @@
    </div>
 </section>
 <section>
+
+   <div class="container mt-3">
+   @if( Session::has( 'success' ))
+   <div class="alert alert-success alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    {{ Session::get('success') }}
+  </div>
+   @elseif( Session::has( 'error' ))
+   <div class="alert alert-danger alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    {{ Session::get('error') }}
+  </div>
+   @endif
+   </div>
    <div class="col-lg-12 col-12 text-center py-5">
       <h3>Request for service</h3>
    </div>
@@ -123,7 +137,7 @@
                      <div class="office-text">
                         <h4>Jaipur (Rajasthan, India)</h4>
                         <p>412-13, 4th Floor, Ever Shine Tower, Amrapali Circle, Vaishali Nagar Jaipur</p>
-                        <a href="javascript:void(0)" target="blank" class="btn-outline rount-btn"><i class="fa fa-map-marker"></i></a>
+                        <a href="https://www.google.com/maps/place/Prilient+Information+Technologies/@26.9110729,75.7409566,17z/data=!3m1!4b1!4m5!3m4!1s0x396db57fb715b991:0xc48c1dd3f8718fe5!8m2!3d26.9110681!4d75.7431453" target="blank" class="btn-outline rount-btn"><i class="fa fa-map-marker"></i></a>
                         <a href="tel:7976026086" target="blank" class="btn-outline rount-btn"><i class="fa fa-phone"></i></a>
                         <a href="mailto:ankit@prilient.com" target="blank" class="btn-outline rount-btn"><i class="fa fa-envelope"></i></a>
                         <a href="skype:Ankit Ola?chat" target="blank" class="btn-outline rount-btn"><i class="fa fa-skype"></i></a>
@@ -161,16 +175,4 @@
    }
 </style>
  
-  <script>
-    var input = document.querySelector("#country-code");
-    intlTelInput(input, {
-      initialCountry: "auto",
-      geoIpLookup: function (success, failure) {
-        $.get("https://ipinfo.io", function () { }, "jsonp").always(function (resp) {
-          var countryCode = (resp && resp.country) ? resp.country : "";
-          success(countryCode);
-        });
-      },
-    });
-  </script>
 @endsection

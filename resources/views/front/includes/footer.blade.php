@@ -37,7 +37,7 @@
                         </li>
                         <li>
                            <span><i class="fa fa-phone"></i></span>
-                           <p>Phone <span> <a href="tel:+7976026086">+91 7976026086</a></span></p>
+                           <p>Phone <span> <a href="tel:7976026086">+91 7976026086</a></span></p>
                         </li>
                         <li>
                            <span><i class="fa fa-map-marker"></i></span>

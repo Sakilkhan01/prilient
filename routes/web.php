@@ -33,7 +33,7 @@ Route::get('/sitemap.xml', [SitemapXmlController::class, 'index']);
 
 Auth::routes(['register' => false,'home' => false]);
 
-Route::middleware(['HtmlMinifier'])->group(static function(){
+Route::group(['middleware' => ['HtmlMinifier']], static function(){
 
 Route::get('/', [HomeController::class, 'home']);
 Route::get('/career', [HomeController::class, 'Career']);

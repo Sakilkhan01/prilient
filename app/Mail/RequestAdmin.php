@@ -29,7 +29,7 @@ class RequestAdmin extends Mailable
     public function build()
     {
         $from_email  = config('mail.from_email');
-        $subject = 'Request a Quate';
+        $subject = 'Request a Quote';
         $title = 'Prilient Information Technologies';
         
         return $this->view('mail.request_admin')

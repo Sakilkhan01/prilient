@@ -10,22 +10,17 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="theme-color" content="#2e2a8f"> 
-      <link href="{{ url('assets/images/favicon.png') }}" rel="icon">
-      <link rel='stylesheet' type='text/css' href="{{ url('assets/css/bootstrap.min.css') }}?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="{{ url('assets/css/plugin.min.css') }}?{{ rand() }}" />
+      <link href="{{ URL::to('assets/images/favicon.png') }}" rel="icon">
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/bootstrap.min.css') }}?{{ rand() }}" />
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/plugin.min.css') }}?{{ rand() }}" />
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" />
-      <link rel='preload' as="style" onload="this.onload=null;this.rel='stylesheet'" href="{{ url('assets/css/style.css') }}?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="{{ url('assets/css/responsive.css') }}?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="{{ url('assets/css/darkmode.css') }}?{{ rand() }}" />
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/style.css') }}?{{ rand() }}" />
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/responsive.css') }}?{{ rand() }}" />
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/darkmode.css') }}?{{ rand() }}" />
       <link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="{{ url('frontent/bootrap/css/bootstrap.min.css') }}?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="{{ url('frontent/bootrap/css/intlTelInput.min.css') }}?{{ rand() }}" />
-      <script src="{{ url('frontent/bootrap/js/jquery.min.js') }}"></script>
-      <script src="{{ url('frontent/bootrap/js/intlTelInput.min.js') }}"></script>
-      <script src="{{ url('frontent/bootrap/js/utils.min.js') }}"></script>
-      <noscript>
-        <link rel="stylesheet" href="{{ url('assets/css/style.css') }}?{{ rand() }}">
-      </noscript>
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('frontent/bootrap/css/bootstrap.min.css') }}?{{ rand() }}" />
+      <script src="{{ URL::to('frontent/bootrap/js/jquery.min.js') }}"></script>
+      <script src="{{ URL::to('frontent/bootrap/js/utils.min.js') }}"></script>
   <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

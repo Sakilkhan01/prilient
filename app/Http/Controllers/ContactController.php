@@ -57,8 +57,7 @@ class ContactController extends Controller
         $fileName = '';
         
 
-        $contact->save();
-
+        
         $user = array(
             'name'         => $request->name,
             'email'        => $request->business_email,
@@ -66,14 +65,15 @@ class ContactController extends Controller
             'phone_number' => $request->phone,
             'message'      => $request->description,
         );
-
-        Mail::to($request->email)->send(new ContactMail($user));
-
-        $from_email = config('mail.from_email');
-
-        Mail::to($from_email)->send(new AdminMail($user));
-
-        return back()->with('success', 'Thank you for contact us!');
+        if($contact->save()){
+            Mail::to($request->email)->send(new ContactMail($user));
+            $from_email = config('mail.from_email');
+            Mail::to($from_email)->send(new AdminMail($user));
+            return back()->with('success', 'Thank you your request has been submitted successfully');
+        }
+        else{
+            return back()->with('error', 'we`re sorry something went wrong please try again');
+        }
 
     }
 
@@ -107,7 +107,7 @@ class ContactController extends Controller
         $user = array(
             'name'         => $request->name,
             'email'        => $request->email,
-            'subject'      => 'Request a Quate',
+            'subject'      => 'Request a Quote',
             'message'      => $request->message,
         );
 
