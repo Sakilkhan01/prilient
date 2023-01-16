@@ -63,7 +63,8 @@ class HomeController extends Controller
         $insert = DB::table('subscriber')->insert(['email'=> $request->email, 'created_at'=> $date, 'updated_at'=> $date]);
         
         if($insert){
-            Mail::to($request->email)->send(new Subscribe($user));
+            $from_email = config('mail.from_email');
+            Mail::to($from_email)->send(new Subscribe($user));
             return response()->json(['status' => true, 'message'=> 'Thank you for Subscribe.']);
         }
         else{

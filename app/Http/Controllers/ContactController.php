@@ -65,11 +65,12 @@ class ContactController extends Controller
             'phone_number' => $request->phone,
             'message'      => $request->description,
         );
+        Mail::to($request->business_email)->send(new ContactMail($user));
+        $from_email = config('mail.from_email');
+        Mail::to($from_email)->send(new AdminMail($user));
+        
         if($contact->save()){
-            Mail::to($request->email)->send(new ContactMail($user));
-            $from_email = config('mail.from_email');
-            Mail::to($from_email)->send(new AdminMail($user));
-            return back()->with('success', 'Thank you your request has been submitted successfully');
+                return back()->with('success', 'Thank you your request has been submitted successfully');
         }
         else{
             return back()->with('error', 'we`re sorry something went wrong please try again');
