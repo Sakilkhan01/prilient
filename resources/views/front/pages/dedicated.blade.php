@@ -82,15 +82,7 @@
             <div class="col-lg-4 col-12 mt-2">
             <div class="form-group">
                   <label for="technical_skills">Required technical skills <span class="text-danger">*</span></label>
-                    <select class="form-control" id="technical_skills" name="technical_skills">
-                    <option value="">Please select technical skills</option>
-                    <option value="PHP (Laravel, CodeIgniter, CakePHP)">PHP (Laravel, CodeIgniter, CakePHP)</option>
-                    <option value="Android Developer">Android Developer</option>
-                    <option value="IOS Developer">IOS Developer</option>
-                    <option value="React Native Developer">React Native Developer</option>
-                    <option value="React JS Developer">React JS Developer</option>
-                    <option value="Java Developer">Java Developer</option>
-                    </select>
+                  <input type="text" name="technical_skills" class="form-control" id="exampleInputName" placeholder="Enter your technical skills" value="{{ old('technical_skills') }}">
                     @if ($errors->has('technical_skills'))
                     <span class="text-danger">{{ $errors->first('technical_skills') }}</span>
                     @endif
