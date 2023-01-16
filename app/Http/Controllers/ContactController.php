@@ -32,7 +32,7 @@ class ContactController extends Controller
   
         $validator = Validator::make($request->all(), [
             'name' => 'required',
-            'phone' => 'required|numeric',
+            'phone' => 'required|numeric|phone_number|size:11',
             'business_email' => 'required|email',
             'description' => 'required',
             'subject' => 'required',
