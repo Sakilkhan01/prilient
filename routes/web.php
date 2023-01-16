@@ -50,6 +50,8 @@ Route::get('search', [BlogController::class, 'search']);
 Route::get('contact-us', [ContactController::class, 'index']);
 Route::post('contact-us/store', [ContactController::class, 'store'])->name('contact_store');
 
+
+
 Route::get('dedicated-developer', [DedicatedController::class, 'index']);
 Route::post('dedicated-developer/store', [DedicatedController::class, 'store'])->name('dedicated.store');
 

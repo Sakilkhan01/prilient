@@ -20,31 +20,7 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-
-        $messages = [
-            'name.required' => 'Please fill the name field.',
-            'phone.required' => 'Please fill the phone number field.',
-            'phone.numeric' => 'The phone number must be a number.',
-            'business_email.required' => 'Please fill the business email field.',
-            'subject.required' => 'Please fill the subject field.',
-            'description.required' => 'Please fill the description field.',
-        ];
-  
-        $validator = Validator::make($request->all(), [
-            'name' => 'required',
-            'phone' => 'required|numeric',
-            'business_email' => 'required|email',
-            'description' => 'required',
-            'subject' => 'required',
-            // 'g-recaptcha-response' => 'required|captcha',
-        ], $messages);
-  
-        if ($validator->fails()) {
-            return redirect('contact-us')
-                        ->withErrors($validator)
-                        ->withInput();
-        }
-
+        
         $contact = new Contact;
 
         $contact->name = $request->name;
@@ -54,10 +30,9 @@ class ContactController extends Controller
         $contact->company = $request->company;
         $contact->request_type = $request->subject;
         $contact->description = $request->description;
-        $fileName = '';
-        
 
-        
+        $contact->save();
+
         $user = array(
             'name'         => $request->name,
             'email'        => $request->business_email,
@@ -65,16 +40,14 @@ class ContactController extends Controller
             'phone_number' => $request->phone,
             'message'      => $request->description,
         );
+
         Mail::to($request->business_email)->send(new ContactMail($user));
+
         $from_email = config('mail.from_email');
+
         Mail::to($from_email)->send(new AdminMail($user));
-        
-        if($contact->save()){
-                return back()->with('success', 'Thank you your request has been submitted successfully');
-        }
-        else{
-            return back()->with('error', 'we`re sorry something went wrong please try again');
-        }
+        $data = ['success'=>'Thank you! your request sent to admin.'];
+        return response()->json($data);
 
     }
 
@@ -115,10 +88,9 @@ class ContactController extends Controller
         Mail::to($request->email)->send(new RequestQuate($user));
 
         $from_email = config('mail.from_email');
-
         Mail::to($from_email)->send(new RequestAdmin($user));
-
-        return response()->json(['success'=>'Thank you!, Your request sent to admin.']);
+        $data = ['success'=>'Thank you! your request sent to admin.'];
+        return response()->json($data);
     }
 
 

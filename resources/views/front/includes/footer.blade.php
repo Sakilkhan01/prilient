@@ -97,7 +97,7 @@
           <span class="close toggle" data-target="myPopup">close</span>
         </div>
         <div class="popup-body">
-          <div id="message_success"></div>
+          <div class="message_success"></div>
         </div>
         <div class="popup-footer">
           <button class="toggle button" data-target="myPopup">Got it !</button>
@@ -193,7 +193,7 @@
          -moz-transform: translateX(-50%) translateY(-50%);
          -o-transform: translateX(-50%) translateY(-50%);
          transform: translateX(-50%) translateY(-50%);
-         background: #fafdff;
+         background: floralwhite;
          -moz-border-radius: 5px;
          -o-border-radius: 5px;
          -webkit-border-radius: 5px;
@@ -205,7 +205,7 @@
          -webkit-transition: all 120ms;
          -o-transition: all 120ms;
          transition: all 120ms;
-         z-index: 99;
+         z-index: 999999;
          padding: 25px;
          color: #5e5e5e;
          }
@@ -248,6 +248,9 @@
          box-shadow: 1px 2px 3px #f5f5f5;
          }
 
+         .error{
+color: #FF0000; 
+}
     
     </style>
     <a href="https://api.whatsapp.com/send?phone=7976026086&text=Hello" class="float whatsapp_icon" target="_blank">
@@ -255,6 +258,7 @@
 </a>
 
 <script type="text/javascript">
+   
    $(document).on('click', '.toggle', function(event) {
       event.preventDefault();
       var target = $(this).data('target');
@@ -286,7 +290,7 @@ $('#subscribe').click(function(){
             $('#subscribe').html('Subscribe  <i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span>');
             $("#subscribe").attr("disabled", false);
             $('#subscribeForm')[0].reset();
-            $('#message_success').html(response.message);
+            $('.message_success').html(response.message);
             $("#myPopup").removeClass("hide");
          }
          else{
@@ -308,34 +312,5 @@ function IsEmail(email) {
            return true;
         }
 }
-
-$('#contactForm').on('submit',function(e){
-    e.preventDefault();
-
-    let name = $('#name').val();
-    let email = $('#email').val();
-    let message = $('#message').val();
-
-    console.log(name);
     
-    $.ajax({
-      url: "{{ route('send-request-a-quote') }}",
-      type:"POST",
-      data:{
-        "_token": "{{ csrf_token() }}",
-        name:name,
-        email:email,
-        message:message,
-      },
-      success:function(response){
-        $('#successMsg').text(response.success);
-        $('#contactForm')[0].reset();
-      },
-      error: function(response) {
-        $('#nameErrorMsg').text(response.responseJSON.errors.name);
-        $('#emailErrorMsg').text(response.responseJSON.errors.email);
-        $('#messageErrorMsg').text(response.responseJSON.errors.message);
-      },
-      });
-    });
   </script>

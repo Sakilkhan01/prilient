@@ -235,7 +235,7 @@ return [
         'Helper'=> App\Helpers\helper::class,
         'NoCaptcha' => Anhskohbo\NoCaptcha\Facades\NoCaptcha::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
-        'HTMLMin' => HTMLMin\HTMLMin\Facades\HTMLMin::class
+        'HTMLMin' => HTMLMin\HTMLMin\Facades\HTMLMin::class,
     ],
 
 ];

@@ -22,6 +22,8 @@
       <link rel='stylesheet' type='text/css' href="{{ URL::to('frontent/bootrap/css/bootstrap.min.css') }}?{{ rand() }}" />
       <script src="{{ URL::to('frontent/bootrap/js/jquery.min.js') }}"></script>
       <script src="{{ URL::to('frontent/bootrap/js/utils.min.js') }}"></script>
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
   <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -44,7 +46,58 @@
     @include('front.includes.header')
 
     @yield('content')
- 
+    <script>
+    if ($("#contactForm").length > 0) {
+      $("#contactForm").validate({
+      rules: {
+         name: {
+            required: true,
+         },
+         email: {
+            required: true,
+            email: true,
+         },
+         message: {
+            required: true,
+         },   
+      },
+      messages: {
+         name: {
+            required: "Please enter name",
+         },
+         email: {
+            required: "Please enter valid email",
+            email: "Please enter valid email",
+         },  
+         message: {
+            required: "Please enter message",
+         },
+      },
+      submitHandler: function(form) {
+      $.ajaxSetup({
+         headers: {
+         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+         }
+      });
+      $('#submit').html('Please Wait...');
+      $("#submit"). attr("disabled", true);
+            $.ajax({
+               url: "{{ route('send-request-a-quote') }}",
+               type: "POST",
+               data: $('#contactForm').serialize(),
+               success: function( response ) {
+                  document.getElementById("contactForm").reset(); 
+                  $('#submit').html('Submit');
+                  $("#submit"). attr("disabled", false);
+                  $('.message_success').html(response.success);
+                  $("#myPopup").removeClass("hide");
+               }
+            });
+         }
+      })
+   }
+
+</script>
     @include('front.includes.footer')
    </body>
 </html>

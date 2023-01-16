@@ -10,24 +10,20 @@
          <div class="form-block sidebarform">
              <h4>Request A Quote</h4>
              <p class="text-success" id="successMsg"></p>
-             <form id="contactForm" data-bs-toggle="validator" class="shake mt20">
+             <form id="contactForm" action="javascript:void(0)" method="post" data-bs-toggle="validator" class="shake mt20">
                 @csrf
                  <div class="row">
                      <div class="form-group col-sm-12 mb-3">
                          <input type="text" class="mb-0" id="name" name="name" placeholder="Enter name">
-                         <span class="text-danger" id="nameErrorMsg"></span>
                      </div>
                      <div class="form-group col-sm-12 mb-3">
                          <input type="email" class="mb-0" id="email" name="email" placeholder="Enter email">
-                         <span class="text-danger" id="emailErrorMsg"></span>
                      </div>
                  </div>
                  <div class="form-group mb-3">
                      <textarea id="message" class="mb-0" rows="5" name="message" placeholder="Enter your message"></textarea>
-                     <span class="text-danger" id="messageErrorMsg"></span>
                  </div>
-                 <button type="submit" id="form-submit" class="btn lnk btn-main bg-btn">Submit <span
-                         class="circle"></span></button>
+                 <button type="submit" id="submit" class="btn lnk btn-main bg-btn">Submit <span class="circle"></span></button>
                  <div id="msgSubmit" class="h3 text-center hidden"></div>
                  <div class="clearfix"></div>
              </form>
