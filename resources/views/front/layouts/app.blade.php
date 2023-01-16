@@ -10,6 +10,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="theme-color" content="#2e2a8f"> 
+      <meta name="csrf-token" content="{{ csrf_token() }}" />
       <link href="{{ URL::to('assets/images/favicon.png') }}" rel="icon">
       <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/bootstrap.min.css') }}?{{ rand() }}" />
       <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/plugin.min.css') }}?{{ rand() }}" />

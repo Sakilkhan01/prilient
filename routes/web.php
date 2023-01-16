@@ -11,6 +11,7 @@ use App\Http\Controllers\admin\JobsContoller;
 use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SitemapXmlController;
+use App\Http\Controllers\DedicatedController;
 
 
 
@@ -37,6 +38,8 @@ Route::group(['middleware' => ['HtmlMinifier']], static function(){
 
 Route::get('/', [HomeController::class, 'home']);
 Route::get('/career', [HomeController::class, 'Career']);
+
+Route::post('/subscribe', [HomeController::class, 'Subscribe']);
 // Auth::routes(['home' => false]);
 
 Route::get('blog', [BlogController::class, 'index'])->name('blog');
@@ -46,6 +49,9 @@ Route::get('search', [BlogController::class, 'search']);
 
 Route::get('contact-us', [ContactController::class, 'index']);
 Route::post('contact-us/store', [ContactController::class, 'store'])->name('contact_store');
+
+Route::get('dedicated-developer', [DedicatedController::class, 'index']);
+Route::post('dedicated-developer/store', [DedicatedController::class, 'store'])->name('dedicated.store');
 
 
 
