@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class RequestQuate extends Mailable
+class ResponseMail extends Mailable
 {
     use Queueable, SerializesModels;
     public $user;
@@ -28,12 +28,12 @@ class RequestQuate extends Mailable
      */
     public function build()
     {
-        $from_email = config('mail.from_email');
-        $subject = 'Request a Quote';
+        $from_email  = config('mail.from_email');
         $title = 'Prilient Information Technologies';
-        return $this->view('mail.request_quate')
+
+        return $this->view('mail.ResponseMail')
                     ->from($from_email,$title)
-                    ->subject($subject)
+                    ->subject($this->data['mail_subject'])
                     ->with('user_list',$this->data);
     }
 }

@@ -23,7 +23,7 @@
                  <div class="form-group mb-3">
                      <textarea id="message" class="mb-0" rows="5" name="message" placeholder="Enter your message"></textarea>
                  </div>
-                 <button type="submit" id="submit" class="btn lnk btn-main bg-btn">Submit <span class="circle"></span></button>
+                 <button type="submit" id="submit" class="btn lnk btn-main bg-btn submit">Submit <span class="circle"></span></button>
                  <div id="msgSubmit" class="h3 text-center hidden"></div>
                  <div class="clearfix"></div>
              </form>

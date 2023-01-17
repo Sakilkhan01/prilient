@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Mail\ContactMail;
 use App\Mail\AdminMail;
 use App\Mail\RequestAdmin;
 use App\Mail\RequestQuate;
+use App\Mail\ResponseMail;
 use App\Models\Contact;
 use Validator;
 use Mail;
@@ -39,9 +39,10 @@ class ContactController extends Controller
             'subject'      => $request->subject,
             'phone_number' => $request->phone,
             'message'      => $request->description,
+            'mail_subject'      => "Contact Us",
         );
 
-        Mail::to($request->business_email)->send(new ContactMail($user));
+        Mail::to($request->business_email)->send(new ResponseMail($user));
 
         $from_email = config('mail.from_email');
 
@@ -81,11 +82,12 @@ class ContactController extends Controller
         $user = array(
             'name'         => $request->name,
             'email'        => $request->email,
-            'subject'      => 'Request a Quote',
             'message'      => $request->message,
+            'subject'      => "Request a Quote",
+            'mail_subject'      => "Request a Quote",
         );
 
-        Mail::to($request->email)->send(new RequestQuate($user));
+        Mail::to($request->email)->send(new ResponseMail($user));
 
         $from_email = config('mail.from_email');
         Mail::to($from_email)->send(new RequestAdmin($user));

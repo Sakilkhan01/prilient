@@ -85,7 +85,7 @@
          </div>
          <div class="col-lg-12 text-right mt-3">
                <div>
-                  <button class="btn custom_cont_button buttons" id="submit" type="submit">Submit</button>
+                  <button class="btn custom_cont_button buttons submit" id="submit" type="submit">Submit</button>
                </div>
             </div>
       </form>
@@ -209,16 +209,16 @@ color: #FF0000;
          'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
          }
       });
-      $('#submit').html('Please Wait...');
-      $("#submit"). attr("disabled", true);
+      $('.submit').html('Please Wait...');
+      $(".submit"). attr("disabled", true);
             $.ajax({
                url: "{{ route('dedicated.store') }}",
                type: "POST",
                data: $('#contactUsForm').serialize(),
                success: function( response ) {
                   document.getElementById("contactUsForm").reset(); 
-                  $('#submit').html('Submit');
-                  $("#submit"). attr("disabled", false);
+                  $('.submit').html('Submit');
+                  $(".submit"). attr("disabled", false);
                   $('.message_success').html(response.success);
                   $("#myPopup").removeClass("hide");
                }

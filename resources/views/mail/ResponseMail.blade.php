@@ -303,19 +303,6 @@ a[x-apple-data-detectors='true'] {
           </table>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
   </div>
 </div>
@@ -406,7 +393,6 @@ a[x-apple-data-detectors='true'] {
   <div class="v-text-align v-line-height" style="color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
     <p style="font-size: 14px; line-height: 140%;">7976026086<br />info@prilient.com</p>
   </div>
-
       </td>
     </tr>
   </tbody>

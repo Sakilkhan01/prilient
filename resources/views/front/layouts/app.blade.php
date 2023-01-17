@@ -79,16 +79,16 @@
          'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
          }
       });
-      $('#submit').html('Please Wait...');
-      $("#submit"). attr("disabled", true);
+      $('.submit').html('Please Wait...');
+      $(".submit"). attr("disabled", true);
             $.ajax({
                url: "{{ route('send-request-a-quote') }}",
                type: "POST",
                data: $('#contactForm').serialize(),
                success: function( response ) {
                   document.getElementById("contactForm").reset(); 
-                  $('#submit').html('Submit');
-                  $("#submit"). attr("disabled", false);
+                  $('.submit').html('Submit');
+                  $(".submit"). attr("disabled", false);
                   $('.message_success').html(response.success);
                   $("#myPopup").removeClass("hide");
                }
