@@ -18,7 +18,7 @@
       <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/style.css') }}?{{ rand() }}" />
       <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/responsive.css') }}?{{ rand() }}" />
       <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/darkmode.css') }}?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?{{ rand() }}" />
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/font-awesome.min.css') }}?{{ rand() }}" />
       <link rel='stylesheet' type='text/css' href="{{ URL::to('frontent/bootrap/css/bootstrap.min.css') }}?{{ rand() }}" />
       <script src="{{ URL::to('frontent/bootrap/js/jquery.min.js') }}"></script>
       <script src="{{ URL::to('frontent/bootrap/js/utils.min.js') }}"></script>
