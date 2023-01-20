@@ -21,9 +21,9 @@
       <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/font-awesome.min.css') }}?{{ rand() }}" />
       <link rel='stylesheet' type='text/css' href="{{ URL::to('frontent/bootrap/css/bootstrap.min.css') }}?{{ rand() }}" />
       <script src="{{ URL::to('frontent/bootrap/js/jquery.min.js') }}"></script>
-      <script src="{{ URL::to('frontent/bootrap/js/utils.min.js') }}"></script>
+      <script src="{{ URL::to('frontent/bootrap/js/utils.min.js') }}" defer></script>
       
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js" defer></script>
   <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

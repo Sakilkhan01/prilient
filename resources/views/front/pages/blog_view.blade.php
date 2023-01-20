@@ -3,9 +3,8 @@
 @section('meta_keywords', $blog->meta_keywords)
 @section('meta_description', $blog->meta_description)
 @section('content')
-  <link href="{{ url('frontent/blog/bootstrap/css/bootstrap.min.css') }}?{{ rand() }}" type='text/css' rel="stylesheet" />
-  <link href="{{ url('frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet" />
-  <link href="{{ url('frontent/blog/bootstrap-icons/bootstrap-icons.css') }}?{{ rand() }}" type='text/css' rel="stylesheet" />
+<link href="{{ url('frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
+<link href="{{ url('frontent/blog/bootstrap-icons/bootstrap-icons.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
 <style type="text/css">
     ol, ul {
     padding-left: 1rem !important;

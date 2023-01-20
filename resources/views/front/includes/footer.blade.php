@@ -103,7 +103,6 @@
           <button class="toggle button" data-target="myPopup">Got it !</button>
         </div>
       </div>
-      <script src="{{ url('assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
       <script src="{{ url('assets/js/jquery.min.js') }}"></script>
       <script src="{{ url('assets/js/bootstrap.bundle.min.js') }}"></script> 
       <script src="{{ url('assets/js/plugin.min.js') }}"></script>
