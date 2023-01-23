@@ -30,8 +30,6 @@ use App\Http\Controllers\DedicatedController;
 */
 Route::get('/sitemap.xml', [SitemapXmlController::class, 'index']);
 
-
-
 Auth::routes(['register' => false,'home' => false]);
 
 Route::group(['middleware' => ['HtmlMinifier']], static function(){
@@ -50,12 +48,8 @@ Route::get('search', [BlogController::class, 'search']);
 Route::get('contact-us', [ContactController::class, 'index']);
 Route::post('contact-us/store', [ContactController::class, 'store'])->name('contact_store');
 
-
-
 Route::get('dedicated-developer', [DedicatedController::class, 'index']);
 Route::post('dedicated-developer/store', [DedicatedController::class, 'store'])->name('dedicated.store');
-
-
 
 Route::post('send-request-a-quote', [ContactController::class, 'sendRequestAQuete'])->name('send-request-a-quote');
 
@@ -145,7 +139,7 @@ Route::view('/service', 'front.pages.services');
 Route::view('/web_design', 'front.pages.web_design');
 Route::view('/software_development', 'front.pages.software_development');
 Route::view('/privacy_policy', 'front.pages.privacy_policy');
-
+Route::view('/croponkart-privacy', 'front.pages.croponkart_privacy');
 
 Route::view('technologies', 'front.pages.technologies');
 
