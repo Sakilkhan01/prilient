@@ -101,7 +101,7 @@
                      <li>
                          <div class="dropdown">
                              <a class="menu-links" href="#">Services</a>
-                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                             <ul class="dropdown-menu cs-dropdown-menu" aria-labelledby="dropdownMenuButton">
                                  <li>
                                      <a class="dropdown-item" href="{{ url('product-design') }}">Product Design &raquo;</a>
                                      <ul class="dropdown-menu dropdown-submenu">
