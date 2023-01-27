@@ -6,7 +6,7 @@
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1">
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -22,24 +22,29 @@
     </div>
   </section>
   <!--End why-choose-->
-<div class="container">
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+  <div class="container pb-5">
+      <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="frem-banner-img mt-5">
+            <img src="{{ url('assets/images/banner/9.jpg') }}">
+          </div>
+      <div class="col-lg-12 mt-5">
+          <div class="common-heading  text-left">
             <h3>Evaluate your business capabilities with data analytics & BI service</h3>
             <p>Make Data-driven decisions to meet your future business goals, identify problems, and reduce the risk of failure by getting our data analytics and BI service</p>
           </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+      <div class="col-lg-12 pb-5 mt-5">
+          <div class="common-heading  text-left">
             <h3>Make your Decision better for your business with Data Analytics and business intelligence</h3>
-            <p>Data Analytics and Business intelligence is the process of evaluating your business data and BI convert this basic data into meaningful statistics or information that helps to predict future challenges, risk, trend, and opportunity. This data will helps to save upfront investment, predict future opportunities, and make better decisions. </p><br><br>
+            <p>Data Analytics and Business intelligence is the process of evaluating your business data and BI convert this basic data into meaningful statistics or information that helps to predict future challenges, risk, trend, and opportunity. This data will helps to save upfront investment, predict future opportunities, and make better decisions. </p>
             <p>
             A trusted provider of data analytics and BI solutions, Pralient uses advanced technology to analyze data and extract useful insights automatically. Our IT professionals have enough experience and knowledge in collecting useful information from multiple sources of data. Also, our experts will ensure to provide complete consistency about future growth, market trends, challenges, and human behavior.  
             </p>  
         </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+      <div class="col-lg-12 pb-5">
+          <div class="common-heading  text-left">
             <h3>Process we follow</h3>
             <p>We follow a simple methodology to make sure the quality of Data Analytics and BI service. Read Below!</p>
             
@@ -70,8 +75,8 @@
             Now we will provide in-depth reporting of your business in the visual format with complete proof or reason. So you easily understand potential challenges, growth opportunities, and future strategies.
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+      <div class="col-lg-12 py-5">
+          <div class="common-heading  text-left">
             <h3>Services offered by us</h3>
             <p>As a renowned IT service provider, we offer a variety of data analytics and BI services </p>
             
@@ -101,8 +106,8 @@
             Predict the future growth, opportunity, future challenges, and human behavior to meet your business goals by getting our Data Science service. Data science is used to analyze data by data scientists. Prilient offers world-class data scientists who have enough knowledge and experience in data mining, predictive modeling, and other data analytics firms. 
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+      <div class="col-lg-12 py-5">
+          <div class="common-heading  text-left">
             <h3>Benefits of Getting Data Analytics and BI </h3>
         </div>
       </div>
@@ -134,8 +139,8 @@
             With the help of Data Analytics and Business intelligence, you can identify customer needs that help to improve your business growth. So, you can provide a great user experience, better product, and better service as they want. 
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+      <div class="col-lg-12 py-5">
+          <div class="common-heading  text-left">
             <h3>Why did you choose Prilient for Data Analytics and BI service?</h3>
         </div>
       </div>
@@ -165,13 +170,11 @@ Plus, our full support doesn’t stop once you launch. We can help if you need u
 
             </p>
       </div>
-      
-      
-      
-     
-      
-
-
+        </div>
+        <div class="col-lg-4 col-12 mt-5">
+          @include('front.pages.request_quote')
+        </div>
+      </div>
     </div>
   <!-- content end -->
 @endsection

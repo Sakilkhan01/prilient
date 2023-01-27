@@ -6,7 +6,7 @@
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1">
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -22,12 +22,24 @@
     </div>
   </section>
   <!--End why-choose-->
-<div class="container py-5">
-      <div class="col-lg-12">
+  <div class="container pb-5">
+    <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="frem-banner-img mt-5">
+            <img src="{{ url('assets/images/banner/9.jpg') }}">
+          </div>
+      <div class="col-lg-12 mt-5">
             <h4>Modern Data Warehouses</h4>
             <p>
             A modern data warehouse is used to store multiple sources of data on the cloud that helps to deliver better customer insights and more powerful functionalities. Our experts use a business intelligence framework, machine learning, and advanced technique to identify challenges or market trends, and predict future growth or opportunity. They will provide an in-depth report about your business. 
             </p>
+      </div>
+
+      
+        </div>
+        <div class="col-lg-4 col-12 mt-5">
+          @include('front.pages.request_quote')
+        </div>
       </div>
       
      

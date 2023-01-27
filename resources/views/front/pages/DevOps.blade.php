@@ -7,7 +7,7 @@
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1">
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -22,23 +22,27 @@
       </div>
     </div>
   </section>
-  <!--End why-choose-->
-<div class="container">
-    <div class="col-lg-12 text-center py-5">
+  <div class="container pb-5">
+      <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="frem-banner-img mt-5">
+            <img src="{{ url('assets/images/banner/9.jpg') }}">
+          </div>
+    <div class="col-lg-12 mt-5">
           <div class="common-heading  ">
             <h2>Offering a Full Suite of DevOps Services</h2>
              <p>DevOps is an IT development approach in which applications are built, tested, and deployed quickly. By integrating development and operations, you get better control over project scope, timelines, and risk exposure. We offer a full suite of DevOps services for seamless integration between your software development and IT operations teams. Our experts will help you build, manage, and scale your applications so that you can focus on building great products.</p>
           </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12  py-5">
           <div class="common-heading  ">
             <h2>Develop Business-Focused DevOps Strategies</h2>
              <p>We support companies with the implementation of their development strategies in production environments using our DevOps developers. This is in contrast to a traditional software development lifecycle (SDLC), which leads to new features from ideation all the way through testing, release, and monitoring after launch. It facilitates the building and implementation of necessary security solutions in parallel with product launches, adding an additional layer between development and operations.</p>
              <p>Our expertise in designing and developing customized solutions for our clients is unrivaled. We are a leading organization in DevOps services, we have a team of experts who work together to provide high-quality DevOps services.</p>
           </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+      <div class="col-lg-12  py-5">
+          <div class="common-heading  mb-0">
             <h2>Our Process and Methodology</h2>
              <p>On-Demand as a Service (ODaaS) is an approach to deploying systems and applications on-demand, with no setup or development required. It involves a highly scalable and reliable infrastructure in which preconfigured services are deployed on-demand whenever they’re needed. This reduces overhead and increases flexibility while guaranteeing that business-critical applications are always up and running when needed. Our process and Methodology for implementing ODaaS includes:</p>
            </div>
@@ -73,7 +77,7 @@
             Monitoring and supporting a DevOps solution (while it is in production) requires specific tools to keep an eye on everything. For example, monitoring helps you collect data from your system over time and provide a status of how it is functioning. 
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12  py-5">
           <div class="common-heading  ">
             <h2>Our Services</h2>
              <p>We offer a wide range of services to cover all your DevOps needs. You’ll get that with our professional experience and expertise in delivering complex projects at a high-efficiency rate.</p>
@@ -97,13 +101,13 @@
             Our DevOps Integration Services Help Streamline Your Workflow and Drive Business Growth. We integrate your development, QA, staging, and production environments to improve your software, web, and application delivery process. Our goal is to make sure that every team member can focus on what they do best: delivering great products for your customers.
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+      <div class="col-lg-12  py-5">
+          <div class="common-heading mb-0">
             <h2>WHY Do You Need DevOps Services?</h2>
              <p> There are a number of reasons why you would want to consider our DevOps services. First, it is a great way to manage and track bugs in your system. Many companies find that when they outsource their DevOps development process, their software is much more stable and reliable. When you hand off development duties to an outside company, there are no financial or power issues to worry about. You can trust them to build exactly what you need, without worrying about ownership or internal politics getting in the way of progress.</p>
           </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12  py-5">
           <div class="common-heading  ">
             <h2>How Prilient Has Become the Most Reliable DevOps Provider?</h2>
              <p> We are one of few DevOps providers that offer 24/7 monitoring, which means you will always know your system is up and running smoothly.</p>
@@ -138,6 +142,11 @@
             <p>
             We use tools like Jira, Slack, Confluence, and HipChat to collaborate with each other. These tools help us share information across teams and build a better product for our customers. We also use GitHub for code review, Bitbucket for code management, and Jenkins for continuous integration. We try to automate as much as possible using Ansible. All of these tools help us move faster by removing bottlenecks from our process.
             </p>
+      </div>
+        </div>
+        <div class="col-lg-4 col-12 mt-5">
+          @include('front.pages.request_quote')
+        </div>
       </div>
     </div>
   <!-- content end -->

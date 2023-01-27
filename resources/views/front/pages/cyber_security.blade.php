@@ -6,7 +6,7 @@
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1">
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -21,21 +21,27 @@
       </div>
     </div>
   </section>
+            
   <!--End why-choose-->
-<div class="container">
-      <div class="col-lg-12 text-center py-5">
+<div class="container pb-5">
+       <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="frem-banner-img mt-5">
+            <img src="{{ url('assets/images/banner/9.jpg') }}">
+          </div>
+      <div class="col-lg-12 mt-5">
           <div class="common-heading  ">
             <h2>Shield Your Organization With Cyber-Attacks</h2>
              <p>If you have any desire to shield your organization from cyber-attacks and guarantee that your delicate information stays safe, we're here to help. We can deal with all that you really want to keep your business secured, including danger recognition and avoidance, so you can zero in on developing your business without agonizing over whether it's protected from programmers.</p>
           </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12 py-5">
           <div class="common-heading  ">
             <h2>We Strengthen Your Business with Cybersecurity</h2>
              <p>With cybercriminals becoming more sophisticated by the day, every company should be prepared with an appropriate cybersecurity solution. Our security services are specially designed for small businesses and other organizations that need maximum protection but cannot afford a huge price tag. Keeping your network and data secure allows you to focus on what you do best: running your business. To protect its information assets, any organization needs to have a comprehensive security strategy. </p>
            </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12  py-5">
           <div class="common-heading  ">
             <h2>Cyber Securities Services</h2>
              <p>To understand how we are different from other cyber security services, it’s important to get a sense of our values.</p>
@@ -95,7 +101,7 @@
             Hackers who want to infiltrate your network will try every trick in their book, including impersonating authorized users. It’s not just about protecting information and assets; it’s also about protecting employees and customers from fraud and identity theft.   
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12  py-5">
           <div class="common-heading  ">
             <h2>How Prilient Cyber Security Services is More Secure?</h2>
             <p>The security of your organization is our number one priority. We go above and beyond to ensure that you will be safe from any kind of attack on your organization’s security infrastructure.</p>
@@ -124,6 +130,11 @@
             <p>
             With over 20 years of experience in network security, we’ve seen it all. We provide comprehensive consulting services for both businesses and individuals, including vulnerability assessments and penetration testing.
             </p>
+      </div>
+        </div>
+        <div class="col-lg-4 col-12 mt-5">
+          @include('front.pages.request_quote')
+        </div>
       </div>
     </div>
   <!-- content end -->

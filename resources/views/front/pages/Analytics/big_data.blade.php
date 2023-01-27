@@ -6,7 +6,7 @@
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1">
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -22,18 +22,23 @@
     </div>
   </section>
   <!--End why-choose-->
-<div class="container py-5">
-<div class="col-lg-12 mt-4">
+  <div class="container pb-5">
+    <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="frem-banner-img mt-5">
+            <img src="{{ url('assets/images/banner/9.jpg') }}">
+          </div>
+      <div class="col-lg-12 mt-5">
             <h4>Big Data</h4>
             <p>
             Improve the chance of making a better decision after getting an in-depth understanding of the market, business, competition, and future by getting our business intelligence service. business intelligence is used to create, build, and deeply business applications. IT experts of Prilient are capable of delivering business and infrastructure applications for BI platforms, data warehousing infrastructure, and reporting frameworks. 
             </p>
       </div>
-      
-     
-      
-
-
+        </div>
+        <div class="col-lg-4 col-12 mt-5">
+          @include('front.pages.request_quote')
+        </div>
+      </div>
     </div>
   <!-- content end -->
 @endsection

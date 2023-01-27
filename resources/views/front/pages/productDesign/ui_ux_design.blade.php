@@ -3,11 +3,8 @@
 @section('meta_keywords', "UI/ UX Design services")
 @section('meta_description', "Looking for UI/ UX Design Services? We are specialized in creating beautiful and smooth UI/UX designs that provide better user experience by incorporating effective collaboration,")
 
-
 @section('content') 
-  <!-- content start -->
-  <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/UI-Ux-design.jpg') }}">
+<section class="breadcrumb-area banner-1" >
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -22,9 +19,14 @@
       </div>
     </div>
   </section>
-  <!--End why-choose-->
-<div class="container py-5">
-      <div class="col-lg-12">
+  
+  <div class="container  pb-5">
+      <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="frem-banner-img mt-5">
+            <img src="{{ url('assets/images/banner/UI-Ux-design.jpg') }}">
+          </div>
+        <div class="col-lg-12 mt-5">
             <h4>UI/UX Design</h4>
             <p>
             User Interface/User Experience (UI/UX) design services are a vital component of a company’s success in an increasingly technological world. For example, a website’s UI is what draws new customers in—its ease of use and overall look and feel—while UX design focuses on making sure that those same users have a seamless experience with the site once they actually make it to their intended destination. Both types of design are our specialty, so we can help you develop products that people will enjoy.
@@ -43,8 +45,8 @@
                 <li class="mb-3">Manage Your User Data Efficiently</li>
             </ul>
       </div>
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+      <div class="col-lg-12 py-5">
+          <div class="common-heading text-left">
             <h3>Why Prilient is Most Suited For Your Product Design?</h3>
             <p>Prilient’s product design services ensure that you get exactly what you need to make your project a success.</p>
           </div>
@@ -79,9 +81,10 @@
             It is a great way to interact with our customers and provide them with the best possible customer service. The live chat facility allows us to have a conversation with you in real-time.
             </p>
       </div>
-      
-
-
-    </div>
-  <!-- content end -->
+        </div>
+        <div class="col-lg-4 col-12 mt-5">
+          @include('front.pages.request_quote')
+        </div>
+      </div>
+  </div>
 @endsection

@@ -6,7 +6,7 @@
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1">
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -22,15 +22,20 @@
     </div>
   </section>
   <!--End why-choose-->
-<div class="container">
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+  <div class="container pb-5">
+    <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="frem-banner-img mt-5">
+            <img src="{{ url('assets/images/banner/9.jpg') }}">
+          </div>
+      <div class="col-lg-12 mt-5">
+          <div class="common-heading">
             <h3>Get a competitive edge in the market with next-gen technology</h3>
             <p>Move ahead from the competition by offering and deploying next-gen technology to the customer </p>
           </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+      <div class="col-lg-12 py-5">
+          <div class="common-heading">
             <h3>Unleash the power of your business with Next-gen technology</h3>
             <p>Next-gen technology refers to new development or new degradation in the technology. Next-gen technology and management help to improve software advancement, transform the current learning or working system, and change the lives of people in different aspects like improving performance, completing the repetitive task more effectively, and keeping them safer or wealthier or healthier. </p><br><br>
             <p>
@@ -38,7 +43,7 @@
             </p>  
         </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12 py-5">
           <div class="common-heading  ">
             <h3>Our methodology for Next-gen technology</h3>
             <p>We apply a simple methodology throughout the projects that help to improve the quality of solutions. Read below!</p>
@@ -70,7 +75,7 @@
             Now we will deliver the project to the client and provide complete support if the client wants to change any feature. Also provide complete support if any issue will come in the future. 
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12 py-5">
           <div class="common-heading  ">
             <h3>We offer Next-gen Technology </h3>
             <p>As a renowned IT service provider, we offer the following Next-gen technology services</p>
@@ -107,7 +112,7 @@
             Improve work efficiency, speed, customer experience, and employee productivity and save money or time by automating repetitive tasks. RPA tools work more accurately than humans. We offer Robotic process automation-as-a-service (RPA) and ensure to deliver top-solution with complete privacy. RPA development is very essential to get a competitive edge in the market.  
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12 py-5">
           <div class="common-heading  ">
             <h3>Benefits of Getting Next-Gen Technologies service</h3>
         </div>
@@ -140,7 +145,7 @@
             As business applications migrate from on-premises data centers to cloud environments, organizations can take advantage of better security. Cloud computing providers monitor for vulnerabilities and patches.
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12 py-5">
           <div class="common-heading  ">
             <h3>Why did you choose Prilient for the Next-Gen Technologies service?</h3>
         </div>
@@ -176,7 +181,11 @@
             </p>
       </div>
       
-      
+      </div>
+        <div class="col-lg-4 col-12 mt-5">
+          @include('front.pages.request_quote')
+        </div>
+      </div>
       
      
       

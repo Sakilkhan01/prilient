@@ -4,9 +4,8 @@
 @section('meta_description', "An Android app development service can help turn your great idea into a reality. By working with our experienced and professional Android app development on all supported Android")
 
 @section('content') 
-  <!-- content start -->
-  <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/android_development.jpg') }}">
+
+  <section class="breadcrumb-area banner-1" >
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -21,9 +20,13 @@
       </div>
     </div>
   </section>
-  <!--End why-choose-->
-<div class="container py-5">
-      <div class="col-lg-12">
+<div class="container pb-5">
+  <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="frem-banner-img mt-5">
+            <img src="{{ url('assets/images/banner/android_development.jpg') }}">
+          </div>
+      <div class="col-lg-12 mt-5">
             <h4>Android App Development</h4>
             <p>
             The advancements in mobile devices and improvements in our App development services have dramatically changed how we communicate. Android application developers are experienced in all aspects of Android app development, including native and hybrid applications. A good android application developer needs to keep up with all new technologies, as well as understand older ones and how they can integrate into newer platforms that may not yet be mainstream.
@@ -94,9 +97,11 @@
             To address any questions or concerns you may have, we have a dedicated support team available 24/7.
             </p>
       </div>
-      
-
-
+      </div>
+        <div class="col-lg-4 col-12 mt-5">
+          @include('front.pages.request_quote')
+        </div>
+      </div>
     </div>
   <!-- content end -->
 @endsection

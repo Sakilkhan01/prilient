@@ -4,9 +4,8 @@
 @section('meta_description', "Product Strategy and Prototype Service is essentially the roadmap a product team will use to make sure they work on products that add real value to users and have products.")
 
 @section('content') 
-  <!-- content start -->
-  <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+
+  <section class="breadcrumb-area banner-1">
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -21,27 +20,32 @@
       </div>
     </div>
   </section>
-  <!--End why-choose-->
-<div class="container">
-    <div class="col-lg-12 text-center py-5">
-          <div class="common-heading  ">
+              
+  <div class="container pb-5">
+<div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="frem-banner-img mt-5">
+            <img src="{{ url('assets/images/banner/9.jpg') }}">
+          </div>
+    <div class="col-lg-12 mt-5">
+          <div class="common-heading">
             <h3>Complete Product Strategy and Prototype Service</h3>
          </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12">
           <div class="common-heading  ">
             <h3>We convert your idea into a meaningful digital product</h3>
              <p>Develop a meaningful, customer-centric, and breakthrough product by getting our product strategy and prototype service </p>
            </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12  py-5">
           <div class="common-heading  ">
             <h3>Unleash your business capabilities with our product strategy and prototype</h3>
              <p>Product strategy helps to create a clear roadmap for the future of a business or brand and a prototype is a simple drawing that represents a roadmap to fix problems or meet your future business goals. With product strategy and prototype you can determine the problem and fix it.</p>
              <p>At prilient, we offer complete product and prototype service to meet your business goal, reduce the risk, and be ready to solve future problems. Our experienced team has capable of covert your idea into digital products. To create a top-notch product strategy they analyze data, understand the market, and create perfect planning.</p>
            </div>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12  py-5">
           <div class="common-heading  ">
             <h3>Our process for Product strategy and prototype</h3>
              <p>To develop a high-quality product strategy for every business our experts follow this simple methodology.</p>
@@ -71,7 +75,7 @@
             After usability testing, we monitor and analyze our product strategy on the regular basis to reduce the risk of failure and improve user satisfaction and product strategy. 
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12  py-5">
           <div class="common-heading  ">
             <h3>Product strategy and prototype Services Offered by us</h3>
             <p>
@@ -104,7 +108,7 @@
             </p>
       </div>
       
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12  py-5">
           <div class="common-heading  ">
             <h3>Benefits of getting product strategy and prototype service</h3>
           </div>
@@ -139,7 +143,7 @@
             In order to scale your business, you need to have a strong understanding on how to get early users and customers. You also need to understand what makes customers keep coming back for more.
             </p>
       </div>
-      <div class="col-lg-12 text-center py-5">
+      <div class="col-lg-12  py-5">
           <div class="common-heading  ">
             <h3>Why choose us for product strategy and prototype service?</h3>
             <p>
@@ -176,6 +180,11 @@
             <p>
             We follow a strict timeline to complete your project on time, so you don’t have to worry about delaying other projects.
             </p>
+      </div>
+        </div>
+        <div class="col-lg-4 col-12 mt-5">
+          @include('front.pages.request_quote')
+        </div>
       </div>
       
 

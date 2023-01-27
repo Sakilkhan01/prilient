@@ -5,9 +5,7 @@
 
 
 @section('content') 
-  <!-- content start -->
-  <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/app_design.jpg') }}">
+<section class="breadcrumb-area banner-1">
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -22,9 +20,14 @@
       </div>
     </div>
   </section>
-  <!--End why-choose-->
-<div class="container">
-      <div class="col-lg-12 text-center py-5">
+
+<div class="container pb-5">
+      <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="frem-banner-img mt-5">
+            <img src="{{ url('assets/images/banner/app_design.jpg') }}">
+          </div>
+      <div class="col-lg-12 mt-5">
           <div class="common-heading  ">
             <h3>We're Your Trusted Partner for Building Your Mobile Apps</h3>
             <p>Trust is of paramount importance when seeking assistance in app development. Unlike many competing agencies, we have years of experience in programming and our experts know how to work with a variety of different business models and demographics to provide you with an end product that exceeds your expectations.</p>
@@ -173,7 +176,11 @@
             To address any questions or concerns you may have, we have a dedicated support team available 24/7.
             </p>
       </div>
-      
+      </div>
+        <div class="col-lg-4 col-12 mt-5">
+          @include('front.pages.request_quote')
+        </div>
+      </div>
 
 
     </div>
