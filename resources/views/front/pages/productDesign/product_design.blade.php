@@ -21,9 +21,10 @@
          <div class="hero-main-rp container-fluid">
             <div class="row">
                <div class="col-lg-5 alignCenter">
-                  <div class="hero-heading-sec text-center">
-                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>Product Design</span> </h2>
-                     <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn mt-5" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                  <div class="hero-heading-sec">
+                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>Product Design</span></h2>
+                     <p class="wow fadeIn" data-wow-delay="0.6s">Our designers utilize their mastery to make products that are aesthetically pleasing, yet in addition functional and easy to understand.</p>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                </div>
                <div class="col-lg-2"></div>
@@ -35,13 +36,13 @@
       </section>
 
       <div class="container pb-5">
-            <div class="col-lg-12 text-center py-5">
+           <!--  <div class="col-lg-12 text-center py-5">
           <div class="common-heading">
             <h3>Designing Products that People Will Love</h3>
-            <p>Our designers utilize their mastery to make products that are aesthetically pleasing, yet in addition functional and easy to understand.</p>    
+             
         </div>
-      </div>
-      <div class="col-lg-12 text-center">
+      </div> -->
+      <div class="col-lg-12 text-center mt-5">
           <div class="common-heading">
             <h3>We Make Your Dreams Come True</h3>
              <p>We have our own product design strategies to ensure that we are designing products that customers will adore. At the point when we start a project, every item needs a methodology before it goes into improvement. We really want to understand what it will do, how it will look and function, who will use it, and what its necessities are. When we comprehend these components, then, at that point, we can continue on and make ideas that tackle issues in astute ways. </p>
