@@ -42,7 +42,7 @@
         text-decoration: none;
        }
    </style>
-<body hackable="off">
+<body>
     @include('front.includes.header')
 
     @yield('content')

@@ -3,45 +3,30 @@
 @section('meta_keywords', "product design")
 @section('meta_description', "The definition of product design describes the process of imagining, creating, products that solve users' problems or specific needs. Our product design services create experiences.")
 
-<style>
-      .card-service-equal {
-            padding: 25px;
-            height:100%;
-            box-shadow:rgba(0,0,0,.12) 0 1px 3px,rgba(0,0,0,.24) 0 1px 2px;border-radius:10px;text-align:center
-      }
-      .card-service-equal p{
-            margin-top:15px;
-      }
-      .mtop15{
-            margin-top:3% !important;
-      }
-</style>
+
 @section('content') 
-<section class="hero-card-web-2 bg-gradient12 shape-bg3">
+      <section class="hero-card-web-2 bg-gradient12 shape-bg3">
          <div class="hero-main-rp container-fluid">
-            <div class="row">
+            <div class="container">
+              <div class="row">
                <div class="col-lg-5 alignCenter">
-                  <div class="hero-heading-sec">
+                  <div class="hero-heading-sec text-center">
                      <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>Product Design</span></h2>
                      <p class="wow fadeIn" data-wow-delay="0.6s">Our designers utilize their mastery to make products that are aesthetically pleasing, yet in addition functional and easy to understand.</p>
+                     <p class="wow fadeIn" data-wow-delay="0.6s"></p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                </div>
                <div class="col-lg-2"></div>
-               <div class="col-lg-4 mt-sm-3">
+               <div class="col-lg-5 mt-sm-3">
                    @include('front.pages.request_quote')
                </div>
+            </div>
             </div>
          </div>
       </section>
 
       <div class="container pb-5">
-           <!--  <div class="col-lg-12 text-center py-5">
-          <div class="common-heading">
-            <h3>Designing Products that People Will Love</h3>
-             
-        </div>
-      </div> -->
       <div class="col-lg-12 text-center mt-5">
           <div class="common-heading">
             <h3>We Make Your Dreams Come True</h3>
@@ -101,6 +86,12 @@
             </div>
             <div class="col-lg-2 col-12"></div>
       </div>
+      <div class="-cta-btn mt70">
+               <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+                  <p>Hire a <span>Dedicated Developer</span></p>
+                  <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
+            </div>
       <div class="col-lg-12 text-center mt-5">
           <div class="common-heading">
             <h1 class="text-radius text-light text-animation bg-b">Our Areas of Specialization</h1>
@@ -154,6 +145,12 @@
             <div class="col-lg-6 col-12 mt-5">
                   <img class="img-fluid" src="{{ url('assets/images/banner/app_design.jpg') }}">
             </div>
+      </div>
+      <div class="-cta-btn mt40 pb-5">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
       </div>
       <div class="col-lg-12 text-center mt-5">
           <div class="common-heading">
