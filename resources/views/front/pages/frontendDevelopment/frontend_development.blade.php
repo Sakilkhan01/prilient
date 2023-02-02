@@ -157,9 +157,9 @@
       </div>
       <div class="col-lg-4 col-12 mt-4">
         <div class="card-service-equal h-100">
-            <h4>eCommerce Development</h4>
+            <h4>Ecommerce Development</h4>
             <p>
-            In eCommerce Development, we have an expert team to develop your website. Whether you want to build a new store or revamp your existing one, our team of dedicated professionals will create an intuitive and user-friendly shopping experience for your customers.        </p>
+            In Ecommerce Development, we have an expert team to develop your website. Whether you want to build a new store or revamp your existing one, our team of dedicated professionals will create an intuitive and user-friendly shopping experience for your customers.        </p>
       </div>
       </div>
       <div class="col-lg-4 col-12 mt-4">
