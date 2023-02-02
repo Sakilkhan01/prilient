@@ -87,11 +87,11 @@
             <div class="col-lg-2 col-12"></div>
       </div>
       <div class="-cta-btn mt70">
-               <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
-                  <p>Hire a <span>Dedicated Developer</span></p>
-                  <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-               </div>
-            </div>
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
       <div class="col-lg-12 text-center mt-5">
           <div class="common-heading">
             <h1 class="text-radius text-light text-animation bg-b">Our Areas of Specialization</h1>
@@ -143,7 +143,7 @@
                   </ul>
             </div>
             <div class="col-lg-6 col-12 mt-5">
-                  <img class="img-fluid" src="{{ url('assets/images/banner/app_design.jpg') }}">
+                  <img class="img-fluid" src="{{ url('frontent/vactor/product_design.jpg') }}">
             </div>
       </div>
       <div class="-cta-btn mt40 pb-5">

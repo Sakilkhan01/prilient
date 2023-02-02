@@ -12,6 +12,7 @@
                <div class="col-lg-5 alignCenter">
                   <div class="hero-heading-sec text-center">
                      <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>Mobile App Development Services</span></h2>
+                     <p>Trust is of paramount importance when seeking assistance in app development. Unlike many competing agencies</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                </div>
@@ -98,9 +99,15 @@
         </div>
       </div>
       </div>
+      <div class="-cta-btn mt70">
+               <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+                  <p>Hire a <span>Dedicated Developer</span></p>
+                  <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
+            </div>
       <div class="col-lg-12 text-center mt-5">
           <div class="common-heading">
-            <h2>Mobile Application Development Services that Meet All Your Needs</h2>
+            <h2 class="text-radius text-light text-animation bg-b">Mobile Application Development Services that Meet All Your Needs</h2>
             <p>Whether you’re looking to build a new app from scratch or update an existing one, we have a dedicated team that can deliver just what you need. To keep pace with changing technologies and needs, all our apps are constantly updated and maintained by highly qualified developers who are always up-to-date with the latest trends in technology.</p>
           </div>
       </div>
@@ -192,8 +199,13 @@
         </div>
         <div class="col-lg-4 col-12"></div>
       </div>
-      
-        <div class="col-lg-12 text-center py-5">
+      <div class="-cta-btn mt40 ">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
+      </div>
+        <div class="col-lg-12 text-center mt-5">
           <div class="common-heading">
             <h3>Invest in Prilient App Development Services for the Best ROI</h3>
            </div>

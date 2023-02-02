@@ -38,6 +38,7 @@
             <p>We’re pleased to provide our clients with some of the best web development services available today. Whether you’re looking for custom software or ready-made solutions, we can help you get your project off on the right foot!</p>
           </div>
       </div>
+
       <div class="col-lg-12 text-left">
           <div class="common-heading  ">
             <h3>Our Web Development Process and Methodology</h3>
@@ -86,9 +87,15 @@
       </div>
       </div>
       </div>
+      <div class="-cta-btn mt70">
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
       <div class="col-lg-12 text-left mt-5">
           <div class="common-heading  ">
-            <h3>Our Web Development Services</h3>
+            <h1 class="text-radius text-light text-animation bg-b">Our Web Development Services</h1>
             <p>Our cycle depends on making custom solutions that are extraordinary to your requirements. By understanding these requirements, we can appropriately plan and foster a coordinated framework that will give a powerful stage to you.</p>
           </div>
       </div>
@@ -142,6 +149,12 @@
           </div>
       </div>
       </div>
+      <div class="-cta-btn mt70">
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
       <div class="col-lg-12 text-left py-5">
           <div class="common-heading  ">
             <h3>Technologies We Are Using </h3>
@@ -166,6 +179,7 @@
         <img src="{{ url('assets/images/banner/web-design-website-coding-concept.jpg') }}">
       </div>
       </div>
+
     </div>
   <!-- content end -->
 @endsection

@@ -42,9 +42,15 @@
             </p>  
         </div>
       </div>
+      <div class="-cta-btn mt40">
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
       <div class="col-lg-12 text-center mt-5">
           <div class="common-heading  ">
-            <h3>Quality Engineering services offered by us</h3>
+            <h3 class="text-radius text-light text-animation bg-b">Quality Engineering services offered by us</h3>
         </div>
       </div>
       <div class="row justify-content-center">
@@ -82,7 +88,7 @@
       <div class="col-lg-4 col-12 mt-4">
             <div class="card service-content line3 card-service-equal h-100">
             <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">Big Data Testingt</h5>
+            <h5 class="mb10">Big Data Testing</h5>
             <p>
             Make sure all the functionalities and features of big data applications are working smoothly and error-free. Our big data testing experts are capable in evaluating your application and providing in-depth reports of big data systems that make sure the system is run error-free while maintaining the privacy, performance, and user experience.  
             </p>
@@ -223,6 +229,12 @@
                   </p>
             </div>
             </div>
+      </div>
+      <div class="-cta-btn mt40">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
       </div>
       <div class="col-lg-12 text-center mt-5">
           <div class="common-heading  ">

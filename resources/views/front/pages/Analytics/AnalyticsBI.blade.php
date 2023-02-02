@@ -85,9 +85,15 @@
         </div>
         </div>
       </div>
+      <div class="-cta-btn mt70">
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
       <div class="col-lg-12 mt-5">
           <div class="common-heading">
-            <h3>Services offered by us</h3>
+            <h1 class="text-radius text-light text-animation bg-b">Services offered by us</h1>
             <p>As a renowned IT service provider, we offer a variety of data analytics and BI services </p>
         </div>
       </div>
@@ -99,7 +105,7 @@
             <p>
             A modern data warehouse is used to store multiple sources of data on the cloud that helps to deliver better customer insights and more powerful functionalities. Our experts use a business intelligence framework, machine learning, and advanced technique to identify challenges or market trends, and predict future growth or opportunity. They will provide an in-depth report about your business. 
             </p>
-            <a href="{{ url('product-design/ui-ux-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+            <a href="{{url('/Analytics_and_BI/modern-data-warehouses')}}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
           </div>
       </div>
       <div class="col-lg-4 col-12 mt-4">
@@ -109,7 +115,7 @@
             <p>
             Improve the chance of making a better decision after getting an in-depth understanding of the market, business, competition, and future by getting our business intelligence service. business intelligence is used to create, build, and deeply business applications. IT experts of Prilient are capable of delivering business and infrastructure applications for BI platforms, data warehousing infrastructure, and reporting frameworks. 
             </p>
-            <a href="{{ url('product-design/ui-ux-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+            <a href="{{url('/Analytics_and_BI/big-data')}}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
           </div>
       </div>
       <div class="col-lg-4 col-12 mt-4">
@@ -119,7 +125,7 @@
             <p>
             Create a 360-degree view of data analytics reports with data visualization to understand data in a better format, save time, and make better decisions quickly. Our IT experts are capable of designing a report that is easy to understand or communicating complex reports. It allows to remove all distractions and helps to pay attention only to red flags areas.  
             </p>
-            <a href="{{ url('product-design/ui-ux-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+            <a href="{{url('/Analytics_and_BI/data-visualization')}}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
           </div>
       </div>
       <div class="col-lg-4 col-12 mt-4">
@@ -129,7 +135,7 @@
             <p>
             Predict the future growth, opportunity, future challenges, and human behavior to meet your business goals by getting our Data Science service. Data science is used to analyze data by data scientists. Prilient offers world-class data scientists who have enough knowledge and experience in data mining, predictive modeling, and other data analytics firms. 
             </p>
-            <a href="{{ url('product-design/ui-ux-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+            <a href="{{url('/Analytics_and_BI/data-science')}}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
       </div>
       </div>
       </div>
@@ -177,6 +183,12 @@
               </p>
         </div>
         </div>
+      </div>
+      <div class="-cta-btn mt40">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
       </div>
       <div class="col-lg-12 mt-5">
           <div class="common-heading">

@@ -84,9 +84,15 @@
         </div>
         </div>
       </div>
+      <div class="-cta-btn mt70">
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
       <div class="col-lg-12 mt-5">
           <div class="common-heading">
-            <h3>We offer Next-gen Technology </h3>
+            <h3 class="text-radius text-light text-animation bg-b">We offer Next-gen Technology </h3>
             <p>As a renowned IT service provider, we offer the following Next-gen technology services</p>
             
         </div>
@@ -188,6 +194,12 @@
           </div>
           </div>
       </div>
+       <div class="-cta-btn mt40">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
+      </div>
       <div class="col-lg-12 mt-5">
           <div class="common-heading  ">
             <h3>Why did you choose Prilient for the Next-Gen Technologies service?</h3>
@@ -204,7 +216,7 @@
       </div>
           <div class="col-lg-4 col-12 mt-4">
             <div class="card-service-equal h-100">
-            <h4>Scalability and Reliability:</h4>
+            <h4>Scalability and Reliability</h4>
             <p>
             From serving up your site’s static files to powering your dynamic applications, our infrastructure can handle it all. We’re here for you—no matter how big you grow. When you need more capacity, we have a plan that will scale with you. 
             </p>

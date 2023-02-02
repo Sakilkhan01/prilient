@@ -44,9 +44,15 @@
                   </p>
             </div>
       </div>
-      <div class="col-lg-12">
+      <div class="-cta-btn">
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
+      <div class="col-lg-12 mt-5">
             <div class="common-heading">
-                  <h3>Our Full-stack Development Services</h3>
+                  <h2 class="text-radius text-light text-animation bg-b">Our Full-stack Development Services</h2>
                   <p>
                   India's leading software development company is not just a one-stop shop for all your web and mobile app development needs but also offers end-to-end solutions including website design and development, mobile application development, digital marketing, eCommerce services, and much more. We are committed to providing our clients with a smooth experience from start to finish. Our team of highly skilled developers is backed by proven industry expertise in technology and business processes. 
                   </p>
@@ -115,6 +121,12 @@
                 <li class="mb-3">Dedicated Professionals</li>
                 <li class="mb-3">Scalability and Easy to Upgrade</li>
             </ul>
+      </div>
+       <div class="-cta-btn mt40 pb-5">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
       </div>
       <div class="col-lg-12">
         <div class="common-heading">

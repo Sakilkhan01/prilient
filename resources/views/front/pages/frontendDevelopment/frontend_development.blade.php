@@ -86,8 +86,8 @@
           </div>
       </div>
       <div class="col-lg-12 text-center mt-5">
-          <div class="common-heading  ">
-            <h3>The Services We Provide for Front-end Development</h3>  
+          <div class="common-heading">
+            <h3 class="text-radius text-light text-animation bg-b">The Services We Provide for Front-end Development</h3>  
             <p>Front-end Development is, simply put, a bundle of technologies used to make websites and apps appear visually attractive. Let us take care of your Front-end development needs by working with our Front-end Development team.</p>  
         </div>
       </div>
@@ -98,7 +98,7 @@
                 <h5 class="mb10">Angular JS Development</h5>
                 <p>
                 As AngularJS developers, we have extensive experience. Angular is a popular client-side JavaScript framework to build well-structured, testable, and maintainable single-page applications. You can get extensive knowledge on angular js from our training series, or you can choose any of our Development Services like Web Application Development, Mobile App Development, and Ecommerce Website Development based on your requirement. A team of expert architects and developers works hard to deliver high-quality products that give a good ROI to clients.    </p>  
-                <a href="{{ url('product-design/ui-ux-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                <a href="{{ url('/frontend_development/angular-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
             </div>
             </div>
           <div class="col-lg-4 col-12 mt-4">
@@ -108,7 +108,7 @@
                 <p>
                 Our React JS developers use features like two-way data binding, directives, and controllers to build a highly interactive web interface. We develop faster and more engaging web applications that increase your conversion rates. Moreover, We ensure high performance by leveraging AOT (Ahead Of Time) compilation to produce static code during build time, giving our React JS apps unmatched speed for faster page loads and quick response times even on mobile devices.
     </p>
-    <a href="{{ url('product-design/ui-ux-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+    <a href="{{ url('/frontend_development/react-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
           </div>
           </div>
           <div class="col-lg-4 col-12 mt-4">
@@ -118,7 +118,7 @@
                 <p>
                 Building user interfaces with Vue.js is easy. It offers data-reactive components with a simple and flexible API. Vue’s composable, modular architecture means you can build encapsulated components that are only responsible for themselves, and then combine them however you like. Our team uses Vue JS to develop interactive web applications that load quickly and work across multiple devices. 
     </p>
-    <a href="{{ url('product-design/ui-ux-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+    <a href="{{ url('/frontend_development/vue-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
             </div>
             </div>
           <div class="col-lg-4 col-12 mt-4">
@@ -128,7 +128,7 @@
                 <p>
                 HTML 5 offers developers a multitude of new elements and abilities to make websites more rich and interactive. Our HTML 5 Development Services use these new features to develop cleaner, faster sites. The new code is better for accessibility and readability, too. The standards are designed to work on any device that has access to an internet connection—from desktop computers down to mobile phones.     
     </p>
-    <a href="{{ url('product-design/ui-ux-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+    <a href="{{ url('/frontend_development/html-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
             </div>
             </div>
         </div>
@@ -170,6 +170,12 @@
         </p>
       </div>
       </div>
+      </div>
+       <div class="-cta-btn mt40">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
       </div>
       <div class="col-lg-12 text-center mt-5">
           <div class="common-heading">

@@ -43,9 +43,15 @@
             </p>  
         </div>
       </div>
+      <div class="-cta-btn pb-5">
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
       <div class="col-lg-12 text-center">
           <div class="common-heading  ">
-            <h3>Our Cloud-based Development Services</h3>
+            <h3 class="text-radius text-light text-animation bg-b">Our Cloud-based Development Services</h3>
             <p>Explore how your business can benefit from our cloud-based development services. Whether you’re looking for a web application or a mobile app, we can help.</p>
             
         </div>
@@ -151,6 +157,12 @@
                 <li class="mb-3">Flexibility and Scalability</li>
                 <li class="mb-3">Easy To Expansion</li>
             </ul>
+      </div>
+       <div class="-cta-btn mt40 pb-5">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
       </div>
       <div class="row justify-content-center">
             <div class="col-lg-4 col-12 mt-4">

@@ -13,7 +13,7 @@
                <div class="col-lg-5 alignCenter">
                   <div class="hero-heading-sec text-center">
                      <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>Cyber Security Services</span></h2>
-                     <p class="wow fadeIn" data-wow-delay="0.6s"></p>
+                     <p class="wow fadeIn" data-wow-delay="0.6s">If you have any desire to shield your organization from cyber-attacks and guarantee that your delicate information stays safe, we're here to help.</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                </div>
@@ -40,9 +40,15 @@
              <p>With cybercriminals becoming more sophisticated by the day, every company should be prepared with an appropriate cybersecurity solution. Our security services are specially designed for small businesses and other organizations that need maximum protection but cannot afford a huge price tag. Keeping your network and data secure allows you to focus on what you do best: running your business. To protect its information assets, any organization needs to have a comprehensive security strategy. </p>
            </div>
       </div>
+      <div class="-cta-btn pb-5">
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
       <div class="col-lg-12">
           <div class="common-heading">
-            <h2>Cyber Securities Services</h2>
+            <h1 class="text-radius text-light text-animation bg-b">Cyber Securities Services</h1>
              <p>To understand how we are different from other cyber security services, it’s important to get a sense of our values.</p>
            </div>
       </div>
@@ -120,7 +126,13 @@
           </div>
           </div>
       </div>
-      <div class="col-lg-12 mt-5">
+      <div class="-cta-btn mt40 py-5">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
+      </div>
+      <div class="col-lg-12">
           <div class="common-heading">
             <h2>How Prilient Cyber Security Services is More Secure?</h2>
             <p>The security of your organization is our number one priority. We go above and beyond to ensure that you will be safe from any kind of attack on your organization’s security infrastructure.</p>

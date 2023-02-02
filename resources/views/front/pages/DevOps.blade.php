@@ -15,7 +15,7 @@
                <div class="col-lg-5 alignCenter">
                   <div class="hero-heading-sec text-center">
                      <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>DevOps</span></h2>
-                     <p class="wow fadeIn" data-wow-delay="0.6s"></p>
+                     <p class="wow fadeIn" data-wow-delay="0.6s">DevOps is an IT development approach in which applications are built, tested, and deployed quickly. By integrating development and operations, you get better control over project scope, timelines, and risk exposure.</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                </div>
@@ -90,7 +90,13 @@
         </div>
         </div>
       </div>
-      <div class="col-lg-12  py-5">
+      <div class="-cta-btn mt70">
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
+      <div class="col-lg-12  mt-5">
           <div class="common-heading  ">
             <h2>Our Services</h2>
              <p>We offer a wide range of services to cover all your DevOps needs. You’ll get that with our professional experience and expertise in delivering complex projects at a high-efficiency rate.</p>
@@ -122,7 +128,12 @@
         </div>
         </div>
       </div>
-
+<div class="-cta-btn mt40 py-5">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
+      </div>
       <div class="col-lg-12  py-5">
           <div class="common-heading mb-0">
             <h2>WHY Do You Need DevOps Services?</h2>

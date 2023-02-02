@@ -84,15 +84,21 @@
         </div>
         </div>
       </div>
+      <div class="-cta-btn mt70">
+         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
+            <p>Hire a <span>Dedicated Developer</span></p>
+            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+         </div>
+      </div>
       <div class="col-lg-12  mt-5">
           <div class="common-heading">
-            <h3>Product strategy and prototype Services Offered by us</h3>
+            <h3 class="text-radius text-light text-animation bg-b">Product strategy and prototype Services Offered by us</h3>
             <p>
             We offer two different types of product strategy and prototype service with complete ensurity.
             </p>
           </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
       <div class="col-lg-4 col-12 mt-4">
           <div class="card service-content line3">
           <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
@@ -111,16 +117,6 @@
             Proof of Concept (POC) is basically used to evaluate your business idea whether it can be turned into reality. With this concept, you can save lots of money or time, attract investors' attention, understand user needs, and check against the competition.
             </p>
           <a href="{{ url('/product_prototype/poc') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">App Design</h5>
-            <p>
-            A lot of companies make their app to match specific products and services, and it’s something we really don’t recommend. Your app should be designed in such a way that it can stand on its own, or serve as an additional tool to your product/service offering. By offering exceptional experiences, you won’t need to rely on convincing users they need your app; they will use it because they want to use it.
-            </p>
-          <a href="{{ url('product-design/app-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
       </div>
       </div>
       </div>
@@ -171,6 +167,12 @@
             </p>
       </div>
       </div>
+      </div>
+      <div class="-cta-btn mt40">
+               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
+                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
+                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               </div>
       </div>
       <div class="col-lg-12 mt-5">
           <div class="common-heading">
