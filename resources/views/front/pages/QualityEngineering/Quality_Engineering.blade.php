@@ -252,7 +252,7 @@
       </div>
       <div class="col-lg-4 col-12 mt-4">
             <div class="card-service-equal h-100">
-            <h4>Save Money:</h4>
+            <h4>Save Money</h4>
             <p>
             Keeping your IT equipment and software updated with current versions is key to optimizing your technology performance. Whatever your reason, no matter how small or large your company is (or if you’re managing it all yourself), we provide high-quality quality engineering service that is completely worth it for you. 
            </p>
@@ -260,13 +260,13 @@
       </div>
       <div class="col-lg-4 col-12 mt-4">
             <div class="card-service-equal h-100">
-            <h4>Transparency:</h4>
+            <h4>Transparency</h4>
             <p>We will be in contact with you throughout your project and we are available for questions, concerns, and feedback any time during or after your project. Our responsiveness is a top priority of ours. We’ll make sure you’re getting what you want and that you know where we are in your project at all times.</p>
       </div>
       </div>
       <div class="col-lg-4 col-12 mt-4">
             <div class="card-service-equal h-100">
-            <h4>On-time Delivery:</h4>
+            <h4>On-time Delivery</h4>
             <p>
             It is one of our prime objectives to deliver your web or mobile applications on time. we don’t compromise with quality, but we also keep in mind that deadlines are an essential part of any project. It is one of our prime objectives to deliver your web or mobile applications on time. we don’t compromise with quality, but we also keep in mind that deadlines are an essential part of any project.
           </p>

@@ -73,7 +73,7 @@
             </div>
             <div class="col-lg-4 col-12 mt-4">
             <div class="card-service-equal h-100">
-                  <h4>Usability Testing:</h4>
+                  <h4>Usability Testing</h4>
                   <p>
                   After development, we apply usability testing that helps to identify bugs, challenges, and security issues. We eliminate all the risks, reduce issues, and prevent bugs.
                   </p>
@@ -81,7 +81,7 @@
             </div>
             <div class="col-lg-4 col-12 mt-4">
             <div class="card-service-equal h-100">
-                  <h4>Delivery and Support:</h4>
+                  <h4>Delivery and Support</h4>
                   <p>
                   Now we deliver your solution and provide complete support if you need any changes in it.
                   </p>
