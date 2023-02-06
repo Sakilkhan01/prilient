@@ -36,12 +36,6 @@
        }
    </style>  
 </head>
-   
-   <style type="text/css">
-       a:hover{
-        text-decoration: none;
-       }
-   </style>
 <body>
     @include('front.includes.header')
 
