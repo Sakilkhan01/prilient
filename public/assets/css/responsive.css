@@ -32,9 +32,8 @@
     .hero-card-web-2{
         padding-top:125px;
         padding-bottom:0px;
-        min-height:680px;
+        min-height:590px;
         height:auto
-        
     }
     .hero-main-rp{
         padding:0 30px
@@ -765,7 +764,61 @@
     .locations{
         grid-gap:30px
     }
+    .request-quote-card{
+        bottom: 31px;
+    }
+    .hero-main-rp h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .comman-service-heading h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .service-content-body {
+        top: 0px;
+    }
+    .on-card-tab{
+        bottom:100px;
+    }
+    .BgRedcardHeight{
+        height: 400px;
+    }
+    .hiredevlopercard,.bottomUp{
+        bottom: 70px;
+    }
+    .service_heading_text{
+        line-height: 45px;
+    }
+    .bottom_card_product{
+        text-align: center;
+    }
+    .borderLeft{
+        border-left: unset;
+    }
+    .bottom_card_product h5{
+        margin-top: 15px;
+    }
+
 }
+@media(min-width:481px) and (max-width:992px){
+    .borderLeft{
+        border-left: unset;
+    }
+    .bottom_card_product{
+        text-align: center;
+    }
+    .bottom_card_product h5{
+        margin-top: 15px;
+    }
+    .BgRedcardHeight{
+        height: 390px;
+    }
+    .request-quote-card{
+        bottom: 31px;
+    }
+}
+
 @media(min-width:576px){
     .modal-dialog{
         max-width:400px;

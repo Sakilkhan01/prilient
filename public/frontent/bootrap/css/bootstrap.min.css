@@ -392,10 +392,6 @@ textarea{
     display:flex!important
 }
 
-.justify-content-center{
-    -ms-flex-pack:center!important;
-    justify-content:center!important
-}
 .justify-content-between{
     -ms-flex-pack:justify!important;
     justify-content:space-between!important
@@ -430,9 +426,6 @@ textarea{
     padding-top:3rem!important
 }
 
-.text-center{
-    text-align:center!important
-}
 
 
 .text-success{

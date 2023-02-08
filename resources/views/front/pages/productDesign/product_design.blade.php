@@ -5,205 +5,289 @@
 
 
 @section('content') 
-      <section class="hero-card-web-2 bg-gradient12 shape-bg3">
-         <div class="hero-main-rp container-fluid">
+<section class="hero-card-web-2 bg-service-banner">
+      <div class="hero-main-rp container-fluid">
+         <div class="container">
+            <div class="row">
+                  <div class="col-lg-7 col-12 text-lg-left text-center">
+                        <h1 class="">Product Design</h1>
+                        <p>Our designers utilize their mastery to make products that are aesthetically pleasing, yet in addition functional and easy to understand.</p>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                  </div>
+                  <div class="col-lg-5 col-12 mt-4">
+                        <img src="{{ asset('assets/images/banner/service-page-header-mobile.png') }}">
+                  </div>
+            </div>
+         </div>
+      </div>
+</section>
+<section class="request-quote-card">
+      <div class="container">
+            <div class="col-lg-12">
+                  <div class="textCard">
+                     <h5>Request A Quote</h5>
+                  </div>
+            </div>
+            <div class="request-quote-card-body">
+                  <div class="row">
+                        <div class="col-lg-3 col-12">
+                        <div class="form-group">
+                              <label for="exampleInputName">Name:</label>
+                              <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter Name">
+                        </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                        <div class="form-group">
+                              <label for="exampleInputName">Email:</label>
+                              <input type="email" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter Email Address">
+                        </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                        <div class="form-group">
+                              <label for="exampleInputName">Message:</label>
+                              <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Description">
+                        </div>
+                        </div>
+                        <div class="col-lg-3 col-12 d-flex align-items-center">
+                              <button type="button" class="btn">SUBMIT</button>
+                        </div>
+                  </div>
+            </div>
+      </div>
+</section>
+<section class="service-content-body">
+    <div class="container pb-5">
+      <div class="row">
+      <div class="col-lg-7 col-12mt-5">
+          <div class="comman-service-heading">
+             <h1>We Make Your <br><span class="textRed fontWt50">Dreams</span> <span class="textPrim fontWt50">Come True</span></h1>
+             <p>We have our own product design strategies to ensure that we are designing products that customers will adore. At the point when we start a project, every item needs a methodology before it goes into improvement. We really want to understand what it will do, how it will look and function, who will use it, and what its necessities are. When we comprehend these components, then, at that point, we can continue on and make ideas that tackle issues in astute ways.</p>
+             <p>Our developers work as a group so they can guarantee nothing is overlooked or left out. We achieve both useful and appealing designs through this approach. Designing products should be tailored to our clients' needs. It doesn't matter whether you're working with us on one product or 100 products, we will always provide a fantastic experience</p>
+          </div>
+      </div>
+      <div class="col-lg-5 col-12 text-center mt-5">
+            <img src="{{ asset('assets/services/ui-vactor.svg') }}">
+      </div>
+      </div>
+   </div>
+
+   <div class="bgRed BgRedcardHeight py-5 mt-4">
+      <div class="rounded-circle-comm top-rounded-circle"></div>
+      <div class="container">
+      <div class="comman-service-heading text-center">
+             <h1 class="text-center fontWt40 text-white">How Do We Achieve <span class="fontWt50">Our Goal</span> ?</h1>
+             <p class="text-white">In order to make products that people love, we must focus on our customers and what they need. Focusing on your user will help you in terms of both design decisions and functional decisions.</p>
+      </div>  
+      </div>
+      <div class="rounded-circle-comm bottom-rounded-circle"></div>
+   </div>
+</section>
+      <div class="container on-card-tab">
+            <div class="row justify-content-center">
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <img src="{{ asset('assets/services/marketing-research.svg') }}">
+                              </div>
+                              <h5>Market Research & Development</h5>
+                              <p>
+                              In order to develop a successful product, we must first learn everything we can about your product and your target market. We want to know who you’re designing for, what they need, and how they use their products. In some cases, we may even conduct focus groups or surveys with your potential customers to get a sense of what they’re looking for in a new product.
+                              </p>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <img src="{{ asset('assets/services/conpet.svg') }}">
+                              </div>
+                              <h5>Create a Solid Concept</h5>
+                              <p>The second stage of any project is establishing a solid concept, which comes in many forms. Whether it’s a written brief or verbal discussion with your client, you want to be on the same page from day one. This will also allow you to get an idea of what your clients are looking for and what their true needs and wants are. We always set up meetings with our clients early on so we can start creating meaningful concepts together as quickly as possible.</p>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <img src="{{ asset('assets/services/prototype.svg') }}">
+                              </div>
+                              <h5>Taking the Prototype into Production</h5>
+                              <p>The third step is to take a prototype into production. Once we have a working prototype, then we can move on to making our product in bulk and delivering it to customers. We’ll take your prototype and create a fully functional, optimized version. Your website or application will be ready to launch, without being changed or butchered by a programmer, with all features working perfectly.</p>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <img src="{{ asset('assets/services/feedback.svg') }}">
+                              </div>
+                              <h5>Getting Feedback From Your Customers</h5>
+                              <p>Whether you have a product idea or a need for assistance, our product designers are ready to help. Using your feedback, we'll create a prototype and then send it to your customers. This process will ensure that your product solves real problems and will be something people love using.</p>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <img src="{{ asset('assets/services/feedback-hand.svg') }}">
+                              </div>
+                              <h5>Feedforward to Final Product</h5>
+                              <p>Feedback from customers and users is very important to design a product. We get feedback from our customers so we can make the final product better.</p>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div class="hiredevlopercard py-5 text-center">
             <div class="container">
-              <div class="row">
-               <div class="col-lg-5 alignCenter">
-                  <div class="hero-heading-sec text-center">
-                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>Product Design</span></h2>
-                     <p class="wow fadeIn" data-wow-delay="0.6s">Our designers utilize their mastery to make products that are aesthetically pleasing, yet in addition functional and easy to understand.</p>
-                     <p class="wow fadeIn" data-wow-delay="0.6s"></p>
-                     <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
-                  </div>
-               </div>
-               <div class="col-lg-2"></div>
-               <div class="col-lg-5 mt-sm-3">
-                   @include('front.pages.request_quote')
-               </div>
-            </div>
-            </div>
-         </div>
-      </section>
-
-      <div class="container pb-5">
-      <div class="col-lg-12 text-center mt-5">
-          <div class="common-heading">
-            <h3>We Make Your Dreams Come True</h3>
-             <p>We have our own product design strategies to ensure that we are designing products that customers will adore. At the point when we start a project, every item needs a methodology before it goes into improvement. We really want to understand what it will do, how it will look and function, who will use it, and what its necessities are. When we comprehend these components, then, at that point, we can continue on and make ideas that tackle issues in astute ways. </p>
-             <p>Our developers work as a group so they can guarantee nothing is overlooked or left out. We achieve both useful and appealing designs through this approach. Designing products should be tailored to our clients' needs. It doesn't matter whether you're working with us on one product or 100 products, we will always provide a fantastic experience.</p>
-          </div>
-      </div>
-      <div class="col-lg-12 text-center mt-5">
-          <div class="common-heading">
-            <h3>How Do We Achieve Our Goal?</h3>
-             <p>In order to make products that people love, we must focus on our customers and what they need. Focusing on your user will help you in terms of both design decisions and functional decisions. </p>
-           </div>
-      </div>
-      <div class="row mt-5">
-      <div class="col-lg-4 col-12 mt-sm-3">
-            <div class="card-service-equal h-100">
-                  <h4>Market Research & Development</h4>
-                  <p>
-                  In order to develop a successful product, we must first learn everything we can about your product and your target market. We want to know who you’re designing for, what they need, and how they use their products. In some cases, we may even conduct focus groups or surveys with your potential customers to get a sense of what they’re looking for in a new product.
-                  </p>
-            </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-sm-3">
-            <div class="card-service-equal h-100">
-                  <h4>Create a Solid Concept</h4>
-                  <p>
-                  The second stage of any project is establishing a solid concept, which comes in many forms. Whether it’s a written brief or verbal discussion with your client, you want to be on the same page from day one. This will also allow you to get an idea of what your clients are looking for and what their true needs and wants are. We always set up meetings with our clients early on so we can start creating meaningful concepts together as quickly as possible.
-                  </p>
-            </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-sm-3">
-            <div class="card-service-equal h-100">
-                  <h4>Taking the Prototype into Production</h4>
-                  <p>
-                  The third step is to take a prototype into production. Once we have a working prototype, then we can move on to making our product in bulk and delivering it to customers. We’ll take your prototype and create a fully functional, optimized version. Your website or application will be ready to launch, without being changed or butchered by a programmer, with all features working perfectly.
-                  </p>
-            </div>
-      </div>
-      </div>
-      <div class="row">
-            <div class="col-lg-2 col-12"></div>
-            <div class="col-lg-4 col-12 mtop15">
-                  <div class="card-service-equal h-100">
-                        <h4>Getting Feedback From Your Customers</h4>
-                        <p>
-                        Whether you have a product idea or a need for assistance, our product designers are ready to help. Using your feedback, we'll create a prototype and then send it to your customers. This process will ensure that your product solves real problems and will be something people love using.
-                        </p>
+                  <div class="row justify-content-center">
+                        <div class="col-lg-6 col-12">
+                              <h2 class="text-white mb-0">Hire a <span class="fontWt50">Dedicated Developer</span></h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('dedicated-developer') }}" class="hire-butn">Hire Now <i class="fa fa-chevron-right fa-ani"></i></a>
+                        </div>
                   </div>
             </div>
-            <div class="col-lg-4 col-12 mtop15">
-                  <div class="card-service-equal h-100">
-                        <h4>Feedforward to Final Product</h4>
-                        <p>
-                        Feedback from customers and users is very important to design a product. We get feedback from our customers so we can make the final product better.
-                        </p>
+      </div>
+      <div class="bgYellow py-5 bottomUp">
+            <div class="container">
+                  <div class="col-lg-12 text-center">
+                        <h1 class="service_heading_text">Our Areas of Specialization</h1>
+                  </div>
+                        <div class="row justify-content-center">
+                              <div class="col-lg-4 col-12 mt-5">
+                                    <div class="services_card text-center card-service-equal h-100">
+                                          <h5><span><img src="{{ asset('assets/services/ui-ux-icon.svg') }}"> </span> UI/UX Design</h5>
+                                          <p>
+                                          User Interface/User Experience <br>(UI/UX) design services are a <br> vital component of a company’s <br> success in an... <a href="{{ url('product-design/ui-ux-design') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="col-lg-4 col-12 mt-5">
+                                    <div class="services_card text-center card-service-equal h-100">
+                                          <h5><span><img src="{{ asset('assets/services/app-icon.svg') }}"> </span> App Design</h5>
+                                          <p>
+                                          A lot of companies make their <br> app to match specific products <br> and services, and it’s something <br> we really don’t... <a href="{{ url('product-design/app-design') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="col-lg-4 col-12 mt-5">
+                                    <div class="services_card text-center card-service-equal h-100">
+                                          <h5><span><img src="{{ asset('assets/services/web-icon.svg') }}"> </span> Web Design</h5>
+                                          <p>
+                                          An effective web presence <br> requires good web design. <br> Whether you need a mobile, <br> desktop, or tablet ...<a href="{{ url('product-design/web-design') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="mt70">
+                              <div class="row">
+                                    <div class="col-lg-4 col-12"></div>   
+                                    <div class="col-lg-8 col-12">
+                                          <h3 class="heading_medium">How Can The Best Product Enable You to be a Market Leader?</h3>
+                                          <p>Ultimately, you want a product that solves your customer’s problems and helps you stand out from your competitors. This is why it’s so important to ensure that you’re designing an optimal user experience (UX) and user interface (UI). UX/UI designers are experts in visual and interaction designers who are responsible for making sure a product or app looks as good as it works. From mobile apps to websites, their designs create rich, engaging experiences for customers and users alike.</p>
+                                          <ul class="customList">
+                                                <li>
+                                                      Enhances Your Customer’s Satisfaction Rate
+                                                </li>
+                                                <li>
+                                                      Increases Market Share
+                                                </li>
+                                                <li>
+                                                      Offers Best Customers Services
+                                                </li>
+                                                <li>
+                                                      Real-time Customer Support
+                                                </li>
+                                                <li>
+                                                      Manage Your User Data Efficiently
+                                                </li>
+                                          </ul>
+                                    </div>   
+                              </div>
+                        </div>
+            </div>
+      </div>
+      <div class="bottomUp40 text-center">
+            <div class="container">
+                  <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-6 col-12">
+                              <h2 class="mb-0 fontWt40">We <span class="fontWt50">Promise.</span> We <span class="fontWt50">Deliver.</span></h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('contact-us') }}" class="promiseBtn">Let’s Work Together <i class="fa fa-chevron-right"></i></a>
+                        </div>
                   </div>
             </div>
-            <div class="col-lg-2 col-12"></div>
       </div>
-      <div class="-cta-btn mt70">
-         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
-            <p>Hire a <span>Dedicated Developer</span></p>
-            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-         </div>
-      </div>
-      <div class="col-lg-12 text-center mt-5">
-          <div class="common-heading">
-            <h1 class="text-radius text-light text-animation bg-b">Our Areas of Specialization</h1>
-          </div>
-      </div>
-      <div class="row pb-5">
-            <div class="col-lg-4 col-12 mt-sm-3">
-                  <div class="card service-content line3">
-                  <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-                  <h5 class="mb10">UI/UX Design</h5>
-                     <p>User Interface/User Experience (UI/UX) design services are a vital component of a company’s success in an increasingly technological world. For example, a website’s UI is what draws new customers in—its ease of use and overall look and feel—while UX design focuses on making sure that those same users have a seamless experience with the site once they actually make it to their intended destination. Both types of design are our specialty, so we can help you develop products that people will enjoy.</p>
-                    <a href="{{ url('product-design/ui-ux-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+      <div class="container py-5">
+            <div class="col-lg-10 col-12 text-center ml-auto mr-auto">
+                  <h3 class=""> Why <span class="fontWt50 textRed">Prilient</span> is<br> Most Suited For Your <span class="fontWt50 textPrim">Product Design</span>?</h3>
+                  <p>Prilient’s product design services ensure that you get exactly what you need to make your project a success.</p>
+            </div>
+            <div class="col-lg-10 col-12 ml-auto mr-auto">
+                  <div class="col-12 col-lg-12 mt-5">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/callander.svg')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>1. On-time Delivery</h5> 
+                                         <p>We are proud of our commitment to on-time delivery. We have an extensive network in multiple locations, meaning that we can get your product to you quickly and efficiently.</p>   
+                                   </div> 
+                              </div>
+                        </div>
                   </div>
-               </div>
-               <div class="col-lg-4 col-12 mt-sm-3">
-                  <div class="card service-content line3">
-                  <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-                     <h5 class="mb10">App Design</h5>
-                     <p>
-                        A lot of companies make their app to match specific products and services, and it’s something we really don’t recommend. Your app should be designed in such a way that it can stand on its own, or serve as an additional tool to your product/service offering. By offering exceptional experiences, you won’t need to rely on convincing users they need your app; they will use it because they want to use it.
-                        </p>
-                    <a href="{{ url('product-design/app-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/collbrative.svg')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>2. Collaborative Work Culture</h5> 
+                                         <p>Collaboration is the key to success for companies in today's competitive environment. The collaborative work culture has been around for some time now. It is a work culture that promotes collaboration and teamwork among employees.</p>   
+                                   </div> 
+                              </div>
+                        </div>
                   </div>
-               </div>
-               <div class="col-lg-4 col-12 mt-sm-3">
-                  <div class="card service-content line3">
-                  <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-                     <h5 class="mb10">Web Design</h5>
-                     <p>
-                        An effective web presence requires good web design. Whether you need a mobile, desktop, or tablet website, we provide both front-end and back-end development services. Our designers are equipped with best practices to create beautiful websites that function flawlessly on any device. When we design your website, you can be sure that it will not only look good but also convert traffic into leads or sales online.
-                    </p>
-                    <a href="{{ url('product-design/web-design') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-              </div>
-            </div>
-            </div>
-
-      <div class="row">
-            <div class="col-lg-6 col-12 mt-5">
-                  <h3>How Can The Best Product Enable You to be a Market Leader?</h3>
-                  <p>
-                  Ultimately, you want a product that solves your customer’s problems and helps you stand out from your competitors. This is why it’s so important to ensure that you’re designing an optimal user experience (UX) and user interface (UI). UX/UI designers are experts in visual and interaction designers who are responsible for making sure a product or app looks as good as it works. From mobile apps to websites, their designs create rich, engaging experiences for customers and users alike.
-                  </p>
-                  <ul class="p-3" style="list-style-type: circle;">
-                  <li class="mb-3">Enhances Your Customer’s Satisfaction Rate</li>
-                  <li class="mb-3">Increases Market Share</li>
-                  <li class="mb-3">Offers Best Customers Services</li>
-                  <li class="mb-3">Real-time Customer Support</li>
-                  <li class="mb-3">Manage Your User Data Efficiently</li>
-                  </ul>
-            </div>
-            <div class="col-lg-6 col-12 mt-5">
-                  <img class="img-fluid" src="{{ url('frontent/vactor/product_design.jpg') }}">
-            </div>
-      </div>
-      <div class="-cta-btn mt40 pb-5">
-               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
-                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
-                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-               </div>
-      </div>
-      <div class="col-lg-12 text-center mt-5">
-          <div class="common-heading">
-            <h3>Why Prilient is Most Suited For Your Product Design?</h3>
-            <p>Prilient’s product design services ensure that you get exactly what you need to make your project a success.</p>
-          </div>
-      </div>
-      <div class="row mt-5">
-      <div class="col-lg-4 col-12 mt-sm-3">
-            <div class="card-service-equal h-100">
-                  <h4>1. On-time Delivery</h4>
-                  <p>
-                  We are proud of our commitment to on-time delivery. We have an extensive network in multiple locations, meaning that we can get your product to you quickly and efficiently. 
-                  </p>
-            </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-sm-3">
-            <div class="card-service-equal h-100">
-                  <h4>2. Collaborative Work Culture</h4>
-                  <p>
-                  Collaboration is the key to success for companies in today's competitive environment. The collaborative work culture has been around for some time now. It is a work culture that promotes collaboration and teamwork among employees.
-                  </p>
-            </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-sm-3">
-            <div class="card-service-equal h-100">
-                  <h4>3. Goal-Oriented Team</h4>
-                  <p>
-                  Our goal is to help companies build great digital products with the help of our team of product designers. Our team is focused on the user experience and our main goal is to make sure that the product we design is intuitive and easy to use. 
-                  </p>
-            </div>
-      </div>
-</div>
-<div class="row">
-            <div class="col-lg-2 col-12"></div>
-            <div class="col-lg-4 col-12 mtop15">
-                  <div class="card-service-equal h-100">
-                  <h4>4. 24/7 Customer Assistance</h4>
-                  <p>
-                  For any questions or concerns, you may have, our customer support team is available 24/7. In the event of a technical issue, we are available to take your call and help solve the problem as soon as possible.
-                  </p>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/goal.svg')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>3. Goal-Oriented Team</h5> 
+                                         <p>Our goal is to help companies build great digital products with the help of our team of product designers. Our team is focused on the user experience and our main goal is to make sure that the product we design is intuitive and easy to use.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/customer.svg')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>4. 24/7 Customer Assistance</h5> 
+                                         <p>For any questions or concerns, you may have, our customer support team is available 24/7. In the event of a technical issue, we are available to take your call and help solve the problem as soon as possible.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/chatboat.svg')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>5. Chatbot Facility</h5> 
+                                         <p>It is a great way to interact with our customers and provide them with the best possible customer service. The live chat facility allows us to have a conversation with you in real-time.</p>   
+                                   </div> 
+                              </div>
+                        </div>
                   </div>
             </div>
-            <div class="col-lg-4 col-12 mtop15">
-                  <div class="card-service-equal h-100">
-                        <h4>5. Chatbot Facility</h4>
-                   <p>
-                  It is a great way to interact with our customers and provide them with the best possible customer service. The live chat facility allows us to have a conversation with you in real-time.
-                  </p>
-                  </div>
-            </div>
-            <div class="col-lg-2 col-12"></div>
       </div>
-</div>
   <!-- content end -->
 @endsection
