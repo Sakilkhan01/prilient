@@ -152,7 +152,7 @@
                   </div>
                         <div class="row justify-content-center">
                               <div class="col-lg-4 col-12 mt-5">
-                                    <div class="services_card text-center card-service-equal h-100">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                           <h5><span><img src="{{ asset('assets/services/ui-ux-icon.svg') }}"> </span> UI/UX Design</h5>
                                           <p>
                                           User Interface/User Experience <br>(UI/UX) design services are a <br> vital component of a company’s <br> success in an... <a href="{{ url('product-design/ui-ux-design') }}" class="readMoreService">Read More</a>
@@ -160,7 +160,7 @@
                                     </div>
                               </div>
                               <div class="col-lg-4 col-12 mt-5">
-                                    <div class="services_card text-center card-service-equal h-100">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                           <h5><span><img src="{{ asset('assets/services/app-icon.svg') }}"> </span> App Design</h5>
                                           <p>
                                           A lot of companies make their <br> app to match specific products <br> and services, and it’s something <br> we really don’t... <a href="{{ url('product-design/app-design') }}" class="readMoreService">Read More</a>
@@ -168,7 +168,7 @@
                                     </div>
                               </div>
                               <div class="col-lg-4 col-12 mt-5">
-                                    <div class="services_card text-center card-service-equal h-100">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                           <h5><span><img src="{{ asset('assets/services/web-icon.svg') }}"> </span> Web Design</h5>
                                           <p>
                                           An effective web presence <br> requires good web design. <br> Whether you need a mobile, <br> desktop, or tablet ...<a href="{{ url('product-design/web-design') }}" class="readMoreService">Read More</a>
@@ -289,5 +289,19 @@
                   </div>
             </div>
       </div>
+      <div class="pb-5 text-center">
+            <div class="container">
+                  <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-8 col-12">
+                              <h2 class="mb-0 fontWt40">We Love to Listen to Your Requirements</h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('contact-us') }}" class="promiseBtn">Estimate Project <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+
   <!-- content end -->
 @endsection

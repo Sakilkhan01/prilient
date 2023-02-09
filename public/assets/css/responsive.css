@@ -800,6 +800,15 @@
         margin-top: 15px;
     }
 
+    .footer-address-list li{
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+    .darkmodeswitch{
+        display: none !important;
+    }
+
 }
 @media(min-width:481px) and (max-width:992px){
     .borderLeft{
@@ -818,6 +827,72 @@
         bottom: 31px;
     }
 }
+
+@media(min-width:1400px) and (max-width:1600px){
+    .request-quote-card{
+        bottom: 3px;
+    }
+    .hero-main-rp{
+        padding-top: 100px;
+    }
+    .service-content-body{
+        top:60px;
+    }
+    .on-card-tab{
+        bottom:100px;
+    }
+    .hiredevlopercard {
+        bottom: 60px;
+    }
+}
+
+@media(min-width:992px){
+    .request-quote-card{
+        bottom: 135px;
+    }
+    .hero-main-rp{
+        padding-top: 0;
+    }
+    .service-content-body{
+        top:-80px;
+    }
+    .on-card-tab{
+        top:-250px;
+    }
+    .hiredevlopercard {
+        bottom: 160px;
+    }
+    
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    .bottomUp {
+        bottom: 154px;
+    }
+}
+
+@media(min-width:1200px){
+    .request-quote-card{
+        bottom: 3px;
+    }
+    .hero-main-rp{
+        padding-top: 100px;
+    }
+    .service-content-body{
+        top:60px;
+    }
+    .on-card-tab{
+        top:-100px;
+    }
+    .bottomUp,
+    .hiredevlopercard {
+        bottom: 60px;
+    }
+    .bottomUp40{
+        bottom: 20px;
+    }
+}
+
 
 @media(min-width:576px){
     .modal-dialog{

@@ -30,7 +30,7 @@
                      <p>Prilient is a technology and development company dedicated to creating cutting-edge products for businesses. </p>
                      <a href="{{ url('contact-us') }}" class="btn-main bg-btn3 lnk mt20">Become Partner <i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                   </div>
-                  <div class="col-lg-3 col-sm-6">
+                  <div class="col-lg-3 col-sm-6 text-center text-lg-left">
                      <h5>Contact Us</h5>
                      <ul class="footer-address-list ftr-details">
                         <li>
@@ -49,7 +49,7 @@
                         </li>
                      </ul>
                   </div>
-                  <div class="col-lg-2 col-sm-6">
+                  <div class="col-lg-2 col-sm-6 text-center text-lg-left">
                      <h5>Our Services</h5>
                      <ul class="footer-address-list link-hover">
                         <li><a href="{{url('/Analytics_and_BI/big-data')}}">Big Data </a></li>
@@ -62,7 +62,7 @@
                         <li><a href="{{ url('software_development') }}">Software Development</a></li>
                      </ul>
                   </div>
-                  <div class="col-lg-2 col-sm-6">
+                  <div class="col-lg-2 col-sm-6 text-center text-lg-left">
                      <h5>Useful Links</h5>
                      <ul class="footer-address-list link-hover">
                         <li><a href="{{ url('/') }}">Home</a></li>
