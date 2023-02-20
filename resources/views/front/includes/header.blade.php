@@ -2,30 +2,30 @@
      style="visibility: visible; z-index: 999999;">
      <div class="offcanvas-body">
          <div class="cbtn animation">
-             <div class="btnclose"> 
+            <div class="btnclose"> 
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                      aria-label="Close"></button>
-                 </div>
+            </div>
          </div>
          <div class="form-block sidebarform">
              <h4>Request A Quote</h4>
              <p class="text-success" id="successMsg"></p>
              <form id="contactForm" action="javascript:void(0)" method="post" data-bs-toggle="validator" class="shake mt20">
                 @csrf
-                 <div class="row">
+                <div class="row">
                      <div class="form-group col-sm-12 mb-3">
                          <input type="text" class="mb-0" id="name" name="name" placeholder="Enter name">
                      </div>
                      <div class="form-group col-sm-12 mb-3">
                          <input type="email" class="mb-0" id="email" name="email" placeholder="Enter email">
                      </div>
-                 </div>
+                </div>
                  <div class="form-group mb-3">
                      <textarea id="message" class="mb-0" rows="5" name="message" placeholder="Enter your message"></textarea>
                  </div>
-                 <button type="submit" id="submit" class="btn lnk btn-main bg-btn submit">Submit <span class="circle"></span></button>
-                 <div id="msgSubmit" class="h3 text-center hidden"></div>
-                 <div class="clearfix"></div>
+                   <button type="submit" id="submit" class="btn lnk btn-main bg-btn submit">Submit <span class="circle"></span></button>
+                   <div id="msgSubmit" class="h3 text-center hidden"></div>
+                   <div class="clearfix"></div>
              </form>
          </div>
          <div class="getintouchblock mt30">
@@ -48,7 +48,7 @@
                  <div class="icondive"><img  loading="lazy" src="{{ url('assets/images/icons/mail.svg') }}" alt="icon"></div>
                  <div class="media-body getintouchinfo">
                      <a href="mailto:info@prilient.com"><span>info@prilient.com</span>
-                         <span>Online Support</span></a>
+                        <span>Online Support</span></a>
                  </div>
              </div>
              <div class="media mt15">

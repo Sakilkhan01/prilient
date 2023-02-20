@@ -91,6 +91,58 @@
    }
 
 </script>
+<script>
+    if ($("#RequestQuoteForm").length > 0) {
+      $("#RequestQuoteForm").validate({
+      rules: {
+         name: {
+            required: true,
+         },
+         email: {
+            required: true,
+            email: true,
+         },
+         message: {
+            required: true,
+         },   
+      },
+      messages: {
+         name: {
+            required: "Please enter name",
+         },
+         email: {
+            required: "Please enter valid email",
+            email: "Please enter valid email",
+         },  
+         message: {
+            required: "Please enter message",
+         },
+      },
+      submitHandler: function(form) {
+      $.ajaxSetup({
+         headers: {
+         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+         }
+      });
+      $('.submit').html('Please Wait...');
+      $(".submit"). attr("disabled", true);
+            $.ajax({
+               url: "{{ route('send-request-a-quote') }}",
+               type: "POST",
+               data: $('#RequestQuoteForm').serialize(),
+               success: function( response ) {
+                  document.getElementById("RequestQuoteForm").reset(); 
+                  $('.submit').html('Submit');
+                  $(".submit"). attr("disabled", false);
+                  $('.message_success').html(response.success);
+                  $("#myPopup").removeClass("hide");
+               }
+            });
+         }
+      })
+   }
+
+</script>
     @include('front.includes.footer')
    </body>
 </html>

@@ -22,6 +22,22 @@
       </div>
 </section>
 <section class="request-quote-card">
+      <style>
+            .request-quote-card-body .error{
+                  color:red;
+            }
+            .nav-bg-b .custom-nav .nav-list li a.menu-links{
+                  color:#000;
+            }
+            .mtSM30{
+                  margin-top:30px;
+            }
+            @media screen and (max-width: 767px) {
+            .mtSM30{
+                  margin-top:0px;
+            }
+            }
+      </style>
       <div class="container">
             <div class="col-lg-12">
                   <div class="textCard">
@@ -29,29 +45,32 @@
                   </div>
             </div>
             <div class="request-quote-card-body">
+                  <form id="RequestQuoteForm" action="javascript:void(0)" method="post">
+                  @csrf
                   <div class="row">
                         <div class="col-lg-3 col-12">
                         <div class="form-group">
                               <label for="exampleInputName">Name:</label>
-                              <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter Name">
+                              <input type="text" class="form-control"  id="name" name="name" placeholder="Enter Name">
                         </div>
                         </div>
                         <div class="col-lg-3 col-12">
                         <div class="form-group">
                               <label for="exampleInputName">Email:</label>
-                              <input type="email" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter Email Address">
+                              <input type="email" class="form-control"  id="email" name="email" placeholder="Enter Email Address">
                         </div>
                         </div>
                         <div class="col-lg-3 col-12">
                         <div class="form-group">
                               <label for="exampleInputName">Message:</label>
-                              <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Description">
+                              <input type="text" class="form-control" id="message" name="message" placeholder="Description">
                         </div>
                         </div>
-                        <div class="col-lg-3 col-12 d-flex align-items-center">
-                              <button type="button" class="btn">SUBMIT</button>
+                        <div class="col-lg-3 col-12 mtSM30">
+                              <button type="submit" class="btn">SUBMIT</button>
                         </div>
                   </div>
+                  </form>
             </div>
       </div>
 </section>
@@ -178,7 +197,9 @@
                         </div>
                         <div class="mt70">
                               <div class="row">
-                                    <div class="col-lg-4 col-12"></div>   
+                                    <div class="col-lg-4 col-12">
+                                          <img class="img-fluid" src="{{ asset('assets/services/ui-ux-icon_full.svg') }}">
+                                    </div>   
                                     <div class="col-lg-8 col-12">
                                           <h3 class="heading_medium">How Can The Best Product Enable You to be a Market Leader?</h3>
                                           <p>Ultimately, you want a product that solves your customer’s problems and helps you stand out from your competitors. This is why it’s so important to ensure that you’re designing an optimal user experience (UX) and user interface (UI). UX/UI designers are experts in visual and interaction designers who are responsible for making sure a product or app looks as good as it works. From mobile apps to websites, their designs create rich, engaging experiences for customers and users alike.</p>

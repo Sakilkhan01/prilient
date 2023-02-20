@@ -419,7 +419,7 @@ a[x-apple-data-detectors='true'] {
       <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Open Sans',sans-serif;" align="left">
         
   <div class="v-text-align v-line-height" style="color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
-    <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 12px; line-height: 16.8px;">© 2021 Prilient Information Technologies. All Rights Reserved.</span></p>
+    <p style="font-size: 14px; line-height: 140%;"><span style="font-size: 12px; line-height: 16.8px;">© 2023 Prilient Information Technologies. All Rights Reserved.</span></p>
   </div>
 
       </td>
