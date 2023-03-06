@@ -37,14 +37,7 @@
       </div>
       </div>
    </div>
-<style>
-  .textBgcolor{
-    background: linear-gradient(96.34deg, #F02C49 25.04%, #3A0098 103.27%);
-    background: -webkit-linear-gradient(96.34deg, #F02C49 25.04%, #3A0098 103.27%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-</style>
+
    <div class="bgYellow BgRedcardHeight py-5 mt-4">
       <div class="container">
       <div class="comman-service-heading text-center">
@@ -246,13 +239,13 @@
             </div>
       </div>
       <div class="bg-prim BgBLuecardHeight py-5 mt-4">
-      <div class="rounded-circle-comm top-rounded-circle"></div>
+      <!-- <div class="rounded-circle-comm top-rounded-circle"></div> -->
       <div class="container">
       <div class="comman-service-heading text-center">
              <h2 class="text-center fontWt40 text-white">Why Do you Need a Website For Your Business?</h2>
       </div>  
       </div>
-      <div class="rounded-circle-comm bottom-rounded-circle"></div>
+      <!-- <div class="rounded-circle-comm bottom-rounded-circle"></div> -->
    </div>
    <div class="container on-card-tab">
             <div class="row justify-content-center">
@@ -356,7 +349,7 @@
       </div>
 
 </div>
-      <div class="pb-5 text-center ">
+      <div class="pb-5 text-center " style="position:relative;bottom: 110px;">
             <div class="container">
                   <div class="row justify-content-center align-items-center">
                         <div class="col-lg-8 col-12">
@@ -368,7 +361,10 @@
                   </div>
             </div>
       </div>
-
-
-  <!-- content end -->
+      <style type="text/css">
+        footer{
+          position: relative;
+          bottom: 100px;
+        }
+      </style>
 @endsection

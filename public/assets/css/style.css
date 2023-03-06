@@ -2414,6 +2414,9 @@ body.hc-nav-open {
 .fontWt50 {
     font-weight: 600;
 }
+.fontWt70{
+    font-weight: 600;
+}
 .bgRed {
     background: #bc1f3e;
 }
@@ -2471,6 +2474,11 @@ body.hc-nav-open {
     color: #fff;
     transition: 0.3s;
 }
+
+.custom-card-hover:hover > .img-theme svg path {
+    fill: white !important;
+}
+
 .custom-card h5 {
     font-family: Poppins;
     font-size: 25px;
@@ -2482,7 +2490,8 @@ body.hc-nav-open {
     padding: 20px;
 }
 .bottom_card_product img,
-.img-theme img {
+.img-theme img,
+.img-theme svg {
     width: 70px;
 }
 .hiredevlopercard {
@@ -2681,3 +2690,90 @@ body.hc-nav-open {
     position: relative;
     bottom: 120px;
 }
+.textBgcolor{
+    background: linear-gradient(96.34deg, #F02C49 25.04%, #3A0098 103.27%);
+    background: -webkit-linear-gradient(96.34deg, #F02C49 25.04%, #3A0098 103.27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+/*.play-demo-btn{
+    background: transparent;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
+    color: black;
+    font-weight: 600;
+    border-image: linear-gradient(#E43C5D, #004998) 30;
+    border-width: 4px;
+    border-style: solid;
+    -webkit-border-radius: 5px;
+}
+
+.play-demo-btn::after{
+    position: absolute;
+    top: -4px; bottom: -4px;
+    left: -4px; right: -4px;
+    background: linear-gradient(#E43C5D, #004998) 30;
+    content: '';
+    z-index: -1;
+    border-radius: 16px;
+}*/
+
+
+.play-demo-btn {
+    color: #000;
+    position: relative;
+    box-sizing: border-box;
+    background:#EFEFEF;
+    background-clip: padding-box;
+    border: solid 3px transparent;
+    font-weight: 600;
+}
+.play-demo-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -5px;
+  border-radius: inherit;
+  background: linear-gradient(#E43C5D, #004998);
+}
+.play-demo-btn:hover{
+    background:#EFEFEF;
+     color: #000;
+    border: solid 3px transparent;
+}
+
+
+.iconCircle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #868686;
+  color:white;
+  background:#fff9f5;
+  margin: 0 auto;
+  z-index: 1;
+  transform: translateY(-80%);
+  padding: 20px;
+}
+.iconCircle img{
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-hover-white:hover > .iconCircle {
+    background: #fff;
+}
+
+ .offset-lg-1 {
+  margin-left: 8.333333%;
+}
+
+
+
+
+
+

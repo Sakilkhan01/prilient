@@ -866,6 +866,9 @@
     html .mt140 {
         margin-top: 90px;
     }
+     .offset-lg-1{
+        margin-left: 0;
+     }
 
 }
 @media(min-width:481px) and (max-width:992px){
