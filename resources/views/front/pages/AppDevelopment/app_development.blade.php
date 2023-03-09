@@ -2,11 +2,7 @@
 @section('title', "Mobile App devlopment services")
 @section('meta_keywords', "Mobile App devlopment services")
 @section('meta_description', "We provide a range of mobile application development services at Your Convenience including custom mobile development on iOS or Android platforms, building cross-platform apps")
-<style type="text/css">
-  .fa-play-circle:before {
-  content: "\f144";
-}
-</style>
+
 @section('content') 
 <section class="hero-card-web-2 bg-service-banner" style="background-image: url({{ asset('assets/images/banner/bg-gray.png') }});">
       <div class="hero-main-rp container-fluid">
@@ -506,6 +502,18 @@ Services that Meet All Your Needs</h1>
                                          <p>To address any questions or concerns you may have, we have a dedicated support team available 24/7.</p>   
                                    </div> 
                               </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div class="pb-5 text-center">
+            <div class="container">
+                  <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-8 col-12">
+                              <h2 class="mb-0 fontWt40">We Love to Listen to Your Requirements</h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('contact-us') }}" class="promiseBtn">Estimate Project <i class="fa fa-chevron-right"></i></a>
                         </div>
                   </div>
             </div>

@@ -870,6 +870,13 @@
         margin-left: 0;
      }
 
+     .icon-image-div{
+        display: inline-block;
+     }
+     .icon-image-div .firstDiv {
+        width: 100%;
+        margin-top: 10%;
+    }
 }
 @media(min-width:481px) and (max-width:992px){
     .borderLeft{

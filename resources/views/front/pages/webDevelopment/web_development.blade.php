@@ -3,183 +3,395 @@
 @section('meta_keywords', "Web Development Services")
 @section('meta_description', "Web development services are beneficial for a variety of reasons. involve everything related to building a web-based solution, whether it is a simple text page")
 
+<style type="text/css">
+  .web-development-bg{
+  background: url('{{ asset('assets/images/banner/bg-gray.png') }}') 0 0 / cover;
+}
+.web-development-bg2{
+  background: url('{{ asset('assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
+}
+.fontWt30{
+  font-weight: 400 !important;
+}
+.common-color-heading{
+  background: linear-gradient(90.21deg, #024A99 13.01%, #E43C5C 65.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 30px;
+}
+.request-quote-card-body{
+border-radius: 36px 36px 0px 0px; 
+}
+</style>
+
 @section('content') 
-<section class="hero-card-web-2 bg-gradient12 shape-bg3">
-         <div class="hero-main-rp container-fluid">
-          <div class="container">
+<section class="hero-card-web-2 web-development-bg web-development-bg2">
+      <div class="hero-main-rp container-fluid">
+         <div class="container">
             <div class="row">
-               <div class="col-lg-5 alignCenter">
-                  <div class="hero-heading-sec text-center">
-                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>Web Development Services</span></h2>
-                     <p class="maxWidthAuto">If you’re you're searching for an accomplished web development team to assist you with rejuvenating your venture, look no farther than Sufficiently Advanced. Our web development services have assisted a large number of organizations with succeeding and we can do it for you as well.</p>
-                     <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                  <div class="col-lg-7 col-12 text-lg-left text-center">
+                        <h1 class="fontWt30">Your <span class="fontWt50 common-color-heading">Website</span> is Your <span class="fontWt50 common-color-heading">Business Foundation</span></h1>
+                        <p class="mt-3">If you’re you're searching for an accomplished web development team to assist you with rejuvenating your venture, look no farther than Sufficiently Advanced. Our web development services have assisted a large number of organizations with succeeding and we can do it for you as well.</p>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                     <!-- <a href="{{ url('contact-us') }}" class="niwax-btn2 play-demo-btn ml-4 mt-3">View Demo <i class="fa fa-play-circle fa-ani"></i></a> -->
                   </div>
-               </div>
-               <div class="col-lg-2"></div>
-               <div class="col-lg-5 mt-sm-3">
-                   @include('front.pages.request_quote')
-               </div>
-            </div>
+                  <div class="col-lg-5 col-12 mt-4">
+                        <img src="{{ asset('assets/images/banner/web-development.png') }}">
+                  </div>
             </div>
          </div>
-      </section>
-
-<div class="container">
-       <!--  <div class="col-lg-12 text-left py-5">
-          <div class="common-heading">
-            <h3>Choose Web Development Services With a Proven Track Record</h3>
-            <p>If you’re you're searching for an accomplished web development team to assist you with rejuvenating your venture, look no farther than Sufficiently Advanced. Our web development services have assisted a large number of organizations with succeeding and we can do it for you as well.</p>
-          </div>
-      </div> -->
-      <div class="col-lg-12 text-left py-5">
-          <div class="common-heading  ">
-            <h3>Web Development Services We're Proud to Offer</h3>
-            <p>Our unique, in-house talent and use of top-of-the-line tools allow us to rapidly create powerful, customizable web applications. We are proud to offer fully responsive web development services. Our web solution services are offered to clients including Ecommerce Development, CMS Development, CRM Development, ERP Development, Enterprise Applications, and Technical Support & Maintenance Services. </p>
-            <p>We’re pleased to provide our clients with some of the best web development services available today. Whether you’re looking for custom software or ready-made solutions, we can help you get your project off on the right foot!</p>
-          </div>
       </div>
-
-      <div class="col-lg-12 text-left">
-          <div class="common-heading  ">
-            <h3>Our Web Development Process and Methodology</h3>
-            <p>Here at Prilient, we think you should know how your project is being managed and what it looks like as it progresses.</p>
-          </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-              <h4>We Assess Needs</h4>
-              <p>
-              The first step in developing any new web project is figuring out what your company or organization needs. We’ll take a look at your website and its goals to see if it can be improved or expanded.
-              </p>
-        </div>
-        </div>
-        <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-              <h4>Develop Custom Solutions</h4>
-              <p>
-              An effective website development company will take every step to ensure that your new site is engaging, informative, and useful. Your new website will bring you, new customers, when we use our extensive experience.
-              </p>
-        </div>
-        </div>
-        <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-              <h4>Provide Accessible Websites to All Users</h4>
-              <p>
-              Then, as part of our web development services, we make sure that all of our websites are accessible to all users. Building it and they will come is no longer a viable strategy for most businesses—you need to build it in such a way that people can actually find you!
-              </p>
-        </div>
-        </div>
-      <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-            <h4>Optimize sites for speed and performance</h4>
-            <p>
-            Our team has over 10 years of experience optimizing websites for speed and performance. We’ll make sure your website loads as quickly as possible, on any device, anywhere in the world.
-            </p>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-            <h4>Plan for launch</h4>
-            <p>
-            Now we are ready to take your idea and bring it to life. Our team launches your website on time, on budget, and with quality results that will make you proud. We have helped countless businesses just like yours take their ideas from concept to reality, and we’d love to do the same for you.
-            </p>
-      </div>
-      </div>
-      </div>
-      <div class="-cta-btn mt70">
-         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
-            <p>Hire a <span>Dedicated Developer</span></p>
-            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-         </div>
-      </div>
-      <div class="col-lg-12 text-left mt-5">
-          <div class="common-heading  ">
-            <h1 class="text-radius text-light text-animation bg-b">Our Web Development Services</h1>
-            <p>Our cycle depends on making custom solutions that are extraordinary to your requirements. By understanding these requirements, we can appropriately plan and foster a coordinated framework that will give a powerful stage to you.</p>
-          </div>
-      </div>
-      <div class="row justify-content-center">
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">Ecommerce Development</h5>
-            <p>
-            When it comes to developing an e-commerce website, we’re able to do all of it. We don’t outsource any work and when we work with our clients on eCommerce development projects, they know that we will be there every step of the way. Because in today’s fast-paced marketplace companies can no longer stand still and must continually innovate in order to succeed. However, as much as technology changes so do consumer habits; mobile is now more important than ever before.
-            </p>
-            <a href="{{url('/web_development/ecommerce-development')}}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">CMS Development</h5>
-            <p>
-            Content management systems are essential to most online companies. They allow you to manage and organize your website’s content—for example, text, images, audio files, video files, and so on—from one place. You can then publish it or keep it private as you see fit. We specialize in creating CMS solutions that work seamlessly with your business goals. Our team of developers has years of experience working with some of today’s most popular CMS platforms, including WordPress, Drupal, and Joomla!
-            </p>
-            <a href="{{url('/web_development/CMS-development')}}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">CRM Development</h5>
-            <p>CRM systems let companies track customer interactions over time, including details such as purchase history and contact information. You’ll be able to see where each customer is in their journey through your company. Your business will benefit from this quick response to any questions and concerns. Our CRM development services help you create these tools so your business can better understand its customers’ preferences and make smarter decisions based on that knowledge. </p>
-            <a href="#" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">ERP Development</h5>
-            <p>
-            ERP stands for enterprise resource planning and is a software application that’s used to manage operations and processes. ERP systems serve as an enterprise-wide information system, which means they provide valuable data across departments. It’s important to find professionals who have experience with ERP systems in order to ensure your success. At Prilient, we have a proven track record of delivering high-quality applications within our client organizations.
-            </p>
-            <a href="{{url('/web_development/ERP-development')}}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-          </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">Enterprise Applications</h5>
-            <p>
-            Enterprise-level applications are used by some of the biggest companies in various industries. When you have thousands or even millions of customers who rely on your software to conduct business, stability and security are key. Enterprise web development services help you deploy updates and bug fixes quickly, without disrupting users. We handle all of your application design, development, and maintenance so you can focus on what matters most – growing your business.
-            </p>
-            <a href="{{url('/web_development/enterprise-development')}}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-          </div>
-      </div>
-      </div>
-      <div class="-cta-btn mt70">
-         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
-            <p>Hire a <span>Dedicated Developer</span></p>
-            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-         </div>
-      </div>
-      <div class="col-lg-12 text-left py-5">
-          <div class="common-heading  ">
-            <h3>Technologies We Are Using </h3>
-            <p>Let’s look at how some popular technologies like React.js, Vue.js, and Angular are helping to shape modern web development. While JavaScript is still one of today’s most widely used programming languages for client-side applications, it also has proven itself useful in building back-end applications as well. Our engineers have extensive experience with these frameworks and use them regularly on our projects. </p>
-            <p>We pride ourselves on being able to quickly adapt to new technologies while maintaining our high standards of quality. If you’re looking for an agency that can help you build a responsive website or an application that will run across multiple platforms, we would love to talk with you about your project!</p>
-           </div>
-      </div>
+</section>
+@include('front.pages.rq')
+<section class="service-content-body">
+    <div class="container pb-5">
       <div class="row">
-      <div class="col-lg-7 col-12 mt-4">
-          <div class="">
-            <h3>Why is Web Development Necessary Today?</h3>
-            <p>In today’s digital era, it is important to have an online presence. People need information and services on-demand, at any time and anywhere they want them. In order to remain competitive, businesses that once didn’t even have an online strategy now do. The obvious choice for most businesses is to choose web development services so that their business can be found easily by customers in search engines. If you want your company to be taken seriously, you need an attractive website that showcases your products and services, as well as highlights your brand identity. </p>
-            <ul class="p-3" style="list-style-type: circle;">
-                <li class="mb-3">Enhanced Your Web Presence</li>
-                <li class="mb-3">Boost Customer Satisfaction</li>
-                <li class="mb-3">Trustworthy</li>
-                <li class="mb-3">Get High-Quality Leads</li>
-            </ul>
-           </div>
+      <div class="col-lg-7 col-12 mt-5">
+          <div class="comman-service-heading">
+             <h2><span class="textRed fontWt50"> Web Development</span> <span class="textPrim fontWt50">Services</span> <br>
+              <span class="fontWt50">We're Proud to Offer</span></h2>
+             <p>Our unique, in-house talent and use of top-of-the-line tools allow us to rapidly create powerful, customizable web applications. We are proud to offer fully responsive web development services. Our web solution services are offered to clients including Ecommerce Development, CMS Development, CRM Development, ERP Development, Enterprise Applications, and Technical Support & Maintenance Services.</p>
+             <p>We’re pleased to provide our clients with some of the best web development services available today. Whether you’re looking for custom software or ready-made solutions, we can help you get your project off on the right foot!</p>
+          </div>
       </div>
-      <div class="col-lg-5 col-12 mt-4 alignCenter">
-        <img src="{{ url('assets/images/banner/web-design-website-coding-concept.jpg') }}">
+       <div class="col-lg-5 col-12 text-center mt-5">
+            <img src="{{ asset('assets/services/web-development-service.svg') }}">
       </div>
       </div>
+   </div>
+ </section>
+ <section class="service-content-body">
+   <div class="bgRed BgRedcardHeight py-5 mt-4">
+      <div class="rounded-circle-comm top-rounded-circle"></div>
+      <div class="container">
+      <div class="comman-service-heading text-center">
+             <h1 class="text-center fontWt40 text-white">Our <span class="fontWt50">Web Development Process</span> and <span class="fontWt50">Methodology</span></h1>
+             <p class="text-white">Here at Prilient, we think you should know how your project is being managed and what it looks like as it progresses.</p>
+      </div>  
+      </div>
+      <div class="rounded-circle-comm bottom-rounded-circle"></div>
+   </div>
+ </section>
+ <div class="container on-card-tab">
+            <div class="row justify-content-center">
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <svg width="94" height="95" viewBox="0 0 94 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M60.063 77.2717C60.063 81.6697 60.1895 86.0718 60.01 90.4576C59.9202 92.5587 58.0068 93.9051 55.6772 93.9377C52.4134 93.9785 49.1495 93.9377 45.8857 93.9377C32.357 93.9377 18.8297 93.9377 5.30376 93.9377C1.48097 93.9377 0 92.4526 0 88.6339C0 64.2965 0 39.9618 0 15.6298C0 11.7091 1.48506 10.2322 5.4384 10.2322C21.8882 10.2322 38.3434 10.2322 54.8041 10.2322C58.7004 10.2322 60.1936 11.7539 60.2058 15.6787C60.2058 16.9557 60.2058 18.2368 60.2058 19.5872C57.9211 19.5423 57.0603 18.6978 57.1949 16.4743C57.3907 13.2104 57.1949 13.1452 53.9596 13.1452H5.81782C3.20266 13.1452 2.91708 13.4267 2.91708 16.0745C2.91708 40.0719 2.91708 64.068 2.91708 88.0628C2.91708 90.8085 3.10475 91.0043 5.77294 91.0043C21.9508 91.0043 38.134 91.0043 54.3227 91.0043C57.0725 91.0043 57.2398 90.837 57.2439 88.1484C57.2439 85.5659 57.407 82.9671 57.1949 80.3968C56.9868 78.2059 57.8477 77.3002 60.063 77.2717Z" fill="#004999"/>
+<path d="M48.3991 76.3374C44.72 76.3391 41.0769 75.6125 37.6798 74.1995C34.2828 72.7866 31.1991 70.7151 28.6065 68.1046C26.0138 65.4942 23.9636 62.3964 22.5739 58.9897C21.1842 55.5831 20.4826 51.9351 20.5095 48.256C20.5422 32.9282 33.108 20.5133 48.5664 20.5133C63.9024 20.5133 76.3336 33.0669 76.3295 48.5212C76.3274 52.1831 75.6027 55.8086 74.1969 59.1899C72.7911 62.5712 70.7319 65.6419 68.1372 68.2259C65.5426 70.8099 62.4635 72.8566 59.0765 74.2485C55.6894 75.6404 52.061 76.3503 48.3991 76.3374ZM48.4644 23.5079C41.8564 23.4916 35.5124 26.1003 30.8271 30.7602C26.1419 35.4202 23.4991 41.75 23.4796 48.358C23.345 62.0009 34.4951 73.2734 48.2971 73.4122C61.9441 73.5468 73.2819 62.3477 73.3921 48.6314C73.4147 45.3423 72.7867 42.0812 71.5444 39.0356C70.3021 35.9901 68.4699 33.2202 66.1532 30.8854C63.8366 28.5505 61.0811 26.6967 58.0454 25.4306C55.0097 24.1645 51.7536 23.511 48.4644 23.5079Z" fill="#E33C5C"/>
+<path d="M64.4648 74.8401L66.9454 73.098L68.0959 74.628L74.6032 68.1003L73.0569 67.0966L74.8153 64.4611C80.3557 69.0916 85.8676 73.4897 91.1346 78.1733C95.0512 81.6534 94.8717 87.7935 91.0897 91.449C90.1936 92.311 89.1313 92.9815 87.9677 93.4196C86.804 93.8578 85.5633 94.0544 84.3212 93.9975C83.0791 93.9407 81.8616 93.6315 80.7429 93.0888C79.6241 92.5462 78.6276 91.7814 77.814 90.8411C73.3425 85.6353 69.0179 80.3111 64.4648 74.8401ZM74.8276 82.6244C76.4065 84.5256 78.0057 86.4553 79.6091 88.381C79.7805 88.5932 79.9518 88.789 80.1395 88.9971C80.7018 89.6119 81.3818 90.1075 82.1392 90.4547C82.8966 90.8019 83.716 90.9936 84.5488 91.0183C85.3816 91.043 86.2109 90.9004 86.9875 90.5987C87.7642 90.2971 88.4724 89.8426 89.0702 89.2622C89.6933 88.6815 90.1891 87.9776 90.526 87.1952C90.863 86.4129 91.0338 85.5691 91.0277 84.7173C91.0215 83.8655 90.8386 83.0242 90.4904 82.2468C90.1422 81.4694 89.6364 80.7727 89.0049 80.201C86.9161 78.2835 84.664 76.5291 82.5833 74.8075L74.8276 82.6244ZM70.4173 77.3206L72.3756 79.6543L79.7682 72.4493L77.2795 70.4094L70.4173 77.3206Z" fill="#E33C5C"/>
+<path d="M10.2686 7.21719C10.2686 6.22171 10.2686 5.40983 10.2686 4.60202C10.3379 1.74616 12.0025 0.0326385 14.8665 0.0163193C22.0714 -0.0203991 29.2723 0.0163193 36.4895 0.0163193C46.0743 0.0163193 55.6578 0.0163193 65.2399 0.0163193C68.9118 0.0163193 70.5029 1.56256 70.5192 5.18543C70.5519 12.2313 70.5192 19.2771 70.5192 26.6208C68.512 25.3275 67.337 24.1729 67.4431 21.6924C67.6797 16.3315 67.5206 10.9584 67.5083 5.58934C67.5083 3.14146 67.2676 2.93338 64.7871 2.9293H16.4413C13.308 2.9293 13.2387 2.99866 13.1775 6.09524C13.1775 6.42978 13.1203 6.76433 13.0796 7.22942L10.2686 7.21719Z" fill="#004999"/>
+<path d="M30.0727 81.5228H11.7543C11.3463 81.5228 10.8363 81.6737 10.5548 81.4861C9.92609 81.0165 9.33414 80.4996 8.78418 79.9398C9.35535 79.4666 9.89797 78.6383 10.5059 78.5853C12.5254 78.414 14.5857 78.5241 16.6052 78.5241C22.374 78.5241 28.1429 78.4344 33.9077 78.5486C39.3216 78.6547 44.7314 78.9566 50.1413 79.2299C50.5492 79.2503 51.2754 79.6869 51.2754 79.9276C51.2639 80.1825 51.1938 80.4314 51.0707 80.6549C50.9476 80.8784 50.7748 81.0707 50.5655 81.2168C49.938 81.4519 49.2679 81.552 48.5991 81.5105C42.4222 81.5309 36.2495 81.5228 30.0727 81.5228Z" fill="#004999"/>
+<path d="M30.949 22.7613C28.9744 24.8542 27.1875 25.9313 24.5111 25.7722C20.0233 25.5111 15.5355 25.6906 11.0477 25.711C9.93801 25.711 8.84462 25.5764 8.80383 24.2504C8.76303 22.9245 9.87274 22.7531 10.9743 22.7572C17.5061 22.7654 24.0215 22.7613 30.949 22.7613Z" fill="#004999"/>
+<path d="M26.2743 70.4992C21.0114 70.4992 15.7443 70.544 10.4855 70.438C9.91021 70.438 9.35127 69.5527 8.78418 69.0794C9.36759 68.5531 9.93878 67.5903 10.5426 67.5739C14.8019 67.4393 19.0816 67.3332 23.3287 67.6107C24.467 67.6841 25.5196 69.1079 26.5926 69.9117L26.2743 70.4992Z" fill="#004999"/>
+<path d="M20.6482 34.4581C20.3912 36.7754 19.3998 37.7219 17.1763 37.4975C15.1649 37.2976 13.0965 37.5955 11.0974 37.3996C10.2814 37.3221 9.01257 36.6081 8.90242 36.0084C8.66171 34.7273 9.85301 34.4581 10.9423 34.4581H20.6482Z" fill="#004999"/>
+<path d="M19.3181 59.4755C16.3439 59.4755 13.3656 59.553 10.3996 59.4061C9.84068 59.3776 9.32662 58.4596 8.78809 57.9537C9.34294 57.4682 9.87331 56.6074 10.4567 56.5666C12.8925 56.3564 15.3424 56.3686 17.7759 56.6033C18.5184 56.693 19.11 58.0639 19.7709 58.8472L19.3181 59.4755Z" fill="#004999"/>
+<path d="M17.6741 45.4818C17.6251 46.5751 17.5884 47.4237 17.5435 48.4682C15.0956 48.4682 12.811 48.5783 10.5426 48.3988C9.92246 48.3499 9.36759 47.4278 8.78418 46.9056C9.34719 46.4323 9.88166 45.5837 10.4732 45.5429C12.811 45.3879 15.165 45.4818 17.6741 45.4818Z" fill="#004999"/>
+<path d="M44.9475 56.4932C49.2109 50.3367 53.3111 44.421 57.4195 38.5053C57.7663 38.0035 58.0682 37.3792 58.5578 37.1018C58.8054 36.9648 59.0808 36.8855 59.3634 36.87C59.6461 36.8544 59.9285 36.903 60.1897 37.0121C60.5732 37.2609 60.8057 38.0279 60.7772 38.5501C60.7486 39.0724 60.3243 39.513 60.0183 39.9536C55.7318 46.1576 51.4371 52.3603 47.1343 58.5616C45.7104 60.6015 45.1719 60.6709 43.2993 59.0308C41.1492 57.15 38.9461 55.3263 36.9184 53.3191C36.4166 52.8213 36.1025 51.4872 36.4044 50.965C37.0163 49.9369 38.0118 50.4102 38.8115 51.12C40.782 52.8784 42.777 54.6042 44.9475 56.4932Z" fill="#004999"/>
+</svg>
 
-    </div>
-  <!-- content end -->
+
+                                    <!-- <img src="{{ asset('assets/services/marketing-research.svg') }}"> -->
+                              </div>
+                              <h5>We Assess Needs</h5>
+                              <p>The first step in developing any new web project is figuring out what your company or organization needs. We’ll take a look at your website and its goals to see if it can be improved or expanded.
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                   <svg width="149" height="101" viewBox="0 0 149 171" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_360_121)">
+<path d="M53.9799 145.35C53.9799 142.83 53.8299 140.35 53.9799 137.79C54.4399 131.27 51.7999 126.1 47.2399 121.73C43.1599 117.84 38.9699 114.06 34.9899 110.07C29.8953 104.998 26.1189 98.7566 23.9899 91.8901C22.0236 85.2589 21.245 78.3323 21.6899 71.4301C22.0562 63.3427 24.3426 55.4587 28.3599 48.4301C32.1061 41.7981 37.2521 36.0617 43.4399 31.6201C48.2617 28.0783 53.6814 25.4328 59.4399 23.8101C66.402 21.8024 73.6984 21.2241 80.8899 22.1101C89.3407 23.1108 97.4186 26.1627 104.42 31.0001C111.988 36.1902 118.052 43.2858 122 51.5701C123.845 55.3911 125.225 59.42 126.11 63.5701C126.959 67.8483 127.294 72.2124 127.11 76.5701C127.023 80.8875 126.449 85.1813 125.4 89.3701C123.76 96.2071 120.447 102.53 115.76 107.77C111.93 111.93 107.71 115.77 103.63 119.66C100.92 122.26 98.2499 124.87 96.5099 128.26C95.2972 130.696 94.6934 133.39 94.7499 136.11C94.7499 142.87 94.7499 149.63 94.7499 156.39C94.7499 158.9 93.9699 159.67 91.4699 159.67C90.6305 159.715 89.7893 159.715 88.9499 159.67C87.7799 159.55 87.2299 160.06 86.9499 161.15C85.967 164.38 83.7793 167.109 80.8399 168.77C74.7499 172.42 66.0099 169.86 62.8399 163.46C62.4573 162.637 62.1234 161.792 61.8399 160.93C61.7712 160.537 61.552 160.187 61.2289 159.954C60.9057 159.72 60.5043 159.622 60.1099 159.68C59.1099 159.74 58.0299 159.68 56.9899 159.68C54.9899 159.68 54.0699 158.8 54.0599 156.77C53.9699 152.95 53.9799 149.15 53.9799 145.35ZM74.2999 133.18H88.4599C89.4599 133.18 90.1299 133.05 90.2799 131.81C90.4955 130.632 90.8305 129.48 91.2799 128.37C92.6663 124.673 94.9033 121.353 97.8099 118.68C101.32 115.24 104.97 111.95 108.54 108.58C113.54 103.996 117.355 98.2697 119.66 91.8901C120.752 88.2882 121.505 84.5921 121.91 80.8501C122.826 74.3531 122.362 67.7361 120.55 61.4301C118.596 54.2903 114.969 47.7189 109.97 42.2601C102.752 34.1944 92.9779 28.8589 82.2899 27.1501C75.4156 25.9795 68.3688 26.3207 61.6399 28.1501C56.7489 29.435 52.108 31.5308 47.9099 34.3501C35.1599 43.0001 28.0599 55.0401 26.4899 70.3501C25.9642 75.8948 26.3459 81.4882 27.6199 86.9101C29.2035 94.2644 32.8289 101.023 38.0799 106.41C41.9799 110.41 46.1699 114.1 50.1899 117.98C54.2099 121.86 57.2999 126.04 58.3199 131.54C58.5899 132.97 59.2299 133.25 60.4799 133.24C65.0999 133.16 69.6999 133.18 74.2999 133.18ZM74.4699 138.06H60.4699C59.0899 138.06 58.7999 138.36 58.7699 139.75C58.7699 140.63 58.7699 141.51 58.7699 142.39C58.7699 143.48 59.2299 144.01 60.3499 143.99C62.0299 143.99 63.7099 143.99 65.3499 143.99H88.1499C89.7099 143.99 89.9499 143.73 89.9799 142.16C89.9799 141.36 89.9799 140.56 89.9799 139.76C89.9799 138.37 89.6599 138.08 88.2699 138.07L74.4699 138.06ZM74.4699 148.86H60.4699C59.1399 148.86 58.8499 149.16 58.7999 150.46C58.7999 151.1 58.7999 151.74 58.7999 152.38C58.7999 154.71 58.8799 154.78 61.1499 154.78H88.6199C88.81 154.809 89.0042 154.794 89.1874 154.735C89.3706 154.677 89.5379 154.577 89.6762 154.444C89.8146 154.31 89.9203 154.147 89.9851 153.966C90.0499 153.785 90.0721 153.591 90.0499 153.4C90.0499 152.56 90.0499 151.72 90.0499 150.88C90.0499 149.08 89.8299 148.88 88.0499 148.88L74.4699 148.86ZM74.3599 159.66C72.3599 159.66 70.4399 159.66 68.4799 159.66C68.0599 159.66 67.3599 159.88 67.2799 160.14C67.1888 160.413 67.1526 160.7 67.1732 160.987C67.1938 161.274 67.2708 161.553 67.3999 161.81C68.1564 162.978 69.1933 163.938 70.4159 164.603C71.6386 165.268 73.0082 165.616 74.3999 165.616C75.7916 165.616 77.1612 165.268 78.3838 164.603C79.6065 163.938 80.6433 162.978 81.3999 161.81C81.531 161.574 81.6088 161.312 81.6278 161.042C81.6468 160.773 81.6066 160.502 81.5099 160.25C81.3699 159.93 80.6899 159.71 80.2399 159.7C78.2499 159.63 76.2899 159.66 74.3299 159.66H74.3599Z" fill="#004999"/>
+<path d="M121.03 114.93C121.735 115.267 122.405 115.672 123.03 116.14C125.33 118.38 127.58 120.66 129.83 122.95C130.079 123.163 130.284 123.424 130.431 123.718C130.579 124.011 130.667 124.33 130.69 124.658C130.714 124.985 130.672 125.314 130.567 125.625C130.462 125.936 130.297 126.223 130.08 126.47C129.855 126.728 129.576 126.933 129.262 127.07C128.949 127.208 128.609 127.274 128.266 127.265C127.924 127.255 127.588 127.17 127.283 127.015C126.978 126.86 126.71 126.64 126.5 126.37C124.13 124.04 121.79 121.67 119.5 119.31C119.129 118.966 118.887 118.505 118.816 118.004C118.745 117.503 118.849 116.993 119.11 116.56C119.658 115.916 120.306 115.366 121.03 114.93Z" fill="#E33C5C"/>
+<path d="M127.42 20.17C127.139 20.8765 126.777 21.5477 126.34 22.17C124.06 24.53 121.747 26.8633 119.4 29.17C119.192 29.4421 118.926 29.6649 118.622 29.8222C118.318 29.9795 117.983 30.0675 117.641 30.08C117.298 30.0924 116.958 30.0289 116.643 29.8941C116.328 29.7592 116.047 29.5563 115.82 29.3C115.431 28.7785 115.239 28.1362 115.277 27.4867C115.315 26.8371 115.582 26.2221 116.03 25.75C118.39 23.52 120.62 21.15 122.93 18.88C123.233 18.4715 123.674 18.1873 124.171 18.0806C124.668 17.9738 125.186 18.0518 125.63 18.3C126.294 18.8547 126.895 19.4819 127.42 20.17Z" fill="#E33C5C"/>
+<path d="M20.2699 127.53C19.5234 127.134 18.8476 126.617 18.2699 126C17.991 125.6 17.8587 125.116 17.8951 124.629C17.9315 124.143 18.1345 123.684 18.4699 123.33C20.9199 120.79 23.3999 118.33 25.9399 115.85C26.1661 115.636 26.4331 115.47 26.7251 115.361C27.0171 115.253 27.328 115.205 27.639 115.22C27.9501 115.235 28.2549 115.313 28.5352 115.448C28.8154 115.584 29.0653 115.775 29.2699 116.01C29.671 116.485 29.8783 117.093 29.8505 117.714C29.8227 118.335 29.5619 118.923 29.1199 119.36C26.8199 121.7 24.5099 124.04 22.1199 126.36C21.5448 126.812 20.9248 127.204 20.2699 127.53Z" fill="#E33C5C"/>
+<path d="M28.9099 27.58C29.3099 27.45 29.9099 27.43 30.0699 27.16C30.1983 26.9395 30.2758 26.693 30.2966 26.4386C30.3173 26.1842 30.2809 25.9285 30.1899 25.69C29.5363 24.7891 28.8141 23.9399 28.0299 23.15C27.9199 23.04 27.6499 23.08 27.1299 23L28.9299 25.12C29.9599 26.34 29.9599 26.34 28.9099 27.58Z" fill="black"/>
+<path d="M6.00007 76.86C4.84007 76.86 3.69004 76.86 2.53004 76.86C1.88942 76.8845 1.26489 76.6559 0.791452 76.2237C0.318018 75.7914 0.0337565 75.1902 6.97291e-05 74.55C-0.0317706 74.2394 0.00105762 73.9257 0.0965053 73.6285C0.191953 73.3312 0.347943 73.057 0.554635 72.8231C0.761327 72.5891 1.01424 72.4005 1.29743 72.2692C1.58063 72.1379 1.88792 72.0666 2.20002 72.06C4.70669 71.94 7.21672 71.94 9.73005 72.06C10.043 72.0659 10.3511 72.1376 10.6345 72.2705C10.9178 72.4033 11.17 72.5944 11.3747 72.8311C11.5794 73.0679 11.7319 73.345 11.8225 73.6446C11.913 73.9442 11.9394 74.2595 11.9 74.57C11.8613 75.2102 11.572 75.8095 11.0948 76.2381C10.6176 76.6666 9.99077 76.89 9.35005 76.86C8.23005 76.88 7.11007 76.86 6.00007 76.86Z" fill="#E33C5C"/>
+<path d="M136.91 74.1501C136.9 73.8135 136.97 73.4795 137.115 73.1753C137.259 72.8711 137.473 72.6054 137.74 72.4001C138.279 72.0977 138.894 71.9587 139.51 72.0001C141.67 72.0001 143.82 72.0001 145.98 72.0001C147.7 72.0001 148.76 73.0001 148.72 74.4901C148.68 75.9801 147.61 76.8601 145.88 76.8701C143.68 76.8701 141.49 76.8701 139.3 76.8701C138.949 76.9 138.596 76.8472 138.269 76.7157C137.942 76.5843 137.651 76.378 137.418 76.1134C137.186 75.8488 137.019 75.5332 136.93 75.1922C136.842 74.8512 136.835 74.4943 136.91 74.1501Z" fill="#E33C5C"/>
+<path d="M71.9899 6.03C71.9899 4.88 71.9899 3.72001 71.9899 2.57001C71.9723 2.24132 72.0215 1.91247 72.1343 1.60327C72.2472 1.29407 72.4214 1.01091 72.6466 0.770813C72.8717 0.530714 73.1431 0.338644 73.4444 0.206177C73.7457 0.0737091 74.0707 0.00357841 74.3999 0C74.72 0.0139861 75.0342 0.0916884 75.3239 0.228546C75.6137 0.365404 75.8733 0.558649 76.0874 0.797028C76.3016 1.03541 76.4661 1.31411 76.5713 1.61682C76.6764 1.91953 76.7201 2.24018 76.6999 2.56C76.7499 4.87 76.7499 7.19 76.6999 9.5C76.7132 9.8272 76.6612 10.1538 76.5467 10.4606C76.4322 10.7674 76.2576 11.0482 76.0331 11.2867C75.8086 11.5251 75.5388 11.7163 75.2395 11.8491C74.9401 11.9819 74.6173 12.0536 74.2899 12.06C73.6479 12.0187 73.0476 11.7276 72.6177 11.2491C72.1878 10.7706 71.9624 10.1427 71.9899 9.5C71.9099 8.35 71.9899 7.19 71.9899 6.03Z" fill="#E33C5C"/>
+<path d="M33.3599 26.89C33.1099 25.97 29.5799 22.71 29.2899 22.39C28.0999 21.12 26.8799 19.86 25.5899 18.69C25.2795 18.3727 24.8807 18.1563 24.4454 18.0689C24.0102 17.9815 23.5588 18.0272 23.1499 18.2C22.7219 18.3129 22.3434 18.5646 22.0737 18.9157C21.8041 19.2667 21.6586 19.6973 21.6599 20.14C21.6807 20.8698 21.9407 21.5725 22.3999 22.14C24.6199 24.51 26.9399 26.79 29.2399 29.08C30.3899 30.22 31.4099 30.33 32.5399 29.52C32.9487 29.2345 33.2511 28.8212 33.3995 28.3452C33.5479 27.8691 33.534 27.3573 33.3599 26.89Z" fill="#E33C5C"/>
+<path d="M43.7901 92.0601C42.3901 91.7901 40.8801 92.5901 39.7901 91.4201C39.0802 90.6507 38.5266 89.7507 38.1601 88.7701C37.3801 86.5701 36.7501 84.3101 36.1601 82.0601C36.006 81.5155 36.0478 80.9341 36.278 80.417C36.5082 79.9 36.9123 79.48 37.4201 79.2301C38.5501 78.4901 39.6401 77.7001 40.7601 76.9601C41.1542 76.6884 41.4776 76.3263 41.7032 75.9041C41.9288 75.4819 42.0501 75.0118 42.0569 74.5331C42.0638 74.0545 41.956 73.5811 41.7426 73.1526C41.5291 72.7241 41.2163 72.353 40.8301 72.0701C39.9564 71.4482 39.052 70.8708 38.1201 70.3401C37.7027 70.1754 37.3223 69.9289 37.0014 69.6153C36.6805 69.3016 36.4255 68.9269 36.2513 68.5134C36.0771 68.0998 35.9873 67.6556 35.9871 67.2068C35.9869 66.7581 36.0763 66.3138 36.2501 65.9001C37.0601 63.4501 37.9301 61.0201 38.8001 58.5901C38.9852 58.0751 39.3413 57.6393 39.8091 57.3554C40.2768 57.0714 40.8279 56.9566 41.3701 57.0301C42.8801 57.0301 44.3701 57.1201 45.9201 57.1201C47.6601 57.1201 49.2201 54.7601 48.6201 53.1201C48.1501 51.8501 47.7301 50.5601 47.2301 49.3001C46.9538 48.7824 46.8725 48.1827 47.0009 47.6101C47.1294 47.0375 47.4591 46.5301 47.9301 46.1801C50.2601 44.4001 52.6301 42.6601 55.0601 41.0301C55.5156 40.7306 56.058 40.5917 56.6013 40.6351C57.1447 40.6786 57.658 40.902 58.0601 41.2701C59.3101 42.2701 60.5801 43.2201 61.9001 44.0901C62.3719 44.3299 62.9055 44.4206 63.4301 44.3501C66.4301 44.1401 66.5901 41.6501 67.1301 39.5701C67.8201 36.8701 68.2801 36.3501 71.0801 36.2201C73.1087 36.1151 75.1415 36.1151 77.1701 36.2201C80.3901 36.4001 80.6601 36.6901 81.5001 39.7301C81.7233 40.7472 82.0105 41.7492 82.3601 42.7301C82.663 43.2075 83.0922 43.5917 83.6001 43.8401C85.4501 44.9801 86.9401 44.1901 88.3401 42.9001C88.9501 42.3401 89.6701 41.9001 90.3401 41.3701C90.7887 40.9273 91.3804 40.6589 92.009 40.6131C92.6377 40.5673 93.262 40.747 93.7701 41.1201C96.1301 42.7201 98.4501 44.3901 100.7 46.1201C101.174 46.439 101.512 46.9235 101.647 47.4785C101.782 48.0336 101.705 48.6191 101.43 49.1201C100.832 50.5081 100.327 51.9346 99.9201 53.3901C99.818 53.9049 99.8883 54.4391 100.12 54.9101C100.404 55.6765 100.966 56.3079 101.694 56.6785C102.422 57.0492 103.264 57.1319 104.05 56.9101C104.964 56.8179 105.882 56.7812 106.8 56.8001C107.494 56.6656 108.213 56.7965 108.815 57.1669C109.417 57.5372 109.858 58.1201 110.05 58.8001C110.93 61.4301 111.79 64.0601 112.59 66.7201C112.762 67.2811 112.729 67.8851 112.496 68.4238C112.263 68.9625 111.846 69.4008 111.32 69.6601C110.19 70.3901 109.08 71.1601 107.95 71.9101C107.564 72.188 107.249 72.5537 107.033 72.9771C106.816 73.4005 106.702 73.8694 106.702 74.3451C106.702 74.8208 106.816 75.2897 107.033 75.7131C107.249 76.1365 107.564 76.5022 107.95 76.7801C108.835 77.4501 109.768 78.0551 110.74 78.5901C111.158 78.7559 111.538 79.0047 111.858 79.3215C112.177 79.6383 112.429 80.0165 112.598 80.4333C112.767 80.8501 112.85 81.2969 112.842 81.7466C112.834 82.1963 112.734 82.6398 112.55 83.0501C111.77 85.4701 110.92 87.8601 110.03 90.2401C109.806 90.8274 109.383 91.3175 108.835 91.6246C108.287 91.9317 107.648 92.0363 107.03 91.9201C105.71 91.8601 104.39 91.7601 103.08 91.7401C102.609 91.7676 102.151 91.9002 101.738 92.128C101.325 92.3559 100.969 92.6732 100.694 93.0567C100.42 93.4403 100.235 93.8803 100.153 94.3447C100.071 94.809 100.094 95.2858 100.22 95.7401C100.69 97.0501 101.17 98.3601 101.63 99.6701C101.856 100.185 101.903 100.761 101.761 101.306C101.62 101.85 101.299 102.331 100.85 102.67C98.5801 104.38 96.2601 106.03 93.9101 107.67C93.4206 108.028 92.8204 108.203 92.215 108.163C91.6097 108.122 91.0379 107.87 90.6001 107.45C89.4201 106.52 88.2201 105.59 86.9601 104.77C86.4585 104.522 85.8949 104.429 85.3401 104.5C82.4101 104.69 82.2801 107.15 81.6701 109.18C81.0601 111.21 81.0501 112.53 78.0401 112.59C75.3001 112.59 72.5501 112.59 69.8101 112.46C69.3472 112.435 68.9059 112.256 68.5562 111.952C68.2066 111.648 67.9685 111.235 67.8801 110.78C67.4601 109.25 66.9701 107.78 66.4801 106.22C66.4027 105.958 66.2696 105.716 66.0901 105.51C65.4705 105.014 64.7203 104.708 63.9304 104.63C63.1404 104.552 62.3448 104.705 61.6401 105.07C60.6401 105.83 59.5801 106.56 58.6401 107.4C58.1798 107.887 57.5567 108.188 56.8892 108.245C56.2216 108.302 55.5564 108.112 55.0201 107.71C52.6601 106.12 50.3401 104.47 48.0901 102.71C47.6445 102.391 47.3292 101.922 47.2024 101.389C47.0756 100.856 47.1458 100.295 47.4001 99.8101C47.994 98.3829 48.4984 96.9201 48.9101 95.4301C49.0003 94.9486 48.9337 94.4509 48.7201 94.0101C47.7101 91.7101 45.7401 91.7201 43.7901 92.0601ZM102.28 87.0001C103.52 87.0001 104.36 87.0001 105.2 87.0001C105.49 87.0001 105.97 86.9101 106.04 86.7301C106.578 85.4237 107.042 84.0883 107.43 82.7301C107.49 82.5101 107.07 82.0601 106.77 81.8501C105.62 81.0101 104.45 80.1901 103.25 79.4201C102.811 79.1479 102.46 78.7552 102.238 78.2888C102.017 77.8225 101.934 77.3022 102 76.7901C102.09 75.2747 102.09 73.7554 102 72.2401C101.895 71.6107 101.989 70.9644 102.269 70.3909C102.548 69.8174 103 69.3452 103.56 69.0401C104.687 68.3752 105.766 67.6335 106.79 66.8201C106.988 66.6283 107.142 66.3956 107.24 66.1382C107.338 65.8808 107.379 65.605 107.36 65.3301C107.159 64.4388 106.874 63.5683 106.51 62.7301C106.423 62.4003 106.215 62.1151 105.929 61.9301C105.642 61.7452 105.297 61.6738 104.96 61.7301C103.49 61.7901 101.96 61.7301 100.53 61.8001C100.07 61.8233 99.6127 61.7245 99.2036 61.5137C98.7944 61.303 98.4481 60.9878 98.2001 60.6001C97.2001 59.2401 96.2501 57.8001 95.2001 56.5001C94.8647 56.1037 94.6415 55.6249 94.5536 55.1132C94.4657 54.6015 94.5162 54.0756 94.7001 53.5901C94.9501 52.7601 95.3101 51.9601 95.6201 51.1401C96.6201 48.4501 96.3701 48.5701 94.5101 47.2301C94.1294 46.8808 93.6935 46.5969 93.2201 46.3901C92.7049 46.2142 92.1432 46.232 91.6401 46.4401C90.4248 47.1915 89.2682 48.0339 88.1801 48.9601C87.7331 49.3204 87.1922 49.5449 86.6214 49.607C86.0506 49.669 85.474 49.566 84.9601 49.3101C83.6401 48.8601 82.3201 48.4401 80.9601 48.1001C80.3444 48.0243 79.7655 47.7656 79.2985 47.3573C78.8314 46.9491 78.4975 46.4101 78.3401 45.8101C78.0701 44.7001 77.5601 43.6301 77.3401 42.5101C77.3288 42.2664 77.2665 42.0279 77.1572 41.81C77.0478 41.592 76.8938 41.3994 76.7053 41.2448C76.5167 41.0901 76.2977 40.9769 76.0625 40.9123C75.8273 40.8478 75.5812 40.8334 75.3401 40.8701C71.3401 40.9601 72.0101 40.2501 70.7701 44.3901C70.3201 45.9201 70.0801 47.6201 68.0401 48.0801C66.5401 48.4201 65.0901 49.0001 63.6201 49.4601C63.1088 49.6887 62.5436 49.7696 61.9887 49.6936C61.4338 49.6176 60.9112 49.3877 60.4801 49.0301C59.4201 48.1401 58.2501 47.3901 57.1501 46.5401C56.902 46.3 56.5703 46.1657 56.2251 46.1657C55.8799 46.1657 55.5482 46.3 55.3001 46.5401C54.3001 47.3901 52.7101 47.7001 52.4601 49.3301C52.4719 49.4906 52.5161 49.6471 52.5901 49.7901L54.0601 53.7901C54.2471 54.1896 54.3163 54.6342 54.2596 55.0716C54.203 55.5091 54.0228 55.9214 53.7401 56.2601C52.9586 57.0395 52.2859 57.9208 51.7401 58.8801C50.5401 61.5901 48.4801 62.0001 45.8101 61.8201C42.5101 61.6001 42.8101 61.2101 41.5801 64.7601C41.4618 64.9881 41.391 65.2377 41.3719 65.4939C41.3528 65.75 41.3858 66.0074 41.469 66.2504C41.5522 66.4934 41.6838 66.7171 41.8559 66.9078C42.028 67.0985 42.2369 67.2524 42.4701 67.3601C43.5401 68.0301 44.5701 68.7701 45.6401 69.4501C46.0623 69.7141 46.3999 70.0938 46.6127 70.5441C46.8254 70.9943 46.9043 71.4962 46.8401 71.9901C46.7601 73.5857 46.7601 75.1844 46.8401 76.7801C46.9026 77.3542 46.7982 77.9342 46.5392 78.4504C46.2802 78.9666 45.8777 79.397 45.3801 79.6901C44.231 80.3877 43.1195 81.1454 42.0501 81.9601C41.8495 82.1538 41.6915 82.3873 41.5865 82.6456C41.4814 82.9039 41.4316 83.1813 41.4401 83.4601C41.6416 84.3514 41.9262 85.2219 42.2901 86.0601C42.3968 86.403 42.6261 86.6945 42.9341 86.879C43.2422 87.0635 43.6075 87.1279 43.9601 87.0601C45.3901 86.9801 46.8301 86.9801 48.2701 86.9401C48.7493 86.931 49.2224 87.0481 49.642 87.2798C50.0615 87.5115 50.4126 87.8496 50.6601 88.2601C51.5901 89.5401 52.4901 90.8401 53.5101 92.0501C53.9301 92.5041 54.2042 93.0737 54.2969 93.6852C54.3896 94.2967 54.2966 94.922 54.0301 95.4801C53.6301 96.4801 53.2801 97.4801 52.8901 98.4801C52.7672 98.7065 52.6909 98.9553 52.6657 99.2117C52.6405 99.4681 52.6669 99.727 52.7433 99.973C52.8198 100.219 52.9447 100.447 53.1107 100.644C53.2768 100.841 53.4805 101.003 53.7101 101.12C54.2687 101.611 54.8712 102.05 55.5101 102.43C55.7794 102.535 56.0674 102.584 56.3563 102.574C56.6452 102.563 56.929 102.494 57.1901 102.37C58.4209 101.567 59.6029 100.693 60.7301 99.7501C61.1251 99.4473 61.5937 99.2552 62.0876 99.1937C62.5815 99.1321 63.0829 99.2034 63.5401 99.4001C64.9401 99.8401 66.3201 100.35 67.7301 100.72C68.4048 100.808 69.0351 101.105 69.532 101.569C70.029 102.034 70.3676 102.643 70.5001 103.31C70.7001 104.31 71.2201 105.26 71.4001 106.31C71.4046 106.558 71.4619 106.803 71.5682 107.027C71.6744 107.251 71.8273 107.451 72.0164 107.611C72.2056 107.772 72.4268 107.891 72.6653 107.96C72.9039 108.028 73.1544 108.046 73.4001 108.01C77.5901 107.91 76.7701 108.53 78.0101 104.54C78.4601 103.08 78.5801 101.36 80.6101 100.89C82.2601 100.5 83.8201 99.7101 85.4701 99.3701C86.3871 99.2905 87.3093 99.4454 88.1501 99.8201C88.7532 100.121 89.309 100.508 89.8001 100.97C92.8001 103.21 92.8001 103.22 95.6501 100.77C95.6501 100.77 95.7401 100.77 95.7501 100.72C95.8901 100.15 96.2601 99.5301 96.1301 99.0301C95.7585 97.6907 95.2975 96.3777 94.7501 95.1001C94.548 94.6887 94.4705 94.2271 94.5274 93.7722C94.5843 93.3174 94.7729 92.8891 95.0701 92.5401C95.8811 91.7209 96.5958 90.8117 97.2001 89.8301C98.3501 87.4301 100.05 86.3501 102.28 87.0001Z" fill="#E33C5C"/>
+<path d="M74.3601 86.4301C77.3991 86.4379 80.3279 85.2924 82.5552 83.2247C84.7825 81.1571 86.1423 78.3213 86.3601 75.2901C86.3601 75.0501 86.3601 74.8101 86.3601 74.5701C86.5201 73.0101 87.54 71.9501 88.82 72.0301C90.1 72.1101 91.1301 73.2101 91.0901 74.8801C91.0438 78.7377 89.6258 82.4527 87.0901 85.3601C85.539 87.2145 83.5991 88.7051 81.4079 89.7264C79.2166 90.7477 76.8276 91.2747 74.4101 91.2701C70.7231 91.2857 67.1336 90.0864 64.1964 87.8578C61.2592 85.6291 59.1378 82.4951 58.1601 78.9401C57.057 74.9337 57.4779 70.6607 59.3415 66.9466C61.205 63.2324 64.379 60.3407 68.2501 58.8301C70.4748 57.9348 72.8687 57.538 75.2633 57.6675C77.6579 57.7971 79.995 58.45 82.1101 59.5801C83.9401 60.5201 84.11 61.8401 83.63 63.0801C83.15 64.3201 81.5201 64.7001 80.0201 63.8901C77.4696 62.5138 74.5073 62.107 71.6802 62.7448C68.8532 63.3826 66.3525 65.022 64.6401 67.3601C63.5548 68.8477 62.8265 70.565 62.5114 72.3793C62.1963 74.1935 62.303 76.0559 62.8232 77.8223C63.3433 79.5886 64.263 81.2116 65.511 82.5656C66.759 83.9195 68.3018 84.9681 70.0201 85.6301C70.6419 85.8892 71.2842 86.0965 71.9401 86.2501C72.7601 86.3601 73.5701 86.3401 74.3601 86.4301Z" fill="#E33C5C"/>
+</g>
+<defs>
+<clipPath id="clip0_360_121">
+<rect width="148.71" height="170.42" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+
+                                    <!-- <img src="{{ asset('assets/services/marketing-research.svg') }}"> -->
+                              </div>
+                              <h5>Develop Custom Solutions</h5>
+                              <p>
+                              website development company will take every step to ensure that your new site is engaging, informative, and useful. Your new website will bring you, new customers, when we use our extensive experience.
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <svg width="107" height="104" viewBox="0 0 107 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M106.01 96.3472C105.942 96.541 105.857 96.7306 105.803 96.9286C104.884 100.587 101.885 102.985 98.1292 102.992C88.4339 103.006 78.7387 103.006 69.0434 102.992C48.8565 102.992 28.6696 102.992 8.48266 102.992C3.19189 102.992 0 99.7705 0 94.4325C0 92.3948 0 90.3571 0 88.2339H3.67097V64.8295H6.811V88.1818H14.07V91.3072H3.00937C3.13174 93.1636 3.06537 94.9742 3.42417 96.6973C3.79542 98.4975 5.62261 99.7268 7.49543 99.8622C7.66758 99.8747 7.83972 99.8747 8.01186 99.8747C37.995 99.8747 67.9788 99.8747 97.9632 99.8747C100.616 99.8747 102.667 98.1287 102.86 95.6347C102.966 94.2616 102.879 92.8719 102.879 91.3947C102.512 91.3759 102.182 91.3426 101.842 91.3426C91.2145 91.3426 80.5873 91.3377 69.9601 91.328C69.313 91.328 68.9231 91.4718 68.5788 92.0906C67.7679 93.5282 66.4322 94.2366 64.8042 94.2408C56.9368 94.263 49.0701 94.263 41.2041 94.2408C39.211 94.2408 37.8422 93.1594 36.9649 91.3426H17.3407V88.2735H39.8208C39.8208 88.7111 39.8 89.1444 39.8208 89.5757C39.883 90.6175 40.3496 91.1175 41.3783 91.1196C49.1075 91.1349 56.8365 91.1349 64.5656 91.1196C65.6545 91.1196 66.1253 90.6196 66.1813 89.5278C66.2041 89.1215 66.1813 88.7152 66.1813 88.1985H99.1019V74.0575H94.0144V82.9355H26.7421V79.8997H90.8163V74.0387H89.6196C85.0651 74.0387 80.5106 74.0387 75.9561 74.0387C70.9266 74.0387 67.6601 70.7738 67.6601 65.7191C67.649 55.25 67.649 44.7802 67.6601 34.3097V32.9679H42.0876V29.8551H67.5978V24.6462H51.6446V21.5209H67.6704V20.2979C67.6704 16.3808 67.7845 12.4575 67.6414 8.5467C67.4506 3.36284 71.4824 -0.172938 76.0971 0.020832C79.5068 0.162513 82.9268 0.0479191 86.3426 0.0479191H87.5269V3.17324H86.4712C82.9164 3.17324 79.3616 3.17324 75.8088 3.17324C72.6854 3.18365 70.8063 5.08593 70.7856 8.23833C70.7856 9.6218 70.7856 11.0074 70.7856 12.4679H102.74C102.74 10.5386 102.947 8.55503 102.682 6.63401C102.389 4.5838 100.452 3.21907 98.3262 3.17949C96.1526 3.13781 93.9708 3.16698 91.8056 3.1649H90.7499V0.0395832H92.1561C94.1927 0.0395832 96.2273 0.0208313 98.264 0.0395832C101.904 0.0854211 104.901 2.46483 105.807 6.00686C105.867 6.23813 105.952 6.46315 106.027 6.69026V19.5874H102.891V15.7078H70.8499V52.0428H102.935V22.7065H106.012V67.4381C105.471 69.4112 104.594 71.1614 102.935 72.4636C102.571 72.781 102.347 73.2306 102.312 73.7137C102.269 78.2538 102.283 82.7959 102.288 87.3359C102.288 87.6026 102.325 87.8672 102.352 88.2423H106.015L106.01 96.3472ZM102.881 55.3535H70.8105C70.7918 55.6577 70.7669 55.8932 70.7669 56.1286C70.7669 59.4185 70.7462 62.7105 70.7669 66.0004C70.7856 68.9424 72.6916 70.8572 75.6304 70.9155C77.0097 70.9447 78.3889 70.9155 79.7784 70.9155C85.8117 70.9155 91.8449 70.9155 97.8803 70.9155C100.635 70.9155 102.769 69.1903 102.858 66.6609C102.976 62.923 102.881 59.1852 102.881 55.3535Z" fill="#004999"/>
+<path d="M12.0938 29.8822H38.8608V32.92H15.2172V79.881H23.5132V82.9355H12.0938V29.8822Z" fill="#004999"/>
+<path d="M6.85026 61.5687H3.73926V60.4124C3.73926 50.2613 3.73926 40.1096 3.73926 29.9572C3.73926 24.7817 6.98922 21.4918 12.1141 21.4897C23.8377 21.4897 35.562 21.4897 47.287 21.4897H48.3613V24.615H12.4127C8.61937 24.615 6.85026 26.3964 6.85026 30.2114V61.575V61.5687Z" fill="#004999"/>
+<path d="M55.3927 53.322C55.3616 61.0937 49.0339 67.411 41.331 67.363C33.6282 67.3151 27.3253 60.9291 27.3792 53.1949C27.4185 49.4811 28.9114 45.932 31.5351 43.3153C34.1588 40.6986 37.7024 39.2247 41.3995 39.2123C45.1165 39.2228 48.6775 40.7144 51.301 43.3597C53.9245 46.005 55.3961 49.5879 55.3927 53.322ZM52.2672 53.2866C52.2651 50.3927 51.1227 47.6172 49.0899 45.5668C47.057 43.5163 44.2988 42.3576 41.4181 42.3438C35.4595 42.3251 30.5442 47.2256 30.4944 53.2345C30.4446 59.2435 35.4264 64.2502 41.4181 64.2315C44.2988 64.2166 47.0567 63.0573 49.0894 61.0066C51.1221 58.956 52.2645 56.1806 52.2672 53.2866Z" fill="#004999"/>
+<path d="M90.8992 6.35687V9.34676H82.709V6.35687H90.8992Z" fill="#E33C5C"/>
+<path d="M7.88281 94.1074H16.0274V97.1119H7.88281V94.1074Z" fill="#E33C5C"/>
+<path d="M76.5205 6.32562H79.4801V9.35093H76.5205V6.32562Z" fill="#E33C5C"/>
+<path d="M97.1292 9.34886H94.124V6.3548H97.1292V9.34886Z" fill="#E33C5C"/>
+<path d="M19.2754 97.089V94.122H22.2682V97.089H19.2754Z" fill="#E33C5C"/>
+<path d="M36.6556 70.5634V73.5616H33.6836V70.5634H36.6556Z" fill="#E33C5C"/>
+<path d="M39.916 70.5384H42.8507V73.5554H39.9202L39.916 70.5384Z" fill="#E33C5C"/>
+<path d="M49.094 73.572H46.124V70.5884H49.094V73.572Z" fill="#E33C5C"/>
+<path d="M86.7906 46.9131C85.0897 46.9104 83.4059 46.5705 81.8359 45.9131C80.2659 45.2556 78.8404 44.2934 77.6411 43.0816C76.4418 41.8699 75.4922 40.4323 74.8468 38.8512C74.2015 37.2702 73.8729 35.5768 73.88 33.868C73.8921 30.4173 75.2642 27.1118 77.6962 24.6748C80.1282 22.2379 83.422 20.8679 86.857 20.8646C94.004 20.8813 99.8444 26.8298 99.7905 34.0389C99.7386 41.1417 93.8713 46.9443 86.7906 46.9131ZM86.801 43.7878C88.0967 43.7908 89.3802 43.5371 90.5782 43.0413C91.7761 42.5455 92.865 41.8172 93.7826 40.8982C94.7001 39.9791 95.4282 38.8874 95.9253 37.6854C96.4224 36.4833 96.6787 35.1946 96.6795 33.893C96.6647 31.267 95.6183 28.753 93.768 26.898C91.9176 25.0431 89.413 23.9972 86.7989 23.9879C84.2023 24.0026 81.7162 25.0459 79.8807 26.8911C78.0451 28.7363 77.0082 31.2344 76.9951 33.843C76.9828 35.1442 77.2274 36.435 77.7147 37.6407C78.2021 38.8464 78.9225 39.943 79.8344 40.8672C80.7463 41.7914 81.8315 42.5248 83.0273 43.0251C84.2231 43.5253 85.5057 43.7824 86.801 43.7815V43.7878Z" fill="#E33C5C"/>
+<path d="M82.2441 58.4788H91.4485V67.7089H82.2441V58.4788ZM85.3427 64.5753H88.3189V61.6H85.3427V64.5753Z" fill="#E33C5C"/>
+<path d="M34.0693 54.7284L36.1288 52.6449L38.91 55.7389L46.6295 47.9611L48.747 50.1884L39.1631 59.8289L34.0693 54.7284Z" fill="#E33C5C"/>
+<path d="M79.9111 34.8744L82.0059 32.7908L84.839 35.9432L91.5898 29.1238L93.612 31.124L84.8742 39.902L79.9111 34.8744Z" fill="#004999"/>
+</svg>
+
+
+                                    <!-- <img src="{{ asset('assets/services/marketing-research.svg') }}"> -->
+                              </div>
+                              <h5>Provide Accessible Websites to All Users</h5>
+                              <p>
+                               web development services, we make sure that all of our websites are accessible to all users. Building it and they will come is no longer a viable strategy for most businesses.
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <svg width="80" height="96" viewBox="0 0 80 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 47.5728V6.25253C0 2.19088 2.17951 0 6.22072 0H73.5318C77.5753 0 79.7503 2.18634 79.7503 6.2548V89.1223C79.7503 93.1158 77.5685 95.309 73.5863 95.309H6.1685C2.18859 95.309 0.00681546 93.1158 0.00454512 89.1223L0 47.5728ZM3.04224 20.2401V21.3912C3.04224 44.0113 3.04224 66.63 3.04224 89.2472C3.04224 91.4244 3.95038 92.3099 6.17305 92.3099C28.6404 92.3099 51.1076 92.3099 73.575 92.3099C75.8453 92.3099 76.7126 91.429 76.7126 89.1314V20.2401H3.04224ZM76.7103 17.1138V6.46594C76.7103 3.77331 75.9838 3.04226 73.2799 3.04226H31.5055C22.9918 3.04226 14.4787 3.04226 5.96647 3.04226C3.94132 3.04226 3.04677 3.9504 3.03542 5.93695C3.03542 7.79182 3.03542 9.64442 3.03542 11.4993V17.1138H76.7103Z" fill="#004999"/>
+<path d="M60.7274 56.8812C59.3266 56.8812 57.9281 56.8994 56.5273 56.8812C55.1265 56.863 54.484 56.2909 54.484 54.8856C54.3773 47.3639 47.8251 39.9512 38.662 40.3349C31.1698 40.6505 24.6448 47.1619 24.4337 54.654C24.3883 56.3045 23.8071 56.8789 22.127 56.8857C19.442 56.8948 16.7554 56.8948 14.0673 56.8857C12.3532 56.8857 11.7652 56.2568 11.7765 54.5314C11.8583 41.9764 21.7456 30.4658 34.4073 28.1545C38.0701 27.4767 41.8321 27.5453 45.4678 28.3563C49.1035 29.1673 52.538 30.7039 55.5656 32.8742C58.5931 35.0444 61.1514 37.8035 63.087 40.9862C65.0226 44.1688 66.2957 47.7095 66.8301 51.396C66.9935 52.5568 67.08 53.727 67.0889 54.8992C67.1071 56.25 66.4963 56.8426 65.1546 56.8676C63.6789 56.9016 62.2031 56.8789 60.7274 56.8812ZM21.396 53.7935C22.8354 41.3066 35.4494 33.9189 46.7966 38.7661C47.7615 36.8636 48.7286 34.9565 49.7594 32.9177C41.0821 29.3714 32.8612 29.9322 25.2397 35.2857C18.91 39.731 15.4886 45.9677 14.8211 53.7935H21.396ZM52.3771 34.4956L49.412 40.2986C51.6662 41.7986 53.5516 43.7895 54.9267 46.122C56.3454 48.451 57.1919 51.0832 57.3968 53.8026H63.9422C63.9535 46.8281 59.1177 38.2076 52.3771 34.4933V34.4956Z" fill="#E33C5C"/>
+<path d="M39.5425 70.5804H64.4005C64.7774 70.5804 65.2791 70.4555 65.5062 70.6485C65.9761 71.0413 66.4983 71.5566 66.6414 72.1197C66.8184 72.8598 66.269 73.3911 65.5062 73.5341C65.1306 73.5901 64.7505 73.6106 64.371 73.5954H15.2067C14.6395 73.6136 14.0716 73.5977 13.5062 73.5477C12.6912 73.4478 12.1917 72.9642 12.1826 72.1174C12.1826 71.2252 12.673 70.7189 13.5448 70.6031C13.8844 70.572 14.2257 70.5637 14.5665 70.5781L39.5425 70.5804Z" fill="#E33C5C"/>
+<path d="M39.3153 80.8423H14.3415C14.001 80.8423 13.5424 80.9491 13.3472 80.772C12.8931 80.3588 12.2483 79.798 12.2619 79.3121C12.2756 78.8263 12.943 78.295 13.4198 77.9023C13.6264 77.732 14.0759 77.85 14.4165 77.85H64.4684C64.7712 77.8294 65.0751 77.8362 65.3766 77.8705C66.178 78.018 66.6684 78.4857 66.6729 79.3348C66.6775 80.1839 66.2484 80.697 65.4129 80.8128C65.0359 80.8525 64.6565 80.8646 64.2777 80.8492H39.3153V80.8423Z" fill="#E33C5C"/>
+<path d="M39.6808 63.3722C36.5386 63.3722 34.2319 61.0201 34.266 58.1504C34.3001 55.2807 36.7021 52.9422 39.5627 53.1556C40.732 53.2442 41.3063 52.8582 41.8557 51.9274C42.698 50.4993 43.672 49.1462 44.5801 47.7681C45.2613 46.7714 46.04 46.533 46.8641 47.0575C47.6883 47.5819 47.7723 48.4401 47.1116 49.43C46.0355 51.0669 44.9117 52.6766 43.8832 54.343C43.7896 54.5378 43.7398 54.7508 43.7375 54.967C43.7351 55.1831 43.7802 55.3971 43.8696 55.594C44.8049 57.3376 44.8571 59.0585 43.8854 60.7749C43.4804 61.5439 42.8769 62.1904 42.1374 62.6471C41.398 63.1039 40.5497 63.3542 39.6808 63.3722ZM41.5447 58.2071C41.5334 57.6322 41.2958 57.085 40.8835 56.6842C40.4712 56.2834 39.9175 56.0613 39.3425 56.0662C38.2823 56.0662 37.2992 57.1401 37.3128 58.2593C37.3174 58.8142 37.5387 59.3452 37.9293 59.7392C38.3199 60.1332 38.849 60.359 39.4038 60.3685C39.6875 60.3716 39.969 60.3176 40.2315 60.2099C40.494 60.1021 40.7322 59.9427 40.9319 59.7411C41.1316 59.5395 41.2887 59.2998 41.394 59.0363C41.4992 58.7728 41.5505 58.4908 41.5447 58.2071Z" fill="#004999"/>
+<path d="M23.932 11.0385C19.8878 11.0385 15.8451 11.0385 11.8038 11.0385C10.4416 11.0385 9.72192 10.5004 9.73554 9.51278C9.74916 8.52518 10.4348 8.02117 11.7357 8.0189C19.859 8.00981 27.9816 8.00981 36.1033 8.0189C37.3702 8.0189 38.0603 8.58421 38.0467 9.55819C38.0331 10.5322 37.3497 11.0475 36.0579 11.0498C32.0152 11.0468 27.9732 11.043 23.932 11.0385Z" fill="#004999"/>
+<path d="M60.139 11.0339C59.7389 11.0396 59.3517 10.8925 59.0564 10.6225C58.761 10.3524 58.5798 9.97989 58.5498 9.58085C58.5489 9.18202 58.6997 8.79777 58.9716 8.50602C59.2436 8.21427 59.6163 8.03686 60.0142 8.00977C60.4136 8.00885 60.7985 8.15989 61.0906 8.43225C61.3828 8.70461 61.5605 9.0779 61.5876 9.47641C61.5981 9.87396 61.4523 10.2598 61.1814 10.551C60.9106 10.8422 60.5363 11.0156 60.139 11.0339Z" fill="#E33C5C"/>
+<path d="M70.5279 9.47417C70.5402 9.6713 70.5124 9.86887 70.4461 10.0549C70.3799 10.241 70.2765 10.4117 70.1424 10.5566C70.0082 10.7016 69.8461 10.8178 69.6657 10.8983C69.4853 10.9788 69.2905 11.0218 69.093 11.0248C68.8958 11.0349 68.6985 11.0052 68.513 10.9375C68.3274 10.8699 68.1574 10.7656 68.0129 10.6309C67.8685 10.4962 67.7526 10.3338 67.6722 10.1534C67.5917 9.97306 67.5484 9.77835 67.5447 9.58088C67.5327 9.38339 67.5607 9.18551 67.627 8.99908C67.6933 8.81266 67.7965 8.64153 67.9304 8.49591C68.0644 8.3503 68.2263 8.2332 68.4066 8.15163C68.5869 8.07005 68.7817 8.02568 68.9795 8.02115C69.3772 8.00952 69.7634 8.15584 70.0536 8.42812C70.3437 8.70041 70.5143 9.0765 70.5279 9.47417Z" fill="#E33C5C"/>
+<path d="M51.121 8.01206C51.5188 8.0257 51.8954 8.19522 52.1693 8.48406C52.4433 8.77289 52.5927 9.15786 52.5853 9.55589C52.583 9.75315 52.5416 9.94799 52.4637 10.1292C52.3857 10.3104 52.2727 10.4744 52.1311 10.6118C51.9895 10.7492 51.8221 10.8572 51.6387 10.9296C51.4552 11.0021 51.2592 11.0375 51.0619 11.0339C50.8647 11.031 50.67 10.9887 50.4894 10.9094C50.3088 10.8301 50.1458 10.7155 50.0102 10.5722C49.8745 10.429 49.769 10.26 49.6997 10.0753C49.6304 9.89066 49.5988 9.69397 49.6067 9.49686C49.6044 9.29875 49.6423 9.10223 49.718 8.91912C49.7936 8.73602 49.9056 8.57013 50.047 8.43141C50.1885 8.2927 50.3566 8.18405 50.5411 8.11198C50.7257 8.03991 50.9229 8.00592 51.121 8.01206Z" fill="#E33C5C"/>
+</svg>
+
+                                    <!-- <img src="{{ asset('assets/services/marketing-research.svg') }}"> -->
+                              </div>
+                              <h5>Optimize sites for speed and performance</h5>
+                              <p>
+                              Our team has over 10 years of experience optimizing websites for speed and performance. We’ll make sure your website loads as quickly as possible, on any device, anywhere in the world.
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <svg width="96" height="95" viewBox="0 0 96 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M77.5135 60.1445H91.8431V59.0664C91.8431 44.3625 91.8431 29.6534 91.8431 14.9389C91.8431 13.1183 91.4044 12.6876 89.5574 12.6876H62.6528C62.3225 12.6876 61.9922 12.7061 61.6646 12.6744C61.4576 12.6704 61.2536 12.624 61.0651 12.5383C60.8766 12.4525 60.7076 12.3292 60.5685 12.1757C60.4295 12.0223 60.3233 11.8421 60.2564 11.6461C60.1895 11.4502 60.1634 11.2426 60.1796 11.0361C60.1709 10.8365 60.2039 10.6373 60.2767 10.4512C60.3494 10.2651 60.4602 10.0962 60.602 9.9554C60.7438 9.81461 60.9135 9.70498 61.1001 9.63354C61.2867 9.5621 61.4862 9.53044 61.6857 9.54056C71.3436 9.52471 81.0041 9.49828 90.6645 9.56434C92.966 9.5802 94.8395 11.6439 94.9928 13.9507C95.0166 14.2783 94.9928 14.6086 94.9928 14.9389C94.9928 33.4707 94.9928 52.0007 94.9928 70.529C94.9928 74.149 93.1431 75.9961 89.5072 75.9961C61.5193 75.9961 33.5296 75.9961 5.53813 75.9961C1.90487 75.9961 0.0419922 74.1464 0.0419922 70.5396V14.9627C0.0419922 11.4008 1.90487 9.53792 5.46678 9.53528H32.5669C32.8957 9.51534 33.2256 9.52595 33.5525 9.56699C34.4139 9.73346 34.8737 10.2778 34.8737 11.1524C34.8895 11.5365 34.7534 11.9114 34.4947 12.1958C34.236 12.4802 33.8756 12.6512 33.4917 12.6718C33.1629 12.6964 32.833 12.7026 32.5035 12.6903H5.50645C3.65679 12.6903 3.22077 13.1236 3.22077 14.9416V60.1049H17.5635C18.8239 54.2917 24.6292 50.5791 30.7754 52.9705C31.7187 51.8713 32.5299 50.6954 33.5736 49.7785C34.4166 49.0386 35.5052 48.5472 36.541 48.0715C36.7254 47.976 36.9276 47.9198 37.1348 47.9065C37.3421 47.8933 37.5499 47.9233 37.7449 47.9946C37.94 48.0659 38.118 48.177 38.2678 48.3208C38.4177 48.4646 38.536 48.6379 38.6152 48.8299C38.7082 49.025 38.7591 49.2376 38.7644 49.4536C38.7697 49.6697 38.7294 49.8845 38.6461 50.084C38.5629 50.2834 38.4385 50.4631 38.2811 50.6112C38.1237 50.7594 37.9369 50.8727 37.7327 50.9438C35.3916 51.8396 33.9832 53.4831 33.3675 55.9114C33.0452 57.1798 31.8878 57.4651 30.7014 56.6513C29.0578 55.5257 27.2848 55.1504 25.3479 55.6393C23.1363 56.1968 21.2628 58.1363 20.996 60.1471H74.1075C73.7085 57.2009 70.2365 54.8756 67.1132 55.5415C66.159 55.7765 65.2478 56.1599 64.4127 56.6777C63.0572 57.4704 62.0213 57.1401 61.6329 55.6208C61.3953 54.5868 60.9028 53.6286 60.2004 52.8334C59.4981 52.0383 58.608 51.4314 57.6112 51.068C56.4856 50.6161 56.0628 49.7468 56.4618 48.8325C56.8317 47.9817 57.7248 47.7148 58.8267 48.1482C60.8759 48.9364 62.593 50.4035 63.6913 52.3046L64.093 52.9784C64.093 53.0022 64.1484 53.0075 64.1775 53.0233C70.4505 50.5924 76.2478 54.2996 77.5135 60.1445ZM91.8352 63.4184H3.22077V70.3995C3.22077 72.4526 3.59864 72.8384 5.61741 72.8384H89.4623C89.7266 72.8384 89.9908 72.8516 90.255 72.8384C91.2169 72.7697 91.814 72.2333 91.8246 71.2768C91.8589 68.6741 91.8352 66.074 91.8352 63.4184Z" fill="#004999"/>
+<path d="M55.587 36.9208C54.9766 38.0253 54.4164 39.0347 53.8695 40.0362C53.692 40.4097 53.4059 40.7209 53.0484 40.9288C52.691 41.1368 52.279 41.2318 51.8666 41.2014C48.967 41.1715 46.0674 41.1715 43.1679 41.2014C42.7724 41.2333 42.3764 41.1461 42.0308 40.9512C41.6852 40.7563 41.4058 40.4624 41.2284 40.1075C40.6603 39.0717 40.0842 38.0412 39.4739 36.9367C36.8473 37.6792 34.8603 39.2434 33.3647 41.4815C33.1824 41.7458 33.0608 42.1685 32.8098 42.2742C32.3051 42.4936 31.6499 42.7631 31.2033 42.6045C30.7567 42.446 30.178 41.788 30.1807 41.3494C30.2097 35.1795 31.1583 29.3161 36.0361 24.8478C36.3115 24.5518 36.462 24.1608 36.4563 23.7565C36.1418 14.8121 39.5532 7.40029 45.7363 1.1326C47.2292 -0.384116 47.8502 -0.37619 49.3431 1.14846C55.521 7.42407 58.9164 14.8412 58.5914 23.783C58.58 24.1576 58.7156 24.5217 58.9692 24.7976C62.3541 27.7254 63.81 31.6176 64.5182 35.8665C64.7824 37.4519 64.8089 39.077 64.9384 40.6862C65.0176 41.6295 64.7693 42.4222 63.7625 42.7023C62.7981 42.9665 62.2537 42.4011 61.7781 41.6454C60.3922 39.3388 58.1775 37.6488 55.587 36.9208ZM47.512 11.1181C46.0957 11.1181 44.6793 11.1604 43.2657 11.1023C42.5628 11.0732 42.2378 11.3216 41.9445 11.9504C39.7064 16.7278 39.2202 21.7272 39.9099 26.901C40.3908 30.5184 41.3288 33.9878 43.1679 37.1798C43.5167 37.7875 43.8945 38.0649 44.6291 38.0438C46.5668 37.9892 48.5099 37.9892 50.4582 38.0438C51.1558 38.0649 51.5151 37.8086 51.856 37.2511C53.7427 34.0063 54.686 30.4681 55.1669 26.7847C55.8381 21.6479 55.3281 16.6776 53.1058 11.9346C52.8416 11.348 52.5404 11.0864 51.8613 11.1155C50.4133 11.1683 48.9626 11.1181 47.512 11.1181ZM36.8975 28.4837C34.9818 30.8619 34.1892 33.4857 33.695 36.2364L38.2531 33.8187L36.8975 28.4837ZM58.1528 28.4837C57.6692 30.4179 57.2279 32.183 56.8157 33.8292L61.3791 36.2496C60.8427 33.4487 60.0711 30.809 58.1528 28.4732V28.4837ZM50.9946 7.93669L47.5199 3.68513L44.0848 7.93669H50.9946Z" fill="#E33C5C"/>
+<path d="M37.4315 85.4768H57.7408C57.5215 85.1677 57.3497 84.9484 57.1991 84.7185C56.4988 83.6457 55.7537 82.6046 55.1221 81.4842C54.6227 80.6017 54.9081 79.6848 55.6771 79.2593C56.4909 78.8075 57.3206 79.1616 57.9257 80.0309C58.9827 81.5371 60.1004 82.9904 61.2155 84.4463C61.8575 85.2892 62.7005 85.6248 63.7944 85.5323C64.6139 85.4609 65.4396 85.5242 66.2386 85.7199C67.1856 85.9745 68.0279 86.522 68.6449 87.2842C69.2619 88.0465 69.622 88.9843 69.6737 89.9636C69.7239 91.0813 69.7107 92.2069 69.6737 93.3247C69.6472 94.3816 69.0475 94.9418 67.9932 94.9999C67.7633 94.9999 67.5334 94.9999 67.3008 94.9999H27.7526C25.8078 94.9999 25.3744 94.5692 25.3744 92.6218C25.3744 91.7974 25.3559 90.973 25.3744 90.1485C25.4563 87.5643 27.5227 85.3262 30.0779 85.572C32.456 85.7992 33.8749 84.7343 35.1221 83.0644C35.8276 82.1184 36.4671 81.1196 37.0801 80.1102C37.6509 79.1722 38.4568 78.8101 39.2918 79.2144C40.1267 79.6187 40.4412 80.5937 39.8783 81.5741C39.1411 82.882 38.2903 84.1266 37.4315 85.4768ZM66.4606 91.8027C66.6878 89.0599 66.339 88.6715 63.7442 88.6715H30.9287C30.6327 88.6715 30.3341 88.6556 30.0408 88.6715C29.1636 88.7534 28.6509 89.2528 28.5664 90.1195C28.5385 90.6758 28.5385 91.2331 28.5664 91.7894L66.4606 91.8027Z" fill="#004999"/>
+<path d="M47.5546 53.314C49.483 51.4491 50.6186 48.9129 50.7255 46.2325C50.7572 45.704 50.9897 44.9905 51.3728 44.7052C51.6134 44.5603 51.8849 44.4745 52.1651 44.4547C52.4453 44.435 52.7261 44.4819 52.9847 44.5915C53.225 44.7626 53.425 44.9841 53.5707 45.2407C53.7163 45.4972 53.804 45.7825 53.8276 46.0766C53.8679 49.069 52.8423 51.9782 50.9342 54.2837C50.2525 55.0853 49.5104 55.8335 48.7146 56.5218C47.98 57.193 47.1689 57.1903 46.392 56.5535C43.1234 53.8821 41.3715 50.447 41.2235 46.2166C41.1839 45.0328 41.7837 44.3669 42.7851 44.3669C43.7866 44.3669 44.3336 44.9879 44.3838 46.2007C44.4895 49.0281 45.5517 51.4485 47.5546 53.314Z" fill="#E33C5C"/>
+<path d="M47.6024 69.6729C46.5851 69.6729 45.5678 69.6888 44.5504 69.6729C43.5331 69.6571 42.8647 69.0652 42.8303 68.1615C42.796 67.2578 43.4883 66.5391 44.5399 66.5285C46.5745 66.5056 48.61 66.5056 50.6464 66.5285C51.7298 66.5285 52.401 67.1759 52.401 68.1139C52.401 69.052 51.7562 69.665 50.657 69.6809C49.6397 69.6835 48.6223 69.6729 47.6024 69.6729Z" fill="#E33C5C"/>
+<path d="M52.2785 22.1923C52.2673 23.4571 51.7572 24.6664 50.8591 25.5571C49.961 26.4478 48.7475 26.9479 47.4826 26.9486C46.2339 26.9258 45.0436 26.4155 44.1662 25.5267C43.2888 24.6379 42.7938 23.4412 42.7871 22.1923C42.7871 21.5648 42.9113 20.9435 43.1524 20.3642C43.3936 19.7849 43.747 19.259 44.1923 18.8169C44.6377 18.3748 45.166 18.0252 45.7471 17.7882C46.3281 17.5512 46.9503 17.4315 47.5778 17.436C48.827 17.4588 50.0178 17.9689 50.8961 18.8575C51.7743 19.7462 52.2704 20.9429 52.2785 22.1923ZM47.5222 23.7777C47.9359 23.7778 48.3333 23.6163 48.6295 23.3275C48.9257 23.0386 49.0973 22.6455 49.1076 22.2319C49.1128 22.0185 49.0743 21.8064 48.9945 21.6084C48.9148 21.4104 48.7954 21.2308 48.6437 21.0806C48.4921 20.9304 48.3113 20.8128 48.1125 20.735C47.9138 20.6572 47.7012 20.6207 47.4879 20.628C47.2832 20.6311 47.0811 20.6746 46.8932 20.7561C46.7054 20.8375 46.5355 20.9553 46.3933 21.1027C46.2512 21.25 46.1395 21.424 46.0648 21.6146C45.9901 21.8052 45.9537 22.0087 45.9579 22.2134C45.9583 22.4185 45.9991 22.6215 46.0779 22.8108C46.1567 23.0002 46.2719 23.1721 46.4172 23.3169C46.5625 23.4617 46.7349 23.5764 46.9245 23.6546C47.114 23.7327 47.3171 23.7728 47.5222 23.7724V23.7777Z" fill="#004999"/>
+</svg>
+
+
+                                    <!-- <img src="{{ asset('assets/services/marketing-research.svg') }}"> -->
+                              </div>
+                              <h5>Plan for launch</h5>
+                              <p>
+                              .Our team launches your website on time, on budget, and with quality results that will make you proud. We have helped countless businesses just like yours take their ideas from concept to reality, and we’d love to do the same for you.
+                              </p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+
+   <div class="hiredevlopercard py-5 text-center">
+            <div class="container">
+                  <div class="row justify-content-center">
+                        <div class="col-lg-6 col-12">
+                              <h2 class="text-white mb-0">Hire a <span class="fontWt50">Dedicated Developer</span></h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('dedicated-developer') }}" class="hire-butn">Hire Now <i class="fa fa-chevron-right fa-ani"></i></a>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div class="bgYellow py-5 bottomUp">
+            <div class="container">
+                  <div class="col-lg-12 text-center">
+                        <h1 class="service_heading_text" style="line-height: 58px;">Our Web Development Services</h1>
+<p>Our cycle depends on making custom solutions that are extraordinary to your requirements. By understanding these requirements, we can appropriately plan and foster a coordinated framework that will give a powerful stage to you.</p>
+                  </div>
+                        <div class="row justify-content-center">
+                              <div class="col-lg-5 col-12 mt-5">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group86.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>Ecommerce Development</h5>
+                                          <p>
+                                            When it comes to developing an e-commerce website, we’re able to do all of it. We don’t outsource any... <a href="{{url('/web_development/ecommerce-development')}}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              <div class="col-lg-5 col-12 mt-5  offset-lg-1">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group87.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>CMS Development</h5>
+                                          <p>
+                                            Content management systems are essential to most online companies. They allow you to manage and... <a href="{{url('/web_development/CMS-development')}}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <div class="col-lg-5 col-12 mt-5">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group88.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>CRM Development</h5>
+                                          <p>
+                                           CRM systems let companies track customer interactions over time, including details such as purchase ... <a href="" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              <div class="col-lg-5 col-12 mt-5 offset-lg-1">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group89.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>ERP Development</h5>
+                                          <p>
+                                           ERP stands for enterprise resource planning and is a software application that’s used to manage operations and... <a href="{{url('/web_development/ERP-development')}}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="row justify-content-center">
+                                <div class="col-lg-5 col-12 mt-5">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group90.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>Enterprise Applications</h5>
+                                          <p>
+                                           Enterprise-level applications are used by some of the biggest companies in various industries. When you have... <a href="{{url('/web_development/enterprise-development')}}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                        </div>
+            </div>
+      </div>
+      <div class="text-center" style="position: relative;bottom: 60px;">
+            <div class="container">
+                  <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-6 col-12">
+                              <h2 class="mb-0 fontWt40">We <span class="fontWt50">Promise.</span> We <span class="fontWt50">Deliver.</span></h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('contact-us') }}" class="promiseBtn">Let’s Work Together <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      
+      <div class="py-5 bg-prim text-center text-white">
+        <div class="container">
+            <h2 class="fontWt50 text-white">Technologies We Are Using</h2>
+            <p>Let’s look at how some popular technologies like React.js, Vue.js, and Angular are helping to shape modern web development. While JavaScript is still one of today’s most widely used programming languages for client-side applications, it also has proven itself useful in building back-end applications as well. Our engineers have extensive experience with these frameworks and use them regularly on our projects.</p>
+            <p>We pride ourselves on being able to quickly adapt to new technologies while maintaining our high standards of quality. If you’re looking for an agency that can help you build a responsive website or an application that will run across multiple platforms, we would love to talk with you about your project!</p>
+            <div class="icon-image-div mt-4">
+                <div class="firstDiv">
+                    <div class="img-border">
+                        <img src="{{ asset('assets/services/reactnative-round.png') }}">
+                    </div>
+                </div>
+                <div class="firstDiv">
+                    <div class="img-border">
+                        <img src="{{ asset('assets/services/reactnative-round.png') }}">
+                    </div>
+                </div>
+                <div class="firstDiv">
+                    <div class="img-border">
+                        <img src="{{ asset('assets/services/reactnative-round.png') }}">
+                    </div>
+                </div>
+                <div class="firstDiv">
+                    <div class="img-border">
+                        <img src="{{ asset('assets/services/reactnative-round.png') }}">
+                    </div>
+                </div>
+                <div class="firstDiv">
+                    <div class="img-border">
+                        <img src="{{ asset('assets/services/reactnative-round.png') }}">
+                    </div>
+                </div>
+                <div class="firstDiv">
+                    <div class="img-border">
+                        <img src="{{ asset('assets/services/reactnative-round.png') }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+      <div class="row">
+            <div class="col-lg-4 col-12 mt-5">
+                  <img class="img-fluid" src="{{ asset('assets/services/Group88.png') }}">
+            </div>   
+            <div class="col-lg-8 col-12 mt-5">
+                  <h3 class="heading_medium">Why is <span class="textRed">Web Development Necessary</span> Today?</h3>
+                  <p>In today’s digital era, it is important to have an online presence. People need information and services on-demand, at any time and anywhere they want them. In order to remain competitive, businesses that once didn’t even have an online strategy now do. The obvious choice for most businesses is to choose web development services so that their business can be found easily by customers in search engines. If you want your company to be taken seriously, you need an attractive website that showcases your products and services, as well as highlights your brand identity.</p>
+                  <ul class="customList">
+                        <li>
+                              Enhanced Your Web Presence
+                        </li>
+                        <li>
+                              Boost Customer Satisfaction
+                        </li>
+                        <li>
+                              Trustworthy
+                        </li>
+                        <li>
+                              Get High-Quality Leads
+                        </li>
+                  </ul>
+            </div>   
+      </div>
+      </div>
+      <div class="pb-5 mt-4 text-center">
+            <div class="container">
+                  <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-8 col-12">
+                              <h2 class="mb-0 fontWt40">We Love to Listen to Your Requirements</h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('contact-us') }}" class="promiseBtn">Estimate Project <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 @endsection
+
+
+
+

@@ -493,6 +493,22 @@ html .mb0 {
     text-transform: uppercase;
     font-weight: 700;
 }
+.hero-heading-sec-cus h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.hero-heading-sec-cus{
+    padding-top: 15%;
+}
+.hero-heading-sec-cus p{
+color: #fff000;
+    font-size: 18px;
+    max-width: 400px;
+    margin: 40px 0;
+}
 .hero-heading-sec > p {
     color: #fff000;
     font-size: 18px;
@@ -1161,7 +1177,8 @@ html .mt20 {
     overflow: hidden;
     border-radius: 6px;
     margin: 0 10px;
-    height: 240px;
+    /*height: 240px;*/
+    height: 300px;
     -webkit-box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059), 0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071), 0 25px 40px -30px rgba(0, 0, 0, 0.2);
     box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059), 0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071), 0 25px 40px -30px rgba(0, 0, 0, 0.2);
 }
@@ -2342,6 +2359,10 @@ body.hc-nav-open {
     font-weight: 400;
     font-family: Poppins;
 }
+.hero-main-rp p{
+    font-size: 16px;
+    line-height: 24px;
+}
 .hero-main-rp .get-start-btn {
     font-family: Poppins;
     font-size: 20px;
@@ -2453,7 +2474,7 @@ body.hc-nav-open {
 }
 .bottomUp,
 .hiredevlopercard {
-    bottom: 100px;
+    bottom: 120px;
     position: relative;
 }
 .custom-card,
@@ -2772,6 +2793,22 @@ body.hc-nav-open {
   margin-left: 8.333333%;
 }
 
+.icon-image-div{
+    display: flex;
+}
+  .icon-image-div .firstDiv{
+    width: 16.6666667%;
+  }
+  .img-border{
+    width: 100px;
+    height: auto;
+    margin: auto;
+  }
+  .img-border img {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 2px;
+  }
 
 
 

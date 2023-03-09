@@ -1,14 +1,17 @@
 @extends('front.layouts.app')
+
 @section('content') 
       <section class="hero-card-web bg-gradient12 shape-bg3">
          <div class="hero-main-rp container-fluid">
             <div class="row">
                <div class="col-lg-5">
-                  <div class="hero-heading-sec">
-                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>IT Support-IT Solution</span> 
+                  <div class="hero-heading-sec hero-heading-sec-cus">
+                     <div>
+                        <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>IT Support-IT Solution</span> 
                       <span>Prilient Technologies</span></h2>
                      <p class="wow fadeIn" data-wow-delay="0.6s">Leading company in providing smart business solutions for transforming and innovating businesses</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                     </div>
                   </div>
                </div>
                <div class="col-lg-7">
