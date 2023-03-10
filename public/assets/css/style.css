@@ -2532,7 +2532,8 @@ body.hc-nav-open {
     align-items: center;
 }
 .bgYellow {
-    background: #fff9f5;
+    background-image: url('../images/banner/yellow_bg.png');
+    /*background: #fff9f5;*/
     box-shadow: 22px 4px 7px 2px rgba(0, 0, 0, 0.1);
 }
 .service_heading_text {
@@ -2810,7 +2811,86 @@ body.hc-nav-open {
     padding: 2px;
   }
 
+.cyber-bg{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100%;
+}
 
+.overly-one {
+                                    position: relative;
+                                    transition: all .5s ease;
+                                    background: #FFFFFF;
+                                    box-shadow: 0px 4px 16px -3px rgba(0, 0, 0, 0.25);
+                                }
+                                .single-safety, .single-safety img {
+                                    margin-bottom: 30px;
+                                }
+                                .single-safety {
+                                    padding: 30px;
+                                    background-color: #fff;
+                                }
+                                .overly-one:after, .overly-one:before {
+                                    content: "";
+                                    position: absolute;
+                                    transition: all .5s ease;
+                                    opacity: 0;
+                                }
+                                .overly-one:before {
+                                    bottom: 0;
+                                    right: -100%;
+                                    width: 100%;
+                                    height: 2px;
+                                    background: linear-gradient(90deg,#e21f36,transparent);
+                                    z-index: 1;
+                                }
+                                .overly-one:after {
+                                    bottom: -100%;
+                                    left: 0;
+                                    width: 2px;
+                                    height: 100%;
+                                    background: linear-gradient(180deg,#e21f36,transparent);
+                                }
 
+                                .overly-one:hover {
+                                    transform: translateY(-5px);
+                                }
+                                .overly-one .overly-two:after {
+                                    top: -100%;
+                                    right: 0;
+                                    width: 2px;
+                                    height: 100%;
+                                    background: linear-gradient(0deg,#e21f36,transparent);
+                                }
+                                .overly-one .overly-two:after, .overly-one .overly-two:before {
+                                    content: "";
+                                    position: absolute;
+                                    transition: all .5s ease;
+                                    opacity: 0;
+                                }
+                                .overly-one:hover:after {
+                                    bottom: 30px;
+                                    opacity: 1;
+                                }
+                                .overly-one:hover .overly-two:before {
+                                    left: 30px;
+                                    opacity: 1;
+                                }
+                                .overly-one .overly-two:before {
+                                    top: 0;
+                                    left: -100%;
+                                    width: 100%;
+                                    height: 2px;
+                                    background: linear-gradient(90deg,transparent,#e21f36);
+                                }
+                                .overly-one:hover .overly-two:after {
+                                    top: 30px;
+                                    opacity: 1;
+                                }
+                                .overly-one:hover:before {
+                                    right: 30px;
+                                    opacity: 1;
+                                }
 
 

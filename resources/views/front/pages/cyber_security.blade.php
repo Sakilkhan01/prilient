@@ -3,175 +3,337 @@
 @section('meta_keywords', "Cyber Security Services")
 @section('meta_description', "We offer a cloud-native cyber security services platform.Cyber security services are specialized engagements designed to manage and mitigate the risk and impact of cyberattacks.")
 
+
+<style type="text/css">
+
+.fontWt30{
+  font-weight: 400 !important;
+}
+.common-color-heading{
+  background: linear-gradient(90.21deg, #024A99 13.01%, #E43C5C 65.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 30px;
+}
+.request-quote-card-body{
+border-radius: 36px 36px 0px 0px; 
+}
+
+.hero-main-rp .get-start-btn {
+    margin-top: 2% !important;
+}
+</style>
+
 @section('content') 
-  <!-- content start -->
-  <!--Breadcrumb Area-->
-  <section class="hero-card-web-2 bg-gradient12 shape-bg3">
-         <div class="hero-main-rp container-fluid">
-            <div class="container">
-              <div class="row">
-               <div class="col-lg-5 alignCenter">
-                  <div class="hero-heading-sec text-center">
-                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>Cyber Security Services</span></h2>
-                     <p class="wow fadeIn" data-wow-delay="0.6s">If you have any desire to shield your organization from cyber-attacks and guarantee that your delicate information stays safe, we're here to help.</p>
-                     <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+<section class="hero-card-web-2 cyber-bg" style="background-image: url({{ asset('assets/images/banner/Cyberwarrior2x.png') }});">
+      <div class="hero-main-rp container-fluid">
+         <div class="container">
+            <div class="row">
+                  <div class="col-lg-8 col-12 text-lg-left text-center">
+                        <h1 class="fontWt30"><span class="fontWt50 common-color-heading">Shield</span> Your <span class="fontWt50 common-color-heading">Organization</span> With <span class="fontWt50 common-color-heading">Cyber Attacks</span></h1>
+                        <p class="mt-3">If you have any desire to shield your organization from cyber-attacks and guarantee that your delicate information stays safe, we're here to help. We can deal with all that you really want to keep your business secured, including danger recognition and avoidance, so you can zero in on developing your business without agonizing over whether it's protected from programmers.</p>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                     <!-- <a href="{{ url('contact-us') }}" class="niwax-btn2 play-demo-btn ml-4 mt-3">View Demo <i class="fa fa-play-circle fa-ani"></i></a> -->
                   </div>
-               </div>
-               <div class="col-lg-2"></div>
-               <div class="col-lg-5 mt-sm-3">
-                   @include('front.pages.request_quote')
-               </div>
-            </div>
             </div>
          </div>
-      </section>
+      </div>
+</section>
+@include('front.pages.rq')
+<section class="service-content-body">
+    <div class="container pb-5">
+      <div class="row">
+       <div class="col-lg-5 col-12 text-center mt-5">
             
-  <!--End why-choose-->
-<div class="container pb-5">
-      <div class="col-lg-12 mt-5">
-          <div class="common-heading">
-            <h2>Shield Your Organization With Cyber-Attacks</h2>
-             <p>If you have any desire to shield your organization from cyber-attacks and guarantee that your delicate information stays safe, we're here to help. We can deal with all that you really want to keep your business secured, including danger recognition and avoidance, so you can zero in on developing your business without agonizing over whether it's protected from programmers.</p>
+      </div>
+      <div class="col-lg-7 col-12 mt-5">
+          <div class="comman-service-heading">
+            <h2><span class="textPrim fontWt50">We Strengthen</span> Your Business With <span class="textRed fontWt50">Cyber security</span></h2>
+             <p>With cyber criminals becoming more sophisticated by the day, every company should be prepared with an appropriate cyber security solution. Our security services are specially designed for small businesses and other organizations that need maximum protection but cannot afford a huge price tag. Keeping your network and data secure allows you to focus on what you do best: running your business. To protect its information assets, any organization needs to have a comprehensive security strategy.</p>
           </div>
       </div>
-      <div class="col-lg-12 py-5">
-          <div class="common-heading">
-            <h2>We Strengthen Your Business with Cybersecurity</h2>
-             <p>With cybercriminals becoming more sophisticated by the day, every company should be prepared with an appropriate cybersecurity solution. Our security services are specially designed for small businesses and other organizations that need maximum protection but cannot afford a huge price tag. Keeping your network and data secure allows you to focus on what you do best: running your business. To protect its information assets, any organization needs to have a comprehensive security strategy. </p>
-           </div>
       </div>
-      <div class="-cta-btn pb-5">
-         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
-            <p>Hire a <span>Dedicated Developer</span></p>
-            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-         </div>
+   </div>
+ </section>
+ <section class="service-content-body">
+ <div class="bgYellow BgRedcardHeight py-5 mt-4">
+      <div class="container">
+      <div class="comman-service-heading text-center">
+             <h1 class="text-center fontWt70 textBgcolor" style="font-weight: 600;">Cyber Securities Services</h1>
+             <p class="">To understand how we are different from other cyber security services, it’s important to get a sense of our values.</p>
+      </div>  
       </div>
-      <div class="col-lg-12">
-          <div class="common-heading">
-            <h1 class="text-radius text-light text-animation bg-b">Cyber Securities Services</h1>
-             <p>To understand how we are different from other cyber security services, it’s important to get a sense of our values.</p>
-           </div>
+   </div>
+</section>
+<div class="container on-card-tab-2">
+            <div class="row justify-content-center">
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-pink">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-pink">
+                                  <img src="{{ asset('assets/services/Group1.png') }}">
+                                </div>
+                                </div>
+                                <h5>Virtual CISO</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">
+                                Do you have an Internet-connected device? Are you connected to Wi-Fi at work or home? If so, that means you’re in cyberspace. And if you’re in cyberspace, that means there are all kinds of hackers who want your data, who can do some serious damage if they get it. Our Virtual CISO cybersecurity services help protect you from these threats.
+                                </p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-blue">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-blue">
+                                  <img src="{{ asset('assets/services/Group2.png') }}">
+                                </div>
+                                </div>
+                                <h5>Data Governance</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">One way companies stay compliant is by having a sound data governance strategy. This means that they are able to keep track of their data, where it is, who has access to it and when they have accessed it. We can help you meet your regulatory obligations by building a secure environment for your data. Coordinate with our team to learn more about our Data Governance services.</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-pink">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-pink">
+                                  <img src="{{ asset('assets/services/Group3.png') }}">
+                                </div>
+                                </div>
+                                <h5>Third-Party Risk Management</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">Whatever information is collected, stored, and passed over digital networks must be protected. This can be handled in-house, but it’s a lot of work and doesn’t always guarantee full security. Our team has been working on these issues for years, so we know what we’re doing. We offer comprehensive solutions that will help you protect your data from outside attacks and internal threats alike.</p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
       </div>
-      <div class="row justify-content-center">
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h3>Virtual CISO</h3>
-                <p>
-                Do you have an Internet-connected device? Are you connected to Wi-Fi at work or home? If so, that means you’re in cyberspace. And if you’re in cyberspace, that means there are all kinds of hackers who want your data, who can do some serious damage if they get it. Our Virtual CISO cybersecurity services help protect you from these threats. 
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h3>Data Governance</h3>
-                <p>
-                One way companies stay compliant is by having a sound data governance strategy. This means that they are able to keep track of their data, where it is, who has access to it and when they have accessed it. We can help you meet your regulatory obligations by building a secure environment for your data. Coordinate with our team to learn more about our Data Governance services.
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Third-Party Risk Management</h4>
-                <p>
-                Whatever information is collected, stored, and passed over digital networks must be protected. This can be handled in-house, but it’s a lot of work and doesn’t always guarantee full security. Our team has been working on these issues for years, so we know what we’re doing. We offer comprehensive solutions that will help you protect your data from outside attacks and internal threats alike.
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Why Cyber Security Services?</h4>
-                <p>
-                Protecting your business from cyber attacks is an essential part of being a responsible citizen of our online world. Read more about why it’s so important for businesses of all sizes. 
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Safeguard Your Business Prestige</h4>
-                <p>
-                The significance of cyber security is tremendously high for any business because it’s your organization’s digital property. If a cyber criminal accesses, steals or misuses your company data, you could risk losing customer data, intellectual property, and even employee information. When all is said and done, a successful cyber attack on your business can cost you big time in terms of legal fees, monetary fines, and potentially loss of customers who lost their trust in you as a brand.
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Secured Environment For Remote Working</h4>
-                <p>
-                When you’re working remotely, it’s vital that you take measures to ensure the security of your sensitive information. Otherwise, it can be accessible by cybercriminals and hackers.  One way to help protect yourself is through encryption. Encryption scrambles your data so that only those with access to a specific key can read it—and even then, they might not be able to understand what they’re looking at.
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Increases Your Website or Application Security</h4>
-                <p>
-                In today’s world, nearly every piece of data is stored in a system that can be accessed remotely. From personal files on your computer and tablet to information about your business that’s stored on servers or through cloud services. With cyber security, you can protect your own resources from these threats—and from any unauthorized user who might attempt unauthorized access. Think of it as an extra layer of protection for your data and systems, plus another line of defense for your organization and its reputation as a whole. 
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Improves Firms Credibility</h4>
-                <p>
-                More than ever, consumers are looking for ways to know that their personal information is safe. From credit card data and passwords to private medical records, people want assurance that their privacy and security will be safeguarded. In order to attract new customers or clients, many businesses have begun offering cyber security services as a form of protection against identity theft or other types of cybercrime. By promoting these services on your website, you can help build consumer trust in your company's brand.
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Beware of Unauthorized Users</h4>
-                <p>
-                Hackers who want to infiltrate your network will try every trick in their book, including impersonating authorized users. It’s not just about protecting information and assets; it’s also about protecting employees and customers from fraud and identity theft.   
-                </p>
-          </div>
-          </div>
+ <section class="service-content-body cyber_page_top">
+   <div class="bgRed BgRedcardHeight py-5 mt-4">
+      <div class="rounded-circle-comm top-rounded-circle"></div>
+      <div class="container">
+      <div class="comman-service-heading text-center" style="padding-top: 40px;">
+            <h1 class="text-center fontWt40 text-white">Why <span class="fontWt50">Cyber Security</span> Services?</h1>
+             <p class="text-white">To understand how we are different from other cyber security services, it’s important to get a sense of our values.</p>
+      </div>  
       </div>
-      <div class="-cta-btn mt40 py-5">
-               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
-                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
-                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-               </div>
+      <div class="rounded-circle-comm bottom-rounded-circle"></div>
+   </div>
+ </section>
+ <div class="container on-card-tab cyber_on_card_tab">
+            <div class="row justify-content-center">
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                  <svg width="103" height="90" viewBox="0 0 103 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_418_2015)">
+<path d="M103.003 81.7757C102.196 83.482 100.818 84.0374 99.0039 83.9119C97.808 83.8345 96.6014 83.8959 95.2416 83.8959C95.2416 85.004 95.2551 86.0321 95.2416 87.0441C95.2121 89.0788 94.3145 89.9813 92.2856 89.9813C88.9354 89.992 85.5834 89.992 82.2296 89.9813C80.327 89.9813 79.3945 89.0601 79.3515 87.1722C79.33 86.1415 79.3515 85.1108 79.3515 83.9893H23.6485C23.6485 85.0254 23.6485 86.0454 23.6485 87.0681C23.6162 89.0815 22.7052 89.9787 20.6736 89.984C17.3556 89.984 14.0413 89.984 10.7305 89.984C8.70153 89.984 7.80127 89.0815 7.7744 87.0467C7.76096 86.0508 7.7744 85.0574 7.7744 83.8905C6.77203 83.8905 5.85301 83.8905 4.93394 83.8905C4.32929 83.8905 3.72464 83.9092 3.12268 83.8905C1.17168 83.8104 0.0349345 82.6542 0.0295599 80.7023C0.0295599 75.5728 0.0295599 70.4433 0.0295599 65.3138C0.0295599 60.6516 0.0295599 55.9893 0.0295599 51.3271C0.00698482 51.0279 0.0168587 50.7271 0.0590838 50.4299C0.228386 49.6636 0.70672 49.1883 1.52636 49.1829C2.34599 49.1776 2.83509 49.6449 3.00977 50.4086C3.0578 50.7383 3.06955 51.0723 3.04474 51.4046V80.8438H99.9498V18.4219H94.1909C93.1509 18.4219 92.1136 18.4219 91.0736 18.4219C89.8347 18.4219 89.1226 17.8451 89.1414 16.8945C89.1602 15.9439 89.8482 15.4419 91.0225 15.4259C91.3585 15.4259 91.6917 15.4259 92.0276 15.4259C94.4462 15.4259 96.8648 15.4927 99.2672 15.4046C101.054 15.3405 102.304 15.9706 103.005 17.6182L103.003 81.7757ZM10.8272 86.9453H20.558V83.9813H10.8326L10.8272 86.9453ZM92.1969 83.9653H82.4661V86.9319H92.1969V83.9653Z" fill="#004999"/>
+<path d="M27.9081 15.4233C27.9081 13.1776 27.9081 11.0842 27.9081 8.99072C27.9081 5.7277 29.6414 4.02409 32.9388 4.01608H35.8169C35.8169 3.58885 35.8169 3.26308 35.8169 2.94799C35.8438 1.02276 36.8569 0.0107422 38.8186 0.0107422C45.5567 0.0107422 52.2938 0.0107422 59.03 0.0107422C60.7069 0.0107422 62.3812 0.0107422 64.0581 0.0107422C66.2079 0.0107422 67.1619 0.969356 67.1888 3.12156C67.1888 3.38858 67.1888 3.6556 67.1888 4.02409H70.2416C73.3212 4.04011 75.0788 5.79178 75.0976 8.87323C75.0976 10.705 75.0976 12.5368 75.0976 14.3686C75.0976 14.6917 75.1245 15.0174 75.1433 15.4366H81.4263C82.1303 15.4366 82.8371 15.4126 83.5385 15.4366C84.4683 15.4794 85.0918 16.1095 85.0837 16.94C85.0757 17.7704 84.4468 18.3632 83.5089 18.4166C83.173 18.438 82.8371 18.4166 82.5039 18.4166H3.02609V42.7931C3.02609 43.0949 3.0449 43.3966 3.02609 43.693C3.03143 44.0882 2.87858 44.4692 2.60114 44.7524C2.3237 45.0356 1.94438 45.1977 1.54668 45.203C1.14898 45.2083 0.765469 45.0564 0.480472 44.7808C0.195476 44.5051 0.0323965 44.1282 0.027051 43.733C0.0149291 43.5 0.0149291 43.2665 0.027051 43.0334C0.027051 35.0103 0.027051 26.9845 0.027051 18.956C0.027051 16.4941 1.10196 15.426 3.56893 15.4233H27.9242H27.9081ZM30.9528 15.3672H72.069C72.069 12.964 72.1254 10.6089 72.0152 8.26175C71.9964 7.83985 71.3407 7.1536 70.9108 7.09753C69.7068 6.93731 68.4679 7.04145 67.2345 7.04145C67.2183 7.32182 67.2049 7.48738 67.2022 7.65293C67.1619 10.1977 66.3046 11.0334 63.7329 11.0334H51.7715C47.4476 11.0334 43.1264 11.0334 38.8025 11.0334C36.8676 11.0334 35.8465 9.99739 35.8277 8.06415C35.8277 7.74372 35.8277 7.42062 35.8277 7.03077C34.5512 7.03077 33.3821 6.99072 32.2212 7.04679C32.0589 7.0414 31.8973 7.0686 31.7458 7.12677C31.5944 7.18494 31.4563 7.27288 31.3399 7.38532C31.2235 7.49776 31.1311 7.63239 31.0683 7.78115C31.0055 7.92991 30.9735 8.08974 30.9743 8.25106C30.9286 10.6009 30.9528 12.9587 30.9528 15.3672ZM38.8912 3.0281V7.96535H64.093V3.0281H38.8912Z" fill="#004999"/>
+<path d="M29.8402 39.4847C29.8402 39.1162 29.8079 38.5154 29.8402 37.9173C29.9584 35.8906 31.4203 34.4032 33.4654 34.3712C39.5575 34.2831 44.8489 32.2697 49.3206 28.1122C50.6965 26.8305 52.4379 26.94 53.9213 28.3044C57.2559 31.4362 61.4891 33.4586 66.0331 34.0908C67.1591 34.2537 68.3012 34.2938 69.4379 34.3578C71.6792 34.47 73.2405 35.976 73.1626 38.219C72.6628 52.9747 66.0008 64.1006 53.1769 71.5968C52.0348 72.2617 50.8873 72.211 49.7452 71.5514C38.5391 65.0735 31.9578 55.4954 30.1572 42.713C30.0175 41.709 29.9638 40.7103 29.8402 39.4847ZM33.2342 42.0454C33.209 42.1848 33.1938 42.3258 33.1886 42.4673C33.1903 42.6666 33.2055 42.8655 33.2342 43.0628C35.1154 54.3205 40.9549 62.8866 50.8631 68.6729C51.0696 68.7724 51.2961 68.8241 51.5256 68.8241C51.7551 68.8241 51.9815 68.7724 52.188 68.6729C54.1632 67.3645 56.1921 66.1015 57.9846 64.5688C59.8361 62.9667 61.4378 61.0975 63.2168 59.2791C62.7331 58.98 62.5127 58.8358 62.2843 58.705L47.6732 50.3258C46.867 49.8585 46.0286 49.4233 45.2546 48.8972C44.5532 48.4139 44.4136 47.6876 44.8382 46.9586C45.2628 46.2297 45.9372 46.0187 46.7381 46.3578C46.9811 46.47 47.2172 46.5966 47.4449 46.737L58.2318 52.9186L64.6814 56.6169C64.8157 56.5181 64.8856 56.4914 64.9179 56.438C65.097 56.1585 65.269 55.8728 65.4338 55.5808C68.382 50.4794 70.0022 44.7274 70.1474 38.8465C70.1904 37.466 70.1259 37.3939 68.7016 37.3458C62.7008 37.1482 57.3826 35.1669 52.7792 31.3191C52.3519 30.964 51.9327 30.5955 51.5377 30.251C51.4448 30.2937 51.355 30.3428 51.2689 30.3979C46.3672 34.9186 40.5653 37.2123 33.8873 37.3805C33.546 37.3805 33.2128 37.757 32.8742 37.9573C33.1133 38.2243 33.3014 38.5982 33.6024 38.7744C35.9431 40.1442 38.2945 41.4633 40.6405 42.8331C41.5058 43.3405 41.7369 44.2137 41.2881 44.9693C40.8394 45.725 40.0386 45.8772 39.1786 45.442C38.6116 45.1562 38.0688 44.8225 37.5179 44.5074L33.2342 42.0454Z" fill="#E33C5C"/>
+</g>
+<defs>
+<clipPath id="clip0_418_2015">
+<rect width="103" height="90" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+
+                                    <!-- <img src="{{ asset('assets/services/marketing-research.svg') }}"> -->
+                              </div>
+                              <h5>Safeguard Your Business Prestige</h5>
+                              <p>In order to develop a successful product, we must first learn everything we can about your product and your target market.  In some cases, we may even conduct focus groups or surveys with your potential customers to get a sense of what they’re looking for in a new product.
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                   <svg width="135" height="122" viewBox="0 0 135 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_419_2019)">
+<path d="M0 62.0998C0.0921856 62.0135 0.169578 61.9123 0.229001 61.8004C1.70512 57.3484 5.02726 55.2988 9.59302 56.0723C10.9282 56.3004 12.2423 56.6319 13.4401 56.8886C13.6867 53.481 13.6938 50.0448 14.2187 46.6907C17.0828 28.4622 26.7146 14.9672 42.7159 6.28782C55.0463 -0.399068 68.1588 -1.64662 81.68 2.0497C82.4461 2.27857 83.1013 2.78652 83.5189 3.47548C83.7585 3.92816 83.5189 5.04739 83.1173 5.3575C82.7931 5.58512 82.4277 5.74574 82.042 5.83015C81.6563 5.91457 81.2579 5.9211 80.8697 5.84939C76.7005 4.75155 72.4169 4.16044 68.1095 4.08855C56.1032 4.0137 45.4321 7.81339 36.0505 15.3843C35.8461 15.5482 35.6665 15.7407 35.3459 16.0472C36.2196 16.1756 36.97 16.2647 37.7098 16.4037C40.5881 16.9241 42.3672 18.7063 42.9414 21.5293C44.0696 26.998 43.7783 32.6691 42.0959 37.9899C41.2363 40.7381 39.5946 42.4383 36.5296 42.8946C34.2327 43.251 31.9815 44.1849 29.836 45.1437C28.0217 45.9493 27.842 46.7228 28.92 48.3517C30.2558 50.4271 31.732 52.4066 33.3378 54.2758C34.5004 55.5947 34.9795 55.4343 36.2654 54.2046C38.0697 52.4155 40.4238 51.3038 42.9379 51.0536C47.5565 50.5866 50.8258 53.4738 50.8469 58.1825C50.7911 59.4814 50.663 60.7762 50.4629 62.0606C53.7604 61.3477 57.065 60.4708 60.4224 59.9219C66.8702 58.9237 73.4511 59.2596 79.7669 60.9093C80.7992 61.1695 81.4827 61.116 82.0252 60.1108C82.3352 59.5334 82.8848 59.095 83.2477 58.5425C84.8436 56.1115 87.2039 55.06 89.9413 54.896C93.9751 54.6608 98.0194 54.5931 102.053 54.4006C103.189 54.3332 104.317 54.1687 105.425 53.9087C106.464 53.6734 106.975 52.9107 106.816 51.8199C106.738 51.0269 106.561 50.2472 106.288 49.4995C104.981 46.4448 103.614 43.4186 102.243 40.3924C101.989 39.9268 101.701 39.4811 101.38 39.0593C100.884 39.3444 100.433 39.5832 99.9994 39.8506C98.2068 40.9892 96.1267 41.5785 94.0103 41.5472C91.6746 41.508 91.1391 41.9251 90.7199 44.2455C90.3358 46.3664 89.1591 47.7636 87.3307 48.7011C84.4831 50.112 81.3859 50.9336 78.2204 51.1177C75.3245 51.3352 73.2495 50.0199 71.717 47.6353C70.0048 44.9762 69.124 42.007 68.6625 38.9096C67.9579 34.176 68.2363 29.5921 71.0511 25.4823C74.2605 20.7879 79.3794 18.8881 84.7907 20.4743C85.4037 20.6714 86.0592 20.69 86.6822 20.528C87.3052 20.366 87.8705 20.03 88.3136 19.5582C90.5965 17.3091 92.7526 14.9244 95.1447 12.4044C93.2 11.2994 91.6217 10.3762 90.0047 9.48155C88.5955 8.69381 88.1058 7.59596 88.7153 6.48029C89.3248 5.36462 90.4169 5.16858 91.8191 5.93137C108.789 15.1312 118.615 29.3604 121.06 48.7046C121.412 51.3851 121.363 54.1119 121.507 56.9028C122.479 56.6818 123.529 56.4608 124.572 56.1899C131.146 54.5503 136.469 59.3623 134.641 66.9866C133.284 72.6469 130.371 77.1595 125.689 80.4958C125.315 80.7354 125.002 81.0606 124.776 81.4451C124.549 81.8297 124.416 82.2628 124.385 82.7093C123.247 91.4458 118.502 97.4269 110.526 100.827C109.737 101.162 109.399 101.59 109.046 102.414C108.423 103.879 107.616 105.447 106.453 106.463C101.472 110.819 95.5851 112.234 89.1239 111.264C88.1798 111.121 87.5246 111.243 86.7918 111.952C82.4476 116.132 77.2655 119.317 71.5972 121.291C67.9333 122.61 64.4386 121.883 60.9896 120.346C56.1631 118.208 51.7347 115.445 47.9546 111.692C47.2887 111.025 46.6581 111.168 45.9183 111.275C39.503 112.216 33.7112 110.769 28.6558 106.609C27.2733 105.556 26.3057 104.04 25.9255 102.332C25.8821 101.988 25.7371 101.666 25.5095 101.408C25.2818 101.15 24.9823 100.967 24.6502 100.884C21.0433 99.5424 17.8632 97.2365 15.4482 94.2118C14.2962 92.8038 14.2292 91.6882 15.2192 90.8363C16.2091 89.9844 17.333 90.2517 18.4603 91.6276C20.5126 94.1791 23.2108 96.1194 26.2672 97.2416C27.9371 94.3615 30.5899 92.6648 33.4787 91.2997C34.2538 90.9432 34.1058 90.4763 33.8944 89.9131C31.5622 83.6896 27.2924 79.6546 20.8595 78.0898C20.0884 77.9129 19.3031 77.8067 18.5132 77.7726C16.0718 77.6514 14.4442 79.3124 14.5358 81.8111C14.5569 82.385 14.6943 82.9553 14.7331 83.5292C14.7824 84.0441 14.6379 84.5589 14.3283 84.9706C14.0186 85.3823 13.5668 85.6606 13.0631 85.7498C12.052 85.9245 10.8719 85.2294 10.886 84.128C10.9106 81.8468 9.60715 80.6883 7.99363 79.4051C3.76607 76.0367 1.20487 71.5634 0.281854 66.1668C0.213848 65.8672 0.127972 65.572 0.0246848 65.2828L0 62.0998ZM98.0934 14.6928C97.5614 15.3593 97.1845 15.9082 96.7336 16.3859C94.6198 18.6243 92.5976 20.9947 90.2971 23.0229C89.3962 23.8598 88.2795 24.4215 87.0762 24.6429C85.8729 24.8643 84.6322 24.7364 83.4978 24.274C82.9164 24.0724 82.3083 23.9606 81.694 23.9425C77.639 23.725 73.8449 26.5766 72.862 31.025C72.3652 33.267 72.4145 35.698 72.5836 38.0149C72.7599 40.6889 73.6088 43.2729 75.0497 45.5216C75.7825 46.6515 76.7337 47.3929 78.1182 47.1184C80.1791 46.7085 82.2295 46.2523 84.2622 45.7176C85.8088 45.3148 86.6967 44.3631 87.056 42.6237C87.7254 39.3622 89.8427 37.6335 93.1261 37.6085C95.1907 37.5958 97.2104 36.9982 98.9565 35.8833C101.313 34.4576 103.448 34.8425 104.879 37.2164C107.39 41.3904 109.596 45.7711 110.646 50.5795C111.35 53.8303 110.022 56.4323 107.179 57.5159C105.905 57.9951 104.566 58.2775 103.209 58.3536C99.5695 58.5496 95.9197 58.6138 92.2876 58.6743C89.2649 58.7278 86.6508 59.4657 85.3368 62.6238L87.6901 63.7145C92.4461 65.8995 94.7185 69.6279 94.6374 74.9139C94.5705 79.3124 94.6374 83.7181 94.6374 88.1023C94.6374 88.5693 94.6867 89.0362 94.7114 89.4889C95.2293 89.5495 95.578 89.578 95.9233 89.6279C96.2685 89.6778 96.5997 89.742 96.9802 89.8061C97.0999 89.5032 97.2126 89.2679 97.2901 89.022C98.8367 84.1423 101.803 80.3497 105.893 77.3805C106.418 76.9793 106.772 76.3923 106.887 75.7373C107.662 68.8152 110.952 63.4614 116.54 59.4692C116.97 59.1388 117.254 58.6492 117.329 58.1076C118.111 44.8051 114.419 32.9249 106.122 22.5488C103.763 19.6158 101.068 16.9763 98.0934 14.6856V14.6928ZM40.4049 89.4497V87.9812C40.4049 83.3474 40.4049 78.7314 40.4049 74.1084C40.3827 72.547 40.6905 70.999 41.3078 69.5678C41.9251 68.1367 42.8376 66.8556 43.9842 65.8104C46.4714 63.465 46.9611 60.4245 46.7532 57.1951C46.6722 55.9547 45.8338 55.3238 44.6747 55.1349C43.6722 54.9407 42.637 55.0127 41.6701 55.3438C40.7033 55.6749 39.8377 56.2538 39.1578 57.024C36.3394 60.1714 33.2251 59.6154 30.4948 57.1488C27.9266 54.8283 26.1263 51.934 24.6819 48.8187C24.2505 47.9767 24.1011 47.0157 24.2561 46.0804C24.4111 45.1451 24.8622 44.286 25.5415 43.6324C26.5208 42.5579 27.7 41.6895 29.0116 41.0767C31.2424 40.1649 33.5467 39.4493 35.899 38.9381C37.1814 38.6458 37.9106 38.1218 38.3052 36.8885C39.7448 32.2912 40.0317 27.4038 39.1401 22.6664C38.8407 20.9733 38.0233 20.2711 36.3218 20.2675C34.6558 20.2896 32.9935 20.4313 31.3473 20.6917C30.7643 20.8005 30.2338 21.1028 29.8395 21.5507C20.9334 32.073 16.8938 44.255 17.7205 58.0969C17.7526 58.3653 17.8366 58.6246 17.9678 58.8601C18.0989 59.0955 18.2747 59.3025 18.485 59.4692C24.0759 63.4578 27.3734 68.8045 28.152 75.7266C28.2658 76.3858 28.6189 76.9782 29.1419 77.3876C33.2286 80.3604 36.1879 84.1601 37.7521 89.0255C37.8588 89.2941 37.9835 89.5549 38.1255 89.8061L40.4049 89.4497ZM44.3612 84.6306C44.3612 87.8386 44.3858 91.0466 44.3612 94.2296C44.2776 98.4882 45.6544 102.645 48.2576 105.992C52.6754 111.777 58.601 115.367 65.3334 117.694C67.0385 118.286 68.8071 118.09 70.5051 117.466C74.8541 115.892 78.898 113.561 82.455 110.58C87.9508 105.946 90.9946 100.179 90.7128 92.7112C90.4944 86.8976 90.5684 81.0662 90.7128 75.2454C90.8079 71.2818 89.2015 68.694 85.6257 67.1042C81.0745 65.0869 76.2128 63.881 71.2555 63.5398C63.3746 62.9695 55.7544 64.021 48.5676 67.5355C45.6928 68.9399 44.34 71.2568 44.3717 74.4719C44.3823 77.8582 44.3612 81.2515 44.3612 84.6306ZM100.848 90.9396C104.019 92.5116 106.982 94.1476 108.803 97.3556C115.367 94.4114 119.534 89.6636 120.457 82.36C120.831 79.4194 119.115 77.6265 116.254 77.8154C113.339 77.999 110.533 79.0027 108.151 80.7133C104.607 83.2226 102.057 86.5055 100.848 90.9396ZM23.8928 74.7571C23.1882 67.4536 15.8428 60.4993 8.45511 59.9718C5.31263 59.7473 3.5864 61.6328 4.03029 64.8088C4.08666 65.2044 4.14653 65.5965 4.22756 65.9886C5.18933 70.7792 7.72939 74.4898 11.6786 77.3306C14.9902 72.704 19.3446 73.4953 23.8998 74.7571H23.8928ZM111.047 74.782C115.648 73.4739 120.042 72.7075 123.339 77.3342C127.524 74.2652 130.131 70.3015 130.917 65.1474C131.47 61.5116 129.694 59.5869 126.101 60.0075C118.773 60.8701 112.323 67.1078 111.065 74.782H111.047ZM90.9383 107.482C95.9797 107.956 100.559 106.63 104.378 103.03C105.036 102.411 105.424 101.554 105.458 100.646C105.492 99.7387 105.17 98.8541 104.562 98.1861C101.898 95.413 98.5726 93.9801 94.8875 93.5524C94.5071 96.0118 94.3661 98.4321 93.7214 100.703C93.0767 102.973 91.9071 105.194 90.9453 107.482H90.9383ZM40.4084 93.5417C37.0664 93.8188 33.8912 95.1362 31.3192 97.3129C28.9975 99.2305 29.0328 101.79 31.3791 103.729C33.3203 105.344 35.5999 106.49 38.0445 107.079C40.1092 107.611 42.2585 107.718 44.3647 107.393C41.5978 103.331 40.2094 98.4705 40.4084 93.5417Z" fill="#004999"/>
+<path d="M49.5046 85.1295C49.5046 81.7504 49.5751 78.3571 49.4729 74.9958C49.4271 73.3597 50.0754 72.4544 51.5022 71.8306C57.4207 69.2321 63.6106 68.2662 70.0153 68.6476C74.4933 68.8865 78.8996 69.8854 83.0503 71.6025C84.8118 72.3403 85.6009 73.3669 85.5622 75.4022C85.4377 81.5805 85.4318 87.7589 85.5446 93.9372C85.6185 97.9579 84.2269 101.319 81.6129 104.217C78.0441 108.181 73.5947 110.808 68.6555 112.604C67.9085 112.854 67.102 112.854 66.355 112.604C61.5814 110.883 57.2833 108.327 53.7533 104.609C50.9103 101.597 49.3073 98.0827 49.4799 93.7982C49.5997 90.911 49.5046 88.0167 49.5046 85.1295ZM53.4609 85.9814C53.4609 88.694 53.5279 91.4065 53.4398 94.1119C53.3564 96.6257 54.226 99.0766 55.8706 100.963C58.851 104.574 62.7193 106.873 66.9715 108.584C67.3306 108.712 67.7222 108.712 68.0812 108.584C72.0093 107.029 75.5887 104.905 78.4845 101.758C80.246 99.8328 81.5601 97.6514 81.5601 94.8889C81.5601 88.7118 81.5601 82.5346 81.5812 76.3539C81.6184 76.0326 81.5362 75.7087 81.3506 75.4453C81.1651 75.1818 80.8894 74.9975 80.5771 74.9281C72.1326 71.7752 62.8532 71.7752 54.4086 74.9281C53.6653 75.199 53.4327 75.616 53.4433 76.3966C53.482 79.5833 53.4609 82.7841 53.4609 85.9814Z" fill="#E33C5C"/>
+<path d="M64.28 91.0856L72.0658 83.1797C72.3609 82.8507 72.6787 82.5434 73.0169 82.2601C73.9082 81.5864 74.8312 81.5828 75.6345 82.3777C76.4377 83.1726 76.4483 84.1314 75.779 85.0225C75.3546 85.5287 74.8967 86.005 74.4085 86.4483C71.7099 89.181 69.009 91.9137 66.3057 94.6465C64.8965 96.0723 64.0263 96.0723 62.6277 94.6679C61.7223 93.7661 60.7993 92.8857 59.9362 91.9304C59.0731 90.9751 59.1083 89.8701 59.9045 89.0788C60.7007 88.2875 61.821 88.2697 62.7228 89.1466C63.2778 89.7625 63.7977 90.4099 64.28 91.0856Z" fill="#E33C5C"/>
+</g>
+<defs>
+<clipPath id="clip0_419_2019">
+<rect width="135" height="122" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+                                   </div>
+                              <h5>Secured Environment For Remote Working</h5>
+                              <p>
+                              The second stage of any project is establishing a solid concept, which comes in many forms. Whether it’s a written brief or verbal discussion with your client. This will also allow you to get an idea of what your clients are looking for and what their true needs and wants 
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <svg width="98" height="91" viewBox="0 0 98 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_420_2032)">
+<path d="M24.9294 41.3046C24.9294 38.6864 24.9294 36.0683 24.9294 33.4502C24.9294 32.5065 25.3928 31.9969 26.3169 31.9106C34.1594 31.1974 41.8294 29.1639 49.0107 25.8939C49.6312 25.6108 50.1811 25.6444 50.7842 25.9195C57.0766 28.7767 63.7463 30.6914 70.5834 31.6033C71.4795 31.7259 72.3823 31.819 73.2837 31.9053C74.3489 32.0077 74.7989 32.4593 74.8002 33.523C74.8002 38.3117 74.8388 43.0949 74.7896 47.8889C74.6351 62.9599 64.9499 76.0113 50.7017 80.4224C50.1578 80.6044 49.5701 80.6016 49.028 80.4143C36.9958 76.4013 29.3007 68.2127 25.9427 55.8484C25.1931 53.0981 24.9281 50.267 24.9294 47.4144V41.3046ZM27.5818 34.4924V35.0316C27.5818 39.2823 27.5352 43.5344 27.6084 47.7837C27.639 49.5876 27.7655 51.4237 28.1157 53.1763C30.535 65.3717 37.6291 73.4875 49.1864 77.6223C49.6377 77.7652 50.1213 77.7652 50.5725 77.6223C63.444 73.3675 71.9948 61.5793 72.1426 47.8862C72.1879 43.591 72.1533 39.2945 72.1519 34.9993C72.1519 34.828 72.1213 34.6568 72.104 34.4775C71.5541 34.4155 71.0495 34.367 70.5462 34.3009C63.6371 33.3774 56.965 31.5763 50.5739 28.7452C50.3595 28.6434 50.126 28.5892 49.8892 28.5865C49.6524 28.5837 49.4178 28.6323 49.2011 28.729C46.3091 29.8183 43.4291 30.9521 40.4892 31.8945C36.3123 33.2332 32.0063 33.9949 27.5818 34.4924Z" fill="#E33C5C"/>
+<path d="M56.0183 46.7025C55.5456 46.2509 55.0277 45.7656 54.523 45.2668C54.0916 44.8407 53.9106 44.3379 54.1569 43.7447C54.4032 43.1515 54.8892 42.9008 55.5283 42.9035C58.3804 42.9116 61.2311 42.9035 64.0831 42.9035C65.0884 42.9035 65.5824 43.4104 65.585 44.4377C65.585 47.3025 65.585 50.1673 65.585 53.0321C65.585 53.6752 65.3787 54.1767 64.7861 54.4503C64.151 54.7429 63.6251 54.5137 63.175 54.0351C62.705 53.5363 62.243 53.0321 61.6372 52.3877C61.4308 52.6856 61.3163 52.9121 61.1485 53.0833C58.2192 56.0636 55.282 59.0403 52.3368 62.0135C51.3874 62.972 50.7749 62.9666 49.8069 61.9946L44.6448 56.7638C44.4583 56.9377 44.2813 57.0914 44.1122 57.2572C42.2978 59.0907 40.4838 60.9255 38.6704 62.7617C37.8116 63.6285 37.1525 63.6272 36.2924 62.7617C35.1952 61.6571 34.1011 60.5494 33.0102 59.4385C32.1927 58.6053 32.182 57.9461 32.9863 57.1305C36.4845 53.5821 39.9859 50.037 43.4904 46.4949C44.2893 45.6941 44.955 45.7049 45.7712 46.5259C47.5194 48.2974 49.261 50.077 50.9879 51.8336L56.0183 46.7025ZM58.7558 45.624C59.5055 46.867 59.4615 47.2094 58.4376 48.2462C56.3747 50.3349 54.3114 52.4227 52.2476 54.5097C51.4127 55.3509 50.7576 55.3509 49.9188 54.5097C48.321 52.9 46.7267 51.2871 45.1361 49.6712C44.9723 49.5053 44.7979 49.349 44.6847 49.2411L35.7451 58.2616L37.6491 60.1867C37.7687 59.9869 37.9046 59.7975 38.0552 59.6205C39.8767 57.7637 41.7039 55.9122 43.537 54.0661C44.2919 53.3058 44.9696 53.3085 45.7272 54.0661C46.9211 55.2606 48.1084 56.4631 49.289 57.6738C49.8735 58.2737 50.4314 58.9019 51.0199 59.5356C51.2862 59.2848 51.4433 59.1311 51.5978 58.9788L60.319 50.1524C61.3429 49.1157 61.6771 49.0739 62.8914 49.8235V45.6308L58.7558 45.624Z" fill="#E33C5C"/>
+<path d="M48.9747 90.9987H5.06367C1.5339 90.9987 0.00402832 89.4294 0.00402832 85.8258C0.00402832 58.9231 0.00402832 32.0208 0.00402832 5.11893C0.00402832 1.55308 1.55389 -0.00402832 5.11295 -0.00402832H92.9351C96.4675 -0.00402832 97.9947 1.56252 97.9947 5.16612C97.9947 32.0671 97.9947 58.9689 97.9947 85.8717C97.9947 89.4375 96.4395 90.9946 92.8818 90.9946L48.9747 90.9987ZM49.0027 86.5606H91.8393C93.6102 86.5606 93.6141 86.5606 93.6141 84.7581C93.6141 64.0586 93.6141 43.3592 93.6141 22.6597C93.6141 20.9179 93.6141 20.9152 91.9165 20.9071C81.9303 20.9071 71.9442 20.8909 61.9674 20.9233C60.4562 20.9233 59.4895 20.384 58.9489 18.9253C58.375 17.3817 57.6547 15.8947 57.0489 14.3632C56.5961 13.2199 55.8585 12.6537 54.6016 12.6659C50.8628 12.7009 47.124 12.7009 43.3852 12.6659C42.1868 12.6564 41.4385 13.166 40.9885 14.2648C40.3853 15.7477 39.6663 17.201 39.1377 18.7137C38.5545 20.3813 37.4773 20.9381 35.7717 20.93C25.9094 20.8774 16.0444 20.9044 6.18078 20.9044C4.38061 20.9044 4.37664 20.9044 4.37664 22.657C4.37664 43.3565 4.37664 64.0559 4.37664 84.7554C4.37664 86.543 4.37663 86.5457 6.16348 86.5457L49.0027 86.5606ZM78.0051 16.4569C82.7758 16.4569 87.5478 16.4366 92.3186 16.4744C93.3079 16.4744 93.6501 16.1373 93.6301 15.1438C93.5848 12.2857 93.6154 9.42762 93.6141 6.56954C93.6141 4.44351 93.6141 4.44351 91.5623 4.44351H6.39516C6.11688 4.44351 5.83726 4.46508 5.56031 4.44351C4.6842 4.36667 4.36199 4.76707 4.37264 5.64607C4.40193 8.86724 4.40193 12.088 4.37264 15.3082C4.36332 16.2277 4.75877 16.504 5.59893 16.469C6.63083 16.4272 7.66674 16.4609 8.69997 16.4609C17.0497 16.4609 25.3994 16.4312 33.7492 16.4919C34.9901 16.5013 35.6586 16.132 36.026 14.9456C36.3216 13.9898 36.7584 13.0744 37.1844 12.1671C38.3455 9.68781 40.2908 8.29922 43.003 8.25743C46.9788 8.18732 50.9551 8.18732 54.9318 8.25743C57.7359 8.30326 59.7544 9.68646 60.8929 12.314C61.3243 13.3089 61.7983 14.2904 62.1405 15.3163C62.4507 16.2479 63.0086 16.4933 63.9313 16.4852C68.6235 16.4366 73.3156 16.4569 78.0078 16.4569H78.0051Z" fill="#004999"/>
+<path d="M31.5948 12.6577C31.3167 12.6719 31.0381 12.6719 30.76 12.6577C29.4285 12.5229 28.5058 11.6061 28.5098 10.4373C28.5098 9.20779 29.4751 8.30589 30.8825 8.24118C31.4377 8.21557 31.9969 8.21287 32.5508 8.24118C33.8823 8.31398 34.825 9.19702 34.8503 10.3807C34.8756 11.5644 34.0048 12.5013 32.6667 12.651C32.3119 12.671 31.9563 12.671 31.6015 12.651L31.5948 12.6577Z" fill="#E33C5C"/>
+<path d="M13.4001 8.23315C15.4213 8.23315 16.4865 8.96924 16.5331 10.3902C16.581 11.8543 15.4546 12.6686 13.3908 12.682C12.4242 12.682 11.4628 12.6821 10.7465 11.8813C9.75185 10.7677 10.2299 8.94632 11.6346 8.4111C12.2125 8.18866 12.8076 8.24394 13.4001 8.23315Z" fill="#E33C5C"/>
+<path d="M22.4755 12.6712C22.2372 12.6712 21.9988 12.6834 21.7618 12.6712C20.3558 12.589 19.3878 11.7087 19.3651 10.4953C19.3358 9.23481 20.3371 8.2965 21.7964 8.23583C22.3104 8.21561 22.8283 8.21157 23.3436 8.23583C24.7457 8.31403 25.6977 9.22941 25.6764 10.4549C25.6551 11.6803 24.723 12.5742 23.3143 12.6645C23.0387 12.682 22.7538 12.6699 22.4755 12.6712Z" fill="#E33C5C"/>
+</g>
+<defs>
+<clipPath id="clip0_420_2032">
+<rect width="98" height="91" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+
+
+                                    <!-- <img src="{{ asset('assets/services/marketing-research.svg') }}"> -->
+                              </div>
+                              <h5>Increases Your Website or Application Security</h5>
+                              <p>
+                               system that can be accessed remotely. From personal files on your computer and tablet to information about your business that’s stored on servers or through cloud services. With cyber security, you can protect your own resources from these threats—and from any unauthorized user who might attempt unauthorized access. 
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <svg width="83" height="80" viewBox="0 0 83 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 17.0335C0.53335 15.2426 1.52207 13.8586 3.34213 13.1827C6.32222 12.0763 9.50364 13.6925 10.1523 16.8127C10.8957 20.3886 11.4584 24.0026 12.1011 27.5992C12.2184 28.2578 12.3417 28.9151 12.4697 29.6138C15.0571 28.6916 17.0579 29.5137 18.8873 31.388C23.2447 35.8521 27.6669 40.2542 32.1083 44.6355C34.6851 47.1779 35.9531 50.2033 35.9085 53.8153C35.8778 56.4771 35.9024 59.1389 35.9024 61.9174C36.3145 61.9174 36.6805 61.9074 37.0452 61.9174C37.9332 61.9461 38.4499 62.3672 38.4612 63.232C38.4959 65.787 38.5092 68.344 38.4412 70.8983C38.4299 71.3127 38.0452 71.8465 37.6779 72.0868C37.2998 72.333 37.1825 72.5405 37.1865 72.9509C37.2018 74.6998 37.1972 76.4488 37.1912 78.1977C37.1865 79.5856 36.7825 79.9994 35.4298 79.9994C27.9833 79.9994 20.5375 79.9994 13.0924 79.9994C11.8117 79.9994 11.3924 79.5916 11.3864 78.3211C11.377 76.3313 11.3864 74.3415 11.3864 72.301C10.2923 72.1061 10.071 71.3628 10.0857 70.3932C10.119 68.2145 10.0943 66.0352 10.0963 63.8539C10.0963 62.2437 10.4043 61.9388 12.0297 61.9147C12.2144 61.9147 12.3991 61.8921 12.6691 61.874C12.6691 60.4614 12.6891 59.0681 12.6517 57.6762C12.6444 57.4093 12.4337 57.137 12.2744 56.8955C10.6904 54.4933 9.19295 52.029 7.48223 49.7229C5.43483 46.963 4.39948 43.9035 3.85946 40.5431C2.71143 33.4079 1.39273 26.2994 0.142029 19.1808C0.119362 19.0527 0.0486682 18.9326 0 18.8092V17.0335ZM33.3244 61.8747C33.3244 59.1068 33.3057 56.4197 33.3297 53.7339C33.3544 50.8906 32.3577 48.5084 30.3296 46.5079C26.9215 43.1475 23.5581 39.7417 20.1746 36.3559C18.9013 35.0814 17.6479 33.7856 16.3458 32.5411C14.8678 31.1271 12.5737 31.7204 12.029 33.6394C11.7284 34.7018 12.0871 35.5746 12.8537 36.3406C16.073 39.548 19.2848 42.7629 22.4894 45.9855C23.2081 46.7068 23.2841 47.4655 22.7254 48.0333C22.1667 48.6012 21.392 48.5325 20.6787 47.8211C17.4235 44.5715 14.1736 41.3172 10.929 38.0582C9.2623 36.378 8.92895 34.1819 9.92898 32.038C10.0557 31.7657 10.1456 31.4167 10.0963 31.1298C9.32962 26.6813 8.54694 22.2361 7.74825 17.7942C7.45624 16.1514 6.18354 15.1685 4.74816 15.4588C3.18145 15.7737 2.38675 17.0409 2.68143 18.7191C3.94814 25.917 5.26286 33.1063 6.44489 40.3176C6.91157 43.1595 7.78424 45.7412 9.49762 48.0934C11.3477 50.6331 13.0238 53.2982 14.7218 55.9473C15.0338 56.4337 15.2058 57.0816 15.2365 57.6648C15.3098 59.0521 15.2605 60.4454 15.2605 61.8767L33.3244 61.8747ZM12.7384 64.5438V69.6225H35.8438V64.5438H12.7384ZM14.0111 77.3556H34.5671V72.305H14.0111V77.3556Z" fill="#004999"/>
+<path d="M46.6841 61.9167C46.6841 59.2662 46.7394 56.7379 46.6707 54.2122C46.5647 50.326 47.9135 47.1204 50.7055 44.4032C55.115 40.1073 59.4651 35.7506 63.7559 31.3332C65.568 29.4789 67.5561 28.6908 70.1262 29.6137C70.5728 27.0947 71.0155 24.6131 71.4529 22.1308C71.7422 20.4906 72.0009 18.8444 72.3155 17.2089C72.8236 14.5738 74.8396 12.8389 77.345 12.8342C79.9138 12.8296 82.1112 14.5358 82.4739 17.0641C82.6332 18.1718 82.4125 19.3616 82.2172 20.4893C80.9198 27.9795 79.5724 35.4617 78.2637 42.9499C77.9673 44.7029 77.3039 46.3734 76.317 47.8517C74.3036 50.8692 72.2935 53.8893 70.3128 56.9267C70.0792 57.3075 69.9472 57.742 69.9295 58.1886C69.8788 59.3897 69.9122 60.6014 69.9122 61.92C70.3655 61.92 70.7575 61.9046 71.1482 61.92C71.9435 61.958 72.4555 62.3797 72.4649 63.1525C72.4975 65.7609 72.4862 68.3699 72.4762 70.9783C72.4729 71.7543 71.9429 72.1 71.2022 72.3182C71.2022 74.294 71.2115 76.2772 71.1935 78.257C71.1935 78.6233 71.2008 79.1118 70.9868 79.3246C70.6622 79.6483 70.1481 79.9646 69.7128 79.9666C62.1072 80.0046 54.5023 79.9973 46.8968 79.9906C45.8714 79.9906 45.4094 79.5048 45.3987 78.4211C45.382 76.6195 45.3874 74.8178 45.3987 73.0162C45.3987 72.5958 45.3447 72.3369 44.898 72.0726C44.518 71.8471 44.154 71.2479 44.1413 70.8048C44.0693 68.3359 44.0907 65.8563 44.1133 63.382C44.122 62.3717 44.6107 61.936 45.6307 61.914C45.9467 61.9113 46.2634 61.9167 46.6841 61.9167ZM49.3775 61.8746H67.3307C67.3307 60.4159 67.288 58.9953 67.352 57.58C67.3767 57.0462 67.5374 56.4536 67.8248 56.0106C69.9028 52.8076 72.0869 49.6754 74.1089 46.4398C74.8183 45.3054 75.3996 43.9869 75.6423 42.6783C77.1217 34.727 78.4877 26.755 79.8891 18.7897C80.1931 17.0641 79.3558 15.7469 77.7964 15.47C76.3703 15.2171 75.123 16.22 74.8303 17.8635C74.0449 22.2818 73.2645 26.7008 72.4889 31.1204C72.4485 31.3794 72.4806 31.6445 72.5815 31.8864C73.6982 34.4574 73.3516 36.3719 71.3815 38.3443C68.2845 41.4472 65.1862 44.5483 62.0866 47.6475C61.8972 47.837 61.7152 48.0479 61.4912 48.186C60.9259 48.5357 60.3532 48.5197 59.8725 48.0339C59.3918 47.5481 59.3638 46.9789 59.7258 46.4157C59.8832 46.1709 60.1138 45.9713 60.3225 45.7625C63.4953 42.5836 66.678 39.4146 69.8381 36.2204C70.9268 35.1207 70.9368 33.5693 69.9281 32.5337C68.8881 31.466 67.3321 31.48 66.1847 32.5884C65.4107 33.3357 64.6613 34.1078 63.9006 34.8685C60.004 38.7685 56.1059 42.667 52.2063 46.5639C50.7109 48.0512 49.5275 49.7775 49.4208 51.8801C49.2548 55.1785 49.3775 58.4888 49.3775 61.8746ZM69.8448 69.6418V64.5484H46.7494V69.6418H69.8448ZM68.5781 72.2888H48.0288V77.3742H68.5768L68.5781 72.2888Z" fill="#004999"/>
+<path d="M59.2272 14.5878C59.2272 17.5445 59.4765 20.5266 59.1785 23.452C58.4245 30.8481 54.6637 36.4306 48.2915 40.2194C46.3087 41.3978 44.228 42.4107 42.2073 43.5271C41.5779 43.8747 41.0253 43.8781 40.3919 43.5271C38.4445 42.4454 36.4391 41.4652 34.5204 40.3355C27.1868 36.0148 23.3981 29.5643 23.2441 21.0511C23.1581 16.3188 23.2274 11.5837 23.2294 6.85006C23.2294 5.5155 23.6254 5.1098 24.9348 5.08311C30.4389 4.97234 35.5171 3.44626 40.1192 0.418146C40.9592 -0.135028 41.6266 -0.141025 42.4646 0.410148C47.1161 3.46962 52.2463 4.99502 57.8078 5.08844C58.9111 5.10713 59.3558 5.56288 59.3585 6.68258C59.3658 9.31833 59.3585 11.9541 59.3585 14.5898L59.2272 14.5878ZM56.7798 7.69417C56.5797 7.66614 56.4464 7.63945 56.3197 7.62744C51.0782 7.28512 46.2041 5.78508 41.7106 3.04056C41.4819 2.90043 40.9932 2.97784 40.7319 3.13332C37.9638 4.77616 35.0457 6.06534 31.903 6.75865C29.9203 7.19638 27.8975 7.45061 25.8361 7.79626C25.8308 7.87433 25.8101 8.03114 25.8101 8.18862C25.8101 12.6821 25.7175 17.1775 25.8415 21.6677C26.0075 27.6505 28.4195 32.6631 33.1877 36.2811C35.5878 38.0994 38.3792 39.3953 41.0133 40.8947C41.1999 41.0008 41.5773 40.9047 41.8046 40.7852C43.446 39.9264 45.098 39.0823 46.6974 38.1501C53.2836 34.3113 56.6537 28.5527 56.7684 20.931C56.8304 16.7885 56.7791 12.6447 56.7791 8.50091L56.7798 7.69417Z" fill="#004999"/>
+<path d="M28.3903 16.7672C28.3903 15.0196 28.3869 13.2713 28.3903 11.5237C28.3903 10.4407 28.6856 10.0243 29.7203 9.85547C33.517 9.25078 37.1841 8.00696 40.566 6.17676C41.1933 5.83778 41.744 6.01595 42.316 6.32089C45.3201 7.92236 48.4909 9.07476 51.845 9.65729C54.2311 10.0717 54.223 10.2305 54.203 12.5806C54.1804 15.2965 54.2191 18.0123 54.1937 20.7275C54.1297 27.6227 51.0852 32.7496 45.0601 36.1083C44.0754 36.6561 43.0954 37.2186 42.0747 37.6924C41.6986 37.8672 41.116 37.9893 40.7913 37.8212C38.0579 36.4019 35.2358 35.108 33.0724 32.7945C30.143 29.6623 28.5656 25.9669 28.4056 21.685C28.3449 20.0475 28.3956 18.4053 28.3956 16.7652L28.3903 16.7672ZM30.9763 12.2744C30.9763 15.3892 30.935 18.4253 30.9877 21.4608C31.0463 24.8319 32.2257 27.8 34.3811 30.3943C36.1685 32.547 38.5812 33.7828 40.994 35.0273C41.1813 35.124 41.5193 35.066 41.7273 34.9605C42.6607 34.4888 43.5941 34.007 44.4894 33.4692C48.5189 31.0489 51.0023 27.5264 51.4536 22.8341C51.739 19.8753 51.5796 16.8739 51.6176 13.8925C51.6243 13.3587 51.6176 12.8295 51.6176 12.2657C48.1344 11.6245 44.7608 10.4877 41.5993 8.88992C41.4233 8.8005 41.116 8.82786 40.9326 8.92128C37.7863 10.4981 34.4351 11.6267 30.9763 12.2744Z" fill="#E33C5C"/>
+<path d="M39.4318 23.8757C41.1466 22.1594 42.7973 20.5072 44.448 18.8564C44.904 18.4 45.346 17.9282 45.8227 17.4951C46.4147 16.9613 47.1148 16.9573 47.6328 17.4518C48.1781 17.9723 48.1961 18.7029 47.6268 19.3202C47.0574 19.9374 46.4547 20.5046 45.866 21.0938C44.138 22.8247 42.4095 24.555 40.6805 26.2846C39.7865 27.1767 39.1652 27.1807 38.2805 26.3026C37.2138 25.2423 36.1471 24.1806 35.0904 23.107C34.4097 22.413 34.365 21.6863 34.9357 21.1211C35.4911 20.5706 36.2471 20.6234 36.9198 21.296C37.7545 22.1294 38.5671 22.9848 39.4318 23.8757Z" fill="#E33C5C"/>
+</svg>
+
+                              </div>
+                              <h5>Improves Firms Credibility</h5>
+                              <p>
+                              consumers are looking for ways to know that their personal information is safe. From credit card data and passwords to private medical records, people want assurance that their privacy and security will be safeguarded. In order to attract new customers or clients, many businesses have begun offering cyber security 
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <svg width="92" height="91" viewBox="0 0 92 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M71.2825 79.6523C71.2825 79.1159 71.2667 78.5767 71.2825 78.0432C71.3298 76.6809 71.4001 75.5193 69.8483 74.6015C68.1424 73.5933 67.8334 71.2436 68.6487 69.418C69.0428 68.5502 69.6977 67.8269 70.5222 67.3487C71.3467 66.8705 72.2998 66.6612 73.2488 66.7499C75.2078 66.937 76.8047 68.3812 77.2472 70.3652C77.6624 72.2252 76.7889 74.2688 75.0529 75.1808C74.4369 75.5042 74.2957 75.8634 74.3043 76.4858C74.3337 78.662 74.32 80.839 74.3136 83.0159C74.31 84.2155 73.7586 84.9089 72.8199 84.9239C71.8813 84.939 71.2925 84.2392 71.2839 83.0596C71.276 81.9231 71.2825 80.7873 71.2825 79.6523ZM72.7619 69.7686C72.3667 69.7824 71.9922 69.9488 71.7172 70.233C71.4423 70.5172 71.2882 70.8969 71.2875 71.2923C71.2938 71.6877 71.4536 72.0651 71.7332 72.3448C72.0128 72.6245 72.3901 72.7845 72.7855 72.7909C72.9893 72.79 73.1908 72.7483 73.3783 72.6684C73.5657 72.5885 73.7353 72.4719 73.8771 72.3256C74.0189 72.1793 74.1301 72.0061 74.2041 71.8162C74.278 71.6263 74.3133 71.4236 74.3079 71.2199C74.2882 70.8249 74.1161 70.453 73.8278 70.1823C73.5394 69.9116 73.1573 69.7633 72.7619 69.7686Z" fill="#004999"/>
+<path d="M59.151 54.8378L59.146 54.5718C59.146 54.6607 59.146 54.7496 59.146 54.8392L59.151 54.8378Z" fill="black"/>
+<path d="M54.784 87.9149H47.3264C49.5981 75.6471 51.8583 63.4424 54.1695 50.9638C55.8374 51.8013 57.3741 52.5613 58.8936 53.3558C59.0191 53.4217 59.1087 53.6555 59.1295 53.8412L59.0578 49.9119C54.7962 47.5772 50.0305 47.0989 45.4979 45.7889V45.2504C45.4979 44.618 45.4441 43.9798 45.5194 43.3574C45.5588 43.0369 45.7517 42.6404 46.0041 42.4554C50.7863 38.8989 53.1154 34.1377 53.0817 28.1985C53.0745 26.9129 53.0817 25.6279 53.0817 24.2684C53.5585 24.2684 53.9307 24.2742 54.3007 24.2684C55.4258 24.2483 56.0991 23.7493 56.0934 22.7626C56.0776 19.954 56.1845 17.126 55.8955 14.3418C55.1519 7.19145 48.9241 0.965416 41.759 0.22113C38.9122 -0.0742893 36.0224 0.00601688 33.1476 0.0217917C25.9295 0.0669651 19.5389 4.90194 17.4135 11.802C16.2884 15.4553 16.7681 19.1983 16.7172 22.9096C16.7065 23.7263 17.331 24.2003 18.1643 24.2591C18.6562 24.2942 19.1531 24.2656 19.7139 24.2656C19.7139 25.6093 19.7261 26.8354 19.7139 28.0615C19.6422 34.0761 21.9691 38.901 26.8388 42.474C27.0403 42.6217 27.264 42.8935 27.2762 43.1193C27.3264 44.0221 27.297 44.9292 27.297 45.8341C25.0439 46.374 22.902 46.9096 20.7493 47.3986C8.1675 50.251 0.00215123 60.4667 0 73.3741C0 78.9029 0 84.432 0 89.9613V90.9974H58.4282C57.7606 90.9372 56.8062 90.7106 55.983 89.9548C55.3922 89.4069 54.9754 88.6976 54.784 87.9149ZM47.5508 49.5383L43.6385 55.4108L39.0671 51.7604C39.9398 51.2262 40.7257 50.7436 41.513 50.2632C41.7819 50.099 42.0953 49.9836 42.3183 49.7727C43.9798 48.2039 45.7237 48.9381 47.5508 49.5383ZM37.0478 49.4322C36.5853 49.719 36.2303 49.7297 35.7571 49.4322C34.3717 48.5545 32.9533 47.7292 31.5471 46.8852C30.1847 46.0671 30.1847 46.0685 30.4256 44.3864C34.3989 45.8735 38.3816 45.8642 42.3563 44.3957C42.631 46.0628 42.631 46.0628 41.2571 46.8888C39.8559 47.7342 38.4375 48.5624 37.0478 49.4322ZM38.2826 56.4541C38.2733 56.9145 37.1145 57.5297 36.3315 57.4924C35.3455 57.4429 34.4972 56.8893 34.5258 56.3143C34.5832 55.167 35.6925 53.5938 36.4232 53.6204C37.2134 53.6498 38.3049 55.3126 38.2826 56.4541ZM19.4851 21.1988C19.7404 18.3916 19.6601 15.6253 20.294 13.0339C21.7425 7.11258 27.1608 3.07781 33.2495 3.04984C35.9923 3.03694 38.7616 2.93297 41.4743 3.24846C47.7789 3.98056 52.8041 9.59281 53.058 15.9508C53.1297 17.6767 53.068 19.4076 53.068 21.1601C50.7863 21.4698 48.9154 20.9858 47.5136 19.0721C46.377 17.5204 45.1243 16.0526 43.9146 14.5547C42.9185 13.3214 41.9949 13.3357 40.986 14.5891C40.2538 15.4991 39.5354 16.4197 38.7932 17.3218C36.9159 19.6034 34.4907 21.0289 31.56 21.1572C27.6584 21.3279 23.7439 21.1988 19.4851 21.1988ZM22.7543 29.003C22.7378 27.4628 22.7543 25.9198 22.7543 24.2706C24.4201 24.2706 26.0199 24.305 27.6175 24.2612C29.5063 24.2103 31.4231 24.2713 33.2746 23.9615C36.6104 23.403 39.2836 21.6061 41.3832 18.9588C41.6772 18.588 41.977 18.2216 42.2775 17.856C42.3147 17.8101 42.375 17.7842 42.5148 17.6824C43.5739 18.991 44.623 20.3161 45.7044 21.6139C46.8158 22.9469 48.2658 23.7357 50.0613 24.1451C49.9487 27.0003 50.3216 29.8097 49.5235 32.5724C47.6828 38.9462 41.2836 43.2707 34.9253 42.3959C27.8714 41.4164 22.8289 35.8737 22.7543 29.003ZM28.2392 48.7345C28.4106 48.6943 28.6415 48.6965 28.7857 48.7811C30.4034 49.7333 32.0089 50.7049 33.7414 51.746L29.165 55.4137L25.2211 49.496C26.2924 49.2221 27.2619 48.9661 28.2392 48.7345ZM18.2001 87.8948V72.3415C18.2001 72.1522 18.2001 71.9629 18.2001 71.7736C18.193 70.483 17.6688 69.7846 16.7015 69.7724C15.7341 69.7602 15.1691 70.4665 15.1684 71.7356C15.165 75.8098 15.165 79.8838 15.1684 83.9575V87.9012H3.0813C3.06552 87.6861 3.03609 87.4768 3.03609 87.266C3.03609 82.2761 2.99452 77.2862 3.04758 72.2963C3.14438 63.1391 9.18003 54.6113 17.7477 51.4391C18.008 51.3431 18.2776 51.2706 18.6627 51.1523C20.9344 63.4137 23.1946 75.6184 25.4699 87.9005L18.2001 87.8948ZM28.9807 87.9306C28.7935 87.9264 28.5002 87.509 28.45 87.2466C27.5537 82.5715 26.6758 77.8928 25.8162 73.2106C24.4504 65.8327 23.088 58.4544 21.7289 51.0756C21.6851 50.8383 21.6679 50.5966 21.8443 50.2152C22.0673 50.4504 22.3284 50.6597 22.5069 50.925C24.0558 53.2289 25.5903 55.5435 27.1278 57.8531C28.1862 59.4413 28.8387 59.5445 30.3238 58.3679C30.5898 58.1564 30.8644 57.9563 31.3349 57.5985C31.0201 60.4624 30.7347 63.0932 30.4407 65.7233C29.911 70.4557 29.3758 75.1882 28.8351 79.9206C28.7469 80.6864 29.0345 81.2443 29.563 81.7691C31.5966 83.7862 33.6073 85.8261 35.7298 87.9608C33.423 87.9615 31.2008 87.978 28.9807 87.9306ZM36.3981 84.3132C34.9439 82.8519 33.5341 81.4608 32.1674 80.0289C31.9967 79.8503 31.9874 79.4467 32.0182 79.1591C32.6077 73.6671 33.2076 68.1762 33.8181 62.6866C33.9113 61.8427 34.0225 61.0001 34.1544 59.9167C35.6875 60.8244 37.1417 60.7355 38.6533 59.9475C38.9631 62.6809 39.2593 65.2479 39.544 67.8163C39.9613 71.5807 40.3872 75.3452 40.7587 79.1132C40.7974 79.5083 40.6016 80.0389 40.3284 80.3322C39.0821 81.668 37.7692 82.9372 36.3981 84.3132ZM37.0887 87.9278C39.1345 85.8756 41.1043 83.8579 43.1272 81.8925C43.8342 81.2055 44.03 80.4813 43.916 79.5169C43.1516 72.9374 42.4331 66.3528 41.7009 59.7697C41.6292 59.1172 41.5575 58.4647 41.4621 57.5662C42.0544 58.0359 42.418 58.3313 42.7887 58.6174C43.8486 59.437 44.6639 59.3251 45.4111 58.2159C47.0489 55.7822 48.6645 53.3336 50.2994 50.8978C50.4701 50.644 50.7096 50.436 50.9175 50.2073L51.2008 50.3442C48.8827 62.8661 46.5641 75.394 44.2451 87.9278H37.0887Z" fill="#E33C5C"/>
+<path d="M59.1374 53.9092C59.137 53.8864 59.1353 53.8637 59.1323 53.8411L59.1459 54.5717C59.1452 54.3487 59.1453 54.1336 59.1374 53.9092Z" stroke="black" stroke-miterlimit="10"/>
+<path d="M90.9957 86.1587C91.0033 78.2603 91.0033 70.3619 90.9957 62.4635C91.0069 62.0542 90.9696 61.645 90.8846 61.2445C90.3281 58.9622 88.762 57.8501 86.4509 57.5733C86.4509 54.5804 86.4667 51.6147 86.443 48.6491C86.4329 47.4208 86.4272 46.1803 86.2673 44.9656C85.4068 38.4198 79.5597 33.3891 72.8579 33.3704C66.0916 33.3525 60.198 38.3632 59.3375 44.9427C59.1281 46.5481 59.151 48.1844 59.0606 49.9139L59.1323 53.8433C59.1354 53.8659 59.1371 53.8886 59.1374 53.9114C59.1417 54.1322 59.1438 54.3524 59.146 54.5739L59.151 54.84C59.1567 55.7298 59.151 56.6268 59.151 57.5496C58.7602 57.6328 58.3995 57.6931 58.0453 57.7863C56.0554 58.2954 54.6241 59.989 54.6176 62.0311C54.5904 70.2054 54.6033 78.3868 54.6133 86.5646C54.6133 86.9998 54.7224 87.4351 54.7869 87.9155C54.9789 88.6978 55.3962 89.4066 55.9873 89.954C56.8105 90.7069 57.7649 90.9364 58.4325 90.9966H86.2071C89.0919 90.993 90.9928 89.0699 90.9957 86.1587ZM62.1935 46.8916C62.2688 41.5088 66.121 37.2596 71.5873 36.4666C76.4075 35.7675 81.3223 38.931 82.8841 43.7682C83.115 44.4852 83.3409 45.2403 83.3502 45.9802C83.3961 49.8264 83.3717 53.6726 83.3717 57.5862H81.8996C81.8996 54.2979 81.9096 51.0533 81.8924 47.8094C81.8881 47.0207 81.8601 46.2276 81.7325 45.4547C80.9695 40.8398 76.7603 37.5801 72.0713 37.9401C67.5064 38.29 63.8113 42.1254 63.7202 46.7073C63.655 49.9584 63.7023 53.2123 63.7001 56.4648C63.7001 56.809 63.7001 57.1524 63.7001 57.5633H62.1828C62.1828 57.166 62.1828 56.7659 62.1828 56.3651C62.1835 53.2087 62.1491 50.0509 62.1935 46.8916ZM78.8656 57.5898H66.8718C66.8295 57.5332 66.7613 57.4844 66.7613 57.4356C66.7527 53.8067 66.661 50.1749 66.775 46.5503C66.8732 43.4046 69.6533 40.9416 72.8221 40.9509C75.9909 40.9603 78.6455 43.452 78.8505 46.5976C78.867 46.8493 78.8649 47.0995 78.8649 47.3548C78.8649 50.732 78.8649 54.1071 78.8649 57.5912L78.8656 57.5898ZM59.7089 87.9614C58.1033 87.9614 57.6337 87.486 57.633 85.8662C57.633 78.1571 57.633 70.4484 57.633 62.7403C57.633 61.132 58.1048 60.6652 59.7261 60.6609C64.0859 60.6609 68.446 60.6609 72.8063 60.6609C77.1666 60.6609 81.5267 60.6609 85.8865 60.6609C87.4935 60.6609 87.966 61.1348 87.966 62.7539C87.966 70.4625 87.966 78.1712 87.966 85.8798C87.966 87.4845 87.4885 87.9592 85.8708 87.9592C77.1497 87.9631 68.429 87.9642 59.7089 87.9628V87.9614Z" fill="#004999"/>
+</svg>
+
+                              </div>
+                              <h5>Beware of Unauthorized Users</h5>
+                              <p>
+                              Hackers who want to infiltrate your network will try every trick in their book, including impersonating authorized users. It’s not just about protecting information and assets; it’s also about protecting employees and customers from fraud and identity theft.
+                              </p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+
+   <div class="hiredevlopercard py-5 text-center">
+            <div class="container">
+                  <div class="row justify-content-center">
+                        <div class="col-lg-6 col-12">
+                            <h2 class="text-white mb-0">Hire a <span class="fontWt50">Cyber Security Expert</span></h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('dedicated-developer') }}" class="hire-butn">Hire Now <i class="fa fa-chevron-right fa-ani"></i></a>
+                        </div>
+                  </div>
+            </div>
       </div>
-      <div class="col-lg-12">
-          <div class="common-heading">
-            <h2>How Prilient Cyber Security Services is More Secure?</h2>
-            <p>The security of your organization is our number one priority. We go above and beyond to ensure that you will be safe from any kind of attack on your organization’s security infrastructure.</p>
-          </div>
+      <div class="py-5 bottomUp">
+            <div class="container">
+                  <div class="col-lg-12 text-center">
+                        <h1 style="line-height: 58px;">How Prilient<br> <span class="fontWt70 common-color-heading">Cyber Security Services is More Secure</span> ?</h1>
+<p>The security of your organization is our number one priority. We go above and beyond to ensure that you will be safe from any kind of attack on your organization’s security infrastructure.</p>
+                  </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5 col-12 mt-5">
+                                    <div class="single-safety overly-one text-center card-service-equal h-100"> 
+                                       <div class="overly-two">
+                                            <h5><span>
+                                        <img src="http://127.0.0.1:8000/assets/services/Group96.svg"> </span> 
+                                    Extensive Industry Experience</h5> 
+                                    <p>In addition to our hands-on experience, we have broad industry experience and background. That means that we understand cyber security better than most—and can use it to improve yours. In fact, our years of professional experience are one of our greatest assets; they give us a huge advantage in terms of being able to help you with your security issues.
+                                    </p> 
+                                       </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-5 col-12 mt-5 offset-lg-1">
+                                    <div class="single-safety overly-one text-center card-service-equal h-100"> 
+                                    <div class="overly-two">
+                                        <h5><span>
+                                        <img src="http://127.0.0.1:8000/assets/services/Group97.svg"> </span> 
+                                    Professional Manpower</h5> 
+                                    <p>The first and most important thing we bring to your business is our security specialists. We only hire people who can be trusted to protect you from any threats that may arise. At our firm, we take great pride in having some of the best cyber security experts!
+                                    </p> 
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5 col-12 mt-5">
+                                    <div class="single-safety overly-one text-center card-service-equal h-100"> 
+                                       <div class="overly-two">
+                                            <h5><span>
+                                        <img src="http://127.0.0.1:8000/assets/services/Group98.svg"> </span> 
+                                    Keep up with the latest trends</h5> 
+                                    <p>By staying abreast of all things security, we can provide our clients with the services they need and are looking for. In cyber security, there is no such thing as a finished product; it’s always evolving, which means that we must evolve along with it. As a result, we stay on top of industry trends to ensure your business is protected in the best way.
+                                    </p> 
+                                       </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-5 col-12 mt-5 offset-lg-1">
+                                    <div class="single-safety overly-one text-center card-service-equal h-100"> 
+                                    <div class="overly-two">
+                                        <h5><span>
+                                        <img src="http://127.0.0.1:8000/assets/services/Group99.svg"> </span> 
+                                    Offers Expert Consulting Services</h5> 
+                                    <p>With over 20 years of experience in network security, we’ve seen it all. We provide comprehensive consulting services for both businesses and individuals, including vulnerability assessments and penetration testing.
+                                    </p> 
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+            </div>
       </div>
-      <div class="row justify-content-center">
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Extensive Industry Experience</h4>
-                <p>
-                In addition to our hands-on experience, we have broad industry experience and background. That means that we understand cybersecurity better than most—and can use it to improve yours. In fact, our years of professional experience are one of our greatest assets; they give us a huge advantage in terms of being able to help you with your security issues.
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Professional Manpower</h4>
-                <p>
-                The first and most important thing we bring to your business is our security specialists. We only hire people who can be trusted to protect you from any threats that may arise. At our firm, we take great pride in having some of the best cyber security experts!
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Keep up with the latest trends</h4>
-                <p>
-                By staying abreast of all things security, we can provide our clients with the services they need and are looking for. In cyber security, there is no such thing as a finished product; it’s always evolving, which means that we must evolve along with it. As a result, we stay on top of industry trends to ensure your business is protected in the best way.
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>Offers Expert Consulting Services</h4>
-                <p>
-                With over 20 years of experience in network security, we’ve seen it all. We provide comprehensive consulting services for both businesses and individuals, including vulnerability assessments and penetration testing.
-                </p>
-          </div>
-          </div>
+      
+      <div class="pb-5 mt-4 text-center"  style="position: relative;bottom: 90px;">
+            <div class="container">
+                  <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-8 col-12">
+                              <h2 class="mb-0 fontWt40">We Love to Listen to Your Requirements</h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('contact-us') }}" class="promiseBtn">Estimate Project <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                  </div>
+            </div>
       </div>
-    </div>
-  <!-- content end -->
+      <style type="text/css">
+          footer{
+            position: relative;
+            bottom: 80px;
+          }
+      </style>
 @endsection
+
+
+
+

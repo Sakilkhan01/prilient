@@ -49,6 +49,9 @@
         white-space:nowrap;
         align-items:center
     }
+    .cyber-bg{
+        height: 50%;
+    }
 
 }
 
@@ -63,8 +66,14 @@
     .service-content-body{
         top:20px;
     }
+    .cyber_page_top{
+        top:  -80px;
+    }
     .hiredevlopercard {
         bottom: 120px;
+    }
+    .cyber_on_card_tab{
+        bottom: 200px;
     }
   }
 
