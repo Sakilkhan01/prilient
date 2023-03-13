@@ -2532,8 +2532,8 @@ body.hc-nav-open {
     align-items: center;
 }
 .bgYellow {
-    background-image: url('../images/banner/yellow_bg.png');
-    /*background: #fff9f5;*/
+    /*background-image: url('../images/banner/yellow_bg.png');*/
+    background: #fff9f5;
     box-shadow: 22px 4px 7px 2px rgba(0, 0, 0, 0.1);
 }
 .service_heading_text {
@@ -2684,7 +2684,7 @@ body.hc-nav-open {
     align-items: center;
     justify-content: center;
 }
-.custom-w6 span{
+.custom-w6 li{
     font-size: 30px;
     color:#fff
 }

@@ -886,6 +886,9 @@
         width: 100%;
         margin-top: 10%;
     }
+    .custom-w6 ul{
+        display: flex;
+    }
 }
 @media(min-width:481px) and (max-width:992px){
     .borderLeft{
