@@ -254,7 +254,7 @@ border-radius: 36px 36px 0px 0px;
                   <img src="{{ asset('assets/services/Group5.png') }}">
                 </div>
                 <div class="col-lg-8 col-12">
-                  <h2 class="fontWt30">WHY Do You Need  <span class="fontWt50 textRed">DevOps</span> <span class="fontWt50 textPrim">Services</span> ?</h2>
+                  <h2 class="fontWt30">Why Do You Need  <span class="fontWt50 textRed">DevOps</span> <span class="fontWt50 textPrim">Services</span> ?</h2>
                   <p>
                     There are a number of reasons why you would want to consider our DevOps services. First, it is a great way to manage and track bugs in your system. Many companies find that when they outsource their DevOps development process, their software is much more stable and reliable. When you hand off development duties to an outside company, there are no financial or power issues to worry about. You can trust them to build exactly what you need, without worrying about ownership or internal politics getting in the way of progress.
                   </p>

@@ -44,7 +44,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
        <div class="col-lg-5 col-12 text-center mt-5">
-            
+            <img src="{{ asset('assets/services/Group106.png') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
