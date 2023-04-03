@@ -3,256 +3,450 @@
 @section('meta_keywords', "next-gen technology Service")
 @section('meta_description', "next-gen Technology Service is a business technology consulting, IT solutions and IT Services company. Transform and Accelerate your business with next-gen technology")
 
+
+<style type="text/css">
+  .web-development-bg{
+  background: url('{{ asset('assets/images/banner/bg-gray.png') }}') 0 0 / cover;
+}
+.web-development-bg2{
+  background: url('{{ asset('assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
+}
+.fontWt30{
+  font-weight: 400 !important;
+}
+.common-color-heading{
+  background: linear-gradient(90.21deg, #024A99 13.01%, #E43C5C 65.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 30px;
+}
+.request-quote-card-body{
+border-radius: 36px 36px 0px 0px; 
+}
+</style>
+
 @section('content') 
-   <section class="hero-card-web-2 bg-gradient12 shape-bg3">
-         <div class="hero-main-rp container-fluid">
-            <div class="container">
-              <div class="row">
-               <div class="col-lg-5 alignCenter">
-                  <div class="hero-heading-sec text-center">
-                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>Next-Gen Technologies Service</span></h2>
-                     <p class="wow fadeIn" data-wow-delay="0.6s">Move ahead from the competition by offering and deploying next-gen technology to the customer</p>
-                     <p class="wow fadeIn" data-wow-delay="0.6s"></p>
-                     <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+<section class="hero-card-web-2 web-development-bg web-development-bg2">
+      <div class="hero-main-rp container-fluid">
+         <div class="container">
+            <div class="row">
+                  <div class="col-lg-7 col-12 text-lg-left text-center mb-5">
+                        <h1 class="fontWt30"><span class="fontWt50 common-color-heading">NEXT-GEN TECHNOLOGIES </span>SERVICE</h1>
+                        <p class="mt-3">Move ahead from the competition by offering and deploying next-gen technology to the customer</p>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
-               </div>
-               <div class="col-lg-2"></div>
-               <div class="col-lg-5 mt-sm-3">
-                   @include('front.pages.request_quote')
-               </div>
-            </div>
+                  <div class="col-lg-5 col-12 mt-4 mb-5">
+                        
+                  </div>
             </div>
          </div>
-      </section>
-  
-  <!--End why-choose-->
-  <div class="container pb-5">
-      <!-- <div class="col-lg-12 mt-5">
-          <div class="common-heading">
-            <h3>Get a competitive edge in the market with next-gen technology</h3>
-            <p>Move ahead from the competition by offering and deploying next-gen technology to the customer </p>
-          </div>
-      </div> -->
-      <div class="col-lg-12 mt-5">
-          <div class="common-heading">
-            <h3>Unleash the power of your business with Next-gen technology</h3>
-            <p>Next-gen technology refers to new development or new degradation in the technology. Next-gen technology and management help to improve software advancement, transform the current learning or working system, and change the lives of people in different aspects like improving performance, completing the repetitive task more effectively, and keeping them safer or wealthier or healthier. </p>
-            <p>
-            Prilient's Next-gen technology services help an organization to keep ahead of the competition through innovation and modernization. We have experienced IT experts to develop innovative applications or solutions as per enterprises' needs. We ensure to deliver the top-notch solution in less time at minimum cost. Our experts work with full innovation, dedication, and creativity.   
-            </p>  
-        </div>
       </div>
-      <div class="col-lg-12 mt-5">
-          <div class="common-heading  ">
-            <h3>Our methodology for Next-gen technology</h3>
-            <p>We apply a simple methodology throughout the projects that help to improve the quality of solutions. Read below!</p>
-            
-        </div>
+</section>
+@include('front.pages.rq')
+<section class="service-content-body">
+    <div class="container pb-5">
+      <div class="row">
+       <div class="col-lg-5 col-12 text-center mt-5">
+            <img src="{{ asset('assets/services/Group116.svg') }}">
       </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-              <h4>Planning</h4>
-              <p>
-              We carefully understand your business requirement, goals, and objective. We make a clear-cut plan after analyzing the market need, data, and competitors' strategies.
-              </p>
-        </div>
-        </div>
-        
-        <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-              <h4>Execution</h4>
-              <p>
-              Now we execute our planning and monitor is time to time. We also provide complete transparency to the customer of their project. 
-              </p>
-        </div>
-        </div>
-        <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-              <h4>Usability Testing</h4>
-              <p>
-              After completing the project we apply usability testing to identify any bugs, issues or challenges. So, we can eliminate or prevent them. 
-              </p>
-        </div>
-        </div>
-        <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-              <h4>Deliver and support</h4>
-              <p>
-              Now we will deliver the project to the client and provide complete support if the client wants to change any feature. Also provide complete support if any issue will come in the future. 
-              </p>
-        </div>
-        </div>
-      </div>
-      <div class="-cta-btn mt70">
-         <div class="free-cta-title v-center zoomInDown wow" data-wow-delay="1.4s">
-            <p>Hire a <span>Dedicated Developer</span></p>
-            <a href="{{ url('dedicated-developer') }}" class="btn-main bg-btn2 lnk">Hire Now<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-         </div>
-      </div>
-      <div class="col-lg-12 mt-5">
-          <div class="common-heading">
-            <h3 class="text-radius text-light text-animation bg-b">We offer Next-gen Technology </h3>
-            <p>As a renowned IT service provider, we offer the following Next-gen technology services</p>
-            
-        </div>
-      </div>
-      <div class="row justify-content-center">
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">AWS Amplify & AWS Lamda</h5>
-            <p>
-            AWS Amplify and AWS Lambda allow mobile and web development experts to easily and quickly develop or deploy full-stack applications on AWS. At prilient, we have verified developers who are capable of developing any application on AWS. Our developers always keep updated with advanced tools or techniques and market trends. 
-            </p>
-            <a href="{{ url('/NextGen/AWS-ampify-&-AWS-lamda') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">Firebase</h5>
-            <p>
-            Get an advantage of firebase documentation and cross-platform service that allow developers to develop and deploy applications on Android, iOS, the web C++ and Unity. Developers of prilient have enough knowledge and experience in developing applications on firebase. Firebase platform also provides analytics tracking tools, reporting, and fixing app crashes. 
-            </p>
-            <a href="{{ url('/NextGen/firebase') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">Chatbot Development</h5>
-            <p>
-            Improve your customer engagement and satisfaction by providing a Chatbots facility that is used to interact with your visitors as a virtual human. Our developers have enough knowledge and hands-on experience in developing chatbots as per business needs. They keep always updated with human behavior, advanced tools, or technique.   
-            </p>
-            <a href="{{ url('/NextGen/chatbot-dvelopment') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">AI & ML Development</h5>
-            <p>
-            Get advantage of improved work efficiency, predictive performance, automate repetitive tasks, archive data, data insights, and advanced system capabilities with artificial intelligence and machine learning. Our IT experts have hands-on experience in developing AI-based or ML-based solutions that enhances your business capabilities. We ensure to deliver top-notch solutions with complete privacy and security 
-            </p>
-            <a href="{{ url('/NextGen/AI-&-ML-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-            <h5 class="mb10">RPA Development</h5>
-            <p>
-            Improve work efficiency, speed, customer experience, and employee productivity and save money or time by automating repetitive tasks. RPA tools work more accurately than humans. We offer Robotic process automation-as-a-service (RPA) and ensure to deliver top-solution with complete privacy. RPA development is very essential to get a competitive edge in the market.  
-            </p>
-            <a href="{{ url('/NextGen/RPA-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-      </div>
-      </div>
-      </div>
-      <div class="col-lg-12 mt-5">
-          <div class="common-heading  ">
-            <h3>Benefits of Getting Next-Gen Technologies service</h3>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>1. Save Money</h4>
-                <p>
-                The next-gen technologies service will save you money in several ways.It will help cut your costs when it comes to printing materials like brochures, business cards, and pamphlets. It will also allow you to market your business on social media and online sites without having to spend hundreds of dollars a month on design services. 
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>2. Automate your task </h4>
-                <p>
-                Next-Gen Technologies services can help you automate your task by giving you quick results. Let’s say you need to fill out a simple form. Simply click on Next-Gen Technologies and it will automatically complete your task in seconds. No more copying and pasting or waiting for someone else to get back to you.
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4> 3. improve productivity</h4>
-                <p>Getting on top of next-gen technologies can give your business an edge over its competitors. Next-gen solutions such as cloud, cybersecurity, and virtualization offer your business and customers new ways to work in a more efficient and flexible way.</p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>4. Improved Control/Torque/Accuracy</h4>
-                <p>
-                Next-Gen Technologies service is designed to enable a tighter, more accurate control over your body. Next-Gen Technologies' service can have a tremendous impact on your sport or activity of choice. Next-Gen Technologies service is also useful for situations where being larger than life may be more appropriate than being more precise.
-                </p>
-          </div>
-          </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-                <h4>5. Better security</h4>
-                <p>
-                As business applications migrate from on-premises data centers to cloud environments, organizations can take advantage of better security. Cloud computing providers monitor for vulnerabilities and patches.
-                </p>
-          </div>
+      <div class="col-lg-7 col-12 mt-5">
+          <div class="comman-service-heading">
+            <h2>Unleash the power of your <span class="textPrim fontWt50">business</span> with <span class="textRed fontWt50">Next-gen technology</span></h2>
+             <p>Next-gen technology refers to new development or new degradation in the technology. Next-gen technology and management help to improve software advancement, transform the current learning or working system, and change the lives of people in different aspects like improving performance, completing the repetitive task more effectively, and keeping them safer or wealthier or healthier.</p>
+             <p>Prilient's Next-gen technology services help an organization to keep ahead of the competition through innovation and modernization. We have experienced IT experts to develop innovative applications or solutions as per enterprises' needs. We ensure to deliver the top-notch solution in less time at minimum cost. Our experts work with full innovation, dedication, and creativity.</p>
           </div>
       </div>
-       <div class="-cta-btn mt40">
-               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
-                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
-                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-               </div>
       </div>
-      <div class="col-lg-12 mt-5">
-          <div class="common-heading  ">
-            <h3>Why did you choose Prilient for the Next-Gen Technologies service?</h3>
-        </div>
+   </div>
+ </section>
+ <section class="service-content-body">
+   <div class="bgRed BgRedcardHeight py-5 mt-4">
+      <div class="rounded-circle-comm top-rounded-circle"></div>
+      <div class="container">
+      <div class="comman-service-heading text-center">
+              <h2 class="text-center fontWt30 text-white">Our methodology for <span class="fontWt50">Next-gen <br>technology</span></h2>
+             <p class="text-white">We apply a simple methodology throughout the projects that help to improve the quality of solutions. Read below!</p>
+      </div>  
       </div>
-      <div class="row justify-content-center">
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-            <h4>Experienced Developers</h4>
-            <p>
-            We have experienced IT experts, who will ensure to deliver the top-notch solution in less time with complete transparency. Our experts work with full innovation, dedication, integrity,  and creativity to meet your business expectation.
-            </p>
+      <div class="rounded-circle-comm bottom-rounded-circle"></div>
+   </div>
+ </section>
+ <div class="container on-card-tab">
+            <div class="row justify-content-center">
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+<svg width="91" height="92" viewBox="0 0 91 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M80.7111 91.003H0.0896477C0.0674097 90.5315 0.0251761 90.06 0.0251761 89.5885C0.0251761 66.7118 0.0251761 43.8358 0.0251761 20.9605C0.0251761 18.9944 -0.172743 19.1923 1.7753 19.1923C22.8435 19.1923 43.9118 19.1923 64.98 19.1923C66.5789 19.1923 66.5789 19.1923 66.9548 17.68C69.0918 9.06171 79.408 5.50098 86.3774 10.9722C88.9169 12.9738 90.3491 15.616 90.9984 18.7342V80.7034C90.6448 82.1735 90.2312 83.6169 89.4551 84.9291C87.4715 88.3141 84.4916 90.2357 80.7111 91.003ZM41.9281 88.1585C53.9366 88.1585 65.9511 88.1585 77.9714 88.1585C78.8589 88.1937 79.7476 88.1476 80.6266 88.0206C84.6784 87.2733 88.4611 83.3167 88.1431 78.1235C87.8073 72.6056 81.9365 68.282 76.6216 69.7966C76.0011 69.9745 75.7565 70.2858 75.7788 70.9286C75.8166 71.9939 75.7788 73.0593 75.7788 74.1246C75.7788 77.9433 75.7654 81.7598 75.7899 85.5785C75.7899 86.3258 75.5675 86.6639 74.7758 86.6305C73.4416 86.5749 72.1073 86.4192 70.9131 85.7787C67.9999 84.2219 66.5945 81.7754 66.5945 78.4882C66.5945 60.1975 66.5945 41.9075 66.5945 23.6182C66.5945 22.1081 66.5945 22.1059 65.0667 22.1059H4.53059C2.94947 22.1059 2.94725 22.1059 2.94725 23.6627C2.94725 44.6475 2.94725 65.6279 2.94725 86.6038C2.94725 88.1407 2.94723 88.1429 4.46386 88.1429L41.9281 88.1585ZM88.023 70.655C88.2076 70.2102 88.1364 69.8099 88.1364 69.4318C88.1364 55.7909 88.1364 42.1499 88.1364 28.509C88.1364 25.7289 88.1764 22.9488 88.1097 20.1643C87.9741 14.6041 82.6147 10.3984 77.1553 11.4148C73.1147 12.1687 69.4587 15.9741 69.4899 21.0428C69.5877 37.2584 69.5255 53.4741 69.5321 69.692C69.5321 69.9945 69.412 70.337 69.6811 70.6106C74.8514 65.2483 82.8705 65.295 88.023 70.655ZM72.7678 71.7515C70.5128 73.8755 69.432 76.2552 69.5544 79.1465C69.63 80.8791 70.4706 82.1668 71.9494 83.0387C72.7122 83.4835 72.8389 83.4078 72.8389 82.5116C72.8389 79.2036 72.8389 75.8964 72.8389 72.59C72.8456 72.3898 72.81 72.1919 72.7678 71.7515Z" fill="#004999"/>
+<path d="M35.8664 0.0139199H61.2577C64.1197 0.0139199 65.6586 1.41286 65.8921 4.23965C66.0026 5.56743 65.9862 6.90273 65.8432 8.2274C65.7353 9.1776 65.2982 10.06 64.6076 10.7214C63.917 11.3829 63.0166 11.7815 62.0627 11.8482C61.7091 11.8704 61.3511 11.8615 60.9975 11.8615C44.1308 11.8615 27.2633 11.8652 10.3951 11.8726C9.59796 11.8874 8.8103 11.6983 8.10676 11.3233C5.70357 10.0482 3.28631 8.79825 0.85496 7.57353C0.252311 7.26883 -0.0189845 6.89296 0.00102967 6.1946C0.0210438 5.49625 0.0944031 4.98026 0.808242 4.60217C3.36561 3.23882 5.89409 1.81541 8.42254 0.39646C8.9422 0.114392 9.52855 -0.0216453 10.1193 0.00279889C18.7032 0.0161433 27.2855 0.0198507 35.8664 0.0139199ZM33.031 8.93466H37.2896C42.3747 8.93466 47.4613 8.93466 52.5493 8.93466C53.6167 8.93466 53.7146 8.83012 53.7257 7.76257C53.7368 6.69502 53.7257 5.63192 53.7257 4.56881C53.7257 2.92967 53.7257 2.92745 52.1157 2.92745H13.9687C13.733 2.92745 13.495 2.94079 13.2593 2.92745C12.6166 2.90076 12.3564 3.2099 12.3698 3.84154C12.3853 5.08479 12.3698 6.32805 12.3698 7.56908C12.3698 8.92354 12.3698 8.93466 13.7797 8.93466H33.031ZM56.6411 5.86099C56.6411 6.6283 56.6411 7.3956 56.6411 8.1629C56.6411 8.66999 56.8635 8.93021 57.3905 8.92798C58.836 8.92798 60.2815 8.92798 61.7291 8.91019C62.4652 8.91019 62.8855 8.46538 62.9656 7.76702C63.0934 6.56274 63.0934 5.3483 62.9656 4.14401C62.8877 3.35225 62.4096 2.93634 61.5957 2.93634C60.2081 2.93634 58.8204 2.93634 57.435 2.93634C56.879 2.93634 56.6211 3.18989 56.6277 3.74368C56.6455 4.44871 56.6389 5.15374 56.6411 5.86767V5.86099ZM4.27071 6.0367L8.89841 8.42979C9.20974 8.59215 9.42323 8.541 9.42545 8.14956C9.42545 6.67574 9.42545 5.20193 9.42545 3.72811C9.42545 3.42786 9.29202 3.25883 8.98069 3.42786C7.46629 4.26411 5.95634 5.10926 4.27071 6.04337V6.0367Z" fill="#004999"/>
+<path d="M8.95616 59.7724C8.95616 53.9424 8.95616 48.1131 8.95616 42.2846C8.95616 40.8656 8.95617 40.8634 10.3883 40.8634C15.7743 40.8634 21.1596 40.8634 26.5442 40.8634C26.9356 40.8634 27.4982 41.0369 27.6338 40.5298C27.8073 39.887 27.8807 39.1709 27.556 38.5437C27.3892 38.219 26.9667 38.3413 26.6509 38.3391C23.2196 38.3391 19.7883 38.3391 16.3547 38.3391C15.1272 38.3391 15.1205 38.3391 15.1183 37.1047C15.1183 33.9399 15.1405 30.7728 15.105 27.608C15.105 26.7828 15.3273 26.467 16.2013 26.4692C24.8697 26.4959 33.5387 26.4959 42.2086 26.4692C43.0558 26.4692 43.2738 26.8051 43.2693 27.5702C43.2493 30.7951 43.2427 34.02 43.2693 37.2449C43.2693 38.1011 42.9624 38.3569 42.1241 38.3569C38.6616 38.3213 35.1992 38.3413 31.739 38.3569C31.3676 38.3569 30.8494 38.2346 30.7427 38.7083C30.5937 39.3577 30.4803 40.0739 30.8472 40.6877C31.0496 41.0258 31.501 40.8812 31.8457 40.8812C37.0538 40.8812 42.2612 40.8812 47.4679 40.8812C48.7888 40.8812 48.8021 40.8812 48.8021 42.2156C48.8021 43.2209 48.8399 44.2173 48.8021 45.2337C48.7666 46.0255 49.1023 46.259 49.8518 46.2523C53.2542 46.2279 56.6566 46.2523 60.059 46.2523C61.3933 46.2523 61.4177 46.2723 61.4177 47.5712C61.4177 50.7361 61.4 53.9031 61.4311 57.068C61.4311 57.882 61.2087 58.2378 60.3392 58.2356C51.6708 58.2148 43.0017 58.2148 34.3319 58.2356C33.5869 58.2356 33.2623 57.9865 33.2667 57.2103C33.2889 53.895 33.2889 50.5804 33.2667 47.2665C33.2667 46.4859 33.5958 46.2412 34.3363 46.2457C37.7699 46.2657 41.2012 46.2568 44.6325 46.2457C45.0261 46.2457 45.5598 46.4147 45.7444 45.9454C45.9601 45.3582 45.9601 44.7134 45.7444 44.1261C45.6755 43.9037 45.4442 43.8548 45.2285 43.8481C44.9327 43.8481 44.637 43.8303 44.339 43.8303H13.3615C11.8716 43.8303 11.8694 43.8303 11.8694 45.2782C11.8694 50.8413 11.8694 56.4015 11.8694 61.9587C11.8694 63.0841 11.9449 63.1619 13.0813 63.1664C14.887 63.1664 16.6905 63.1864 18.4962 63.1664C19.2279 63.1664 19.5503 63.4043 19.5259 64.2006C19.4636 66.3312 19.6993 66.0488 17.6779 66.0666C16.0501 66.0821 14.4223 66.0888 12.7967 66.0666C12.1095 66.0554 11.8515 66.3134 11.8582 67.0073C11.8819 69.6095 11.8819 72.2131 11.8582 74.8183C11.8582 75.5055 12.1273 75.7791 12.8033 75.7746C14.638 75.759 16.4726 75.7746 18.305 75.7746C19.4725 75.7746 19.5148 75.8258 19.5103 76.9689C19.5103 78.8794 19.6726 78.6637 17.7824 78.6726C15.2384 78.6726 12.6921 78.6726 10.1481 78.6726C9.00285 78.6726 8.95396 78.6303 8.95173 77.4649C8.95025 71.5607 8.95171 65.6632 8.95616 59.7724ZM47.3189 55.2487C50.6924 55.2487 54.0659 55.2331 57.4371 55.262C58.2066 55.262 58.5001 55.004 58.4779 54.2323C58.4379 52.8422 58.4512 51.45 58.4779 50.0599C58.4779 49.4283 58.2555 49.1503 57.5884 49.1503C50.7539 49.1636 43.9187 49.1636 37.0827 49.1503C36.4378 49.1503 36.1777 49.3927 36.1932 50.0399C36.2199 51.3744 36.1932 52.7088 36.1932 54.0432C36.1932 55.2309 36.2155 55.2554 37.3718 55.2554L47.3189 55.2487ZM29.1505 35.4011C32.5195 35.4011 35.8885 35.3855 39.2576 35.4145C40.0559 35.4145 40.3695 35.152 40.3428 34.3313C40.2939 32.9969 40.3072 31.6624 40.3428 30.3436C40.3584 29.6586 40.0871 29.3872 39.4066 29.3895C32.6092 29.3998 25.8118 29.3998 19.0144 29.3895C18.3473 29.3895 18.0448 29.643 18.0582 30.3325C18.0849 31.6313 18.0582 32.9324 18.0582 34.2335C18.0582 35.3299 18.1271 35.3989 19.2168 35.3989C22.5287 35.4004 25.84 35.4011 29.1505 35.4011Z" fill="#E43C5C"/>
+<path d="M37.4099 66.0422C33.5694 66.0422 29.7267 66.0199 25.8862 66.06C24.9967 66.06 24.6142 65.7842 24.7232 64.8946C24.7298 64.7768 24.7298 64.6587 24.7232 64.5409C24.7232 63.1865 24.7543 63.1442 26.1108 63.1442C33.7043 63.1442 41.2986 63.1442 48.8936 63.1442C49.3384 63.1442 49.9677 62.9618 50.1056 63.5712C50.2746 64.3096 50.3591 65.1147 50.01 65.8264C49.8365 66.1801 49.3651 66.0311 49.0226 66.0311C45.1532 66.0444 41.2823 66.0481 37.4099 66.0422Z" fill="#E43C5C"/>
+<path d="M37.4013 78.6458C33.5586 78.6458 29.7181 78.6213 25.8754 78.6636C24.9725 78.6636 24.6189 78.3678 24.7212 77.4915C24.7312 77.3137 24.7312 77.1355 24.7212 76.9577C24.7212 75.8457 24.799 75.7478 25.9354 75.7456C33.6208 75.7456 41.3048 75.7456 48.9872 75.7456C50.0991 75.7456 50.1748 75.8457 50.1881 76.9777C50.1881 77.0089 50.1881 77.0378 50.1881 77.0667C50.1881 78.6436 50.1881 78.6458 48.6537 78.6458H37.4013Z" fill="#E43C5C"/>
+<path d="M28.4166 71.5066C27.4714 71.5066 26.5263 71.5066 25.5812 71.5066C24.9897 71.5066 24.754 71.2509 24.7184 70.657C24.5961 68.5798 24.5939 68.5664 26.6375 68.5664C28.1742 68.5664 29.7086 68.5842 31.2452 68.5664C31.8879 68.5664 32.1348 68.8066 32.1348 69.456C32.0992 71.729 32.3571 71.4933 30.1956 71.5155C29.6063 71.5155 29.0148 71.5155 28.4166 71.5155V71.5066Z" fill="#E43C5C"/>
+<path d="M28.452 81.1835C29.426 81.1835 30.4001 81.1835 31.3741 81.1835C31.8856 81.1835 32.1302 81.3814 32.1302 81.9152C32.1302 84.4373 32.3681 84.0926 30.0776 84.117C28.601 84.1326 27.1244 84.117 25.6478 84.117C25.0252 84.117 24.7583 83.8746 24.7249 83.2274C24.6293 81.1724 24.6093 81.1724 26.6797 81.1724H28.4587L28.452 81.1835Z" fill="#E43C5C"/>
+<path d="M36.1669 68.571C37.5946 68.571 37.5946 68.571 37.5901 70.09C37.5901 71.5067 37.5901 71.5156 36.0579 71.5134C34.6503 71.5134 34.6503 71.5134 34.6525 69.981C34.6547 68.5687 34.6547 68.5687 36.1669 68.571Z" fill="#E43C5C"/>
+<path d="M42.945 70.0964C42.945 71.5198 42.945 71.5198 41.435 71.5175C40.0296 71.5175 40.0096 71.4931 40.014 69.9829C40.014 68.5796 40.0274 68.5707 41.5484 68.5751C42.9472 68.5729 42.9472 68.5729 42.945 70.0964Z" fill="#E43C5C"/>
+<path d="M34.6518 82.5512C34.6518 81.1679 34.6518 81.1679 36.1929 81.1701C37.5939 81.1701 37.5939 81.1701 37.5895 82.7136C37.5895 84.1036 37.5717 84.117 36.0328 84.1103C34.6474 84.1081 34.6474 84.1081 34.6518 82.5512Z" fill="#E43C5C"/>
+<path d="M42.945 82.7094C42.945 84.1217 42.945 84.1217 41.4217 84.1173C40.0296 84.1173 40.0096 84.0928 40.014 82.5604C40.014 81.1704 40.0273 81.1615 41.5707 81.1659C42.9472 81.1793 42.9472 81.1793 42.945 82.7094Z" fill="#E43C5C"/>
+</svg>
+
+                              </div>
+                              <h5>Planning</h5>
+                              <p>We carefully understand your business requirement, goals, and objective. We make a clear-cut plan after analyzing the market need, data, and competitors' strategies.
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+<svg width="131" height="131" viewBox="0 0 131 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M64.1642 57.6484C57.7229 57.6015 51.2779 57.6232 44.8366 57.6232H43.2876V92.161H60.4957C60.4957 95.1198 60.4958 97.9811 60.4633 100.839C60.4633 101.077 60.0408 101.315 59.8098 101.56C58.8385 102.531 57.8744 103.505 56.8887 104.447C56.6035 104.721 56.2533 105.136 55.9284 105.136C47.4218 105.176 38.9115 105.169 30.2533 105.169V96.563H21.6745V83.5735H30.1558V61.9927H21.6565V49.0031H30.1956V40.4119H38.8213V48.8877H60.4416V27.4729H38.9188V35.9414H30.2931V27.4548H8.67993V48.931H17.1793V61.9205H8.70523V83.5049H17.154V96.4945H8.68355V118.036H30.1956V109.488H31.517C39.4603 109.488 47.3748 109.488 55.3037 109.488C56.145 109.488 56.636 109.65 57.0765 110.487C57.6974 111.647 58.6647 112.585 59.8437 113.17C61.0227 113.756 62.3549 113.959 63.655 113.753C65.0205 113.526 66.2802 112.876 67.2554 111.894C68.2306 110.912 68.8721 109.649 69.089 108.283C69.2821 106.982 69.0667 105.653 68.4724 104.479C67.8781 103.306 66.9343 102.345 65.7709 101.73C65.4485 101.602 65.1784 101.369 65.0037 101.07C64.829 100.77 64.7597 100.421 64.8069 100.077C64.8574 97.5156 64.8249 94.9538 64.8249 92.2007H82.098V62.9056C80.0905 63.6272 80.0797 63.4685 77.6714 64.2839H77.7328V87.8059H47.6023V62.0216H64.9332L64.9802 62.0937C65.0343 61.0277 65.1549 59.966 65.3412 58.9149C65.4917 58.0434 65.6856 57.1799 65.9225 56.3278L65.8901 56.436C65.5795 57.3634 65.1426 57.6556 64.1642 57.6484ZM43.2804 31.7594H56.0727V44.6047H43.2804V31.7594ZM13.0199 44.5506V31.7486H25.8267V44.5506H13.0199ZM12.9947 79.1895V66.3767H25.8015V79.175L12.9947 79.1895ZM25.7906 113.727H12.9802V100.918H25.7906V113.727ZM62.7308 105.19C63.1603 105.201 63.5769 105.338 63.9279 105.586C64.2789 105.833 64.5484 106.18 64.702 106.581C64.8556 106.982 64.8863 107.419 64.7905 107.838C64.6946 108.256 64.4765 108.637 64.1636 108.931C63.8508 109.225 63.4575 109.42 63.0337 109.49C62.6099 109.561 62.1748 109.503 61.7836 109.326C61.3924 109.149 61.0627 108.859 60.8366 108.494C60.6105 108.129 60.4982 107.705 60.5138 107.276C60.5308 106.704 60.7735 106.162 61.1889 105.769C61.6042 105.375 62.1586 105.162 62.7308 105.176V105.19Z" fill="#E43C5C"/>
+<path d="M58.0441 78.2587L53.5057 73.3155L50.5811 76.2598L58.38 84.0644L74.8227 67.6361L73.0824 65.832C71.9631 66.063 71.9234 65.9619 70.0314 66.3227C66.1356 70.1908 62.2 74.1201 58.0441 78.2587Z" fill="#004999"/>
+<path d="M86.2501 61.2098L86.3404 61.1737V126.699H4.37962V18.8132H86.4487C86.4487 21.9524 86.4776 25.0879 86.4126 28.2198C86.3856 28.4648 86.2834 28.6955 86.1201 28.8801C87.8112 27.487 89.3605 25.9303 90.7453 24.2328V14.4797H0V131H90.7814V129.297C90.7814 105.439 90.7742 81.583 90.7598 57.7279C90.7413 57.1726 90.8736 56.6228 91.1425 56.1366C90.6515 56.9088 89.2289 59.5572 86.2501 61.2098Z" fill="#004999"/>
+<path d="M127.083 19.0551C127.534 18.6041 127.992 18.1566 128.404 17.6731C129.386 16.5367 130.117 15.206 130.549 13.7679C130.981 12.3299 131.104 10.817 130.911 9.32801C130.718 7.83905 130.212 6.40761 129.427 5.12727C128.643 3.84693 127.596 2.74653 126.357 1.898C122.064 -1.086 116.449 -0.519508 112.517 3.38458C105.433 10.4182 98.3686 17.4723 91.3231 24.5468C91.0162 24.8535 90.684 25.1349 90.1713 25.604C88.8614 27.2063 87.3968 28.6759 85.7988 29.9916C85.6633 30.1649 85.5161 30.3289 85.3584 30.4823C80.5635 35.2993 75.736 40.0874 70.9592 44.9152C70.3815 45.5191 69.9386 46.2385 69.6595 47.026C68.6244 49.9559 67.6459 52.9098 66.724 55.8878C66.4991 56.6908 66.3159 57.505 66.1752 58.3269C66.0051 59.319 65.8942 60.3202 65.843 61.3254C67.6194 64.2372 67.6483 64.248 70.6198 65.2944C72.4071 64.9552 72.4432 65.049 73.5083 64.8326L77.8411 63.3893C80.1157 62.6171 80.123 62.7542 82.0185 62.0867L85.9325 60.4883C88.7451 58.9259 90.0846 56.429 90.5395 55.7146C90.6438 55.5353 90.7647 55.3662 90.9006 55.2094C91.181 54.8683 91.4915 54.5531 91.8285 54.2677C103.594 42.5386 115.346 30.801 127.083 19.0551ZM116.518 5.37271C119.045 3.1717 122.963 3.78149 125.248 6.32167C126.335 7.51275 126.938 9.06661 126.938 10.6786C126.938 12.2906 126.335 13.8444 125.248 15.0355C123.19 17.2365 120.973 19.286 118.858 21.3752L109.788 12.3185C111.976 10.0417 114.066 7.49795 116.518 5.37271ZM106.462 15.4108L115.583 24.6478L112.694 27.4334L103.563 18.1999L106.462 15.4108ZM100.642 21.5448L103.314 24.2906L77.8772 49.6997L75.1801 46.9899C83.5374 38.6309 92.0248 30.1455 100.642 21.5339V21.5448ZM71.7175 61.0872C70.7101 61.4011 69.5909 60.5712 69.8544 59.6439C70.6993 56.6816 71.7103 53.7697 72.6237 50.9337C75.1512 53.4594 77.5739 55.8914 80.0183 58.345C77.3103 59.2434 74.5229 60.2176 71.7175 61.0872ZM84.1019 55.8878C83.1848 54.9965 82.1449 53.979 81.1881 53.0445L106.607 27.6462L109.524 30.4895L84.1019 55.8878Z" fill="#004999"/>
+</svg>
+
+                              </div>
+                              <h5>Execution</h5>
+                              <p>
+                              Now we execute our planning and monitor is time to time. We also provide complete transparency to the customer of their project.
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <svg width="101" height="103" viewBox="0 0 101 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M91.4603 45.1397C91.4603 57.327 91.4603 69.5152 91.4603 81.7043C91.4603 82.3521 91.5492 83.0411 91.3658 83.6449C91.088 84.6084 91.5131 85.1299 92.166 85.7256C94.1107 87.4933 95.9833 89.3104 97.8725 91.122C100.515 93.6555 100.723 97.5588 98.3643 99.966C97.7627 100.599 97.0387 101.105 96.2351 101.456C95.4315 101.806 94.5648 101.994 93.6865 102.007C92.8082 102.02 91.9362 101.858 91.1223 101.532C90.3084 101.205 89.5692 100.72 88.9488 100.106C85.9844 97.18 83.1145 94.1633 80.2334 91.1495C79.9971 90.8851 79.7028 90.6775 79.373 90.5424C79.0433 90.4073 78.6867 90.3483 78.3303 90.3699C55.082 90.3827 31.8318 90.3827 8.57979 90.3699C4.56801 90.3699 1.54529 88.4485 0.464557 85.0421C0.145372 83.9256 -0.00261506 82.7681 0.0255727 81.6082C0.00149463 60.4506 -0.00493909 39.294 0.00617387 18.1382C0.00617387 14.8444 -0.00771734 11.567 0.00617387 8.28407C0.031178 3.24994 3.3095 0.00274489 8.40479 0C33.283 0 58.1631 0 83.045 0C88.2014 0 91.4492 3.24447 91.4547 8.36643C91.4621 20.6342 91.464 32.892 91.4603 45.1397ZM71.9181 80.8232C63.1028 85.4538 53.7235 82.278 49.1199 75.9455C46.7643 72.7075 45.6104 68.7662 45.8528 64.7857C46.0952 60.8053 47.719 57.0291 50.4506 54.0935C53.1925 51.1892 56.8628 49.3058 60.8445 48.76C64.8262 48.2141 68.8768 49.039 72.3155 51.0961C75.7825 53.1231 78.3958 56.3149 79.6778 60.0883C81.3447 64.9276 80.903 69.646 78.4498 74.326C79.1082 74.7735 79.7111 75.5009 80.3696 75.5503C81.122 75.5704 81.838 75.875 82.3699 76.4012C83.3617 77.3592 84.3702 78.2979 85.3704 79.2476L87.9903 81.7345V17.5865H3.22611V36.7239C3.22611 51.8921 3.22611 67.0603 3.22611 82.2286C3.22611 85.1738 5.15142 87.1694 8.01023 87.1694C30.4658 87.1694 52.9215 87.1694 75.3771 87.1694C75.6244 87.1694 75.8716 87.1172 76.2383 87.076C75.3409 86.1483 74.5242 85.355 73.7768 84.5013C73.474 84.1582 73.0489 83.6093 73.1461 83.2908C73.524 82.0666 72.7238 81.5149 71.9181 80.8424V80.8232ZM3.24002 14.2707H88.0792V8.44327C88.0792 5.00393 86.2316 3.15936 82.7783 3.15662H8.5437C8.22976 3.15662 7.91857 3.15663 7.6074 3.18133C5.22645 3.4119 3.36506 5.13568 3.26226 7.40845C3.15947 9.68121 3.24002 11.9403 3.24002 14.2899V14.2707ZM63.25 79.8241C65.116 79.8368 66.9661 79.4836 68.693 78.7851C70.4199 78.0865 71.9893 77.0564 73.3105 75.7544C74.6317 74.4524 75.6782 72.9044 76.3897 71.2C77.1011 69.4957 77.4633 67.6688 77.4552 65.8251C77.4641 63.9807 77.1025 62.1528 76.3915 60.4473C75.6804 58.7418 74.6341 57.1926 73.3129 55.8894C71.9918 54.5862 70.4222 53.5548 68.6949 52.855C66.9675 52.1552 65.1169 51.8008 63.25 51.8125C61.3808 51.799 59.5274 52.1522 57.7973 52.8516C56.0672 53.551 54.4948 54.5826 53.1712 55.8868C51.8476 57.1909 50.7991 58.7416 50.0865 60.449C49.3739 62.1564 49.0114 63.9865 49.0199 65.8334C49.011 67.6791 49.3731 69.5082 50.0852 71.2146C50.7973 72.921 51.8452 74.4708 53.1681 75.774C54.4911 77.0773 56.0627 78.108 57.792 78.8065C59.5212 79.5051 61.3736 79.8575 63.2417 79.8433L63.25 79.8241ZM77.2496 83.4665L86.8929 93.4524C88.3042 94.91 89.6711 96.4032 91.1436 97.814C91.5551 98.2318 92.0728 98.5323 92.6423 98.6843C93.2119 98.8362 93.8124 98.8338 94.3807 98.6774C94.949 98.5211 95.4643 98.2164 95.8724 97.7955C96.2805 97.3746 96.5664 96.8529 96.7001 96.2851C97.0168 94.9758 96.45 93.974 95.511 93.0901C90.9028 88.744 86.2992 84.3934 81.7003 80.0382C81.4808 79.8323 81.2364 79.6511 80.9085 79.3766L77.2496 83.4665ZM76.7828 77.0545L74.7686 78.9759L75.566 79.8323L77.6107 77.8697L76.7828 77.0545Z" fill="#004999"/>
+<path d="M73.3042 44.2996C70.2481 44.2996 67.2088 44.2996 64.161 44.2996C62.5941 44.2996 62.1024 43.8138 62.0996 42.2821C62.0996 36.2599 62.0996 30.2367 62.0996 24.2126C62.0996 22.6727 62.5885 22.1868 64.1471 22.1841C70.2796 22.1841 76.4103 22.1841 82.5391 22.1841C84.0504 22.1841 84.5311 22.6672 84.5339 24.1494C84.5339 30.2083 84.5339 36.2654 84.5339 42.3206C84.5339 43.8111 84.0532 44.2941 82.553 44.2996C79.4691 44.3161 76.3881 44.2996 73.3042 44.2996ZM81.2472 41.0826V25.4093H65.4113V41.0826H81.2472Z" fill="#E43C5C"/>
+<path d="M45.9641 22.1787C49.0201 22.1787 52.0595 22.1787 55.1072 22.1787C56.6325 22.1787 57.1021 22.6481 57.1021 24.1331C57.1021 30.1901 57.1021 36.2472 57.1021 42.3042C57.1021 43.8167 56.6436 44.2915 55.1434 44.2915C48.9775 44.3025 42.8126 44.3025 36.6486 44.2915C35.2039 44.2915 34.6844 43.7947 34.6816 42.3893C34.6686 36.2975 34.6686 30.2066 34.6816 24.1166C34.6816 22.6618 35.1984 22.1952 36.7153 22.1787C39.7936 22.1732 42.8774 22.1787 45.9641 22.1787ZM38.0155 25.3902V41.0635H53.8348V25.3902H38.0155Z" fill="#E43C5C"/>
+<path d="M7.1153 33.2435C7.1153 30.2242 7.1153 27.224 7.1153 24.2129C7.1153 22.6126 7.54316 22.1844 9.13509 22.1816C15.2639 22.1816 21.3927 22.1816 27.5215 22.1816C29.0607 22.1816 29.508 22.6208 29.5135 24.1497C29.5246 30.205 29.5246 36.2611 29.5135 42.3181C29.5135 43.8498 29.0578 44.2945 27.5326 44.2972C21.3705 44.2972 15.2065 44.2972 9.04067 44.2972C7.5821 44.2972 7.12364 43.8333 7.11808 42.3758C7.10697 39.3344 7.1153 36.2904 7.1153 33.2435ZM26.2157 41.1131V25.4151H10.402V41.1131H26.2157Z" fill="#E43C5C"/>
+<path d="M18.2123 65.8225C21.2934 65.8225 24.3717 65.8225 27.45 65.8225C28.6057 65.8225 29.1974 66.2726 29.3419 67.1757C29.42 67.5663 29.3394 67.9717 29.1174 68.304C28.8954 68.6364 28.5499 68.869 28.1556 68.9516C27.9554 69.0051 27.749 69.0328 27.5416 69.034C21.3498 69.034 15.1572 69.034 8.96356 69.034C7.71891 69.034 7.12711 68.4658 7.12989 67.4227C7.13267 66.3797 7.74392 65.8362 8.97468 65.8307C12.0696 65.8115 15.1257 65.8225 18.2123 65.8225Z" fill="#E43C5C"/>
+<path d="M18.2032 52.617C15.2277 52.617 12.2522 52.617 9.2767 52.617C8.86418 52.6282 8.45251 52.5745 8.05709 52.4578C7.89571 52.4166 7.74429 52.3438 7.61186 52.2438C7.47943 52.1438 7.3687 52.0186 7.28608 51.8755C7.20347 51.7325 7.15069 51.5745 7.13089 51.411C7.1111 51.2475 7.12469 51.0817 7.17084 50.9235C7.34873 50.3736 7.70388 49.8964 8.18209 49.5647C8.52659 49.3314 9.11561 49.4165 9.59624 49.4165C15.4778 49.4165 21.3593 49.3918 27.2409 49.4412C27.9059 49.4535 28.5437 49.7042 29.0356 50.1466C29.3329 50.4513 29.38 51.3571 29.13 51.725C28.94 51.9687 28.701 52.1709 28.4279 52.3187C28.1549 52.4666 27.8538 52.557 27.5436 52.5841C24.432 52.6582 21.3176 52.617 18.2032 52.617Z" fill="#E43C5C"/>
+<path d="M18.3118 57.563C21.4235 57.563 24.5379 57.5465 27.6495 57.563C28.9803 57.563 29.6998 58.6253 29.2248 59.7808C28.9164 60.5329 28.2885 60.7141 27.5578 60.7114H8.98248C8.0601 60.7114 7.32948 60.4616 7.16278 59.4377C6.97942 58.2904 7.6184 57.5685 8.87972 57.5602C12.0164 57.5493 15.1641 57.563 18.3118 57.563Z" fill="#E43C5C"/>
+<path d="M18.1817 73.9883C21.26 73.9883 24.3392 73.9883 27.4193 73.9883C28.7084 73.9883 29.3835 74.5647 29.3641 75.5913C29.3446 76.6179 28.6945 77.1285 27.4582 77.1285C21.3016 77.1285 15.145 77.1285 8.98845 77.1285C7.72435 77.1285 7.13538 76.6179 7.12704 75.5749C7.11871 74.5318 7.6966 73.9965 8.94958 73.9911C12.0307 73.9801 15.1089 73.9883 18.1817 73.9883Z" fill="#E43C5C"/>
+<path d="M41.5905 52.617C39.9235 52.617 38.2566 52.6307 36.5896 52.617C35.3589 52.617 34.7005 52.0516 34.6727 51.0579C34.6449 50.0231 35.3283 49.411 36.6036 49.411C39.9374 49.3982 43.2648 49.3982 46.5858 49.411C47.8915 49.411 48.5305 49.96 48.5305 51.0195C48.5305 52.079 47.8721 52.606 46.5579 52.6143C44.916 52.628 43.2546 52.617 41.5905 52.617Z" fill="#E43C5C"/>
+<path d="M39.1073 77.1286C38.1738 77.1286 37.2375 77.1506 36.3041 77.1286C35.2789 77.0957 34.6593 76.4561 34.6843 75.5201C34.7093 74.5841 35.3039 74.0187 36.2902 74.005C38.2275 73.9775 40.1658 73.9775 42.1051 74.005C43.1302 74.0187 43.7525 74.6747 43.7247 75.608C43.6969 76.5412 43.0996 77.0984 42.1189 77.1259C41.1382 77.1533 40.1103 77.1286 39.1073 77.1286Z" fill="#E43C5C"/>
+<path d="M39.2129 60.7113C38.2433 60.7113 37.2681 60.7387 36.3041 60.7113C35.2678 60.6756 34.6593 60.0388 34.6843 59.1028C34.7093 58.1668 35.3011 57.5986 36.2874 57.5821C38.2266 57.5547 40.1649 57.5547 42.1023 57.5821C43.0941 57.5958 43.6886 58.1915 43.7247 59.0863C43.7609 59.9811 43.1441 60.6729 42.1189 60.7113C41.1521 60.7415 40.1825 60.7113 39.2129 60.7113Z" fill="#E43C5C"/>
+<path d="M38.463 65.8281C39.1575 65.8281 39.8521 65.7952 40.5411 65.8281C41.5301 65.8885 42.1024 66.4869 42.1163 67.39C42.1357 67.5972 42.1103 67.8062 42.0418 68.003C41.9734 68.1998 41.8635 68.3801 41.7194 68.5319C41.5752 68.6836 41.4001 68.8034 41.2056 68.8834C41.0111 68.9634 40.8016 69.0016 40.5911 68.9957C39.1408 69.0589 37.6823 69.0589 36.232 68.9957C36.0219 68.9989 35.8133 68.9589 35.6197 68.8781C35.426 68.7974 35.2515 68.6777 35.1072 68.5266C34.963 68.3756 34.8521 68.1965 34.7817 68.0008C34.7113 67.8051 34.683 67.5971 34.6984 67.39C34.7151 66.4896 35.293 65.8858 36.282 65.8281C36.9932 65.7952 37.724 65.8281 38.463 65.8281Z" fill="#E43C5C"/>
+<path d="M10.0328 8.63281C10.0328 7.74347 10.0133 6.85414 10.0328 5.96479C10.0522 5.07545 10.5662 4.53195 11.4525 4.50999C13.2861 4.46607 15.1198 4.46607 16.9534 4.50999C17.848 4.53195 18.3425 5.11937 18.3703 5.98126C18.4092 7.72335 18.4092 9.46727 18.3703 11.213C18.3508 12.1902 17.7452 12.7309 16.7756 12.7501C15.0475 12.7886 13.3139 12.7941 11.5858 12.7501C10.5884 12.7254 10.0744 12.1792 10.03 11.1938C9.99109 10.3401 10.03 9.48373 10.03 8.63007L10.0328 8.63281ZM15.1142 7.74897H13.3V9.48647H15.1253L15.1142 7.74897Z" fill="#004999"/>
+<path d="M23.5768 8.57212C23.5768 7.74865 23.5768 6.92519 23.5768 6.10172C23.5768 5.1218 24.0769 4.51791 25.066 4.49046C26.8635 4.44654 28.6777 4.44654 30.4641 4.49046C31.4004 4.51516 31.9116 5.09434 31.9227 6.02486C31.9421 7.73492 31.9505 9.44499 31.9227 11.1551C31.906 12.1377 31.367 12.7059 30.3835 12.7334C28.6221 12.7828 26.8626 12.7828 25.1049 12.7334C24.1241 12.7032 23.6324 12.124 23.5991 11.1249C23.5546 10.2794 23.5768 9.42852 23.5768 8.57212ZM26.8052 9.50262H28.6694V7.72669H26.7941L26.8052 9.50262Z" fill="#004999"/>
+<path d="M59.7518 69.3965L69.2146 60.429C69.5146 60.1545 69.7869 59.8306 70.1036 59.5698C70.3997 59.3015 70.7897 59.1573 71.1914 59.1675C71.5931 59.1777 71.975 59.3417 72.2567 59.6247C72.4046 59.758 72.5241 59.9191 72.6081 60.0986C72.6921 60.2781 72.739 60.4724 72.746 60.67C72.7529 60.8677 72.7199 61.0647 72.6488 61.2495C72.5776 61.4344 72.4698 61.6034 72.3317 61.7465C71.3538 62.8088 70.3175 63.8161 69.2979 64.84C66.7049 67.4476 64.1044 70.0516 61.4966 72.6519C60.402 73.7499 59.6852 73.7499 58.5822 72.7151C57.2061 71.414 55.8364 70.1083 54.4732 68.7981C53.6064 67.9747 53.5064 67.0826 54.1676 66.3716C54.8789 65.6086 55.7484 65.658 56.6986 66.5391C57.7821 67.541 58.8517 68.5538 59.7518 69.3965Z" fill="#E43C5C"/>
+</svg>
+
+
+                              </div>
+                              <h5>Usability Testing</h5>
+                              <p>
+                               After completing the project we apply usability testing to identify any bugs, issues or challenges. So, we can eliminate or prevent them.
+                              </p>
+                        </div>
+                  </div>
+                   <div class="col-lg-4 col-12 mt-5">
+                        <div class="custom-card custom-card-hover text-center card-service-equal h-100">
+                              <div class="img-theme">
+                                    <svg width="100" height="96" viewBox="0 0 100 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M44.4846 32.2651C42.1451 31.8097 40.0839 31.0393 38.4939 29.4323C37.7159 28.6215 37.0523 27.7105 36.5211 26.724C35.9161 25.6305 36.4621 24.7172 37.7417 24.4948C38.7589 24.3174 39.7975 24.2512 40.812 24.0685C43.4888 23.5814 44.482 22.3847 44.4846 19.7373C44.4846 15.7078 44.4846 11.681 44.4846 7.65157C44.4846 3.84185 46.8937 1.45117 50.7163 1.45117H93.6848C97.5635 1.45117 99.9888 3.85244 99.9914 7.69922C99.9914 16.3476 99.9914 25.0005 99.9914 33.6577C99.9914 37.5071 97.5823 39.9031 93.6848 39.9031H50.8127C46.8429 39.9031 44.4846 37.5548 44.4793 33.6047L44.4846 32.2651ZM40.0196 27.129C40.555 27.55 40.9566 27.9868 41.4491 28.2092C42.4981 28.6974 43.5825 29.1071 44.6934 29.435C46.4494 29.93 47.2712 30.8884 47.29 32.694C47.29 32.9905 47.29 33.2897 47.29 33.5862C47.29 36.0457 48.3982 37.1285 50.9064 37.1285H93.5777C96.0404 37.1285 97.1861 35.9928 97.1861 33.5544C97.1861 25.0013 97.1861 16.4473 97.1861 7.89248C97.1861 5.32708 96.0699 4.22573 93.4707 4.22308H50.909C48.4196 4.22308 47.3033 5.31913 47.3006 7.77599C47.3006 11.9378 47.3248 16.0996 47.2846 20.2615C47.2578 23.2266 45.7267 25.3976 43.0338 26.3507C42.121 26.6631 41.176 26.8351 40.0196 27.129Z" fill="#004999"/>
+<path d="M56.509 85.1983C56.509 85.6696 56.509 86.162 56.509 86.6545C56.493 90.255 54.1186 92.6272 50.4969 92.6298C42.8804 92.6404 35.2657 92.6404 27.6527 92.6298H7.30881C3.35245 92.6298 0.996817 90.3159 0.994141 86.4321C0.994141 77.8084 0.994141 69.1864 0.994141 60.5663C0.994141 56.7512 3.40331 54.3765 7.23385 54.3765C21.5942 54.3765 35.9545 54.3765 50.3148 54.3765C54.1239 54.3765 56.4983 56.7301 56.5037 60.4948C56.5037 64.5586 56.5037 68.6225 56.5037 72.6732C56.5037 75.13 57.4405 76.3134 59.8845 76.8482C60.99 77.0891 62.1304 77.1553 63.2466 77.3433C64.585 77.5736 65.0347 78.4288 64.4351 79.6519C63.019 82.5376 60.5644 84.097 57.5155 84.878C57.288 84.9362 57.0604 84.9786 56.8356 85.0395C56.7236 85.0859 56.6146 85.139 56.509 85.1983ZM60.9231 79.9034L60.0585 79.7445C55.6658 78.9953 53.7064 76.692 53.7037 72.2787C53.7037 68.3781 53.7037 64.4792 53.7037 60.5821C53.7037 58.2338 52.5955 57.1563 50.1943 57.1563H7.41057C4.90773 57.1563 3.80749 58.2418 3.80482 60.7092V86.2812C3.80482 88.828 4.8756 89.8605 7.46677 89.8605H50.1489C52.6464 89.8605 53.6984 88.8307 53.7037 86.395C53.7037 86.0958 53.7037 85.7993 53.7037 85.5028C53.7251 83.7343 54.5282 82.7124 56.2521 82.3258C57.9759 81.9393 59.5633 81.3569 60.9231 79.9034Z" fill="#004999"/>
+<path d="M92.3034 56.5156C92.5389 55.1734 93.0582 54.6624 93.9523 54.7577C94.7928 54.8504 95.1783 55.4249 95.189 56.5951C95.1518 56.9891 95.159 57.386 95.2105 57.7785C95.2801 58.1315 95.4689 58.4508 95.7458 58.6839C96.3152 59.0349 96.7842 59.5244 97.108 60.1055C97.4318 60.6867 97.5996 61.3403 97.5955 62.0038C97.5955 62.5995 97.7346 63.2402 97.558 63.7776C97.2555 64.6857 96.9772 65.8347 96.2839 66.3325C95.2131 67.0896 95.1301 67.9209 95.181 68.9985C95.2345 70.1183 95.2051 71.2435 95.181 72.366C95.1676 73.4409 94.675 73.9545 93.6096 73.989C92.306 74.0181 91.0051 74.0154 89.7015 73.989C88.7834 73.9704 88.1891 73.4065 88.1811 72.6202C88.1731 71.8339 88.7726 71.2594 89.6801 71.2303C90.542 71.2038 91.404 71.2303 92.3221 71.2303V67.1691C91.7359 67.5741 91.2326 67.7727 90.9489 68.138C89.4897 70.0504 87.4598 71.4609 85.146 72.1702C82.8322 72.8794 80.3516 72.8516 78.0546 72.0907C75.7573 71.334 73.7581 69.8832 72.339 67.9429C70.9198 66.0026 70.1522 63.6706 70.1446 61.2758C70.1398 58.7629 70.9705 56.3181 72.5087 54.318C74.0468 52.3178 76.2071 50.8732 78.6569 50.2067C81.1244 49.5399 83.7456 49.6989 86.1122 50.6591C88.4788 51.6192 90.4579 53.3264 91.7412 55.5149C91.9045 55.8114 92.0598 56.0762 92.3034 56.5156ZM81.6496 69.8615C82.8031 69.869 83.9466 69.6494 85.0135 69.2157C86.0805 68.7819 87.0495 68.1427 87.8643 67.3351C88.6791 66.5275 89.3234 65.5677 89.7597 64.5115C90.1959 63.4554 90.4154 62.324 90.4055 61.1831C90.4027 60.0505 90.1741 58.9295 89.7327 57.8843C89.2914 56.8391 88.646 55.8903 87.8335 55.0921C87.021 54.2938 86.0572 53.6619 84.9975 53.2325C83.9378 52.8031 82.8028 52.5845 81.6576 52.5894C79.3446 52.5936 77.1277 53.5054 75.4936 55.1245C73.8596 56.7436 72.9418 58.9378 72.9418 61.2255C72.9397 62.358 73.1633 63.4797 73.5997 64.5267C74.0361 65.5737 74.6767 66.5254 75.4851 67.3274C76.2936 68.1294 77.2539 68.766 78.3111 69.2008C79.3684 69.6356 80.5019 69.8602 81.6469 69.8615H81.6496ZM92.7959 64.9478C93.5321 64.6063 94.4555 64.4501 94.5573 64.0742C94.7848 63.2376 94.6885 62.2765 94.5278 61.4002C94.4823 61.1355 93.7837 61.0084 93.3394 60.794C93.152 62.2051 92.9967 63.3779 92.7933 64.9478H92.7959Z" fill="#004999"/>
+<path d="M19.2692 46.246H3.03956C1.39064 46.246 0.973026 45.8172 1.00782 44.1837C1.21929 34.6316 9.42913 26.7951 19.2611 26.7633C24.0054 26.7459 28.5715 28.5497 31.9981 31.795C35.4246 35.0403 37.4444 39.4739 37.6323 44.1625C37.6938 45.751 37.2388 46.2355 35.6032 46.2355L19.2692 46.246ZM34.6529 43.4212C34.5111 37.5359 28.879 29.6808 19.5556 29.5352C10.2322 29.3896 4.16918 37.1202 3.96842 43.4212H34.6529Z" fill="#004999"/>
+<path d="M81.6311 96.0003H65.3024C63.7766 96.0003 63.3189 95.5343 63.3644 94.0491C63.632 84.767 71.3441 77.002 80.6782 76.5916C90.371 76.1654 98.6692 82.9985 99.8282 92.3706C99.9005 92.9583 99.9674 93.5514 99.9835 94.1444C100.021 95.5264 99.5551 95.9976 98.1632 95.9976H81.6338L81.6311 96.0003ZM97.0604 93.186C96.6428 86.1676 89.9534 78.5587 80.1963 79.3318C73.0893 79.893 65.8378 87.0598 66.3838 93.186H97.0604Z" fill="#004999"/>
+<path d="M19.3521 0.000177668C20.875 7.58402e-05 22.3828 0.298855 23.7881 0.879221C25.1934 1.45959 26.4682 2.31001 27.5389 3.38118C28.6095 4.45236 29.4545 5.72299 30.0251 7.11949C30.5956 8.516 30.8802 10.0106 30.8625 11.5167C30.8293 14.5418 29.5867 17.4308 27.4063 19.5526C25.2259 21.6743 22.285 22.8562 19.2263 22.8399C16.1698 22.8092 13.2499 21.5831 11.1046 19.4296C8.95936 17.2761 7.76316 14.3703 7.77747 11.3472C7.78238 9.85002 8.08584 8.36846 8.67051 6.9874C9.25518 5.60633 10.1096 4.35291 11.1847 3.29889C12.2599 2.24486 13.5347 1.41096 14.9362 0.844916C16.3377 0.278873 17.8383 -0.00818684 19.3521 0.000177668ZM19.3521 2.77737C18.1983 2.7682 17.0541 2.98622 15.9863 3.4187C14.9185 3.85119 13.9484 4.4895 13.1325 5.29646C12.3166 6.10343 11.6712 7.06289 11.2339 8.11899C10.7966 9.17508 10.5762 10.3067 10.5855 11.4478C10.5904 13.7374 11.5139 15.9314 13.153 17.5481C14.7922 19.1648 17.0131 20.0721 19.328 20.0707C21.6435 20.0623 23.8616 19.1479 25.4977 17.5273C27.1338 15.9067 28.0549 13.7115 28.0598 11.4214C28.0641 10.2882 27.8422 9.16529 27.4068 8.11708C26.9714 7.06887 26.3311 6.11595 25.5227 5.31293C24.7142 4.50991 23.7535 3.8726 22.6955 3.4375C21.6376 3.00239 20.5032 2.77806 19.3575 2.77737H19.3521Z" fill="#004999"/>
+<path d="M77.0456 22.8557C80.7146 22.8557 84.3837 22.8557 88.0528 22.8557C89.2627 22.8557 89.956 23.3984 89.9266 24.288C89.8971 25.1775 89.2306 25.6276 88.0528 25.6276H65.9394C64.7911 25.6276 64.1299 25.0981 64.1299 24.2429C64.1299 23.3878 64.7911 22.8583 65.9367 22.8557C69.6433 22.8521 73.3462 22.8521 77.0456 22.8557Z" fill="#E43C5C"/>
+<path d="M64.7775 18.4952H56.0778C54.8331 18.4952 54.1558 18.0108 54.1371 17.1318C54.1184 16.2528 54.8117 15.7234 56.0296 15.7207C61.8633 15.7207 67.6979 15.7207 73.5334 15.7207C74.7915 15.7207 75.4474 16.1893 75.4635 17.0841C75.4795 17.979 74.8076 18.4952 73.4799 18.4952H64.7775Z" fill="#E43C5C"/>
+<path d="M80.1749 8.38713C82.8116 8.38713 85.451 8.38713 88.0876 8.38713C89.2494 8.38713 89.9106 8.89545 89.924 9.75852C89.9374 10.6216 89.2628 11.159 88.1198 11.159C82.7447 11.159 77.3687 11.159 71.9919 11.159C70.889 11.159 70.2894 10.6613 70.2813 9.79029C70.2733 8.91927 70.8622 8.39508 71.9597 8.38978C74.6981 8.3792 77.4365 8.38713 80.1749 8.38713Z" fill="#E43C5C"/>
+<path d="M63.7396 32.9662C61.1404 32.9662 58.5412 32.9662 55.9419 32.9662C54.8043 32.9662 54.1297 32.4367 54.1378 31.5684C54.1458 30.7 54.815 30.197 55.9634 30.1943H71.4622C72.6213 30.1943 73.2879 30.6894 73.3146 31.5419C73.3414 32.3944 72.6454 32.9636 71.4409 32.9662C68.8729 32.9698 66.3058 32.9698 63.7396 32.9662Z" fill="#E43C5C"/>
+<path d="M82.6669 32.9665C80.7932 32.9665 78.9194 32.9665 77.059 32.9665C75.9642 32.9665 75.3538 32.4556 75.3458 31.5951C75.3378 30.7347 75.9481 30.1999 77.0322 30.1973C80.7691 30.1973 84.5068 30.1973 88.2455 30.1973C89.2948 30.1973 89.9533 30.7771 89.9292 31.6163C89.9051 32.4556 89.2734 32.9559 88.2749 32.9639C86.4145 32.9771 84.5407 32.9665 82.6669 32.9665Z" fill="#E43C5C"/>
+<path d="M61.1825 11.1618C59.448 11.1618 57.7027 11.1618 55.9788 11.1618C54.8224 11.1618 54.1558 10.6562 54.1371 9.79839C54.1184 8.9406 54.7983 8.39258 55.9306 8.39258C59.4676 8.39258 63.0037 8.39258 66.5389 8.39258C67.7408 8.39258 68.3404 8.85323 68.3538 9.75602C68.3672 10.6588 67.7461 11.1618 66.48 11.1645C64.732 11.1645 62.9492 11.1618 61.1825 11.1618Z" fill="#E43C5C"/>
+<path d="M83.5801 15.7208C85.1461 15.7208 86.7121 15.7208 88.278 15.7208C89.2738 15.7208 89.9029 16.2662 89.9243 17.071C89.9457 17.8758 89.2899 18.4821 88.2432 18.4874C85.1435 18.498 82.0455 18.498 78.9493 18.4874C77.8652 18.4874 77.2629 17.9579 77.2736 17.0842C77.2843 16.2106 77.8892 15.7261 78.984 15.7181C80.5259 15.7128 82.049 15.7208 83.5801 15.7208Z" fill="#E43C5C"/>
+<path d="M58.1503 25.6304C57.3151 25.6304 56.48 25.6515 55.6475 25.6304C54.7427 25.5986 54.1324 25.0135 54.1377 24.2404C54.1431 23.4674 54.7561 22.8823 55.6662 22.8717C57.3687 22.8488 59.0711 22.8488 60.7736 22.8717C61.6784 22.8849 62.2887 23.4859 62.2834 24.259C62.278 25.032 61.6677 25.5827 60.7549 25.6357H58.1503V25.6304Z" fill="#E43C5C"/>
+<path d="M51.6991 73.502C51.6991 75.3182 51.6777 77.1343 51.6991 78.9505C51.7251 79.3126 51.6409 79.6741 51.4572 79.9884C51.2735 80.3027 50.9988 80.5553 50.6685 80.7137C47.5437 82.4787 44.4288 84.2648 41.3237 86.0722C40.5715 86.509 39.921 86.4693 39.1822 86.0378C36.1092 84.2446 33.0219 82.4796 29.9203 80.7428C29.5749 80.5804 29.2867 80.3193 29.093 79.9932C28.8992 79.667 28.8088 79.2909 28.8335 78.9134C28.8621 75.3146 28.8621 71.7167 28.8335 68.1197C28.8081 67.7583 28.8925 67.3978 29.0756 67.0841C29.2587 66.7704 29.5323 66.518 29.8615 66.3591C32.988 64.5941 36.1038 62.8097 39.2089 61.0059C39.5128 60.8025 39.8704 60.6919 40.2373 60.6876C40.6041 60.6834 40.9642 60.7858 41.2728 60.9821C44.4119 62.793 47.5571 64.5932 50.7087 66.3829C51.0354 66.5467 51.3046 66.8041 51.4813 67.1214C51.6579 67.4388 51.7338 67.8014 51.6991 68.162C51.6777 69.9358 51.6991 71.7202 51.6991 73.502ZM31.663 70.1662C31.663 72.9222 31.6442 75.4876 31.6897 78.0556C31.6897 78.3204 32.0163 78.6646 32.2813 78.8208C34.2488 79.9936 36.2403 81.1294 38.2266 82.2625C38.4358 82.3616 38.6523 82.4448 38.8743 82.5113C38.8743 79.8983 38.8744 77.3938 38.8556 74.8919C38.8508 74.7387 38.8124 74.5883 38.7431 74.4512C38.6738 74.314 38.5752 74.1934 38.4541 74.0977C36.2618 72.8057 34.0453 71.5429 31.663 70.1662ZM41.6823 82.6464C43.6605 81.5079 45.4299 80.3616 47.3305 79.4323C48.5779 78.8208 49.0222 78.0742 48.9366 76.6948C48.7974 74.5769 48.8991 72.4589 48.8991 70.1741C46.49 71.5614 44.2628 72.8454 42.0357 74.1453C41.9452 74.2049 41.8687 74.283 41.8115 74.3743C41.7542 74.4657 41.7174 74.5682 41.7038 74.6748C41.677 77.272 41.6823 79.8639 41.6823 82.6464ZM38.0499 70.5368C40.0682 72.0512 40.0682 72.0512 42.0518 70.9154L43.6124 70.0232L47.5553 67.7702C46.838 67.3572 46.2812 66.976 45.6816 66.7112C45.5424 66.6485 45.3917 66.6147 45.2389 66.612C45.086 66.6093 44.9342 66.6376 44.7928 66.6953C42.555 67.9396 40.3413 69.2237 38.0499 70.5368ZM33.1138 67.7014C34.3398 68.9351 35.5497 69.1019 36.8989 68.0111C37.4342 67.5769 38.0927 67.299 38.6977 66.9521L42.4051 64.8342C41.8888 64.4996 41.3525 64.1964 40.799 63.9261C40.4885 63.791 40.1368 63.7815 39.8193 63.8996C37.5841 65.1307 35.3757 66.4015 33.1138 67.7014Z" fill="#E43C5C"/>
+<path d="M16.2228 64.4845C18.391 64.4845 20.562 64.4845 22.7302 64.4845C23.8277 64.4845 24.4407 64.9875 24.4514 65.8479C24.4621 66.7084 23.8491 67.2511 22.773 67.2511C18.3652 67.2617 13.9582 67.2617 9.55216 67.2511C8.50017 67.2511 7.84433 66.6766 7.86574 65.8373C7.88716 64.9981 8.53496 64.4871 9.61104 64.4845C11.8141 64.4765 14.0171 64.4845 16.2228 64.4845Z" fill="#E43C5C"/>
+<path d="M15.4224 74.5925C13.4871 74.5925 11.5517 74.5925 9.61639 74.5925C8.54566 74.5925 7.88715 74.063 7.86573 73.2396C7.84432 72.4163 8.51618 71.8232 9.64848 71.8232C13.5227 71.8232 17.3953 71.8232 21.266 71.8232C22.4304 71.8232 23.0594 72.3289 23.0487 73.2237C23.038 74.1186 22.4143 74.5898 21.2311 74.5925C19.2958 74.6084 17.3524 74.5925 15.4224 74.5925Z" fill="#E43C5C"/>
+<path d="M19.4939 82.5191C18.7605 82.5191 18.0243 82.5483 17.2936 82.5191C16.4584 82.4741 15.8454 81.8652 15.9043 81.1266C15.9685 80.2873 16.461 79.7843 17.3283 79.7684C18.7604 79.7419 20.1979 79.7393 21.63 79.7684C22.4813 79.787 23.0059 80.245 23.0568 81.1107C23.1023 81.9049 22.5214 82.4874 21.5953 82.5244C20.8832 82.5509 20.1819 82.5191 19.4939 82.5191Z" fill="#E43C5C"/>
+<path d="M10.8472 82.5165C10.3118 82.5165 9.77647 82.5457 9.24111 82.5165C8.41396 82.4583 7.80368 81.8441 7.86792 81.1081C7.93484 80.3138 8.40329 79.8055 9.20634 79.7844C10.3065 79.7393 11.4093 79.7314 12.5068 79.7844C12.6847 79.7799 12.8615 79.8122 13.026 79.8792C13.1905 79.9463 13.339 80.0466 13.462 80.1737C13.5849 80.3008 13.6797 80.452 13.7402 80.6174C13.8006 80.7829 13.8255 80.959 13.8132 81.1346C13.8132 81.9526 13.334 82.4265 12.539 82.5139C11.9731 82.5501 11.4056 82.5545 10.8392 82.5271L10.8472 82.5165Z" fill="#E43C5C"/>
+</svg>
+
+
+                              </div>
+                              <h5>Deliver and support</h5>
+                              <p>
+                              Now we will deliver the project to the client and provide complete support if the client wants to change any feature. Also provide complete support if any issue will come in the future.
+                              </p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+
+   <div class="hiredevlopercard py-5 text-center">
+            <div class="container">
+                  <div class="row justify-content-center">
+                        <div class="col-lg-6 col-12">
+                              <h2 class="text-white mb-0">Hire a <span class="fontWt50">Dedicated Developer</span></h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('dedicated-developer') }}" class="hire-butn">Hire Now <i class="fa fa-chevron-right fa-ani"></i></a>
+                        </div>
+                  </div>
+            </div>
       </div>
+      <div class="bgYellow py-5 bottomUp">
+            <div class="container">
+                  <div class="col-lg-12 text-center">
+                        <h1 class="service_heading_text" style="line-height: 58px;">We offer Next-gen Technology</h1>
+                        <p>As a renowned IT service provider, we offer the following Next-gen technology services</p>
+                  </div>
+                        <div class="row justify-content-center">
+                              <div class="col-lg-5 col-12 mt-5">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group121.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>AWS Amplify & AWS Lamda</h5>
+                                          <p>
+                                             AWS Amplify and AWS Lambda allow mobile and web development experts to easily and quickly develop or... <a href="{{ url('/NextGen/AWS-ampify-&-AWS-lamda') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              <div class="col-lg-5 col-12 mt-5  offset-lg-1">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group122.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>Firebase</h5>
+                                          <p>
+                                             Get an advantage of firebase documentation and cross-platform service that allow developers to... <a href="{{ url('/NextGen/firebase') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              </div>
+                              <div class="row justify-content-center">
+                                <div class="col-lg-5 col-12 mt-5">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group123.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>Chatbot Development</h5>
+                                          <p>
+                                            Improve your customer engagement and satisfaction by providing a Chatbots facility that is used to ... <a href="{{ url('/NextGen/chatbot-dvelopment') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              <div class="col-lg-5 col-12 mt-5 offset-lg-1">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group124.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>AI & ML Development</h5>
+                                          <p>
+                                            Get advantage of improved work efficiency, predictive performance, automate repetitive tasks, archive... <a href="{{ url('/NextGen/AI-&-ML-development') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              <div class="col-lg-5 col-12 mt-5">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group125.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>RPA Development</h5>
+                                          <p>
+                                            Improve work efficiency, speed, customer experience, and employee productivity and save money or time... <a href="{{ url('/NextGen/RPA-development') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                        </div>
+            </div>
       </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-            <h4>Scalability and Reliability</h4>
-            <p>
-            From serving up your site’s static files to powering your dynamic applications, our infrastructure can handle it all. We’re here for you—no matter how big you grow. When you need more capacity, we have a plan that will scale with you. 
-            </p>
-      </div>
-      </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-            <h4>Save Money</h4>
-            <p>
-            Maybe you have a limited IT budget, or maybe it just seems smarter not to invest in a bunch of fancy hardware. Whatever your reason, no matter how small or large your company is (or if you’re managing it all yourself), every penny counts when it comes to your bottom line. Next-generation technologies are all about saving money and increasing efficiency.
-            </p>
-      </div>
-      </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-            <h4>Achieve Agility</h4>
-            <p>
-            By transforming your application development process into a flexible, iterative, and agile one, you will ensure that your business processes can react quickly to changes in their environment. Gone are the days of long development cycles and onerous project management regimes; let Agile methods help you become far more responsive and proactive than ever before.
-            </p>
-      </div>
-      </div>
-          <div class="col-lg-4 col-12 mt-4">
-            <div class="card-service-equal h-100">
-            <h4>Transparency</h4>
-            <p>
-            Today’s consumers are looking for businesses that respect their needs and their time. One of those ways you can do that is by embracing transparency. By adding a transparent pricing structure to your website or on a landing page, you’re letting customers know what they’ll pay before they need any additional information. It gives your business an air of reliability, while also showing them that they don’t have anything to lose by working with you.
-            </p>
-      </div>
-      </div>
-      </div>
-      
-      
      
-      
+      <div class="container" style="position: relative;bottom: 60px;">
+            <div class="row justify-content-center">
+              <div class="col-lg-12 col-12 text-center mt-3">
+                <h2>Benefits of Getting <br><span class="fontWt50 common-color-heading">Next-Gen Technologies service</span></h2>
+              </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-pink">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-pink">
+                                  <img src="{{ asset('assets/services/Group16.png') }}">
+                                </div>
+                                </div>
+                                <h5>Save Money</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">
+                               The next-gen technologies service will save you money in several ways.It will help cut your costs when it comes to printing materials like brochures, business cards, and pamphlets. It will also allow you to market your business on social media and online sites without having to spend hundreds of dollars a month on design services.
+                                </p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-blue">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-blue">
+                                  <img src="{{ asset('assets/services/Group17.png') }}">
+                                </div>
+                                </div>
+                                <h5>Automate your task</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">Next-Gen Technologies services can help you automate your task by giving you quick results. Let’s say you need to fill out a simple form. Simply click on Next-Gen Technologies and it will automatically complete your task in seconds. No more copying and pasting or waiting for someone else to get back to you.</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-pink">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-pink">
+                                  <img src="{{ asset('assets/services/Group18.png') }}">
+                                </div>
+                                </div>
+                                <h5>Improve productivity</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">Next-Gen Technologies services can help you automate your task by giving you quick results. Let’s say you need to fill out a simple form. Simply click on Next-Gen Technologies and it will automatically complete your task in seconds. No more copying and pasting or waiting for someone else to get back to you.</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-pink">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-pink">
+                                  <img src="{{ asset('assets/services/Group19.png') }}">
+                                </div>
+                                </div>
+                                <h5>Improved Control/Torque/Accuracy</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">Next-Gen Technologies service is designed to enable a tighter, more accurate control over your body. Next-Gen Technologies' service can have a tremendous impact on your sport or activity of choice. Next-Gen Technologies service is also useful for situations where being larger than life may be more appropriate than being more precise.</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-blue">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-blue">
+                                  <img src="{{ asset('assets/services/Group20.png') }}">
+                                </div>
+                                </div>
+                                <h5>Better security</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">As business applications migrate from on-premises data centers to cloud environments, organizations can take advantage of better security. Cloud computing providers monitor for vulnerabilities and patches.</p>
+                              </div>
+                        </div>
+                  </div>
 
-
-    </div>
-  <!-- content end -->
+            </div>
+      </div>
+      <div class=" text-center">
+            <div class="container">
+                  <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-6 col-12">
+                              <h2 class="mb-0 fontWt40">We <span class="fontWt50">Promise.</span> We <span class="fontWt50">Deliver.</span></h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('contact-us') }}" class="promiseBtn">Let’s Work Together <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div class="container py-5">
+            <div class="col-lg-10 col-12 text-center ml-auto mr-auto">
+                  <h3 class="">Why did you choose Prilient for the <br> <span class="fontWt70 common-color-heading">Next-Gen Technologies service?</span></h3>
+            </div>
+            <div class="col-lg-10 col-12 ml-auto mr-auto">
+                  <div class="col-12 col-lg-12 mt-5">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/experienced.svg')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>Experienced Developers</h5> 
+                                         <p>We have experienced IT experts, who will ensure to deliver the top-notch solution in less time with complete transparency. Our experts work with full innovation, dedication, integrity, and creativity to meet your business expectation.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/Group21.png')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>Scalability and Reliability</h5> 
+                                         <p>From serving up your site’s static files to powering your dynamic applications, our infrastructure can handle it all. We’re here for you—no matter how big you grow. When you need more capacity, we have a plan that will scale with you.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/Group22.png')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>Save Money</h5> 
+                                         <p>Maybe you have a limited IT budget, or maybe it just seems smarter not to invest in a bunch of fancy hardware. Whatever your reason, no matter how small or large your company is (or if you’re managing it all yourself), every penny counts when it comes to your bottom line. Next-generation technologies are all about saving money and increasing efficiency.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/Group23.png')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>Achieve Agility</h5> 
+                                         <p>By transforming your application development process into a flexible, iterative, and agile one, you will ensure that your business processes can react quickly to changes in their environment. Gone are the days of long development cycles and onerous project management regimes; let Agile methods help you become far more responsive and proactive than ever before.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/Group24.png')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>Transparency</h5> 
+                                         <p>Today’s consumers are looking for businesses that respect their needs and their time. One of those ways you can do that is by embracing transparency. By adding a transparent pricing structure to your website or on a landing page, you’re letting customers know what they’ll pay before they need any additional information. It gives your business an air of reliability, while also showing them that they don’t have anything to lose by working with you.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div class="pb-5 text-center">
+            <div class="container">
+                  <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-8 col-12">
+                              <h2 class="mb-0 fontWt40">We Love to Listen to Your Requirements</h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('contact-us') }}" class="promiseBtn">Estimate Project <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 @endsection

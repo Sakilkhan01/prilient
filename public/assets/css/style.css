@@ -2436,7 +2436,7 @@ body.hc-nav-open {
     font-weight: 600;
 }
 .fontWt70{
-    font-weight: 600;
+    font-weight: 700;
 }
 .bgRed {
     background: #bc1f3e;
@@ -2824,9 +2824,7 @@ body.hc-nav-open {
                                     background: #FFFFFF;
                                     box-shadow: 0px 4px 16px -3px rgba(0, 0, 0, 0.25);
                                 }
-                                .single-safety, .single-safety img {
-                                    margin-bottom: 30px;
-                                }
+                                
                                 .single-safety {
                                     padding: 30px;
                                     background-color: #fff;
