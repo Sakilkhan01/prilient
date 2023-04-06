@@ -270,6 +270,7 @@
                   </div>
             </div>
       </div>
+
       <div class="hiredevlopercard py-5 text-center">
             <div class="container">
                   <div class="row justify-content-center">
@@ -518,5 +519,6 @@ Services that Meet All Your Needs</h1>
                   </div>
             </div>
       </div>
-  <!-- content end -->
+
+
 @endsection
