@@ -88,7 +88,7 @@ border-radius: 36px 36px 0px 0px;
 </svg>
 
                               </div>
-                              <h5>Ideate and plan</h5>
+                              <h5>idea and plan</h5>
                               <p>Our experts research different data, brainstormed on different ideas, identify competitors' strategies, and analyze human behavior that helps to meet your business goals.
                               </p>
                         </div>
