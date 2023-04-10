@@ -73,6 +73,11 @@ Route::view('/app_development', 'front.pages.AppDevelopment.app_development');
 Route::get('/mobil_app_development', function () {
     return redirect('/app_development');
 });
+Route::get('/public/index.php/mobil_app_development', function () {
+    return redirect('/app_development');
+});
+
+
 Route::get('service/mobile_app_development', function () {
     return redirect('/app_development');
 });
