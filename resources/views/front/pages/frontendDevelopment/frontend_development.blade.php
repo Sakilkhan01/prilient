@@ -335,7 +335,7 @@ border-radius: 36px 36px 0px 0px;
                               </div>
                               <div class="p-3">
                                 <p class="m-0">
-                               The next-gen technologies service will save you money in several ways.It will help cut your costs when it comes to printing materials like brochures, business cards, and pamphlets. It will also allow you to market your business on social media and online sites without having to spend hundreds of dollars a month on design services.
+                               Front-end development is a great way to add functionality to your website, making it more interactive and user-friendly. In financial services such as accounting and investment management, a well-designed interface can improve productivity by providing users with direct access to the information they need.
                                 </p>
                               </div>
                         </div>
@@ -351,7 +351,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Education Services</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">Next-Gen Technologies services can help you automate your task by giving you quick results. Let’s say you need to fill out a simple form. Simply click on Next-Gen Technologies and it will automatically complete your task in seconds. No more copying and pasting or waiting for someone else to get back to you.</p>
+                                <p class="m-0">Front-end development services are still a new industry but it is gaining popularity in the education sector. We have been providing our service to various educational institutes for many years now and we have seen that they have benefited immensely from our services.</p>
                               </div>
                         </div>
                   </div>
@@ -366,7 +366,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Ecommerce Development</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">Next-Gen Technologies services can help you automate your task by giving you quick results. Let’s say you need to fill out a simple form. Simply click on Next-Gen Technologies and it will automatically complete your task in seconds. No more copying and pasting or waiting for someone else to get back to you.</p>
+                                <p class="m-0">In Ecommerce Development, we have an expert team to develop your website. Whether you want to build a new store or revamp your existing one, our team of dedicated professionals will create an intuitive and user-friendly shopping experience for your customers.</p>
                               </div>
                         </div>
                   </div>
@@ -381,7 +381,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Banking Services</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">Next-Gen Technologies service is designed to enable a tighter, more accurate control over your body. Next-Gen Technologies' service can have a tremendous impact on your sport or activity of choice. Next-Gen Technologies service is also useful for situations where being larger than life may be more appropriate than being more precise.</p>
+                                <p class="m-0">Banking Services are an important aspect of any business. Banks are liable for overseeing cash, and they need to have a decent connection point that makes it simple for clients to get to their records. This is where front-end developers come in. Front-end developers specialize in making user interfaces that are clean, simple, and user-friendly.</p>
                               </div>
                         </div>
                   </div>
