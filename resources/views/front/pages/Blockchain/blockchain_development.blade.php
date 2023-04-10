@@ -3,206 +3,350 @@
 @section('meta_keywords', "Blockchain development")
 @section('meta_description', "Blockchain development is the process of creating shared, unchangeable, distributed ledger technology (DLT) that securely records transactions and tracks assets")
 
+<style type="text/css">
+  .web-development-bg{
+  background: url('{{ asset('assets/images/banner/bg-gray.png') }}') 0 0 / cover;
+}
+.web-development-bg2{
+  background: url('{{ asset('assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
+}
+.fontWt30{
+  font-weight: 400 !important;
+}
+.common-color-heading{
+  background: linear-gradient(90.21deg, #024A99 13.01%, #E43C5C 65.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 30px;
+}
+.request-quote-card-body{
+border-radius: 36px 36px 0px 0px; 
+}
+.iconCircle{
+  padding: 12px!important;
+}
+</style>
+
 @section('content') 
-    <section class="hero-card-web-2 bg-gradient12 shape-bg3">
-         <div class="hero-main-rp container-fluid">
-            <div class="container">
-              <div class="row">
-               <div class="col-lg-5 alignCenter">
-                  <div class="hero-heading-sec text-center">
-                     <h2 class="wow fadeIn name-text" data-wow-delay="0.3s"><span>Blockchain Development Service</span></h2>
-                     <p class="wow fadeIn" data-wow-delay="0.6s">Ensure the high security of data, sensitive information, and application from Hacker with our Blockchain Development service</p>
-                     <p class="wow fadeIn" data-wow-delay="0.6s"></p>
-                     <a href="{{ url('contact-us') }}" class="niwax-btn2 wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+<section class="hero-card-web-2 web-development-bg web-development-bg2">
+      <div class="hero-main-rp container-fluid">
+         <div class="container">
+            <div class="row">
+                  <div class="col-lg-7 col-12 text-lg-left text-center mb-5">
+                        <h1 class="fontWt30"><span class="fontWt50 common-color-heading">BLOCKCHAIN DEVELOPMENT </span>  SERVICES</h1>
+                        <p class="mt-3">Ensure the high security of data, sensitive information, and application from Hacker with our Blockchain Development service</p>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
-               </div>
-               <div class="col-lg-2"></div>
-               <div class="col-lg-5 mt-sm-3">
-                   @include('front.pages.request_quote')
-               </div>
-            </div>
+                  <div class="col-lg-5 col-12 mt-4 mb-5">
+                        
+                  </div>
             </div>
          </div>
-      </section>
-
-
-  <!--End why-choose-->
-<div class="container">
-      <!-- <div class="col-lg-12 text-center py-5">
-          <div class="common-heading">
-            <h3>Make your application more secure with Blockchain Development</h3>
-            <p>Ensure the high security of data, sensitive information, and application from Hacker with our Blockchain Development service</p>
+      </div>
+</section>
+@include('front.pages.rq')
+<section class="service-content-body">
+    <div class="container pb-5">
+      <div class="row">
+       <div class="col-lg-5 col-12 text-center mt-5">
+            <!-- <img src="{{ asset('assets/services/Group143.svg') }}"> -->
+      </div>
+      <div class="col-lg-7 col-12 mt-5">
+          <div class="comman-service-heading">
+            <h2><span class="textRed fontWt50">Develop</span> A Secure Platform On The <span class="textPrim fontWt50">Blockchain Network</span></h2>
+             <p>In the era of this digital world, every people want privacy and security of their information. A decentralized blockchain network is an alternative option that provides top security, reliability, transparency, and robustness to your ecosystem. Blockchain is a peer-to-peer decentralized network system. Blockchain includes many things like cryptography, smart contract, NFT, tokenization, and coins.</p>
+             <p>Prilient is a renowned IT development and service provider company in India that offers comprehensive Blockchain Development services while maintaining your privacy. We have trusted IT professionals with enough experience who are capable of developing many things like smart contracts, tokens, cryptocurrency, metaverse, 3D design, NFT, blockchain networks, and dApps. They keep updated with market updates, automation tools, and advanced techniques to build reliable blockchain solutions.</p>
           </div>
-      </div> -->
-      <div class="col-lg-12 text-center py-5">
-          <div class="common-heading">
-            <h3>Develop a secure platform on the blockchain network</h3>
-            <p>In the era of this digital world, every people want privacy and security of their information. A decentralized blockchain network is an alternative option that provides top security, reliability, transparency, and robustness to your ecosystem. Blockchain is a peer-to-peer decentralized network system. Blockchain includes many things like cryptography, smart contract, NFT, tokenization, and coins.</p>
-            <p>
-            Prilient is a renowned IT development and service provider company in India that offers comprehensive Blockchain Development services while maintaining your privacy. We have trusted IT professionals with enough experience who are capable of developing many things like smart contracts, tokens, cryptocurrency, metaverse, 3D design,  NFT, blockchain networks, and dApps. They keep updated with market updates, automation tools, and advanced techniques to build reliable blockchain solutions.   
-            </p>  
-        </div>
       </div>
-      <div class="col-lg-12 text-center">
-          <div class="common-heading">
-            <h3 class="text-radius text-light text-animation bg-b">Blockchain development services offered by us</h3>
-        </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-              <h5 class="mb10">Smart contracts Development</h5>
-              <p>
-              Automate the execution of any function in your system by setting up a predetermined agreement. A smart contract is basically a set of codes that execute only when certain conditions are met. We at Prilient offer smart contract development services as per business requirements. Our developers have hands-on experience of developing smart contracts to meet business requirements.
-              </p>
-        <a href="{{ url('blockchain_development/smart-contracts-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+   </div>
+ </section>
+   <div class="hiredevlopercard py-5 text-center" style="bottom: 0px">
+            <div class="container">
+                  <div class="row justify-content-center">
+                        <div class="col-lg-6 col-12">
+                              <h2 class="text-white mb-0">Hire a <span class="fontWt50">Blockchain Developer</span></h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('dedicated-developer') }}" class="hire-butn">Hire Now <i class="fa fa-chevron-right fa-ani"></i></a>
+                        </div>
+                  </div>
             </div>
-        </div>
-        
-        <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-              <h5 class="mb10">Blockchain wallets Development</h5>
-              <p>
-              Transfer your fund securely with a blockchain wallet. A blockchain wallet helps to access your account on the blockchain network. Prilient has experienced blockchain developers that can develop secure blockchain wallets with 2-factor authentication, cold storage facility, and a one-time password. We also ensure to develop easy to access, feature-rich, and understandable wallet. 
-              </p>
-        <a href="{{ url('blockchain_development/blockchain-wallet-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-         </div>
-        </div>
-        <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-              <h5 class="mb10">Decentralized Apps (dApps) Development</h5>
-              <p>
-              Get advantage of blockchain technology by developing decentralized applications on the network of blockchain. A decentralized application is more secure, reliable, flexible, robust, and efficient than a centralized application. Our developers can develop a secure decentralized application with smart contracts, cryptocurrency accessibility, and tokenization. We ensure to provide top-notch solutions while maintaining privacy.  
-              </p>
-        <a href="{{ url('blockchain_development/decentralized-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-        </div>
-        </div>
-        <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-              <h5 class="mb10">Private/Public Blockchain Development</h5>
-              <p>
-              Develop your own public or private blockchain network as per your business requirement. We have lots of trusted blockchain developers who can develop your own blockchain network with complete security, automation technique, and smart contract that completely meet your business expectation. Our developers also ensure to provide complete support if any issue will come in. 
-             </p>
-        <a href="{{ url('blockchain_development/Private/Public-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-        </div>
-        </div>
-        <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-              <h5 class="mb10">Tokenization</h5>
-              <p>
-              Provide better customer experience, great security, the minimum risk from data breaches, and a smooth payment experience with tokenization service. Our developers are capable of providing tokenization solutions such as payment token issuing, preventing fraud, token vault, and provisioning token lifecycle management. They also ensure quality service and complete support.
-                      </p>
-        <a href="{{ url('blockchain_development/tokenization-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-        </div>
-        </div>
-        <div class="col-lg-4 col-12 mt-4">
-          <div class="card service-content line3 card-service-equal h-100">
-          <img  loading="lazy" src="{{ url('assets/images/icons/Web development.svg') }}" alt="service">
-              <h5 class="mb10">NFT</h5>
-              <p>
-              The non-fungible token is a piece of digital information in the format of a picture, gif, clip, and song. Our developers can develop NFT based platform for organizations and can integrate with cryptocurrency, crypto tokens, blockchain wallets, and a particular network. Our developers also ensure complete security, great user experience, and reliability of the platform.             </p>
-        <a href="{{ url('blockchain_development/NFT-development') }}" class="btn-main-2 bg-btn2 lnk">Read More<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-        </div>
-        </div>
       </div>
-      <div class="col-lg-12 text-center mt-5">
-          <div class="common-heading">
-            <h3>Benefits of getting Blockchain Development Service</h3>    
-        </div>
+      <div class="bgYellow py-5 bottomUp" style="position:unset;">
+            <div class="container">
+                  <div class="col-lg-9 col-12 text-center">
+                        <h1 class="service_heading_text" style="line-height: 58px;">Blockchain Development Services <br>Offered By Us</h1>
+                  </div>
+                        <div class="row justify-content-center">
+                              <div class="col-lg-5 col-12 mt-5">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle d-flex">
+                                           <img src="{{ asset('assets/services/Group164.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>Smart contracts Development</h5>
+                                          <p>
+                                              Automate the execution of any function in your system by setting up a predetermined agreement. A smart,... <a href="{{ url('blockchain_development/smart-contracts-development') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              <div class="col-lg-5 col-12 mt-5  offset-lg-1">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle d-flex">
+                                           <img src="{{ asset('assets/services/Group165.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>Blockchain wallets Development</h5>
+                                          <p>
+                                              Transfer your fund securely with a blockchain wallet. A blockchain wallet helps to access your account ...  <a href="{{ url('blockchain_development/blockchain-wallet-development') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              </div>
+                              <div class="row justify-content-center">
+                              <div class="col-lg-5 col-12 mt-5">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group166.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>Decentralized Apps (dApps) Development</h5>
+                                          <p>
+                                            Develop your own public or private blockchain network as per your business requirement. We have lots of... <a href="{{ url('blockchain_development/decentralized-development') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              <div class="col-lg-5 col-12 mt-5 offset-lg-1">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group167.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>Private/Public Blockchain Development</h5>
+                                          <p>
+                                             Develop your own public or private blockchain network as per your business requirement. We have lots of...<a href="{{ url('blockchain_development/Private/Public-development') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="row justify-content-center">
+                              <div class="col-lg-5 col-12 mt-5">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group168.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>Tokenization</h5>
+                                          <p>
+                                            Provide better customer experience, great security, the minimum risk from data breaches, and a smooth payment ... <a href="{{ url('blockchain_development/tokenization-development') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              <div class="col-lg-5 col-12 mt-5 offset-lg-1">
+                                    <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
+                                         <div class="iconCircle">
+                                           <img src="{{ asset('assets/services/Group169.svg') }}">
+                                         </div>
+                                         <div>
+                                           <h5>NFT</h5>
+                                          <p>
+                                            The non-fungible token is a piece of digital information in the format of a picture, gif, clip, and song. Our...  <a href="{{ url('blockchain_development/NFT-development') }}" class="readMoreService">Read More</a>
+                                          </p>
+                                         </div>
+                                    </div>
+                              </div>
+                              
+                        </div>
+            </div>
       </div>
-      <div class="row justify-content-center">
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card-service-equal h-100">
-            <h4>1. Greater transparency</h4>
-            <p>
-            Blockchain technology enables every transaction to be stored in a decentralized ledger, an ideal example being Bitcoin’s blockchain. This way, people and businesses can track transactions with more transparency and security. With proper usage of cryptographic protocols, however, it is possible to protect privacy when needed.            </p>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card-service-equal h-100">
-            <h4>2. Better reliability</h4>
-            <p>
-            Some businesses have been crippled, even destroyed, by bugs in their code. If you can’t be sure your program will work when you click publish, it’s better to have someone else build it. Today’s development services come with guarantees on everything from uptime to compatibility.             </p>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card-service-equal h-100">
-            <h4>3. Faster transactions</h4>
-            <p>
-            With no intermediaries, blockchain transactions can be processed much faster. This process is time-consuming because multiple parties are involved. Moreover, as information has to pass through many hands, there’s always room for human error. Since every block gets added at once in a blockchain system, they get validated almost instantaneously.            </p>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card-service-equal h-100">
-            <h4>4. Lower risk of fraud and error</h4>
-            <p>
-            There’s no way to change or edit information on a blockchain, making it far more difficult for fraudsters to steal your data. That doesn’t mean it can’t be hacked, but with blockchain technology, it would require an unfathomably large amount of computing power to pull off. A government. And we all know how trustworthy governments are when it comes to hacking...            </p>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card-service-equal h-100">
-            <h4>5. Better security</h4>
-            <p>
-            Since a blockchain is a decentralized database, it’s much harder for hackers to break in and steal valuable information. Its decentralized structure also makes tampering almost impossible. As it is stored in millions of places across its network, any changes made on one computer will be met with resistance from other computers on its network.         </p>
-      </div>
-      </div>
-      </div>
-      <div class="-cta-btn mt40">
-               <div class="free-cta-title v-center wow fadeInUp" data-wow-delay="1s">
-                  <p>We <span>Promise.</span> We <span>Deliver.</span></p>
-                  <a href="{{ url('contact-us') }}" class="btn-main bg-btn2 lnk">Let's Work Together<i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-               </div>
-      </div>
-      <div class="col-lg-12 text-center mt-5">
-          <div class="common-heading">
-            <h3>Why Prilient is Best option for Blockchian Development?</h3>    
-        </div>
-      </div>
-      <div class="row justify-content-center pb-5">
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card-service-equal h-100">
-            <h4>1. Skilled Developers</h4>
-            <p>
-            Blockchain developers are hard to find. There’s such a high demand for them, companies can afford to be picky. This isn’t true of most other tech jobs. If you want an iOS developer, for example, there are tons of companies who need your skills—they just need you to make your phone work on their network. Blockchain development, on the other hand, is complex and risky; it requires specific expertise, and that means you have options when it comes to hiring a company.          </p>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card-service-equal h-100">
-            <h4>2. Transparency</h4>
-            <p>
-            At Prilient, we offer full transparency. From showing you our work to giving you access to it via Call, skype, FTP or Git, you know what’s going on at all times. You can even see who’s working on your project and when they started. And if you have any questions about your project, just ask! We’re here to help.            </p>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card-service-equal h-100">
-            <h4>3. Save Money</h4>
-            <p>
-            We have solved high money charge problem by bringing in a team of highly experienced and talented blockchain developers at a fraction of the cost. Our employees are here to stay, not to fill up our books or pocket your money. We deliver high-quality products every time at an affordable price, so you’ll never have to look elsewhere.            </p>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card-service-equal h-100">
-            <h4>4. Support</h4>
-            <p>
-            When you work with Prilient, our team will have your back. We pride ourselves on providing superior customer service that keeps you informed and updated at every step of your project. Our customer support channels are open to all clients 24/7, and we’re here to answer any questions you may have about custom development services.           </p>
-      </div>
-      </div>
-      <div class="col-lg-4 col-12 mt-4">
-          <div class="card-service-equal h-100">
-            <h4>5. Deliver on time</h4>
-            <p>
-            If your services or product are not delivered on time, then your customer will never trust you. On-time delivery and execution give a clear idea to the customer that they are dealing with a professional company. It also builds trust between both parties. It’s important for every business to deliver products or services on time. You can also use it as a competitive advantage over other companies in your industry.            </p>
-      </div>
-      </div>
-      </div>
-    
-    
 
-    </div>
-  <!-- content end -->
+     
+      <div class="container mt-5">
+            <div class="row justify-content-center">
+              <div class="col-lg-12 col-12 text-center mt-3">
+                        <h1 class="service_heading_text" style="line-height: 58px;">Benefits of getting Blockchain<br> Development Service</h1>
+              </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-pink">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-pink">
+                                  <img src="{{ asset('assets/services/Group84.png') }}">
+                                </div>
+                                </div>
+                                <h5>Greater transparency</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">
+                              Blockchain technology enables every transaction to be stored in a decentralized ledger, an ideal example being Bitcoin’s blockchain. This way, people and businesses can track transactions with more transparency and security. With proper usage of cryptographic protocols, however, it is possible to protect privacy when needed.
+                                </p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-blue">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-blue">
+                                  <img src="{{ asset('assets/services/Group85.png') }}">
+                                </div>
+                                </div>
+                                <h5>Better reliability</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">Some businesses have been crippled, even destroyed, by bugs in their code. If you can’t be sure your program will work when you click publish, it’s better to have someone else build it. Today’s development services come with guarantees on everything from uptime to compatibility.</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-pink">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-pink">
+                                  <!-- <img src="{{ asset('assets/services/Group34.png') }}"> -->
+                                </div>
+                                </div>
+                                <h5>Faster transactions</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">With no intermediaries, blockchain transactions can be processed much faster. This process is time-consuming because multiple parties are involved. Moreover, as information has to pass through many hands, there’s always room for human error. Since every block gets added at once in a blockchain system, they get validated almost instantaneously.</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-pink">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-pink">
+                                  <!-- <img src="{{ asset('assets/services/Group34.png') }}"> -->
+                                </div>
+                                </div>
+                                <h5>Lower risk of fraud and error</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">There’s no way to change or edit information on a blockchain, making it far more difficult for fraudsters to steal your data. That doesn’t mean it can’t be hacked, but with blockchain technology, it would require an unfathomably large amount of computing power to pull off. A government. And we all know how trustworthy governments are when it comes to hacking.</p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-lg-4 col-12 mt-5">
+                        <div class="card-with-icon text-center card-service-equal h-100  p-0">
+                              <div class="header_card bg-header-card-blue">
+                                <div class="img-liner">
+                                <div class="header_icon bg-header-card-blue">
+                                  <img src="{{ asset('assets/services/Group89.png') }}">
+                                </div>
+                                </div>
+                                <h5>Better security</h5>
+                              </div>
+                              <div class="p-3">
+                                <p class="m-0">Since a blockchain is a decentralized database, it’s much harder for hackers to break in and steal valuable information. Its decentralized structure also makes tampering almost impossible. As it is stored in millions of places across its network, any changes made on one computer will be met with resistance from other computers on its network.</p>
+                              </div>
+                        </div>
+                  </div>
+
+            </div>
+      </div>
+       <div class="text-center py-5">
+            <div class="container">
+                  <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-6 col-12">
+                              <h2 class="mb-0 fontWt40">We <span class="fontWt50">Promise.</span> We <span class="fontWt50">Deliver.</span></h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('contact-us') }}" class="promiseBtn">Let’s Work Together <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div class="container pb-5">
+            <div class="col-lg-10 col-12 text-center ml-auto mr-auto">
+              <h2>Why Prilient is Best<br> <span class="fontWt70 common-color-heading">Option for Blockchian Development?</span></h2>
+            </div>
+            <div class="col-lg-11 col-12 ml-auto mr-auto">
+                  <div class="col-12 col-lg-12 mt-5">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/Group90.png')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>Skilled Developers</h5> 
+                                         <p>Blockchain developers are hard to find. There’s such a high demand for them, companies can afford to be picky. This isn’t true of most other tech jobs. If you want an iOS developer, for example, there are tons of companies who need your skills—they just need you to make your phone work on their network. Blockchain development, on the other hand, is complex and risky; it requires specific expertise, and that means you have options when it comes to hiring a company.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/Group91.png')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>Transparency</h5> 
+                                         <p>At Prilient, we offer full transparency. From showing you our work to giving you access to it via Call, skype, FTP or Git, you know what’s going on at all times. You can even see who’s working on your project and when they started. And if you have any questions about your project, just ask! We’re here to help.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/Group92.png')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>Save Money</h5>
+                                         <p>We have solved high money charge problem by bringing in a team of highly experienced and talented blockchain developers at a fraction of the cost. Our employees are here to stay, not to fill up our books or pocket your money. We deliver high-quality products every time at an affordable price, so you’ll never have to look elsewhere.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/Group23.png')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>Support</h5> 
+                                         <p>When you work with Prilient, our team will have your back. We pride ourselves on providing superior customer service that keeps you informed and updated at every step of your project. Our customer support channels are open to all clients 24/7, and we’re here to answer any questions you may have about custom development services.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  <div class="col-12 col-lg-12 mt-4">
+                        <div class="bottom_card_product">
+                              <div class="row">
+                                   <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
+                                         <img src="{{asset('assets/services/Group83.png')}}">
+                                   </div> 
+                                   <div class="col-lg-10 col-12 borderLeft">
+                                         <h5>Deliver on time</h5> 
+                                         <p>If your services or product are not delivered on time, then your customer will never trust you. On-time delivery and execution give a clear idea to the customer that they are dealing with a professional company. It also builds trust between both parties. It’s important for every business to deliver products or services on time. You can also use it as a competitive advantage over other companies in your industry.</p>   
+                                   </div> 
+                              </div>
+                        </div>
+                  </div>
+                  
+            </div>
+      </div>
+      <div class="pb-5 text-center">
+            <div class="container">
+                  <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-8 col-12">
+                              <h2 class="mb-0 fontWt40">We Love to Listen to Your Requirements</h2>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4 mt-lg-0 justify-content-lg-left justify-content-center align-items-center d-flex">
+                              <a href="{{ url('contact-us') }}" class="promiseBtn">Estimate Project <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                  </div>
+            </div>
+      </div>
 @endsection
