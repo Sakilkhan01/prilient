@@ -1,8 +1,8 @@
 @extends('front.layouts.app')
 @section('title',__('Blog'))
 @section('content')
-<link href="{{ url('frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
-<link href="{{ url('frontent/blog/bootstrap-icons/bootstrap-icons.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
+<link href="{{ url('public/frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
+<link href="{{ url('public/frontent/blog/bootstrap-icons/bootstrap-icons.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
 <style type="text/css">
     ol, ul {
     padding-left: 1rem !important;
@@ -77,7 +77,7 @@
     <div class="container">
 
         <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{url('/')}}">Home</a></li>
             <li>Blog</li>
         </ol>
         <h2>Blog</h2>
@@ -104,7 +104,7 @@
                         <div class="card">
                               <div class="inner-card">
                                 <div class="img-wrapper">
-                                  <img src="{{url('upload/blog/'.$row->image)}}" alt="">
+                                  <img src="{{url('public/upload/blog/'.$row->image)}}" alt="">
                                 </div>
                                 <div class="p-2">
                                     <div class="entry-meta">

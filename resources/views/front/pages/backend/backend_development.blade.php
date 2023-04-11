@@ -5,10 +5,10 @@
 
 <style type="text/css">
   .web-development-bg{
-  background: url('{{ asset('assets/images/banner/bg-gray.png') }}') 0 0 / cover;
+  background: url('{{ asset('public/assets/images/banner/bg-gray.png') }}') 0 0 / cover;
 }
 .web-development-bg2{
-  background: url('{{ asset('assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
+  background: url('{{ asset('public/assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
 }
 .fontWt30{
   font-weight: 400 !important;
@@ -46,7 +46,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
        <div class="col-lg-5 col-12 text-center mt-5">
-            <img src="{{ asset('assets/services/Group143.svg') }}">
+            <img src="{{ asset('public/assets/services/Group143.svg') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
@@ -98,7 +98,7 @@ border-radius: 36px 36px 0px 0px;
 
                               </div>
                               <h5>Understand your business requirement</h5>
-                              <p>Our team carefully understands your business goal, objective, and vision. We also analyze market requirements, competitors' strategies, and data to develop a great solution. You can also hire a backend developer as per need.
+                              <p>Our team carefully understands your business goal, objective, and vision. We also analyze market requirements, competitors' strategies, and data to develop a great solution.
                               </p>
                         </div>
                   </div>
@@ -187,7 +187,7 @@ border-radius: 36px 36px 0px 0px;
                               </div>
                               <h5>Usability Testing</h5>
                               <p>
-                              After development, we apply usability testing that helps to identify bugs, challenges, and security issues. We eliminate all the risks, reduce issues, and prevent bugs.
+                              After development, we apply usability testing that helps to identify bugs, challenges, and security issues.
                               </p>
                         </div>
                   </div>
@@ -233,7 +233,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('assets/services/Group149.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group149.svg') }}">
                                          </div>
                                          <div>
                                            <h5>PHP Development</h5>
@@ -246,7 +246,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5  offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('assets/services/Group150.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group150.svg') }}">
                                          </div>
                                          <div>
                                            <h5>NodeJS Development</h5>
@@ -261,7 +261,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group151.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group151.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Python Development</h5>
@@ -274,7 +274,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5 offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group152.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group152.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Laravel Development</h5>
@@ -289,7 +289,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group153.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group153.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Symfony Development</h5>
@@ -302,7 +302,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5 offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group154.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group154.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Java Development</h5>
@@ -315,7 +315,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('assets/services/Group155.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group155.svg') }}">
                                          </div>
                                          <div>
                                            <h5>.NET Development</h5>
@@ -339,7 +339,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group37.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group37.png') }}">
                                 </div>
                                 </div>
                                 <h5>Better user experience</h5>
@@ -356,7 +356,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('assets/services/Group38.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group38.png') }}">
                                 </div>
                                 </div>
                                 <h5>Security in check</h5>
@@ -371,13 +371,13 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group39.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group39.png') }}">
                                 </div>
                                 </div>
                                 <h5>Excellent functionality</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">Most companies hire freelance developers because they do not have sufficient internal resources to handle a project. it is likely that you will receive better work from an employee with a vested interest in their company’s success and future. To get great results out of your project, it’s best to hire a dedicated team rather than a freelancer.</p>
+                                <p class="m-0">Most companies hire freelance developers because they do not have sufficient internal resources to handle a project. it is likely that you will receive better work from an employee with a vested interest in their company’s success and future.</p>
                               </div>
                         </div>
                   </div>
@@ -386,13 +386,13 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group40.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group40.png') }}">
                                 </div>
                                 </div>
                                 <h5>Scalability</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">We are looking for a team of Backend Developers to create scalable backend and API which can easily be integrated into existing web applications and mobile applications. Scalability in every business is one of the very important factors, If you want your business to grow then scalability is a must-have feature.</p>
+                                <p class="m-0">We are looking for a team of Backend Developers to create scalable backend and API which can easily be integrated into existing web applications and mobile applications. Scalability in every business is one of the very important factors</p>
                               </div>
                         </div>
                   </div>
@@ -401,7 +401,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('assets/services/Group41.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group41.png') }}">
                                 </div>
                                 </div>
                                 <h5>Reduce cost and time to market</h5>
@@ -416,7 +416,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group42.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group42.png') }}">
                                 </div>
                                 </div>
                                 <h5>Cost-Effectiveness</h5>
@@ -450,7 +450,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group44.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group44.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Quality</h5> 
@@ -463,7 +463,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group45.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group45.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Transparency</h5> 
@@ -476,7 +476,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group46.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group46.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Customization</h5> 
@@ -489,7 +489,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group23.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group23.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Support</h5> 
@@ -502,7 +502,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group47.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group47.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Deliver on time</h5> 
@@ -515,7 +515,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group48.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group48.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Cost-Effectiveness</h5> 

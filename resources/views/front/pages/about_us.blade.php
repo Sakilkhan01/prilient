@@ -2,7 +2,7 @@
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1" data-background="{{ url('public/assets/images/banner/9.jpg') }}">
     <div class="text-block">
       <div class="container">
         <div class="row">
@@ -24,7 +24,7 @@
       <div class="row">
         <div class="col-lg-6 v-center">
           <div class="about-image">
-            <img src="{{ url('assets/images/about/company-about.png') }}" alt="about us" class="img-fluid"/>
+            <img src="{{ url('public/assets/images/about/company-about.png') }}" alt="about us" class="img-fluid"/>
           </div>
         </div>
         <div class="col-lg-6">
@@ -49,7 +49,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/startup.svg') }}" alt="years" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/icons/startup.svg') }}" alt="years" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">3</span><span>+</span>
@@ -60,7 +60,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/team.svg') }}" alt="team" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/icons/team.svg') }}" alt="team" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">40</span><span>+</span>
@@ -73,7 +73,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/deal.svg') }}" alt="happy" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/icons/deal.svg') }}" alt="happy" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">50</span><span>+</span>
@@ -84,7 +84,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
                      </div>
                      <div class="statnumb counter-number">
                         <span class="counter">60</span><span>+</span>
@@ -96,7 +96,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics mb0">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/customer-service.svg') }}" alt="support" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/icons/customer-service.svg') }}" alt="support" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">24</span><span>/</span><span class="counter">7</span>
@@ -123,7 +123,7 @@
       <div class="row upset">
         <div class="col-lg-3 col-sm-6 mt30">
           <div class="s-block up-hor">
-            <div class="s-card-icon"><img src="{{ url('assets/images/icons/research.svg') }}" alt="service" class="img-fluid"/></div>
+            <div class="s-card-icon"><img src="{{ url('public/assets/images/icons/research.svg') }}" alt="service" class="img-fluid"/></div>
             <h4>Reasearch and Analysis</h4>
             <p>We do in-depth research and analysis for your product so that you can create new innovative products. We cover a wide range of industries and are constantly updating our skillset. You will get an accurate report on how to improve your product or service, what features to add, what features to remove, etc. We provide Visualize and analyze the data to help you understand our conclusions in all reports.
       </p>
@@ -131,7 +131,7 @@
         </div>
         <div class="col-lg-3 col-sm-6 mt30">
           <div class="s-block up-hor">
-            <div class="s-card-icon"><img src="{{ url('assets/images/icons/chat.svg') }}" alt="service" class="img-fluid"/></div>
+            <div class="s-card-icon"><img src="{{ url('public/assets/images/icons/chat.svg') }}" alt="service" class="img-fluid"/></div>
             <h4>Negotiation and power</h4>
             <p>It is one of our biggest strengths that is being reviewed by most of our clients from time to time. We do negotiation and power so well that we would always win on any case even when we have very little chance to win. You can get things done in your favor by using a variety of negotiation tactics and strategies. In addition to website design, we offer services related to negotiation and power in India.
       </p>
@@ -139,14 +139,14 @@
         </div>
         <div class="col-lg-3 col-sm-6 mt30">
           <div class="s-block up-hor">
-            <div class="s-card-icon"><img src="{{ url('assets/images/icons/monitor.svg') }}" alt="service" class="img-fluid"/></div>
+            <div class="s-card-icon"><img src="{{ url('public/assets/images/icons/monitor.svg') }}" alt="service" class="img-fluid"/></div>
             <h4>Creative and innovative solutions</h4>
             <p>We are not your average technology company. Instead of cookie-cutter solutions, we focus on finding creative and innovative solutions to specific business challenges with a long-term vision in mind. We deliver high-quality results that enable businesses to grow their brands, manage and store data more efficiently, and innovate creatively. That’s why our clients choose us again and again for their projects.</p>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 mt30">
           <div class="s-block up-hor">
-            <div class="s-card-icon"><img src="{{ url('assets/images/icons/trasparency.svg') }}" alt="service" class="img-fluid"/></div>
+            <div class="s-card-icon"><img src="{{ url('public/assets/images/icons/trasparency.svg') }}" alt="service" class="img-fluid"/></div>
             <h4>Easy access to information and transparency</h4>
             <p>The thing about transparent technologies is that you don’t really think about them; you just notice how easy they make your work. And that, above all else, is what we strive for: to make sure our solutions are transparent to our clients. Our goal is to allow you to concentrate on what you do best, while we take care of everything else. In the end, technology should serve a purpose rather than become its own end.</p>
           </div>

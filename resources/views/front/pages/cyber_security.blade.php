@@ -25,7 +25,7 @@ border-radius: 36px 36px 0px 0px;
 </style>
 
 @section('content') 
-<section class="hero-card-web-2 cyber-bg" style="background-image: url({{ asset('assets/images/banner/Cyberwarrior2x.png') }});">
+<section class="hero-card-web-2 cyber-bg" style="background-image: url({{ asset('public/assets/images/banner/Cyberwarrior2x.png') }});">
       <div class="hero-main-rp container-fluid">
          <div class="container">
             <div class="row">
@@ -44,7 +44,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
        <div class="col-lg-5 col-12 text-center mt-5">
-            <img src="{{ asset('assets/services/Group106.png') }}">
+            <img src="{{ asset('public/assets/services/Group106.png') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
@@ -72,7 +72,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group1.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group1.png') }}">
                                 </div>
                                 </div>
                                 <h5>Virtual CISO</h5>
@@ -89,7 +89,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('assets/services/Group2.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group2.png') }}">
                                 </div>
                                 </div>
                                 <h5>Data Governance</h5>
@@ -104,7 +104,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group3.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group3.png') }}">
                                 </div>
                                 </div>
                                 <h5>Third-Party Risk Management</h5>
@@ -147,7 +147,7 @@ border-radius: 36px 36px 0px 0px;
 </svg>
 
 
-                                    <!-- <img src="{{ asset('assets/services/marketing-research.svg') }}"> -->
+                                    <!-- <img src="{{ asset('public/assets/services/marketing-research.svg') }}"> -->
                               </div>
                               <h5>Safeguard Your Business Prestige</h5>
                               <p>In order to develop a successful product, we must first learn everything we can about your product and your target market.  In some cases, we may even conduct focus groups or surveys with your potential customers to get a sense of what they’re looking for in a new product.
@@ -198,7 +198,7 @@ border-radius: 36px 36px 0px 0px;
 
 
 
-                                    <!-- <img src="{{ asset('assets/services/marketing-research.svg') }}"> -->
+                                    <!-- <img src="{{ asset('public/assets/services/marketing-research.svg') }}"> -->
                               </div>
                               <h5>Increases Your Website or Application Security</h5>
                               <p>

@@ -25,8 +25,8 @@
             <div class="container">
                <div class="row justify-content-between">
                   <div class="col-lg-3 col-sm-6  ftr-brand-pp">
-                     <a class="navbar-brand mt30 mb25 f-dark-logo" href="#"> <img src="{{ url('assets/images/logo.png') }}" alt="Logo"/></a>
-                     <a class="navbar-brand mt30 mb25 f-white-logo" href="#"> <img src="{{ url('assets/images/white-logo.png') }}" alt="Logo" /></a>
+                     <a class="navbar-brand mt30 mb25 f-dark-logo" href="#"> <img src="{{ url('public/assets/images/logo.png') }}" alt="Logo"/></a>
+                     <a class="navbar-brand mt30 mb25 f-white-logo" href="#"> <img src="{{ url('public/assets/images/white-logo.png') }}" alt="Logo" /></a>
                      <p>Prilient is a technology and development company dedicated to creating cutting-edge products for businesses. </p>
                      <a href="{{ url('contact-us') }}" class="btn-main bg-btn3 lnk mt20">Become Partner <i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                   </div>
@@ -103,13 +103,13 @@
           <button class="toggle button" data-target="myPopup">Got it !</button>
         </div>
       </div>
-      <script src="{{ url('assets/js/jquery.min.js') }}"></script>
-      <script src="{{ url('assets/js/bootstrap.bundle.min.js') }}"></script> 
-      <script src="{{ url('assets/js/plugin.min.js') }}"></script>
-      <script src="{{ url('assets/js/preloader.js') }}"></script>
-      <script src="{{ url('assets/js/dark-mode.js') }}"></script>
-      <script src="{{ url('assets/js/main.js') }}" defer></script>      
-      <script src="{{ url('assets/js/progress-bar.js') }}"></script>  
+      <script src="{{ url('public/assets/js/jquery.min.js') }}"></script>
+      <script src="{{ url('public/assets/js/bootstrap.bundle.min.js') }}"></script> 
+      <script src="{{ url('public/assets/js/plugin.min.js') }}"></script>
+      <script src="{{ url('public/assets/js/preloader.js') }}"></script>
+      <script src="{{ url('public/assets/js/dark-mode.js') }}"></script>
+      <script src="{{ url('public/assets/js/main.js') }}" defer></script>      
+      <script src="{{ url('public/assets/js/progress-bar.js') }}"></script>  
       
       <style type="text/css">
     .whatsapp_icon{

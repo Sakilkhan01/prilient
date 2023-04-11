@@ -6,10 +6,10 @@
 
 <style type="text/css">
   .web-development-bg{
-  background: url('{{ asset('assets/images/banner/bg-gray.png') }}') 0 0 / cover;
+  background: url('{{ asset('public/assets/images/banner/bg-gray.png') }}') 0 0 / cover;
 }
 .web-development-bg2{
-  background: url('{{ asset('assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
+  background: url('{{ asset('public/assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
 }
 .fontWt30{
   font-weight: 400 !important;
@@ -50,7 +50,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
        <div class="col-lg-5 col-12 text-center mt-5">
-            <!-- <img src="{{ asset('assets/services/Group143.svg') }}"> -->
+            <!-- <img src="{{ asset('public/assets/services/Group143.svg') }}"> -->
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
@@ -84,7 +84,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('assets/services/Group156.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group156.svg') }}">
                                          </div>
                                          <div>
                                            <h5>SaaS Development</h5>
@@ -97,7 +97,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5  offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('assets/services/Group157.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group157.svg') }}">
                                          </div>
                                          <div>
                                            <h5>IaaS Development</h5>
@@ -112,7 +112,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group158.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group158.svg') }}">
                                          </div>
                                          <div>
                                            <h5>PaaS Development</h5>
@@ -125,7 +125,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5 offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group159.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group159.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Cloud App Development</h5>
@@ -140,7 +140,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group160.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group160.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Cloud Migration</h5>
@@ -153,7 +153,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5 offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group161.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group161.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Cloud Security</h5>
@@ -166,7 +166,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('assets/services/Group162.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group162.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Amazon cloud application development</h5>
@@ -179,7 +179,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5 offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('assets/services/Group163.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group163.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Azure Cloud Development</h5>
@@ -196,7 +196,7 @@ border-radius: 36px 36px 0px 0px;
        <div class="container">
                               <div class="row">
                                     <div class="col-lg-5 col-12">
-                                          <!-- <img class="img-fluid" src="{{ asset('assets/services/ui-ux-icon_full.svg') }}"> -->
+                                          <!-- <img class="img-fluid" src="{{ asset('public/assets/services/ui-ux-icon_full.svg') }}"> -->
                                     </div>   
                                     <div class="col-lg-7 col-12">
                                           <h3 class="fontWt30">Vision for <span class="textRed fontWt70">Cloud Development Services</span></h3>
@@ -250,7 +250,7 @@ border-radius: 36px 36px 0px 0px;
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd border-prim">
-                                          <img src="{{ asset('assets/services/Group77.png') }}">
+                                          <img src="{{ asset('public/assets/services/Group77.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -268,7 +268,7 @@ border-radius: 36px 36px 0px 0px;
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd border-dng">
-                                          <img src="{{ asset('assets/services/Group78.png') }}">
+                                          <img src="{{ asset('public/assets/services/Group78.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -290,7 +290,7 @@ border-radius: 36px 36px 0px 0px;
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd border-prim">
-                                          <img src="{{ asset('assets/services/Group79.png') }}">
+                                          <img src="{{ asset('public/assets/services/Group79.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -308,7 +308,7 @@ border-radius: 36px 36px 0px 0px;
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd border-dng">
-                                          <img src="{{ asset('assets/services/Group80.png') }}">
+                                          <img src="{{ asset('public/assets/services/Group80.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -332,7 +332,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group81.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group81.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>1. A flexible approach to problem-solving</h5> 
@@ -345,7 +345,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group82.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group82.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>2. Get Advice From Industry Expert</h5> 
@@ -358,7 +358,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group83.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group83.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>3. Experience Holder Professionals</h5> 
@@ -371,7 +371,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group23.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group23.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>4. Instant Support</h5> 

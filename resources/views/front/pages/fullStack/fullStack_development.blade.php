@@ -6,10 +6,10 @@
 
 <style type="text/css">
   .web-development-bg{
-  background: url('{{ asset('assets/images/banner/bg-gray.png') }}') 0 0 / cover;
+  background: url('{{ asset('public/assets/images/banner/bg-gray.png') }}') 0 0 / cover;
 }
 .web-development-bg2{
-  background: url('{{ asset('assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
+  background: url('{{ asset('public/assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
 }
 .fontWt30{
   font-weight: 400 !important;
@@ -50,7 +50,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
        <div class="col-lg-5 col-12 text-center mt-5">
-            <img src="{{ asset('assets/services/Group170.svg') }}">
+            <img src="{{ asset('public/assets/services/Group170.svg') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
@@ -83,7 +83,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('assets/services/Group171.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group171.svg') }}">
                                          </div>
                                          <div>
                                            <h5>MEAN Stack Development</h5>
@@ -96,7 +96,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5  offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('assets/services/Group172.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group172.svg') }}">
                                          </div>
                                          <div>
                                            <h5>MERN Stack Development</h5>
@@ -119,14 +119,14 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group93.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group93.png') }}">
                                 </div>
                                 </div>
                                 <h5>API Integration</h5>
                               </div>
                               <div class="p-3">
                                 <p class="m-0">
-                              With the increasing popularity of mobile devices and apps, we are seeing an increasing number of companies building mobile applications that make use of third-party APIs. Our API Integration Services allow you to connect your application to any number of such services. is one of our key areas of expertise, with over 200+ live integrations across multiple industries.
+                              Mobile devices and apps, we are seeing an increasing number of companies building mobile applications that make use of third-party APIs. Our API Integration Services allow you to connect your application to any number of such services.
                                 </p>
                               </div>
                         </div>
@@ -136,13 +136,13 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('assets/services/Group94.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group94.png') }}">
                                 </div>
                                 </div>
                                 <h5>Data Management</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">Our team of data management experts can work with you to create a custom database solution. With over ten years of experience working with relational and non-relational databases, including PostgreSQL, MySQL, and MongoDB, we know which approaches work for different applications. If you are looking for expert Data Management services, then get in touch with us today!</p>
+                                <p class="m-0">Our team of data management experts can work with you to create a custom database solution. With over ten years of experience working with relational and non-relational databases, including PostgreSQL, MySQL, and MongoDB</p>
                               </div>
                         </div>
                   </div>
@@ -151,13 +151,13 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group95.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group95.png') }}">
                                 </div>
                                 </div>
                                 <h5>Quality Analysis</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">In order to ensure that our solutions are working as intended, we offer quality analysis services for all of our projects. Our team will perform a thorough audit of your project to make sure it’s functioning correctly and effectively. Even if you are having trouble with your website or application, we can assist you. It is a great way to identify problems before they become more serious.</p>
+                                <p class="m-0">We offer quality analysis services for all of our projects. Our team will perform a thorough audit of your project to make sure it’s functioning correctly and effectively. Even if you are having trouble with your website or application</p>
                               </div>
                         </div>
                   </div>
@@ -167,7 +167,7 @@ border-radius: 36px 36px 0px 0px;
        <div class="container">
                               <div class="row">
                                     <div class="col-lg-5 col-12">
-                                          <img class="img-fluid" src="{{ asset('assets/services/Group173.svg') }}">
+                                          <img class="img-fluid" src="{{ asset('public/assets/services/Group173.svg') }}">
                                     </div>   
                                     <div class="col-lg-7 col-12">
                                           <h3 class="fontWt50">Why does <span class="textRed fontWt70">Full Stack Services</span> matter?</h3>
@@ -215,7 +215,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group81.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group81.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>An extremely goal-oriented team</h5> 
@@ -228,7 +228,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group82.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group82.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>One-Stop Solution For Development Services</h5> 
@@ -241,7 +241,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group83.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group83.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Time Punctuality</h5> 
@@ -254,7 +254,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{asset('assets/services/Group23.png')}}">
+                                         <img src="{{ asset('public/assets/services/Group23.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>24/7 Highly Dedicated Customer Support</h5> 

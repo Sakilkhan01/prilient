@@ -2,7 +2,7 @@
 @section('meta_keywords', "Career")
 @section('meta_description', "Career")
 @section('content') 
-<section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+<section class="breadcrumb-area banner-1" data-background="{{ url('public/assets/images/banner/9.jpg') }}">
    <div class="text-block">
       <div class="container">
          <div class="row">
@@ -24,7 +24,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/startup.svg') }}" alt="years" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/icons/startup.svg') }}" alt="years" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">3</span><span>+</span>
@@ -35,7 +35,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/team.svg') }}" alt="team" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/icons/team.svg') }}" alt="team" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">40</span><span>+</span>
@@ -48,7 +48,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/deal.svg') }}" alt="happy" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/icons/deal.svg') }}" alt="happy" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">50</span><span>+</span>
@@ -59,7 +59,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
                      </div>
                      <div class="statnumb counter-number">
                         <span class="counter">60</span><span>+</span>
@@ -71,7 +71,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics mb0">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="{{ url('assets/images/icons/customer-service.svg') }}" alt="support" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/icons/customer-service.svg') }}" alt="support" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">24</span><span>/</span><span class="counter">7</span>
@@ -107,7 +107,7 @@
                      Location: {{ $post->location }}
                   </p>
                </div>
-               <a href="mailto:hr@prilient.com" class="btn">Apply Now <img src="{{ url('frontent/images/button_arrow_w.png ') }}" class="right_icon" alt="Mobile App Development Services"></a>
+               <a href="mailto:hr@prilient.com" class="btn">Apply Now <img src="{{ url('public/frontent/images/button_arrow_w.png ') }}" class="right_icon" alt="Mobile App Development Services"></a>
             </div>
             @endforeach
          </div>
@@ -122,7 +122,7 @@
           <div class="owl-carousel career-slider">
           	@foreach($clients as $v)
            <div class="text-center w-50">
-              <img class="img-fluid" src="{{ url('upload/client/',$v->logo) }}">
+              <img class="img-fluid" src="{{ url('public/upload/client/',$v->logo) }}">
            </div>
            @endforeach
         </div>

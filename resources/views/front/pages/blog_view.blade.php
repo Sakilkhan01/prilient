@@ -3,8 +3,8 @@
 @section('meta_keywords', $blog->meta_keywords)
 @section('meta_description', $blog->meta_description)
 @section('content')
-<link href="{{ url('frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
-<link href="{{ url('frontent/blog/bootstrap-icons/bootstrap-icons.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
+<link href="{{ url('public/frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
+<link href="{{ url('public/frontent/blog/bootstrap-icons/bootstrap-icons.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
 <style type="text/css">
     ol, ul {
     padding-left: 1rem !important;
@@ -20,8 +20,8 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="{{url('/')}}">Home</a></li>
+          <li><a href="{{url('blog')}}">Blog</a></li>
           <li>{{$blog->title}}</li>
         </ol>
         <h2>{{$blog->title}}</h2>
@@ -40,7 +40,7 @@
             <article class="entry entry-single">
 
               <div class="entry-img">
-                <img src="{{url('upload/blog/'.$blog->image)}}" alt="" class="img-fluid">
+                <img src="{{url('public/upload/blog/'.$blog->image)}}" alt="" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
@@ -175,7 +175,7 @@ $(document).ready(function(){
                     var d = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(d);
                     var date = d+'-'+m+'-'+y;
                     var loc = $(location).attr('href');
-                    var ret = loc.replace(loc,'http://127.0.0.1:8000/upload/blog');
+                    var ret = loc.replace(loc,'http://127.0.0.1:8000/public/upload/blog');
               
                     let url = ""+ret+"/"+data[count].image; 
 

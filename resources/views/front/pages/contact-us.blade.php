@@ -4,7 +4,7 @@
 
 <!-- content start -->
 <!--Breadcrumb Area-->
-<section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+<section class="breadcrumb-area banner-1" data-background="{{ url('public/assets/images/banner/9.jpg') }}">
    <div class="text-block">
       <div class="container">
          <div class="row">
@@ -89,7 +89,7 @@
                <div class="col-lg-4 col-sm-6 shape-loc wow fadeInUp" data-wow-delay=".2s">
                   <div class="office-card">
                      <div class="skyline-img" data-tilt data-tilt-max="4" data-tilt-speed="1000">
-                        <img src="{{ url('assets/images/location/newyork.png') }}" alt="New York" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/location/newyork.png') }}" alt="New York" class="img-fluid" />
                      </div>
                      <div class="office-text">
                         <h4>New York (U.S.A.)</h4>
@@ -104,7 +104,7 @@
                <div class="col-lg-4 col-sm-6 shape-loc wow fadeInUp" data-wow-delay=".5s">
                   <div class="office-card">
                      <div class="skyline-img" data-tilt data-tilt-max="4" data-tilt-speed="1000">
-                        <img src="{{ url('assets/images/location/jaipur.png') }}" alt="Jaipur" class="img-fluid" />
+                        <img src="{{ url('public/assets/images/location/jaipur.png') }}" alt="Jaipur" class="img-fluid" />
                      </div>
                      <div class="office-text">
                         <h4>Jaipur (Rajasthan, India)</h4>

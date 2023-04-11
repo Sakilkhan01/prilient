@@ -6,10 +6,10 @@
 
 <style type="text/css">
   .web-development-bg{
-  background: url('{{ asset('assets/images/banner/bg-gray.png') }}') 0 0 / cover;
+  background: url('{{ asset('public/assets/images/banner/bg-gray.png') }}') 0 0 / cover;
 }
 .web-development-bg2{
-  background: url('{{ asset('assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
+  background: url('{{ asset('public/assets/images/banner/web-development-bg.png') }}') 0 0 / cover;
 }
 .fontWt30{
   font-weight: 400 !important;
@@ -37,7 +37,7 @@ border-radius: 36px 36px 0px 0px;
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                   <div class="col-lg-5 col-12 mt-4 mb-5">
-                        <img src="{{ asset('assets/images/banner/AnalyticsandBI.png') }}">
+                        <img src="{{ asset('public/assets/images/banner/AnalyticsandBI.png') }}">
                   </div>
             </div>
          </div>
@@ -48,7 +48,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
        <div class="col-lg-4 col-12 text-center mt-5">
-            <img src="{{ asset('assets/services/Group107.svg') }}">
+            <img src="{{ asset('public/assets/services/Group107.svg') }}">
       </div>
       <div class="col-lg-8 col-12 mt-5">
           <div class="comman-service-heading">
@@ -210,7 +210,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group112.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group112.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Modern Data Warehouses</h5>
@@ -223,7 +223,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5  offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group113.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group113.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Big Data</h5>
@@ -238,7 +238,7 @@ border-radius: 36px 36px 0px 0px;
                                 <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group114.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group114.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Data Visualization</h5>
@@ -251,7 +251,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5 offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('assets/services/Group115.svg') }}">
+                                           <img src="{{ asset('public/assets/services/Group115.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Data Science</h5>
@@ -275,7 +275,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group11.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group11.png') }}">
                                 </div>
                                 </div>
                                 <h5>A Better understanding of the market</h5>
@@ -292,7 +292,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('assets/services/Group12.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group12.png') }}">
                                 </div>
                                 </div>
                                 <h5>Deliver Better Product</h5>
@@ -307,7 +307,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group13.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group13.png') }}">
                                 </div>
                                 </div>
                                 <h5>Data-driven business decisions</h5>
@@ -322,7 +322,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('assets/services/Group14.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group14.png') }}">
                                 </div>
                                 </div>
                                 <h5>Mitigate risk and handle setbacks</h5>
@@ -337,7 +337,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('assets/services/Group15.png') }}">
+                                  <img src="{{ asset('public/assets/services/Group15.png') }}">
                                 </div>
                                 </div>
                                 <h5>Improve Customer Experience</h5>

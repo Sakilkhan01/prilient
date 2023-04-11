@@ -11,17 +11,17 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="theme-color" content="#2e2a8f"> 
       <meta name="csrf-token" content="{{ csrf_token() }}" />
-      <link href="{{ URL::to('assets/images/favicon.png') }}" rel="icon">
-      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/bootstrap.min.css') }}?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/plugin.min.css') }}?{{ rand() }}" />
+      <link href="{{ URL::to('public/assets/images/favicon.png') }}" rel="icon">
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/bootstrap.min.css') }}?{{ rand() }}" />
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/plugin.min.css') }}?{{ rand() }}" />
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" />
-      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/style.css') }}?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/responsive.css') }}?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/darkmode.css') }}?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="{{ URL::to('assets/css/font-awesome.min.css') }}?{{ rand() }}" />
-      <link rel='stylesheet' type='text/css' href="{{ URL::to('frontent/bootrap/css/bootstrap.min.css') }}?{{ rand() }}" />
-      <script src="{{ URL::to('frontent/bootrap/js/jquery.min.js') }}"></script>
-      <script src="{{ URL::to('frontent/bootrap/js/utils.min.js') }}" defer></script>
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/style.css') }}?{{ rand() }}" />
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/responsive.css') }}?{{ rand() }}" />
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/darkmode.css') }}?{{ rand() }}" />
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/font-awesome.min.css') }}?{{ rand() }}" />
+      <link rel='stylesheet' type='text/css' href="{{ URL::to('public/frontent/bootrap/css/bootstrap.min.css') }}?{{ rand() }}" />
+      <script src="{{ URL::to('public/frontent/bootrap/js/jquery.min.js') }}"></script>
+      <script src="{{ URL::to('public/frontent/bootrap/js/utils.min.js') }}" defer></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js" ></script>
   <script>
   window.dataLayer = window.dataLayer || [];
