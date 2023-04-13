@@ -101,7 +101,7 @@
                              <a class="menu-links" href="#">Services</a>
                              <ul class="dropdown-menu cs-dropdown-menu" aria-labelledby="dropdownMenuButton">
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/product-design') }}">Product Design  <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{ url('/product-design') }}">Product Design  <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('/product-design/ui-ux-design') }}">UI/UX
                                                  Design</a></li>
@@ -112,7 +112,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{url('app_development')}}">Mobile App Development <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{url('app_development')}}">Mobile App Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{url('app_development/ios-development')}}">ios
                                                  Development</a></li>
@@ -125,7 +125,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{url('web_development')}}">Web Development  <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{url('web_development')}}">Web Development  <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{url('/web_development/ecommerce-development')}}">Ecommerce
                                                  Development</a></li>
@@ -146,14 +146,14 @@
                                      <a class="dropdown-item" href="{{ url('cyber_security') }}">Cyber Security</a>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/product_prototype') }}">Product Prototype  <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{ url('/product_prototype') }}">Product Prototype  <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('product_prototype/mvp') }}">MVP</a></li>
                                          <li><a class="dropdown-item" href="{{ url('product_prototype/poc') }}">PoC</a></li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{url('Analytics_and_BI')}}">Analytics & BI <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{url('Analytics_and_BI')}}">Analytics & BI <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{url('/Analytics_and_BI/modern-data-warehouses')}}">Modern Data
                                                  Warehouses</a></li>
@@ -166,7 +166,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/NextGen') }}">Next-Gen Technologies <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{ url('/NextGen') }}">Next-Gen Technologies <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('NextGen/AWS-ampify-&-AWS-lamda') }}">AWS Ampify & AWS
                                                  Lamda</a></li>
@@ -180,7 +180,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/frontend_development') }}">Front-end Development <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{ url('/frontend_development') }}">Front-end Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('frontend_development/angular-development') }}">Angular
                                                  JS Development</a></li>
@@ -193,7 +193,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/Quality_Engineering') }}">Quality Engineering <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{ url('/Quality_Engineering') }}">Quality Engineering <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/mobile-testing') }}">Mobile
                                                  Testing </a></li>
@@ -218,7 +218,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('backend_development') }}">Back-end Development <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{ url('backend_development') }}">Back-end Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{url('backend_development/php-development')}}">PHP
                                                  Development</a></li>
@@ -237,7 +237,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('blockchain_development') }}">Blockchain Development <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{ url('blockchain_development') }}">Blockchain Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('/blockchain_development/smart-contracts-development') }}">Smart
                                                  Contracts Development</a></li>
@@ -257,7 +257,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/fullStack_development') }}">Full-stack Development <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{ url('/fullStack_development') }}">Full-stack Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('/fullStack_development/MEAN-stack-development') }}">MEAN
                                                  Stack Development</a></li>
@@ -266,7 +266,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/cloud_strategy') }}">Cloud Strategy & Development <span class="icon"></span></a>
+                                     <a class="dropdown-item" href="{{ url('/cloud_strategy') }}">Cloud Strategy & Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu dropdown-submenu-last">
                                          <li><a class="dropdown-item" href="{{ url('/cloud_strategy/SaaS_Development') }}">SaaS Development</a></li>
                                          <li><a class="dropdown-item" href="{{ url('/cloud_strategy/IaaS_Development') }}">IaaS Development</a></li>
@@ -534,25 +534,25 @@
  </header>
 
  <style>
-.dropdown-menu > li .icon {
+/* .dropdown-menu > li .icon {
   box-sizing: border-box;
   transition: transform 0.3s;
   width: 14px;
   height: 14px;
   transform: rotate(180deg);
   position: relative;
-}
+} */
 
 .dropdown-menu > li:hover {
     background:#e6e6e6;
 }
-.dropdown-menu > li:hover .icon {
+/* .dropdown-menu > li:hover .icon {
     transform: rotate(0deg);
-    }
-.dropdown-menu span{
+    } */
+/* .dropdown-menu span{
     float:right;
-}
-       
+} */
+/*        
  .dropdown-menu > li .icon::before {
   content: "";
   display: block;
@@ -581,5 +581,5 @@
   border-bottom: solid 1.9px #212529;
   position: absolute;
   bottom: 5px;
-}
+} */
 </style>

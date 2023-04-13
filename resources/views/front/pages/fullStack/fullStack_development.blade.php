@@ -56,7 +56,7 @@ border-radius: 36px 36px 0px 0px;
           <div class="comman-service-heading">
             <h2>Employ <span class="textRed fontWt50">Full-stack</span> <span class="textPrim fontWt50">Development</span> Services</h2>
              <p>Full-stack development services are dependably vital if you have any desire to capitalize on your investment and guarantee that your item will be acknowledged on the lookout. By employing our full-stack development team, you can anticipate that far-reaching item that allure should a worldwide crowd and will develop with your necessities as your business develops and extends. We have been creating web applications starting around 2007, and we are specialists in all parts of current innovation, from code to plan to content creation.</p>
-             <p>We can build your entire application for you, from the back-end software to the front-end user interface, giving you access to a service that includes everything from design services to full project management and testing. With our stack development services, your product will be completely ready to launch within hours or days of your request!</p>
+             <p>We can build your entire application for you, from the back-end software to the front-end user interface, giving you access to a service that includes everything from design services to full project management and testing.</p>
           </div>
       </div>
       </div>

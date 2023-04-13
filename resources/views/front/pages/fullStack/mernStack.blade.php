@@ -25,10 +25,9 @@
   <!--End why-choose-->
 <div class="container py-5">
 <div class="col-lg-12">
-            <h4>MEAN Stack Development</h4>
-            <p>
-            MEAN (MongoDB, Express.js, AngularJS, and Node.js) is a full-stack JavaScript solution that enables single-page applications. We use these technologies to create powerful web apps with an easy learning curve for non-technical users. Our developers use best practices when working with these frameworks so you can be confident your app will run smoothly and be secure from day one. 
-            </p>
+            <h4>MERN Stack Development</h4>
+            <p>MERN tech stack's future is the underlying technologies will keep developing and gaining popularity.. The ease with which a database may be integrated into MERN in comparison to other frameworks and the fact that you receive a fully functional Express are two of its main advantages.</p>
+            <p>Application construction is made possible by MERN stack development. It is used by developers everywhere. This is as a result of the technological stack's four components, all of which are JS-based.</p>
       </div>
     </div>
   <!-- content end -->

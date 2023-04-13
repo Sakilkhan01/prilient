@@ -72,7 +72,7 @@
                               </div>
                               <h5>Market Research & Development</h5>
                               <p>
-                              In order to develop a successful product, we must first learn everything we can about your product and your target market. We want to know who you’re designing for, what they need, and how they use their products. In some cases, we may even conduct focus groups or surveys with your potential customers to get a sense of what they’re looking for in a new product.
+                              In order to develop a successful product, we must first learn everything we can about your product and your target market. We want to know who you’re designing for, what they need, and how they use their products.
                               </p>
                         </div>
                   </div>
@@ -102,7 +102,7 @@
 </svg>
                               </div>
                               <h5>Create a Solid Concept</h5>
-                              <p>The second stage of any project is establishing a solid concept, which comes in many forms. Whether it’s a written brief or verbal discussion with your client, you want to be on the same page from day one. This will also allow you to get an idea of what your clients are looking for and what their true needs and wants are. We always set up meetings with our clients early on so we can start creating meaningful concepts together as quickly as possible.</p>
+                              <p>The second stage of any project is establishing a solid concept, which comes in many forms. Whether it’s a written brief or verbal discussion with your client, you want to be on the same page from day one. This will also allow you to get an idea of what your clients are looking for and what their true needs</p>
                         </div>
                   </div>
                   <div class="col-lg-4 col-12 mt-5">
@@ -134,7 +134,7 @@
 
                               </div>
                               <h5>Taking the Prototype into Production</h5>
-                              <p>The third step is to take a prototype into production. Once we have a working prototype, then we can move on to making our product in bulk and delivering it to customers. We’ll take your prototype and create a fully functional, optimized version. Your website or application will be ready to launch, without being changed or butchered by a programmer, with all features working perfectly.</p>
+                              <p>The third step is to take a prototype into production. Once we have a working prototype, then we can move on to making our product in bulk and delivering it to customers. We’ll take your prototype and create a fully functional, optimized version.</p>
                         </div>
                   </div>
                   <div class="col-lg-4 col-12 mt-5">
@@ -154,7 +154,7 @@
 
                               </div>
                               <h5>Getting Feedback From Your Customers</h5>
-                              <p>Whether you have a product idea or a need for assistance, our product designers are ready to help. Using your feedback, we'll create a prototype and then send it to your customers. This process will ensure that your product solves real problems and will be something people love using.</p>
+                              <p>Using your feedback, we'll create a prototype and then send it to your customers. This process will ensure that your product solves real problems and will be something people love using.</p>
                         </div>
                   </div>
                   <div class="col-lg-4 col-12 mt-5">

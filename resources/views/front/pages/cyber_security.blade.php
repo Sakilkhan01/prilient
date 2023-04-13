@@ -79,7 +79,7 @@ border-radius: 36px 36px 0px 0px;
                               </div>
                               <div class="p-3">
                                 <p class="m-0">
-                                Do you have an Internet-connected device? Are you connected to Wi-Fi at work or home? If so, that means you’re in cyberspace. And if you’re in cyberspace, that means there are all kinds of hackers who want your data, who can do some serious damage if they get it. Our Virtual CISO cybersecurity services help protect you from these threats.
+                                If you’re in cyberspace, that means there are all kinds of hackers who want your data, who can do some serious damage if they get it. Our Virtual CISO cybersecurity services help protect you from these threats.
                                 </p>
                               </div>
                         </div>
@@ -95,7 +95,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Data Governance</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">One way companies stay compliant is by having a sound data governance strategy. This means that they are able to keep track of their data, where it is, who has access to it and when they have accessed it. We can help you meet your regulatory obligations by building a secure environment for your data. Coordinate with our team to learn more about our Data Governance services.</p>
+                                <p class="m-0">One way companies stay compliant is by having a sound data governance strategy. This means that they are able to keep track of their data, where it is, who has access to it and when they have accessed it. We can help you meet your regulatory obligations by building a secure environment for your data.</p>
                               </div>
                         </div>
                   </div>
@@ -110,7 +110,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Third-Party Risk Management</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">Whatever information is collected, stored, and passed over digital networks must be protected. This can be handled in-house, but it’s a lot of work and doesn’t always guarantee full security. Our team has been working on these issues for years, so we know what we’re doing. We offer comprehensive solutions that will help you protect your data from outside attacks and internal threats alike.</p>
+                                <p class="m-0">Whatever information is collected, stored, and passed over digital networks must be protected. This can be handled in-house, but it’s a lot of work and doesn’t always guarantee full security. Our team has been working on these issues for years, so we know what we’re doing.</p>
                               </div>
                         </div>
                   </div>
@@ -202,7 +202,7 @@ border-radius: 36px 36px 0px 0px;
                               </div>
                               <h5>Increases Your Website or Application Security</h5>
                               <p>
-                               system that can be accessed remotely. From personal files on your computer and tablet to information about your business that’s stored on servers or through cloud services. With cyber security, you can protect your own resources from these threats—and from any unauthorized user who might attempt unauthorized access. 
+                               system that can be accessed remotely. From personal files on your computer and tablet to information about your business that’s stored on servers or through cloud services. With cyber security, you can protect your own resources from these threats
                               </p>
                         </div>
                   </div>
@@ -220,7 +220,7 @@ border-radius: 36px 36px 0px 0px;
                               </div>
                               <h5>Improves Firms Credibility</h5>
                               <p>
-                              consumers are looking for ways to know that their personal information is safe. From credit card data and passwords to private medical records, people want assurance that their privacy and security will be safeguarded. In order to attract new customers or clients, many businesses have begun offering cyber security 
+                              consumers are looking for ways to know that their personal information is safe. From credit card data and passwords to private medical records, people want assurance that their privacy and security will be safeguarded. In order to attract new customers or clients, 
                               </p>
                         </div>
                   </div>
@@ -288,7 +288,7 @@ border-radius: 36px 36px 0px 0px;
 </svg>
  </span> 
                                     Extensive Industry Experience</h5> 
-                                    <p>In addition to our hands-on experience, we have broad industry experience and background. That means that we understand cyber security better than most—and can use it to improve yours. In fact, our years of professional experience are one of our greatest assets; they give us a huge advantage in terms of being able to help you with your security issues.
+                                    <p>In addition to our hands-on experience, we have broad industry experience and background. That means that we understand cyber security better than most—and can use it to improve yours. In fact, our years of professional experience are one of our greatest assets
                                     </p> 
                                        </div>
                                 </div>
@@ -354,7 +354,7 @@ border-radius: 36px 36px 0px 0px;
 
                                         </span> 
                                     Keep up with the latest trends</h5> 
-                                    <p>By staying abreast of all things security, we can provide our clients with the services they need and are looking for. In cyber security, there is no such thing as a finished product; it’s always evolving, which means that we must evolve along with it. As a result, we stay on top of industry trends to ensure your business is protected in the best way.
+                                    <p>By staying abreast of all things security, there is no such thing as a finished product; it’s always evolving, which means that we must evolve along with it. As a result, we stay on top of industry trends to ensure your business is protected in the best way.
                                     </p> 
                                        </div>
                                 </div>

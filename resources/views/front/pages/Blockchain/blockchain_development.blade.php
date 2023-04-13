@@ -55,7 +55,7 @@ border-radius: 36px 36px 0px 0px;
           <div class="comman-service-heading">
             <h2><span class="textRed fontWt50">Develop</span> A Secure Platform On The <span class="textPrim fontWt50">Blockchain Network</span></h2>
              <p>In the era of this digital world, every people want privacy and security of their information. A decentralized blockchain network is an alternative option that provides top security, reliability, transparency, and robustness to your ecosystem. Blockchain is a peer-to-peer decentralized network system. Blockchain includes many things like cryptography, smart contract, NFT, tokenization, and coins.</p>
-             <p>Prilient is a renowned IT development and service provider company in India that offers comprehensive Blockchain Development services while maintaining your privacy. We have trusted IT professionals with enough experience who are capable of developing many things like smart contracts, tokens, cryptocurrency, metaverse, 3D design, NFT, blockchain networks, and dApps. They keep updated with market updates, automation tools, and advanced techniques to build reliable blockchain solutions.</p>
+             <p>We have trusted IT professionals with enough experience who are capable of developing many things like smart contracts, tokens, cryptocurrency, metaverse, 3D design, NFT, blockchain networks, and dApps. They keep updated with market updates, automation tools, and advanced techniques to build reliable blockchain solutions.</p>
           </div>
       </div>
       </div>
@@ -184,7 +184,7 @@ border-radius: 36px 36px 0px 0px;
                               </div>
                               <div class="p-3">
                                 <p class="m-0">
-                              Blockchain technology enables every transaction to be stored in a decentralized ledger, an ideal example being Bitcoin’s blockchain. This way, people and businesses can track transactions with more transparency and security. With proper usage of cryptographic protocols, however, it is possible to protect privacy when needed.
+                              Blockchain technology enables every transaction to be stored in a decentralized ledger, an ideal example being Bitcoin’s blockchain. This way, people and businesses can track transactions with more transparency and security. With proper usage of cryptographic protocols, 
                                 </p>
                               </div>
                         </div>
@@ -215,7 +215,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Faster transactions</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">With no intermediaries, blockchain transactions can be processed much faster. This process is time-consuming because multiple parties are involved. Moreover, as information has to pass through many hands, there’s always room for human error. Since every block gets added at once in a blockchain system, they get validated almost instantaneously.</p>
+                                <p class="m-0">With no intermediaries, blockchain transactions can be processed much faster. This process is time-consuming because multiple parties are involved. Since every block gets added at once in a blockchain system, they get validated almost instantaneously.</p>
                               </div>
                         </div>
                   </div>
@@ -230,7 +230,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Lower risk of fraud and error</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">There’s no way to change or edit information on a blockchain, making it far more difficult for fraudsters to steal your data. That doesn’t mean it can’t be hacked, but with blockchain technology, it would require an unfathomably large amount of computing power to pull off. A government. And we all know how trustworthy governments are when it comes to hacking.</p>
+                                <p class="m-0">There’s no way to change or edit information on a blockchain, making it far more difficult for fraudsters to steal your data. That doesn’t mean it can’t be hacked, but with blockchain technology, it would require an unfathomably large amount of computing power to pull off. A government.</p>
                               </div>
                         </div>
                   </div>
@@ -245,7 +245,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Better security</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">Since a blockchain is a decentralized database, it’s much harder for hackers to break in and steal valuable information. Its decentralized structure also makes tampering almost impossible. As it is stored in millions of places across its network, any changes made on one computer will be met with resistance from other computers on its network.</p>
+                                <p class="m-0">Since a blockchain is a decentralized database, it’s much harder for hackers to break in and steal valuable information. Its decentralized structure also makes tampering almost impossible. As it is stored in millions of places across its network</p>
                               </div>
                         </div>
                   </div>

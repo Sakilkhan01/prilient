@@ -52,7 +52,6 @@ border-radius: 36px 36px 0px 0px;
           <div class="comman-service-heading">
             <h2>World-class <br><span class="textRed fontWt50">Front-end Development</span> <span class="textPrim fontWt50">Services</span></h2>
              <p>If you want to offer the best user experience possible to your customers, then you must have an expertly designed website that works great across all platforms and devices. Our Front End Development Services have been designed to provide you with the most powerful tools and resources available to build outstanding web applications, desktop software, and more. Regardless of your experience level or skill set, we can help you get started with some of the most powerful tools available today, or take your existing projects to the next level of excellence.</p>
-             <p>Priilient believes that a website should reflect your business. That’s why we offer a wide range of front-end development services to help you create an online presence that will make an impact on your customers.</p>
           </div>
       </div>
       </div>
@@ -381,7 +380,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Banking Services</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">Banking Services are an important aspect of any business. Banks are liable for overseeing cash, and they need to have a decent connection point that makes it simple for clients to get to their records. This is where front-end developers come in. Front-end developers specialize in making user interfaces that are clean, simple, and user-friendly.</p>
+                                <p class="m-0">Banking Services are an important aspect of any business. Banks are liable for overseeing cash, and they need to have a decent connection point that makes it simple for clients to get to their records. This is where front-end developers come </p>
                               </div>
                         </div>
                   </div>

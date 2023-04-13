@@ -346,7 +346,7 @@ border-radius: 36px 36px 0px 0px;
                               </div>
                               <div class="p-3">
                                 <p class="m-0">
-                               It pulls information from it, stores information in it, and displays information on web pages. If your site or app’s back end isn’t fast, secure and scalable, users will find other applications that are. So for a great user experience consider having quality in everything including the Backend development process.
+                               If your site or app’s back end isn’t fast, secure and scalable, users will find other applications that are. So for a great user experience consider having quality in everything including the Backend development process.
                                 </p>
                               </div>
                         </div>

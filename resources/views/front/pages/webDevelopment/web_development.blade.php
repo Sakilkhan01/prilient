@@ -203,7 +203,7 @@ border-radius: 36px 36px 0px 0px;
                               </div>
                               <h5>Plan for launch</h5>
                               <p>
-                              .Our team launches your website on time, on budget, and with quality results that will make you proud. We have helped countless businesses just like yours take their ideas from concept to reality, and we’d love to do the same for you.
+                              Our team launches your website on time, on budget, and with quality results that will make you proud. We have helped countless businesses just like yours take their ideas from concept.
                               </p>
                         </div>
                   </div>
@@ -265,7 +265,7 @@ border-radius: 36px 36px 0px 0px;
                                          <div>
                                            <h5>CRM Development</h5>
                                           <p>
-                                           CRM systems let companies track customer interactions over time, including details such as purchase ... <a href="" class="readMoreService">Read More</a>
+                                           CRM systems let companies track customer interactions over time, including details such as purchase ... <a href="{{url('/web_development/CRM-development')}}" class="readMoreService">Read More</a>
                                           </p>
                                          </div>
                                     </div>
@@ -318,7 +318,6 @@ border-radius: 36px 36px 0px 0px;
         <div class="container">
             <h2 class="fontWt50 text-white">Technologies We Are Using</h2>
             <p>Let’s look at how some popular technologies like React.js, Vue.js, and Angular are helping to shape modern web development. While JavaScript is still one of today’s most widely used programming languages for client-side applications, it also has proven itself useful in building back-end applications as well. Our engineers have extensive experience with these frameworks and use them regularly on our projects.</p>
-            <p>We pride ourselves on being able to quickly adapt to new technologies while maintaining our high standards of quality. If you’re looking for an agency that can help you build a responsive website or an application that will run across multiple platforms, we would love to talk with you about your project!</p>
             <div class="icon-image-div mt-4">
                 <div class="firstDiv">
                     <div class="img-border">

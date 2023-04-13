@@ -40,14 +40,13 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
       <div class="col-lg-5 col-12 text-center mt-5">
-            <img src="{{ asset('public/assets/services/Group4.png') }}">
+            <img style="height:75%" src="{{ asset('public/assets/services/Group4.png') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
 <h2>Develop <span class="textRed fontWt50">Business-Focused</span> <br><span class="textPrim fontWt50">DevOps Strategies</span></h2>
             
              <p>We support companies with the implementation of their development strategies in production environments using our DevOps developers. This is in contrast to a traditional software development lifecycle (SDLC), which leads to new features from ideation all the way through testing, release, and monitoring after launch. It facilitates the building and implementation of necessary security solutions in parallel with product launches, adding an additional layer between development and operations.</p>
-             <p>Our expertise in designing and developing customized solutions for our clients is unrivaled. We are a leading organization in DevOps services, we have a team of experts who work together to provide high-quality DevOps services.</p>
           </div>
       </div>
       </div>
@@ -79,7 +78,7 @@ border-radius: 36px 36px 0px 0px;
                               </div>
                               <h5>End-to-end Analysis of Your Software Infrastructure</h5>
                               <p>
-                              Our end-to-end analysis of your software infrastructure will pinpoint every issue in your development and test environments. Once we have a clear picture of what’s working well and what needs attention, we can develop a custom strategy for optimizing your entire stack.
+                              Our end-to-end analysis of your software infrastructure will pinpoint every issue in your development and test environments. Once we have a clear picture of what’s working well and what needs attention.
                               </p>
                         </div>
                   </div>
@@ -157,7 +156,7 @@ border-radius: 36px 36px 0px 0px;
 
                               </div>
                               <h5>Deploying Code To Get Qualified Results</h5>
-                              <p> For businesses to get qualified results, it is imperative that you deploy your code to production after getting feedback from testing and quality assurance. If your application requires a complex setup in terms of infrastructure, our DevOps Services would come in handy. </p>
+                              <p>It is imperative that you deploy your code to production after getting feedback from testing and quality assurance. If your application requires a complex setup in terms of infrastructure, our DevOps Services would come in handy. </p>
                         </div>
                   </div>
                   <div class="col-lg-4 col-12 mt-5">
@@ -211,7 +210,7 @@ border-radius: 36px 36px 0px 0px;
                                          <div>
                                            <h5>Development</h5>
                                           <p>
-                                           Modern technology has given rise to startups that can be as innovative and efficient as established companies. But for many companies, their IT infrastructure may still be standing in their way. This is where our DevOps services come into play. We have a team of expert developers who will work with you to create a streamlined development process so your team can focus on innovation instead of managing technical issues
+                                           Modern technology has given rise to startups that can be as innovative and efficient as established companies. But for many companies, their IT infrastructure may still be standing in their way. This is where our DevOps services come into play.
                                           </p>
                                          </div>
                                     </div>
@@ -225,7 +224,7 @@ border-radius: 36px 36px 0px 0px;
                                          <div>
                                            <h5>Testing</h5>
                                           <p>
-                                            After developing and deploying a new application, you need to test it to ensure that it works as expected. You can also run tests before deploying your code to verify that you didn’t accidentally break any of your existing functionality. Our professional testing services are designed to help you catch bugs before they make it into production, giving you peace of mind that your app is working properly.
+                                            After developing and deploying a new application, you need to test it to ensure that it works as expected. You can also run tests before deploying your code to verify that you didn’t accidentally break any of your existing functionality.
                                           </p>
                                          </div>
                                     </div>
@@ -239,7 +238,7 @@ border-radius: 36px 36px 0px 0px;
                                          <div>
                                            <h5>Integration</h5>
                                           <p>
-                                            Our DevOps Integration Services Help Streamline Your Workflow and Drive Business Growth. We integrate your development, QA, staging, and production environments to improve your software, web, and application delivery process. Our goal is to make sure that every team member can focus on what they do best: delivering great products for your customers.
+                                            Our DevOps Integration Services Help Streamline Your Workflow and Drive Business Growth. We integrate your development, QA, staging, and production environments to improve your software, web, and application delivery process.
                                           </p>
                                          </div>
                                     </div>

@@ -53,7 +53,7 @@ border-radius: 36px 36px 0px 0px;
           <div class="comman-service-heading">
             <h2>Unleash the power of your <span class="textPrim fontWt50">business</span> with <span class="textRed fontWt50">Next-gen technology</span></h2>
              <p>Next-gen technology refers to new development or new degradation in the technology. Next-gen technology and management help to improve software advancement, transform the current learning or working system, and change the lives of people in different aspects like improving performance, completing the repetitive task more effectively, and keeping them safer or wealthier or healthier.</p>
-             <p>Prilient's Next-gen technology services help an organization to keep ahead of the competition through innovation and modernization. We have experienced IT experts to develop innovative applications or solutions as per enterprises' needs. We ensure to deliver the top-notch solution in less time at minimum cost. Our experts work with full innovation, dedication, and creativity.</p>
+             <p>Prilient's Next-gen technology services help an organization to keep ahead of the competition through innovation and modernization. </p>
           </div>
       </div>
       </div>
@@ -331,7 +331,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Improved Control/Torque/Accuracy</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">Next-Gen Technologies service is designed to enable a tighter, more accurate control over your body. Next-Gen Technologies' service can have a tremendous impact on your sport or activity of choice. Next-Gen Technologies service is also useful for situations where being larger than life may be more appropriate than being more precise.</p>
+                                <p class="m-0">Next-Gen Technologies' service can have a tremendous impact on your sport or activity of choice. Next-Gen Technologies service is also useful for situations where being larger than life may be more appropriate than being more precise.</p>
                               </div>
                         </div>
                   </div>

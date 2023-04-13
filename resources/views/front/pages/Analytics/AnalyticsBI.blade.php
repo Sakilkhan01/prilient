@@ -54,7 +54,7 @@ border-radius: 36px 36px 0px 0px;
           <div class="comman-service-heading">
              <h2>Make your Decision better for your business with <span class="textRed fontWt50">Data Analytics</span> and <span class="textPrim fontWt50">business intelligence</span></h2>
              <p>Data Analytics and Business intelligence is the process of evaluating your business data and BI convert this basic data into meaningful statistics or information that helps to predict future challenges, risk, trend, and opportunity. This data will helps to save upfront investment, predict future opportunities, and make better decisions.</p>
-             <p>A trusted provider of data analytics and BI solutions, Pralient uses advanced technology to analyze data and extract useful insights automatically. Our IT professionals have enough experience and knowledge in collecting useful information from multiple sources of data. Also, our experts will ensure to provide complete consistency about future growth, market trends, challenges, and human behavior.</p>
+             <p>A trusted provider of data analytics and BI solutions, Pralient uses advanced technology to analyze data and extract useful insights automatically.</p>
           </div>
       </div>
       </div>
@@ -282,7 +282,7 @@ border-radius: 36px 36px 0px 0px;
                               </div>
                               <div class="p-3">
                                 <p class="m-0">
-                               Before designing a website, we need to determine your goals and objectives. Our experienced team of web designers will help you to design a website that fits your business needs. We can also help you with SEO (Search Engine Optimization) for getting higher rankings in search engines like Google, Yahoo, Bing etc.
+                               Before designing a website, we need to determine your goals and objectives.  We can also help you with SEO (Search Engine Optimization) for getting higher rankings in search engines like Google, Yahoo, Bing etc.
                                 </p>
                               </div>
                         </div>
@@ -298,7 +298,7 @@ border-radius: 36px 36px 0px 0px;
                                 <h5>Deliver Better Product</h5>
                               </div>
                               <div class="p-3">
-                                <p class="m-0">Through interaction with our customers and other relevant people, we try to identify whether there is a genuine need for a new website or not. If yes, then what kind of features it should have? What will be its purpose? These are some questions that help us in deciding how we can help them achieve their business goals through a new website.</p>
+                                <p class="m-0"> We try to identify whether there is a genuine need for a new website or not. If yes, then what kind of features it should have? What will be its purpose? These are some questions that help us in deciding how we can help them achieve their business goals through a new website.</p>
                               </div>
                         </div>
                   </div>
