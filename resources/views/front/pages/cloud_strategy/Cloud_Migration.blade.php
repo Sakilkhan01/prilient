@@ -1,19 +1,19 @@
 @extends('front.layouts.app')
-@section('title', "IaaS Development")
-@section('meta_keywords', "IaaS Development")
-@section('meta_description', "IaaS Development, also known as cloud infrastructure services, is a form of cloud computing in which IT infrastructure is provided to end users through the internet.")
+@section('title', "Cloud Migration")
+@section('meta_keywords', "Cloud Migration")
+@section('meta_description', "Cloud migration is the process of moving a company's digital assets, services, databases, IT resources, and applications either partially, or wholly, into the cloud.")
 
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1" data-background="{{ url('public/assets/images/banner/9.jpg') }}">
     <div class="text-block">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h1>IaaS Development</h1>
+                <h1>Cloud Migration</h1>
               </div>
             </div>
           </div>
@@ -29,10 +29,10 @@
             <p>The cloud offers your business a wide range of benefits, from cost savings and increased security to scalability and flexibility.</p>
           </div>
       </div>
-      <div class="col-lg-12 mt-4">
-            <h4>IaaS Development</h4>
+       <div class="col-lg-12 mt-4">
+            <h4>Cloud Migration </h4>
             <p>
-            Our developers work closely with you to design, plan, develop and implement IaaS for your organization. Through our ISO 27001 certified data centers, we offer virtualized environments, pay-as-you-go pricing, and rapid scalability. No additional hardware or software costs are needed. This is truly an ideal situation for any business. Additionally, we can help you secure your infrastructure by managing it. Complexity doesn’t have to stand in your way of success! 
+            Cloud migration can be an expensive undertaking. Once all of your data is in the cloud, however, you’ll find that it saves you money by eliminating hardware, power, and other maintenance costs. Cloud platforms are also more convenient for all users in your company because they eliminate software licensing fees and complicated setups. Our services will help you make a smooth transition to a cloud-based infrastructure.
             </p>
       </div>
       

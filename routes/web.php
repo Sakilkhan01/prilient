@@ -198,15 +198,15 @@ Route::view('/croponkart-privacy', 'front.pages.croponkart_privacy');
 
 Route::view('technologies', 'front.pages.technologies');
 
-Route::view('/cloud_strategy', 'front.pages.cloud_strategy');
-Route::view('cloud_strategy/SaaS_Development', 'front.pages.SaaS_development');
-Route::view('cloud_strategy/IaaS_Development', 'front.pages.IaaS_development');
-Route::view('cloud_strategy/PaaS_Development', 'front.pages.PaaS_development');
-Route::view('cloud_strategy/Cloud_App_Development', 'front.pages.Cloud_App_Development');
-Route::view('cloud_strategy/Cloud_Migration', 'front.pages.Cloud_Migration');
-Route::view('cloud_strategy/Amazon_cloud', 'front.pages.Amazon_cloud');
-Route::view('cloud_strategy/Cloud_Security', 'front.pages.Cloud_Security');
-Route::view('cloud_strategy/Azure_Cloud_Service', 'front.pages.Azure_Cloud_Service');
+Route::view('/cloud_strategy', 'front.pages.cloud_strategy.cloud_strategy');
+Route::view('cloud_strategy/SaaS_Development', 'front.pages.cloud_strategy.SaaS_development');
+Route::view('cloud_strategy/IaaS_Development', 'front.pages.cloud_strategy.IaaS_development');
+Route::view('cloud_strategy/PaaS_Development', 'front.pages.cloud_strategy.PaaS_development');
+Route::view('cloud_strategy/Cloud_App_Development', 'front.pages.cloud_strategy.Cloud_App_Development');
+Route::view('cloud_strategy/Cloud_Migration', 'front.pages.cloud_strategy.Cloud_Migration');
+Route::view('cloud_strategy/Amazon_cloud', 'front.pages.cloud_strategy.Amazon_cloud');
+Route::view('cloud_strategy/Cloud_Security', 'front.pages.cloud_strategy.Cloud_Security');
+Route::view('cloud_strategy/Azure_Cloud_Service', 'front.pages.cloud_strategy.Azure_Cloud_Service');
 
 
 Route::view('portfolio', 'front.pages.portfolio');

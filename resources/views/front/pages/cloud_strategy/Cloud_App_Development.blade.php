@@ -1,19 +1,19 @@
 @extends('front.layouts.app')
-@section('title', "SaaS Development")
-@section('meta_keywords', "SaaS Development")
-@section('meta_description', "SaaS development is the creation of cloud-based applications. It includes the creation of documentation, design, development, testing, and deployment on the server.")
+@section('title', "Cloud App Development")
+@section('meta_keywords', "Cloud App Development")
+@section('meta_description', "Cloud app development is the process through which a Cloud based app is built. It involves different stages of software development, each of which prepares your app")
 
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1" data-background="{{ url('public/assets/images/banner/9.jpg') }}">
     <div class="text-block">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h1>SaaS Development</h1>
+                <h1>Cloud App Development</h1>
               </div>
             </div>
           </div>
@@ -29,11 +29,10 @@
             <p>The cloud offers your business a wide range of benefits, from cost savings and increased security to scalability and flexibility.</p>
           </div>
       </div>
-     
-      <div class="col-lg-12 mt-4">
-            <h4>SaaS Development</h4>
+      <div class="col-lg-12">
+            <h4>Cloud App Development</h4>
             <p>
-            Prilient is a Software as a Service (SaaS) provider for mobile and web-based apps, eCommerce solutions, and Full Stack development. SaaS applications give users access to software over a network without needing to download any files or install programs on their computers. This frees up valuable storage space on your computer, so you can focus on what really matters: your business! We offer several cloud technology services that will help take your business to new heights. 
+            Automation and streamlining are important these days. Unfortunately, many companies don’t have enough time in their schedule to make these changes happen. Why not bring that expertise into your business with Cloud App Development Services? Because our team builds apps fast, you'll have more time to focus on the important stuff: growing your business!
             </p>
       </div>
       
@@ -64,5 +63,4 @@
             </p>
       </div>
     </div>
-  <!-- content end -->
 @endsection

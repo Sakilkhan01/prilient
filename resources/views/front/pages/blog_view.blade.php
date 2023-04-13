@@ -175,7 +175,7 @@ $(document).ready(function(){
                     var d = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(d);
                     var date = d+'-'+m+'-'+y;
                     var loc = $(location).attr('href');
-                    var ret = loc.replace(loc,'http://127.0.0.1:8000/public/upload/blog');
+                    var ret = loc.replace(loc,'../public/upload/blog');
               
                     let url = ""+ret+"/"+data[count].image; 
 

@@ -1,19 +1,19 @@
 @extends('front.layouts.app')
-@section('title', "Cloud App Development")
-@section('meta_keywords', "Cloud App Development")
-@section('meta_description', "Cloud app development is the process through which a Cloud based app is built. It involves different stages of software development, each of which prepares your app")
+@section('title', "IaaS Development")
+@section('meta_keywords', "IaaS Development")
+@section('meta_description', "IaaS Development, also known as cloud infrastructure services, is a form of cloud computing in which IT infrastructure is provided to end users through the internet.")
 
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1" data-background="{{ url('public/assets/images/banner/9.jpg') }}">
     <div class="text-block">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h1>Cloud App Development</h1>
+                <h1>IaaS Development</h1>
               </div>
             </div>
           </div>
@@ -29,10 +29,10 @@
             <p>The cloud offers your business a wide range of benefits, from cost savings and increased security to scalability and flexibility.</p>
           </div>
       </div>
-      <div class="col-lg-12">
-            <h4>Cloud App Development</h4>
+      <div class="col-lg-12 mt-4">
+            <h4>IaaS Development</h4>
             <p>
-            Automation and streamlining are important these days. Unfortunately, many companies don’t have enough time in their schedule to make these changes happen. Why not bring that expertise into your business with Cloud App Development Services? Because our team builds apps fast, you'll have more time to focus on the important stuff: growing your business!
+            Our developers work closely with you to design, plan, develop and implement IaaS for your organization. Through our ISO 27001 certified data centers, we offer virtualized environments, pay-as-you-go pricing, and rapid scalability. No additional hardware or software costs are needed. This is truly an ideal situation for any business. Additionally, we can help you secure your infrastructure by managing it. Complexity doesn’t have to stand in your way of success! 
             </p>
       </div>
       
@@ -63,4 +63,5 @@
             </p>
       </div>
     </div>
+  <!-- content end -->
 @endsection

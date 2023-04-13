@@ -186,7 +186,7 @@ $(document).ready(function(){
                     var date = d+'-'+m+'-'+y;
 
                     output += '<div class="post-item clearfix">';
-                    output += '<img src="upload/blog/'+data[count].image+'" alt="">';
+                    output += '<img src="public/upload/blog/'+data[count].image+'" alt="">';
                     output += '<h4><a href="blog/'+data[count].slug+'">'+data[count].title+'</a></h4>';
                     output += '<time datetime="2020-01-01">'+date+'</time>';
                     output += '</div>';

@@ -77,8 +77,8 @@ border-radius: 36px 36px 0px 0px;
       <div class="bgYellow py-5 bottomUp" style="position:unset;">
             <div class="container">
                   <div class="col-lg-9 col-12 text-center">
-                        <h1 class="service_heading_text" style="line-height: 58px;">We offer Next-gen Technology</h1>
-                        <p>As a renowned IT service provider, we offer the following Next-gen technology services ----</p>
+                        <h1 class="service_heading_text" style="line-height: 58px;">We offer Quality Engineer</h1>
+                        <p>As a renowned IT service provider, we offer the following Quality Engineer services</p>
                   </div>
                         <div class="row justify-content-center">
                               <div class="col-lg-5 col-12 mt-5">

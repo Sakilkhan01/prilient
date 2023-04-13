@@ -80,7 +80,6 @@
          <div class="pre-text- text-radius text-light text-animation bg-b">Welcome to Prilient Technologies</div>
      </div>
  </div>
-
  <header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
      <div class="container-fluid m-pad">
          <div class="menu-header">
@@ -93,7 +92,6 @@
                  <ul class="nav-list">
                      <li>
                          <a href="{{ url('') }}" class="menu-links">Home</a>
-
                      </li>
                      <li>
                          <a href="{{ url('about-us') }}" class="menu-links">About us</a>
@@ -103,7 +101,7 @@
                              <a class="menu-links" href="#">Services</a>
                              <ul class="dropdown-menu cs-dropdown-menu" aria-labelledby="dropdownMenuButton">
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/product-design') }}">Product Design &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('/product-design') }}">Product Design  <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('/product-design/ui-ux-design') }}">UI/UX
                                                  Design</a></li>
@@ -114,7 +112,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{url('app_development')}}">Mobile App Development &raquo;</a>
+                                     <a class="dropdown-item" href="{{url('app_development')}}">Mobile App Development <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{url('app_development/ios-development')}}">ios
                                                  Development</a></li>
@@ -127,7 +125,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{url('web_development')}}">Web Development &raquo;</a>
+                                     <a class="dropdown-item" href="{{url('web_development')}}">Web Development  <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{url('/web_development/ecommerce-development')}}">Ecommerce
                                                  Development</a></li>
@@ -146,14 +144,14 @@
                                      <a class="dropdown-item" href="{{ url('cyber_security') }}">Cyber Security</a>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/product_prototype') }}">Product Prototype &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('/product_prototype') }}">Product Prototype  <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('product_prototype/mvp') }}">MVP</a></li>
                                          <li><a class="dropdown-item" href="{{ url('product_prototype/poc') }}">PoC</a></li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{url('Analytics_and_BI')}}">Analytics & BI &raquo;</a>
+                                     <a class="dropdown-item" href="{{url('Analytics_and_BI')}}">Analytics & BI <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{url('/Analytics_and_BI/modern-data-warehouses')}}">Modern Data
                                                  Warehouses</a></li>
@@ -166,7 +164,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/NextGen') }}">Next-Gen Technologies &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('/NextGen') }}">Next-Gen Technologies <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('NextGen/AWS-ampify-&-AWS-lamda') }}">AWS Ampify & AWS
                                                  Lamda</a></li>
@@ -180,7 +178,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/frontend_development') }}">Front-end Development &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('/frontend_development') }}">Front-end Development <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('frontend_development/angular-development') }}">Angular
                                                  JS Development</a></li>
@@ -193,7 +191,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/Quality_Engineering') }}">Quality Engineering &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('/Quality_Engineering') }}">Quality Engineering <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/mobile-testing') }}">Mobile
                                                  Testing </a></li>
@@ -218,7 +216,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('backend_development') }}">Back-end Development &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('backend_development') }}">Back-end Development <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{url('backend_development/php-development')}}">PHP
                                                  Development</a></li>
@@ -237,7 +235,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('blockchain_development') }}">Blockchain Development &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('blockchain_development') }}">Blockchain Development <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('/blockchain_development/smart-contracts-development') }}">Smart
                                                  Contracts Development</a></li>
@@ -257,7 +255,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/fullStack_development') }}">Full-stack Development &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('/fullStack_development') }}">Full-stack Development <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
                                          <li><a class="dropdown-item" href="{{ url('/fullStack_development/MEAN-stack-development') }}">MEAN
                                                  Stack Development</a></li>
@@ -266,7 +264,7 @@
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/cloud_strategy') }}">Cloud Strategy & Development &raquo;</a>
+                                     <a class="dropdown-item" href="{{ url('/cloud_strategy') }}">Cloud Strategy & Development <span class="icon"></span></a>
                                      <ul class="dropdown-menu dropdown-submenu dropdown-submenu-last">
                                          <li><a class="dropdown-item" href="{{ url('/cloud_strategy/SaaS_Development') }}">SaaS Development</a></li>
                                          <li><a class="dropdown-item" href="{{ url('/cloud_strategy/IaaS_Development') }}">IaaS Development</a></li>
@@ -306,7 +304,7 @@
                  </ul>
              </div>
          </div>
-
+    
          <nav id="main-nav">
              <ul class="first-nav">
                  <li>
@@ -532,3 +530,53 @@
      </div>
  </header>
 
+ <style>
+.dropdown-menu > li .icon {
+  box-sizing: border-box;
+  transition: transform 0.3s;
+  width: 15px;
+  height: 15px;
+  transform: rotate(180deg);
+  position: relative;
+}
+
+.dropdown-menu > li:hover {
+    background:#e6e6e6;
+}
+.dropdown-menu > li:hover .icon {
+    transform: rotate(0deg);
+    }
+.dropdown-menu span{
+    float:right;
+}
+       
+ .dropdown-menu > li .icon::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 0px;
+  border-bottom: solid 2px #212529;
+  position: absolute;
+  bottom: 5px;
+  transform: rotate(90deg);
+  transition: width 0.3s;
+}
+.dropdown-menu > li:hover  .icon::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  bottom: 5px;
+  transform: rotate(90deg);
+}
+.dropdown-menu > li .icon::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 0px;
+  border-bottom: solid 2px #212529;
+  position: absolute;
+  bottom: 5px;
+}
+</style>

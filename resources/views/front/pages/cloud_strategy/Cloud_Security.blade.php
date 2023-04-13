@@ -1,19 +1,19 @@
 @extends('front.layouts.app')
-@section('title', "Cloud Migration")
-@section('meta_keywords', "Cloud Migration")
-@section('meta_description', "Cloud migration is the process of moving a company's digital assets, services, databases, IT resources, and applications either partially, or wholly, into the cloud.")
+@section('title', "Cloud Security")
+@section('meta_keywords', "Cloud Security")
+@section('meta_description', "Cloud security, also known as cloud computing is a collection of procedures and technology designed to address external and internal threats to business security.")
 
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
-  <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
+  <section class="breadcrumb-area banner-1" data-background="{{ url('public/assets/images/banner/9.jpg') }}">
     <div class="text-block">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h1>Cloud Migration</h1>
+                <h1>Cloud Security</h1>
               </div>
             </div>
           </div>
@@ -29,10 +29,11 @@
             <p>The cloud offers your business a wide range of benefits, from cost savings and increased security to scalability and flexibility.</p>
           </div>
       </div>
-       <div class="col-lg-12 mt-4">
-            <h4>Cloud Migration </h4>
+     
+      <div class="col-lg-12 mt-4">
+            <h4>Cloud Security</h4>
             <p>
-            Cloud migration can be an expensive undertaking. Once all of your data is in the cloud, however, you’ll find that it saves you money by eliminating hardware, power, and other maintenance costs. Cloud platforms are also more convenient for all users in your company because they eliminate software licensing fees and complicated setups. Our services will help you make a smooth transition to a cloud-based infrastructure.
+            Security is a top priority for all companies, but it’s especially crucial for cloud applications and infrastructures. We help you protect your data against security breaches by offering an array of services that include penetration testing, vulnerability assessments, application security testing and more. Our team has been around since 2006, so we have plenty of experience in helping our clients build secure cloud solutions. 
             </p>
       </div>
       
