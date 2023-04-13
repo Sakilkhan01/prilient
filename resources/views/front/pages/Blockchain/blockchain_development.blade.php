@@ -126,9 +126,9 @@ border-radius: 36px 36px 0px 0px;
                                            <img src="{{ asset('public/assets/services/Group167.svg') }}">
                                          </div>
                                          <div>
-                                           <h5>Private/Public Blockchain Development</h5>
+                                           <h5>Private Blockchain Development</h5>
                                           <p>
-                                             Develop your own public or private blockchain network as per your business requirement. We have lots of...<a href="{{ url('blockchain_development/Private/Public-development') }}" class="readMoreService">Read More</a>
+                                             Develop your own private blockchain network as per your business requirement. We have lots of...<a href="{{ url('/blockchain_development/private-development') }}" class="readMoreService">Read More</a>
                                           </p>
                                          </div>
                                     </div>

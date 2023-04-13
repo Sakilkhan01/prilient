@@ -11,7 +11,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h1>MVP & Prototype</h1>
+                <h1>MVP Service</h1>
               </div>
             </div>
           </div>

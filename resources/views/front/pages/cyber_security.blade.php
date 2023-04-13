@@ -59,7 +59,7 @@ border-radius: 36px 36px 0px 0px;
  <div class="bgYellow BgRedcardHeight py-5 mt-4">
       <div class="container">
       <div class="comman-service-heading text-center">
-             <h1 class="text-center fontWt70 textBgcolor" style="font-weight: 600;">Cyber Securities Services</h1>
+             <h1 class="text-center fontWt70 textBgcolor" style="font-weight: 600;">Cyber Security Services</h1>
              <p class="">To understand how we are different from other cyber security services, it’s important to get a sense of our values.</p>
       </div>  
       </div>

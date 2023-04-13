@@ -13,7 +13,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h1>POC & Prototype</h1>
+                <h1>POC Service</h1>
               </div>
             </div>
           </div>

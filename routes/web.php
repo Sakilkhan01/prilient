@@ -88,6 +88,7 @@ Route::view('app_development/react-native-development', 'front.pages.AppDevelopm
 Route::view('/web_development', 'front.pages.webDevelopment.web_development');
 Route::view('/web_development/ecommerce-development', 'front.pages.webDevelopment.ecommerce_development');
 Route::view('/web_development/CMS-development', 'front.pages.webDevelopment.CMS_development');
+Route::view('/web_development/CRM-development', 'front.pages.webDevelopment.CRM_development');
 Route::view('/web_development/ERP-development', 'front.pages.webDevelopment.ERP_development');
 Route::view('/web_development/enterprise-development', 'front.pages.webDevelopment.enterprise_development');
 
@@ -171,7 +172,7 @@ Route::view('/blockchain_development', 'front.pages.Blockchain.blockchain_develo
 Route::view('/blockchain_development/smart-contracts-development', 'front.pages.Blockchain.smartContracts');
 Route::view('/blockchain_development/blockchain-wallet-development', 'front.pages.Blockchain.Wallet');
 Route::view('/blockchain_development/decentralized-development', 'front.pages.Blockchain.Decentralized');
-Route::view('/blockchain_development/Private/Public-development', 'front.pages.Blockchain.Private');
+Route::view('/blockchain_development/private-development', 'front.pages.Blockchain.Private');
 Route::view('/blockchain_development/tokenization-development', 'front.pages.Blockchain.tokenization');
 Route::get('services/blockchain_development-tokenization_development', function () {
     return redirect('/blockchain_development/tokenization-development');

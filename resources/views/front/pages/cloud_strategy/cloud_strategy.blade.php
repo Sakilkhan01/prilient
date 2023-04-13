@@ -171,7 +171,7 @@ border-radius: 36px 36px 0px 0px;
                                          <div>
                                            <h5>Amazon cloud application development</h5>
                                           <p>
-                                              An effective data management strategy will streamline your business processes, keep customer information... <a href="{{ url('cloud_strategy/Azure_Cloud_Service') }}" class="readMoreService">Read More</a>
+                                              An effective data management strategy will streamline your business processes, keep customer information... <a href="{{ url('/cloud_strategy/Amazon_cloud') }}" class="readMoreService">Read More</a>
                                           </p>
                                          </div>
                                     </div>
@@ -184,7 +184,7 @@ border-radius: 36px 36px 0px 0px;
                                          <div>
                                            <h5>Azure Cloud Development</h5>
                                           <p>
-                                              One of our top priorities here at Prilient is helping companies find secure and scalable solutions for ... <a href="{{url('backend_development/dotnet-development')}}" class="readMoreService">Read More</a>
+                                              One of our top priorities here at Prilient is helping companies find secure and scalable solutions for ... <a href="{{ url('/cloud_strategy/Azure_Cloud_Service') }}" class="readMoreService">Read More</a>
                                           </p>
                                          </div>
                                     </div>

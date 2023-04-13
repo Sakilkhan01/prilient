@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
-@section('title', "Private/Public Blockchain Development Service")
-@section('meta_keywords', "Private/Public Blockchain Development Service")
-@section('meta_description', "Private/Public Blockchain Development Service is a peer-to-peer network, made centralized by connecting all the nodes to a center point that manages the whole platform.")
+@section('title', "Private Blockchain Development Service")
+@section('meta_keywords', "Private Blockchain Development Service")
+@section('meta_description', "Private Blockchain Development Service is a peer-to-peer network, made centralized by connecting all the nodes to a center point that manages the whole platform.")
 
 @section('content') 
   <!-- content start -->
@@ -13,7 +13,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h1>Private/Public Blockchain Development Service</h1>
+                <h1>Private Blockchain Development Service</h1>
               </div>
             </div>
           </div>
@@ -24,7 +24,7 @@
   <!--End why-choose-->
 <div class="container py-5">
 <div class="col-lg-12">
-            <h4>Private/Public Blockchain Development</h4>
+            <h4>Private Blockchain Development</h4>
             <p>
             Develop your own public or private blockchain network as per your business requirement. We have lots of trusted blockchain developers who can develop your own blockchain network with complete security, automation technique, and smart contract that completely meet your business expectation. Our developers also ensure to provide complete support if any issue will come in. 
            </p>

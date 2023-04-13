@@ -131,6 +131,8 @@
                                                  Development</a></li>
                                          <li><a class="dropdown-item" href="{{url('/web_development/CMS-development')}}">CMS
                                                  Development</a></li>
+                                         <li><a class="dropdown-item" href="{{url('/web_development/CRM-development')}}">CRM
+                                                 Development</a></li>
                                          <li><a class="dropdown-item" href="{{url('/web_development/ERP-development')}}">ERP
                                                  Development</a></li>
                                          <li><a class="dropdown-item" href="{{url('/web_development/enterprise-development')}}">Enterprise
@@ -246,7 +248,7 @@
                                                  href="{{ url('/blockchain_development/decentralized-development') }}">Decentralized Apps
                                                  (dApps)</a></li>
                                          <li><a class="dropdown-item"
-                                                 href="{{ url('/blockchain_development/Private/Public-development') }}">Private/Public
+                                                 href="{{ url('/blockchain_development/private-development') }}">Private 
                                                  Blockchain</a></li>
                                          <li><a class="dropdown-item"
                                                  href="{{ url('/blockchain_development/tokenization-development') }}">Tokenization</a></li>
@@ -338,6 +340,7 @@
                              <ul>
                                  <li><a href="{{url('/web_development/ecommerce-development')}}">Ecommerce Development</a></li>
                                          <li><a href="{{url('/web_development/CMS-development')}}">CMS Development</a></li>
+                                         <li><a href="{{url('/web_development/CRM-development')}}">CRM Development</a></li>
                                          <li><a href="{{url('/web_development/ERP-development')}}">ERP Development</a></li>
                                          <li><a href="{{url('/web_development/enterprise-development')}}">Enterprise Applications</a></li>
                              </ul>
@@ -449,7 +452,7 @@
                                                  Development</a></li>
                                          <li><a href="{{ url('/blockchain_development/decentralized-development') }}">Decentralized Apps
                                                  (dApps)</a></li>
-                                         <li><a href="{{ url('/blockchain_development/Private/Public-development') }}">Private/Public
+                                         <li><a href="{{ url('/blockchain_development/private-development') }}">Private 
                                                  Blockchain</a></li>
                                          <li><a href="{{ url('/blockchain_development/tokenization-development') }}">Tokenization</a></li>
                                          <li><a href="{{ url('/blockchain_development/NFT-development') }}">NFT</a>
@@ -534,8 +537,8 @@
 .dropdown-menu > li .icon {
   box-sizing: border-box;
   transition: transform 0.3s;
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
   transform: rotate(180deg);
   position: relative;
 }
@@ -553,9 +556,9 @@
  .dropdown-menu > li .icon::before {
   content: "";
   display: block;
-  width: 15px;
+  width: 14px;
   height: 0px;
-  border-bottom: solid 2px #212529;
+  border-bottom: solid 1.9px #212529;
   position: absolute;
   bottom: 5px;
   transform: rotate(90deg);
@@ -573,9 +576,9 @@
 .dropdown-menu > li .icon::after {
   content: "";
   display: block;
-  width: 15px;
+  width: 14px;
   height: 0px;
-  border-bottom: solid 2px #212529;
+  border-bottom: solid 1.9px #212529;
   position: absolute;
   bottom: 5px;
 }
