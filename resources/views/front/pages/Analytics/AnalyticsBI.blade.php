@@ -3,6 +3,7 @@
 @section('meta_keywords', "Analytics and BI Service")
 @section('meta_description', "Analytics and BI Service (ABI) is an umbrella term that includes the applications, infrastructure and tools, and best practices that enable access to and analysis of information")
 
+@section('content') 
 
 <style type="text/css">
   .web-development-bg{
@@ -25,7 +26,6 @@ border-radius: 36px 36px 0px 0px;
 }
 </style>
 
-@section('content') 
 <section class="hero-card-web-2 web-development-bg web-development-bg2">
       <div class="hero-main-rp container-fluid">
          <div class="container">
@@ -34,7 +34,7 @@ border-radius: 36px 36px 0px 0px;
                         <h1 class="fontWt30"><span class="fontWt50 common-color-heading">ANALYTICS</span>
                          AND <span class="fontWt50 common-color-heading">BI SERVICE</span></h1>
                         <p class="mt-3">Make Data-driven decisions to meet your future business goals, identify problems, and reduce the risk of failure by getting our data analytics and BI service</p>
-                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn mb-5">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                   <div class="col-lg-5 col-12 mt-4 mb-5">
                         <img src="{{ asset('public/assets/images/banner/AnalyticsandBI.png') }}">

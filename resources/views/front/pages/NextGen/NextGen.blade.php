@@ -4,6 +4,7 @@
 @section('meta_description', "next-gen Technology Service is a business technology consulting, IT solutions and IT Services company. Transform and Accelerate your business with next-gen technology")
 
 
+@section('content') 
 <style type="text/css">
   .web-development-bg{
   background: url('{{ asset('public/assets/images/banner/bg-gray.png') }}') 0 0 / cover;
@@ -25,7 +26,6 @@ border-radius: 36px 36px 0px 0px;
 }
 </style>
 
-@section('content') 
 <section class="hero-card-web-2 web-development-bg web-development-bg2">
       <div class="hero-main-rp container-fluid">
          <div class="container">
@@ -49,7 +49,7 @@ border-radius: 36px 36px 0px 0px;
        <div class="col-lg-5 col-12 text-center mt-5">
             <img src="{{ asset('public/assets/services/Group116.svg') }}">
       </div>
-      <div class="col-lg-7 col-12 mt-5">
+      <div class="col-lg-7 col-12 mt-5 d-flex align-items-center">
           <div class="comman-service-heading">
             <h2>Unleash the power of your <span class="textPrim fontWt50">business</span> with <span class="textRed fontWt50">Next-gen technology</span></h2>
              <p>Next-gen technology refers to new development or new degradation in the technology. Next-gen technology and management help to improve software advancement, transform the current learning or working system, and change the lives of people in different aspects like improving performance, completing the repetitive task more effectively, and keeping them safer or wealthier or healthier.</p>

@@ -3,6 +3,7 @@
 @section('meta_keywords', "DevOps Services")
 @section('meta_description', "DevOps services are a set of development and operation.DevOps solution helps to develop & deploy high-quality software products and Providing better resource management")
 
+@section('content')
 <style type="text/css">
 .fontWt30{
   font-weight: 400 !important;
@@ -16,8 +17,7 @@
 .request-quote-card-body{
 border-radius: 36px 36px 0px 0px; 
 }
-</style>
-@section('content') 
+</style> 
 <section class="hero-card-web-2 bg-service-banner" style="background-image: url({{ asset('public/assets/images/banner/bg-gray.png') }});">
       <div class="hero-main-rp container-fluid">
          <div class="container">
@@ -37,12 +37,12 @@ border-radius: 36px 36px 0px 0px;
 </section>
 @include('front.pages.rq')
 <section class="service-content-body">
-    <div class="container pb-5">
+    <div class="container">
       <div class="row">
-      <div class="col-lg-5 col-12 text-center mt-5">
-            <img style="height:75%" src="{{ asset('public/assets/services/Group4.png') }}">
+      <div class="col-lg-4 col-12 text-center mt-5">
+            <img src="{{ asset('public/assets/services/Group4.png') }}">
       </div>
-      <div class="col-lg-7 col-12 mt-5">
+      <div class="col-lg-8 col-12 mt-5">
           <div class="comman-service-heading">
 <h2>Develop <span class="textRed fontWt50">Business-Focused</span> <br><span class="textPrim fontWt50">DevOps Strategies</span></h2>
             

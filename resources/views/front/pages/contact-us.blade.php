@@ -149,6 +149,7 @@
 </style>
 <script>
    if ($("#contactUsForm").length > 0) {
+    
       $("#contactUsForm").validate({
       rules: {
          name: {
@@ -156,7 +157,9 @@
          },
          phone: {
             required: true,
-            number:true
+            number:true,
+            minlength: 10,
+            maxlength: 10
          },
          business_email: {
             required: true,

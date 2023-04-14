@@ -3,6 +3,7 @@
 @section('meta_keywords', "Cloud Strategy & Development Services")
 @section('meta_description', "Cloud Strategy & Development Services provides enhanced flexibility in the process of creating applications or computing solutions that can be operated web-based platforms.")
 
+@section('content') 
 
 <style type="text/css">
   .web-development-bg{
@@ -28,7 +29,6 @@ border-radius: 36px 36px 0px 0px;
 }
 </style>
 
-@section('content') 
 <section class="hero-card-web-2 web-development-bg web-development-bg2">
       <div class="hero-main-rp container-fluid">
          <div class="container">

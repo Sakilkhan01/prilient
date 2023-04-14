@@ -3,6 +3,7 @@
 @section('meta_keywords', "Back-end development")
 @section('meta_description', "Back-end development means working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs")
 
+@section('content')
 <style type="text/css">
   .web-development-bg{
   background: url('{{ asset('public/assets/images/banner/bg-gray.png') }}') 0 0 / cover;
@@ -23,8 +24,7 @@
 border-radius: 36px 36px 0px 0px; 
 }
 </style>
-
-@section('content') 
+ 
 <section class="hero-card-web-2 web-development-bg web-development-bg2">
       <div class="hero-main-rp container-fluid">
          <div class="container">

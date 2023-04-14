@@ -3,6 +3,7 @@
 @section('meta_keywords', "Web Development Services")
 @section('meta_description', "Web development services are beneficial for a variety of reasons. involve everything related to building a web-based solution, whether it is a simple text page")
 
+@section('content') 
 <style type="text/css">
   .web-development-bg{
   background: url('{{ asset('public/assets/images/banner/bg-gray.png') }}') 0 0 / cover;
@@ -24,7 +25,6 @@ border-radius: 36px 36px 0px 0px;
 }
 </style>
 
-@section('content') 
 <section class="hero-card-web-2 web-development-bg web-development-bg2">
       <div class="hero-main-rp container-fluid">
          <div class="container">
@@ -32,7 +32,7 @@ border-radius: 36px 36px 0px 0px;
                   <div class="col-lg-7 col-12 text-lg-left text-center">
                         <h1 class="fontWt30">Your <span class="fontWt50 common-color-heading">Website</span> is Your <span class="fontWt50 common-color-heading">Business Foundation</span></h1>
                         <p class="mt-3">If you’re you're searching for an accomplished web development team to assist you with rejuvenating your venture, look no farther than Sufficiently Advanced. Our web development services have assisted a large number of organizations with succeeding and we can do it for you as well.</p>
-                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn mb-5">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                      <!-- <a href="{{ url('contact-us') }}" class="niwax-btn2 play-demo-btn ml-4 mt-3">View Demo <i class="fa fa-play-circle fa-ani"></i></a> -->
                   </div>
                   <div class="col-lg-5 col-12 mt-4">

@@ -4,6 +4,7 @@
 @section('meta_description', "We offer a cloud-native cyber security services platform.Cyber security services are specialized engagements designed to manage and mitigate the risk and impact of cyberattacks.")
 
 
+@section('content')
 <style type="text/css">
 
 .fontWt30{
@@ -23,8 +24,7 @@ border-radius: 36px 36px 0px 0px;
     margin-top: 2% !important;
 }
 </style>
-
-@section('content') 
+ 
 <section class="hero-card-web-2 cyber-bg" style="background-image: url({{ asset('public/assets/images/banner/Cyberwarrior2x.png') }});">
       <div class="hero-main-rp container-fluid">
          <div class="container">
@@ -32,7 +32,7 @@ border-radius: 36px 36px 0px 0px;
                   <div class="col-lg-8 col-12 text-lg-left text-center">
                         <h1 class="fontWt30"><span class="fontWt50 common-color-heading">Shield</span> Your <span class="fontWt50 common-color-heading">Organization</span> With <span class="fontWt50 common-color-heading">Cyber Attacks</span></h1>
                         <p class="mt-3">If you have any desire to shield your organization from cyber-attacks and guarantee that your delicate information stays safe, we're here to help. We can deal with all that you really want to keep your business secured, including danger recognition and avoidance, so you can zero in on developing your business without agonizing over whether it's protected from programmers.</p>
-                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
+                     <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn mb-5">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                      <!-- <a href="{{ url('contact-us') }}" class="niwax-btn2 play-demo-btn ml-4 mt-3">View Demo <i class="fa fa-play-circle fa-ani"></i></a> -->
                   </div>
             </div>
