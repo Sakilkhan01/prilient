@@ -11,7 +11,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="theme-color" content="#2e2a8f"> 
       <meta name="csrf-token" content="{{ csrf_token() }}" />
-      <link rel="canonical" href="https://prilient.com" />
+      <link rel="canonical" href="https://prilient.com/NextGen/chatbot-dvelopment" />
       <link href="{{ URL::to('public/assets/images/favicon.png') }}" rel="icon">
       <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/bootstrap.min.css') }}?{{ rand() }}" />
       <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/plugin.min.css') }}?{{ rand() }}" />
