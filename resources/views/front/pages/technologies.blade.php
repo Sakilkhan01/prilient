@@ -27,27 +27,27 @@
 				<div class="owl-carousel technologies_slider">
 					<div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" loading="lazy" src="{{ asset('public/images/technology/Jenkins.png') }}">
+					      	<img alt="Jenkins" loading="lazy" src="{{ asset('public/images/technology/Jenkins.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/OpenVPN.png') }}">
+					      	<img alt="OpenVPN" loading="lazy" src="{{ asset('public/images/technology/OpenVPN.png') }}">
 					      </div>     
 				      </div>
 				  
 				     <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Percona.png') }}">
+					      	<img alt="Percona" loading="lazy" src="{{ asset('public/images/technology/Percona.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Cloudflare.png') }}">
+					      	<img alt="Cloudflare" loading="lazy" src="{{ asset('public/images/technology/Cloudflare.png') }}">
 					      </div>       
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Zabbix.png') }}">
+					      	<img alt="Zabbix" loading="lazy" src="{{ asset('public/images/technology/Zabbix.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Ancible.png') }}">
+					      	<img alt="Ancible" loading="lazy" src="{{ asset('public/images/technology/Ancible.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
@@ -55,61 +55,61 @@
 					      	<img loading="lazy" src="{{ asset('public/images/technology/Monit.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Kubernets.png') }}">
+					      	<img alt="Kubernets" loading="lazy" src="{{ asset('public/images/technology/Kubernets.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/OpenShift.png') }}">
+					      	<img alt="OpenShift" loading="lazy" src="{{ asset('public/images/technology/OpenShift.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Apache-Cloudstack.png') }}">
+					      	<img alt="Apache Cloudstack" loading="lazy" src="{{ asset('public/images/technology/Apache-Cloudstack.png') }}">
 					      </div>     
 				      </div>
 
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Chef.png') }}">
+					      	<img alt="Chef" loading="lazy" src="{{ asset('public/images/technology/Chef.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Ngnix.png') }}">
+					      	<img alt="Ngnix" loading="lazy" src="{{ asset('public/images/technology/Ngnix.png') }}">
 					      </div>    
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Window-Server.png') }}">
+					      	<img alt="Window Server" loading="lazy" src="{{ asset('public/images/technology/Window-Server.png') }}">
 					      </div>   
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/tomcat.png') }}">
-					      </div>   
-				      </div>
-				      <div class="item">      
-					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Ubuntu.png') }}">
-					      </div>   
-					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/AWS.png') }}">
+					      	<img alt="tomcat" loading="lazy" src="{{ asset('public/images/technology/tomcat.png') }}">
 					      </div>   
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/RedHat.png') }}">
+					      	<img alt="Ubuntu" loading="lazy" src="{{ asset('public/images/technology/Ubuntu.png') }}">
 					      </div>   
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/New-relic.png') }}">
-					      </div>   
-				      </div>
-				      <div class="item">      
-					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/CPanel.png') }}">
-					      </div>   
-					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Docker.png') }}">
+					      	<img alt="AWS" loading="lazy" src="{{ asset('public/images/technology/AWS.png') }}">
 					      </div>   
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Openstack-1.png') }}">
+					      	<img alt="RedHat" loading="lazy" src="{{ asset('public/images/technology/RedHat.png') }}">
+					      </div>   
+					      <div class="card_technology">
+					      	<img alt="New relic" loading="lazy" src="{{ asset('public/images/technology/New-relic.png') }}">
+					      </div>   
+				      </div>
+				      <div class="item">      
+					      <div class="card_technology">
+					      	<img alt="CPanel" loading="lazy" src="{{ asset('public/images/technology/CPanel.png') }}">
+					      </div>   
+					      <div class="card_technology">
+					      	<img alt="Docker" loading="lazy" src="{{ asset('public/images/technology/Docker.png') }}">
+					      </div>   
+				      </div>
+				      <div class="item">      
+					      <div class="card_technology">
+					      	<img alt="Openstack 1" loading="lazy" src="{{ asset('public/images/technology/Openstack-1.png') }}">
 					      </div>   
 				      </div>
 				</div>
@@ -124,56 +124,56 @@
 				<div class="owl-carousel technologies_slider">
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/JQuery.png') }}">
+					      	<img alt="JQuery" loading="lazy" src="{{ asset('public/images/technology/JQuery.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/TypeScript.png') }}">
+					      	<img alt="TypeScript" loading="lazy" src="{{ asset('public/images/technology/TypeScript.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/angular.png') }}">
+					      	<img alt="angular" loading="lazy" src="{{ asset('public/images/technology/angular.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/VB-Script.png') }}">
+					      	<img alt="VB-Script" loading="lazy" src="{{ asset('public/images/technology/VB-Script.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/HTML5.png') }}">
+					      	<img alt="HTML5" loading="lazy" src="{{ asset('public/images/technology/HTML5.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/bootstrap.png') }}">
+					      	<img alt="bootstrap" loading="lazy" src="{{ asset('public/images/technology/bootstrap.png') }}">
 					      </div>     
 				      </div>
 				  
 				     <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/css.png') }}">
+					      	<img alt="css" loading="lazy" src="{{ asset('public/images/technology/css.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/React-native.png') }}">
+					      	<img alt="React-native" loading="lazy" src="{{ asset('public/images/technology/React-native.png') }}">
 					      </div>       
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/javascript.png') }}">
+					      	<img alt="javascript" loading="lazy" src="{{ asset('public/images/technology/javascript.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/ajax.png') }}">
+					      	<img alt="ajax" loading="lazy" src="{{ asset('public/images/technology/ajax.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Dart-js.png') }}">
+					      	<img alt="Dart-js" loading="lazy" src="{{ asset('public/images/technology/Dart-js.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Vue.png') }}">
+					      	<img alt="Vue-js" loading="lazy" src="{{ asset('public/images/technology/Vue.png') }}">
 					      </div>    
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/ecmascript.png') }}">
+					      	<img alt="ecmascript" loading="lazy" src="{{ asset('public/images/technology/ecmascript.png') }}">
 					      </div>   
 				      </div>
 				</div>
@@ -188,90 +188,90 @@
 				<div class="owl-carousel technologies_slider">
 					<div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/php-1.png') }}">
+					      	<img alt="php" loading="lazy" src="{{ asset('public/images/technology/php-1.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/laravel-2.png') }}">
+					      	<img alt="laravel" loading="lazy" src="{{ asset('public/images/technology/laravel-2.png') }}">
 					      </div>     
 				      </div>
 				  
 				     <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/java-2.png') }}">
+					      	<img alt="java" loading="lazy" src="{{ asset('public/images/technology/java-2.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/express.png') }}">
+					      	<img alt="express" loading="lazy" src="{{ asset('public/images/technology/express.png') }}">
 					      </div>       
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/python-2.png') }}">
+					      	<img alt="python" loading="lazy" src="{{ asset('public/images/technology/python-2.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/grails.png') }}">
+					      	<img alt="grails" loading="lazy" src="{{ asset('public/images/technology/grails.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/node-js-2.png') }}">
+					      	<img alt="node-js" loading="lazy" src="{{ asset('public/images/technology/node-js-2.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/spring.png') }}">
+					      	<img alt="spring" loading="lazy" src="{{ asset('public/images/technology/spring.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/django-2.png') }}">
+					      	<img alt="django-2" loading="lazy" src="{{ asset('public/images/technology/django-2.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Hibernate.png') }}">
+					      	<img alt="Hibernate" loading="lazy" src="{{ asset('public/images/technology/Hibernate.png') }}">
 					      </div>     
 				      </div>
 
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/cakephp-2.png') }}">
+					      	<img alt="cakephp" loading="lazy" src="{{ asset('public/images/technology/cakephp-2.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/codeigniter.png') }}">
+					      	<img alt="codeigniter" loading="lazy" src="{{ asset('public/images/technology/codeigniter.png') }}">
 					      </div>    
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/php-1.png') }}">
+					      	<img alt="php" loading="lazy" src="{{ asset('public/images/technology/php-1.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/laravel-2.png') }}">
+					      	<img alt="laravel" loading="lazy" src="{{ asset('public/images/technology/laravel-2.png') }}">
 					      </div>     
 				      </div>
 				  
 				     <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/java-2.png') }}">
+					      	<img alt="java-2" loading="lazy" src="{{ asset('public/images/technology/java-2.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/express.png') }}">
+					      	<img alt="express" loading="lazy" src="{{ asset('public/images/technology/express.png') }}">
 					      </div>       
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/python-2.png') }}">
+					      	<img alt="python" loading="lazy" src="{{ asset('public/images/technology/python-2.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/grails.png') }}">
+					      	<img alt="grails" loading="lazy" src="{{ asset('public/images/technology/grails.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/spring-boot.png') }}">
+					      	<img alt="spring-boot" loading="lazy" src="{{ asset('public/images/technology/spring-boot.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Go-Logo.png') }}">
+					      	<img alt="Go-Logo" loading="lazy" src="{{ asset('public/images/technology/Go-Logo.png') }}">
 					      </div>    
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/playframework.png') }}">
+					      	<img alt="playframework" loading="lazy" src="{{ asset('public/images/technology/playframework.png') }}">
 					      </div>  
 					         
 				      </div>
@@ -287,49 +287,49 @@
 				<div class="owl-carousel technologies_slider">
 					<div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Selenium.png') }}">
+					      	<img alt="Selenium" loading="lazy" src="{{ asset('public/images/technology/Selenium.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/IBM-RFT.png') }}">
+					      	<img alt="IBM-RFT" loading="lazy" src="{{ asset('public/images/technology/IBM-RFT.png') }}">
 					      </div>     
 				      </div>
 				  
 				     <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Postman.png') }}">
+					      	<img alt="Postman" loading="lazy" src="{{ asset('public/images/technology/Postman.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Calabash.png') }}">
+					      	<img alt="Calabash" loading="lazy" src="{{ asset('public/images/technology/Calabash.png') }}">
 					      </div>       
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Jira.png') }}">
+					      	<img alt="Jira" loading="lazy" src="{{ asset('public/images/technology/Jira.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/trello.png') }}">
+					      	<img alt="trello" loading="lazy" src="{{ asset('public/images/technology/trello.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/TestPad.png') }}">
+					      	<img alt="TestPad" loading="lazy" src="{{ asset('public/images/technology/TestPad.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/SoapUI.png') }}">
+					      	<img alt="SoapUI" loading="lazy" src="{{ asset('public/images/technology/SoapUI.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Swagger.png') }}">
+					      	<img alt="Swagger" loading="lazy" src="{{ asset('public/images/technology/Swagger.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Rest-assured.png') }}">
+					      	<img alt="Rest-assured" loading="lazy" src="{{ asset('public/images/technology/Rest-assured.png') }}">
 					      </div>     
 				      </div>
 
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/SonarQube.png') }}">
+					      	<img alt="SonarQube" loading="lazy" src="{{ asset('public/images/technology/SonarQube.png') }}">
 					      </div>  
 				      </div>
 				</div>
@@ -344,49 +344,49 @@
 				<div class="owl-carousel technologies_slider">
 					<div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Hyperledger-Fabric.png') }}">
+					      	<img alt="Hyperledger Fabric" loading="lazy" src="{{ asset('public/images/technology/Hyperledger-Fabric.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/IPFS.png') }}">
+					      	<img alt="IPFS" loading="lazy" src="{{ asset('public/images/technology/IPFS.png') }}">
 					      </div>     
 				      </div>
 				  
 				     <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/solidity.png') }}">
+					      	<img alt="solidity" loading="lazy" src="{{ asset('public/images/technology/solidity.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/credits.png') }}">
+					      	<img alt="credits" loading="lazy" src="{{ asset('public/images/technology/credits.png') }}">
 					      </div>       
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/BigchainDB-1.png') }}">
+					      	<img alt="BigchainDB-1" loading="lazy" src="{{ asset('public/images/technology/BigchainDB-1.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Truffle.png') }}">
+					      	<img alt="Truffle" loading="lazy" src="{{ asset('public/images/technology/Truffle.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/web3j.png') }}">
+					      	<img alt="web3j" loading="lazy" src="{{ asset('public/images/technology/web3j.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Tierion-1.png') }}">
+					      	<img alt="Tierion-1" loading="lazy" src="{{ asset('public/images/technology/Tierion-1.png') }}">
 					      </div>     
 				      </div>
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/hedera.png') }}">
+					      	<img alt="hedera" loading="lazy" src="{{ asset('public/images/technology/hedera.png') }}">
 					      </div>  
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Steem.png') }}">
+					      	<img alt="Steem" loading="lazy" src="{{ asset('public/images/technology/Steem.png') }}">
 					      </div>     
 				      </div>
 
 				      <div class="item">      
 					      <div class="card_technology">
-					      	<img loading="lazy" src="{{ asset('public/images/technology/Hyperledger-Sawtooth.png') }}">
+					      	<img alt="Hyperledger-Sawtooth" loading="lazy" src="{{ asset('public/images/technology/Hyperledger-Sawtooth.png') }}">
 					      </div>  
 					      <div class="card_technology">
 					      	<img loading="lazy" src="{{ asset('public/images/technology/NEM-1.png') }}">

@@ -36,7 +36,7 @@ border-radius: 36px 36px 0px 0px;
                      <!-- <a href="{{ url('contact-us') }}" class="niwax-btn2 play-demo-btn ml-4 mt-3">View Demo <i class="fa fa-play-circle fa-ani"></i></a> -->
                   </div>
                   <div class="col-lg-5 col-12 mt-4">
-                        <img src="{{ asset('public/assets/images/banner/web-development.png') }}">
+                        <img alt="web development" src="{{ asset('public/assets/images/banner/web-development.png') }}">
                   </div>
             </div>
          </div>
@@ -55,7 +55,7 @@ border-radius: 36px 36px 0px 0px;
           </div>
       </div>
        <div class="col-lg-5 col-12 text-center mt-5">
-            <img src="{{ asset('public/assets/services/web-development-service.svg') }}">
+            <img alt="web development service" src="{{ asset('public/assets/services/web-development-service.svg') }}">
       </div>
       </div>
    </div>
@@ -232,7 +232,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/Group86.svg') }}">
+                                           <img alt="Ecommerce Development" src="{{ asset('public/assets/services/Group86.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Ecommerce Development</h5>
@@ -245,7 +245,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5  offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/Group87.svg') }}">
+                                           <img alt="CMS Development" src="{{ asset('public/assets/services/Group87.svg') }}">
                                          </div>
                                          <div>
                                            <h5>CMS Development</h5>
@@ -260,7 +260,7 @@ border-radius: 36px 36px 0px 0px;
                                 <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/Group88.svg') }}">
+                                           <img alt="CRM Development" src="{{ asset('public/assets/services/Group88.svg') }}">
                                          </div>
                                          <div>
                                            <h5>CRM Development</h5>
@@ -273,7 +273,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5 offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/Group89.svg') }}">
+                                           <img alt="ERP Development" src="{{ asset('public/assets/services/Group89.svg') }}">
                                          </div>
                                          <div>
                                            <h5>ERP Development</h5>
@@ -288,7 +288,7 @@ border-radius: 36px 36px 0px 0px;
                                 <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/Group90.svg') }}">
+                                           <img alt="Enterprise Applications" src="{{ asset('public/assets/services/Group90.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Enterprise Applications</h5>
@@ -321,7 +321,7 @@ border-radius: 36px 36px 0px 0px;
             <div class="icon-image-div mt-4">
                 <div class="firstDiv">
                     <div class="img-border">
-                        <img src="{{ asset('public/assets/services/reactnative-round.png') }}">
+                        <img alt="reactnative round" src="{{ asset('public/assets/services/reactnative-round.png') }}">
                     </div>
                 </div>
                 <div class="firstDiv">

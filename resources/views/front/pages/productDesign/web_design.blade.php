@@ -15,7 +15,7 @@
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                   <div class="col-lg-6 col-12 mt-4">
-                        <img src="{{ asset('public/assets/images/banner/globe.png') }}">
+                        <img alt="globe" src="{{ asset('public/assets/images/banner/globe.png') }}">
                   </div>
             </div>
          </div>
@@ -26,11 +26,11 @@
     <div class="container pb-5">
       <div class="row">
       <div class="col-lg-5 col-12 text-center mt-5">
-            <img src="{{ asset('public/assets/services/business.svg') }}">
+            <img alt="business" src="{{ asset('public/assets/services/business.svg') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
-             <img src="{{ asset('public/assets/services/DesignYourBusinessWebsiteinTheMostAppealingWay.png') }}">
+             <img alt="Design Your Business Websitein The Most Appealing Way" src="{{ asset('public/assets/services/DesignYourBusinessWebsiteinTheMostAppealingWay.png') }}">
              <p>We have our own product design strategies to ensure that we are designing products that customers will adore. At the point when we start a project, every item needs a methodology before it goes into improvement. We really want to understand what it will do, how it will look and function, who will use it, and what its necessities are. When we comprehend these components, then, at that point, we can continue on and make ideas that tackle issues in astute ways.</p>
              <p>Our developers work as a group so they can guarantee nothing is overlooked or left out. We achieve both useful and appealing designs through this approach. Designing products should be tailored to our clients' needs. It doesn't matter whether you're working with us on one product or 100 products, we will always provide a fantastic experience</p>
           </div>
@@ -54,7 +54,7 @@
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('public/assets/services/web_design-vactor-1.png') }}">
+                                  <img alt="web design vactor 1" src="{{ asset('public/assets/services/web_design-vactor-1.png') }}">
                                 </div>
                                 </div>
                                 <h5>Determining The Goals Of The Website</h5>
@@ -71,7 +71,7 @@
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('public/assets/services/Layer_1.png') }}">
+                                  <img alt="Identifying" src="{{ asset('public/assets/services/Layer_1.png') }}">
                                 </div>
                                 </div>
                                 <h5>Identifying The Need Of Business</h5>
@@ -86,7 +86,7 @@
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('public/assets/services/Layer_2.png') }}">
+                                  <img alt="Designing" src="{{ asset('public/assets/services/Layer_2.png') }}">
                                 </div>
                                 </div>
                                 <h5>Designing That Meets Your Requirement</h5>
@@ -101,7 +101,7 @@
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('public/assets/services/Layer_3.png') }}">
+                                  <img alt="Final Testing" src="{{ asset('public/assets/services/Layer_3.png') }}">
                                 </div>
                                 </div>
                                 <h5>Final Testing</h5>
@@ -116,7 +116,7 @@
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('public/assets/services/Layer_4.png') }}">
+                                  <img alt="Launch" src="{{ asset('public/assets/services/Layer_4.png') }}">
                                 </div>
                                 </div>
                                 <h5>Launch</h5>
@@ -150,7 +150,7 @@
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-prim">
-                                          <img src="{{ asset('public/assets/services/Group58.png') }}">
+                                          <img alt="UI/UX Design" src="{{ asset('public/assets/services/Group58.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -168,7 +168,7 @@
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-dng">
-                                          <img src="{{ asset('public/assets/services/Group59.png') }}">
+                                          <img alt="Responsive Web Design" src="{{ asset('public/assets/services/Group59.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -190,7 +190,7 @@
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-prim">
-                                          <img src="{{ asset('public/assets/services/Group60.png') }}">
+                                          <img alt="Custom Website Design" src="{{ asset('public/assets/services/Group60.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -208,7 +208,7 @@
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-dng">
-                                          <img src="{{ asset('public/assets/services/Group61.png') }}">
+                                          <img alt="Usability Testing" src="{{ asset('public/assets/services/Group61.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -284,7 +284,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group65.png')}}">
+                                         <img alt="Transparency" src="{{ asset('public/assets/services/Group65.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Get 100% Transparency</h5> 
@@ -297,7 +297,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group66.png')}}">
+                                         <img alt="Industry Leader" src="{{ asset('public/assets/services/Group66.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Industry Leader</h5> 
@@ -310,7 +310,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group67.png')}}">
+                                         <img alt="Tools & Technology" src="{{ asset('public/assets/services/Group67.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Use Latest Tools & Technology</h5> 
@@ -323,7 +323,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group68.png')}}">
+                                         <img alt="Plans" src="{{ asset('public/assets/services/Group68.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Most Affordable Plans</h5> 
@@ -336,7 +336,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group69.png')}}">
+                                         <img alt="Customer Support" src="{{ asset('public/assets/services/Group69.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>24/7 Customer Support</h5> 

@@ -9,13 +9,13 @@
          <div class="container">
             <div class="row">
                   <div class="col-lg-7 col-12 text-lg-left text-center">
-                        <img class="img-fluid" src="{{ asset('public/assets/services/WeBringYourIdeatoLife.png') }}">
+                        <img alt="We Bring Your Idea to Life" class="img-fluid" src="{{ asset('public/assets/services/WeBringYourIdeatoLife.png') }}">
                         <p>Trust is of paramount importance when seeking assistance in app development. Unlike many competing agencies, we have years of experience in programming and our experts know how to work with a variety of different business models and demographics to provide you with an end product that exceeds your expectations.</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                      <!-- <a href="{{ url('contact-us') }}" class="niwax-btn2 play-demo-btn ml-4 mt-3">View Demo <i class="fa fa-play-circle fa-ani"></i></a> -->
                   </div>
                   <div class="col-lg-5 col-12 mt-4">
-                        <img src="{{ asset('public/assets/images/banner/IsolationMode.svg') }}">
+                        <img alt="Isolation Mode" src="{{ asset('public/assets/images/banner/IsolationMode.svg') }}">
                   </div>
             </div>
          </div>
@@ -26,7 +26,7 @@
     <div class="container pb-5">
       <div class="row">
       <div class="col-lg-5 col-12 text-center mt-5">
-            <img src="{{ asset('public/assets/services/mobile-app.png') }}">
+            <img alt="Mobile App" src="{{ asset('public/assets/services/mobile-app.png') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
@@ -294,7 +294,7 @@ Services that Meet All Your Needs</h1>
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/apple.svg') }}">
+                                           <img alt="apple" src="{{ asset('public/assets/services/apple.svg') }}">
                                          </div>
                                          <div>
                                            <h5>iOS App Development</h5>
@@ -307,7 +307,7 @@ Services that Meet All Your Needs</h1>
                               <div class="col-lg-5 col-12 mt-5  offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/android.svg') }}">
+                                           <img alt="android" src="{{ asset('public/assets/services/android.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Android App Development</h5>
@@ -322,7 +322,7 @@ Services that Meet All Your Needs</h1>
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/fluter.svg') }}">
+                                           <img alt="fluter" src="{{ asset('public/assets/services/fluter.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Flutter App Development</h5>
@@ -335,7 +335,7 @@ Services that Meet All Your Needs</h1>
                               <div class="col-lg-5 col-12 mt-5 offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/reactnative.svg') }}">
+                                           <img alt="reactNative" src="{{ asset('public/assets/services/reactnative.svg') }}">
                                          </div>
                                          <div>
                                            <h5>React Native App Development</h5>
@@ -362,7 +362,7 @@ Services that Meet All Your Needs</h1>
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-prim">
-                                          <img src="{{ asset('public/assets/services/Group73.png') }}">
+                                          <img alt="Marketing Expenses" src="{{ asset('public/assets/services/Group73.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -380,7 +380,7 @@ Services that Meet All Your Needs</h1>
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-dng">
-                                          <img src="{{ asset('public/assets/services/Group74.png') }}">
+                                          <img alt="Satisfaction Rate" src="{{ asset('public/assets/services/Group74.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -402,7 +402,7 @@ Services that Meet All Your Needs</h1>
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-prim">
-                                          <img src="{{ asset('public/assets/services/Group75.png') }}">
+                                          <img alt="business growth" src="{{ asset('public/assets/services/Group75.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -420,7 +420,7 @@ Services that Meet All Your Needs</h1>
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-dng">
-                                          <img src="{{ asset('public/assets/services/Group76.png') }}">
+                                          <img alt="Crowd" src="{{ asset('public/assets/services/Group76.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -457,7 +457,7 @@ Services that Meet All Your Needs</h1>
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group77.svg')}}">
+                                         <img alt="Investment" src="{{ asset('public/assets/services/Group77.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>100% Return on Investment</h5> 
@@ -470,7 +470,7 @@ Services that Meet All Your Needs</h1>
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group78.svg')}}">
+                                         <img alt="Flexibility" src="{{ asset('public/assets/services/Group78.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Great Flexibility</h5> 
@@ -483,7 +483,7 @@ Services that Meet All Your Needs</h1>
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group79.svg')}}">
+                                         <img alt="Affordable Pricing" src="{{ asset('public/assets/services/Group79.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Affordable Pricing</h5> 
@@ -496,7 +496,7 @@ Services that Meet All Your Needs</h1>
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group80.svg')}}">
+                                         <img alt="Customer Support Team" src="{{ asset('public/assets/services/Group80.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>24/7 Customer Support Team</h5> 

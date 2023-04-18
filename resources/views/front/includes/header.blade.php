@@ -101,181 +101,181 @@
                              <a class="menu-links" href="#">Services</a>
                              <ul class="dropdown-menu cs-dropdown-menu" aria-labelledby="dropdownMenuButton">
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/product-design') }}">Product Design  <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('/product-design') }}">Product Design  <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{ url('/product-design/ui-ux-design') }}">UI/UX
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/product-design/ui-ux-design') }}">UI/UX
                                                  Design</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/product-design/app-design') }}">App Design</a>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/product-design/app-design') }}">App Design</a>
                                          </li>
-                                         <li><a class="dropdown-item" href="{{ url('/product-design/web-design') }}">Web Design</a>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/product-design/web-design') }}">Web Design</a>
                                          </li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{url('app_development')}}">Mobile App Development <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{url('app_development')}}">Mobile App Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{url('app_development/ios-development')}}">ios
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('app_development/ios-development')}}">ios
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('app_development/android-development')}}">Android
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('app_development/android-development')}}">Android
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('app_development/flutter-development')}}">Flutter App
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('app_development/flutter-development')}}">Flutter App
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('app_development/react-native-development')}}">React Native
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('app_development/react-native-development')}}">React Native
                                                  Development</a></li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{url('web_development')}}">Web Development  <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{url('web_development')}}">Web Development  <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{url('/web_development/ecommerce-development')}}">Ecommerce
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('/web_development/ecommerce-development')}}">Ecommerce
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('/web_development/CMS-development')}}">CMS
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('/web_development/CMS-development')}}">CMS
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('/web_development/CRM-development')}}">CRM
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('/web_development/CRM-development')}}">CRM
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('/web_development/ERP-development')}}">ERP
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('/web_development/ERP-development')}}">ERP
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('/web_development/enterprise-development')}}">Enterprise
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('/web_development/enterprise-development')}}">Enterprise
                                                  Applications</a></li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('DevOps') }}">DevOps</a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('DevOps') }}">DevOps</a>
                                  </li>
                                   <li>
-                                     <a class="dropdown-item" href="{{ url('cyber_security') }}">Cyber Security</a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('cyber_security') }}">Cyber Security</a>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/product_prototype') }}">Product Prototype  <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('/product_prototype') }}">Product Prototype  <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{ url('product_prototype/mvp') }}">MVP</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('product_prototype/poc') }}">PoC</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('product_prototype/mvp') }}">MVP</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('product_prototype/poc') }}">PoC</a></li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{url('Analytics_and_BI')}}">Analytics & BI <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{url('Analytics_and_BI')}}">Analytics & BI <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{url('/Analytics_and_BI/modern-data-warehouses')}}">Modern Data
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('/Analytics_and_BI/modern-data-warehouses')}}">Modern Data
                                                  Warehouses</a></li>
-                                         <li><a class="dropdown-item" href="{{url('/Analytics_and_BI/big-data')}}">Big Data</a>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('/Analytics_and_BI/big-data')}}">Big Data</a>
                                          </li>
-                                         <li><a class="dropdown-item" href="{{url('/Analytics_and_BI/data-visualization')}}">Data
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('/Analytics_and_BI/data-visualization')}}">Data
                                                  Visualization</a></li>
-                                         <li><a class="dropdown-item" href="{{url('/Analytics_and_BI/data-science')}}">Data
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('/Analytics_and_BI/data-science')}}">Data
                                                  Science</a></li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/NextGen') }}">Next-Gen Technologies <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('/NextGen') }}">Next-Gen Technologies <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{ url('NextGen/AWS-ampify-&-AWS-lamda') }}">AWS Ampify & AWS
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('NextGen/AWS-ampify-&-AWS-lamda') }}">AWS Ampify & AWS
                                                  Lamda</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('NextGen/firebase') }}">Firebase</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('NextGen/chatbot-dvelopment') }}">Chatbot Dvelopment</a>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('NextGen/firebase') }}">Firebase</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('NextGen/chatbot-dvelopment') }}">Chatbot Dvelopment</a>
                                          </li>
-                                         <li><a class="dropdown-item" href="{{ url('NextGen/AI-&-ML-development') }}">AI & ML
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('NextGen/AI-&-ML-development') }}">AI & ML
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('NextGen/RPA-development') }}">RPA Development</a>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('NextGen/RPA-development') }}">RPA Development</a>
                                          </li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/frontend_development') }}">Front-end Development <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('/frontend_development') }}">Front-end Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{ url('frontend_development/angular-development') }}">Angular
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('frontend_development/angular-development') }}">Angular
                                                  JS Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('frontend_development/react-development') }}">React JS
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('frontend_development/react-development') }}">React JS
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('frontend_development/vue-development') }}">Vue
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('frontend_development/vue-development') }}">Vue
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('frontend_development/html-development') }}">HTML5
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('frontend_development/html-development') }}">HTML5
                                                  Development</a></li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/Quality_Engineering') }}">Quality Engineering <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('/Quality_Engineering') }}">Quality Engineering <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/mobile-testing') }}">Mobile
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/Quality_Engineering/mobile-testing') }}">Mobile
                                                  Testing </a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/ERP-testing') }}">ERP
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/Quality_Engineering/ERP-testing') }}">ERP
                                                  Testing</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/game-testing') }}">Game
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/Quality_Engineering/game-testing') }}">Game
                                                  Testing</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/big-data-testing') }}">Big Data
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/Quality_Engineering/big-data-testing') }}">Big Data
                                                  Testing</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/blockchain-testing') }}">Blockchain
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/Quality_Engineering/blockchain-testing') }}">Blockchain
                                                  Testing</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/security-testing') }}">Security
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/Quality_Engineering/security-testing') }}">Security
                                                  Testing</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/regression-testing') }}">Regression
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/Quality_Engineering/regression-testing') }}">Regression
                                                  Testing</a></li>
-                                         <li><a class="dropdown-item"
+                                         <li><a class="dropdown-item" rel="canonical"
                                                  href="{{ url('/Quality_Engineering/localization-testing') }}">Localization Testing</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/functional-testing') }}">Functional
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/Quality_Engineering/functional-testing') }}">Functional
                                                  Testing Services</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/Quality_Engineering/usability-testing') }}">Usability
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/Quality_Engineering/usability-testing') }}">Usability
                                                  Testing</a></li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('backend_development') }}">Back-end Development <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('backend_development') }}">Back-end Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{url('backend_development/php-development')}}">PHP
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('backend_development/php-development')}}">PHP
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('backend_development/node-development')}}">Node Js
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('backend_development/node-development')}}">Node Js
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('backend_development/pyton-development')}}">Python
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('backend_development/pyton-development')}}">Python
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('backend_development/laravel-development')}}">Laravel
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('backend_development/laravel-development')}}">Laravel
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('backend_development/symfony-development')}}">Symfony
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('backend_development/symfony-development')}}">Symfony
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('backend_development/java-development')}}">Java
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('backend_development/java-development')}}">Java
                                                  Development</a></li>
-                                         <li><a class="dropdown-item" href="{{url('backend_development/dotnet-development')}}">.NET
+                                         <li><a class="dropdown-item" rel="canonical" href="{{url('backend_development/dotnet-development')}}">.NET
                                                  Development</a></li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('blockchain_development') }}">Blockchain Development <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('blockchain_development') }}">Blockchain Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{ url('/blockchain_development/smart-contracts-development') }}">Smart
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/blockchain_development/smart-contracts-development') }}">Smart
                                                  Contracts Development</a></li>
-                                         <li><a class="dropdown-item"
+                                         <li><a class="dropdown-item" rel="canonical"
                                                  href="{{ url('/blockchain_development/blockchain-wallet-development') }}">Blockchain Wallet
                                                  Development</a></li>
-                                         <li><a class="dropdown-item"
+                                         <li><a class="dropdown-item" rel="canonical"
                                                  href="{{ url('/blockchain_development/decentralized-development') }}">Decentralized Apps
                                                  (dApps)</a></li>
-                                         <li><a class="dropdown-item"
+                                         <li><a class="dropdown-item" rel="canonical"
                                                  href="{{ url('/blockchain_development/private-development') }}">Private 
                                                  Blockchain</a></li>
-                                         <li><a class="dropdown-item"
+                                         <li><a class="dropdown-item" rel="canonical"
                                                  href="{{ url('/blockchain_development/tokenization-development') }}">Tokenization</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/blockchain_development/NFT-development') }}">NFT</a>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/blockchain_development/NFT-development') }}">NFT</a>
                                          </li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/fullStack_development') }}">Full-stack Development <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('/fullStack_development') }}">Full-stack Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu">
-                                         <li><a class="dropdown-item" href="{{ url('/fullStack_development/MEAN-stack-development') }}">MEAN
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/fullStack_development/MEAN-stack-development') }}">MEAN
                                                  Stack Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/fullStack_development/MERN-stack-development') }}">MERN
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/fullStack_development/MERN-stack-development') }}">MERN
                                                  Stack Development</a></li>
                                      </ul>
                                  </li>
                                  <li>
-                                     <a class="dropdown-item" href="{{ url('/cloud_strategy') }}">Cloud Strategy & Development <span>&#187;</span></a>
+                                     <a class="dropdown-item" rel="canonical" href="{{ url('/cloud_strategy') }}">Cloud Strategy & Development <span>&#187;</span></a>
                                      <ul class="dropdown-menu dropdown-submenu dropdown-submenu-last">
-                                         <li><a class="dropdown-item" href="{{ url('/cloud_strategy/SaaS_Development') }}">SaaS Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/cloud_strategy/IaaS_Development') }}">IaaS Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/cloud_strategy/PaaS_Development') }}">PaaS Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/cloud_strategy/Cloud_App_Development') }}">Cloud App Development</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/cloud_strategy/Cloud_Migration') }}">Cloud Migration</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/cloud_strategy/Amazon_cloud') }}">Amazon cloud</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/cloud_strategy/Cloud_Security') }}">Cloud Security</a></li>
-                                         <li><a class="dropdown-item" href="{{ url('/cloud_strategy/Azure_Cloud_Service') }}">Azure Cloud Service</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/cloud_strategy/SaaS_Development') }}">SaaS Development</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/cloud_strategy/IaaS_Development') }}">IaaS Development</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/cloud_strategy/PaaS_Development') }}">PaaS Development</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/cloud_strategy/Cloud_App_Development') }}">Cloud App Development</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/cloud_strategy/Cloud_Migration') }}">Cloud Migration</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/cloud_strategy/Amazon_cloud') }}">Amazon cloud</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/cloud_strategy/Cloud_Security') }}">Cloud Security</a></li>
+                                         <li><a class="dropdown-item" rel="canonical" href="{{ url('/cloud_strategy/Azure_Cloud_Service') }}">Azure Cloud Service</a></li>
                                      </ul>
                                  </li>
                              </ul>
@@ -321,124 +321,124 @@
                          <li>
                              <a href="#">Product Design</a>
                              <ul>
-                                 <li><a href="{{ url('/product-design/ui-ux-design') }}">UI/UX Design</a></li>
-                                 <li><a href="{{ url('/product-design/app-design') }}">App Design</a></li>
-                                 <li><a href="{{ url('/product-design/web-design') }}">Web Design</a></li>
+                                 <li><a rel="canonical" href="{{ url('/product-design/ui-ux-design') }}">UI/UX Design</a></li>
+                                 <li><a rel="canonical" href="{{ url('/product-design/app-design') }}">App Design</a></li>
+                                 <li><a rel="canonical" href="{{ url('/product-design/web-design') }}">Web Design</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Mobile Development</a>
                              <ul>
-                                 <li><a href="{{url('app_development/ios-development')}}">ios Development</a></li>
-                                 <li><a href="{{url('app_development/android-development')}}">Android Development</a></li>
-                                 <li><a href="{{url('app_development/flutter-development')}}">Flutter App Development</a></li>
-                                 <li><a href="{{url('app_development/react-native-development')}}">React Native Development</a></li>
+                                 <li><a rel="canonical" href="{{url('app_development/ios-development')}}">ios Development</a></li>
+                                 <li><a rel="canonical" href="{{url('app_development/android-development')}}">Android Development</a></li>
+                                 <li><a rel="canonical" href="{{url('app_development/flutter-development')}}">Flutter App Development</a></li>
+                                 <li><a rel="canonical" href="{{url('app_development/react-native-development')}}">React Native Development</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Web Development</a>
                              <ul>
-                                 <li><a href="{{url('/web_development/ecommerce-development')}}">Ecommerce Development</a></li>
-                                         <li><a href="{{url('/web_development/CMS-development')}}">CMS Development</a></li>
-                                         <li><a href="{{url('/web_development/CRM-development')}}">CRM Development</a></li>
-                                         <li><a href="{{url('/web_development/ERP-development')}}">ERP Development</a></li>
-                                         <li><a href="{{url('/web_development/enterprise-development')}}">Enterprise Applications</a></li>
+                                 <li><a rel="canonical" href="{{url('/web_development/ecommerce-development')}}">Ecommerce Development</a></li>
+                                         <li><a rel="canonical" href="{{url('/web_development/CMS-development')}}">CMS Development</a></li>
+                                         <li><a rel="canonical" href="{{url('/web_development/CRM-development')}}">CRM Development</a></li>
+                                         <li><a rel="canonical" href="{{url('/web_development/ERP-development')}}">ERP Development</a></li>
+                                         <li><a rel="canonical" href="{{url('/web_development/enterprise-development')}}">Enterprise Applications</a></li>
                              </ul>
                          </li>
 
                          <li>
-                            <a class="dropdown-item" href="{{ url('DevOps') }}">DevOps</a>
+                            <a class="dropdown-item" rel="canonical" href="{{ url('DevOps') }}">DevOps</a>
                         </li>
                           <li>
-                             <a class="dropdown-item" href="{{ url('cyber_security') }}">Cyber Security</a>
+                             <a class="dropdown-item" rel="canonical" href="{{ url('cyber_security') }}">Cyber Security</a>
                          </li>
                          <li>
                              <a href="#">Product Prototype</a>
                              <ul>
-                                 <li><a href="{{ url('product_prototype/mvp') }}">MVP</a></li>
-                                         <li><a href="{{ url('product_prototype/poc') }}">PoC</a></li>
+                                 <li><a rel="canonical" href="{{ url('product_prototype/mvp') }}">MVP</a></li>
+                                         <li><a rel="canonical" href="{{ url('product_prototype/poc') }}">PoC</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Analytics & BI</a>
                              <ul>
-                                 <li><a href="{{url('/Analytics_and_BI/modern-data-warehouses')}}">Modern Data
+                                 <li><a rel="canonical" href="{{url('/Analytics_and_BI/modern-data-warehouses')}}">Modern Data
                                                  Warehouses</a></li>
-                                         <li><a href="{{url('/Analytics_and_BI/big-data')}}">Big Data</a>
+                                         <li><a rel="canonical" href="{{url('/Analytics_and_BI/big-data')}}">Big Data</a>
                                          </li>
-                                         <li><a href="{{url('/Analytics_and_BI/data-visualization')}}">Data
+                                         <li><a rel="canonical" href="{{url('/Analytics_and_BI/data-visualization')}}">Data
                                                  Visualization</a></li>
-                                         <li><a href="{{url('/Analytics_and_BI/data-science')}}">Data
+                                         <li><a rel="canonical" href="{{url('/Analytics_and_BI/data-science')}}">Data
                                                  Science</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Next-Gen Technologies</a>
                              <ul>
-                                 <li><a href="{{ url('NextGen/AWS-ampify-&-AWS-lamda') }}">AWS Ampify & AWS
+                                 <li><a rel="canonical" href="{{ url('NextGen/AWS-ampify-&-AWS-lamda') }}">AWS Ampify & AWS
                                                  Lamda</a></li>
-                                         <li><a href="{{ url('NextGen/firebase') }}">Firebase</a></li>
-                                         <li><a href="{{ url('NextGen/chatbot-dvelopment') }}">Chatbot Dvelopment</a>
+                                         <li><a rel="canonical" href="{{ url('NextGen/firebase') }}">Firebase</a></li>
+                                         <li><a rel="canonical" href="{{ url('NextGen/chatbot-dvelopment') }}">Chatbot Dvelopment</a>
                                          </li>
-                                         <li><a href="{{ url('NextGen/AI-&-ML-development') }}">AI & ML
+                                         <li><a rel="canonical" href="{{ url('NextGen/AI-&-ML-development') }}">AI & ML
                                                  Development</a></li>
-                                         <li><a href="{{ url('NextGen/RPA-development') }}">RPA Development</a>
+                                         <li><a rel="canonical" href="{{ url('NextGen/RPA-development') }}">RPA Development</a>
                                          </li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Front-end Development</a>
                              <ul>
-                                  <li><a href="{{ url('frontend_development/angular-development') }}">Angular
+                                  <li><a rel="canonical" href="{{ url('frontend_development/angular-development') }}">Angular
                                                  JS Development</a></li>
-                                         <li><a href="{{ url('frontend_development/react-development') }}">React JS
+                                         <li><a rel="canonical" href="{{ url('frontend_development/react-development') }}">React JS
                                                  Development</a></li>
-                                         <li><a href="{{ url('frontend_development/vue-development') }}">Vue
+                                         <li><a rel="canonical" href="{{ url('frontend_development/vue-development') }}">Vue
                                                  Development</a></li>
-                                         <li><a href="{{ url('frontend_development/html-development') }}">HTML5
+                                         <li><a rel="canonical" href="{{ url('frontend_development/html-development') }}">HTML5
                                                  Development</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Quality Engineering</a>
                              <ul>
-                                 <li><a href="{{ url('/Quality_Engineering/mobile-testing') }}">Mobile
+                                 <li><a rel="canonical" href="{{ url('/Quality_Engineering/mobile-testing') }}">Mobile
                                                  Testing </a></li>
-                                         <li><a href="{{ url('/Quality_Engineering/ERP-testing') }}">ERP
+                                         <li><a rel="canonical" href="{{ url('/Quality_Engineering/ERP-testing') }}">ERP
                                                  Testing</a></li>
-                                         <li><a href="{{ url('/Quality_Engineering/game-testing') }}">Game
+                                         <li><a rel="canonical" href="{{ url('/Quality_Engineering/game-testing') }}">Game
                                                  Testing</a></li>
-                                         <li><a href="{{ url('/Quality_Engineering/big-data-testing') }}">Big Data
+                                         <li><a rel="canonical" href="{{ url('/Quality_Engineering/big-data-testing') }}">Big Data
                                                  Testing</a></li>
-                                         <li><a href="{{ url('/Quality_Engineering/blockchain-testing') }}">Blockchain
+                                         <li><a rel="canonical" href="{{ url('/Quality_Engineering/blockchain-testing') }}">Blockchain
                                                  Testing</a></li>
-                                         <li><a href="{{ url('/Quality_Engineering/security-testing') }}">Security
+                                         <li><a rel="canonical" href="{{ url('/Quality_Engineering/security-testing') }}">Security
                                                  Testing</a></li>
-                                         <li><a href="{{ url('/Quality_Engineering/regression-testing') }}">Regression
+                                         <li><a rel="canonical" href="{{ url('/Quality_Engineering/regression-testing') }}">Regression
                                                  Testing</a></li>
-                                         <li><a href="{{ url('/Quality_Engineering/localization-testing') }}">Localization Testing</a></li>
-                                         <li><a href="{{ url('/Quality_Engineering/functional-testing') }}">Functional
+                                         <li><a rel="canonical" href="{{ url('/Quality_Engineering/localization-testing') }}">Localization Testing</a></li>
+                                         <li><a rel="canonical" href="{{ url('/Quality_Engineering/functional-testing') }}">Functional
                                                  Testing Services</a></li>
-                                         <li><a href="{{ url('/Quality_Engineering/usability-testing') }}">Usability
+                                         <li><a rel="canonical" href="{{ url('/Quality_Engineering/usability-testing') }}">Usability
                                                  Testing</a></li>
                              </ul>
                          </li>
                          <li>
                              <a href="#">Back-end Development</a>
                              <ul>
-                                 <li><a href="{{url('backend_development/php-development')}}">PHP
+                                 <li><a rel="canonical" href="{{url('backend_development/php-development')}}">PHP
                                                  Development</a></li>
-                                         <li><a href="{{url('backend_development/node-development')}}">Node Js
+                                         <li><a rel="canonical" href="{{url('backend_development/node-development')}}">Node Js
                                                  Development</a></li>
-                                         <li><a href="{{url('backend_development/pyton-development')}}">Python
+                                         <li><a rel="canonical" href="{{url('backend_development/pyton-development')}}">Python
                                                  Development</a></li>
-                                         <li><a href="{{url('backend_development/laravel-development')}}">Laravel
+                                         <li><a rel="canonical" href="{{url('backend_development/laravel-development')}}">Laravel
                                                  Development</a></li>
-                                         <li><a href="{{url('backend_development/symfony-development')}}">Symfony
+                                         <li><a rel="canonical" href="{{url('backend_development/symfony-development')}}">Symfony
                                                  Development</a></li>
-                                         <li><a href="{{url('backend_development/java-development')}}">Java
+                                         <li><a rel="canonical" href="{{url('backend_development/java-development')}}">Java
                                                  Development</a></li>
-                                         <li><a href="{{url('backend_development/dotnet-development')}}">.NET
+                                         <li><a rel="canonical" href="{{url('backend_development/dotnet-development')}}">.NET
                                                  Development</a></li>
                              </ul>
                          </li>
@@ -446,16 +446,16 @@
                          <li>
                              <a href="#">Blockchain Development</a>
                              <ul>
-                                 <li><a href="{{ url('/blockchain_development/smart-contracts-development') }}">Smart
+                                 <li><a rel="canonical" href="{{ url('/blockchain_development/smart-contracts-development') }}">Smart
                                                  Contracts Development</a></li>
-                                         <li><a href="{{ url('/blockchain_development/blockchain-wallet-development') }}">Blockchain Wallet
+                                         <li><a rel="canonical" href="{{ url('/blockchain_development/blockchain-wallet-development') }}">Blockchain Wallet
                                                  Development</a></li>
-                                         <li><a href="{{ url('/blockchain_development/decentralized-development') }}">Decentralized Apps
+                                         <li><a rel="canonical" href="{{ url('/blockchain_development/decentralized-development') }}">Decentralized Apps
                                                  (dApps)</a></li>
-                                         <li><a href="{{ url('/blockchain_development/private-development') }}">Private 
+                                         <li><a rel="canonical" href="{{ url('/blockchain_development/private-development') }}">Private 
                                                  Blockchain</a></li>
-                                         <li><a href="{{ url('/blockchain_development/tokenization-development') }}">Tokenization</a></li>
-                                         <li><a href="{{ url('/blockchain_development/NFT-development') }}">NFT</a>
+                                         <li><a rel="canonical" href="{{ url('/blockchain_development/tokenization-development') }}">Tokenization</a></li>
+                                         <li><a rel="canonical" href="{{ url('/blockchain_development/NFT-development') }}">NFT</a>
                                          </li>
 
                              </ul>
@@ -463,9 +463,9 @@
                          <li>
                              <a href="#">Full-stack Development</a>
                              <ul>
-                                 <li><a href="{{ url('/fullStack_development/MEAN-stack-development') }}">MEAN
+                                 <li><a rel="canonical" href="{{ url('/fullStack_development/MEAN-stack-development') }}">MEAN
                                                  Stack Development</a></li>
-                                         <li><a href="{{ url('/fullStack_development/MERN-stack-development') }}">MERN
+                                         <li><a rel="canonical" href="{{ url('/fullStack_development/MERN-stack-development') }}">MERN
                                                  Stack Development</a></li>
 
                              </ul>
@@ -473,14 +473,14 @@
                          <li>
                              <a href="#">Cloud Strategy & Development</a>
                              <ul>
-                                 <li><a href="{{ url('/cloud_strategy/SaaS_Development') }}">SaaS Development</a></li>
-                                         <li><a href="{{ url('/cloud_strategy/IaaS_Development') }}">IaaS Development</a></li>
-                                         <li><a href="{{ url('/cloud_strategy/PaaS_Development') }}">PaaS Development</a></li>
-                                         <li><a href="{{ url('/cloud_strategy/Cloud_App_Development') }}">Cloud App Development</a></li>
-                                         <li><a href="{{ url('/cloud_strategy/Cloud_Migration') }}">Cloud Migration</a></li>
-                                         <li><a href="{{ url('/cloud_strategy/Amazon_cloud') }}">Amazon cloud</a></li>
-                                         <li><a href="{{ url('/cloud_strategy/Cloud_Security') }}">Cloud Security</a></li>
-                                         <li><a href="{{ url('/cloud_strategy/Azure_Cloud_Service') }}">Azure Cloud Service</a></li>
+                                 <li><a rel="canonical" href="{{ url('/cloud_strategy/SaaS_Development') }}">SaaS Development</a></li>
+                                         <li><a rel="canonical" href="{{ url('/cloud_strategy/IaaS_Development') }}">IaaS Development</a></li>
+                                         <li><a rel="canonical" href="{{ url('/cloud_strategy/PaaS_Development') }}">PaaS Development</a></li>
+                                         <li><a rel="canonical" href="{{ url('/cloud_strategy/Cloud_App_Development') }}">Cloud App Development</a></li>
+                                         <li><a rel="canonical" href="{{ url('/cloud_strategy/Cloud_Migration') }}">Cloud Migration</a></li>
+                                         <li><a rel="canonical" href="{{ url('/cloud_strategy/Amazon_cloud') }}">Amazon cloud</a></li>
+                                         <li><a rel="canonical" href="{{ url('/cloud_strategy/Cloud_Security') }}">Cloud Security</a></li>
+                                         <li><a rel="canonical" href="{{ url('/cloud_strategy/Azure_Cloud_Service') }}">Azure Cloud Service</a></li>
 
                              </ul>
                          </li>

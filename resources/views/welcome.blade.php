@@ -22,7 +22,7 @@
                               <a href="{{ url('app_development') }}">
                                  <div class="service-card-hh">
                                     <div class="image-sr-mm">
-                                       <img  loading="lazy" alt="custom-sport" src="{{ url('public/assets/images/service/mobile app development.png') }}">
+                                       <img loading="lazy" alt="mobile app development" src="{{ url('public/assets/images/service/mobile app development.png') }}">
                                     </div>
                                     <div class="title-serv-c"><span>Mobile App</span> Development</div>
                                  </div>
@@ -32,7 +32,7 @@
                               <a href="{{ url('web_development') }}">
                                  <div class="service-card-hh">
                                     <div class="image-sr-mm">
-                                       <img  loading="lazy" alt="custom-sport" src="{{ url('public/assets/images/service/Web-develop.png') }}">
+                                       <img  loading="lazy" alt="Web develop" src="{{ url('public/assets/images/service/Web-develop.png') }}">
                                     </div>
                                     <div class="title-serv-c"><span>Web </span> Development</div>
                                  </div>
@@ -42,7 +42,7 @@
                               <a href="{{ url('/DevOps') }}">
                                  <div class="service-card-hh">
                                     <div class="image-sr-mm">
-                                       <img  loading="lazy" alt="custom-sport" src="{{ url('public/assets/images/service/DevOps.png') }}">
+                                       <img  loading="lazy" alt="DevOps" src="{{ url('public/assets/images/service/DevOps.png') }}">
                                     </div>
                                     <div class="title-serv-c" style="padding-bottom: 60px;"><span></span>DevOps</div>
                                  </div>
@@ -52,7 +52,7 @@
                               <a href="{{ url('blockchain_development') }}">
                                  <div class="service-card-hh">
                                     <div class="image-sr-mm">
-                                       <img  loading="lazy" alt="custom-sport" src="{{ url('public/assets/images/service/blockchain.png') }}">
+                                       <img  loading="lazy" alt="blockchain" src="{{ url('public/assets/images/service/blockchain.png') }}">
                                     </div>
                                     <div class="title-serv-c"><span>Blockchain </span> Development</div>
                                  </div>
@@ -62,7 +62,7 @@
                               <a href="{{ url('cyber_security') }}">
                                  <div class="service-card-hh">
                                     <div class="image-sr-mm">
-                                       <img  loading="lazy" alt="custom-sport" src="{{ url('public/assets/images/service/Cyber security.png') }}">
+                                       <img  loading="lazy" alt="Cyber security" src="{{ url('public/assets/images/service/Cyber security.png') }}">
                                     </div>
                                     <div class="title-serv-c"><span>Cyber </span> Security</div>
                                  </div>
@@ -102,7 +102,7 @@
                </div>
                <div  data-tilt data-tilt-max="5" data-tilt-speed="1000" class="col-lg-3-cus wow fadeInUp" data-wow-delay=".4s">
                   <div class="service-sec-list srvc-bg-nx srcl1">
-                     <img  loading="lazy" src="{{ url('public/assets/images/icons/Web development.svg') }}" alt="service">
+                     <img  loading="lazy" alt="Web development" src="{{ url('public/assets/images/icons/Web development.svg') }}">
                      <h5 class="mb10">Web Development</h5>
                      <ul class="-service-list">
                         <li> <a href="#">PHP</a> </li>
@@ -115,7 +115,7 @@
                </div>
                <div data-tilt data-tilt-max="3" data-tilt-speed="1000" class="col-lg-3-cus wow fadeInUp" data-wow-delay=".6s">
                   <div class="service-sec-list srvc-bg-nx srcl2">
-                     <img  loading="lazy" src="{{ url('public/assets/images/icons/Cyber Security.svg') }}" alt="service">
+                     <img  loading="lazy" alt="Cyber Security" src="{{ url('public/assets/images/icons/Cyber Security.svg') }}">
                      <h5 class="mb10">Cyber Security</h5>
                      <ul class="-service-list">
                         <li> <a href="#">Penetration Testing </a> </li>
@@ -127,7 +127,7 @@
                </div>
                <div  data-tilt data-tilt-max="5" data-tilt-speed="1000" class="col-lg-3-cus mt30- wow fadeInUp" data-wow-delay=".8s">
                   <div class="service-sec-list srvc-bg-nx srcl3">
-                     <img  loading="lazy" src="{{ url('public/assets/images/icons/Mobile App.svg') }}" alt="service">
+                     <img  loading="lazy" alt="Mobile App" src="{{ url('public/assets/images/icons/Mobile App.svg') }}">
                      <h5 class="mb10">Mobile App Development</h5>
                      <ul class="-service-list">
                         <li> <a href="#">iOs </a> </li>
@@ -139,7 +139,7 @@
                </div>
                <div  data-tilt data-tilt-max="5" data-tilt-speed="1000" class="col-lg-3-cus mt30- wow fadeInUp" data-wow-delay="1s">
                   <div class="service-sec-list srvc-bg-nx srcl4">
-                     <img  loading="lazy" src="{{ url('public/assets/images/icons/Blockchain.svg') }}" alt="service">
+                     <img  loading="lazy" alt="Blockchain" src="{{ url('public/assets/images/icons/Blockchain.svg') }}">
                      <h5 class="mb10">Blockchain Development</h5>
                      <ul class="-service-list">
                         <li> <a href="#">Digital Currency </a> </li>
@@ -151,7 +151,7 @@
                </div>
                <div  data-tilt data-tilt-max="5" data-tilt-speed="1000" class="col-lg-6-cus mt30- wow fadeInUp" data-wow-delay="1.2s">
                   <div class="service-sec-list srvc-bg-nx srcl5">
-                     <img  loading="lazy" src="{{ url('public/assets/images/icons/DevOps.svg') }}" alt="service">
+                     <img  loading="lazy" src="{{ url('public/assets/images/icons/DevOps.svg') }}" alt="DevOps">
                      <h5 class="mb10">DevOps</h5>
                      <ul class="-service-list">
                         <li> <a href="#">Development </a> </li>
@@ -177,7 +177,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img  loading="lazy" src="{{ url('public/assets/images/icons/startup.svg') }}" alt="years" class="img-fluid" />
+                        <img  loading="lazy" src="{{ url('public/assets/images/icons/startup.svg') }}" alt="startup" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">3</span><span>+</span>
@@ -201,7 +201,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img  loading="lazy" src="{{ url('public/assets/images/icons/deal.svg') }}" alt="happy" class="img-fluid" />
+                        <img  loading="lazy" src="{{ url('public/assets/images/icons/deal.svg') }}" alt="deal" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">50</span><span>+</span>
@@ -212,7 +212,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img  loading="lazy" src="{{ url('public/assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
+                        <img  loading="lazy" src="{{ url('public/assets/images/icons/computers.svg') }}" alt="computers" class="img-fluid" />
                      </div>
                      <div class="statnumb counter-number">
                         <span class="counter">60</span><span>+</span>
@@ -223,7 +223,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="statistics mb0">
                      <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img  loading="lazy" src="{{ url('public/assets/images/icons/customer-service.svg') }}" alt="support" class="img-fluid" />
+                        <img  loading="lazy" src="{{ url('public/assets/images/icons/customer-service.svg') }}" alt="customer service" class="img-fluid" />
                      </div>
                      <div class="statnumb">
                         <span class="counter">24</span><span>/</span><span class="counter">7</span>
@@ -244,21 +244,21 @@
                      <p>Prillient is a well-established and best web development company that is eager to collaborate with you</p>
                      <div class="itm-media-object mt40 tilt-3d">
                         <div class="media">
-                           <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img  loading="lazy" src="{{ url('public/assets/images/icons/computers.svg') }}" alt="icon" class="layer"></div>
+                           <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img  loading="lazy" src="{{ url('public/assets/images/icons/computers.svg') }}" alt="computers icon" class="layer"></div>
                            <div class="media-body">
                               <h4>Web & Interactive Design</h4>
                               <p>Our team collaborates closely with clients to design, implement, and utilise solutions that help your company prosper in this fast-changing and demanding world.</p>
                            </div>
                         </div>
                         <div class="media mt40">
-                           <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img  loading="lazy" src="{{ url('public/assets/images/icons/worker.svg') }}" alt="icon" class="layer"></div>
+                           <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img  loading="lazy" src="{{ url('public/assets/images/icons/worker.svg') }}" alt="worker icon" class="layer"></div>
                            <div class="media-body">
                               <h4>Branding & Strategy</h4>
                               <p>Prillient Technologies has expertise in web design, custom software development, web development, mobile app development, e-commerce website development, SEO, Social media optimization (SMO) & many more.</p>
                            </div>
                         </div>
                         <div class="media mt40">
-                           <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"> <img  loading="lazy" src="{{ url('public/assets/images/icons/deal.svg') }}" alt="icon" class="layer"></div>
+                           <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"> <img  loading="lazy" src="{{ url('public/assets/images/icons/deal.svg') }}" alt="deal icon" class="layer"></div>
                            <div class="media-body">
                               <h4>Trusted Partner</h4>
                               <p>Hundreds of different brands, ranging from big public sector operations to governments, media houses, banks, private companies, universities, social organisations, startups, and many more, rely on us as their technological partner.</p>
@@ -268,7 +268,7 @@
                   </div>
                </div>
                <div class="col-lg-6">
-                  <div  data-tilt data-tilt-max="5" data-tilt-speed="1000" class="single-image bg-shape-dez wow fadeIn" data-wow-duration="2s"><img  loading="lazy" src="{{ url('public/assets/images/about/about-company.jpg') }}" alt="image" class="img-fluid"></div>
+                  <div  data-tilt data-tilt-max="5" data-tilt-speed="1000" class="single-image bg-shape-dez wow fadeIn" data-wow-duration="2s"><img  loading="lazy" src="{{ url('public/assets/images/about/about-company.jpg') }}" alt="about company" class="img-fluid"></div>
          
                   <div class="cta-card mt60 text-center">
                      <h3 class="mb20">Let's Start a  <span class="text-second text-bold">New Project</span> Together</h3>
@@ -301,7 +301,7 @@
                                <div class="owl-carousel career-slider">
                                  @foreach($client as $v)
                                 <div class="service_card_slider">
-                                   <img  loading="lazy" src="{{ url('public/upload/client/',$v->logo) }}">
+                                   <img loading="lazy" alt="{{$v->name}}" src="{{ url('public/upload/client',$v->logo) }}">
                                 </div>
                                 @endforeach
                              </div>
@@ -403,74 +403,74 @@
                   <div class="work-card-set">
                      <div  class="icon-set wow fadeIn" data-wow-delay=".2s">
                         <div class="work-card cd1">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-1.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-1.png') }}" alt="E-Commerce Development" /></div>
                            <p>E-Commerce Development</p>
                         </div>
                      </div>
                      <div  class="icon-set wow fadeIn" data-wow-delay=".4s">
                         <div class="work-card cd2">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-2.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-2.png') }}" alt="Enterprise Services" /></div>
                            <p>Enterprise Services</p>
                         </div>
                      </div>
                      <div class="icon-set wow fadeIn" data-wow-delay=".6s">
                         <div class="work-card cd3">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-3.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-3.png') }}" alt="Educational Servces" /></div>
                            <p>Educational Servces
                            </p>
                         </div>
                      </div>
                      <div class="icon-set wow fadeIn" data-wow-delay=".8s">
                         <div class="work-card cd4">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-4.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-4.png') }}" alt="Health Services" /></div>
                            <p>Health Services</p>
                         </div>
                      </div>
                      <div class="icon-set wow fadeIn" data-wow-delay="1s">
                         <div class="work-card cd5">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-5.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-5.png') }}" alt="Banking & Finance" /></div>
                            <p>Banking & Finance</p>
                         </div>
                      </div>
                      <div class="icon-set wow fadeIn" data-wow-delay="1.2s">
                         <div class="work-card cd6">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-6.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-6.png') }}" alt="Hospitality Services" /></div>
                            <p>Hospitality Services</p>
                         </div>
                      </div>
                      <div class="icon-set wow fadeIn" data-wow-delay="1.4s">
                         <div class="work-card cd7">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-7.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-7.png') }}" alt="Digital Marketing" /></div>
                            <p>Digital Marketing</p>
                         </div>
                      </div>
                      <div class="icon-set wow fadeIn" data-wow-delay="1.6s">
                         <div class="work-card cd8">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-8.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-8.png') }}" alt="Tour and Travels" /></div>
                            <p>Tour and Travels</p>
                         </div>
                      </div>
                      <div class="icon-set wow fadeIn" data-wow-delay="1.8s">
                         <div class="work-card cd9">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-9.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-9.png') }}" alt="Entertainment & Videos" /></div>
                            <p>Entertainment & Videos</p>
                         </div>
                      </div>
                      <div class="icon-set wow fadeIn" data-wow-delay="2s">
                         <div class="work-card cd10">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-10.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-10.png') }}" alt="Event Planner Services" /></div>
                            <p>Event Planner Services</p>
                         </div>
                      </div>
                      <div class="icon-set wow fadeIn" data-wow-delay="2.2s">
                         <div class="work-card cd11">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-11.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-11.png') }}" alt="Real Estate Services" /></div>
                            <p>Real Estate Services</p>
                         </div>
                      </div>
                      <div class="icon-set wow fadeIn" data-wow-delay="2.4s">
                         <div class="work-card cd12">
-                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-12.png') }}" alt="Industries" /></div>
+                           <div class="icon-bg"><img  loading="lazy" src="{{ url('public/assets/images/icons/icon-12.png') }}" alt="Government Organisations" /></div>
                            <p>Government Organisations</p>
                         </div>
                      </div>
@@ -572,7 +572,7 @@
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Realestatefree</h5>
-                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" src="{{ asset('images/united-states.png') }}"> <small class="pl-2">United States</small></span>
+                                 <span class="d-flex"><img loading="lazy" class="icon-flat" alt="United States" src="{{ asset('images/united-states.png') }}"> <small class="pl-2">United States</small></span>
                               </div>
                            </div>
                         </div>
@@ -585,7 +585,7 @@
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Pracmanag</h5>
-                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" src="{{ asset('images/switzerland.png') }}"> <small class="pl-2">Switzerland</small></span>
+                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="Switzerland" src="{{ asset('images/switzerland.png') }}"> <small class="pl-2">Switzerland</small></span>
                               </div>
                            </div>
                         </div>
@@ -598,7 +598,7 @@
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Levimoroney</h5>
-                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" src="{{ asset('images/australia.png') }}"> <small class="pl-2">Australia</small></span>
+                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="australia" src="{{ asset('images/australia.png') }}"> <small class="pl-2">Australia</small></span>
                               </div>
                            </div>
                         </div>
@@ -611,7 +611,7 @@
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Dublinweb</h5>
-                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" src="{{ asset('images/ireland.png') }}"> <small class="pl-2">Ireland</small></span>
+                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="Ireland" src="{{ asset('images/ireland.png') }}"> <small class="pl-2">Ireland</small></span>
                               </div>
                            </div>
                         </div>
@@ -624,7 +624,7 @@
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Verdzercof</h5>
-                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" src="{{ asset('images/united-states.png') }}"> <small class="pl-2">United States</small></span>
+                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="United States" src="{{ asset('images/united-states.png') }}"> <small class="pl-2">United States</small></span>
                               </div>
                            </div>
                         </div>
@@ -654,10 +654,10 @@
                </div>
             </div>
          </div>
-         <div class="shape shape-a1"><img  loading="lazy" src="{{ url('public/assets/images/shape/shape-3.svg') }}" alt="shape"></div>
-         <div class="shape shape-a2"><img  loading="lazy" src="{{ url('public/assets/images/shape/shape-4.svg') }}" alt="shape"></div>
-         <div class="shape shape-a3"><img  loading="lazy" src="{{ url('public/assets/images/shape/shape-13.svg') }}" alt="shape"></div>
-         <div class="shape shape-a4"><img  loading="lazy" src="{{ url('public/assets/images/shape/shape-11.svg') }}" alt="shape"></div>
+         <div class="shape shape-a1"><img  loading="lazy" alt="shape-3" src="{{ url('public/assets/images/shape/shape-3.svg') }}" alt="shape"></div>
+         <div class="shape shape-a2"><img  loading="lazy" alt="shape-4" src="{{ url('public/assets/images/shape/shape-4.svg') }}" alt="shape"></div>
+         <div class="shape shape-a3"><img  loading="lazy" alt="shape-13" src="{{ url('public/assets/images/shape/shape-13.svg') }}" alt="shape"></div>
+         <div class="shape shape-a4"><img  loading="lazy" alt="shape-11" src="{{ url('public/assets/images/shape/shape-11.svg') }}" alt="shape"></div>
       </section>
       <section class="our-office pad-tb">
          <div class="container">
@@ -673,7 +673,7 @@
                <div class="col-lg-4 col-sm-6 shape-loc wow fadeInUp" data-wow-delay=".2s">
                   <div class="office-card">
                      <div class="skyline-img" data-tilt data-tilt-max="4" data-tilt-speed="1000">
-                        <img  loading="lazy" src="{{ url('public/assets/images/location/newyork.png') }}" alt="New York" class="img-fluid" />
+                        <img  loading="lazy" alt="newyork" src="{{ url('public/assets/images/location/newyork.png') }}" alt="New York" class="img-fluid" />
                      </div>
                      <div class="office-text">
                         <h4>New York (U.S.A.)</h4>
@@ -688,7 +688,7 @@
                <div class="col-lg-4 col-sm-6 shape-loc wow fadeInUp" data-wow-delay=".5s">
                   <div class="office-card">
                      <div class="skyline-img" data-tilt data-tilt-max="4" data-tilt-speed="1000">
-                        <img  loading="lazy" src="{{ url('public/assets/images/location/jaipur.png') }}" alt="Jaipur" class="img-fluid" />
+                        <img  loading="lazy" alt="jaipur" src="{{ url('public/assets/images/location/jaipur.png') }}" alt="Jaipur" class="img-fluid" />
                      </div>
                      <div class="office-text">
                         <h4>Jaipur (Rajasthan, India)</h4>

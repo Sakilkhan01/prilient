@@ -40,7 +40,7 @@
             <article class="entry entry-single">
 
               <div class="entry-img">
-                <img src="{{url('public/upload/blog/'.$blog->image)}}" alt="" class="img-fluid">
+                <img src="{{url('public/upload/blog/'.$blog->image)}}" alt="{{$blog->title}}" class="img-fluid">
               </div>
 
               <h2 class="entry-title">
@@ -180,7 +180,7 @@ $(document).ready(function(){
                     let url = ""+ret+"/"+data[count].image; 
 
                     output += '<div class="post-item clearfix">';
-                    output += '<img src="'+url+'" alt="">';
+                    output += '<img src="'+url+'" alt="'+data[count].title+'">';
                     output += '<h4><a href="'+data[count].slug+'">'+data[count].title+'</a></h4>';
                     output += '<time datetime="2020-01-01">'+date+'</time>';
                     output += '</div>';

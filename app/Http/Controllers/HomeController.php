@@ -34,7 +34,7 @@ class HomeController extends Controller
     }
 
     public function home(){
-        $client = Client::where('status', 1)->get();
+        $client = Client::where('status', 1)->select('id','name','logo')->get();
         return view('welcome', compact('client'));
     }
 

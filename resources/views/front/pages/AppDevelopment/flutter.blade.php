@@ -23,7 +23,7 @@
 <div class="row">
         <div class="col-lg-8 col-12">
           <div class="frem-banner-img mt-5">
-            <img src="{{ url('public/assets/images/banner/Flutter_Development.jpg') }}">
+            <img alt="Flutter Development" src="{{ url('public/assets/images/banner/Flutter_Development.jpg') }}">
           </div>
       <div class="col-lg-12 mt-5">
             <h4>Flutter App Development</h4>

@@ -15,7 +15,7 @@
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                   <div class="col-lg-5 col-12 mt-4">
-                        <img src="{{ url('public/assets/images/banner/service-page-header-mobile.png') }}">
+                        <img alt="service page header mobile" src="{{ url('public/assets/images/banner/service-page-header-mobile.png') }}">
                   </div>
             </div>
          </div>
@@ -33,7 +33,7 @@
           </div>
       </div>
       <div class="col-lg-5 col-12 text-center mt-5">
-            <img src="{{ url('public/assets/services/ui-vactor.svg') }}">
+            <img alt="ui vactor" src="{{ url('public/assets/services/ui-vactor.svg') }}">
       </div>
       </div>
    </div>
@@ -193,7 +193,7 @@
                         <div class="row justify-content-center">
                               <div class="col-lg-4 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
-                                          <h5><span><img src="{{ url('public/assets/services/ui-ux-icon.svg') }}"> </span> UI/UX Design</h5>
+                                          <h5><span><img alt="ui/ux icon" src="{{ url('public/assets/services/ui-ux-icon.svg') }}"> </span> UI/UX Design</h5>
                                           <p>
                                           User Interface/User Experience <br>(UI/UX) design services are a <br> vital component of a company’s <br> success in an... <a href="{{ url('product-design/ui-ux-design') }}" class="readMoreService">Read More</a>
                                           </p>
@@ -201,7 +201,7 @@
                               </div>
                               <div class="col-lg-4 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
-                                          <h5><span><img src="{{ url('public/assets/services/app-icon.svg') }}"> </span> App Design</h5>
+                                          <h5><span><img alt="app icon" src="{{ url('public/assets/services/app-icon.svg') }}"> </span> App Design</h5>
                                           <p>
                                           A lot of companies make their <br> app to match specific products <br> and services, and it’s something <br> we really don’t... <a href="{{ url('product-design/app-design') }}" class="readMoreService">Read More</a>
                                           </p>
@@ -209,7 +209,7 @@
                               </div>
                               <div class="col-lg-4 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
-                                          <h5><span><img src="{{ url('public/assets/services/web-icon.svg') }}"> </span> Web Design</h5>
+                                          <h5><span><img alt="web icon" src="{{ url('public/assets/services/web-icon.svg') }}"> </span> Web Design</h5>
                                           <p>
                                           An effective web presence <br> requires good web design. <br> Whether you need a mobile, <br> desktop, or tablet ...<a href="{{ url('product-design/web-design') }}" class="readMoreService">Read More</a>
                                           </p>
@@ -219,7 +219,7 @@
                         <div class="mt70">
                               <div class="row">
                                     <div class="col-lg-4 col-12">
-                                          <img class="img-fluid" src="{{ url('public/assets/services/ui-ux-icon_full.svg') }}">
+                                          <img alt="ui/ux icon full" class="img-fluid" src="{{ url('public/assets/services/ui-ux-icon_full.svg') }}">
                                     </div>   
                                     <div class="col-lg-8 col-12">
                                           <h3 class="heading_medium">How Can The Best Product Enable You to be a Market Leader?</h3>
@@ -268,7 +268,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/callander.svg')}}">
+                                         <img alt="callander" src="{{ asset('public/assets/services/callander.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>1. On-time Delivery</h5> 
@@ -281,7 +281,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/collbrative.svg')}}">
+                                         <img alt="collbrative" src="{{ asset('public/assets/services/collbrative.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>2. Collaborative Work Culture</h5> 
@@ -294,7 +294,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/goal.svg')}}">
+                                         <img alt="goal" src="{{ asset('public/assets/services/goal.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>3. Goal-Oriented Team</h5> 
@@ -307,7 +307,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/customer.svg')}}">
+                                         <img alt="customer" src="{{ asset('public/assets/services/customer.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>4. 24/7 Customer Assistance</h5> 
@@ -320,7 +320,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/chatboat.svg')}}">
+                                         <img alt="chatboat" src="{{ asset('public/assets/services/chatboat.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>5. Chatbot Facility</h5> 

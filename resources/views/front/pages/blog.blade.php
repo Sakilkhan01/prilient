@@ -71,7 +71,6 @@
 }
 
 </style>
-
 <!-- ======= ======= -->
 <section class="breadcrumbs">
     <div class="container">
@@ -104,7 +103,7 @@
                         <div class="card">
                               <div class="inner-card">
                                 <div class="img-wrapper">
-                                  <img src="{{url('public/upload/blog/'.$row->image)}}" alt="">
+                                  <img src="{{url('public/upload/blog/'.$row->image)}}" alt="{{$row->title}}">
                                 </div>
                                 <div class="p-2">
                                     <div class="entry-meta">
@@ -186,7 +185,7 @@ $(document).ready(function(){
                     var date = d+'-'+m+'-'+y;
 
                     output += '<div class="post-item clearfix">';
-                    output += '<img src="public/upload/blog/'+data[count].image+'" alt="">';
+                    output += '<img src="public/upload/blog/'+data[count].image+'" alt="'+data[count].title+'">';
                     output += '<h4><a href="blog/'+data[count].slug+'">'+data[count].title+'</a></h4>';
                     output += '<time datetime="2020-01-01">'+date+'</time>';
                     output += '</div>';

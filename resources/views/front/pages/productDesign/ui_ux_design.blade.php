@@ -2,13 +2,14 @@
 @section('title', "UI/ UX Design services")
 @section('meta_keywords', "UI/ UX Design services")
 @section('meta_description', "Looking for UI/ UX Design Services? We are specialized in creating beautiful and smooth UI/UX designs that provide better user experience by incorporating effective collaboration,")
+
+@section('content') 
 <style type="text/css">
   .svg-bg svg{
     max-width: 100%;
     height: auto;
   }
 </style>
-@section('content') 
 <section class="hero-card-web-2 bg-service-banner">
       <div class="hero-main-rp container-fluid">
          <div class="container">
@@ -19,7 +20,7 @@
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                   <div class="col-lg-6 col-12 mt-4">
-                        <img src="{{ asset('public/assets/images/banner/ui-ux-animation.png') }}">
+                        <img alt="ui/ux animation" src="{{ asset('public/assets/images/banner/ui-ux-animation.png') }}">
                   </div>
             </div>
          </div>
@@ -34,7 +35,7 @@
         <p>User Interface/User Experience (UI/UX) design services are a vital component of a company’s success in an increasingly technological world. For example, a website’s UI is what draws new customers in—its ease of use and overall look and feel—while UX design focuses on making sure that those same users have a seamless experience with the site once they actually make it to their intended destination. Both types of design are our specialty, so we can help you develop products that people will enjoy.</p>
       </div>
       <div class="col-lg-12">
-        <img class="img-fluid" src="{{ asset('public/assets/services/ui-ux-circle.png') }}">
+        <img alt="ui/ux circle" class="img-fluid" src="{{ asset('public/assets/services/ui-ux-circle.png') }}">
       </div>
   </div>
 </section>
@@ -195,7 +196,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/callander.svg')}}">
+                                         <img alt="callander" src="{{ asset('public/assets/services/callander.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>1. On-time Delivery</h5> 
@@ -208,7 +209,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/collbrative.svg')}}">
+                                         <img alt="collbrative" src="{{ asset('public/assets/services/collbrative.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>2. Collaborative Work Culture</h5> 
@@ -221,7 +222,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/goal.svg')}}">
+                                         <img alt="goal" src="{{ asset('public/assets/services/goal.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>3. Goal-Oriented Team</h5> 
@@ -234,7 +235,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/customer.svg')}}">
+                                         <img alt="customer" src="{{ asset('public/assets/services/customer.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>4. 24/7 Customer Assistance</h5> 
@@ -247,7 +248,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/chatboat.svg')}}">
+                                         <img alt="chatboat" src="{{ asset('public/assets/services/chatboat.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>5. Chatbot Facility</h5> 
