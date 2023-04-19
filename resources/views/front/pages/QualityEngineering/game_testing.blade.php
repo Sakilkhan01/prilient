@@ -2,7 +2,10 @@
 @section('title', "Game Testing Service")
 @section('meta_keywords', "Game Testing Service")
 @section('meta_description', "Looking for a top rated Game Testing Service provider? Prilient is the Best game testing Services  provides high quality services to companies around the world")
-
+@section('link')        
+      <link rel="canonical" href="https://prilient.com/Quality_Engineering/game-testing" />
+      <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/game-testing" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -2,7 +2,10 @@
 @section('title', "React Native App Development")
 @section('meta_keywords', "React Native App Development")
 @section('meta_description', " React Native App Development is a framework that lets developers build native mobile apps. It enables you to build an application for multiple platforms while using the same codebase.")
-
+@section('link')        
+      <link rel="canonical" href="https://www.prilient.com/app_development/react-native-development" />
+      <link rel="canonical" href="https://prilient.com/app_development/react-native-developmen" />
+@stop
 @section('content') 
 <section class="breadcrumb-area banner-1">
     <div class="text-block">

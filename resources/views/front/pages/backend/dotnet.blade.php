@@ -2,7 +2,10 @@
 @section('title', ".NET Development Services")
 @section('meta_keywords', ".NET Development Services")
 @section('meta_description', ".NET Development Services involve design, development and deployment of high-performing web and mobile apps using Microsoft. .NET Framework is part of the .NET platform.")
-
+@section('link')  
+      <link rel="canonical" href="https://www.prilient.com/backend_development/dotnet-development" />
+      <link rel="canonical" href="https://prilient.com/backend_development/dotnet-development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

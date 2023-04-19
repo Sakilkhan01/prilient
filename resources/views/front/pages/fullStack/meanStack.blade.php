@@ -2,7 +2,10 @@
 @section('title', "MEAN Stack Development Services")
 @section('meta_keywords', "MEAN Stack Development Services")
 @section('meta_description', "MEAN Stack Development Services JavaScript-based framework for full-stack development platforms. This framework is widely used to design dynamic apps and websites")
-
+@section('link')      
+      <link rel="canonical" href="https://www.prilient.com/fullStack_development/MEAN-stack-development" />
+      <link rel="canonical" href="https://prilient.com/fullStack_development/MEAN-stack-development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

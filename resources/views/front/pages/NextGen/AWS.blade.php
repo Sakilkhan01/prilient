@@ -3,7 +3,10 @@
 @section('meta_keywords', "AWS Amplify & AWS Lamda Service")
 @section('meta_description', "AWS Amplify & AWS Lamda Service is a set of purpose-built tools and features that enables frontend web and mobile developers to quickly and easily build full-stack applications")
 
-
+@section('link')   
+      <link rel="canonical" href="https://www.prilient.com/NextGen/AWS-ampify-&-AWS-lamda" />
+      <link rel="canonical" href="https://prilient.com/NextGen/AWS-ampify-&-AWS-lamda" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -1,5 +1,8 @@
 @extends('front.layouts.app')
-
+@section('link')        
+      <link rel="canonical" href="https://prilient.com/" />
+      <link rel="canonical" href="https://www.prilient.com/" />
+@stop
 @section('content') 
       <section class="hero-card-web bg-gradient12 shape-bg3">
          <div class="hero-main-rp container-fluid">

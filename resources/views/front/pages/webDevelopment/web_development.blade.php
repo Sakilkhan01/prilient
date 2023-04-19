@@ -2,7 +2,10 @@
 @section('title', "Web Development Services")
 @section('meta_keywords', "Web Development Services")
 @section('meta_description', "Web development services are beneficial for a variety of reasons. involve everything related to building a web-based solution, whether it is a simple text page")
-
+@section('link')   
+      <link rel="canonical" href="https://www.prilient.com/web_development" />
+      <link rel="canonical" href="https://prilient.com/web_development" />
+@stop
 @section('content') 
 <style type="text/css">
   .web-development-bg{

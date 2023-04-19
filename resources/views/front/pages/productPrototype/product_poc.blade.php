@@ -3,6 +3,10 @@
 @section('meta_keywords', "POC & Prototype")
 @section('meta_description', "A POC is a method of validating assumptions with target users and checking if your idea is feasible technically. A proof of concept is meant to determine the feasibility")
 
+@section('link')        
+      <link rel="canonical" href="https://prilient.com/product_prototype/poc" />
+      <link rel="canonical" href="https://www.prilient.com/product_prototype/poc" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

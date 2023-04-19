@@ -2,7 +2,10 @@
 @section('title', "RPA Development Service")
 @section('meta_keywords', "RPA Development Service")
 @section('meta_description', "RPA services is a software technology that makes it easy to build, deploy, and manage software robots  that emulate human actions interacting with digital systems and software.")
-
+@section('link')   
+      <link rel="canonical" href="https://prilient.com/NextGen/RPA-development" />
+      <link rel="canonical" href="https://www.prilient.com/NextGen/RPA-development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

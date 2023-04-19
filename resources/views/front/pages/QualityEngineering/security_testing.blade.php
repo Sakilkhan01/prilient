@@ -3,7 +3,10 @@
 @section('meta_keywords', "Security Testing Service")
 @section('meta_description', "Security testing services are needed to detect, analyze, and help remediate flaws in software, IT infrastructure, IT policies and procedures to prevent security")
 
-
+@section('link')      
+      <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/security-testing" />
+      <link rel="canonical" href="https://prilient.com/Quality_Engineering/security-testing" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

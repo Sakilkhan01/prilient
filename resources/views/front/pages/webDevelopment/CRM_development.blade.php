@@ -2,7 +2,10 @@
 @section('title', "CRM Development services")
 @section('meta_keywords', "CRM Development services")
 @section('meta_description', "The developed CRM Development services offers an intuitive and fast way to create and manage websites, intranets, ecommerce and mobile solutions for public and private enterprises.")
-
+@section('link')        
+      <link rel="canonical" href="https://www.prilient.com/web_development/CRM-development" />
+      <link rel="canonical" href="https://prilient.com/web_development/CRM-development" />
+@stop
 @section('content') 
   <section class="breadcrumb-area banner-1">
     <div class="text-block">

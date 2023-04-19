@@ -2,7 +2,10 @@
 @section('title', "Usability Testing Service")
 @section('meta_keywords', "Usability Testing Service")
 @section('meta_description', "Usability Testing refers to evaluating a product or service by testing it with representative users.This type of testing includes testing User Interfaces & User Experience.")
-
+@section('link')        
+      <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/usability-testing" />
+      <link rel="canonical" href="https://prilient.com/Quality_Engineering/usability-testing" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

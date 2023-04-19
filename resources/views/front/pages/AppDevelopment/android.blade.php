@@ -2,7 +2,10 @@
 @section('title', "Android App Development")
 @section('meta_keywords', "Android App Development")
 @section('meta_description', "An Android app development service can help turn your great idea into a reality. By working with our experienced and professional Android app development on all supported Android")
-
+@section('link')        
+      <link rel="canonical" href="https://prilient.com/app_development/android-development" />
+      <link rel="canonical" href="https://www.prilient.com/app_development/android-development" />
+@stop
 @section('content') 
 
   <section class="breadcrumb-area banner-1" >

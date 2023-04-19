@@ -3,7 +3,10 @@
 @section('meta_keywords', "ERP Development services")
 @section('meta_description', "Enterprise resource planning (ERP) Development services refers to a type of software that organizations use to manage business activities such as accounting, procurement, project management")
 
-
+@section('link')   
+      <link rel="canonical" href="https://www.prilient.com/web_development/ERP-development" />
+      <link rel="canonical" href="https://prilient.com/web_development/ERP-development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

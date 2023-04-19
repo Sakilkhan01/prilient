@@ -1,6 +1,10 @@
 @extends('front.layouts.app')
 @section('meta_keywords', "Career")
 @section('meta_description', "Career")
+@section('link')        
+      <link rel="canonical" href="https://prilient.com/career" />
+      <link rel="canonical" href="https://www.prilient.com/career" />
+@stop
 @section('content') 
 <section class="breadcrumb-area banner-1" data-background="{{ url('public/assets/images/banner/9.jpg') }}">
    <div class="text-block">

@@ -2,7 +2,10 @@
 @section('title', "Data Visualization Service")
 @section('meta_keywords', "Data Visualization Service")
 @section('meta_description', "Data visualization is the graphical representation of information and data. By using Data visual elements like charts, graphs, and maps, data visualization tools.")
-
+@section('link')   
+      <link rel="canonical" href="https://prilient.com/Analytics_and_BI/data-visualization" />
+      <link rel="canonical" href="https://www.prilient.com/Analytics_and_BI/data-visualization" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

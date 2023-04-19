@@ -2,7 +2,10 @@
 @section('title', "NFT Development Service")
 @section('meta_keywords', "NFT Development Service")
 @section('meta_description', "NFT development services are used to launch software that enables the creation and sale of blockchain-based tokens backed by unique digital or physical assets.")
-
+@section('link')        
+      <link rel="canonical" href="https://prilient.com/blockchain_development/NFT-development" />
+      <link rel="canonical" href="https://www.prilient.com/blockchain_development/NFT-development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

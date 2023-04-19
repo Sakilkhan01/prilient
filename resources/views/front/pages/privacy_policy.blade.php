@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('link') 
+      <link rel="canonical" href="https://prilient.com/privacy_policy" />
+      <link rel="canonical" href="https://www.prilient.com/privacy_policy" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

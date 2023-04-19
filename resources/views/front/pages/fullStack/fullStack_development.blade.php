@@ -3,7 +3,10 @@
 @section('meta_keywords', "Full-stack Development Services")
 @section('meta_description', "Full stack developers have comprehensive knowledge about the front and back end web development process. This means that these developers contribute on both server-side")
 
-
+@section('link')   
+      <link rel="canonical" href="https://prilient.com/fullStack_development" />
+      <link rel="canonical" href="https://www.prilient.com/fullStack_development" />
+@stop
 @section('content') 
 <style type="text/css">
   .web-development-bg{

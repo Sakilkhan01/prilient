@@ -2,7 +2,10 @@
 @section('title', "Data Science Service")
 @section('meta_keywords', "Data Science Service")
 @section('meta_description', "Data Science services have revolutionized the way products and services are developed to simplify strenuous real-world tasks. we provide the best data science services")
-
+@section('link')   
+      <link rel="canonical" href="https://www.prilient.com/Analytics_and_BI/data-science" />
+      <link rel="canonical" href="https://prilient.com/Analytics_and_BI/data-science" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

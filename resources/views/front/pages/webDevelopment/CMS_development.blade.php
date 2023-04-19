@@ -2,7 +2,10 @@
 @section('title', "CMS Development services")
 @section('meta_keywords', "CMS Development services")
 @section('meta_description', "The developed CMS Development services offers an intuitive and fast way to create and manage websites, intranets, ecommerce and mobile solutions for public and private enterprises.")
-
+@section('link') 
+      <link rel="canonical" href="https://prilient.com/web_development/CMS-development" />
+      <link rel="canonical" href="https://www.prilient.com/web_development/CMS-development" />
+@stop
 @section('content') 
   <section class="breadcrumb-area banner-1">
     <div class="text-block">

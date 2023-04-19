@@ -2,7 +2,9 @@
 @section('title', "PaaS Development")
 @section('meta_keywords', "PaaS Development")
 @section('meta_description', "Platform as a service (PaaS) development is a complete development and deployment environment in the cloud, with resources that enable you to deliver everything")
-
+@section('link') 
+      <link rel="canonical" href="https://www.prilient.com/cloud_strategy/PaaS_Development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

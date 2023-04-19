@@ -1,5 +1,9 @@
 @extends('front.layouts.app')
 @section('title',__('Blog'))
+@section('link') 
+        <link rel="canonical" href="https://prilient.com/blog" />
+      <link rel="canonical" href="https://www.prilient.com/blog" />
+@stop
 @section('content')
 <link href="{{ url('public/frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
 <link href="{{ url('public/frontent/blog/bootstrap-icons/bootstrap-icons.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">

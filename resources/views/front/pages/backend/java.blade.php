@@ -2,7 +2,10 @@
 @section('title', "Java Development Services")
 @section('meta_keywords', "Java Development Services")
 @section('meta_description', "Java development services cover implementation of enterprise apps, software products, and SaaS solutions using secure, portable, and scalable Java Developed frameworks.")
-
+@section('link')        
+      <link rel="canonical" href="https://www.prilient.com/backend_development/java-development" />
+      <link rel="canonical" href="https://prilient.com/backend_development/java-development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -3,6 +3,10 @@
 @section('meta_keywords', "UI/ UX Design services")
 @section('meta_description', "Looking for UI/ UX Design Services? We are specialized in creating beautiful and smooth UI/UX designs that provide better user experience by incorporating effective collaboration,")
 
+@section('link')        
+      <link rel="canonical" href="https://prilient.com/product-design/ui-ux-design" />
+      <link rel="canonical" href="https://www.prilient.com/product-design/ui-ux-design" />
+@stop
 @section('content') 
 <style type="text/css">
   .svg-bg svg{

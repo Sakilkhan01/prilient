@@ -2,7 +2,9 @@
 @section('title', "MVP & Prototype")
 @section('meta_keywords', "MVP & Prototype")
 @section('meta_description', "The meaning of MVP is Minimum Viable Product. It's the bare minimum version of a product that has enough functionality and features that still solves the problem for your customers.")
-
+@section('link')   
+      <link rel="canonical" href="https://prilient.com/product_prototype/mvp" />
+@stop
 @section('content') 
   <section class="breadcrumb-area banner-1">
     <div class="text-block">

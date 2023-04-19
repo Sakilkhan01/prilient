@@ -3,7 +3,10 @@
 @section('meta_keywords', "Blockchain Testing Service")
 @section('meta_description', "Blockchain Testing Service is the systematic evaluation of the blockchain's various functional components. Blockchain technology is an advanced database mechanism")
 
-
+@section('link')   
+      <link rel="canonical" href="https://prilient.com/Quality_Engineering/blockchain-testing" />
+      <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/blockchain-testing" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

@@ -2,7 +2,10 @@
 @section('title', "Mobile Testing Service")
 @section('meta_keywords', "Mobile Testing Service")
 @section('meta_description', "Mobile App Testing involves analyzing mobile apps for functionality, usability, visual appeal, and consistency across multiple mobile devices. It helps ensure an optimal user experience")
-
+@section('link')        
+      <link rel="canonical" href="https://prilient.com/Quality_Engineering/mobile-testing" />
+      <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/mobile-testing" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

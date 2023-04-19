@@ -3,6 +3,10 @@
 @section('meta_keywords', "Big Data Testing Service")
 @section('meta_description', "Big Data Testing Service can be defined as the procedure that involves examining and validating the functionality of the validate the quality of big data applications")
 
+@section('link') 
+      <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/big-data-testing" />
+      <link rel="canonical" href="https://prilient.com/Quality_Engineering/big-data-testing" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

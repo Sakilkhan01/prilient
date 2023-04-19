@@ -3,7 +3,10 @@
 @section('meta_keywords', "Angular JS Development Service")
 @section('meta_description', "AngularJS Development Services are known for their flexibility, scalability, and convenient ASP.NET MVC implementation. Angular services will help take your business to the next level")
 
-
+@section('link')   
+      <link rel="canonical" href="https://www.prilient.com/frontend_development/angular-development" />
+      <link rel="canonical" href="https://prilient.com/frontend_development/angular-development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

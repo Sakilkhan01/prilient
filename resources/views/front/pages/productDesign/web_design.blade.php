@@ -2,7 +2,10 @@
 @section('title', "Web design services")
 @section('meta_keywords', "Web design services")
 @section('meta_description', "A web design service provides you with a customized website included the design, programming, and development of a website that's perfect for business or personal website")
-
+@section('link')        
+      <link rel="canonical" href="https://prilient.com/product-design/web-design" />
+      <link rel="canonical" href="https://www.prilient.com/product-design/web-design" />
+@stop
 @section('content') 
 <section class="hero-card-web-2 bg-service-banner">
       <div class="hero-main-rp container-fluid">

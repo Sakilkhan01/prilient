@@ -2,7 +2,10 @@
 @section('title', "Private Blockchain Development Service")
 @section('meta_keywords', "Private Blockchain Development Service")
 @section('meta_description', "Private Blockchain Development Service is a peer-to-peer network, made centralized by connecting all the nodes to a center point that manages the whole platform.")
-
+@section('link')   
+      <link rel="canonical" href="https://www.prilient.com/blockchain_development/private-development" />
+      <link rel="canonical" href="https://prilient.com/blockchain_development/private-development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

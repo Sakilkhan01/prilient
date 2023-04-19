@@ -1,4 +1,8 @@
 @extends('front.layouts.app')
+@section('link')   
+      <link rel="canonical" href="https://www.prilient.com/dedicated-developer" />
+      <link rel="canonical" href="https://prilient.com/dedicated-developer" />
+@stop
 @section('content') 
 {!! NoCaptcha::renderJs() !!}
 <!-- content start -->

@@ -3,7 +3,10 @@
 @section('meta_keywords', "Smart contracts Development Service")
 @section('meta_description', "Smart Contract Development allows you to replace contracts by binding them in executable code. With expertise in contract development tools and programming languages")
 
-
+@section('link')      
+      <link rel="canonical" href="https://www.prilient.com/blockchain_development/smart-contracts-development" />
+      <link rel="canonical" href="https://prilient.com/blockchain_development/smart-contracts-development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

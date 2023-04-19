@@ -2,7 +2,10 @@
 @section('title', "Modern Data Warehouses Service")
 @section('meta_keywords', "Modern Data Warehouses Service")
 @section('meta_description', "A Modern Data Warehouse services is a cloud-based solution that gathers and stores that information. Organizations can process this data to make intelligent decisions.")
-
+@section('link') 
+      <link rel="canonical" href="https://prilient.com/Analytics_and_BI/modern-data-warehouses" />
+      <link rel="canonical" href="https://www.prilient.com/Analytics_and_BI/modern-data-warehouses" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

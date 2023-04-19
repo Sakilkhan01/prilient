@@ -2,7 +2,10 @@
 @section('title', "Laravel Development Services")
 @section('meta_keywords', "Laravel Development Services")
 @section('meta_description', "With a Laravel development company, you can benefit from lower operational and Laravel development service costs, on-time project delivery, cutting-edge technology.")
-
+@section('link')   
+      <link rel="canonical" href="https://prilient.com/backend_development/laravel-development" />
+      <link rel="canonical" href="https://www.prilient.com/backend_development/laravel-development" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

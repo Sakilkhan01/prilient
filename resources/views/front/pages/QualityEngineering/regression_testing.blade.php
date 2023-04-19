@@ -3,7 +3,10 @@
 @section('meta_keywords', "Regression Testing Service")
 @section('meta_description', "Regression testing is done after functional testing has concluded, to verify that the other functionalities are working. testing has traditionally been performed")
 
-
+@section('link') 
+      <link rel="canonical" href="https://prilient.com/Quality_Engineering/regression-testing" />
+      <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/regression-testing" />
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
