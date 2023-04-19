@@ -67,5 +67,6 @@ class Kernel extends HttpKernel
         'admin' => \App\Http\Middleware\CheckAdmin::class,
         'HtmlMinifier' => \App\Http\Middleware\HtmlMinifier::class,
         'GzipEncodeResponse' => \App\Http\Middleware\GzipEncodeResponse::class,
+        'CheckUrl' => \App\Http\Middleware\CheckUrl::class,
     ];
 }

@@ -32,13 +32,13 @@ Route::get('/sitemap.xml', [SitemapXmlController::class, 'index']);
 
 Auth::routes(['register' => false,'home' => false]);
 
-Route::group(['middleware' => ['HtmlMinifier']], static function(){
+Route::group(['middleware' => ['HtmlMinifier','CheckUrl']], static function(){
 
 Route::get('/', [HomeController::class, 'home']);
+
 Route::get('/career', [HomeController::class, 'Career']);
 
 Route::post('/subscribe', [HomeController::class, 'Subscribe']);
-// Auth::routes(['home' => false]);
 
 Route::get('blog', [BlogController::class, 'index'])->name('blog');
 Route::get('blog/{slug}', [BlogController::class, 'view'])->name('view_blog');
@@ -172,7 +172,7 @@ Route::view('/blockchain_development', 'front.pages.Blockchain.blockchain_develo
 Route::view('/blockchain_development/smart-contracts-development', 'front.pages.Blockchain.smartContracts');
 Route::view('/blockchain_development/blockchain-wallet-development', 'front.pages.Blockchain.Wallet');
 Route::view('/blockchain_development/decentralized-development', 'front.pages.Blockchain.Decentralized');
-Route::view('/blockchain_development/private-development', 'front.pages.Blockchain.Private');
+Route::view('/blockchain_development/Private/Public-development', 'front.pages.Blockchain.Private');
 Route::view('/blockchain_development/tokenization-development', 'front.pages.Blockchain.tokenization');
 Route::get('services/blockchain_development-tokenization_development', function () {
     return redirect('/blockchain_development/tokenization-development');

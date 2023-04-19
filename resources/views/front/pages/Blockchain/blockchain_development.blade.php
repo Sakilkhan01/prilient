@@ -132,7 +132,7 @@ border-radius: 36px 36px 0px 0px;
                                          <div>
                                            <h5>Private Blockchain Development</h5>
                                           <p>
-                                             Develop your own private blockchain network as per your business requirement. We have lots of...<a href="{{ url('/blockchain_development/private-development') }}" class="readMoreService">Read More</a>
+                                             Develop your own private blockchain network as per your business requirement. We have lots of...<a href="{{ url('/blockchain_development/Private/Public-development') }}" class="readMoreService">Read More</a>
                                           </p>
                                          </div>
                                     </div>
