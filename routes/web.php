@@ -219,8 +219,6 @@ Route::view('portfolio', 'front.pages.portfolio');
 
 
 
-
-
 Route::group(['prefix' => 'admin', 'middleware' => ['admin','auth'], 'nampspace'=>'admin'], function(){
      
     Route::get('dashboard', [App\Http\Controllers\admin\HomeController::class, 'index'])->name('admin.dashboard');
