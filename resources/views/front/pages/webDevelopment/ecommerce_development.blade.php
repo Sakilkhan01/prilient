@@ -27,7 +27,7 @@
 <div class="row">
         <div class="col-lg-8 col-12">
           <div class="frem-banner-img mt-5">
-            <img src="{{ url('public/assets/images/banner/Ecommerce_Development.jpg') }}">
+            <img alt="Ecommerce Development" src="{{ url('public/assets/images/banner/Ecommerce_Development.jpg') }}">
           </div>
       <div class="col-lg-12 mt-5">
             <h4>Ecommerce Development</h4>

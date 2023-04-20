@@ -32,7 +32,7 @@ border-radius: 36px 36px 0px 0px;
                      <!-- <a href="{{ url('contact-us') }}" class="niwax-btn2 play-demo-btn ml-4 mt-3">View Demo <i class="fa fa-play-circle fa-ani"></i></a> -->
                   </div>
                   <div class="col-lg-5 col-12 mt-4">
-                        <img src="{{ asset('public/assets/images/banner/devops.svg') }}">
+                        <img alt="devops" src="{{ asset('public/assets/images/banner/devops.svg') }}">
                   </div>
             </div>
          </div>
@@ -43,7 +43,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container">
       <div class="row">
       <div class="col-lg-4 col-12 text-center mt-5">
-            <img src="{{ asset('public/assets/services/Group4.png') }}">
+            <img alt="Business-Focused" src="{{ asset('public/assets/services/Group4.png') }}">
       </div>
       <div class="col-lg-8 col-12 mt-5">
           <div class="comman-service-heading">
@@ -208,7 +208,7 @@ border-radius: 36px 36px 0px 0px;
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle" style="border: 2px solid #004999;padding: 2px;">
                                              <div style="background: #004999;height: 100%;width: 100%;border-radius: 50%;padding: 15px;">
-                                             <img src="{{ asset('public/assets/services/Group105.svg') }}"></div>
+                                             <img alt="Development" src="{{ asset('public/assets/services/Group105.svg') }}"></div>
                                          </div>
                                          <div>
                                            <h5>Development</h5>
@@ -222,7 +222,7 @@ border-radius: 36px 36px 0px 0px;
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle" style="border: 2px solid #E43C5D;padding: 2px;">
                                              <div style="background: #E43C5D;height: 100%;width: 100%;border-radius: 50%;padding: 15px;">
-                                             <img src="{{ asset('public/assets/services/Group105.svg') }}"></div>
+                                             <img alt="Testing" src="{{ asset('public/assets/services/Group105.svg') }}"></div>
                                          </div>
                                          <div>
                                            <h5>Testing</h5>
@@ -236,7 +236,7 @@ border-radius: 36px 36px 0px 0px;
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle" style="border: 2px solid #004999;padding: 2px;">
                                              <div style="background: #004999;height: 100%;width: 100%;border-radius: 50%;padding: 15px;">
-                                             <img src="{{ asset('public/assets/services/Group105.svg') }}"></div>
+                                             <img alt="Integration" src="{{ asset('public/assets/services/Group105.svg') }}"></div>
                                          </div>
                                          <div>
                                            <h5>Integration</h5>
@@ -253,7 +253,7 @@ border-radius: 36px 36px 0px 0px;
           <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-12">
-                  <img src="{{ asset('public/assets/services/Group5.png') }}">
+                  <img alt="DevOps Service" src="{{ asset('public/assets/services/Group5.png') }}">
                 </div>
                 <div class="col-lg-8 col-12">
                   <h2 class="fontWt30">Why Do You Need  <span class="fontWt50 textRed">DevOps</span> <span class="fontWt50 textPrim">Services</span> ?</h2>
@@ -278,7 +278,7 @@ border-radius: 36px 36px 0px 0px;
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-prim">
-                                          <img src="{{ asset('public/assets/services/Group6.png') }}">
+                                          <img alt="Innovative Culture" src="{{ asset('public/assets/services/Group6.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -298,7 +298,7 @@ border-radius: 36px 36px 0px 0px;
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-dng">
-                                          <img src="{{ asset('public/assets/services/Group7.png') }}">
+                                          <img alt="Onboarding Procedure" src="{{ asset('public/assets/services/Group7.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -320,7 +320,7 @@ border-radius: 36px 36px 0px 0px;
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-prim">
-                                          <img src="{{ asset('public/assets/services/Group8.png') }}">
+                                          <img alt="Affordable Pricing" src="{{ asset('public/assets/services/Group8.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -342,7 +342,7 @@ border-radius: 36px 36px 0px 0px;
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-dng">
-                                          <img src="{{ asset('public/assets/services/Group9.png') }}">
+                                          <img alt="Qualified Team" src="{{ asset('public/assets/services/Group9.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">
@@ -365,7 +365,7 @@ border-radius: 36px 36px 0px 0px;
                                       <div class="custom-row">
                                       <div class="custom-w18 p-3">
                                         <div class="image-bg-crd bg-prim">
-                                          <img src="{{ asset('public/assets/services/Group10.png') }}">
+                                          <img alt="Collobaration" src="{{ asset('public/assets/services/Group10.png') }}">
                                         </div>
                                       </div>
                                         <div class="custom-w76 p-3">

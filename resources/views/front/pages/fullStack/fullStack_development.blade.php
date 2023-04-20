@@ -53,7 +53,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
        <div class="col-lg-5 col-12 text-center mt-5">
-            <img src="{{ asset('public/assets/services/Group170.svg') }}">
+            <img alt="Full-stack Service" src="{{ asset('public/assets/services/Group170.svg') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
@@ -86,7 +86,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('public/assets/services/Group171.svg') }}">
+                                           <img alt="MEAN Stack" src="{{ asset('public/assets/services/Group171.svg') }}">
                                          </div>
                                          <div>
                                            <h5>MEAN Stack Development</h5>
@@ -99,7 +99,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5  offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('public/assets/services/Group172.svg') }}">
+                                           <img alt="MERN Stack" src="{{ asset('public/assets/services/Group172.svg') }}">
                                          </div>
                                          <div>
                                            <h5>MERN Stack Development</h5>
@@ -122,7 +122,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('public/assets/services/Group93.png') }}">
+                                  <img alt="API Integration" src="{{ asset('public/assets/services/Group93.png') }}">
                                 </div>
                                 </div>
                                 <h5>API Integration</h5>
@@ -139,7 +139,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('public/assets/services/Group94.png') }}">
+                                  <img alt="Data Management" src="{{ asset('public/assets/services/Group94.png') }}">
                                 </div>
                                 </div>
                                 <h5>Data Management</h5>
@@ -154,7 +154,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('public/assets/services/Group95.png') }}">
+                                  <img alt="Quality Analysis" src="{{ asset('public/assets/services/Group95.png') }}">
                                 </div>
                                 </div>
                                 <h5>Quality Analysis</h5>
@@ -170,7 +170,7 @@ border-radius: 36px 36px 0px 0px;
        <div class="container">
                               <div class="row">
                                     <div class="col-lg-5 col-12">
-                                          <img class="img-fluid" src="{{ asset('public/assets/services/Group173.svg') }}">
+                                          <img alt="Full Stack Services help business" class="img-fluid" src="{{ asset('public/assets/services/Group173.svg') }}">
                                     </div>   
                                     <div class="col-lg-7 col-12">
                                           <h3 class="fontWt50">Why does <span class="textRed fontWt70">Full Stack Services</span> matter?</h3>
@@ -218,7 +218,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group81.png')}}">
+                                         <img alt="goal-oriented team" src="{{ asset('public/assets/services/Group81.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>An extremely goal-oriented team</h5> 
@@ -231,7 +231,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group82.png')}}">
+                                         <img alt="One-Stop Solution" src="{{ asset('public/assets/services/Group82.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>One-Stop Solution For Development Services</h5> 
@@ -244,7 +244,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group83.png')}}">
+                                         <img alt="Time Punctuality" src="{{ asset('public/assets/services/Group83.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Time Punctuality</h5> 
@@ -257,7 +257,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group23.png')}}">
+                                         <img alt="Customer Support" src="{{ asset('public/assets/services/Group23.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>24/7 Highly Dedicated Customer Support</h5> 

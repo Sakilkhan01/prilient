@@ -86,7 +86,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('public/assets/services/Group164.svg') }}">
+                                           <img alt="Smart contracts" src="{{ asset('public/assets/services/Group164.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Smart contracts Development</h5>
@@ -99,7 +99,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5  offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle d-flex">
-                                           <img src="{{ asset('public/assets/services/Group165.svg') }}">
+                                           <img alt="Blockchain wallets" src="{{ asset('public/assets/services/Group165.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Blockchain wallets Development</h5>
@@ -114,7 +114,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/Group166.svg') }}">
+                                           <img alt="Decentralized Apps" src="{{ asset('public/assets/services/Group166.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Decentralized Apps (dApps) Development</h5>
@@ -127,7 +127,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5 offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/Group167.svg') }}">
+                                           <img alt="Private Blockchain" src="{{ asset('public/assets/services/Group167.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Private Blockchain Development</h5>
@@ -142,7 +142,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/Group168.svg') }}">
+                                           <img alt="Tokenization" src="{{ asset('public/assets/services/Group168.svg') }}">
                                          </div>
                                          <div>
                                            <h5>Tokenization</h5>
@@ -155,7 +155,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="col-lg-5 col-12 mt-5 offset-lg-1">
                                     <div class="services_card bg_card_yellow bg-hover-white text-center card-service-equal h-100">
                                          <div class="iconCircle">
-                                           <img src="{{ asset('public/assets/services/Group169.svg') }}">
+                                           <img alt="NFT" src="{{ asset('public/assets/services/Group169.svg') }}">
                                          </div>
                                          <div>
                                            <h5>NFT</h5>
@@ -181,7 +181,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('public/assets/services/Group84.png') }}">
+                                  <img alt="Greater transparency" src="{{ asset('public/assets/services/Group84.png') }}">
                                 </div>
                                 </div>
                                 <h5>Greater transparency</h5>
@@ -198,7 +198,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('public/assets/services/Group85.png') }}">
+                                  <img alt="Better reliability" src="{{ asset('public/assets/services/Group85.png') }}">
                                 </div>
                                 </div>
                                 <h5>Better reliability</h5>
@@ -243,7 +243,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('public/assets/services/Group89.png') }}">
+                                  <img alt="Better security" src="{{ asset('public/assets/services/Group89.png') }}">
                                 </div>
                                 </div>
                                 <h5>Better security</h5>
@@ -277,7 +277,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group90.png')}}">
+                                         <img alt="Skilled" src="{{ asset('public/assets/services/Group90.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Skilled Developers</h5> 
@@ -290,7 +290,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group91.png')}}">
+                                         <img alt="Transparency" src="{{ asset('public/assets/services/Group91.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Transparency</h5> 
@@ -303,7 +303,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group92.png')}}">
+                                         <img alt="Save Money" src="{{ asset('public/assets/services/Group92.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Save Money</h5>
@@ -316,7 +316,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group23.png')}}">
+                                         <img alt="Support" src="{{ asset('public/assets/services/Group23.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Support</h5> 
@@ -329,7 +329,7 @@ border-radius: 36px 36px 0px 0px;
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img src="{{ asset('public/assets/services/Group83.png')}}">
+                                         <img alt="Deliver on time" src="{{ asset('public/assets/services/Group83.png')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>Deliver on time</h5> 

@@ -111,7 +111,7 @@
                      Location: {{ $post->location }}
                   </p>
                </div>
-               <a href="mailto:hr@prilient.com" class="btn">Apply Now <img src="{{ url('public/frontent/images/button_arrow_w.png ') }}" class="right_icon" alt="Mobile App Development Services"></a>
+               <a href="mailto:hr@prilient.com" class="btn">Apply Now <img alt="right arrow" src="{{ url('public/frontent/images/button_arrow_w.png ') }}" class="right_icon" alt="Mobile App Development Services"></a>
             </div>
             @endforeach
          </div>
@@ -126,7 +126,7 @@
           <div class="owl-carousel career-slider">
           	@foreach($clients as $v)
            <div class="text-center w-50">
-              <img class="img-fluid" src="{{ url('public/upload/client/',$v->logo) }}">
+              <img alt="{{$v->name}}" class="img-fluid" src="{{ url('public/upload/client/',$v->logo) }}">
            </div>
            @endforeach
         </div>

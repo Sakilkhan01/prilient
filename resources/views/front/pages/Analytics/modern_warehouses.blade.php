@@ -29,7 +29,7 @@
     <div class="row">
         <div class="col-lg-8 col-12">
           <div class="frem-banner-img mt-5">
-            <img src="{{ url('public/assets/images/banner/9.jpg') }}">
+            <img alt="Modern Data Warehouses Service" src="{{ url('public/assets/images/banner/9.jpg') }}">
           </div>
       <div class="col-lg-12 mt-5">
             <h4>Modern Data Warehouses</h4>

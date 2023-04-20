@@ -47,7 +47,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
        <div class="col-lg-5 col-12 text-center mt-5">
-            <img src="{{ asset('public/assets/services/Group106.png') }}">
+            <img alt="Cyber security Service" src="{{ asset('public/assets/services/Group106.png') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
@@ -75,7 +75,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('public/assets/services/Group1.png') }}">
+                                  <img alt="Virtual CISO" src="{{ asset('public/assets/services/Group1.png') }}">
                                 </div>
                                 </div>
                                 <h5>Virtual CISO</h5>
@@ -92,7 +92,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-blue">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-blue">
-                                  <img src="{{ asset('public/assets/services/Group2.png') }}">
+                                  <img alt="Data Governance" src="{{ asset('public/assets/services/Group2.png') }}">
                                 </div>
                                 </div>
                                 <h5>Data Governance</h5>
@@ -107,7 +107,7 @@ border-radius: 36px 36px 0px 0px;
                               <div class="header_card bg-header-card-pink">
                                 <div class="img-liner">
                                 <div class="header_icon bg-header-card-pink">
-                                  <img src="{{ asset('public/assets/services/Group3.png') }}">
+                                  <img alt="Risk Management" src="{{ asset('public/assets/services/Group3.png') }}">
                                 </div>
                                 </div>
                                 <h5>Third-Party Risk Management</h5>

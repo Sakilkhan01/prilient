@@ -329,27 +329,27 @@ border-radius: 36px 36px 0px 0px;
                 </div>
                 <div class="firstDiv">
                     <div class="img-border">
-                        <img src="{{ asset('public/assets/services/reactnative-round.png') }}">
+                        <img alt="reactnative round" src="{{ asset('public/assets/services/reactnative-round.png') }}">
                     </div>
                 </div>
                 <div class="firstDiv">
                     <div class="img-border">
-                        <img src="{{ asset('public/assets/services/reactnative-round.png') }}">
+                        <img alt="reactnative round" src="{{ asset('public/assets/services/reactnative-round.png') }}">
                     </div>
                 </div>
                 <div class="firstDiv">
                     <div class="img-border">
-                        <img src="{{ asset('public/assets/services/reactnative-round.png') }}">
+                        <img alt="reactnative round" src="{{ asset('public/assets/services/reactnative-round.png') }}">
                     </div>
                 </div>
                 <div class="firstDiv">
                     <div class="img-border">
-                        <img src="{{ asset('public/assets/services/reactnative-round.png') }}">
+                        <img alt="reactnative round" src="{{ asset('public/assets/services/reactnative-round.png') }}">
                     </div>
                 </div>
                 <div class="firstDiv">
                     <div class="img-border">
-                        <img src="{{ asset('public/assets/services/reactnative-round.png') }}">
+                        <img alt="reactnative round" src="{{ asset('public/assets/services/reactnative-round.png') }}">
                     </div>
                 </div>
             </div>
@@ -358,7 +358,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="container">
       <div class="row">
             <div class="col-lg-4 col-12 mt-5">
-                  <img class="img-fluid" src="{{ asset('public/assets/services/Group88.png') }}">
+                  <img alt="Web Development Necessary" class="img-fluid" src="{{ asset('public/assets/services/Group88.png') }}">
             </div>   
             <div class="col-lg-8 col-12 mt-5">
                   <h3 class="heading_medium">Why is <span class="textRed">Web Development Necessary</span> Today?</h3>
