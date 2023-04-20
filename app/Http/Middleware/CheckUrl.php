@@ -20,9 +20,10 @@ class CheckUrl {
 			if(preg_match($pattern, $url) == 1){
             	return redirect('/');
 			}
-			$pattern = '/www./i';
-			$new_site_url = preg_replace($pattern, '', $url);
-			return redirect()->intended($new_site_url);
+      		return $response;
+			// $pattern = '/www./i';
+			// $new_site_url = preg_replace($pattern, '', $url);
+			// return redirect()->intended($new_site_url);
     }
 
 
