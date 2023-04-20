@@ -34,7 +34,7 @@
 <section>
   <div class="container py-5">
       <div class="col-12 col-lg-12 text-center">
-        <h1 class="textBgcolor fontWt50 ">UI/UX DESIGN</h1>
+        <h2 class="textBgcolor fontWt50 sh1">UI/UX DESIGN</h2>
         <p class="fontWt50">User Interface/User Experience (UI/UX) </p>
         <p>User Interface/User Experience (UI/UX) design services are a vital component of a company’s success in an increasingly technological world. For example, a website’s UI is what draws new customers in—its ease of use and overall look and feel—while UX design focuses on making sure that those same users have a seamless experience with the site once they actually make it to their intended destination. Both types of design are our specialty, so we can help you develop products that people will enjoy.</p>
       </div>

@@ -62,7 +62,7 @@ border-radius: 36px 36px 0px 0px;
  <div class="bgYellow BgRedcardHeight py-5 mt-4">
       <div class="container">
       <div class="comman-service-heading text-center">
-             <h1 class="text-center fontWt70 textBgcolor" style="font-weight: 600;">Cyber Security Services</h1>
+             <h2 class="text-center fontWt70 textBgcolor sh1" style="font-weight: 600;">Cyber Security Services</h2>
              <p class="">To understand how we are different from other cyber security services, it’s important to get a sense of our values.</p>
       </div>  
       </div>
@@ -124,7 +124,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="rounded-circle-comm top-rounded-circle"></div>
       <div class="container">
       <div class="comman-service-heading text-center" style="padding-top: 40px;">
-            <h1 class="text-center fontWt40 text-white">Why <span class="fontWt50">Cyber Security</span> Services?</h1>
+            <h2 class="text-center fontWt40 text-white sh1">Why <span class="fontWt50">Cyber Security</span> Services?</h2>
              <p class="text-white">To understand how we are different from other cyber security services, it’s important to get a sense of our values.</p>
       </div>  
       </div>
@@ -263,7 +263,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="py-5 bottomUp">
             <div class="container">
                   <div class="col-lg-12 text-center">
-                        <h1 style="line-height: 58px;">How Prilient<br> <span class="fontWt70 common-color-heading">Cyber Security Services is More Secure</span> ?</h1>
+                        <h2 style="line-height: 58px;">How Prilient<br> <span class="fontWt70 common-color-heading">Cyber Security Services is More Secure</span> ?</h2>
 <p>The security of your organization is our number one priority. We go above and beyond to ensure that you will be safe from any kind of attack on your organization’s security infrastructure.</p>
                   </div>
                         <div class="row justify-content-center">

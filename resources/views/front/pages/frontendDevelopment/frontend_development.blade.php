@@ -257,7 +257,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="bgYellow py-5 bottomUp">
             <div class="container">
                   <div class="col-lg-12 text-center">
-                        <h1 class="service_heading_text" style="line-height: 58px;">The Services We Provide for <br>Front-end Development</h1>
+                        <h2 class="service_heading_text sh1" style="line-height: 58px;">The Services We Provide for <br>Front-end Development</h2>
                         <p>Front-end Development is, simply put, a bundle of technologies used to make websites and apps appear visually attractive. Let us take care of your Front-end development needs by working with our Front-end Development team.</p>
                   </div>
                         <div class="row justify-content-center">

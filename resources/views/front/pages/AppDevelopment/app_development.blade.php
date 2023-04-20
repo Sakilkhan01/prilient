@@ -289,8 +289,8 @@
       <div class="bgYellow py-5 bottomUp">
             <div class="container">
                   <div class="col-lg-12 text-center">
-                        <h1 class="service_heading_text" style="line-height: 58px;">Mobile Application Development<br>
-Services that Meet All Your Needs</h1>
+                        <h2 class="service_heading_text sh1" style="line-height: 58px;">Mobile Application Development<br>
+Services that Meet All Your Needs</h2>
 <p>Whether you’re looking to build a new app from scratch or update an existing one, we have a dedicated team that can deliver just what you need. To keep pace with changing technologies and needs, all our apps are constantly updated and maintained by highly qualified developers who are always up-to-date with the latest trends in technology.</p>
                   </div>
                         <div class="row justify-content-center">

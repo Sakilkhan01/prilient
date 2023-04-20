@@ -59,7 +59,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="rounded-circle-comm top-rounded-circle"></div>
       <div class="container">
       <div class="comman-service-heading text-center">
-             <h1 class="text-center fontWt40 text-white">Our <span class="fontWt50">Process</span> & <span class="fontWt50">Methodology</span></h1>
+             <h2 class="text-center fontWt40 text-white sh1">Our <span class="fontWt50">Process</span> & <span class="fontWt50">Methodology</span></h2>
              <p class="text-white">On-Demand as a Service (ODaaS) is an approach to deploying systems and applications on-demand, with no setup or development required. It involves a highly scalable and reliable infrastructure in which preconfigured services are deployed on-demand whenever they’re needed. This reduces overhead and increases flexibility while guaranteeing that business-critical applications are always up and running when needed. Our process and Methodology for implementing ODaaS includes:</p>
       </div>  
       </div>
@@ -200,7 +200,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="bg-white py-5 bottomUp">
             <div class="container">
                   <div class="col-lg-12 text-center">
-                        <h1 class="fontWt50" style="line-height: 58px;">Our Services</h1>
+                        <h2 class="fontWt50 sh1" style="line-height: 58px;">Our Services</h2>
 <p>We offer a wide range of services to cover all your DevOps needs. You’ll get that with our professional experience and expertise in delivering complex projects at a high-efficiency rate.</p>
                   </div>
                         <div class="row justify-content-center">

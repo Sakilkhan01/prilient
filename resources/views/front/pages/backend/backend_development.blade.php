@@ -230,7 +230,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="bgYellow py-5 bottomUp">
             <div class="container">
                   <div class="col-lg-12 text-center">
-                        <h1 class="service_heading_text" style="line-height: 58px;">Backend development Service<br> we offer</h1>
+                        <h2 class="service_heading_text sh1" style="line-height: 58px;">Backend development Service<br> we offer</h2>
                   </div>
                         <div class="row justify-content-center">
                               <div class="col-lg-5 col-12 mt-5">
@@ -335,7 +335,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="container" style="position: relative;bottom: 60px;">
             <div class="row justify-content-center">
               <div class="col-lg-12 col-12 text-center mt-3">
-                <h1 class="service_heading_text" style="line-height: 58px;">Advantage of getting Backend <br>Development service</h1>
+                <h2 class="service_heading_text sh1" style="line-height: 58px;">Advantage of getting Backend <br>Development service</h2>
               </div>
                   <div class="col-lg-4 col-12 mt-5">
                         <div class="card-with-icon text-center card-service-equal h-100  p-0">

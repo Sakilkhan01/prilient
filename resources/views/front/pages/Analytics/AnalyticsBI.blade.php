@@ -68,7 +68,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="rounded-circle-comm top-rounded-circle"></div>
       <div class="container">
       <div class="comman-service-heading text-center">
-             <h1 class="text-center fontWt40 text-white"><span class="fontWt50">Process</span> we <span class="fontWt50">follow</span></h1>
+             <h2 class="text-center fontWt40 text-white sh1"><span class="fontWt50">Process</span> we <span class="fontWt50">follow</span></h2>
              <p class="text-white">We follow a simple methodology to make sure the quality of Data Analytics and BI service. Read Below!</p>
       </div>  
       </div>
@@ -206,7 +206,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="bgYellow py-5 bottomUp">
             <div class="container">
                   <div class="col-lg-12 text-center">
-                        <h1 class="service_heading_text" style="line-height: 58px;">Services offered by us</h1>
+                        <h2 class="service_heading_text sh1" style="line-height: 58px;">Services offered by us</h2>
 <p>As a renowned IT service provider, we offer a variety of data analytics and BI services</p>
                   </div>
                         <div class="row justify-content-center">

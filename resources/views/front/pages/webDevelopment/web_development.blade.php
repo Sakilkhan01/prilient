@@ -68,7 +68,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="rounded-circle-comm top-rounded-circle"></div>
       <div class="container">
       <div class="comman-service-heading text-center">
-             <h1 class="text-center fontWt40 text-white">Our <span class="fontWt50">Web Development Process</span> and <span class="fontWt50">Methodology</span></h1>
+             <h2 class="text-center fontWt40 text-white sh1">Our <span class="fontWt50">Web Development Process</span> and <span class="fontWt50">Methodology</span></h2>
              <p class="text-white">Here at Prilient, we think you should know how your project is being managed and what it looks like as it progresses.</p>
       </div>  
       </div>
@@ -228,7 +228,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="bgYellow py-5 bottomUp">
             <div class="container">
                   <div class="col-lg-12 text-center">
-                        <h1 class="service_heading_text" style="line-height: 58px;">Our Web Development Services</h1>
+                        <h2 class="service_heading_text sh1" style="line-height: 58px;">Our Web Development Services</h2>
 <p>Our cycle depends on making custom solutions that are extraordinary to your requirements. By understanding these requirements, we can appropriately plan and foster a coordinated framework that will give a powerful stage to you.</p>
                   </div>
                         <div class="row justify-content-center">

@@ -80,7 +80,7 @@ border-radius: 36px 36px 0px 0px;
       <div class="bgYellow py-5 bottomUp" style="position:unset;">
             <div class="container">
                   <div class="col-lg-9 col-12 text-center">
-                        <h1 class="service_heading_text" style="line-height: 58px;">Our Cloud-based<br> Development Services</h1>
+                        <h2 class="service_heading_text sh1" style="line-height: 58px;">Our Cloud-based<br> Development Services</h2>
                         <p>Explore how your business can benefit from our cloud-based development services. Whether you’re looking for a web application or a mobile app, we can help.</p>
                   </div>
                         <div class="row justify-content-center">

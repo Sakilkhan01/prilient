@@ -30,7 +30,7 @@
       <div class="row">
       <div class="col-lg-7 col-12mt-5">
           <div class="comman-service-heading">
-             <h1>We Make Your <br><span class="textRed fontWt50">Dreams</span> <span class="textPrim fontWt50">Come True</span></h1>
+             <h2 class="sh1">We Make Your <br><span class="textRed fontWt50">Dreams</span> <span class="textPrim fontWt50">Come True</span></h2>
              <p>We have our own product design strategies to ensure that we are designing products that customers will adore. At the point when we start a project, every item needs a methodology before it goes into improvement. We really want to understand what it will do, how it will look and function, who will use it, and what its necessities are. When we comprehend these components, then, at that point, we can continue on and make ideas that tackle issues in astute ways.</p>
              <p>Our developers work as a group so they can guarantee nothing is overlooked or left out. We achieve both useful and appealing designs through this approach. Designing products should be tailored to our clients' needs. It doesn't matter whether you're working with us on one product or 100 products, we will always provide a fantastic experience</p>
           </div>
@@ -45,7 +45,7 @@
       <div class="rounded-circle-comm top-rounded-circle"></div>
       <div class="container">
       <div class="comman-service-heading text-center">
-             <h1 class="text-center fontWt40 text-white">How Do We Achieve <span class="fontWt50">Our Goal</span> ?</h1>
+             <h2 class="text-center fontWt40 text-white sh1">How Do We Achieve <span class="fontWt50">Our Goal</span> ?</h2>
              <p class="text-white">In order to make products that people love, we must focus on our customers and what they need. Focusing on your user will help you in terms of both design decisions and functional decisions.</p>
       </div>  
       </div>
@@ -191,7 +191,7 @@
       <div class="bgYellow py-5 bottomUp">
             <div class="container">
                   <div class="col-lg-12 text-center">
-                        <h1 class="service_heading_text">Our Areas of Specialization</h1>
+                        <h2 class="service_heading_text sh1">Our Areas of Specialization</h2>
                   </div>
                         <div class="row justify-content-center">
                               <div class="col-lg-4 col-12 mt-5">
