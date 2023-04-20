@@ -173,6 +173,10 @@ Route::view('/blockchain_development/smart-contracts-development', 'front.pages.
 Route::view('/blockchain_development/blockchain-wallet-development', 'front.pages.Blockchain.Wallet');
 Route::view('/blockchain_development/decentralized-development', 'front.pages.Blockchain.Decentralized');
 Route::view('/blockchain_development/Private/Public-development', 'front.pages.Blockchain.Private');
+Route::get('blockchain_development/private-development', function () {
+    return redirect('/blockchain_development/Private/Public-development');
+});
+
 Route::view('/blockchain_development/tokenization-development', 'front.pages.Blockchain.tokenization');
 Route::get('services/blockchain_development-tokenization_development', function () {
     return redirect('/blockchain_development/tokenization-development');
