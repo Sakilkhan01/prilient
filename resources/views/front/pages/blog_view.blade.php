@@ -19,6 +19,11 @@
     padding-left: 0rem !important;
     }
 }
+.breadcrumbs h1{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+}
 </style>
       <!-- ======= Breadcrumbs ======= -->
     <section class="breadcrumbs">
@@ -29,7 +34,7 @@
           <li><a href="{{url('blog')}}">Blog</a></li>
           <li>{{$blog->title}}</li>
         </ol>
-        <h2>{{$blog->title}}</h2>
+        <h1>{{$blog->title}}</h1>
 
       </div>
     </section><!-- End Breadcrumbs -->
