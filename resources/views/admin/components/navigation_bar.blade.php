@@ -12,12 +12,12 @@
         <ul class="nav navbar-nav">
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="{{ url('images/profile.jpg') }}" class="user-image" alt="User Image">
+              <img src="{{ url('public/images/profile.jpg') }}" class="user-image" alt="User Image">
               <span class="hidden-xs">{{ config('app.name') }}</span>
             </a>
             <ul class="dropdown-menu">
               <li class="user-header">
-                <img src="{{ url('images/profile.jpg') }}" class="img-circle" alt="User Image">
+                <img src="{{ url('public/images/profile.jpg') }}" class="img-circle" alt="User Image">
 
                 <p>
                   {{ config('app.name') }} - Admin

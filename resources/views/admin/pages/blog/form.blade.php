@@ -46,7 +46,7 @@
                 </div>                                                 
                 <div class="form-group {{ $errors->has('image') ? ' has-error' : '' }}">
                   <label>Image</label><strong class="error">*</strong><br>
-                  <img id="preview_img" src="{{ url('images/profile.png') }}" class="" width="200" height="150"/>
+                  <img id="preview_img" src="{{ url('public/images/profile.png') }}" class="" width="200" height="150"/>
                   <input type="file" name="image" id="image" onchange="loadPreviewImage(this);" class="form-control"accept="image/jpeg, image/png">
                 </div>   
                 <div class="form-group {{ $errors->has('status') ? ' has-error' : '' }}">
@@ -56,6 +56,10 @@
                     <option value="1" {{ old('status')==1 ? 'selected' : '' }}>Active</option>
                     <option value="0" {{ old('status')==0 ? 'selected' : '' }}>Deactive</option>
                   </select>
+                </div>
+                <div class="form-group {{ $errors->has('service_link') ? ' has-error' : '' }}">
+                  <label>Service link</label>
+                  <input type="text" class="form-control" placeholder="Service link" name="service_link" value="{{ old('service_link') }}">
                 </div>
                 <div class="form-group {{ $errors->has('short_description') ? ' has-error' : '' }}">
                   <label>Short Description</label><strong class="error">*</strong>

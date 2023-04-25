@@ -41,7 +41,7 @@
                     <tr>
                       <td>{{ $i++ }}</td>
                       <td>
-                        <img src="{{ url('upload/client/'.$row->logo) }}" style="border-radius: 50%;height: 80px;object-fit: cover;width:80px;background-size:cover;" class="img-fluid" alt="Product Image">
+                        <img src="{{ url('public/upload/client/'.$row->logo) }}" style="border-radius: 50%;height: 80px;object-fit: cover;width:80px;background-size:cover;" class="img-fluid" alt="Product Image">
                       </td>
                       <td>{{ $row->name }}</td>
                       <td>

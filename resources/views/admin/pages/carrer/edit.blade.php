@@ -31,9 +31,9 @@
                 <div class="form-group {{ $errors->has('image') ? ' has-error' : '' }}">
                   <label>Image</label><strong class="error">*</strong><br>
                   @if(!empty($client->logo))
-                  <img id="preview_img" src="{{ url('upload/client/'.$client->logo) }}" class="" width="200" height="150"/>
+                  <img id="preview_img" src="{{ url('public/upload/client/'.$client->logo) }}" class="" width="200" height="150"/>
                   @else
-                  <img id="preview_img" src="{{ url('images/profile.png') }}" class="" width="200" height="150"/>
+                  <img id="preview_img" src="{{ url('public/images/profile.png') }}" class="" width="200" height="150"/>
                   @endif
                   <input type="hidden" name="prelogo" value="{{ $client->logo }}" />
                   <input type="file" name="image" id="image" onchange="loadPreviewImage(this);" class="form-control"accept="image/jpeg, image/png">

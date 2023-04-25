@@ -3,7 +3,7 @@
 @section('content')
         <div class="login-logo">
             <a href="{{ url('login') }}">
-                <img src="{{ url('images/prilient.png') }}" class="img-fluid" width="200">
+                <img src="{{ url('public/images/prilient.png') }}" class="img-fluid" width="200">
             </a>
         </div>
        

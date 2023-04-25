@@ -24,6 +24,23 @@ class BlogController extends Controller
     } 
     public function store(Request $request)
     {
+        $rules = [
+                'description' => 'required',
+                'short_description' => 'required',
+                'status'      => 'required',
+                'image'       => 'image|mimes:jpeg,png,jpg|max:2048',
+                'meta_description' => 'required',
+                'meta_keywords'    => 'required',
+                'meta_title'       => 'required',
+                'date'        => 'required',
+                'title'       => 'required|unique:blog',
+            ];
+            $validator = Validator::make($request->all(),$rules);
+            if($validator->fails())
+            {
+                return redirect()->back()->withInput()->withErrors($validator->errors());
+            }
+
         $slug = Helper::slug($request);
         $date = Helper::date_format($request);
 
@@ -40,6 +57,7 @@ class BlogController extends Controller
         $blog->meta_description = $request->meta_description;
         $blog->image            = $profileImage;
         $blog->status           = $request->status;
+        $blog->service_link     = $request->service_link;
         $blog->description      = $request->description;
         $blog->short_description= $request->short_description;
         $blog->slug             = $slug;
@@ -117,6 +135,7 @@ class BlogController extends Controller
                 $blog->date        = $date;
                 $blog->image       = (!empty($profileImage)) ? $profileImage : $blog->image;
                 $blog->status      = $request->status;
+                $blog->service_link      = $request->service_link;
                 $blog->description = $request->description;
                 $blog->short_description= $request->short_description;
                 $blog->slug        = $slug;

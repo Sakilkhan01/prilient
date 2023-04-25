@@ -2,7 +2,7 @@
     <section class="sidebar">
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="{{ url('images/profile.jpg') }}" class="img-circle" alt="User Image">
+          <img src="{{ url('public/images/profile.jpg') }}" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Admin</p>

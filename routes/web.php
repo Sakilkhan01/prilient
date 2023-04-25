@@ -225,19 +225,19 @@ Route::view('portfolio', 'front.pages.portfolio');
 
 Route::group(['prefix' => 'admin', 'middleware' => ['admin','auth'], 'nampspace'=>'admin'], function(){
      
-    Route::get('dashboard', [App\Http\Controllers\admin\HomeController::class, 'index'])->name('admin.dashboard');
+    Route::get('dashboard', 'App\Http\Controllers\admin\HomeController@index')->name('admin.dashboard');
    
-    Route::get('blog', [App\Http\Controllers\admin\BlogController::class, 'index'])->name('list_blog');
-    Route::get('add-blog', [App\Http\Controllers\admin\BlogController::class, 'create'])->name('add_blog');
-    Route::post('blog', [App\Http\Controllers\admin\BlogController::class, 'store'])->name('save_blog');
-    Route::get('edit-blog/{slug}', [App\Http\Controllers\admin\BlogController::class, 'edit'])->name('edit_blog');
-    Route::post('update-blog', [App\Http\Controllers\admin\BlogController::class, 'update'])->name('update_blog');
-    Route::get('delete-blog/{id}', [App\Http\Controllers\admin\BlogController::class, 'delete'])->name('delete_blog'); 
-    Route::post('update-blog', [App\Http\Controllers\admin\BlogController::class, 'update'])->name('update_blog');
+    Route::get('blog', 'App\Http\Controllers\admin\BlogController@index')->name('list_blog');
+    Route::get('add-blog', 'App\Http\Controllers\admin\BlogController@create')->name('add_blog');
+    Route::post('blog', 'App\Http\Controllers\admin\BlogController@store')->name('save_blog');
+    Route::get('edit-blog/{slug}', 'App\Http\Controllers\admin\BlogController@edit')->name('edit_blog');
+    Route::post('update-blog', 'App\Http\Controllers\admin\BlogController@update')->name('update_blog');
+    Route::get('delete-blog/{id}', 'App\Http\Controllers\admin\BlogController@delete')->name('delete_blog'); 
+    Route::post('update-blog', 'App\Http\Controllers\admin\BlogController@update')->name('update_blog');
      
     Route::resource('career', CareerController::class);
-    Route::post('career/Carrerupdate/{id}', [CareerController::class, 'Carrerupdate'])->name('carrer.update');
-    Route::get('career/CarrerDelete/{id}', [CareerController::class, 'CarrerDelete'])->name('carrer.delete');
+    Route::post('career/Carrerupdate/{id}', 'CareerController@Carrerupdate')->name('carrer.update');
+    Route::get('career/CarrerDelete/{id}', 'CareerController@CarrerDelete')->name('carrer.delete');
 
     Route::get('job-post', [JobsContoller::class, 'index'])->name('job_post');
     Route::get('job-post/add', [JobsContoller::class, 'create'])->name('job_post_add');

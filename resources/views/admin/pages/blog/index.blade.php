@@ -42,7 +42,7 @@
                     <tr>
                       <td>{{ $i++ }}</td>
                       <td>
-                        <img src="{{ url('upload/blog/'.$row->image) }}" style="border-radius: 50%;height: 80px;object-fit: cover;width:80px;background-size:cover;" class="img-fluid" alt="Product Image">
+                        <img src="{{ url('public/upload/blog/'.$row->image) }}" style="border-radius: 50%;height: 80px;object-fit: cover;width:80px;background-size:cover;" class="img-fluid" alt="Product Image">
                       </td>
                       <td>{{ $row->title }}</td>
                       <td>{{ date("d-M-Y",strtotime($row->date)) }}</td>

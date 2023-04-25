@@ -4,24 +4,24 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>@yield('title') - {{ config('app.name') }}</title>
-  <link rel = "icon" href = "{{ url('frontent/images/favicon.png') }}" type = "image/x-icon"> 
+  <link rel = "icon" href = "{{ url('public/frontent/images/favicon.png') }}" type = "image/x-icon"> 
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link rel="stylesheet" href="{{ url('backend/bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
-  <link rel="stylesheet" href="{{ url('backend/bower_components/font-awesome/css/font-awesome.min.css') }}">
-  <link rel="stylesheet" href="{{ url('backend/bower_components/Ionicons/css/ionicons.min.css') }}">
-  <link rel="stylesheet" href="{{ url('backend/dist/css/AdminLTE.min.css') }}">
-  <link rel="stylesheet" href="{{ url('backend/dist/css/skins/_all-skins.min.css') }}">
-  <link rel="stylesheet" href="{{ url('backend/bower_components/morris.js/morris.css') }}">
-  <link rel="stylesheet" href="{{ url('backend/bower_components/jvectormap/jquery-jvectormap.css') }}">
-  <link rel="stylesheet" href="{{ url('backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}">
-  <link rel="stylesheet" type="text/css" href="{{ url('backend/bower_components/datetime/css/jquery.datetimepicker.min.css') }}"/ >
-  <link rel="stylesheet" href="{{ url('backend/bower_components/fullcalendar/dist/fullcalendar.min.css') }}">
-  <link rel="stylesheet" href="{{ url('backend/bower_components/fullcalendar/dist/fullcalendar.print.min.css') }}" media="print">
-  <link rel="stylesheet" type="text/css" href="{{ url('backend/zoom/php-jwt-master/src/BeforeValidException.php') }}">
-  <link rel="stylesheet" type="text/css" href="{{ url('backend/zoom/php-jwt-master/src/ExpiredException.php') }}">
-  <link rel="stylesheet" type="text/css" href="{{ url('backend/zoom/php-jwt-master/src/SignatureInvalidException.php') }}">
-  <link rel="stylesheet" type="text/css" href="{{ url('backend/zoom/php-jwt-master/src/JWT.php') }}"> 
-  <link rel="stylesheet" type="text/css" href="{{ url('backend/bower_components/time/jquery.timepicker.css') }}" />
+  <link rel="stylesheet" href="{{ url('public/backend/bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url('public/backend/bower_components/font-awesome/css/font-awesome.min.css') }}">
+  <link rel="stylesheet" href="{{ url('public/backend/bower_components/Ionicons/css/ionicons.min.css') }}">
+  <link rel="stylesheet" href="{{ url('public/backend/dist/css/AdminLTE.min.css') }}">
+  <link rel="stylesheet" href="{{ url('public/backend/dist/css/skins/_all-skins.min.css') }}">
+  <link rel="stylesheet" href="{{ url('public/backend/bower_components/morris.js/morris.css') }}">
+  <link rel="stylesheet" href="{{ url('public/backend/bower_components/jvectormap/jquery-jvectormap.css') }}">
+  <link rel="stylesheet" href="{{ url('public/backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url('public/backend/bower_components/datetime/css/jquery.datetimepicker.min.css') }}"/ >
+  <link rel="stylesheet" href="{{ url('public/backend/bower_components/fullcalendar/dist/fullcalendar.min.css') }}">
+  <link rel="stylesheet" href="{{ url('public/backend/bower_components/fullcalendar/dist/fullcalendar.print.min.css') }}" media="print">
+  <link rel="stylesheet" type="text/css" href="{{ url('public/backend/zoom/php-jwt-master/src/BeforeValidException.php') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url('public/backend/zoom/php-jwt-master/src/ExpiredException.php') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url('public/backend/zoom/php-jwt-master/src/SignatureInvalidException.php') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url('public/backend/zoom/php-jwt-master/src/JWT.php') }}"> 
+  <link rel="stylesheet" type="text/css" href="{{ url('public/backend/bower_components/time/jquery.timepicker.css') }}" />
   
   
   <!--<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"rel="Stylesheet"type="text/css"/>-->
@@ -68,9 +68,9 @@
 
 </div>
 
-  <script src="{{ url('backend/bower_components/jquery/dist/jquery.min.js') }}"></script>
-  <script src="{{ url('backend/bower_components/jquery-ui/jquery-ui.min.js') }}"></script>
-  <script src="{{ url('backend/bower_components/ckeditor/ckeditor.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/jquery/dist/jquery.min.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/jquery-ui/jquery-ui.min.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/ckeditor/ckeditor.js') }}"></script>
   <script>
     $.widget.bridge('uibutton', $.ui.button);
   </script>
@@ -126,26 +126,26 @@
       }
     }
   </script>
-  <script src="{{ url('backend/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
-  <script src="{{ url('backend/bower_components/morris.js/morris.min.js') }}"></script>
-  <script src="{{ url('backend/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js') }}"></script>
-  <script src="{{ url('backend/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js') }}"></script>
-  <script src="{{ url('backend/plugins/jvectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
-  <script src="{{ url('backend/bower_components/jquery-knob/dist/jquery.knob.min.js') }}"></script>
-  <script src="{{ url('backend/bower_components/moment/min/moment.min.js') }}"></script>
-  <script src="{{ url('backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js') }}"></script>
-  <script src="{{ url('backend/bower_components/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
-  <script src="{{ url('backend/bower_components/fastclick/lib/fastclick.js') }}"></script>
-  <script src="{{ url('backend/dist/js/adminlte.min.js') }}"></script>
-  <script src="{{ url('backend/dist/js/pages/dashboard.js') }}"></script>
-  <script src="{{ url('backend/dist/js/demo.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/morris.js/morris.min.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js') }}"></script>
+  <script src="{{ url('public/backend/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js') }}"></script>
+  <script src="{{ url('public/backend/plugins/jvectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/jquery-knob/dist/jquery.knob.min.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/moment/min/moment.min.js') }}"></script>
+  <script src="{{ url('public/backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/fastclick/lib/fastclick.js') }}"></script>
+  <script src="{{ url('public/backend/dist/js/adminlte.min.js') }}"></script>
+  <script src="{{ url('public/backend/dist/js/pages/dashboard.js') }}"></script>
+  <script src="{{ url('public/backend/dist/js/demo.js') }}"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-  <script src="{{ url('backend/bower_components/datetime/js/jquery.datetimepicker.js') }}"></script>
-  <script src="{{ url('backend/bower_components/time/jquery.timepicker.js') }}"></script>
-  <script src="{{ url('backend/bower_components/time/datepair.js') }}"></script>
-  <script src="{{ url('backend/bower_components/time/jquery.datepair.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/datetime/js/jquery.datetimepicker.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/time/jquery.timepicker.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/time/datepair.js') }}"></script>
+  <script src="{{ url('public/backend/bower_components/time/jquery.datepair.js') }}"></script>
   
   <script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
 </body>
