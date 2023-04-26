@@ -21,12 +21,19 @@ class CheckUrl {
             	return redirect('/');
 			}
 
+			// $ptText ='/app/i';
+			// if(preg_match($ptText, $url) == 1){
+			// 	return redirect()->intended('/')->with('ifWww', 'if have www in url then show.');
+			// }
+
+
+
 			$pattern2 = '/www./i';
 
 			if(preg_match($pattern2, $url) == 1){
             	$pattern3 = '/www./i';
 				$new_site_url = preg_replace($pattern3, '', $url);
-				return redirect()->intended($new_site_url);
+				return redirect()->intended($new_site_url)->with('ifWww', 'if have www in url then show.');
 			}
 
       		return $response;

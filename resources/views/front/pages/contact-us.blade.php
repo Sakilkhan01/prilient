@@ -46,7 +46,7 @@
             <div class="col-lg-4 col-12 mt-2 mt-lg-0">
                 <div class="form-group numberDrop">
                   <label for="InputName">Phone Number <span class="text-danger">*</span></label>
-                   <input type="tel" name="phone" class="form-control w-100" id="country-code" placeholder="Contact No" value="{{ old('phone') }}">
+                   <input type="tel" name="phone" class="form-control w-100" id="country-code" placeholder="Contact No" value="{{ old('phone') }}" maxlength="10">
                  </div>
             </div>
             <div class="col-lg-4 col-12 mt-2">
@@ -97,7 +97,7 @@
                      </div>
                      <div class="office-text">
                         <h4>New York (U.S.A.)</h4>
-                        <p>603 FA Forest Avenue, New York, USA 10021</p>
+                        <p>{{ADDRESS_USA}}</p>
                         <a href="javascript:void(0)" target="blank" class="btn-outline rount-btn"><i class="fa fa-map-marker"></i></a>
                         <a href="tel:7976026086" target="blank" class="btn-outline rount-btn"><i class="fa fa-phone"></i></a>
                         <a href="mailto:ankit@prilient.com" target="blank" class="btn-outline rount-btn"><i class="fa fa-envelope"></i></a>
@@ -112,7 +112,7 @@
                      </div>
                      <div class="office-text">
                         <h4>Jaipur (Rajasthan, India)</h4>
-                        <p>412-13, 4th Floor, Ever Shine Tower, Amrapali Circle, Vaishali Nagar Jaipur</p>
+                        <p>{{ADDRESS_INDIA}}</p>
                         <a href="javascript:void(0)" target="blank" class="btn-outline rount-btn"><i class="fa fa-map-marker"></i></a>
                         <a href="tel:7976026086" target="blank" class="btn-outline rount-btn"><i class="fa fa-phone"></i></a>
                         <a href="mailto:ankit@prilient.com" target="blank" class="btn-outline rount-btn"><i class="fa fa-envelope"></i></a>
