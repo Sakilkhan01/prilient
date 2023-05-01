@@ -15,7 +15,9 @@ use PDF;
 class ContactController extends Controller
 {
     public function index(){
-        return view('front.pages.contact-us');
+        $json = \File::get('public/json/country.json');
+        $country = json_decode($json);
+        return view('front.pages.contact-us', compact('country'));
     }
 
     public function store(Request $request)

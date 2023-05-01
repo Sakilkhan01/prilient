@@ -2,6 +2,7 @@
 @section('link')        
       <link rel="canonical" href="https://prilient.com/contact-us" />
       <link rel="canonical" href="https://www.prilient.com/contact-us" />
+      <script src="https://unpkg.com/libphonenumber-js@1.9.6/bundle/libphonenumber-max.js"></script>
 @stop
 @section('content') 
 {!! NoCaptcha::renderJs() !!}
@@ -46,7 +47,7 @@
             <div class="col-lg-4 col-12 mt-2 mt-lg-0">
                 <div class="form-group numberDrop">
                   <label for="InputName">Phone Number <span class="text-danger">*</span></label>
-                   <input type="tel" name="phone" class="form-control w-100" id="country-code" placeholder="Contact No" value="{{ old('phone') }}" maxlength="10">
+                   <input type="tel" name="phone" class="form-control w-100" id="number" placeholder="Contact No" value="{{ old('phone') }}" onkeyup="OnPressPhone()">
                  </div>
             </div>
             <div class="col-lg-4 col-12 mt-2">
@@ -127,8 +128,6 @@
    </div>
 </section>
      
-
-
 <style type="text/css">
    .numberDrop .iti{
       width: 100%;
@@ -162,8 +161,6 @@
          phone: {
             required: true,
             number:true,
-            minlength: 10,
-            maxlength: 10
          },
          business_email: {
             required: true,
@@ -218,5 +215,38 @@
          }
       })
    }
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+<script type="text/javascript">
+
+   CountryCode(<?php echo json_encode($country); ?>);
+   var input = document.querySelector("#number");
+
+   window.intlTelInput(input, {
+       initialCountry: "auto",
+       geoIpLookup: function(callback) {
+           $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+               const countryCode = (resp && resp.country) ? resp.country : "IN";
+               callback(countryCode);
+           });
+       }
+   });
+   function CountryCode(userObj){
+         userObj.forEach(myFunction);
+   }
+
+   function OnPressPhone(arg) {
+      let number = document.getElementById("number");
+      console.log(arg)
+   }
+
+   function myFunction(item, index) {
+     console.log("Country", item);  
+
+  }
+
 </script>
 @endsection

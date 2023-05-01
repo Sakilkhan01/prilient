@@ -251,7 +251,7 @@
                   <div class="common-heading text-l">
                      <span>Why Choose Us</span>
                      <h2 class="mb20">Why <span class="text-second text-bold">Prilient Technologies</span> Ranked Top Among The Leading Web & App Development Companies</h2>
-                     <p>Prillient is a well-established and best web development company that is eager to collaborate with you</p>
+                     <p>Prilient is a well-established and best web development company that is eager to collaborate with you</p>
                      <div class="itm-media-object mt40 tilt-3d">
                         <div class="media">
                            <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img  loading="lazy" src="{{ url('public/assets/images/icons/computers.svg') }}" alt="computers icon" class="layer"></div>
@@ -264,7 +264,7 @@
                            <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img  loading="lazy" src="{{ url('public/assets/images/icons/worker.svg') }}" alt="worker icon" class="layer"></div>
                            <div class="media-body">
                               <h4>Branding & Strategy</h4>
-                              <p>Prillient Technologies has expertise in web design, custom software development, web development, mobile app development, e-commerce website development, SEO, Social media optimization (SMO) & many more.</p>
+                              <p>Prilient Technologies has expertise in web design, custom software development, web development, mobile app development, e-commerce website development, SEO, Social media optimization (SMO) & many more.</p>
                            </div>
                         </div>
                         <div class="media mt40">
@@ -504,7 +504,7 @@
                   <div class="owl-carousel testimonial-card-a pl25">
                      <div class="testimonial-card">
                         <div class="t-text">
-                           <p>Working with Prillient has been a positive experience. They were able to respond to the project's quick requirements and changes by making themselves available for daily standups.</p>
+                           <p>Working with Prilient has been a positive experience. They were able to respond to the project's quick requirements and changes by making themselves available for daily standups.</p>
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
@@ -516,7 +516,7 @@
                      </div>
                      <div class="testimonial-card">
                         <div class="t-text">
-                           <p>Prillient has been a pleasure to work with and has consistently delivered on their promises. I hope to enroll myself with them in the coming future. It was a nice experience to share our work with this developer. It comes highly recommended. As usual, fantastic work. Fantastic Business Partners. It is the best software development company around.</p>
+                           <p>Prilient has been a pleasure to work with and has consistently delivered on their promises. I hope to enroll myself with them in the coming future. It was a nice experience to share our work with this developer. It comes highly recommended. As usual, fantastic work. Fantastic Business Partners. It is the best software development company around.</p>
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
@@ -552,7 +552,7 @@
                      </div>
                      <div class="testimonial-card">
                         <div class="t-text">
-                           <p>It's been a pleasure working with Prilient. They were really receptive to the adjustments. They thoroughly considered our needs and delivered on time and on budget! Working with Prillient was the greatest because they were available all through the project.</p>
+                           <p>It's been a pleasure working with Prilient. They were really receptive to the adjustments. They thoroughly considered our needs and delivered on time and on budget! Working with Prilient was the greatest because they were available all through the project.</p>
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
@@ -564,7 +564,7 @@
                      </div>
                     <div class="testimonial-card">
                         <div class="t-text">
-                           <p>Prillient Infotech was always reliable in terms of resolving problems in a timely manner &amp; can be called the topmost custom software development company in town. They have a lot of experienced engineers and developers, and Shalini is a great manager who always gets our requirements right. We will engage them again for future projects without a doubt.</p>
+                           <p>Prilient Infotech was always reliable in terms of resolving problems in a timely manner &amp; can be called the topmost custom software development company in town. They have a lot of experienced engineers and developers, and Shalini is a great manager who always gets our requirements right. We will engage them again for future projects without a doubt.</p>
                         </div>
                         <div class="client-thumbs mt30">
                            <div class="media v-center">
@@ -582,7 +582,7 @@
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Realestatefree</h5>
-                                 <span class="d-flex"><img loading="lazy" class="icon-flat" alt="United States" src="{{ asset('images/united-states.png') }}"> <small class="pl-2">United States</small></span>
+                                 <span class="d-flex"><img loading="lazy" class="icon-flat" alt="United States" src="{{ asset('public/images/united-states.png') }}"> <small class="pl-2">United States</small></span>
                               </div>
                            </div>
                         </div>
@@ -595,7 +595,7 @@
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Pracmanag</h5>
-                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="Switzerland" src="{{ asset('images/switzerland.png') }}"> <small class="pl-2">Switzerland</small></span>
+                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="Switzerland" src="{{ asset('public/images/switzerland.png') }}"> <small class="pl-2">Switzerland</small></span>
                               </div>
                            </div>
                         </div>
@@ -608,7 +608,7 @@
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Levimoroney</h5>
-                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="australia" src="{{ asset('images/australia.png') }}"> <small class="pl-2">Australia</small></span>
+                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="australia" src="{{ asset('public/images/australia.png') }}"> <small class="pl-2">Australia</small></span>
                               </div>
                            </div>
                         </div>
@@ -621,7 +621,7 @@
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Dublinweb</h5>
-                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="Ireland" src="{{ asset('images/ireland.png') }}"> <small class="pl-2">Ireland</small></span>
+                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="Ireland" src="{{ asset('public/images/ireland.png') }}"> <small class="pl-2">Ireland</small></span>
                               </div>
                            </div>
                         </div>
@@ -634,7 +634,7 @@
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Verdzercof</h5>
-                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="United States" src="{{ asset('images/united-states.png') }}"> <small class="pl-2">United States</small></span>
+                                 <span class="d-flex"><img  loading="lazy" class="icon-flat" alt="United States" src="{{ asset('public/images/united-states.png') }}"> <small class="pl-2">United States</small></span>
                               </div>
                            </div>
                         </div>

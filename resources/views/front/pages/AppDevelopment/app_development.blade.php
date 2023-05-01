@@ -2,10 +2,15 @@
 @section('title', "Mobile App devlopment services")
 @section('meta_keywords', "Mobile App devlopment services")
 @section('meta_description', "We provide a range of mobile application development services at Your Convenience including custom mobile development on iOS or Android platforms, building cross-platform apps")
-@section('link')        
-      <link rel="canonical" href="https://prilient.com/app_development" />
+
+@section('link')  
+  @if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/app_development" />
+  @else       
+      <link rel="canonical" href="https://prilient.com/app_development" />
+  @endif
 @stop
+
 @section('content') 
 <section class="hero-card-web-2 bg-service-banner" style="background-image: url({{ asset('public/assets/images/banner/bg-gray.png') }});">
       <div class="hero-main-rp container-fluid">

@@ -53,7 +53,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
        <div class="col-lg-5 col-12 text-center mt-5">
-            <!-- <img src="{{ asset('public/assets/services/Group143.svg') }}"> -->
+            <img alt="Cloud Business" src="{{ asset('public/assets/services/Group191.svg') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
@@ -199,7 +199,7 @@ border-radius: 36px 36px 0px 0px;
        <div class="container">
                               <div class="row">
                                     <div class="col-lg-5 col-12">
-                                          <!-- <img class="img-fluid" src="{{ asset('public/assets/services/ui-ux-icon_full.svg') }}"> -->
+                                          <img alt="Vision for Cloud Development Services" class="img-fluid" src="{{ asset('public/assets/services/Group192.svg') }}">
                                     </div>   
                                     <div class="col-lg-7 col-12">
                                           <h3 class="fontWt30">Vision for <span class="textRed fontWt70">Cloud Development Services</span></h3>

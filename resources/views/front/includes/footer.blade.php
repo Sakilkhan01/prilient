@@ -43,9 +43,7 @@
                         </li>
                         <li>
                            <span><i class="fa fa-map-marker"></i></span>
-                           <p>Address <span> 412-13, 4th Floor,
-                              Ever Shine Tower, Amrapali Circle,
-                              Vaishali Nagar Jaipur</span></p> 
+                           <p>Address <span> {{ADDRESS_INDIA}}</span></p> 
                         </li>
                      </ul>
                   </div>
