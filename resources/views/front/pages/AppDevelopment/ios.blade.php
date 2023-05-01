@@ -2,9 +2,13 @@
 @section('title', "iOS App Development")
 @section('meta_keywords', "iOS App Development")
 @section('meta_description', "Are you looking for iOS app development services? iOS app development services include the design, implementation, testing, and integration of apps for iPhones and iPads.")
-@section('link')   
-      <link rel="canonical" href="https://prilient.com/app_development/ios-development" />
+
+@section('link') 
+@if (Session::has('ifWww'))   
       <link rel="canonical" href="https://www.prilient.com/app_development/ios-development" />
+@else
+      <link rel="canonical" href="https://prilient.com/app_development/ios-development" />
+@endif
 @stop
 @section('content') 
 

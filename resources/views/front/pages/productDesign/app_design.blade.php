@@ -2,9 +2,12 @@
 @section('title', "App design services")
 @section('meta_keywords', "App design services")
 @section('meta_description', "We offer app design services to carve your design to help you develop creative and immersive app designs trends for your business vertical, end-user needs and best user")
-@section('link')   
-      <link rel="canonical" href="https://www.prilient.com/product-design/app-design" />
-      <link rel="canonical" href="https://prilient.com/product-design/app-design" />
+@section('link')
+  @if (Session::has('ifWww'))
+        <link rel="canonical" href="https://www.prilient.com/product-design/app-design" />
+  @else 
+        <link rel="canonical" href="https://prilient.com/product-design/app-design" />
+  @endif
 @stop
 @section('content') 
   <section class="breadcrumb-area banner-1" >

@@ -2,10 +2,16 @@
 @section('title', "DevOps Services")
 @section('meta_keywords', "DevOps Services")
 @section('meta_description', "DevOps services are a set of development and operation.DevOps solution helps to develop & deploy high-quality software products and Providing better resource management")
-@section('link')        
+
+@if (Session::has('ifWww'))
+   @section('link')
       <link rel="canonical" href="https://www.prilient.com/DevOps" />
+   @stop
+   @else
+   @section('link')        
       <link rel="canonical" href="https://prilient.com/DevOps" />
-@stop
+   @stop
+@endif
 @section('content')
 <style type="text/css">
 .fontWt30{

@@ -2,10 +2,17 @@
 @section('title', "Vue JS Development Service")
 @section('meta_keywords', "Vue JS Development Service")
 @section('meta_description', "Vue JS Development Service is a popular JavaScript technology that is used to create interactive user interfaces. VueJS is customizable, user-friendly offers a range of features")
-@section('link')        
+
+
+@if (Session::has('ifWww'))
+   @section('link')
       <link rel="canonical" href="https://www.prilient.com/frontend_development/vue-development" />
+   @stop
+   @else
+   @section('link')   
       <link rel="canonical" href="https://prilient.com/frontend_development/vue-development" />
-@stop
+   @stop
+@endif
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

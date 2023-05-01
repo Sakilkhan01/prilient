@@ -2,10 +2,15 @@
 @section('title', "Analytics and BI Service")
 @section('meta_keywords', "Analytics and BI Service")
 @section('meta_description', "Analytics and BI Service (ABI) is an umbrella term that includes the applications, infrastructure and tools, and best practices that enable access to and analysis of information")
-@section('link')        
-      <link rel="canonical" href="https://www.prilient.com/Analytics_and_BI" />
+
+@section('link') 
+@if (Session::has('ifWww'))
+      <link rel="canonical" href="https://www.prilient.com/Analytics_and_BI" />   
+@else       
       <link rel="canonical" href="https://prilient.com/Analytics_and_BI" />
+@endif
 @stop
+
 @section('content') 
 
 <style type="text/css">

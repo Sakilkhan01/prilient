@@ -2,10 +2,16 @@
 @section('title', "Symfony Development Services")
 @section('meta_keywords', "Symfony Development Services")
 @section('meta_description', "Symfony Development Services is a modern, enterprise-level web application framework that utilizes the latest technologies. Symfony is the ultimate solution for businesses")
-@section('link')        
+
+@if (Session::has('ifWww'))
+   @section('link')
       <link rel="canonical" href="https://www.prilient.com/backend_development/symfony-development" />
+   @stop
+   @else
+   @section('link')        
       <link rel="canonical" href="https://prilient.com/backend_development/symfony-development" />
-@stop
+   @stop
+@endif
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

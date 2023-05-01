@@ -3,10 +3,14 @@
 @section('meta_keywords', "Flutter App Development")
 @section('meta_description', "Flutter app development is the perfect choice for building an application from scratch or migrating your old business app for quick performance build a range of iOS and Android apps")
 
-@section('link')   
+@section('link') 
+@if (Session::has('ifWww'))       
       <link rel="canonical" href="https://www.prilient.com/app_development/flutter-development" />
+@else      
       <link rel="canonical" href="https://prilient.com/app_development/flutter-development" />
+@endif
 @stop
+
 @section('content') 
 <section class="breadcrumb-area banner-1">
     <div class="text-block">

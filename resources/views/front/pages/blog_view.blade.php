@@ -3,10 +3,17 @@
 @section('meta_keywords', $blog->meta_keywords)
 @section('meta_description', $blog->meta_description)
 
-@section('link') 
- <link rel="canonical" href="https://www.prilient.com/blog/{{$blog->slug}}" />
-      <link rel="canonical" href="https://prilient.com/blog/{{$blog->slug}}" />
-@stop
+@if (Session::has('ifWww'))
+   @section('link')        
+  <link rel="canonical" href="https://www.prilient.com/blog/{{$blog->slug}}" />
+   @stop
+   @else
+   @section('link')        
+  <link rel="canonical" href="https://prilient.com/blog/{{$blog->slug}}" />
+   @stop
+@endif
+
+
 @section('content')
 <link href="{{ url('public/frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
 <link href="{{ url('public/frontent/blog/bootstrap-icons/bootstrap-icons.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">

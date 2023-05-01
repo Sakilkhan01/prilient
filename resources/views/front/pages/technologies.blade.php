@@ -1,8 +1,14 @@
 @extends('front.layouts.app')
-@section('link')      
+
+@if (Session::has('ifWww'))
+   @section('link')
       <link rel="canonical" href="https://www.prilient.com/technologies" />
+   @stop
+   @else
+   @section('link')   
       <link rel="canonical" href="https://prilient.com/technologies" />
-@stop
+   @stop
+@endif
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

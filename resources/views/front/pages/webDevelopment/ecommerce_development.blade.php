@@ -2,10 +2,16 @@
 @section('title', "Ecommerce Development services")
 @section('meta_keywords', "Ecommerce Development Services")
 @section('meta_description', "Ecommerce development refers to the process of creating and maintaining an online store or marketplace.This can involve anything from building a simple website")
-@section('link')   
+
+@if (Session::has('ifWww'))
+   @section('link')
       <link rel="canonical" href="https://www.prilient.com/web_development/ecommerce-development" />
+   @stop
+   @else
+   @section('link')        
       <link rel="canonical" href="https://prilient.com/web_development/ecommerce-development" />
-@stop
+   @stop
+@endif
 @section('content') 
 <section class="breadcrumb-area banner-1">
     <div class="text-block">

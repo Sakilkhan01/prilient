@@ -2,10 +2,17 @@
 @section('title', "Functional Testing Service")
 @section('meta_keywords', "Functional Testing Service")
 @section('meta_description', "Functional testing is a form of testing and is a quality assurance process that helps to validate the system or components to ensure quality in each phase of product")
-@section('link')      
+
+@if (Session::has('ifWww'))
+   @section('link')        
       <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/functional-testing" />
+   @stop
+   @else
+   @section('link')        
       <link rel="canonical" href="https://prilient.com/Quality_Engineering/functional-testing" />
-@stop
+   @stop
+@endif
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->
