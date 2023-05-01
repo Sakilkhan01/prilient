@@ -3,15 +3,13 @@
 @section('meta_keywords', "Amazon cloud application development")
 @section('meta_description', "Amazon cloud application development is an approach to designing, and managing applications through cycles of rapid innovation. This approach increases the agility")
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
       <link rel="canonical" href="https://www.prilient.com/cloud_strategy/Amazon_cloud" />
-   @stop
    @else
-   @section('link')        
       <link rel="canonical" href="https://prilient.com/cloud_strategy/Amazon_cloud" />
-   @stop
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

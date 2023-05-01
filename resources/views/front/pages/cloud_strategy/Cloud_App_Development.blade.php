@@ -3,15 +3,13 @@
 @section('meta_keywords', "Cloud App Development")
 @section('meta_description', "Cloud app development is the process through which a Cloud based app is built. It involves different stages of software development, each of which prepares your app")
 
+@section('link') 
 @if (Session::has('ifWww'))
-   @section('link')
       <link rel="canonical" href="https://www.prilient.com/cloud_strategy/Cloud_App_Development" />
-   @stop
-   @else
-   @section('link')   
+   @else  
       <link rel="canonical" href="https://prilient.com/cloud_strategy/Cloud_App_Development" />
-   @stop
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

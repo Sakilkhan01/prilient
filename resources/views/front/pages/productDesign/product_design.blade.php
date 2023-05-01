@@ -3,15 +3,14 @@
 @section('meta_keywords', "product design")
 @section('meta_description', "The definition of product design describes the process of imagining, creating, products that solve users' problems or specific needs. Our product design services create experiences.")
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
-      <link rel="canonical" href="https://www.prilient.com/product-design" />
-   @stop
-   @else
-   @section('link')   
-      <link rel="canonical" href="https://prilient.com/product-design" />
-   @stop
+<link rel="canonical" href="https://www.prilient.com/product-design" />
+@else  
+<link rel="canonical" href="https://prilient.com/product-design" />
 @endif
+@stop
+
 @section('content') 
 <section class="hero-card-web-2 bg-service-banner">
       <div class="hero-main-rp container-fluid">

@@ -2,9 +2,13 @@
 @section('title', "SaaS Development")
 @section('meta_keywords', "SaaS Development")
 @section('meta_description', "SaaS development is the creation of cloud-based applications. It includes the creation of documentation, design, development, testing, and deployment on the server.")
-@section('link')        
-      <link rel="canonical" href="https://prilient.com/cloud_strategy/SaaS_Development" />
+
+@section('link')
+@if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/cloud_strategy/SaaS_Development" />
+   @else 
+      <link rel="canonical" href="https://prilient.com/cloud_strategy/SaaS_Development" />
+@endif
 @stop
 @section('content') 
   <!-- content start -->

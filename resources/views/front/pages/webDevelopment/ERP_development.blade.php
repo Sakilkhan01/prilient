@@ -4,15 +4,14 @@
 @section('meta_description', "Enterprise resource planning (ERP) Development services refers to a type of software that organizations use to manage business activities such as accounting, procurement, project management")
 
 
+@section('link')   
 @if (Session::has('ifWww'))
-   @section('link')
-      <link rel="canonical" href="https://www.prilient.com/web_development/ERP-development" />
-   @stop
-   @else
-   @section('link')   
-      <link rel="canonical" href="https://prilient.com/web_development/ERP-development" />
-   @stop
+  <link rel="canonical" href="https://www.prilient.com/web_development/ERP-development" />
+@else
+  <link rel="canonical" href="https://prilient.com/web_development/ERP-development" />
 @endif
+@stop
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

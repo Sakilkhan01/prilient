@@ -3,8 +3,11 @@
 @section('meta_keywords', "Private Blockchain Development Service")
 @section('meta_description', "Private Blockchain Development Service is a peer-to-peer network, made centralized by connecting all the nodes to a center point that manages the whole platform.")
 @section('link')   
+@if (Session::has('ifWww'))     
       <link rel="canonical" href="https://www.prilient.com/blockchain_development/Private/Public-development" />
+   @else       
       <link rel="canonical" href="https://prilient.com/blockchain_development/Private/Public-development" />
+@endif
 @stop
 @section('content') 
   <!-- content start -->

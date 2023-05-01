@@ -3,15 +3,13 @@
 @section('meta_keywords', "Decentralized Apps (dApps) Development Service")
 @section('meta_description', "Decentralized Apps (dApps) Development Service are open-source applications that are used to interact with smart contracts that run on a peer-to-peer network of servers.")
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
       <link rel="canonical" href="https://www.prilient.com/blockchain_development/decentralized-development" />
-   @stop
    @else
-   @section('link')   
       <link rel="canonical" href="https://prilient.com/blockchain_development/decentralized-development" />
-   @stop
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

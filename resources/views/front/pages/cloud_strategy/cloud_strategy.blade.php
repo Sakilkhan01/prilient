@@ -2,9 +2,13 @@
 @section('title', "Cloud Strategy & Development Services")
 @section('meta_keywords', "Cloud Strategy & Development Services")
 @section('meta_description', "Cloud Strategy & Development Services provides enhanced flexibility in the process of creating applications or computing solutions that can be operated web-based platforms.")
-@section('link')        
-      <link rel="canonical" href="https://prilient.com/cloud_strategy" />
+
+@section('link')
+@if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/cloud_strategy" />
+   @else
+      <link rel="canonical" href="https://prilient.com/cloud_strategy" />
+@endif
 @stop
 @section('content') 
 

@@ -3,9 +3,13 @@
 @section('meta_keywords', "Quality Engineering Service")
 @section('meta_description', "Our Quality Engineering Service is the discipline of engineering concerned with the principles and practice of product and service quality assurance and control.")
 
-@section('link')      
-      <link rel="canonical" href="https://prilient.com/Quality_Engineering" />
+
+@section('link')  
+@if (Session::has('ifWww')) 
       <link rel="canonical" href="https://www.prilient.com/Quality_Engineering" />
+@else      
+      <link rel="canonical" href="https://prilient.com/Quality_Engineering" />
+@endif
 @stop
 @section('content') 
 <style type="text/css">

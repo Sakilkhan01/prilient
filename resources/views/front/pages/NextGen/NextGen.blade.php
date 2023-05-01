@@ -3,9 +3,13 @@
 @section('meta_keywords', "next-gen technology Service")
 @section('meta_description', "next-gen Technology Service is a business technology consulting, IT solutions and IT Services company. Transform and Accelerate your business with next-gen technology")
 
-@section('link') 
-      <link rel="canonical" href="https://prilient.com/NextGen" />
+
+@section('link')
+@if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/NextGen" />
+@else
+      <link rel="canonical" href="https://prilient.com/NextGen" />
+@endif
 @stop
 @section('content') 
 <style type="text/css">

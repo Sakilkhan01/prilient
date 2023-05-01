@@ -2,9 +2,13 @@
 @section('title', "Enterprise Applications")
 @section('meta_keywords', "Enterprise Applications")
 @section('meta_description', "Enterprise applications are designed to integrate computer systems that run all phases of an enterprise's operations to facilitate cooperation and coordination")
+
 @section('link')   
-      <link rel="canonical" href="https://prilient.com/web_development/enterprise-development" />
+@if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/web_development/enterprise-development" />
+@else     
+      <link rel="canonical" href="https://prilient.com/web_development/enterprise-development" />
+@endif
 @stop
 @section('content') 
   <section class="breadcrumb-area banner-1">

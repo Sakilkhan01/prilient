@@ -3,15 +3,13 @@
 @section('meta_keywords', "ERP Testing Service")
 @section('meta_description', "ERP Application Testing Services has been trending for the past 20 years. The process of confirming the functionality of your ERP software solution during implementation")
 
-@if (Session::has('ifWww'))
-   @section('link')        
-      <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/ERP-testing" />
-   @stop
-   @else
-   @section('link')        
-      <link rel="canonical" href="https://prilient.com/Quality_Engineering/ERP-testing" />
-   @stop
+@section('link') 
+@if (Session::has('ifWww'))       
+  <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/ERP-testing" />
+@else       
+  <link rel="canonical" href="https://prilient.com/Quality_Engineering/ERP-testing" />
 @endif
+@stop
 
 @section('content') 
   <!-- content start -->

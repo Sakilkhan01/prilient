@@ -2,9 +2,13 @@
 @section('title', "Tokenization Development Service")
 @section('meta_keywords', "Tokenization Development Service")
 @section('meta_description', "Tokenization Development Service involves a set of sequential steps to build and design the crypto tokens in various blockchain networks for optimal use of the participants")
-@section('link') 
-      <link rel="canonical" href="https://prilient.com/blockchain_development/tokenization-development" />
+
+@section('link')  
+  @if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/blockchain_development/tokenization-development" />
+  @else          
+      <link rel="canonical" href="https://prilient.com/blockchain_development/tokenization-development" />
+  @endif
 @stop
 @section('content') 
   <!-- content start -->

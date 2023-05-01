@@ -3,15 +3,13 @@
 @section('meta_keywords', "Cloud Security")
 @section('meta_description', "Cloud security, also known as cloud computing is a collection of procedures and technology designed to address external and internal threats to business security.")
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
      <link rel="canonical" href="https://www.prilient.com/cloud_strategy/Cloud_Security" />
-   @stop
    @else
-   @section('link')   
       <link rel="canonical" href="https://prilient.com/cloud_strategy/Cloud_Security" />
-   @stop
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

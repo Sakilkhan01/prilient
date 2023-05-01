@@ -3,15 +3,13 @@
 @section('meta_keywords', "Blockchain wallets Development services")
 @section('meta_description', "blockchain that supports a native cryptocurrency. Usually requires extensive technical training to develop coding skills and understanding of Blockchain wallets Development")
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
       <link rel="canonical" href="https://www.prilient.com/blockchain_development/blockchain-wallet-development" />
-   @stop
-   @else
-   @section('link')   
+   @else  
       <link rel="canonical" href="https://prilient.com/blockchain_development/blockchain-wallet-development" />
-   @stop
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

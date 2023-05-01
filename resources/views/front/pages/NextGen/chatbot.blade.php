@@ -3,15 +3,13 @@
 @section('meta_keywords', "Chatbot Service")
 @section('meta_description', "Chatbot Service powered either by a script or by artificial intelligence, which can simulate a conversation or chat with a user, through websites, mobile apps,or by phone.")
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
-      <link rel="canonical" href="https://www.prilient.com/NextGen/chatbot-dvelopment" />
-   @stop
-   @else
-   @section('link')        
-      <link rel="canonical" href="https://prilient.com/NextGen/chatbot-dvelopment" />
-   @stop
+  <link rel="canonical" href="https://www.prilient.com/NextGen/chatbot-dvelopment" />
+@else       
+  <link rel="canonical" href="https://prilient.com/NextGen/chatbot-dvelopment" />
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

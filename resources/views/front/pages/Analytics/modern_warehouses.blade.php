@@ -2,9 +2,13 @@
 @section('title', "Modern Data Warehouses Service")
 @section('meta_keywords', "Modern Data Warehouses Service")
 @section('meta_description', "A Modern Data Warehouse services is a cloud-based solution that gathers and stores that information. Organizations can process this data to make intelligent decisions.")
-@section('link') 
-      <link rel="canonical" href="https://prilient.com/Analytics_and_BI/modern-data-warehouses" />
+
+@section('link')
+  @if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/Analytics_and_BI/modern-data-warehouses" />
+  @else 
+      <link rel="canonical" href="https://prilient.com/Analytics_and_BI/modern-data-warehouses" />
+  @endif
 @stop
 @section('content') 
   <!-- content start -->

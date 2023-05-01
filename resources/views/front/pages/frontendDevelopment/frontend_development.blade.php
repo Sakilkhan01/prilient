@@ -2,9 +2,13 @@
 @section('title', "front-end development services")
 @section('meta_keywords', "front-end development services")
 @section('meta_description', "front-end development services is the process of building components that interact with users. Examples are the user interface, buttons, user-entered data, websites.")
+
 @section('link')   
-      <link rel="canonical" href="https://prilient.com/frontend_development" />
+@if (Session::has('ifWww'))  
       <link rel="canonical" href="https://www.prilient.com/frontend_development" />
+   @else       
+      <link rel="canonical" href="https://prilient.com/frontend_development" />
+@endif
 @stop
 @section('content') 
 <style type="text/css">

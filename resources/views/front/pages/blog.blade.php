@@ -1,9 +1,14 @@
 @extends('front.layouts.app')
-@section('title',__('Blog'))
-@section('link') 
-        <link rel="canonical" href="https://prilient.com/blog" />
-      <link rel="canonical" href="https://www.prilient.com/blog" />
+@section('title',__('Blog | Prilient Technologies'))
+
+@section('link')
+@if (Session::has('ifWww'))
+    <link rel="canonical" href="https://www.prilient.com/blog" />
+@else
+    <link rel="canonical" href="https://prilient.com/blog" />
+@endif
 @stop
+
 @section('content')
 <link href="{{ url('public/frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
 <link href="{{ url('public/frontent/blog/bootstrap-icons/bootstrap-icons.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">

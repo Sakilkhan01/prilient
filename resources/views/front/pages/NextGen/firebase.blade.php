@@ -4,15 +4,13 @@
 @section('meta_description', "Firebase services is an application development software that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking analytics")
 
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
-      <link rel="canonical" href="https://www.prilient.com/NextGen/firebase" />
-   @stop
-   @else
-   @section('link')   
-      <link rel="canonical" href="https://prilient.com/NextGen/firebase" />
-   @stop
+  <link rel="canonical" href="https://www.prilient.com/NextGen/firebase" />
+@else
+  <link rel="canonical" href="https://prilient.com/NextGen/firebase" />
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

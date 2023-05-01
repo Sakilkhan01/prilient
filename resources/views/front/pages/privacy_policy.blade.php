@@ -1,7 +1,12 @@
 @extends('front.layouts.app')
-@section('link') 
-      <link rel="canonical" href="https://prilient.com/privacy_policy" />
+@section('title', "Privacy Policy | Prilient Technologies ")
+
+@section('link')
+@if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/privacy_policy" />
+@else  
+      <link rel="canonical" href="https://prilient.com/privacy_policy" />
+@endif
 @stop
 @section('content') 
   <!-- content start -->

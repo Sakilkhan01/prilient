@@ -2,9 +2,13 @@
 @section('title', "PHP Development Services")
 @section('meta_keywords', "PHP Development Services")
 @section('meta_description', "PHP development is aimed at implementing secure and powerful server-sides of all types of web applications. This makes us the first choice for PHP development services.")
-@section('link')   
-      <link rel="canonical" href="https://prilient.com/backend_development/php-development" />
+
+@section('link')
+  @if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/backend_development/php-development" />
+  @else 
+      <link rel="canonical" href="https://prilient.com/backend_development/php-development" />
+  @endif
 @stop
 @section('content') 
   <!-- content start -->

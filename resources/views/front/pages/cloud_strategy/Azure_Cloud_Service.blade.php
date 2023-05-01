@@ -2,9 +2,13 @@
 @section('title', "Azure Cloud Service")
 @section('meta_keywords', "Azure Cloud Service")
 @section('meta_description', "Azure Cloud Service is a cloud computing platform and an online portal that allows you to access and manage Azure cloud services and resources provided by Microsoft.")
-@section('link')        
-      <link rel="canonical" href="https://prilient.com/cloud_strategy/Azure_Cloud_Service" />
+
+@section('link')
+@if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/cloud_strategy/Azure_Cloud_Service" />
+   @else
+      <link rel="canonical" href="https://prilient.com/cloud_strategy/Azure_Cloud_Service" />
+@endif
 @stop
 @section('content') 
   <!-- content start -->

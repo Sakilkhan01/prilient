@@ -3,15 +3,13 @@
 @section('meta_keywords', "Blockchain development")
 @section('meta_description', "Blockchain development is the process of creating shared, unchangeable, distributed ledger technology (DLT) that securely records transactions and tracks assets")
 
+@section('link')  
 @if (Session::has('ifWww'))
-   @section('link')
       <link rel="canonical" href="https://www.prilient.com/blockchain_development" />
-   @stop
-   @else
-   @section('link')        
+   @else      
       <link rel="canonical" href="https://prilient.com/blockchain_development" />
-   @stop
 @endif
+@stop
 @section('content') 
 
 <style type="text/css">

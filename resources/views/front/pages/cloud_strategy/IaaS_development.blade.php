@@ -4,15 +4,13 @@
 @section('meta_description', "IaaS Development, also known as cloud infrastructure services, is a form of cloud computing in which IT infrastructure is provided to end users through the internet.")
 
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
       <link rel="canonical" href="https://www.prilient.com/cloud_strategy/IaaS_Development" />
-   @stop
-   @else
-   @section('link')        
+   @else       
       <link rel="canonical" href="https://prilient.com/cloud_strategy/IaaS_Development" />
-   @stop
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

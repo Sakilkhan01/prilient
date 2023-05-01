@@ -1,4 +1,5 @@
 @extends('front.layouts.app')
+@section('title', "About Us | Prilient Technologies ")
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

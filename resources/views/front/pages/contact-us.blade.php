@@ -1,9 +1,16 @@
 @extends('front.layouts.app')
-@section('link')        
-      <link rel="canonical" href="https://prilient.com/contact-us" />
+@section('title', "Contact Us | Prilient Technologies ")
+
+@section('link')  
+@if (Session::has('ifWww'))      
       <link rel="canonical" href="https://www.prilient.com/contact-us" />
-      <script src="https://unpkg.com/libphonenumber-js@1.9.6/bundle/libphonenumber-max.js"></script>
+@else
+      <link rel="canonical" href="https://prilient.com/contact-us" />
+@endif
+   <script src="https://unpkg.com/libphonenumber-js@1.9.6/bundle/libphonenumber-max.js"></script>
 @stop
+
+
 @section('content') 
 {!! NoCaptcha::renderJs() !!}
 

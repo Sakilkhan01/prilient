@@ -3,15 +3,14 @@
 @section('meta_keywords', "Security Testing Service")
 @section('meta_description', "Security testing services are needed to detect, analyze, and help remediate flaws in software, IT infrastructure, IT policies and procedures to prevent security")
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
-      <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/security-testing" />
-   @stop
-   @else
-   @section('link')   
-      <link rel="canonical" href="https://prilient.com/Quality_Engineering/security-testing" />
-   @stop
+  <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/security-testing" />
+@else
+  <link rel="canonical" href="https://prilient.com/Quality_Engineering/security-testing" />
 @endif
+@stop
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

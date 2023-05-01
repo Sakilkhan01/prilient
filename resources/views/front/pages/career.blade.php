@@ -1,9 +1,14 @@
 @extends('front.layouts.app')
+@section('title', "Career | Prilient Technologies ")
 @section('meta_keywords', "Career")
 @section('meta_description', "Career")
-@section('link')        
-      <link rel="canonical" href="https://prilient.com/career" />
+
+@section('link')  
+@if (Session::has('ifWww'))      
       <link rel="canonical" href="https://www.prilient.com/career" />
+@else
+      <link rel="canonical" href="https://prilient.com/career" />
+@endif
 @stop
 @section('content') 
 <section class="breadcrumb-area banner-1" data-background="{{ url('public/assets/images/banner/9.jpg') }}">

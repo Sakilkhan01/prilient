@@ -1,7 +1,11 @@
 @extends('front.layouts.app')
-@section('link')   
+
+@section('link')  
+@if (Session::has('ifWww'))      
       <link rel="canonical" href="https://www.prilient.com/dedicated-developer" />
+@else
       <link rel="canonical" href="https://prilient.com/dedicated-developer" />
+@endif
 @stop
 @section('content') 
 {!! NoCaptcha::renderJs() !!}

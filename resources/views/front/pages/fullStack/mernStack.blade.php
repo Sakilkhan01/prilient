@@ -3,16 +3,13 @@
 @section('meta_keywords', "MERN Stack Development Services")
 @section('meta_description', "MERN stack is a collection of technologies that enables faster application development. The main purpose of using MERN stack is to develop apps using JavaScript only.")
 
-
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
-      <link rel="canonical" href="https://www.prilient.com/fullStack_development/MERN-stack-development" />
-   @stop
-   @else
-   @section('link')   
-      <link rel="canonical" href="https://prilient.com/fullStack_development/MERN-stack-development" />
-   @stop
+  <link rel="canonical" href="https://www.prilient.com/fullStack_development/MERN-stack-development" />
+@else
+  <link rel="canonical" href="https://prilient.com/fullStack_development/MERN-stack-development" />
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

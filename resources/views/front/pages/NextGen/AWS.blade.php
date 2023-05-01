@@ -3,15 +3,14 @@
 @section('meta_keywords', "AWS Amplify & AWS Lamda Service")
 @section('meta_description', "AWS Amplify & AWS Lamda Service is a set of purpose-built tools and features that enables frontend web and mobile developers to quickly and easily build full-stack applications")
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
-      <link rel="canonical" href="https://www.prilient.com/NextGen/AWS-ampify-&-AWS-lamda" />
-   @stop
-   @else
-   @section('link')   
-      <link rel="canonical" href="https://prilient.com/NextGen/AWS-ampify-&-AWS-lamda" />
-   @stop
+  <link rel="canonical" href="https://www.prilient.com/NextGen/AWS-ampify-&-AWS-lamda" />
+@else 
+  <link rel="canonical" href="https://prilient.com/NextGen/AWS-ampify-&-AWS-lamda" />
 @endif
+@stop
+
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

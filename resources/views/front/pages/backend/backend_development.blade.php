@@ -2,9 +2,13 @@
 @section('title', "Back-end development")
 @section('meta_keywords', "Back-end development")
 @section('meta_description', "Back-end development means working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs")
-@section('link') 
-      <link rel="canonical" href="https://prilient.com/backend_development" />
+
+@section('link')
+  @if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/backend_development" />
+  @else 
+      <link rel="canonical" href="https://prilient.com/backend_development" />
+  @endif
 @stop
 @section('content')
 <style type="text/css">

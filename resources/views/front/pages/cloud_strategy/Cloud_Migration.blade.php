@@ -2,9 +2,13 @@
 @section('title', "Cloud Migration")
 @section('meta_keywords', "Cloud Migration")
 @section('meta_description', "Cloud migration is the process of moving a company's digital assets, services, databases, IT resources, and applications either partially, or wholly, into the cloud.")
-@section('link')        
-      <link rel="canonical" href="https://prilient.com/cloud_strategy/Cloud_Migration" />
+
+@section('link') 
+@if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/cloud_strategy/Cloud_Migration" />
+   @else  
+      <link rel="canonical" href="https://prilient.com/cloud_strategy/Cloud_Migration" />
+@endif
 @stop
 @section('content') 
   <!-- content start -->

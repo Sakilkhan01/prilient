@@ -3,15 +3,13 @@
 @section('meta_keywords', "AI & ML Development Service")
 @section('meta_description', "We provide AI & ML Development Service, such as data collection and annotation, model development, MLOps, security, IT-support, and analytics & monitoring services.")
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
-      <link rel="canonical" href="https://www.prilient.com/NextGen/AI-&-ML-development" />
-   @stop
-   @else
-   @section('link')        
-      <link rel="canonical" href="https://prilient.com/NextGen/AI-&-ML-development" />
-   @stop
+  <link rel="canonical" href="https://www.prilient.com/NextGen/AI-&-ML-development" />
+@else      
+  <link rel="canonical" href="https://prilient.com/NextGen/AI-&-ML-development" />
 @endif
+@stop
 
 @section('content') 
   <!-- content start -->

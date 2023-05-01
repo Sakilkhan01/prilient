@@ -4,15 +4,13 @@
 @section('meta_description', "Usability Testing refers to evaluating a product or service by testing it with representative users.This type of testing includes testing User Interfaces & User Experience.")
 
 
+@section('link')
 @if (Session::has('ifWww'))
-   @section('link')
-      <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/usability-testing" />
-   @stop
-   @else
-   @section('link')   
-      <link rel="canonical" href="https://prilient.com/Quality_Engineering/usability-testing" />
-   @stop
+  <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/usability-testing" />
+@else   
+  <link rel="canonical" href="https://prilient.com/Quality_Engineering/usability-testing" />
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

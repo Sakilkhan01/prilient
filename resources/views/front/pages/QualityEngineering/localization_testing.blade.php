@@ -2,9 +2,13 @@
 @section('title', "Localization Testing Service")
 @section('meta_keywords', "Localization Testing Service")
 @section('meta_description', "Our localization testing services help you impress users around the world. Testing services combine a l community of skilled testers with a test management platform.")
-@section('link')        
-      <link rel="canonical" href="https://prilient.com/Quality_Engineering/localization-testing" />
+
+@section('link')  
+@if (Session::has('ifWww'))    
       <link rel="canonical" href="https://www.prilient.com/Quality_Engineering/localization-testing" />
+@else      
+      <link rel="canonical" href="https://prilient.com/Quality_Engineering/localization-testing" />
+@endif
 @stop
 @section('content') 
   <!-- content start -->

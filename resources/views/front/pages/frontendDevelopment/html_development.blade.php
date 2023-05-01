@@ -2,9 +2,13 @@
 @section('title', "HTML 5 Development Service")
 @section('meta_keywords', "HTML 5 Development Service")
 @section('meta_description', "HTML 5 Development Service is a revision of the Hypertext Markup Language (HTML), the standard programming language for describing the content appearance of Web pages.")
-@section('link')      
-      <link rel="canonical" href="https://prilient.com/frontend_development/html-development" />
+
+@section('link')   
+@if (Session::has('ifWww'))  
       <link rel="canonical" href="https://www.prilient.com/frontend_development/html-development" />
+   @else       
+      <link rel="canonical" href="https://prilient.com/frontend_development/html-development" />
+@endif
 @stop
 @section('content') 
   <!-- content start -->

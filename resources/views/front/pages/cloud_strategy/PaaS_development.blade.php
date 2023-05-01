@@ -3,15 +3,13 @@
 @section('meta_keywords', "PaaS Development")
 @section('meta_description', "Platform as a service (PaaS) development is a complete development and deployment environment in the cloud, with resources that enable you to deliver everything")
 
-@if (Session::has('ifWww'))
    @section('link')
+@if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/cloud_strategy/PaaS_Development" />
-   @stop
-   @else
-   @section('link')   
+   @else 
       <link rel="canonical" href="https://prilient.com/cloud_strategy/PaaS_Development" />
-   @stop
 @endif
+@stop
 @section('content') 
   <!-- content start -->
   <!--Breadcrumb Area-->

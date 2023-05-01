@@ -3,9 +3,14 @@
 @section('meta_keywords', "Cyber Security Services")
 @section('meta_description', "We offer a cloud-native cyber security services platform.Cyber security services are specialized engagements designed to manage and mitigate the risk and impact of cyberattacks.")
 
-@section('link')        
-      <link rel="canonical" href="https://prilient.com/cyber_security" />
+
+
+@section('link')  
+@if (Session::has('ifWww'))      
       <link rel="canonical" href="https://www.prilient.com/cyber_security" />
+@else
+      <link rel="canonical" href="https://prilient.com/cyber_security" />
+@endif
 @stop
 @section('content')
 <style type="text/css">

@@ -2,9 +2,13 @@
 @section('title', "NodeJS Development Services")
 @section('meta_keywords', "NodeJS Development Services")
 @section('meta_description', "NodeJS Development is the leading server environment to develop agile and scalable network applications, Android, and iOS, development of software that can efficiently operate")
-@section('link')      
-      <link rel="canonical" href="https://prilient.com/backend_development/node-development" />
+
+@section('link')
+  @if (Session::has('ifWww'))
       <link rel="canonical" href="https://www.prilient.com/backend_development/node-development" />
+  @else 
+      <link rel="canonical" href="https://prilient.com/backend_development/node-development" />
+  @endif
 @stop
 @section('content') 
   <!-- content start -->

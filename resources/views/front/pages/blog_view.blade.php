@@ -3,15 +3,13 @@
 @section('meta_keywords', $blog->meta_keywords)
 @section('meta_description', $blog->meta_description)
 
-@if (Session::has('ifWww'))
-   @section('link')        
+@section('link')  
+@if (Session::has('ifWww'))      
   <link rel="canonical" href="https://www.prilient.com/blog/{{$blog->slug}}" />
-   @stop
-   @else
-   @section('link')        
+@else
   <link rel="canonical" href="https://prilient.com/blog/{{$blog->slug}}" />
-   @stop
 @endif
+@stop
 
 
 @section('content')
