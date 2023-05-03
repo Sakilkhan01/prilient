@@ -38,7 +38,7 @@
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
-             <img alt="Design Your Business Websitein The Most Appealing Way" src="{{ asset('public/assets/services/DesignYourBusinessWebsiteinTheMostAppealingWay.png') }}">
+             <h2>DESIGN YOUR<br> <span class="textRed fontWt50 sh1">Business Website</span> <span class=" fontWt50">In <br>The <span class="textPrim fontWt50 sh1">Most Appealing</span> Way</span></h2>
              <p>We have our own product design strategies to ensure that we are designing products that customers will adore. At the point when we start a project, every item needs a methodology before it goes into improvement. We really want to understand what it will do, how it will look and function, who will use it, and what its necessities are. When we comprehend these components, then, at that point, we can continue on and make ideas that tackle issues in astute ways.</p>
              <p>Our developers work as a group so they can guarantee nothing is overlooked or left out. We achieve both useful and appealing designs through this approach. Designing products should be tailored to our clients' needs. It doesn't matter whether you're working with us on one product or 100 products, we will always provide a fantastic experience</p>
           </div>
