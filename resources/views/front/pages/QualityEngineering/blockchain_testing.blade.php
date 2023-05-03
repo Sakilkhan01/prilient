@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Blockchain Testing Service")
 @section('meta_keywords', "Blockchain Testing Service")
-@section('meta_description', "Blockchain Testing Service is the systematic evaluation of the blockchain's various functional components. Blockchain technology is an advanced database mechanism")
+@section('meta_description', "Blockchain Testing Service is the systematic evaluation of the blockchain various functional components. Blockchain technology is an advanced database mechanism")
 
 
 @section('link')

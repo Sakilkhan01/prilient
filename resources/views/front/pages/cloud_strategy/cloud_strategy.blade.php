@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Cloud Strategy & Development Services")
 @section('meta_keywords', "Cloud Strategy & Development Services")
-@section('meta_description', "Cloud Strategy & Development Services provides enhanced flexibility in the process of creating applications or computing solutions that can be operated web-based platforms.")
+@section('meta_description', "Cloud Strategy & Development Services provide flexibility in the process of creating applications or computing solution that can be operate web-based platforms.")
 
 @section('link')
 @if (Session::has('ifWww'))

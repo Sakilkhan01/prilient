@@ -1,12 +1,14 @@
 @extends('front.layouts.app')
 @section('title', "Analytics and BI Service")
 @section('meta_keywords', "Analytics and BI Service")
-@section('meta_description', "Analytics and BI Service (ABI) is an umbrella term that includes the applications, infrastructure and tools, and best practices that enable access to and analysis of information")
+
 
 @section('link') 
 @if (Session::has('ifWww'))
+@section('meta_description', "Analytics and BI Service is an term that includes the applications,infrastructure and tools and best practices that enable access to and analysis of information")
       <link rel="canonical" href="https://www.prilient.com/Analytics_and_BI" />   
 @else       
+@section('meta_description', "Analytics and BI Service (ABI) is an umbrella term that includes the applications, infrastructure and tools, and best practices that enable access to and analysis of information")
       <link rel="canonical" href="https://prilient.com/Analytics_and_BI" />
 @endif
 @stop

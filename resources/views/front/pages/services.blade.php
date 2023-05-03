@@ -1,5 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Services | Prilient Technologies ")
+@section('meta_keywords', "Services")
+@section('meta_description', "We are an Indian company that keeps moving forward by specialising in the creation of unique IT solutions for desktop, mobile, online, server management, DevOps")
 
 @section('link')
 @if (Session::has('ifWww'))

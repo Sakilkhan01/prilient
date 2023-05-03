@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "AI & ML Development Service")
 @section('meta_keywords', "AI & ML Development Service")
-@section('meta_description', "We provide AI & ML Development Service, such as data collection and annotation, model development, MLOps, security, IT-support, and analytics & monitoring services.")
+@section('meta_description', "We provide AI & ML Development Service such as data collection and annotation model development, MLOps, security, IT-support and analytics & monitoring services")
 
 @section('link')
 @if (Session::has('ifWww'))

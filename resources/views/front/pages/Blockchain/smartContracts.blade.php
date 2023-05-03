@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Smart contracts Development Service")
 @section('meta_keywords', "Smart contracts Development Service")
-@section('meta_description', "Smart Contract Development allows you to replace contracts by binding them in executable code. With expertise in contract development tools and programming languages")
+@section('meta_description', "Smart Contract Development allows you to replace contracts by binding them in executable code. expertise in contract development tools and programming languages")
 
 @section('link')  
   @if (Session::has('ifWww'))

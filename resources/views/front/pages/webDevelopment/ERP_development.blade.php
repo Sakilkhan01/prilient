@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "ERP Development services")
 @section('meta_keywords', "ERP Development services")
-@section('meta_description', "Enterprise resource planning (ERP) Development services refers to a type of software that organizations use to manage business activities such as accounting, procurement, project management")
+@section('meta_description', "Enterprise resource planning (ERP) Development service is a type of software that organization use to manage such as accounting, procurement, project management")
 
 
 @section('link')   

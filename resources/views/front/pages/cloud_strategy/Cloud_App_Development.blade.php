@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Cloud App Development")
 @section('meta_keywords', "Cloud App Development")
-@section('meta_description', "Cloud app development is the process through which a Cloud based app is built. It involves different stages of software development, each of which prepares your app")
+@section('meta_description', "Cloud app development is the process through which a Cloud based app built. It involves different stages of software development,each of which prepares your app")
 
 @section('link') 
 @if (Session::has('ifWww'))

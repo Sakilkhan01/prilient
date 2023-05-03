@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Java Development Services")
 @section('meta_keywords', "Java Development Services")
-@section('meta_description', "Java development services cover implementation of enterprise apps, software products, and SaaS solutions using secure, portable, and scalable Java Developed frameworks.")
+@section('meta_description', "Java development services cover implementation enterprise apps, software products, and SaaS solutions using secure, portable, scalable Java Developed frameworks")
 
 @section('link')
 @if (Session::has('ifWww'))

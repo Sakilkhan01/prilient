@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Functional Testing Service")
 @section('meta_keywords', "Functional Testing Service")
-@section('meta_description', "Functional testing is a form of testing and is a quality assurance process that helps to validate the system or components to ensure quality in each phase of product")
+@section('meta_description', "Functional testing is a form of testing is a quality assurance process that helps to validate the system or component to ensure quality in each phase of product")
 
 @section('link')  
 @if (Session::has('ifWww'))

@@ -10,7 +10,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h1>About Prilient Technologies</h1>
+                <h1>About Us</h1>
               </div>
             </div>
           </div>

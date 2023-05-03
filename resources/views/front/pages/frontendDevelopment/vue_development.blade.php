@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Vue JS Development Service")
 @section('meta_keywords', "Vue JS Development Service")
-@section('meta_description', "Vue JS Development Service is a popular JavaScript technology that is used to create interactive user interfaces. VueJS is customizable, user-friendly offers a range of features")
+@section('meta_description', "Vue JS Development Service is a popular JavaScript technology that is create interactive user interface. VueJS is customizable, user-friendly  range of features")
 
    @section('link')  
 @if (Session::has('ifWww'))

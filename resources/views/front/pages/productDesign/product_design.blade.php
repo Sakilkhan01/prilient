@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Product design services")
 @section('meta_keywords', "product design")
-@section('meta_description', "The definition of product design describes the process of imagining, creating, products that solve users' problems or specific needs. Our product design services create experiences.")
+@section('meta_description', "The product design describes the process of imagining, creating, products solve user’s problems specific needs. Our product design services create experiences. ")
 
 @section('link')
 @if (Session::has('ifWww'))

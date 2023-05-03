@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "AWS Amplify & AWS Lamda Service")
 @section('meta_keywords', "AWS Amplify & AWS Lamda Service")
-@section('meta_description', "AWS Amplify & AWS Lamda Service is a set of purpose-built tools and features that enables frontend web and mobile developers to quickly and easily build full-stack applications")
+@section('meta_description', "AWS Amplify &  AWS Lamda Service is a set of built tools and features that enables frontend web and mobile developers to quickly  build full-stack applications.")
 
 @section('link')
 @if (Session::has('ifWww'))

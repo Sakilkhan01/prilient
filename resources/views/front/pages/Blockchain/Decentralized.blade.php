@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Decentralized Apps (dApps) Development Service")
 @section('meta_keywords', "Decentralized Apps (dApps) Development Service")
-@section('meta_description', "Decentralized Apps (dApps) Development Service are open-source applications that are used to interact with smart contracts that run on a peer-to-peer network of servers.")
+@section('meta_description', "Decentralized Apps (dApps) Development Service are open-source application that are used to interact smart contracts that run on peer-to-peer network of servers")
 
 @section('link')
 @if (Session::has('ifWww'))

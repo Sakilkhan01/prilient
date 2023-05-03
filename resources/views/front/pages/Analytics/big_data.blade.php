@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Big Data Service")
 @section('meta_keywords', "Big Data Service")
-@section('meta_description', "Big data service is the data platforms and tools by a cloud provider to help organizations process, manage and analyze the data sets so they can generate insights")
+@section('meta_description', "Big data service is the data platforms and tools a cloud provider to help organizations process, manage and analyse the data sets so they can generate insights.")
 
 
 @section('link')

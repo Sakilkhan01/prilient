@@ -1,5 +1,6 @@
 @extends('front.layouts.app')
 @section('title', "Privacy Policy | Prilient Technologies ")
+@section('meta_description', "We are a company with roots in India that focuses on creating unique IT solutions for desktop, mobile, web, server management, DevOps, security & game creation.")
 
 @section('link')
 @if (Session::has('ifWww'))

@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "React JS Development Service")
 @section('meta_keywords', "React JS Development Service")
-@section('meta_description', "React JS Development Service is an open-source, cross-platform JavaScript-based library which helps developers for building user interfaces for developing responsive web")
+@section('meta_description', "React JS Services is an open-source, cross-platform, JavaScript-based library which helps developers for building user interfaces for developing responsive web.")
 
 @section('link')   
 @if (Session::has('ifWww'))  

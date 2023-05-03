@@ -1,16 +1,18 @@
 @extends('front.layouts.app')
 @section('title', "Technologies | Prilient Technologies")
+@section('meta_keywords', "Technologies")
+
 @section('link') 
 @if (Session::has('ifWww'))
+@section('meta_description', "We are a company established in India that is dedicated to creating specialised IT solutions for mobile, web, desktop, server management, DevOps, Cyber security")
   <link rel="canonical" href="https://www.prilient.com/technologies" />
 @else  
+@section('meta_description', "We are an India-based firm that continues to move forward by specialising in the development of custom IT solutions for mobile, web, desktop,DevOps & Security.")
   <link rel="canonical" href="https://prilient.com/technologies" />
 @endif
 @stop
 
 @section('content') 
-  <!-- content start -->
-  <!--Breadcrumb Area-->
   <section class="breadcrumb-area banner-1" data-background="{{ url('assets/images/banner/9.jpg') }}">
     <div class="text-block">
       <div class="container">
@@ -18,7 +20,7 @@
           <div class="col-lg-12 v-center">
             <div class="bread-inner">
               <div class="bread-title">
-                <h1>Our Technoligies</h1>
+                <h1>Our Technologies</h1>
               </div>
             </div>
           </div>
@@ -903,10 +905,7 @@
  
 
   <!-- content end -->
-  
-@endsection
-
-<style type="text/css">
+  <style type="text/css">
 	.card_technology{
 		width: auto;
 		max-height: 100px;
@@ -925,4 +924,7 @@
 		text-align: center;
 		padding: 10px;
 	}
+	
 </style>
+@endsection
+

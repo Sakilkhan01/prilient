@@ -155,6 +155,9 @@
    .bg-graylight{
       background-color: #f8f8f8;
    }
+   #number-error{
+      position: absolute;
+   }
   
 </style>
 <script>

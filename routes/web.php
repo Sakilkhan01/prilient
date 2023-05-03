@@ -251,7 +251,6 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin','auth'], 'nampspace'
     Route::get('contact-us/pdf/{id}', [ContactController::class, 'showPDF'])->name('pdfStream');
 
 
-
     // Route::get('header-footer', [App\Http\Controllers\admin\HeaderFooterController::class, 'create'])->name('header-footer');
     // Route::post('update-header-footer', [App\Http\Controllers\admin\HeaderFooterController::class, 'store'])->name('update-header-footer');
     // Route::get('site-seo', [App\Http\Controllers\admin\SiteSeoController::class, 'index'])->name('site-seo');

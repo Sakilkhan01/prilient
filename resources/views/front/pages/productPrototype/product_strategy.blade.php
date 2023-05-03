@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Product Strategy and Prototype Service")
 @section('meta_keywords', "Product Strategy and Prototype Service")
-@section('meta_description', "Product Strategy and Prototype Service is essentially the roadmap a product team will use to make sure they work on products that add real value to users and have products.")
+@section('meta_description', "Product Strategy and Prototype Service is the roadmap a product team will use to make sure they work on products that add real value to users and have products.")
 
 @section('link')
 @if (Session::has('ifWww'))

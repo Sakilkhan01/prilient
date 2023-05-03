@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Data Visualization Service")
 @section('meta_keywords', "Data Visualization Service")
-@section('meta_description', "Data visualization is the graphical representation of information and data. By using Data visual elements like charts, graphs, and maps, data visualization tools.")
+@section('meta_description', "Data visualization is the graphical representation of information and data. By using Data visual elements like charts, graphs, and maps,data visualization tools")
 
 @section('link')
   @if (Session::has('ifWww'))

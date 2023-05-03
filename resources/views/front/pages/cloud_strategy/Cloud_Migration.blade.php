@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Cloud Migration")
 @section('meta_keywords', "Cloud Migration")
-@section('meta_description', "Cloud migration is the process of moving a company's digital assets, services, databases, IT resources, and applications either partially, or wholly, into the cloud.")
+@section('meta_description', "Cloud migration is the process of moving a company's digital assets, services, databases, IT resources, applications either partially, or wholly, into the cloud")
 
 @section('link') 
 @if (Session::has('ifWww'))

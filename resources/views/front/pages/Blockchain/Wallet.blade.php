@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Blockchain wallets Development services")
 @section('meta_keywords', "Blockchain wallets Development services")
-@section('meta_description', "blockchain that supports a native cryptocurrency. Usually requires extensive technical training to develop coding skills and understanding of Blockchain wallets Development")
+@section('meta_description', "blockchain that support a native cryptocurrency.Usually require extensive technical training to develop coding skill and understanding of Blockchain Development")
 
 @section('link')
 @if (Session::has('ifWww'))

@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Tokenization Development Service")
 @section('meta_keywords', "Tokenization Development Service")
-@section('meta_description', "Tokenization Development Service involves a set of sequential steps to build and design the crypto tokens in various blockchain networks for optimal use of the participants")
+@section('meta_description', "Tokenization Development Service involves sequential steps to build and design the crypto token in various blockchain network for optimal use of the participant")
 
 @section('link')  
   @if (Session::has('ifWww'))

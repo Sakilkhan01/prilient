@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Android App Development")
 @section('meta_keywords', "Android App Development")
-@section('meta_description', "An Android app development service can help turn your great idea into a reality. By working with our experienced and professional Android app development on all supported Android")
+@section('meta_description', "Android app development service can help turn your great idea into a reality. our experienced and professional Android app development on all supported Android.")
 
 
 @section('link')

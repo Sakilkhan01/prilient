@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "MVP & Prototype")
 @section('meta_keywords', "MVP & Prototype")
-@section('meta_description', "The meaning of MVP is Minimum Viable Product. It's the bare minimum version of a product that has enough functionality and features that still solves the problem for your customers.")
+@section('meta_description', "The meaning of MVP  Minimum Viable Product. Minimum version of a product that has enough functionality and features that still solves problem for your customers")
 
 @section('link')
 @if (Session::has('ifWww'))

@@ -1,6 +1,9 @@
 @extends('front.layouts.app')
+
+
 @section('link')  
-@if (Session::has('ifWww'))      
+@if (Session::has('ifWww'))
+@section('meta_description', "We are Indian firm that continues to move forward in the development of IT solutions for mobile,web,desktop,Server Management,DevOps,Security,Game Development.")      
       <link rel="canonical" href="https://www.prilient.com/" />
 @else       
       <link rel="canonical" href="https://prilient.com/" />
