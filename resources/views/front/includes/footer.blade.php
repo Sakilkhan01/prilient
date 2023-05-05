@@ -50,12 +50,12 @@
                   <div class="col-lg-2 col-sm-6 text-center text-lg-left">
                      <h5>Our Services</h5>
                      <ul class="footer-address-list link-hover">
-                        <li><a href="{{url('/Analytics_and_BI/big-data')}}">Big Data </a></li>
-                        <li><a href="{{url('/Analytics_and_BI/modern-data-warehouses')}}">Modern Data Warehouse</a></li>
-                        <li><a href="{{ url('/NextGen/AI-&-ML-development') }}">AI & ML Development</a></li>
+                        <li><a href="{{ url('Analytics_and_BI/big-data')}}">Big Data </a></li>
+                        <li><a href="{{ url('Analytics_and_BI/modern-data-warehouses')}}">Modern Data Warehouse</a></li>
+                        <li><a href="{{ url('NextGen/AI-&-ML-development') }}">AI & ML Development</a></li>
                         <li><a href="{{ url('blockchain_development/NFT-development') }}">NFT</a></li> 
-                        <li><a href="{{ url('/DevOps') }}">Devops</a></li>
-                        <li><a href="{{ url('/cyber_security') }}">Cyber Security</a></li>
+                        <li><a href="{{ url('DevOps') }}">Devops</a></li>
+                        <li><a href="{{ url('cyber_security') }}">Cyber Security</a></li>
                         <li><a href="{{ url('web_development') }}">Web Development</a></li>
                         <li><a href="{{ url('software_development') }}">Software Development</a></li>
                      </ul>
@@ -64,11 +64,11 @@
                      <h5>Useful Links</h5>
                      <ul class="footer-address-list link-hover">
                         <li><a href="{{ url('/') }}">Home</a></li>
-                        <li><a href="{{ url('/about-us') }}">About Us</a></li>
-                        <li><a href="{{ url('/service') }}">Services</a></li>
+                        <li><a href="{{ url('about-us') }}">About Us</a></li>
+                        <li><a href="{{ url('service') }}">Services</a></li>
                         <li><a href="{{ route('blog') }}">Blog</a></li>
                         <li><a href="{{ url('privacy_policy') }}">Privacy Policy</a></li>
-                        <li><a href="{{ url('/career') }}">Career</a></li>
+                        <li><a href="{{ url('career') }}">Career</a></li>
                      </ul>
                   </div>
                   
