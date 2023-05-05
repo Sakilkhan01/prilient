@@ -218,9 +218,7 @@ Route::view('portfolio', 'front.pages.portfolio');
 
 });
 
-
-
-
+ 
 
 
 Route::group(['prefix' => 'admin', 'middleware' => ['admin','auth'], 'nampspace'=>'admin'], function(){
@@ -235,9 +233,10 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin','auth'], 'nampspace'
     Route::get('delete-blog/{id}', 'App\Http\Controllers\admin\BlogController@delete')->name('delete_blog'); 
     Route::post('update-blog', 'App\Http\Controllers\admin\BlogController@update')->name('update_blog');
      
-    Route::resource('career', CareerController::class);
-    Route::post('career/Carrerupdate/{id}', 'CareerController@Carrerupdate')->name('carrer.update');
-    Route::get('career/CarrerDelete/{id}', 'CareerController@CarrerDelete')->name('carrer.delete');
+    Route::resource('career', 'App\Http\Controllers\admin\CareerController');
+
+    Route::post('career/Carrerupdate/{id}', [CareerController::class, 'Carrerupdate'])->name('carrer.update');
+    Route::get('career/CarrerDelete/{id}', [CareerController::class, 'CarrerDelete'])->name('carrer.delete');
 
     Route::get('job-post', [JobsContoller::class, 'index'])->name('job_post');
     Route::get('job-post/add', [JobsContoller::class, 'create'])->name('job_post_add');

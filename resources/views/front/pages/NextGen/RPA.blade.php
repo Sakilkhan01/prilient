@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "RPA Development Service")
 @section('meta_keywords', "RPA Development Service")
-@section('meta_description', "RPA services is a software technology that makes it easy to build, deploy, and manage software robots  that emulate human actions interacting with digital systems and software.")
+@section('meta_description', "RPA services is a software technology that makes it easy to build, deploy, & manage software robots that emulate human actions interacting with digital systems")
 
 @section('link')
 @if (Session::has('ifWww'))

@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Firebase Service")
 @section('meta_keywords', "Firebase Service")
-@section('meta_description', "Firebase services is an application development software that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking analytics")
+@section('meta_description', "Firebase services is an application development software that enables developers to develop iOS, Android and Web apps. It provides tools for tracking analytics.")
 
 
 @section('link')

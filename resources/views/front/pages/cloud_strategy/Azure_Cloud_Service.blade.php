@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Azure Cloud Service")
 @section('meta_keywords', "Azure Cloud Service")
-@section('meta_description', "Azure Cloud Service is a cloud computing platform and an online portal that allows you to access and manage Azure cloud services and resources provided by Microsoft.")
+@section('meta_description', "Azure Cloud Service is a cloud computing platform and an online portal that allows you to access and manage Azure services and resources provided by Microsoft.")
 
 @section('link')
 @if (Session::has('ifWww'))

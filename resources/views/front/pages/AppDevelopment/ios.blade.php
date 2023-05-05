@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "iOS App Development")
 @section('meta_keywords', "iOS App Development")
-@section('meta_description', "Are you looking for iOS app development services? iOS app development services include the design, implementation, testing, and integration of apps for iPhones and iPads.")
+@section('meta_description', "Are you looking for iOS app development services? development services include the design, implementation, testing, & integration of apps for iPhones and iPads.")
 
 @section('link') 
 @if (Session::has('ifWww'))   

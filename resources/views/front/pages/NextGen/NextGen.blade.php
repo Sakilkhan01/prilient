@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "next-gen technology Service")
 @section('meta_keywords', "next-gen technology Service")
-@section('meta_description', "next-gen Technology Service is a business technology consulting, IT solutions and IT Services company. Transform and Accelerate your business with next-gen technology")
+@section('meta_description', "next-gen Technology Service is a business technology consulting, IT solutions and IT Services. Transform and Accelerate your business with next-gen technology")
 
 
 @section('link')

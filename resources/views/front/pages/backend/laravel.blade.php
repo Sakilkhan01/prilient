@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Laravel Development Services")
 @section('meta_keywords', "Laravel Development Services")
-@section('meta_description', "With a Laravel development company, you can benefit from lower operational and Laravel development service costs, on-time project delivery, cutting-edge technology.")
+@section('meta_description', "With a Laravel development company, you can benefit from lower operational and development service costs, on-time project delivery and cutting-edge technology.")
 
 @section('link')
   @if (Session::has('ifWww'))

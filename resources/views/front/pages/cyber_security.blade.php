@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Cyber Security Services")
 @section('meta_keywords', "Cyber Security Services")
-@section('meta_description', "We offer a cloud-native cyber security services platform.Cyber security services are specialized engagements designed to manage and mitigate the risk and impact of cyberattacks.")
+@section('meta_description', "We provide a platform for cloud-native cyber security services. Services are specialized engagements designed to manage and mitigate the risk and cyberattacks.")
 
 
 

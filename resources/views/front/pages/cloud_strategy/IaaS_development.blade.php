@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "IaaS Development")
 @section('meta_keywords', "IaaS Development")
-@section('meta_description', "IaaS Development, also known as cloud infrastructure services, is a form of cloud computing in which IT infrastructure is provided to end users through the internet.")
+@section('meta_description', "IaaS Development, also known as cloud infrastructure services, is a form of cloud computing in which IT infrastructure is provided to users through the internet")
 
 
 @section('link')

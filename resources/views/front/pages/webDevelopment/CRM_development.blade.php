@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "CRM Development services")
 @section('meta_keywords', "CRM Development services")
-@section('meta_description', "The developed CRM Development services offers an intuitive and fast way to create and manage websites, intranets, ecommerce and mobile solutions for public and private enterprises.")
+@section('meta_description', "CRM Development services offers an intuitive and fast way to create & manage websites, intranets, ecommerce, mobile solutions for public and private enterprises.")
 
 @section('link')
 @if (Session::has('ifWww'))

@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Modern Data Warehouses Service")
 @section('meta_keywords', "Modern Data Warehouses Service")
-@section('meta_description', "A Modern Data Warehouse services is a cloud-based solution that gathers and stores that information. Organizations can process this data to make intelligent decisions.")
+@section('meta_description', "A Modern Data Warehouse services is a cloud-based solution that gathers & stores that information. Organizations can process data to make intelligent decisions.")
 
 @section('link')
   @if (Session::has('ifWww'))

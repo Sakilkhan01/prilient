@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', ".NET Development Services")
 @section('meta_keywords', ".NET Development Services")
-@section('meta_description', ".NET Development Services involve design, development and deployment of high-performing web and mobile apps using Microsoft. .NET Framework is part of the .NET platform.")
+@section('meta_description', "High-performance web and mobile apps are designed, and deployed utilising Microsoft's .NET Development Services. The.NET platform includes the.NET Framework.")
 
 @section('link')
   @if (Session::has('ifWww'))

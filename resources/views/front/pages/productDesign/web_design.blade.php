@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Web design services")
 @section('meta_keywords', "Web design services")
-@section('meta_description', "A web design service provides you with a customized website included the design, programming, and development of a website that's perfect for business or personal website")
+@section('meta_description', "A web design service provides you with a customized website including the design, programming, and development of a website for business and personal websites.")
 
 @section('link')
 @if (Session::has('ifWww'))

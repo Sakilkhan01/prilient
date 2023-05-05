@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "Chatbot Service")
 @section('meta_keywords', "Chatbot Service")
-@section('meta_description', "Chatbot Service powered either by a script or by artificial intelligence, which can simulate a conversation or chat with a user, through websites, mobile apps,or by phone.")
+@section('meta_description', "Chatbot Service powered either by a script or by artificial intelligence, which can simulate a conversation or chat with a user, through websites, mobile apps.")
 
 @section('link')
 @if (Session::has('ifWww'))

@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "MERN Stack Development Services")
 @section('meta_keywords', "MERN Stack Development Services")
-@section('meta_description', "MERN stack is a collection of technologies that enables faster application development. The main purpose of using MERN stack is to develop apps using JavaScript only.")
+@section('meta_description', "MERN stack is a collection of technologies that enables faster application development. The main purpose of using it is to develop apps using JavaScript only.")
 
 @section('link')
 @if (Session::has('ifWww'))
