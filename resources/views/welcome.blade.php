@@ -290,7 +290,7 @@
             </div>
          </div>
       </section>
-      <section class="clients-section- bg-gradient15 pad-tb">
+      <!-- <section class="clients-section- bg-gradient15 pad-tb">
          <div class="container">
             <div class="row justify-content-center">
                <div class="col-lg-8">
@@ -398,7 +398,7 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> -->
       <section class="work-category pad-tb">
          <div class="container">
             <div class="row">

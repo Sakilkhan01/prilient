@@ -104,7 +104,7 @@
       <script src="{{ url('public/assets/js/jquery.min.js') }}"></script>
       <script src="{{ url('public/assets/js/bootstrap.bundle.min.js') }}"></script> 
       <script src="{{ url('public/assets/js/plugin.min.js') }}"></script>
-      <script src="{{ url('public/assets/js/preloader.js') }}"></script>
+      <!-- <script src="{{ url('public/assets/js/preloader.js') }}"></script> -->
       <script src="{{ url('public/assets/js/dark-mode.js') }}"></script>
       <script src="{{ url('public/assets/js/main.js') }}" defer></script>      
       <script src="{{ url('public/assets/js/progress-bar.js') }}"></script>  

@@ -74,12 +74,12 @@
  </div>
  <div id="progress-bar"></div>
 
- <div class="onloadpage" id="page_loader">
+<!--  <div class="onloadpage" id="page_loader">
      <div class="pre-content">
          <div class="logo-pre"><img  loading="lazy" src="{{ url('public/assets/images/logo.png') }}" alt="Logo" class="img-fluid" /></div>
          <div class="pre-text- text-radius text-light text-animation bg-b">Welcome to Prilient Technologies</div>
      </div>
- </div>
+ </div> -->
  <header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
      <div class="container-fluid m-pad">
          <div class="menu-header">
