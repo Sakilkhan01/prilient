@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /public/
+Disallow: /index.php/
+Disallow: /services/
 
 Sitemap: https://prilient.com/sitemap.xml
