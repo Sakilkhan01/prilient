@@ -46,6 +46,11 @@
                            <p>Address <span> {{ADDRESS_INDIA}}</span></p> 
                         </li>
                      </ul>
+                     <h5 class="my-0">Find us on</h5>
+                     <a href="{{FACEBOOK}}" target="blank" class="fa_cst fa fa_facebook fa-facebook mt-2"></a>
+                     <a href="{{TWITTER}}" target="blank" class="fa_cst fa fa_twitter fa-twitter mt-2"></a>
+                     <a href="{{LINKEDIN}}" target="blank" class="fa_cst fa fa_linkedin fa-linkedin mt-2"></a>
+                     <a href="{{INSTAGRAM}}" target="blank" class="fa_cst fa fa_instagram fa-instagram mt-2"></a>
                   </div>
                   <div class="col-lg-2 col-sm-6 text-center text-lg-left">
                      <h5>Our Services</h5>
@@ -248,8 +253,46 @@
          .error{
 color: #FF0000; 
 }
+
     
     </style>
+    <style>
+.fa_cst {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa_cst:hover {
+    opacity: 0.7;
+}
+
+.fa_facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa_twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa_linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa_instagram {
+  background: #125688;
+  color: white;
+}
+
+</style>
     <a href="https://api.whatsapp.com/send?phone=7976026086&text=Hello" class="float whatsapp_icon" target="_blank">
 <i class="fa fa-whatsapp my-float my-whatsapp_icon"></i>
 </a>

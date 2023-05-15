@@ -62,12 +62,10 @@
          <div class="contact-data mt30">
              <h4>Follow Us On:</h4>
              <div class="social-media-linkz mt10">
-                 <a href="https://www.facebook.com/prilienttechnologies" target="blank"><i class="fa fa-facebook"></i></a>
-                 <a href="https://twitter.com/prilientl?lang=en" target="blank"><i class="fa fa-twitter"></i></a>
-                 <a href="https://www.instagram.com/prilient_technologies/" target="blank"><i class="fa fa-instagram"></i></a>
-                 <a href="https://www.linkedin.com/company/prilient-technologies-pvt-ltd/" target="blank"><i class="fa fa-linkedin"></i></a>
-                 <a href="https://www.youtube.com/@prilienthr1143" target="blank"><i class="fa fa-youtube"></i></a>
-                 <a href="https://in.pinterest.com/prilient/" target="blank"><i class="fa fa-pinterest-p"></i></a>
+                 <a href="{{FACEBOOK}}" target="blank"><i class="fa fa-facebook"></i></a>
+                 <a href="{{TWITTER}}" target="blank"><i class="fa fa-twitter"></i></a>
+                 <a href="{{INSTAGRAM}}" target="blank"><i class="fa fa-instagram"></i></a>
+                 <a href="{{LINKEDIN}}" target="blank"><i class="fa fa-linkedin"></i></a>
              </div>
          </div>
      </div>
