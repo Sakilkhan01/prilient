@@ -35,7 +35,7 @@
                      <ul class="footer-address-list ftr-details">
                         <li>
                            <span><i class="fa fa-envelope"></i></span>
-                           <p>Email <a href="#"><span class="">{{EMAIL_SITE}}</span></a></p>
+                           <p>Email <a href="mailto:{{EMAIL_SITE}}"><span class="">{{EMAIL_SITE}}</span></a></p>
                         </li>
                         <li>
                            <span><i class="fa fa-phone"></i></span>
