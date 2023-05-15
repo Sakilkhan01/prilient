@@ -47,7 +47,7 @@
              <div class="media mt15">
                  <div class="icondive"><img  loading="lazy" src="{{ url('public/assets/images/icons/mail.svg') }}" alt="icon"></div>
                  <div class="media-body getintouchinfo">
-                     <a href="mailto:info@prilient.com"><span>info@prilient.com</span>
+                     <a href="mailto:{{EMAIL_SITE}}"><span>{{EMAIL_SITE}}</span>
                         <span>Online Support</span></a>
                  </div>
              </div>
