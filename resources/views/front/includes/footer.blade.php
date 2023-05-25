@@ -55,10 +55,10 @@
                   <div class="col-lg-2 col-sm-6 text-center text-lg-left">
                      <h5>Our Services</h5>
                      <ul class="footer-address-list link-hover">
-                        <li><a href="{{ url('Analytics_and_BI/big-data')}}">Big Data </a></li>
-                        <li><a href="{{ url('Analytics_and_BI/modern-data-warehouses')}}">Modern Data Warehouse</a></li>
-                        <li><a href="{{ url('NextGen/AI-&-ML-development') }}">AI & ML Development</a></li>
-                        <li><a href="{{ url('blockchain_development/NFT-development') }}">NFT</a></li> 
+                        <li><a href="{{url('app_development')}}">Mobile App Development</a></li>
+                        <li><a href="{{ url('product-design') }}">Product Design</a></li>
+                        <li><a href="{{ url('NextGen') }}">Next-Gen Technologies</a></li>
+                        <li><a href="{{ url('frontend_development') }}">Front-end Development</a></li>
                         <li><a href="{{ url('DevOps') }}">Devops</a></li>
                         <li><a href="{{ url('cyber_security') }}">Cyber Security</a></li>
                         <li><a href="{{ url('web_development') }}">Web Development</a></li>

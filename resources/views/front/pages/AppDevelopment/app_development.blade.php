@@ -42,7 +42,7 @@
 <br><span style="font-weight: 600;">Tailored to Your Business Needs</span></h2>
             
              <p>The world is changing at a rapid pace and technology is playing a significant role in that change. Our clients are seeking to stay ahead of their competition by harnessing the power of mobile applications. Whether you need an app for your business or want to build one for your customers, we can help you reach new heights with our team of experienced developers.</p>
-             <p>In order to make your business work on mobile, our experts will create a mobile app tailored to your company’s needs. The application will be able to provide users with all of your company’s information, updates, and more right from their smartphones or tablets. With WeFixTech Solutions' App Development Services, we'll help you achieve a unique identity in its market while providing easy access to all of your data.</p>
+             <p>In order to make your business work on mobile, our experts will create a mobile app tailored to your company’s needs. The application will be able to provide users with all of your company’s information, updates, and more right from their smartphones or tablets.</p>
           </div>
       </div>
       </div>
