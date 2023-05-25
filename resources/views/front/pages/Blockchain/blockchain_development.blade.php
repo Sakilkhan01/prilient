@@ -46,7 +46,7 @@ border-radius: 36px 36px 0px 0px;
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                   <div class="col-lg-5 col-12 mt-4 mb-5">
-                        
+                        <img alt="blockchain" src="{{ asset('public/assets/images/banner/blockchain.png') }}">
                   </div>
             </div>
          </div>

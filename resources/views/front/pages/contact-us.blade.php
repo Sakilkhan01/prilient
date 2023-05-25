@@ -78,7 +78,7 @@
             <div class="col-lg-12 col-12 mt-2">
                <div class="form-group">
                 <label for="InputName">Message <span class="text-danger">*</span></label>
-                <textarea class="form-control" name="description" rows="10" placeholder="Tell us about your project"  value=""></textarea>
+                <textarea class="form-control textarea_msg" name="description"  placeholder="Tell us about your project"  value=""></textarea>
               </div>
             </div>
          </div>

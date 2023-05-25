@@ -42,8 +42,8 @@ border-radius: 36px 36px 0px 0px;
                         <p class="mt-3">Move ahead from the competition by offering and deploying next-gen technology to the customer</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
-                  <div class="col-lg-5 col-12 mt-4 mb-5">
-                        
+                  <div class="col-lg-5 col-12 mt-4">
+                        <img alt="NEXT-GEN" src="{{ asset('public/assets/images/banner/next-gen.png') }}">
                   </div>
             </div>
          </div>

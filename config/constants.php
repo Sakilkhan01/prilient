@@ -4,6 +4,6 @@ define('ADDRESS_INDIA', 'F-16, 1st Floor, Gautam Marg, Vaishali Nagar, Jaipur(Ra
 
 define('EMAIL_SITE', 'info@prilient.com');
 define('FACEBOOK', 'https://www.facebook.com/prilienttechnologies');
-define('LINKEDIN', 'https://www.linkedin.com/company/42868762/admin/');
-define('TWITTER', 'https://twitter.com/home');
+define('LINKEDIN', 'https://www.linkedin.com/company/prilient-technologies-pvt-ltd/');
+define('TWITTER', 'https://twitter.com/PrilientL');
 define('INSTAGRAM', 'https://www.instagram.com/prilient_technologies/');

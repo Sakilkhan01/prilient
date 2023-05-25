@@ -45,8 +45,8 @@ border-radius: 36px 36px 0px 0px;
                         <p class="mt-3">The cloud offers your business a wide range of benefits, from cost savings and increased security to scalability and flexibility.</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
-                  <div class="col-lg-5 col-12 mt-4 mb-5">
-                        
+                  <div class="col-lg-5 col-12 mt-4">
+                        <img alt="cloud stratery" src="{{ asset('public/assets/images/banner/cloud.png') }}">
                   </div>
             </div>
          </div>

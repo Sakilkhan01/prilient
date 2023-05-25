@@ -66,7 +66,7 @@
                      </ul>
                   </div>
                   <div class="col-lg-2 col-sm-6 text-center text-lg-left">
-                     <h5>Useful Links</h5>
+                     <h5>Navigation</h5>
                      <ul class="footer-address-list link-hover">
                         <li><a href="{{ url('/') }}">Home</a></li>
                         <li><a href="{{ url('about-us') }}">About Us</a></li>
