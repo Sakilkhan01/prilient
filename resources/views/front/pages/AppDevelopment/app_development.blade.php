@@ -34,7 +34,7 @@
     <div class="container pb-5">
       <div class="row">
       <div class="col-lg-5 col-12 text-center mt-5">
-            <img alt="Mobile App" src="{{ asset('public/assets/services/mobile-app.png') }}">
+            <img alt="Mobile App" style="max-width:75%" src="{{ asset('public/assets/services/mobile-app.png') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">
