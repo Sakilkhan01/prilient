@@ -27,8 +27,8 @@
                         <p>Wireframing / Product Prototyping / Product Mockup</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
-                  <div class="col-lg-6 col-12 mt-4">
-                        <img alt="ui/ux animation" src="{{ asset('public/assets/images/banner/ui-ux-animation.png') }}">
+                  <div class="col-lg-6 col-12 mb-5">
+                        <img alt="ui/ux animation" src="{{ asset('public/assets/images/banner/ui-ux-animation.gif') }}">
                   </div>
             </div>
          </div>

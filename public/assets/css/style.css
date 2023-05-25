@@ -1035,7 +1035,7 @@ html .mb10 {
 }
 .copyright {
     text-align: center;
-    color: #6a6a8e;
+    color: #fff;
 }
 .link-hover a {
     color: #6a6a8e;
@@ -2900,4 +2900,8 @@ body.hc-nav-open {
       font-size: 16px;
       line-height: 1.5;
       resize: none; /* disable resizing */
+}
+
+.copyright_bg{
+   background: #004998;
 }

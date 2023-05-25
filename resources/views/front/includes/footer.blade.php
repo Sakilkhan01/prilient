@@ -29,6 +29,12 @@
                      <a class="navbar-brand mt30 mb25 f-white-logo" href="#"> <img src="{{ url('public/assets/images/white-logo.png') }}" alt="Logo" /></a>
                      <p>Prilient is a technology and development company dedicated to creating cutting-edge products for businesses. </p>
                      <a href="{{ url('contact-us') }}" class="btn-main bg-btn3 lnk mt20">Become Partner <i class="fa fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                     
+                     <h5 class="mt-4 mb-0">Find us on</h5>
+                     <a href="{{FACEBOOK}}" target="blank" class="fa_cst fa fa_facebook fa-facebook mt-2"></a>
+                     <a href="{{TWITTER}}" target="blank" class="fa_cst fa fa_twitter fa-twitter mt-2"></a>
+                     <a href="{{LINKEDIN}}" target="blank" class="fa_cst fa fa_linkedin fa-linkedin mt-2"></a>
+                     <a href="{{INSTAGRAM}}" target="blank" class="fa_cst fa fa_instagram fa-instagram mt-2"></a>
                   </div>
                   <div class="col-lg-3 col-sm-6 text-center text-lg-left">
                      <h5>Contact Us</h5>
@@ -46,11 +52,6 @@
                            <p>Address <span> {{ADDRESS_INDIA}}</span></p> 
                         </li>
                      </ul>
-                     <h5 class="my-0">Find us on</h5>
-                     <a href="{{FACEBOOK}}" target="blank" class="fa_cst fa fa_facebook fa-facebook mt-2"></a>
-                     <a href="{{TWITTER}}" target="blank" class="fa_cst fa fa_twitter fa-twitter mt-2"></a>
-                     <a href="{{LINKEDIN}}" target="blank" class="fa_cst fa fa_linkedin fa-linkedin mt-2"></a>
-                     <a href="{{INSTAGRAM}}" target="blank" class="fa_cst fa fa_instagram fa-instagram mt-2"></a>
                   </div>
                   <div class="col-lg-2 col-sm-6 text-center text-lg-left">
                      <h5>Our Services</h5>
@@ -80,17 +81,15 @@
                </div>
             </div>
          </div>
-         <div class="footer-row3">
-            <div class="copyright">
+         <div class="p-3 copyright_bg mt-2">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-12">
                         <div class="footer-">
-                           <p>© Copyright Prilient. All Rights Reserved<a href="prilient.com"></a></p>
+                           <p class="copyright mb-0">© Copyright Prilient. All Rights Reserved<a href="prilient.com"></a></p>
                         </div>
                      </div>
                   </div>
-               </div>
             </div>
          </div>
       </footer>
