@@ -48,7 +48,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container">
       <div class="row">
       <div class="col-lg-4 col-12 text-center mt-5">
-            <img alt="Business-Focused" src="{{ asset('public/assets/services/Group4.png') }}">
+            <img alt="Business-Focused" style="max-width:75%" src="{{ asset('public/assets/services/Group4.png') }}">
       </div>
       <div class="col-lg-8 col-12 mt-5">
           <div class="comman-service-heading">

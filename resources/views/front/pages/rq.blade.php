@@ -1,20 +1,4 @@
 <section class="request-quote-card">
-      <style>
-            .request-quote-card-body .error{
-                  color:red;
-            }
-            .nav-bg-b .custom-nav .nav-list li a.menu-links{
-                  color:#000;
-            }
-            .mtSM30{
-                  margin-top:30px;
-            }
-            @media screen and (max-width: 767px) {
-            .mtSM30{
-                  margin-top:0px;
-            }
-            }
-      </style>
       <div class="container">
             <div class="col-lg-12">
                   <div class="textCard">

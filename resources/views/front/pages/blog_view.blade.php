@@ -86,7 +86,7 @@
               <div id="comment-1" class="comment">
                 @foreach($blog->blog_post as $row)  
                 <div class="d-flex">
-                  <div class="comment-img"><img src="assets/img/blog/comments-1.jpg" alt="comments 1"></div>
+                  <div class="comment-img"><img src="{{ asset('public/assets/img/blog/comments-1.jpg') }}" alt="comments 1"></div>
                   <div>
                     <h5><a href="">{{$row->name}}</a> <!-- <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a> --></h5>
                     <time datetime="2020-01-01">{{ date("d-M-Y ",strtotime($blog->created_at)) }}</time>

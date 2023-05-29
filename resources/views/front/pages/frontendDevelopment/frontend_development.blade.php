@@ -53,7 +53,7 @@ border-radius: 36px 36px 0px 0px;
     <div class="container pb-5">
       <div class="row">
        <div class="col-lg-5 col-12 text-center mt-5">
-            <img alt="Front-end Development Service" src="{{ asset('public/assets/services/Group133.svg') }}">
+            <img alt="Front-end Development Service" style="max-width:70%" src="{{ asset('public/assets/services/Group133.svg') }}">
       </div>
       <div class="col-lg-7 col-12 mt-5">
           <div class="comman-service-heading">

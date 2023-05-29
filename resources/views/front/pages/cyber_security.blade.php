@@ -265,7 +265,7 @@ border-radius: 36px 36px 0px 0px;
                   </div>
             </div>
       </div>
-      <div class="py-5 bottomUp">
+      <div class="pt-5 bottomUp">
             <div class="container">
                   <div class="col-lg-12 text-center">
                         <h2 style="line-height: 58px;">How Prilient<br> <span class="fontWt70 common-color-heading">Cyber Security Services is More Secure</span> ?</h2>
@@ -405,7 +405,7 @@ border-radius: 36px 36px 0px 0px;
             </div>
       </div>
       
-      <div class="pb-5 mt-4 text-center"  style="position: relative;bottom: 90px;">
+      <div class="text-center"  style="position: relative;bottom: 60px;">
             <div class="container">
                   <div class="row justify-content-center align-items-center">
                         <div class="col-lg-8 col-12">
@@ -420,7 +420,7 @@ border-radius: 36px 36px 0px 0px;
       <style type="text/css">
           footer{
             position: relative;
-            bottom: 80px;
+            bottom: 0px;
           }
       </style>
 @endsection

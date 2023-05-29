@@ -10,14 +10,49 @@
       <link rel="canonical" href="https://prilient.com/app_development" />
   @endif
 @stop
-
 @section('content') 
+
+<style>
+      .common-color-heading{
+   background: linear-gradient(90.89deg, #F71F48 9.3%, #003671 90.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:block;
+    line-height:1;
+}
+.fontSize20{
+      font-size:30px;
+      line-height:1;
+      font-weight:400;
+
+}
+.hero-main-rp h1{
+      line-height:55px;
+}
+.common-color-heading:before {
+    content: url('{{ asset('public/assets/images/banner/bulb.gif') }}');
+    height: 30px;
+    width:30px;
+}
+.common-color-heading:after {
+    content: url('{{ asset('public/assets/images/banner/underline.png') }}');
+    height: 30px;
+    background-size: cover;
+    display: block;
+    top: -23px;
+    position: relative;
+}
+
+
+</style>
 <section class="hero-card-web-2 bg-service-banner" style="background-image: url({{ asset('public/assets/images/banner/bg-gray.png') }});">
       <div class="hero-main-rp container-fluid">
          <div class="container">
             <div class="row">
                   <div class="col-lg-7 col-12 text-lg-left text-center">
-                        <img alt="We Bring Your Idea to Life" class="img-fluid" src="{{ asset('public/assets/services/WeBringYourIdeatoLife.png') }}">
+                        <h1><span class="fontSize20">We <b>Bring</b> Your</span>
+                        <span class="fontWt50 common-color-heading">Idea to Life</span></h1>
+                        <!-- <img alt="" class="img-fluid" src="{{ asset('public/assets/services/WeBringYourIdeatoLife.png') }}"> -->
                         <p>Trust is of paramount importance when seeking assistance in app development. Unlike many competing agencies, we have years of experience in programming and our experts know how to work with a variety of different business models and demographics to provide you with an end product that exceeds your expectations.</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                      <!-- <a href="{{ url('contact-us') }}" class="niwax-btn2 play-demo-btn ml-4 mt-3">View Demo <i class="fa fa-play-circle fa-ani"></i></a> -->

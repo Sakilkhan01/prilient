@@ -82,26 +82,26 @@
      <div class="container-fluid m-pad">
          <div class="menu-header">
              <div class="dsk-logo"><a class="nav-brand" href="{{ url('') }}">
-             @if(request()->is('product-design') || 
-                request()->is('product-design/ui-ux-design') || 
-                request()->is('product-design/web-design') ||
-                request()->is('app_development') ||
-                request()->is('web_development') ||
-                request()->is('DevOps') ||
-                request()->is('cyber_security') ||
-                request()->is('product_prototype') ||
-                request()->is('Analytics_and_BI') ||
-                request()->is('NextGen') ||
-                request()->is('frontend_development') ||
-                request()->is('Quality_Engineering') ||
-                request()->is('backend_development') ||
-                request()->is('blockchain_development') ||
-                request()->is('fullStack_development') ||
-                request()->is('cloud_strategy')
-                )    
-                     <img  loading="lazy" width="125" src="{{ url('public/assets/images/black_logo.png') }}" alt="Logo" class="mega-white-logo" />         
+             @if(request()->is('/') || request()->is('blog') || request()->is('blog/*'))    
+                     <img  loading="lazy" src="{{ url('public/assets/images/white-logo.png') }}" alt="Logo" class="mega-white-logo" />        
                 @else
-                     <img  loading="lazy" src="{{ url('public/assets/images/white-logo.png') }}" alt="Logo" class="mega-white-logo" />
+                <style>
+            .request-quote-card-body .error{
+                  color:red;
+            }
+            .nav-bg-b .custom-nav .nav-list li a.menu-links{
+                  color:#000;
+            }
+            .mtSM30{
+                  margin-top:30px;
+            }
+            @media screen and (max-width: 767px) {
+            .mtSM30{
+                  margin-top:0px;
+            }
+            }
+      </style>
+                     <img  loading="lazy" width="125" src="{{ url('public/assets/images/black_logo.png') }}" alt="Logo" class="mega-white-logo" /> 
                 @endif
                      <img  loading="lazy" src="{{ url('public/assets/images/logo.png') }}" alt="Logo" class="mega-darks-logo" />
                  </a>
