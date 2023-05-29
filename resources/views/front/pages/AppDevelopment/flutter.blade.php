@@ -34,7 +34,7 @@
 
 
 </style>
-<section class="hero-card-web-2 bg-service-banner" style="background-image: url({{ asset('public/assets/images/banner/bg-gray.png') }});">
+<section class="hero-card-web-2 bg-service-banner" style="background-image: url({{ asset('public/assets/images/banner/bg-gray.png') }}); padding-top: 107px">
       <div class="hero-main-rp container-fluid">
          <div class="container">
             <div class="row">
@@ -45,8 +45,8 @@
                   <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                   </div>
-                  <div class="col-lg-5 col-12 mt-4">
-                        <img alt="iOS App" src="{{ asset('public/assets/images/subcategory/Group8.png') }}">
+                  <div class="col-lg-5 col-12">
+                  <img style="max-width: 90%" alt="iOS App" class="img-fluid" src="{{ asset('public/assets/images/subcategory/Group8.png') }}">
                 </div>
             </div>
          </div>
@@ -62,7 +62,7 @@
       <div class="col-lg-7 col-12 mt-5 d-flex align-items-center">
           <div class="comman-service-heading">
             <h2><span class="textRed fontWt50">Flutter App </span><span class="textPrim fontWt50"> Development</span></h2>
-             <p>The advancements in mobile devices and improvements in our App development services have dramatically changed how we communicate. Android application developers are experienced in all aspects of Android app development, including native and hybrid applications. A good android application developer needs to keep up with all new technologies, as well as understand older ones and how they can integrate into newer platforms that may not yet be mainstream</p>
+             <p>Flutter  app development is Using only one code base, Flutter enables you to create apps for a variety of platforms, including iOS, Android, web, desktop, and even embedded devices. Being able to write one piece of code for each platform eliminates the need for further development time and work. A skilled Flutter application developer must stay on top of any new technological developments and fully understand how to integrate them into more recent platforms that may not yet be widely used.</p>
           </div>
       </div>
       </div>

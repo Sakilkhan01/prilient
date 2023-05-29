@@ -34,13 +34,13 @@
 
 
 </style>
-<section class="hero-card-web-2 bg-service-banner" style="background-image: url({{ asset('public/assets/images/banner/bg-gray.png') }});">
+<section class="hero-card-web-2 bg-service-banner" style="background-image: url({{ asset('public/assets/images/banner/bg-gray.png') }}); padding-top: 107px;">
       <div class="hero-main-rp container-fluid">
          <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-12 align-items-center d-flex text-lg-left text-center">
                   <div>
-                  <h1><span class="fontWt50 common-color-heading">Android App</span>
+                  <h1 class="mt-0"><span class="fontWt50 common-color-heading">Android App</span>
                   <span class="fontWt40">Development Services</span></h1>
                   <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>

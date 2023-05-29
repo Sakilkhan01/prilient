@@ -40,12 +40,12 @@
             <div class="row">
                 <div class="col-lg-7 col-12 align-items-center d-flex text-lg-left text-center">
                   <div>
-                  <h1><span class="fontWt50 common-color-heading">React Native App<br></span>
+                  <h1 class="mt-0"><span class="fontWt50 common-color-heading">React Native App<br></span>
                   <span class="fontWt40">Development Services</span></h1>
                   <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
                   </div>
-                  <div class="col-lg-5 col-12 mt-4 mb-5">
+                  <div class="col-lg-5 col-12 mb-3">
                         <img alt="iOS App" src="{{ asset('public/assets/images/subcategory/Group11.png') }}">
                 </div>
             </div>
