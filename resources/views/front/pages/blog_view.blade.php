@@ -40,10 +40,8 @@
           <li>{{$blog->title}}</li>
         </ol>
         <h1>{{$blog->title}}</h1>
-
       </div>
     </section><!-- End Breadcrumbs -->
-
     <!-- ======= Blog Single Section ======= -->
     <section id="blog" class="blog">
       <div class="container" data-aos="fade-up">
@@ -80,16 +78,15 @@
 
 
             <div class="blog-comments">
-
-              <h4 class="comments-count">8 Comments</h4>
+              <h4 class="comments-count">{{count($blog->blog_post)}} Comments</h4>
 
               <div id="comment-1" class="comment">
                 @foreach($blog->blog_post as $row)  
                 <div class="d-flex">
-                  <div class="comment-img"><img src="{{ asset('public/assets/img/blog/comments-1.jpg') }}" alt="comments 1"></div>
+                  <div class="comment-img"><img width="10" src="{{ asset('public/assets/images/blog/comment.png') }}" alt="comments 1"></div>
                   <div>
-                    <h5><a href="">{{$row->name}}</a> <!-- <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a> --></h5>
-                    <time datetime="2020-01-01">{{ date("d-M-Y ",strtotime($blog->created_at)) }}</time>
+                    <h5><a href="">{{$row->name}}</a></h5>
+                    <time datetime="2020-01-01">{{ date("d-M-Y ",strtotime($row->created_at)) }}</time>
                     <p>
                       {{$row->comment}}
                     </p>
@@ -102,20 +99,20 @@
               <div class="reply-form">
                 <h4>Leave a Reply</h4>
                 <p>Your email address will not be published. Required fields are marked * </p>
-                <form action="{{ url('blog-post') }}" method="post">
-                  {{csrf_field()}}
+                <form  name="contactUsForm" id="contactUsForm" method="post" action="javascript:void(0)">
+                  @csrf
                   <div class="row">
                     <div class="col-md-6 form-group">
-                      <input type="hidden" value="{{ $blog->id }}" name="blog_id" class="form-control" placeholder="Your Name*">
-                      <input name="name" type="text" value="{{ old('name') }}" class="form-control" placeholder="Your Name*" required>
+                      <input type="hidden" value="{{ $blog->id }}" name="blog_id">
+                      <input type="text" name="name" value="{{ old('name') }}" class="form-control" placeholder="Your Name*" required>
                     </div>
                     <div class="col-md-6 form-group">
-                      <input name="email" type="email" value="{{ old('email') }}" class="form-control" placeholder="Your Email*" required>
+                      <input type="email" name="email" value="{{ old('email') }}" class="form-control" placeholder="Your Email*" required>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col form-group">
-                      <input name="website" type="text" value="{{ old('website') }}" class="form-control" placeholder="Your Website" required>
+                      <input type="text" name="website" value="{{ old('website') }}" class="form-control" placeholder="Your Website" required>
                     </div>
                   </div>
                   <div class="row">
@@ -123,7 +120,7 @@
                       <textarea name="comment" class="form-control" value="{{ old('comment') }}" placeholder="Your Comment*" required>{{old('comment')}}</textarea>
                     </div>
                   </div>
-                  <button type="submit" class="btn btn-primary">Post Comment</button>
+                  <button class="btn btn-primary btnSubmit" type="submit">Post Comment</button>
 
                 </form>
 
@@ -161,6 +158,7 @@
       </div>
     </section><!-- End Blog Single Section -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 
 
 <script type="application/javascript">
@@ -173,7 +171,6 @@ $(document).ready(function(){
     });
 
     function get_recent_post(text=''){
-      
         $.ajax({
             type:"GET",
             url: "{{ url('/search') }}",
@@ -211,9 +208,62 @@ $(document).ready(function(){
                 }
         });
     }
-
-
 });
+
+if ($("#contactUsForm").length > 0) {
+            $("#contactUsForm").validate({
+            rules: {
+              name: {
+                required: true,
+              },
+              email: {
+                required: true,
+                email: true,
+              },  
+              website: {
+                required: true,
+              },  
+              comment: {
+                required: true,
+              },   
+            },
+            messages: {
+              name: {
+                required: "Please enter name",
+              },
+              email: {
+                required: "Please enter valid email",
+                email: "Please enter valid email",
+              },   
+              website: {
+                required: "Please enter message",
+              },   
+              comment: {
+                required: "Please enter message",
+              },
+            },
+            submitHandler: function(form) {
+              $.ajaxSetup({
+                headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+              });
+              $('.btnSubmit').html('Please Wait...');
+              $(".btnSubmit").attr("disabled", true);
+            $.ajax({
+                url: "{{route('store-comment')}}",
+                type: "POST",
+                data: $('#contactUsForm').serialize(),
+                success: function( response ) {
+                  $('.btnSubmit').html('Submit');
+                  $(".btnSubmit"). attr("disabled", false);
+                  document.getElementById("contactUsForm").reset();
+                  location.reload(true); 
+                }
+              });
+            }
+            })
+            }
 </script>
 
 @endsection

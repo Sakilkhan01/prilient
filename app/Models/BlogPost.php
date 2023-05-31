@@ -11,8 +11,12 @@ class BlogPost extends Model
 
     protected $table = 'blog_post';
 
+    protected $fillable = ['blog_id', 'name', 'email', 'website', 'comment'];
+
     public function blog()
     {
         return $this->belongsTo(Blog::class);
     } 
+
+   
 }

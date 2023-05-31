@@ -6,6 +6,7 @@ use App\Http\Requests\BlogPost\CreateBlogPostRequest;
 use App\Models\Blog;
 use Illuminate\Http\Request;
 use App\Models\BlogPost;
+use Validator;
 
 class BlogController extends Controller
 {
@@ -33,21 +34,15 @@ class BlogController extends Controller
         }
     }
     public function store(Request $request)
-    {
-        if(!empty($request->blog_id))
-        {
-            $blog_post = new BlogPost;
-            $blog_post->blog_id = $request->blog_id;
-            $blog_post->name    = $request->name;
-            $blog_post->email   = $request->email;
-            $blog_post->website = $request->website;
-            $blog_post->comment = $request->comment;
-            if($blog_post->save())
-            {
-                return redirect()->back()->with('message', 'Successfully Submit.');
-            }
-
-        }
+    {   
+            $obj = new BlogPost;
+            $obj->blog_id = $request->blog_id;
+            $obj->name    = $request->name;
+            $obj->email   = $request->email;
+            $obj->website = $request->website;
+            $obj->comment = $request->comment;
+            $obj->save();
+            return response()->json(['success'=>'Added new records.']);
     }
 
 

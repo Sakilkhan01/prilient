@@ -42,7 +42,7 @@ Route::post('/subscribe', [HomeController::class, 'Subscribe']);
 
 Route::get('blog', [BlogController::class, 'index'])->name('blog');
 Route::get('blog/{slug}', [BlogController::class, 'view'])->name('view_blog');
-Route::post('blog-post', [BlogController::class, 'store'])->name('store-blog');
+Route::post('comment-post', [BlogController::class, 'store'])->name('store-comment');
 Route::get('search', [BlogController::class, 'search']);
 
 Route::get('contact-us', [ContactController::class, 'index']);
