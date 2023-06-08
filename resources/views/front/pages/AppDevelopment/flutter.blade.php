@@ -91,7 +91,7 @@
                                        <div class="overly-two">
                                           <div class="d-flex align-items-center">
                                                 <div style="width:40px">
-                                                     <img src="{{ asset('public/assets/images/subcategory/Group3.png') }}"> 
+                                                     <img alt="Flutter Group3" src="{{ asset('public/assets/images/subcategory/Group3.png') }}"> 
                                                 </div>
                                                 <div class="ml-2">
                                                       <h5 class="text-left">Reduces Marketing Expenses</h5> 
@@ -107,7 +107,7 @@
                                     <div class="overly-two">
                                           <div class="d-flex align-items-center">
                                                 <div style="width:40px">
-                                                     <img src="{{ asset('public/assets/images/subcategory/Group4.png') }}"> 
+                                                     <img alt="Flutter Group4" src="{{ asset('public/assets/images/subcategory/Group4.png') }}"> 
                                                 </div>
                                                 <div class="ml-2">
                                                       <h5 class="text-left">Improves Your Customer Satisfaction Rate</h5> 
@@ -125,7 +125,7 @@
                                     <div class="overly-two">
                                           <div class="d-flex align-items-center">
                                                 <div style="width:40px">
-                                                     <img src="{{ asset('public/assets/images/subcategory/Group5.png') }}"> 
+                                                     <img alt="Flutter Group5" src="{{ asset('public/assets/images/subcategory/Group5.png') }}"> 
                                                 </div>
                                                 <div class="ml-2">
                                                       <h5 class="text-left">Boost your business growth</h5> 
@@ -141,7 +141,7 @@
                                     <div class="overly-two">
                                           <div class="d-flex align-items-center">
                                                 <div style="width:40px">
-                                                     <img src="{{ asset('public/assets/images/subcategory/Group6.png') }}"> 
+                                                     <img alt="Flutter Group6" src="{{ asset('public/assets/images/subcategory/Group6.png') }}"> 
                                                 </div>
                                                 <div class="ml-2">
                                                       <h5 class="text-left">Set Yourself Apart from the Crowd</h5> 

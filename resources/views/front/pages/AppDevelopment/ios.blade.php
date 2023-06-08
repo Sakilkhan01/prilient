@@ -90,7 +90,7 @@
                                        <div class="overly-two">
                                           <div class="d-flex align-items-center">
                                                 <div style="width:40px">
-                                                     <img src="{{ asset('public/assets/images/subcategory/Group3.png') }}"> 
+                                                     <img alt="IOS Group3" src="{{ asset('public/assets/images/subcategory/Group3.png') }}"> 
                                                 </div>
                                                 <div class="ml-2">
                                                       <h5 class="text-left">Reduces Marketing Expenses</h5> 
@@ -106,7 +106,7 @@
                                     <div class="overly-two">
                                           <div class="d-flex align-items-center">
                                                 <div style="width:40px">
-                                                     <img src="{{ asset('public/assets/images/subcategory/Group4.png') }}"> 
+                                                     <img alt="IOS Group4" src="{{ asset('public/assets/images/subcategory/Group4.png') }}"> 
                                                 </div>
                                                 <div class="ml-2">
                                                       <h5 class="text-left">Improves Your Customer Satisfaction Rate</h5> 
@@ -124,7 +124,7 @@
                                     <div class="overly-two">
                                           <div class="d-flex align-items-center">
                                                 <div style="width:40px">
-                                                     <img src="{{ asset('public/assets/images/subcategory/Group5.png') }}"> 
+                                                     <img alt="IOS Group5" src="{{ asset('public/assets/images/subcategory/Group5.png') }}"> 
                                                 </div>
                                                 <div class="ml-2">
                                                       <h5 class="text-left">Boost your business growth</h5> 
@@ -140,7 +140,7 @@
                                     <div class="overly-two">
                                           <div class="d-flex align-items-center">
                                                 <div style="width:40px">
-                                                     <img src="{{ asset('public/assets/images/subcategory/Group6.png') }}"> 
+                                                     <img alt="IOS Group6" src="{{ asset('public/assets/images/subcategory/Group6.png') }}"> 
                                                 </div>
                                                 <div class="ml-2">
                                                       <h5 class="text-left">Set Yourself Apart from the Crowd</h5> 
@@ -180,7 +180,7 @@
                         <div class="bottom_card_product">
                               <div class="row">
                                    <div class="col-lg-2 col-12 d-flex justify-content-center align-items-center">
-                                         <img alt="Investment" src="{{ asset('public/assets/services/Group77.svg')}}">
+                                         <img alt="IOS Group7" alt="Investment" src="{{ asset('public/assets/services/Group77.svg')}}">
                                    </div> 
                                    <div class="col-lg-10 col-12 borderLeft">
                                          <h5>100% Return on Investment</h5> 
