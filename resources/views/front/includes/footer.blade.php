@@ -86,7 +86,7 @@
                   <div class="row">
                      <div class="col-lg-12">
                         <div class="footer-">
-                           <p class="copyright mb-0">© Copyright Prilient. All Rights Reserved<a href="prilient.com"></a></p>
+                           <p class="copyright mb-0">© Copyright Prilient. All Rights Reserved</p>
                         </div>
                      </div>
                   </div>
