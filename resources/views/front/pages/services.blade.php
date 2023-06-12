@@ -39,13 +39,13 @@
       <div class="col-lg-12">
             <h4>You Can Rely on us For All Your developer-related Needs</h4>
             <p>
-            <b>Subheading:</b> We offer affordable, high-quality website development for businesses of all sizes and needs. We are particularly proud of our top-notch customer service, as we believe that nothing is more important than offering our clients the services they need with the care and attention they deserve. If you’re looking for a way to make your business stand out from its competitors, contact us today!
+            We offer affordable, high-quality website development for businesses of all sizes and needs. We are particularly proud of our top-notch customer service, as we believe that nothing is more important than offering our clients the services they need with the care and attention they deserve. If you’re looking for a way to make your business stand out from its competitors, contact us today!
             </p>
       </div>
       <div class="col-lg-12 mt-4">
             <h4>We are ready to serve your next big idea!</h4>
             <p>
-            <b>Paragraph:</b> Whether you’re in need of a site-wide update or looking to build something from scratch, our team has got you covered. Our development services are designed with your needs in mind and can be tailored to fit your project goals and budget. We take pride in building quality products and have a reputation for meeting tight deadlines. We specialize in game development services but can also develop business applications, enterprise systems, mobile apps, websites, and more. Your unique project is our highest priority. To ensure that your app meets your high expectations, our expert team works closely with you throughout the entire process. 
+            Whether you’re in need of a site-wide update or looking to build something from scratch, our team has got you covered. Our development services are designed with your needs in mind and can be tailored to fit your project goals and budget. We take pride in building quality products and have a reputation for meeting tight deadlines. We specialize in game development services but can also develop business applications, enterprise systems, mobile apps, websites, and more. Your unique project is our highest priority. To ensure that your app meets your high expectations, our expert team works closely with you throughout the entire process. 
             </p>
       </div>
       <div class="col-lg-12 mt-4">
