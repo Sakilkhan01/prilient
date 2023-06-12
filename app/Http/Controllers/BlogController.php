@@ -7,7 +7,7 @@ use App\Models\Blog;
 use Illuminate\Http\Request;
 use App\Models\BlogPost;
 use Validator;
-
+use App;
 class BlogController extends Controller
 {
     
@@ -29,7 +29,7 @@ class BlogController extends Controller
             }
             else
             {
-                return redirect('/');
+                App::abort(404);
             }
         }
     }
