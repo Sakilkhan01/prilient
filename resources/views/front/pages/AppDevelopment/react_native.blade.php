@@ -1,7 +1,7 @@
 @extends('front.layouts.app')
 @section('title', "React Native App Development")
 @section('meta_keywords', "React Native App Development")
-@section('meta_description', " React Native App Development is a framework that lets developers build native mobile apps. It enables you to build an application for multiple platforms while using the same codebase.")
+@section('meta_description', "React Native is a framework that lets developers build mobile apps. It enables you to build an application for multiple platforms while using the same codebase.")
 
 @section('link')
 @if (Session::has('ifWww'))
