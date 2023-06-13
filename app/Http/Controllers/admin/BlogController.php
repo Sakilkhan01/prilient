@@ -57,7 +57,7 @@ class BlogController extends Controller
         $blog->meta_description = $request->meta_description;
         $blog->image            = $profileImage;
         $blog->status           = $request->status;
-        $blog->service_link     = $request->service_link;
+        // $blog->service_link     = $request->service_link;
         $blog->description      = $request->description;
         $blog->short_description= $request->short_description;
         $blog->slug             = $slug;
@@ -135,7 +135,7 @@ class BlogController extends Controller
                 $blog->date        = $date;
                 $blog->image       = (!empty($profileImage)) ? $profileImage : $blog->image;
                 $blog->status      = $request->status;
-                $blog->service_link      = $request->service_link;
+                // $blog->service_link      = $request->service_link;
                 $blog->description = $request->description;
                 $blog->short_description= $request->short_description;
                 $blog->slug        = $slug;

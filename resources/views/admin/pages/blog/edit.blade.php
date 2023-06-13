@@ -63,10 +63,10 @@
                   </select>
                 </div>
 
-                <div class="form-group {{ $errors->has('service_link') ? ' has-error' : '' }}">
+                <!-- <div class="form-group {{ $errors->has('service_link') ? ' has-error' : '' }}">
                   <label>Service link</label>
                   <input type="text" class="form-control" placeholder="Service link" name="service_link" value="{{ old('service_link',$blog->service_link) }}">
-                </div>
+                </div> -->
 
                 <div class="form-group {{ $errors->has('short_description') ? ' has-error' : '' }}">
                   <label>Short Description</label><strong class="error">*</strong>
