@@ -12,12 +12,21 @@
 @stop
 
 @section('content') 
+<style>
+      .common-color-heading{
+      background: linear-gradient(90.21deg, #024A99 13.01%, #E43C5C 65.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:block;
+    line-height:1;
+} 
+</style>
 <section class="hero-card-web-2 bg-service-banner">
       <div class="hero-main-rp container-fluid">
          <div class="container">
             <div class="row">
                   <div class="col-lg-7 col-12 text-lg-left text-center">
-                        <h1 class="">Product Design</h1>
+                        <h1 class="common-color-heading">Product Design</h1>
                         <p>Our designers utilize their mastery to make products that are aesthetically pleasing, yet in addition functional and easy to understand.</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>

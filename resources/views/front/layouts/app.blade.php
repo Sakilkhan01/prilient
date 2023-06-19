@@ -16,7 +16,7 @@
       <link href="{{ URL::to('public/assets/images/favicon.png') }}" rel="icon">
       <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/bootstrap.min.css') }}?{{ rand() }}" />
       <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/plugin.min.css') }}?{{ rand() }}" />
-      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" />
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" defer />
       <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/style.css') }}?{{ rand() }}" />
       <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/responsive.css') }}?{{ rand() }}" />
       <link rel='stylesheet' type='text/css' href="{{ URL::to('public/assets/css/darkmode.css') }}?{{ rand() }}" />

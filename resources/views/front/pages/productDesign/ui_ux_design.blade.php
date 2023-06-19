@@ -17,13 +17,20 @@
     max-width: 100%;
     height: auto;
   }
+      .common-color-heading{
+      background: linear-gradient(90.21deg, #024A99 13.01%, #E43C5C 65.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:block;
+    line-height:1;
+} 
 </style>
 <section class="hero-card-web-2 bg-service-banner">
       <div class="hero-main-rp container-fluid">
          <div class="container">
             <div class="row">
                   <div class="col-lg-6 col-12 text-lg-left text-center">
-                        <h1 class="">UI/UX Design</h1>
+                        <h1 class="common-color-heading">UI/UX Design</h1>
                         <p>UI and UX design are frequently used interchangeably. A successful user experience will persuade people to stick with a brand or product, which is the goal of UI/UX design.</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeIn;">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>
