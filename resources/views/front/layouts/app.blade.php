@@ -52,6 +52,10 @@
             required: true,
             email: true,
          },
+         phone: {
+            required: true,
+            maxlength:10
+         },
          message: {
             required: true,
          },   
@@ -63,6 +67,10 @@
          email: {
             required: "Please enter valid email",
             email: "Please enter valid email",
+         },
+         phone: {
+            required: "Please enter phone number",
+            maxlength: "Please enter max 10 digit",
          },  
          message: {
             required: "Please enter message",
@@ -104,6 +112,10 @@
             required: true,
             email: true,
          },
+         phone: {
+            required: true,
+            maxlength:10
+         },
          message: {
             required: true,
          },   
@@ -115,6 +127,10 @@
          email: {
             required: "Please enter valid email",
             email: "Please enter valid email",
+         }, 
+         phone: {
+            required: "Please enter phone number",
+            maxlength: "Please enter max 10 digit",
          },  
          message: {
             required: "Please enter message",

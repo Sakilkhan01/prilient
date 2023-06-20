@@ -503,6 +503,7 @@
                <div class="col-lg-12">
                   <div class="owl-carousel testimonial-card-a pl25">
                      <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>Working with Prilient has been a positive experience. They were able to respond to the project's quick requirements and changes by making themselves available for daily standups.</p>
                         </div>
@@ -514,7 +515,9 @@
                            </div>
                         </div>
                      </div>
+                     </div>
                      <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>Prilient has been a pleasure to work with and has consistently delivered on their promises. I hope to enroll myself with them in the coming future. It was a nice experience to share our work with this developer. It comes highly recommended. As usual, fantastic work. Fantastic Business Partners. It is the best software development company around.</p>
                         </div>
@@ -526,7 +529,9 @@
                            </div>
                         </div>
                      </div>
+                     </div>
                      <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>It was a once-in-a-lifetime opportunity. This is a very professional group. Work of outstanding quality. Communication was excellent. We will surely continue to collaborate with this outstanding web development company on future projects.</p>
                         </div>
@@ -538,7 +543,9 @@
                            </div>
                         </div>
                      </div>
+                     </div>
                      <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>A truly exceptional service provider. Available, prompt, and precise. Always willing to take charge and make things right. Count yourself lucky if you can acquire this group.</p>
                         </div>
@@ -550,7 +557,9 @@
                            </div>
                         </div>
                      </div>
+                     </div>
                      <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>It's been a pleasure working with Prilient. They were really receptive to the adjustments. They thoroughly considered our needs and delivered on time and on budget! Working with Prilient was the greatest because they were available all through the project.</p>
                         </div>
@@ -562,7 +571,9 @@
                            </div>
                         </div>
                      </div>
+                     </div>
                     <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>Prilient Infotech was always reliable in terms of resolving problems in a timely manner &amp; can be called the topmost custom software development company in town. They have a lot of experienced engineers and developers, and Shalini is a great manager who always gets our requirements right. We will engage them again for future projects without a doubt.</p>
                         </div>
@@ -574,7 +585,9 @@
                            </div>
                         </div>
                      </div>
+                     </div>
                      <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>Excellent communication and knowledgeble about the subjects devliverd on. Will use again and highly recommend.</p>
                         </div>
@@ -587,7 +600,9 @@
                            </div>
                         </div>
                      </div>
+                     </div>
                      <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>Exceptional customer service, a quick reaction time, and most importantly, a flexible answer to our needs. The job was done flawlessly and to  our  full satisfaction. We'd be delighted to work with Prilient again.</p>
                         </div>
@@ -600,7 +615,9 @@
                            </div>
                         </div>
                      </div>
+                     </div>
                      <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>Great to work with! Great communication and very professional. Great quality to work. Will hire again.</p>
                         </div>
@@ -613,7 +630,9 @@
                            </div>
                         </div>
                      </div>
+                     </div>
                      <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>Excellent work.</p>
                         </div>
@@ -626,7 +645,9 @@
                            </div>
                         </div>
                      </div>
+                     </div>
                      <div class="testimonial-card">
+						<div class="aticle-box">
                         <div class="t-text">
                            <p>Best experience.</p>
                         </div>
@@ -638,6 +659,7 @@
                               </div>
                            </div>
                         </div>
+                     </div>
                      </div>
                   </div>
                </div>

@@ -23,12 +23,27 @@
                         </div>
                         <div class="col-lg-3 col-12">
                         <div class="form-group">
+                        <label for="exampleInputName">Phone No. :</label>
+                           <div class="d-flex">
+                              <div>
+                                    <select id="phone_code" class="form-control countryCode" name="phone_code">
+                                       <option value="+91">+91</option>
+                                    </select>
+                              </div>
+                              <div>
+                                    <input type="number" class="form-control ml-2 phone_" id="phone" name="phone" placeholder="Enter Phone Number">
+                              </div>
+                           </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                        <div class="form-group">
                               <label for="exampleInputName">Message:</label>
                               <input type="text" class="form-control" id="message" name="message" placeholder="Description">
                         </div>
                         </div>
-                        <div class="col-lg-3 col-12 mtSM30">
-                              <button type="submit" class="btn">SUBMIT</button>
+                        <div class="rq_btn">
+                              <button type="submit" class="btn submit">SUBMIT</button>
                         </div>
                   </div>
                   </form>

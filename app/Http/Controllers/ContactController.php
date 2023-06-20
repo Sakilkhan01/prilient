@@ -85,6 +85,7 @@ class ContactController extends Controller
             'name'         => $request->name,
             'email'        => $request->email,
             'message'      => $request->message,
+            'phone_number' => $request->phone,
             'subject'      => "Request a Quote",
             'mail_subject'      => "Request a Quote",
         );

@@ -14,10 +14,13 @@
                 @csrf
                 <div class="row">
                      <div class="form-group col-sm-12 mb-3">
-                         <input type="text" class="mb-0" id="name" name="name" placeholder="Enter name">
+                         <input type="text" class="mb-0" id="name" name="name" placeholder="Please enter name">
                      </div>
                      <div class="form-group col-sm-12 mb-3">
-                         <input type="email" class="mb-0" id="email" name="email" placeholder="Enter email">
+                         <input type="email" class="mb-0" id="email" name="email" placeholder="Please enter email">
+                     </div>
+                     <div class="form-group col-sm-12 mb-3">
+                         <input type="number" class="mb-0" id="phone" name="phone" placeholder="Please enter phone number">
                      </div>
                 </div>
                  <div class="form-group mb-3">

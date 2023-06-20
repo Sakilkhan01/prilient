@@ -228,7 +228,7 @@ a[x-apple-data-detectors='true'] {
   <tr>
     <td class="v-text-align" style="padding-right: 0px;padding-left: 0px;" align="center">
       
-      <img align="center" border="0" src="https://prilient.com/frontent/images/prilient.png" alt="Logo" title="Logo" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 28%;max-width: 156.8px;" width="156.8"/>
+      <img align="center" border="0" src="{{ asset('public/frontent/images/prilient.png') }}" alt="Logo" title="Logo" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 28%;max-width: 156.8px;" width="156.8"/>
       
     </td>
   </tr>
@@ -297,6 +297,7 @@ a[x-apple-data-detectors='true'] {
                 
                 <p>Name    :- <?php echo $user_list['name']; ?> </p>
                 <p>Email   :- <?php echo $user_list['email']; ?> </p>
+                <p>Phone no   :- <?php echo $user_list['phone_number']; ?> </p>
                 <p>Subject :- <?php echo $user_list['subject']; ?> </p>
                 <p>Message :- <?php echo $user_list['message']; ?> </p><br>
                 <p>Regards<br> Prilient Information Technologies Pvt LTD</p>
