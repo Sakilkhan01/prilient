@@ -38,7 +38,8 @@ border-radius: 36px 36px 0px 0px;
          <div class="container">
             <div class="row">
                   <div class="col-lg-7 col-12 text-lg-left text-center">
-                        <h1 class="fontWt30">Your <span class="fontWt50 common-color-heading">Website</span> is Your <span class="fontWt50 common-color-heading">Business Foundation</span></h1>
+                        <h1 class="fontWt50 common-color-heading">Web Development</h1>
+                        <!-- <h1 class="fontWt30">Your <span class="fontWt50 common-color-heading">Website</span> is Your <span class="fontWt50 common-color-heading">Business Foundation</span></h1> -->
                         <p class="mt-3">If you’re you're searching for an accomplished web development team to assist you with rejuvenating your venture, look no farther than Sufficiently Advanced. Our web development services have assisted a large number of organizations with succeeding and we can do it for you as well.</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn mb-5">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                      <!-- <a href="{{ url('contact-us') }}" class="niwax-btn2 play-demo-btn ml-4 mt-3">View Demo <i class="fa fa-play-circle fa-ani"></i></a> -->

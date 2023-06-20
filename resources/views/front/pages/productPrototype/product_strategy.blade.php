@@ -37,7 +37,8 @@ border-radius: 36px 36px 0px 0px;
          <div class="container">
             <div class="row">
                   <div class="col-lg-7 col-12 text-lg-left text-center mb-5">
-                    <h1 class="fontWt30" style="line-height: 58px;">We convert <span class="fontWt50 common-color-heading">your idea</span> into a meaningful <span class="fontWt50 common-color-heading" style="line-height: 50px;">digital product</span></h1>
+                    <h1 class="common-color-heading" >Product Prototype</h1>
+                    <!-- <h1 class="fontWt30" style="line-height: 58px;">We convert <span class="fontWt50 common-color-heading">your idea</span> into a meaningful <span class="fontWt50 common-color-heading" style="line-height: 50px;">digital product</span></h1> -->
                         <p class="mt-3"><strong>Complete Product Strategy and Prototype Service</strong><br> Develop a meaningful, customer-centric, and breakthrough product by getting our product strategy and prototype service</p>
                      <a href="{{ url('contact-us') }}" class="niwax-btn2 get-start-btn wow fadeIn">Get Started <i class="fa fa-chevron-right fa-ani"></i></a>
                   </div>

@@ -20,6 +20,13 @@
     display:block;
     line-height:1;
 }
+.common-color-heading-mobile{
+      background: linear-gradient(90.89deg, #F71F48 9.3%, #003671 90.09%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size:40px !important
+}
+
 .fontSize20{
       font-size:30px;
       line-height:1;
@@ -39,14 +46,14 @@
     content:"";
     position:relative;
 }*/
-.common-color-heading:after {
+/* .common-color-heading:after {
     content: url('{{ asset('public/assets/images/banner/underline.png') }}');
     height: 30px;
     background-size: cover;
     display: block;
     top: -23px;
     position: relative;
-}
+} */
 
 
 </style>
@@ -55,7 +62,8 @@
          <div class="container">
             <div class="row">
                   <div class="col-lg-7 col-12 text-lg-left text-center">
-                        <h1><span class="fontSize20">We <b>Bring</b> Your</span></h1>
+                        <h1 class="common-color-heading-mobile">Mobile App development</h1>
+                        <h1 class="mt-0"><span class="fontSize20">We <b>Bring</b> Your</span></h1>
                         <h1 class="d-flex mt-0"><span class="img_blub"><img alt="bulb" width="100" src="{{ asset('public/assets/images/banner/bulb.gif') }}"></span>
                         <span class="fontWt50 common-color-heading">Idea to Life</span></h1>
                         <!-- <img alt="" class="img-fluid" src="{{ asset('public/assets/services/WeBringYourIdeatoLife.png') }}"> -->
