@@ -800,8 +800,8 @@ html .mb20 {
 .testimonial-card{
     padding: 20px;
 }
-.testimonial-card-a .owl-stage{display: flex;}
-.testimonial-card {
+.testimonial-card-home-a .owl-stage{display: flex;}
+.testimonial-card-home {
     display: flex;
     flex: 1 0 auto;
     height: 100%;

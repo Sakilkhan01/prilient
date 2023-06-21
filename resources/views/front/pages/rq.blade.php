@@ -1,3 +1,4 @@
+@php $showarray = Config::get('country-code'); @endphp
 <section class="request-quote-card">
       <div class="container">
             <div class="col-lg-12">
@@ -27,11 +28,13 @@
                            <div class="d-flex">
                               <div>
                                     <select id="phone_code" class="form-control countryCode" name="phone_code">
-                                       <option value="+91">+91</option>
+                                    @foreach ($showarray as $key => $code)
+                                     <option value="+{{ $key }}" @if($key == "91") selected @endif>+{{ $key }}</option>
+                                    @endforeach
                                     </select>
                               </div>
                               <div>
-                                    <input type="number" class="form-control ml-2 phone_" id="phone" name="phone" placeholder="Enter Phone Number">
+                                    <input type="text" class="form-control ml-2 phone_" id="phone" name="phone" maxlength="10" placeholder="Enter Phone Number">
                               </div>
                            </div>
                         </div>

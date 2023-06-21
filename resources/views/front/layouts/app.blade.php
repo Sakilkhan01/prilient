@@ -54,6 +54,7 @@
          },
          phone: {
             required: true,
+            number:true,
             maxlength:10
          },
          message: {
@@ -71,6 +72,7 @@
          phone: {
             required: "Please enter phone number",
             maxlength: "Please enter max 10 digit",
+            number:"Please enter numbers Only"
          },  
          message: {
             required: "Please enter message",
@@ -114,6 +116,7 @@
          },
          phone: {
             required: true,
+            number:true,
             maxlength:10
          },
          message: {
@@ -131,6 +134,7 @@
          phone: {
             required: "Please enter phone number",
             maxlength: "Please enter max 10 digit",
+            number:"Please enter numbers Only"
          },  
          message: {
             required: "Please enter message",
