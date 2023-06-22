@@ -190,7 +190,7 @@
                         <img  loading="lazy" src="{{ url('public/assets/images/icons/startup.svg') }}" alt="startup" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">3</span><span>+</span>
+                        <span class="counter">{{$ComanyReview->year_in_business}}</span><span>+</span>
                         <p>Year In Business</p>
                      </div>
                   </div>
@@ -201,7 +201,7 @@
                         <img  loading="lazy" src="{{ url('public/assets/images/icons/team.svg') }}" alt="team" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">40</span><span>+</span>
+                        <span class="counter">{{$ComanyReview->team_members}}</span><span>+</span>
                         <p>Team Members</p>
                      </div>
                   </div>
@@ -214,7 +214,7 @@
                         <img  loading="lazy" src="{{ url('public/assets/images/icons/deal.svg') }}" alt="deal" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">50</span><span>+</span>
+                        <span class="counter" id="clients_count">{{$ComanyReview->happy_clients}}</span><span>+</span>
                         <p>Happy Clients</p>
                      </div>
                   </div>
@@ -225,7 +225,7 @@
                         <img  loading="lazy" src="{{ url('public/assets/images/icons/computers.svg') }}" alt="computers" class="img-fluid" />
                      </div>
                      <div class="statnumb counter-number">
-                        <span class="counter">60</span><span>+</span>
+                        <span class="counter">{{$ComanyReview->projects_done}}</span><span>+</span>
                         <p>Projects Done</p>
                      </div>
                   </div>
@@ -499,15 +499,23 @@
                   </div>
                </div>
             </div>
+          
             <div class="row">
                <div class="col-lg-12">
                   <div class="owl-carousel testimonial-card-a testimonial-card-home-a pl25">
                      <div class="testimonial-card testimonial-card-home">
-						<div class="aticle-box">
+						   <div class="aticle-box">
+                        <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                        </div>
                         <div class="t-text">
                            <p>Working with Prilient has been a positive experience. They were able to respond to the project's quick requirements and changes by making themselves available for daily standups.</p>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info v-center">
                                  <h5>Amanta R.</h5>
@@ -518,10 +526,17 @@
                      </div>
                      <div class="testimonial-card testimonial-card-home">
 						<div class="aticle-box">
+                  <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                        </div>
                         <div class="t-text">
                            <p>Prilient has been a pleasure to work with and has consistently delivered on their promises. I hope to enroll myself with them in the coming future. It was a nice experience to share our work with this developer. It comes highly recommended. As usual, fantastic work. Fantastic Business Partners. It is the best software development company around.</p>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Helsinki Braithwaite</h5>
@@ -532,10 +547,17 @@
                      </div>
                      <div class="testimonial-card testimonial-card-home">
 						<div class="aticle-box">
+                  <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                        </div>
                         <div class="t-text">
                            <p>It was a once-in-a-lifetime opportunity. This is a very professional group. Work of outstanding quality. Communication was excellent. We will surely continue to collaborate with this outstanding web development company on future projects.</p>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Luiz Fernandez</h5>
@@ -546,10 +568,17 @@
                      </div>
                      <div class="testimonial-card testimonial-card-home">
 						<div class="aticle-box">
+                  <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                        </div>
                         <div class="t-text">
                            <p>A truly exceptional service provider. Available, prompt, and precise. Always willing to take charge and make things right. Count yourself lucky if you can acquire this group.</p>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Mary Daniels</h5>
@@ -560,10 +589,17 @@
                      </div>
                      <div class="testimonial-card testimonial-card-home">
 						<div class="aticle-box">
+                  <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                        </div>
                         <div class="t-text">
                            <p>It's been a pleasure working with Prilient. They were really receptive to the adjustments. They thoroughly considered our needs and delivered on time and on budget! Working with Prilient was the greatest because they were available all through the project.</p>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Shinzo Markel</h5>
@@ -574,10 +610,17 @@
                      </div>
                     <div class="testimonial-card testimonial-card-home">
 						<div class="aticle-box">
+                  <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                        </div>
                         <div class="t-text">
                            <p>Prilient Infotech was always reliable in terms of resolving problems in a timely manner &amp; can be called the topmost custom software development company in town. They have a lot of experienced engineers and developers, and Shalini is a great manager who always gets our requirements right. We will engage them again for future projects without a doubt.</p>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Mbola Smith</h5>
@@ -588,10 +631,17 @@
                      </div>
                      <div class="testimonial-card testimonial-card-home">
 						<div class="aticle-box">
+                  <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                        </div>
                         <div class="t-text">
                            <p>Excellent communication and knowledgeble about the subjects devliverd on. Will use again and highly recommend.</p>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Realestatefree</h5>
@@ -603,10 +653,17 @@
                      </div>
                      <div class="testimonial-card testimonial-card-home">
 						<div class="aticle-box">
+                  <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                        </div>
                         <div class="t-text">
                            <p>Exceptional customer service, a quick reaction time, and most importantly, a flexible answer to our needs. The job was done flawlessly and to  our  full satisfaction. We'd be delighted to work with Prilient again.</p>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Pracmanag</h5>
@@ -618,10 +675,17 @@
                      </div>
                      <div class="testimonial-card testimonial-card-home">
 						<div class="aticle-box">
+                  <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                        </div>
                         <div class="t-text">
                            <p>Great to work with! Great communication and very professional. Great quality to work. Will hire again.</p>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Levimoroney</h5>
@@ -633,10 +697,17 @@
                      </div>
                      <div class="testimonial-card testimonial-card-home">
 						<div class="aticle-box">
-                        <div class="t-text">
-                           <p>Excellent work.</p>
+                  <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="t-text">
+                           <p>A great online experience is defined by Prilient technology. It stands out in the digital scene and its beautiful design, user-friendly interface, wide array of services, and commitment to accuracy.</p>
+                        </div>
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Dublinweb</h5>
@@ -648,10 +719,17 @@
                      </div>
                      <div class="testimonial-card testimonial-card-home">
 						<div class="aticle-box">
-                        <div class="t-text">
-                           <p>Best experience.</p>
+                  <div class="">
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
+                           <span class="fa fa-star reviw"></span>
                         </div>
-                        <div class="client-thumbs mt30">
+                        <div class="t-text">
+                           <p>Recently, I had the pleasure of utilising the website, and I have to tell that the entire experience was excellent. Navigation was simple thanks to the user interface's simplicity, clarity, and aesthetic appeal. The layout was carefully thought out, and the menus were thoughtfully created, so I had no trouble finding whatever I wanted.</p>
+                        </div>
+                        <div class="client-thumbs mt30 d-flex flex-wrap align-content-end h-100">
                            <div class="media v-center">
                               <div class="media-body user-info">
                                  <h5>Verdzercof</h5>

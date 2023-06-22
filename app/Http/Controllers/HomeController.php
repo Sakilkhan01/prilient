@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Blog;
 use App\Models\Client;
 use App\Models\JobsPost;
+use App\Models\ComanyReview;
 use DB;
 use App\Mail\Subscribe;
 use Mail;
@@ -34,8 +35,9 @@ class HomeController extends Controller
     }
 
     public function home(){
+        $ComanyReview = ComanyReview::find(1);
         $client = Client::where('status', 1)->select('id','name','logo')->get();
-        return view('welcome', compact('client'));
+        return view('welcome', compact('client','ComanyReview'));
     }
 
     public function Career(){
