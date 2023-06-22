@@ -75,4 +75,10 @@ class HomeController extends Controller
         }
     }
 
+    public function aboutUs(){
+        $ComanyReview = ComanyReview::find(1);
+
+        return view('front.pages.about_us', compact('ComanyReview'));
+    }
+
 }

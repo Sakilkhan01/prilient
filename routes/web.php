@@ -38,6 +38,7 @@ Route::get('/', [HomeController::class, 'home']);
 
 Route::get('career', [HomeController::class, 'Career']);
 
+Route::get('/about-us', [HomeController::class, 'aboutUs']);
 Route::post('/subscribe', [HomeController::class, 'Subscribe']);
 
 Route::get('blog', [BlogController::class, 'index'])->name('blog');
@@ -66,8 +67,6 @@ Route::view('product-design/web-design', 'front.pages.productDesign.web_design')
 Route::get('services/product_design-web_design', function () {
     return redirect('/product-design/web-design');
 });
-
-Route::view('about-us', 'front.pages.about_us');
 
 Route::view('app_development', 'front.pages.AppDevelopment.app_development');
 Route::get('mobil_app_development', function () {

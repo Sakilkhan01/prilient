@@ -41,9 +41,11 @@ class ClientCron extends Command
         $data = ComanyReview::find(1);
 
         $happy_clients = (int)$data->happy_clients + 3;
+        $projects_done = (int)$data->projects_done + 2;
 
         $rv = ComanyReview::find(1);
         $rv->happy_clients = $happy_clients;
+        $rv->projects_done = $projects_done;
         $rv->save();
         \Log::info("Cron is working fine!");
     }
