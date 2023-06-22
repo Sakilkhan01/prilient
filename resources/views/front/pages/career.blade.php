@@ -36,7 +36,7 @@
                         <img src="{{ url('public/assets/images/icons/startup.svg') }}" alt="years" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">3</span><span>+</span>
+                        <span class="counter">{{$ComanyReview->year_in_business}}</span><span>+</span>
                         <p>Year In Business</p>
                      </div>
                   </div>
@@ -47,7 +47,7 @@
                         <img src="{{ url('public/assets/images/icons/team.svg') }}" alt="team" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">40</span><span>+</span>
+                        <span class="counter">{{$ComanyReview->team_members}}</span><span>+</span>
                         <p>Team Members</p>
                      </div>
                   </div>
@@ -60,7 +60,7 @@
                         <img src="{{ url('public/assets/images/icons/deal.svg') }}" alt="happy" class="img-fluid" />
                      </div>
                      <div class="statnumb">
-                        <span class="counter">50</span><span>+</span>
+                        <span class="counter">{{$ComanyReview->happy_clients}}</span><span>+</span>
                         <p>Happy Clients</p>
                      </div>
                   </div>
@@ -71,7 +71,7 @@
                         <img src="{{ url('public/assets/images/icons/computers.svg') }}" alt="project" class="img-fluid" />
                      </div>
                      <div class="statnumb counter-number">
-                        <span class="counter">60</span><span>+</span>
+                        <span class="counter">{{$ComanyReview->projects_done}}</span><span>+</span>
                         <p>Projects Done</p>
                      </div>
                   </div>

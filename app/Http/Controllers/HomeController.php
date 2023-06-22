@@ -41,10 +41,11 @@ class HomeController extends Controller
     }
 
     public function Career(){
+        $ComanyReview = ComanyReview::find(1);
         $clients = Client::where('status', 1)->select('name','logo')->get();
         $posts = JobsPost::where('status', 1)->orderBy('id', 'DESC')->get();
 
-        return view('front.pages.career', compact('clients','posts'));
+        return view('front.pages.career', compact('clients','posts','ComanyReview'));
     }
 
     public function Subscribe(Request $request)
