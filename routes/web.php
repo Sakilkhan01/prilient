@@ -12,6 +12,7 @@ use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SitemapXmlController;
 use App\Http\Controllers\DedicatedController;
+use App\Http\Controllers\GuideController;
 
 
 
@@ -45,6 +46,9 @@ Route::get('blog', [BlogController::class, 'index'])->name('blog');
 Route::get('blog/{slug}', [BlogController::class, 'view'])->name('view_blog');
 Route::post('comment-post', [BlogController::class, 'store'])->name('store-comment');
 Route::get('search', [BlogController::class, 'search']);
+
+
+Route::get('guide', [GuideController::class, 'index'])->name('guide');
 
 Route::get('contact-us', [ContactController::class, 'index']);
 Route::post('contact-us/store', [ContactController::class, 'store'])->name('contact_store');

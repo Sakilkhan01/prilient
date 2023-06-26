@@ -309,7 +309,7 @@
                          <a href="{{ route('blog') }}" class="menu-links">Blog</a>
                      </li>
                      <li>
-                         <a href="#" class="menu-links">guide</a>
+                         <a href="" class="menu-links">guide</a>
                      </li>
                      <li>
                          <a href="{{ url('contact-us') }}" class="menu-links">Contact us</a>
@@ -317,8 +317,11 @@
 
                  </ul>
                  <ul class="nav-list right-end-btn">
-                     <li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn-br bg-btn3 btshad-b2 lnk">Request A
-                             Quote <span class="circle"></span></a> </li>
+                 <li class="hidemobile">
+                    <a data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn-br btn-main-csm lnk">Request A Quote
+                        <span class="circle"></span></a> 
+                </li>
+                <li class="hidemobile">
                      <li class=" darkmodeswitch">
                          <div class="switch-wrapper"> <label class="switch" for="niwax"> <input type="checkbox"
                                      id="niwax" /> <span class="slider round"></span> </label> </div>
@@ -518,7 +521,7 @@
                      <a href="{{ route('blog') }}" class="menu-links">Blog</a>
                  </li>
                 <li>
-                    <a href="#" class="menu-links">guide</a>
+                    <a href="" class="menu-links">guide</a>
                 </li>
                  <li>
                      <a href="{{ url('contact-us') }}" class="menu-links">Contact us</a>
