@@ -24,8 +24,6 @@ dl, ol, ul {
     padding:10px 20px
 }
 
-
-  
 .category-tab ul{
     overflow-x: auto;
     white-space: nowrap;
@@ -132,7 +130,7 @@ dl, ol, ul {
 .search-form form {
     background: #fff;
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 5px;
     position: relative;
     border-radius: 31px;
     border: 1px solid #D9D9D9;
@@ -148,21 +146,21 @@ dl, ol, ul {
 .search-form form button {
     position: absolute;
     border: 0;
-    top:7px;
+    top:5px;
+    right:8px;
     background: 0 0;
     font-size: 16px;
     margin: -1px;
     color: #fff;
     transition: .3s;
-    border-radius: 0 4px 4px 0;
     line-height: 0
     border-radius: 38px;
     background: linear-gradient(321deg, #004999 0%, #E43C5C 100%);
     box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     padding: 0;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 
 .search-form form button i {
@@ -290,4 +288,119 @@ dl, ol, ul {
 .blog_add h3{
     color:#fff;
 }   
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.page-item.active .page-link{
+        z-index: 3;
+        color: #fff !important;
+        border-color: #E43C5C !important;
+        border-radius: 50%;
+        padding: 6px 12px;
+        background: #E43C5C;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .page-link{
+        z-index: 3;
+        color: #000 !important;
+        border-radius: 50%;
+        padding: 6px 12px !important;
+        border: 1px solid #D9D9D9;
+        background: #FFF;
+    }
+    .page-item:first-child .page-link,
+    .page-item:last-child .page-link{
+        background: #004999;  
+        border-radius: 50%;
+        color: #fff;
+    }
+    .page-item:first-child .page-link i,
+    .page-item:last-child .page-link i{
+        font-size: 13px;
+        color:#fff;
+    }
+    .pagination li{
+        padding: 3px;
+    }
+    .disabled .page-link{
+        color: #212529 !important;
+        opacity: 0.5 !important;
+    }
+    .d-none{
+        display: none;
+    }
 
+    .slug_txt{
+        color: #9E9E9E;
+        font-size: 18px;
+        font-weight: 500;
+        overflow: hidden;
+    }
+    .back_btn{
+        color: #000;
+        font-size: 23px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .rounded{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .ml10{
+        margin-left: 10px;
+    }
+    .titleText{
+        color: #000;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .reply-form h4{
+        color: #000;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+.reply-form h4{
+    color: #000;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.reply-form input, .reply-form textarea{
+    border-radius: 0;
+    border: 1px solid #A5A5A5;
+    margin-top: 5px;
+}
+
+.reply-form  textarea{
+    height: 120px;
+    resize: none;
+}
+
+.reply-form form input::placeholder,
+.reply-form form textarea::placeholder {
+    color: #A3A3A3;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.reply-form form button {
+    position: absolute;
+    border: 0;
+    top:5px;
+    right:8px;
+    background: 0 0;
+    font-size: 16px;
+    margin: -1px;
+    color: #fff;
+    transition: .3s;
+    line-height: 0;
+    border-radius: 45px;
+    background: linear-gradient(310deg, #004999 0%, #E43C5C 100%);
+    box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.25);
+    padding: 24px 45px;
+    font-weight: 500;
+}

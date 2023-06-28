@@ -10,6 +10,7 @@
 @stop
 @section('content')
 <link href="{{ url('public/frontent/blog/bootstrap/blog.css') }}?{{ rand() }}" type='text/css' rel="stylesheet">
+
 <div class="container">
     <div class="category-tab">
       <span class="btn">Categories</span>
@@ -27,37 +28,39 @@
       </ul>
     </div>
 
-    <div class="row mb-5">
-        <div class="col-lg-8 col-12 col-md-8 py-4 mt-3">
+    <div class="row">
+        <div class="col-lg-8 col-12 col-md-8 pt-4 mt-3">
             <h4>Latest Blogs</h4>
             <div class="row">
-                <div class="col-lg-6 col-12 mt-4">
+              @if(!empty($blog) && $blog->count())
+                @foreach($blog as $row)
+                    <div class="col-lg-6 col-12 mt-4">
                   <div class="blog-card">
                       <div class="inner-card">
                           <div class="img-wrapper"> 
-                            <img src="https://prilient.com/public/upload/blog/62f1fab198c24.jpg" alt="What you should know about Cybersecurity risk assessments"> 
+                            <img src="{{url('public/upload/blog/'.$row->image)}}" alt="{{$row->title}}"> 
                           </div>
                           <div class="p-3">
                             <div class="entry-meta">
                                 <ul class="d-flex justify-content-between">
-                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Sakil</a></li>
-                                  <li class=""><i class="fa fa-user-circle-o text-gray"></i> <a href="" class="text-gray">5530</a></li>
+                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <span class="text-gray"> Prilient</span></li>
+                                  <li class="ml10"><i class="fa fa-user-circle-o text-gray"></i> <span class="text-gray">5530</span></li>
                                 </ul>
                             </div>
                             <div class="content mt-3">
-                                <h4>What you should know about Cybersecurity risk assessments </h4>
-                                <p>Now you understand how vital cybersecurity is for small companies and why they are the most targeted. We also provide cybersecurity solutions . We have an innovative approach, as we offer a single dashboard that lets you manage all your security solutions that are in synergy. </p>
+                                <h4>{{$row->title}}</h4>
+                                <p>{!! $row->short_description !!}</p>
                             </div>
                             <div class="d-flex justify-content-between">
                             <div class="btn-wrapper"> 
-                                <a href="" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
+                                <a href="{{url('blog/'.$row->slug)}}" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
                             </div>
                             <div class="d-flex align-items-center blog-social-icon mt-3"> 
                                 <span>Share Now :</span>
                                 <ul class="d-flex">
-                                  <li><a href=""><i class="text-gray fa fa-linkedin-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-twitter-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-facebook-square"></i></a></li>
+                                  <li><a href="{{LINKEDIN}}"><i class="text-gray fa fa-linkedin-square"></i></a></li>
+                                  <li><a href="{{TWITTER}}"><i class="text-gray fa fa-twitter-square"></i></a></li>
+                                  <li><a href="{{FACEBOOK}}"><i class="text-gray fa fa-facebook-square"></i></a></li>
                                   <li><a href=""><i class="text-gray fa fa-plus-square"></i></a></li>
                                 </ul>
                             </div>
@@ -66,74 +69,49 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12 mt-4">
-                  <div class="blog-card">
-                      <div class="inner-card">
-                          <div class="img-wrapper"> 
-                            <img src="https://prilient.com/public/upload/blog/62f1fb4de9714.jpg" alt="What you should know about Cybersecurity risk assessments"> 
-                          </div>
-                          <div class="p-3">
-                            <div class="entry-meta">
-                                <ul class="d-flex justify-content-between">
-                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Sakil</a></li>
-                                  <li class=""><i class="fa fa-user-circle-o text-gray"></i> <a href="" class="text-gray">5530</a></li>
-                                </ul>
-                            </div>
-                            <div class="content mt-3">
-                                <h4>What you should know about Cybersecurity risk assessments</h4>
-                                <p>Now you understand how vital cybersecurity is for small companies and why they are the most targeted. We also provide cybersecurity solutions . We have an innovative approach, as we offer a single dashboard that lets you manage all your security solutions that are in synergy. </p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                            <div class="btn-wrapper"> 
-                                <a href="" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
-                            </div>
-                            <div class="d-flex align-items-center blog-social-icon mt-3"> 
-                                <span>Share Now :</span>
-                                <ul class="d-flex">
-                                  <li><a href=""><i class="text-gray fa fa-linkedin-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-twitter-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-facebook-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-plus-square"></i></a></li>
-                                </ul>
-                            </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
+                @endforeach
+            @else
+                <tr>
+                    <td colspan="10">There are no data.</td>
+                </tr>
+            @endif
+               
               </div>
 
 
               <!-- popular blog -->
+
+            @if(!empty($popular_post) && $popular_post->count())
             <h4 class="mt-5">Popular Blogs</h4>
             <div class="row">
+                @foreach($popular_post as $row)
                 <div class="col-lg-6 col-12 mt-4 ">
                   <div class="blog-card">
                       <div class="inner-card">
                           <div class="img-wrapper"> 
-                            <img src="https://prilient.com/public/upload/blog/62f1fab198c24.jpg" alt="What you should know about Cybersecurity risk assessments"> 
+                            <img src="{{url('public/upload/blog/'.$row->image)}}" alt="{{$row->title}}"> 
                           </div>
                           <div class="p-3">
                             <div class="entry-meta">
                                 <ul class="d-flex justify-content-between">
-                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Sakil</a></li>
+                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Prilient</a></li>
                                   <li class=""><i class="fa fa-user-circle-o text-gray"></i> <a href="" class="text-gray">5530</a></li>
                                 </ul>
                             </div>
                             <div class="content mt-3">
-                                <h4>What you should know about Cybersecurity risk assessments </h4>
-                                <p>Now you understand how vital cybersecurity is for small companies and why they are the most targeted. We also provide cybersecurity solutions . We have an innovative approach, as we offer a single dashboard that lets you manage all your security solutions that are in synergy. </p>
+                                <h4>{{$row->title}}</h4>
+                                <p>{!! $row->short_description !!}</p>
                             </div>
                             <div class="d-flex justify-content-between">
                             <div class="btn-wrapper"> 
-                                <a href="" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
+                                <a href="{{url('blog/'.$row->slug)}}" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
                             </div>
                             <div class="d-flex align-items-center blog-social-icon mt-3"> 
                                 <span>Share Now :</span>
                                 <ul class="d-flex">
-                                  <li><a href=""><i class="text-gray fa fa-linkedin-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-twitter-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-facebook-square"></i></a></li>
+                                  <li><a href="{{LINKEDIN}}"><i class="text-gray fa fa-linkedin-square"></i></a></li>
+                                  <li><a href="{{TWITTER}}"><i class="text-gray fa fa-twitter-square"></i></a></li>
+                                  <li><a href="{{FACEBOOK}}"><i class="text-gray fa fa-facebook-square"></i></a></li>
                                   <li><a href=""><i class="text-gray fa fa-plus-square"></i></a></li>
                                 </ul>
                             </div>
@@ -142,254 +120,13 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12 mt-4">
-                  <div class="blog-card">
-                      <div class="inner-card">
-                          <div class="img-wrapper"> 
-                            <img src="https://prilient.com/public/upload/blog/62f1fb4de9714.jpg" alt="What you should know about Cybersecurity risk assessments"> 
-                          </div>
-                          <div class="p-3">
-                            <div class="entry-meta">
-                                <ul class="d-flex justify-content-between">
-                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Sakil</a></li>
-                                  <li class=""><i class="fa fa-user-circle-o text-gray"></i> <a href="" class="text-gray">5530</a></li>
-                                </ul>
-                            </div>
-                            <div class="content mt-3">
-                                <h4>What you should know about Cybersecurity risk assessments</h4>
-                                <p>Now you understand how vital cybersecurity is for small companies and why they are the most targeted. We also provide cybersecurity solutions . We have an innovative approach, as we offer a single dashboard that lets you manage all your security solutions that are in synergy. </p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                            <div class="btn-wrapper"> 
-                                <a href="" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
-                            </div>
-                            <div class="d-flex align-items-center blog-social-icon mt-3"> 
-                                <span>Share Now :</span>
-                                <ul class="d-flex">
-                                  <li><a href=""><i class="text-gray fa fa-linkedin-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-twitter-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-facebook-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-plus-square"></i></a></li>
-                                </ul>
-                            </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-12 mt-4">
-                  <div class="blog-card">
-                      <div class="inner-card">
-                          <div class="img-wrapper"> 
-                            <img src="https://prilient.com/public/upload/blog/62f1fb4de9714.jpg" alt="What you should know about Cybersecurity risk assessments"> 
-                          </div>
-                          <div class="p-3">
-                            <div class="entry-meta">
-                                <ul class="d-flex justify-content-between">
-                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Sakil</a></li>
-                                  <li class=""><i class="fa fa-user-circle-o text-gray"></i> <a href="" class="text-gray">5530</a></li>
-                                </ul>
-                            </div>
-                            <div class="content mt-3">
-                                <h4>What you should know about Cybersecurity risk assessments</h4>
-                                <p>Now you understand how vital cybersecurity is for small companies and why they are the most targeted. We also provide cybersecurity solutions . We have an innovative approach, as we offer a single dashboard that lets you manage all your security solutions that are in synergy. </p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                            <div class="btn-wrapper"> 
-                                <a href="" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
-                            </div>
-                            <div class="d-flex align-items-center blog-social-icon mt-3"> 
-                                <span>Share Now :</span>
-                                <ul class="d-flex">
-                                  <li><a href=""><i class="text-gray fa fa-linkedin-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-twitter-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-facebook-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-plus-square"></i></a></li>
-                                </ul>
-                            </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-12 mt-4">
-                  <div class="blog-card">
-                      <div class="inner-card">
-                          <div class="img-wrapper"> 
-                            <img src="https://prilient.com/public/upload/blog/62f1fb4de9714.jpg" alt="What you should know about Cybersecurity risk assessments"> 
-                          </div>
-                          <div class="p-3">
-                            <div class="entry-meta">
-                                <ul class="d-flex justify-content-between">
-                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Sakil</a></li>
-                                  <li class=""><i class="fa fa-user-circle-o text-gray"></i> <a href="" class="text-gray">5530</a></li>
-                                </ul>
-                            </div>
-                            <div class="content mt-3">
-                                <h4>What you should know about Cybersecurity risk assessments</h4>
-                                <p>Now you understand how vital cybersecurity is for small companies and why they are the most targeted. We also provide cybersecurity solutions . We have an innovative approach, as we offer a single dashboard that lets you manage all your security solutions that are in synergy. </p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                            <div class="btn-wrapper"> 
-                                <a href="" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
-                            </div>
-                            <div class="d-flex align-items-center blog-social-icon mt-3"> 
-                                <span>Share Now :</span>
-                                <ul class="d-flex">
-                                  <li><a href=""><i class="text-gray fa fa-linkedin-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-twitter-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-facebook-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-plus-square"></i></a></li>
-                                </ul>
-                            </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-12 mt-4">
-                  <div class="blog-card">
-                      <div class="inner-card">
-                          <div class="img-wrapper"> 
-                            <img src="https://prilient.com/public/upload/blog/62f1fb4de9714.jpg" alt="What you should know about Cybersecurity risk assessments"> 
-                          </div>
-                          <div class="p-3">
-                            <div class="entry-meta">
-                                <ul class="d-flex justify-content-between">
-                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Sakil</a></li>
-                                  <li class=""><i class="fa fa-user-circle-o text-gray"></i> <a href="" class="text-gray">5530</a></li>
-                                </ul>
-                            </div>
-                            <div class="content mt-3">
-                                <h4>What you should know about Cybersecurity risk assessments</h4>
-                                <p>Now you understand how vital cybersecurity is for small companies and why they are the most targeted. We also provide cybersecurity solutions . We have an innovative approach, as we offer a single dashboard that lets you manage all your security solutions that are in synergy. </p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                            <div class="btn-wrapper"> 
-                                <a href="" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
-                            </div>
-                            <div class="d-flex align-items-center blog-social-icon mt-3"> 
-                                <span>Share Now :</span>
-                                <ul class="d-flex">
-                                  <li><a href=""><i class="text-gray fa fa-linkedin-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-twitter-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-facebook-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-plus-square"></i></a></li>
-                                </ul>
-                            </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-12 mt-4">
-                  <div class="blog-card">
-                      <div class="inner-card">
-                          <div class="img-wrapper"> 
-                            <img src="https://prilient.com/public/upload/blog/62f1fb4de9714.jpg" alt="What you should know about Cybersecurity risk assessments"> 
-                          </div>
-                          <div class="p-3">
-                            <div class="entry-meta">
-                                <ul class="d-flex justify-content-between">
-                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Sakil</a></li>
-                                  <li class=""><i class="fa fa-user-circle-o text-gray"></i> <a href="" class="text-gray">5530</a></li>
-                                </ul>
-                            </div>
-                            <div class="content mt-3">
-                                <h4>What you should know about Cybersecurity risk assessments</h4>
-                                <p>Now you understand how vital cybersecurity is for small companies and why they are the most targeted. We also provide cybersecurity solutions . We have an innovative approach, as we offer a single dashboard that lets you manage all your security solutions that are in synergy. </p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                            <div class="btn-wrapper"> 
-                                <a href="" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
-                            </div>
-                            <div class="d-flex align-items-center blog-social-icon mt-3"> 
-                                <span>Share Now :</span>
-                                <ul class="d-flex">
-                                  <li><a href=""><i class="text-gray fa fa-linkedin-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-twitter-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-facebook-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-plus-square"></i></a></li>
-                                </ul>
-                            </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-12 mt-4">
-                  <div class="blog-card">
-                      <div class="inner-card">
-                          <div class="img-wrapper"> 
-                            <img src="https://prilient.com/public/upload/blog/62f1fb4de9714.jpg" alt="What you should know about Cybersecurity risk assessments"> 
-                          </div>
-                          <div class="p-3">
-                            <div class="entry-meta">
-                                <ul class="d-flex justify-content-between">
-                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Sakil</a></li>
-                                  <li class=""><i class="fa fa-user-circle-o text-gray"></i> <a href="" class="text-gray">5530</a></li>
-                                </ul>
-                            </div>
-                            <div class="content mt-3">
-                                <h4>What you should know about Cybersecurity risk assessments</h4>
-                                <p>Now you understand how vital cybersecurity is for small companies and why they are the most targeted. We also provide cybersecurity solutions . We have an innovative approach, as we offer a single dashboard that lets you manage all your security solutions that are in synergy. </p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                            <div class="btn-wrapper"> 
-                                <a href="" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
-                            </div>
-                            <div class="d-flex align-items-center blog-social-icon mt-3"> 
-                                <span>Share Now :</span>
-                                <ul class="d-flex">
-                                  <li><a href=""><i class="text-gray fa fa-linkedin-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-twitter-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-facebook-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-plus-square"></i></a></li>
-                                </ul>
-                            </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-12 mt-4">
-                  <div class="blog-card">
-                      <div class="inner-card">
-                          <div class="img-wrapper"> 
-                            <img src="https://prilient.com/public/upload/blog/62f1fb4de9714.jpg" alt="What you should know about Cybersecurity risk assessments"> 
-                          </div>
-                          <div class="p-3">
-                            <div class="entry-meta">
-                                <ul class="d-flex justify-content-between">
-                                  <li class=""><i class="fa fa-pencil-square text-gray"></i> <a href="" class="text-gray"> Sakil</a></li>
-                                  <li class=""><i class="fa fa-user-circle-o text-gray"></i> <a href="" class="text-gray">5530</a></li>
-                                </ul>
-                            </div>
-                            <div class="content mt-3">
-                                <h4>What you should know about Cybersecurity risk assessments</h4>
-                                <p>Now you understand how vital cybersecurity is for small companies and why they are the most targeted. We also provide cybersecurity solutions . We have an innovative approach, as we offer a single dashboard that lets you manage all your security solutions that are in synergy. </p>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                            <div class="btn-wrapper"> 
-                                <a href="" class="mt-3 lnk">Read More <i class="fa fa-chevron-right fa-icon"></i><i class="fa fa-chevron-right fa-icon ml-0"></i><span class="circle"></span></a>
-                            </div>
-                            <div class="d-flex align-items-center blog-social-icon mt-3"> 
-                                <span>Share Now :</span>
-                                <ul class="d-flex">
-                                  <li><a href=""><i class="text-gray fa fa-linkedin-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-twitter-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-facebook-square"></i></a></li>
-                                  <li><a href=""><i class="text-gray fa fa-plus-square"></i></a></li>
-                                </ul>
-                            </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-
-          </div>
+                @endforeach
+              </div> 
+            @endif
+            <div class="col-lg-12 py-5">
+                {{ $blog->links('vendor.pagination.custom')}}
+            </div>
+        </div>
         <div class="col-lg-4 col-12 col-md-4 py-4">
             <div class="sidebar-item search-form">
               <form method="get" action=""> <input type="text" id="txtSearch" name="txtSearch" placeholder="Search.."> 
@@ -397,7 +134,7 @@
               </form>
             </div>
             <div class="blog_form_callback mt-4 mb-5">
-                <h5>Get A Callback</h5>
+                <h5>Get A Call back</h5>
                 <p>Our representative will contact you soon.</p>
                 <div class="form-group">
                   <label for="name">enter Your Name <span class="text-danger">*</span></label>
@@ -431,36 +168,8 @@
                 </div>
                 <div class="recent-posts">
                   <div class="undeline my-2 mb-3"></div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62fb6ec985666.jpg" alt="Latest Trends in Cybersecurity 2022">
-                    <h4><a href="blog/latest_trends_in_cybersecurity_2022">Latest Trends in Cybersecurity 2022</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62f1fa35b83f3.jpg" alt="What are Cloud Management Services? Know Everything About It.">
-                    <h4><a href="blog/what_are_cloud_management_services__know_everything_about_it_">What are Cloud Management Services? Know Everything About It.</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62f1fa738e7bb.jpg" alt="What is DevOps? Tools and Benefits">
-                    <h4><a href="blog/what_is_devops__tools_and_benefits">What is DevOps? Tools and Benefits</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62f1fab198c24.jpg" alt="What you should know about Cybersecurity risk assessments">
-                    <h4><a href="blog/what_you_should_know_about_cybersecurity_risk_assessments">What you should know about Cybersecurity risk assessments</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62f1faf2b2486.jpg" alt="Best Cybersecurity Solutions for Small Businesses">
-                    <h4><a href="blog/best_cybersecurity_solutions_for_small_businesses">Best Cybersecurity Solutions for Small Businesses</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62f1fb4de9714.jpg" alt="Tips on Implementing Cybersecurity for small Businesses">
-                    <h4><a href="blog/tips_on_implementing_cybersecurity_for_small_businesses">Tips on Implementing Cybersecurity for small Businesses</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
+                  <div class="recent_post"></div>
+                 
                  <div class="read-more-pst text-center pt-3">
                     <a href="">View More...</a>
                  </div>
@@ -481,39 +190,20 @@
                 </div>
                 <div class="recent-posts">
                   <div class="undeline my-2 mb-3"></div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62fb6ec985666.jpg" alt="Latest Trends in Cybersecurity 2022">
-                    <h4><a href="blog/latest_trends_in_cybersecurity_2022">Latest Trends in Cybersecurity 2022</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62f1fa35b83f3.jpg" alt="What are Cloud Management Services? Know Everything About It.">
-                    <h4><a href="blog/what_are_cloud_management_services__know_everything_about_it_">What are Cloud Management Services? Know Everything About It.</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62f1fa738e7bb.jpg" alt="What is DevOps? Tools and Benefits">
-                    <h4><a href="blog/what_is_devops__tools_and_benefits">What is DevOps? Tools and Benefits</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62f1fab198c24.jpg" alt="What you should know about Cybersecurity risk assessments">
-                    <h4><a href="blog/what_you_should_know_about_cybersecurity_risk_assessments">What you should know about Cybersecurity risk assessments</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62f1faf2b2486.jpg" alt="Best Cybersecurity Solutions for Small Businesses">
-                    <h4><a href="blog/best_cybersecurity_solutions_for_small_businesses">Best Cybersecurity Solutions for Small Businesses</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="post-item clearfix">
-                    <img src="public/upload/blog/62f1fb4de9714.jpg" alt="Tips on Implementing Cybersecurity for small Businesses">
-                    <h4><a href="blog/tips_on_implementing_cybersecurity_for_small_businesses">Tips on Implementing Cybersecurity for small Businesses</a></h4>
-                    <span class="time"><i class="text-gray fa fa-clock-o"></i> 22-Mar-2022</span>
-                 </div>
-                 <div class="read-more-pst text-center pt-3">
+                  @if(!empty($popular_post) && $popular_post->count())
+                    @foreach($popular_post as $row)
+                   <div class="post-item clearfix">
+                      <img src="{{url('public/upload/blog/'.$row->image)}}" alt="{{$row->title}}">
+                      <h4><a href="{{url('blog/'.$row->slug)}}">{{$row->title}}</a></h4>
+                      <span class="time"><i class="text-gray fa fa-clock-o"></i> {{ date('j-F-Y', strtotime($row->created_at)) }}</span>
+                   </div>
+                    @endforeach
+                  <div class="read-more-pst text-center pt-3">
                     <a href="">View More...</a>
                  </div>
+                  @else
+                      <p>No data found</p>
+                  @endif
               </div>
             </div>
         </div>
@@ -550,6 +240,59 @@
 .fa-clock-o:before {
   content: "\f017";
 }
+.fa-chevron-left:before {
+  content: "\f053";
+}
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="application/javascript">
+$(document).ready(function(){
+    get_recent_post();
+    $('#txtSearch').on('keyup', function(){
+        var text = $('#txtSearch').val();
+        get_recent_post(text);
+        
+    });
 
+    function get_recent_post(text=''){
+      
+        $.ajax({
+            type:"GET",
+            url: "{{ url('/search') }}",
+            data: {text: text},
+            success: function(data) {
+                var output = '';
+                if(data.length > 0)
+                {
+                    for(var count = 0; count < data.length; count++)
+                {
+                    var d = new Date(data[count].date);
+                    var y = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(d);
+                    var m = new Intl.DateTimeFormat('en', { month: 'short' }).format(d);
+                    var d = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(d);
+                    var date = d+'-'+m+'-'+y;
+
+                    output +='<div class="post-item clearfix">';
+                    output +='<img src="public/upload/blog/'+data[count].image+'" alt="'+data[count].title+'">';
+                    output +='<h4><a href="blog/'+data[count].slug+'">'+data[count].title+'</a></h4>';
+                    output +='<span class="time"><i class="text-gray fa fa-clock-o"></i> '+date+'</span></div>';
+                    $('.read-more-pst').show();
+                }
+                }
+                else
+                {
+                    output += '<div class="post-item clearfix">';
+                    output += '<p>No Recent Post</p>';
+                    output += '</div>';
+                    $('.read-more-pst').hide();
+                }
+                    $('.recent_post').html(output);
+
+                }
+        });
+    }
+
+
+});
+</script>
 @endsection

@@ -6,4 +6,4 @@ define('EMAIL_SITE', 'info@prilient.com');
 define('FACEBOOK', 'https://www.facebook.com/prilienttechnologies');
 define('LINKEDIN', 'https://www.linkedin.com/company/prilient-technologies-pvt-ltd/');
 define('TWITTER', 'https://twitter.com/PrilientL');
-define('INSTAGRAM', 'https://www.instagram.com/prilient_technologies/');
+define('INSTAGRAM', 'https://www.instagram.com/prilient_infotech/?igshid=NGExMmI2YTkyZg%3D%3D');

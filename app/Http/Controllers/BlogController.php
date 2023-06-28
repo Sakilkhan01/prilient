@@ -13,9 +13,10 @@ class BlogController extends Controller
     
     public function index()
     {
-        $blog = blog::where('status', 1)->get();
+        $blog = blog::where('status', 1)->paginate(2);
+        $popular_post = blog::where('status', 1)->limit(8)->orderBy('id', 'DESC')->get();
         
-        return view('front.pages.blog',compact('blog'));
+        return view('front.pages.blog',compact('blog','popular_post'));
     }
     public function view($slug)
     {
@@ -25,7 +26,8 @@ class BlogController extends Controller
             if($blog)
             {
                 $all_blog = Blog::all();
-                return view('front.pages.blog_view',compact('blog','all_blog'));
+                $popular_post = blog::where('status', 1)->limit(8)->orderBy('id', 'DESC')->get();
+                return view('front.pages.blog_view',compact('blog','all_blog','popular_post'));
             }
             else
             {
