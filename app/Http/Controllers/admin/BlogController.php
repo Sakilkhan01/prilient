@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\admin;
 // use App\Http\Requests\Blog\{CreateBlogRequest,UpdateBlogRequest};
 use App\Models\Blog;
+use App\Models\Services;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Validator;
@@ -20,7 +21,8 @@ class BlogController extends Controller
     }
     public function create()
     {
-        return view('admin.pages.blog.form');
+        $services = Services::where("status", 1)->select('id','name')->orderBy('name', 'ASC')->get()->toArray();
+        return view('admin.pages.blog.form',compact('services'));
     } 
     public function store(Request $request)
     {
@@ -34,6 +36,7 @@ class BlogController extends Controller
                 'meta_title'       => 'required',
                 'date'        => 'required',
                 'title'       => 'required|unique:blog',
+                'service' => 'required',
             ];
             $validator = Validator::make($request->all(),$rules);
             if($validator->fails())
@@ -51,6 +54,7 @@ class BlogController extends Controller
 
     	$blog = New Blog;
     	$blog->title            = $request->title;
+        $blog->service            = $request->service;
         $blog->date             = $date;
         $blog->meta_title       = $request->meta_title;
         $blog->meta_keywords    = $request->meta_keywords;
@@ -78,7 +82,8 @@ class BlogController extends Controller
         {
             if($blog = Blog::where('slug',$slug)->first())
             {
-                return view('admin.pages.blog.edit',compact('blog'));
+                $services = Services::where("status", 1)->select('id','name')->orderBy('name', 'ASC')->get()->toArray();
+                return view('admin.pages.blog.edit',compact('blog','services'));
             }
             else
             {
@@ -96,6 +101,7 @@ class BlogController extends Controller
         {
             $rules = [
                 'description' => 'required',
+                'service' => 'required',
                 'short_description' => 'required',
                 'status'      => 'required',
                 'image'       => 'image|mimes:jpeg,png,jpg|max:2048',
@@ -129,6 +135,7 @@ class BlogController extends Controller
                 }
 
                 $blog->title       = $request->title;
+                $blog->service       = $request->service;
                 $blog->meta_title       = $request->meta_title;
                 $blog->meta_keywords    = $request->meta_keywords;
                 $blog->meta_description = $request->meta_description;

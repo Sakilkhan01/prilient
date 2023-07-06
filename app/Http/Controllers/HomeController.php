@@ -50,6 +50,10 @@ class HomeController extends Controller
 
     public function Subscribe(Request $request)
     {
+        if (!$request->isMethod('post')) {
+            return redirect()->back();
+        }
+
         $exit = DB::table('subscriber')->where('email', $request->email)->count();
         if($exit > 0){
             return response()->json(['status' => false, 'message'=> "We're sorry you are already subscribed."]);

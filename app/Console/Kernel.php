@@ -12,8 +12,9 @@ class Kernel extends ConsoleKernel
      *
      * @var array
      */
+
     protected $commands = [
-        Commands\ClientCron::class,
+        \App\Console\Commands\ClientCron::class,
     ];
 
     /**

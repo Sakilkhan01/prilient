@@ -15,16 +15,12 @@
     <div class="category-tab">
       <span class="btn">Categories</span>
       <ul id="" class="scrolling-wrapper flex">
-        <li><a class="active" href="">All</a></li>
-        <li><a class="" href="">Technology</a></li>
-        <li><a class="" href="">Cyber Security</a></li>
-        <li><a class="" href="">Graphic Design</a></li>
-        <li><a class="" href="">Digital Marketing</a></li>
-        <li><a class="" href="">Business</a></li>
-        <li><a class="" href="">Cyber Security</a></li>
-        <li><a class="" href="">Graphic Design</a></li>
-        <li><a class="" href="">Digital Marketing</a></li>
-        <li><a class="" href="">Business</a></li>
+        <li><a class="@if(empty($service)) active @endif" href="{{url('blog').'/'.$page_number}}">All</a></li>
+        @if(!empty($services))
+          @foreach($services as $item)
+            <li><a class="@if($service == $item->id) active @endif" href="{{url('blog').'/'.$page_number.'/'.$item->id}}">{{$item->name}}</a></li>
+         @endforeach
+        @endif
       </ul>
     </div>
 
@@ -71,9 +67,9 @@
                 </div>
                 @endforeach
             @else
-                <tr>
-                    <td colspan="10">There are no data.</td>
-                </tr>
+                <div class="col-lg-12 py-4">
+                    <p>There are no blog found.</p>
+                </div>
             @endif
                
               </div>
@@ -124,7 +120,7 @@
               </div> 
             @endif
             <div class="col-lg-12 py-5">
-                {{ $blog->links('vendor.pagination.custom')}}
+              @include('vendor.pagination.custom')
             </div>
         </div>
         <div class="col-lg-4 col-12 col-md-4 py-4">
@@ -272,9 +268,12 @@ $(document).ready(function(){
                     var d = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(d);
                     var date = d+'-'+m+'-'+y;
 
+                    let base_url = '{{ url("/blog") }}';
+                    let base_img = '{{ url("/") }}';
+
                     output +='<div class="post-item clearfix">';
-                    output +='<img src="public/upload/blog/'+data[count].image+'" alt="'+data[count].title+'">';
-                    output +='<h4><a href="blog/'+data[count].slug+'">'+data[count].title+'</a></h4>';
+                    output +='<img src="'+base_img+'/public/upload/blog/'+data[count].image+'" alt="'+data[count].title+'">';
+                    output +='<h4><a href="'+base_url+'/'+data[count].slug+'">'+data[count].title+'</a></h4>';
                     output +='<span class="time"><i class="text-gray fa fa-clock-o"></i> '+date+'</span></div>';
                     $('.read-more-pst').show();
                 }

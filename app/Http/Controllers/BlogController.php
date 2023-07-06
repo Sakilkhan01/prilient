@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\BlogPost\CreateBlogPostRequest;
 use App\Models\Blog;
+use App\Models\Services;
 use Illuminate\Http\Request;
 use App\Models\BlogPost;
 use Validator;
@@ -13,13 +14,27 @@ class BlogController extends Controller
     
     public function index()
     {
-        $blog = blog::where('status', 1)->paginate(2);
+
+        $page_number = 1;
+        $limit = 2;
+
+        $initial_page = ($page_number-1) * $limit;
+
+        $query = blog::where('status', 1)->limit($limit)->offset($initial_page)->orderBy('id', 'DESC');
+
+        $total_rows = $query->count();
+        $blog =  $query->get();
+
+        $total_pages = ceil ($total_rows / $limit);
+
+        $services = Services::where('status', 1)->orderBy('name', 'ASC')->get();
         $popular_post = blog::where('status', 1)->limit(8)->orderBy('id', 'DESC')->get();
-        
-        return view('front.pages.blog',compact('blog','popular_post'));
+        $service = 0;
+        return view('front.pages.blog',compact('blog','popular_post','total_pages','page_number','services','service','total_rows'));
     }
     public function view($slug)
     {
+
         if(!empty($slug))
         {
             $blog = Blog::where('slug', $slug)->first();
@@ -37,6 +52,9 @@ class BlogController extends Controller
     }
     public function store(Request $request)
     {   
+        if (!$request->isMethod('post')) {
+            App::abort(401);
+        }
             $obj = new BlogPost;
             $obj->blog_id = $request->blog_id;
             $obj->name    = $request->name;
@@ -59,5 +77,35 @@ class BlogController extends Controller
         }
         return response()->json($blog);
         
+    }
+
+    public function pagination($page = null,$service = null){
+        if (!isset ($page) ) {  
+            $page_number = 1;  
+        } else {  
+            $page_number = $page;  
+        }  
+
+        $limit = 2;
+        $initial_page = ($page_number-1) * $limit;
+
+        $query = blog::where('status', 1);
+        if (!empty($service)) {
+            $query->where('service', $service);
+        }
+        $total_rows = $query->count();
+
+
+        $total_pages = ceil ($total_rows / $limit);
+        $query = blog::where('status', 1)->limit($limit)->offset($initial_page)->orderBy('id', 'DESC');
+        if (!empty($service)) {
+            $query->where('service', $service);
+        }
+
+        $blog =  $query->get();
+
+        $services = Services::where('status', 1)->orderBy('name', 'ASC')->get();
+        $popular_post = blog::where('status', 1)->limit(8)->orderBy('id', 'DESC')->get();
+        return view('front.pages.blog',compact('blog','popular_post','services','total_pages','page_number','service'));
     }
 }

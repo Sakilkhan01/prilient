@@ -9,6 +9,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\admin\CareerController;
 use App\Http\Controllers\admin\JobsContoller;
 use App\Http\Controllers\admin\UserController;
+use App\Http\Controllers\admin\ServicesController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SitemapXmlController;
 use App\Http\Controllers\DedicatedController;
@@ -40,11 +41,12 @@ Route::get('/', [HomeController::class, 'home']);
 Route::get('career', [HomeController::class, 'Career']);
 
 Route::get('/about-us', [HomeController::class, 'aboutUs']);
-Route::post('/subscribe', [HomeController::class, 'Subscribe']);
+Route::any('/subscribe', [HomeController::class, 'Subscribe']);
 
-Route::get('blog', [BlogController::class, 'index'])->name('blog');
+Route::any('blog', [BlogController::class, 'index'])->name('blog');
+Route::any('blog/{page}/{service}', [BlogController::class, 'pagination']);
 Route::get('blog/{slug}', [BlogController::class, 'view'])->name('view_blog');
-Route::post('comment-post', [BlogController::class, 'store'])->name('store-comment');
+Route::any('comment-post', [BlogController::class, 'store'])->name('store-comment');
 Route::get('search', [BlogController::class, 'search']);
 
 
@@ -265,6 +267,14 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin','auth'], 'nampspace'
     Route::post('user/update/{user}', [UserController::class, 'update'])->name('users.update');
     Route::get('user/delete/{id}', [UserController::class, 'destroy'])->name('users.destroy');
 
+
+    
+    Route::get('services/list', [ServicesController::class, 'index'])->name('services.index');
+    Route::get('services/create', [ServicesController::class, 'create'])->name('services.create');
+    Route::post('services/store', [ServicesController::class, 'store'])->name('services.store');
+    Route::get('services/edit/{id}', [ServicesController::class, 'edit'])->name('services.edit');
+    Route::post('services/update/{id}', [ServicesController::class, 'update'])->name('services.update');
+    Route::get('services/delete/{id}', [ServicesController::class, 'delete'])->name('services.destroy');
 
 
 

@@ -57,6 +57,19 @@
                     <option value="0" {{ old('status')==0 ? 'selected' : '' }}>Deactive</option>
                   </select>
                 </div>
+                <div class="form-group {{ $errors->has('service') ? ' has-error' : '' }}">
+                  <label>Service</label><strong class="error">*</strong>
+                  <select class="form-control" name="service">
+                    <option value="">--Select Service--</option>
+                    @if(!empty($services))
+                      @foreach($services as $value)
+                      <option value="{{$value['id']}}" {{ old('service')== $value['id'] ? 'selected' : '' }}>{{$value['name']}}</option>
+                      @endforeach
+                    @else
+                    <option>No service found</option>
+                    @endif
+                  </select>
+                </div>
                 <!-- <div class="form-group {{ $errors->has('service_link') ? ' has-error' : '' }}">
                   <label>Service link</label>
                   <input type="text" class="form-control" placeholder="Service link" name="service_link" value="{{ old('service_link') }}">
